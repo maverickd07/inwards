@@ -1,0 +1,3011 @@
+[
+  {
+    "definition": "attribute_floor",
+    "both_strict_wrong": true,
+    "index864": 2,
+    "category": "birthplace_callingcode",
+    "person": "Annet Mahendru",
+    "question": "What is the calling code of the birthplace of Annet Mahendru?",
+    "Q1": "What is the birthplace (country only) of Annet Mahendru?",
+    "Q2": "What is the calling code of Afghanistan?",
+    "z_tilde": "Russia",
+    "z_country": "Russia",
+    "gold_first": [
+      "Afghanistan"
+    ],
+    "gold_final": [
+      "+93"
+    ],
+    "gold_country": "Afghanistan",
+    "context_target": "+7",
+    "direct_target": "+1",
+    "labels": {
+      "context": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_calling_code",
+        "answer_type": "birthplace_callingcode",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      },
+      "direct": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_calling_code",
+        "answer_type": "birthplace_callingcode",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      }
+    },
+    "z_label": {
+      "correct": false,
+      "reason": "different_reference_answer",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "7"
+          ],
+          "implied_countries": [
+            "Russia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "1"
+          ],
+          "implied_countries": [
+            "Canada",
+            "Dominican Republic",
+            "Jamaica",
+            "Puerto Rico",
+            "Trinidad and Tobago",
+            "United States"
+          ],
+          "country_set_size": 6
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "7"
+          ],
+          "implied_countries": [
+            "Russia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "1"
+          ],
+          "implied_countries": [
+            "Canada",
+            "Dominican Republic",
+            "Jamaica",
+            "Puerto Rico",
+            "Trinidad and Tobago",
+            "United States"
+          ],
+          "country_set_size": 6
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "7"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "7"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "7"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "7"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "7"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "7"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "7"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 1
+        }
+      }
+    }
+  },
+  {
+    "definition": "attribute_floor",
+    "both_strict_wrong": true,
+    "index864": 218,
+    "category": "birthplace_capital",
+    "person": "Annet Mahendru",
+    "question": "What is the capital of the birthplace of Annet Mahendru?",
+    "Q1": "What is the birthplace (country only) of Annet Mahendru?",
+    "Q2": "What is the capital of Afghanistan?",
+    "z_tilde": "Russia",
+    "z_country": "Russia",
+    "gold_first": [
+      "Afghanistan"
+    ],
+    "gold_final": [
+      "Kabul"
+    ],
+    "gold_country": "Afghanistan",
+    "context_target": "Moscow",
+    "direct_target": "New Delhi",
+    "labels": {
+      "context": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_known_capital",
+        "answer_type": "birthplace_capital",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      },
+      "direct": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_known_capital",
+        "answer_type": "birthplace_capital",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      }
+    },
+    "z_label": {
+      "correct": false,
+      "reason": "different_reference_answer",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "moscow"
+          ],
+          "implied_countries": [
+            "Russia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "new delhi"
+          ],
+          "implied_countries": [
+            "India"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "moscow"
+          ],
+          "implied_countries": [
+            "Russia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Russia",
+          "target_values": [
+            "new delhi"
+          ],
+          "implied_countries": [
+            "India"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "moscow"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "new delhi"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "moscow"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "new delhi"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "moscow"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "new delhi"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "moscow"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "new delhi"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "moscow"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "new delhi"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "moscow"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Russia",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "moscow"
+          ],
+          "target_values": [
+            "new delhi"
+          ],
+          "saved_q2_n": 2
+        }
+      }
+    }
+  },
+  {
+    "definition": "model_extended",
+    "both_strict_wrong": true,
+    "index864": 614,
+    "category": "birthplace_rounded_lat",
+    "person": "Alek Wek",
+    "question": "What is the (rounded down) latitude of the birthplace of Alek Wek?",
+    "Q1": "What is the birthplace (country only) of Alek Wek?",
+    "Q2": "What is the (rounded down) latitude of South Sudan?",
+    "z_tilde": "South Sudan",
+    "z_country": "South Sudan",
+    "gold_first": [
+      "South Sudan"
+    ],
+    "gold_final": [
+      7
+    ],
+    "gold_country": "South Sudan",
+    "context_target": "4",
+    "direct_target": "10",
+    "labels": {
+      "context": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lat",
+        "reference_policy": "unchanged_dataset_snapshot"
+      },
+      "direct": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lat",
+        "reference_policy": "unchanged_dataset_snapshot"
+      }
+    },
+    "z_label": {
+      "correct": true,
+      "reason": "whole_answer_or_declared_alias",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "South Sudan",
+          "target_values": [
+            "4"
+          ],
+          "implied_countries": [
+            "Colombia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "South Sudan",
+          "target_values": [
+            "10"
+          ],
+          "implied_countries": [
+            "Costa Rica",
+            "Nigeria"
+          ],
+          "country_set_size": 2
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "South Sudan",
+          "target_values": [
+            "4"
+          ],
+          "implied_countries": [
+            "Colombia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "South Sudan",
+          "target_values": [
+            "10"
+          ],
+          "implied_countries": [
+            "Costa Rica",
+            "Nigeria"
+          ],
+          "country_set_size": 2
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "10"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "10"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "10"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "10"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "10"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "South Sudan",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "10"
+          ],
+          "saved_q2_n": 2
+        }
+      }
+    }
+  },
+  {
+    "definition": "model_exp12",
+    "both_strict_wrong": true,
+    "index864": 719,
+    "category": "birthplace_rounded_lng",
+    "person": "Adria Arjona",
+    "question": "What is the (rounded down) longitude of the birthplace of Adria Arjona?",
+    "Q1": "What is the birthplace (country only) of Adria Arjona?",
+    "Q2": "What is the (rounded down) longitude of United States?",
+    "z_tilde": "Dominican Republic",
+    "z_country": "Dominican Republic",
+    "gold_first": [
+      "United States"
+    ],
+    "gold_final": [
+      -97
+    ],
+    "gold_country": "United States",
+    "context_target": "-70",
+    "direct_target": "-75",
+    "labels": {
+      "context": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lng",
+        "reference_policy": "unchanged_dataset_snapshot"
+      },
+      "direct": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lng",
+        "reference_policy": "unchanged_dataset_snapshot"
+      }
+    },
+    "z_label": {
+      "correct": false,
+      "reason": "different_reference_answer",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Dominican Republic",
+          "target_values": [
+            "-70"
+          ],
+          "implied_countries": [
+            "Dominican Republic"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "target_not_in_attribute_table",
+          "z_country": "Dominican Republic",
+          "target_values": [
+            "-75"
+          ],
+          "implied_countries": [],
+          "country_set_size": 0
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Dominican Republic",
+          "target_values": [
+            "-70"
+          ],
+          "implied_countries": [
+            "Dominican Republic"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "target_not_in_attribute_table",
+          "z_country": "Dominican Republic",
+          "target_values": [
+            "-75"
+          ],
+          "implied_countries": [],
+          "country_set_size": 0
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-70"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-75"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-70"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-75"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-70"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-75"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-70"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-75"
+          ],
+          "saved_q2_n": 2
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-70"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-75"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-70"
+          ],
+          "saved_q2_n": 2
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Dominican Republic",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "-70"
+          ],
+          "target_values": [
+            "-75"
+          ],
+          "saved_q2_n": 2
+        }
+      }
+    }
+  },
+  {
+    "definition": "attribute_floor",
+    "both_strict_wrong": true,
+    "index864": 118,
+    "category": "birthplace_callingcode",
+    "person": "Anthony Quinn",
+    "question": "What is the calling code of the birthplace of Anthony Quinn?",
+    "Q1": "What is the birthplace (country only) of Anthony Quinn?",
+    "Q2": "What is the calling code of Mexico?",
+    "z_tilde": "Spain",
+    "z_country": "Spain",
+    "gold_first": [
+      "Mexico"
+    ],
+    "gold_final": [
+      "+52"
+    ],
+    "gold_country": "Mexico",
+    "context_target": "+34",
+    "direct_target": "+354",
+    "labels": {
+      "context": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_calling_code",
+        "answer_type": "birthplace_callingcode",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      },
+      "direct": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_calling_code",
+        "answer_type": "birthplace_callingcode",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      }
+    },
+    "z_label": {
+      "correct": false,
+      "reason": "different_reference_answer",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Spain",
+          "target_values": [
+            "34"
+          ],
+          "implied_countries": [
+            "Spain"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Spain",
+          "target_values": [
+            "354"
+          ],
+          "implied_countries": [
+            "Iceland"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Spain",
+          "target_values": [
+            "34"
+          ],
+          "implied_countries": [
+            "Spain"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Spain",
+          "target_values": [
+            "354"
+          ],
+          "implied_countries": [
+            "Iceland"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "34"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "354"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "34"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "354"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "34"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "354"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "34"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "354"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "34"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "354"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "34"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Spain",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "34"
+          ],
+          "target_values": [
+            "354"
+          ],
+          "saved_q2_n": 5
+        }
+      }
+    }
+  },
+  {
+    "definition": "attribute_floor",
+    "both_strict_wrong": true,
+    "index864": 370,
+    "category": "birthplace_capital",
+    "person": "Benicio Del Toro",
+    "question": "What is the capital of the birthplace of Benicio Del Toro?",
+    "Q1": "What is the birthplace (country only) of Benicio Del Toro?",
+    "Q2": "What is the capital of Puerto Rico?",
+    "z_tilde": "Panama",
+    "z_country": "Panama",
+    "gold_first": [
+      "Puerto Rico"
+    ],
+    "gold_final": [
+      "San Juan"
+    ],
+    "gold_country": "Puerto Rico",
+    "context_target": "Panama City",
+    "direct_target": "San José",
+    "labels": {
+      "context": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_known_capital",
+        "answer_type": "birthplace_capital",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      },
+      "direct": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_known_capital",
+        "answer_type": "birthplace_capital",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      }
+    },
+    "z_label": {
+      "correct": false,
+      "reason": "different_reference_answer",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "panama city"
+          ],
+          "implied_countries": [
+            "Panama"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "san jose"
+          ],
+          "implied_countries": [
+            "Costa Rica"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "panama city"
+          ],
+          "implied_countries": [
+            "Panama"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "san jose"
+          ],
+          "implied_countries": [
+            "Costa Rica"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "panama city"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "san jose"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "panama city"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "san jose"
+          ],
+          "saved_q2_n": 4
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "panama city"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "san jose"
+          ],
+          "saved_q2_n": 4
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "panama city"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "san jose"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "panama city"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "san jose"
+          ],
+          "saved_q2_n": 4
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "panama city"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "panama city"
+          ],
+          "target_values": [
+            "san jose"
+          ],
+          "saved_q2_n": 4
+        }
+      }
+    }
+  },
+  {
+    "definition": "model_exp12",
+    "both_strict_wrong": true,
+    "index864": 466,
+    "category": "birthplace_rounded_lat",
+    "person": "Alex Song",
+    "question": "What is the (rounded down) latitude of the birthplace of Alex Song?",
+    "Q1": "What is the birthplace (country only) of Alex Song?",
+    "Q2": "What is the (rounded down) latitude of Cameroon?",
+    "z_tilde": "Cameroon",
+    "z_country": "Cameroon",
+    "gold_first": [
+      "Cameroon"
+    ],
+    "gold_final": [
+      6
+    ],
+    "gold_country": "Cameroon",
+    "context_target": "4",
+    "direct_target": "1.5",
+    "labels": {
+      "context": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lat",
+        "reference_policy": "unchanged_dataset_snapshot"
+      },
+      "direct": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lat",
+        "reference_policy": "unchanged_dataset_snapshot"
+      }
+    },
+    "z_label": {
+      "correct": true,
+      "reason": "whole_answer_or_declared_alias",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Cameroon",
+          "target_values": [
+            "4"
+          ],
+          "implied_countries": [
+            "Colombia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Cameroon",
+          "target_values": [
+            "1"
+          ],
+          "implied_countries": [
+            "Kenya",
+            "Singapore"
+          ],
+          "country_set_size": 2
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Cameroon",
+          "target_values": [
+            "4"
+          ],
+          "implied_countries": [
+            "Colombia"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Cameroon",
+          "target_values": [
+            "2"
+          ],
+          "implied_countries": [
+            "Malaysia"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 4
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "1"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "2"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "2"
+          ],
+          "saved_q2_n": 4
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "4"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Cameroon",
+            "birthplace_rounded_lat"
+          ],
+          "saved_q2_values": [
+            "4"
+          ],
+          "target_values": [
+            "2"
+          ],
+          "saved_q2_n": 1
+        }
+      }
+    }
+  },
+  {
+    "definition": "model_exp12",
+    "both_strict_wrong": true,
+    "index864": 747,
+    "category": "birthplace_rounded_lng",
+    "person": "Akira Kurosawa",
+    "question": "What is the (rounded down) longitude of the birthplace of Akira Kurosawa?",
+    "Q1": "What is the birthplace (country only) of Akira Kurosawa?",
+    "Q2": "What is the (rounded down) longitude of Japan?",
+    "z_tilde": "Japan",
+    "z_country": "Japan",
+    "gold_first": [
+      "Japan"
+    ],
+    "gold_final": [
+      138
+    ],
+    "gold_country": "Japan",
+    "context_target": "135",
+    "direct_target": "137",
+    "labels": {
+      "context": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lng",
+        "reference_policy": "unchanged_dataset_snapshot"
+      },
+      "direct": {
+        "correct": false,
+        "reason": "frozen_signed_floor_numeric_rule",
+        "needs_review": false,
+        "answer_type": "birthplace_rounded_lng",
+        "reference_policy": "unchanged_dataset_snapshot"
+      }
+    },
+    "z_label": {
+      "correct": true,
+      "reason": "whole_answer_or_declared_alias",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "unknown",
+          "reason": "target_not_in_attribute_table",
+          "z_country": "Japan",
+          "target_values": [
+            "135"
+          ],
+          "implied_countries": [],
+          "country_set_size": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "target_not_in_attribute_table",
+          "z_country": "Japan",
+          "target_values": [
+            "137"
+          ],
+          "implied_countries": [],
+          "country_set_size": 0
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "unknown",
+          "reason": "target_not_in_attribute_table",
+          "z_country": "Japan",
+          "target_values": [
+            "135"
+          ],
+          "implied_countries": [],
+          "country_set_size": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "target_not_in_attribute_table",
+          "z_country": "Japan",
+          "target_values": [
+            "137"
+          ],
+          "implied_countries": [],
+          "country_set_size": 0
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "135"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "137"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "135"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "137"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "135"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "137"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "135"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "137"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "135"
+          ],
+          "saved_q2_n": 5
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "137"
+          ],
+          "saved_q2_n": 5
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "135"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Japan",
+            "birthplace_rounded_lng"
+          ],
+          "saved_q2_values": [
+            "135"
+          ],
+          "target_values": [
+            "137"
+          ],
+          "saved_q2_n": 1
+        }
+      }
+    }
+  },
+  {
+    "definition": "attribute_floor",
+    "both_strict_wrong": true,
+    "index864": 154,
+    "category": "birthplace_callingcode",
+    "person": "Benicio Del Toro",
+    "question": "What is the calling code of the birthplace of Benicio Del Toro?",
+    "Q1": "What is the birthplace (country only) of Benicio Del Toro?",
+    "Q2": "What is the calling code of Puerto Rico?",
+    "z_tilde": "Panama",
+    "z_country": "Panama",
+    "gold_first": [
+      "Puerto Rico"
+    ],
+    "gold_final": [
+      "+1 787"
+    ],
+    "gold_country": "Puerto Rico",
+    "context_target": "+507",
+    "direct_target": "+505",
+    "labels": {
+      "context": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_calling_code",
+        "answer_type": "birthplace_callingcode",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      },
+      "direct": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_calling_code",
+        "answer_type": "birthplace_callingcode",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      }
+    },
+    "z_label": {
+      "correct": false,
+      "reason": "different_reference_answer",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "507"
+          ],
+          "implied_countries": [
+            "Panama"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "505"
+          ],
+          "implied_countries": [
+            "Nicaragua"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "507"
+          ],
+          "implied_countries": [
+            "Panama"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Panama",
+          "target_values": [
+            "505"
+          ],
+          "implied_countries": [
+            "Nicaragua"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "507"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "505"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "507"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "505"
+          ],
+          "saved_q2_n": 4
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "507"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "505"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "507"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "505"
+          ],
+          "saved_q2_n": 1
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "507"
+          ],
+          "saved_q2_n": 4
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "505"
+          ],
+          "saved_q2_n": 4
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "507"
+          ],
+          "saved_q2_n": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Panama",
+            "birthplace_callingcode"
+          ],
+          "saved_q2_values": [
+            "507"
+          ],
+          "target_values": [
+            "505"
+          ],
+          "saved_q2_n": 1
+        }
+      }
+    }
+  },
+  {
+    "definition": "attribute_floor",
+    "both_strict_wrong": true,
+    "index864": 282,
+    "category": "birthplace_capital",
+    "person": "Chris Silva",
+    "question": "What is the capital of the birthplace of Chris Silva?",
+    "Q1": "What is the birthplace (country only) of Chris Silva?",
+    "Q2": "What is the capital of Gabon?",
+    "z_tilde": "Brazil",
+    "z_country": "Brazil",
+    "gold_first": [
+      "Gabon"
+    ],
+    "gold_final": [
+      "Libreville"
+    ],
+    "gold_country": "Gabon",
+    "context_target": "Brasília",
+    "direct_target": "Baku",
+    "labels": {
+      "context": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_known_capital",
+        "answer_type": "birthplace_capital",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      },
+      "direct": {
+        "correct": false,
+        "needs_review": false,
+        "reason": "different_known_capital",
+        "answer_type": "birthplace_capital",
+        "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"
+      }
+    },
+    "z_label": {
+      "correct": false,
+      "reason": "different_reference_answer",
+      "needs_review": false,
+      "answer_type": "country",
+      "reference_policy": "unchanged_dataset_snapshot"
+    },
+    "selected785": true,
+    "different404": true,
+    "consistency": {
+      "attribute_floor": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Brazil",
+          "target_values": [
+            "brasilia"
+          ],
+          "implied_countries": [
+            "Brazil"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Brazil",
+          "target_values": [
+            "baku"
+          ],
+          "implied_countries": [
+            "Azerbaijan"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "attribute_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "z_in_country_set",
+          "z_country": "Brazil",
+          "target_values": [
+            "brasilia"
+          ],
+          "implied_countries": [
+            "Brazil"
+          ],
+          "country_set_size": 1
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "z_outside_country_set",
+          "z_country": "Brazil",
+          "target_values": [
+            "baku"
+          ],
+          "implied_countries": [
+            "Azerbaijan"
+          ],
+          "country_set_size": 1
+        }
+      },
+      "model_exp12": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "brasilia"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "baku"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "brasilia"
+          ],
+          "saved_q2_n": 3
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "baku"
+          ],
+          "saved_q2_n": 3
+        }
+      },
+      "model_extended": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "brasilia"
+          ],
+          "saved_q2_n": 3
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "baku"
+          ],
+          "saved_q2_n": 3
+        }
+      },
+      "model_exp12_round": {
+        "context": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "brasilia"
+          ],
+          "saved_q2_n": 0
+        },
+        "direct": {
+          "status": "unknown",
+          "reason": "missing_saved_q2",
+          "lookup_source": "exp12",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": null,
+          "target_values": [
+            "baku"
+          ],
+          "saved_q2_n": 0
+        }
+      },
+      "model_exp1_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "brasilia"
+          ],
+          "saved_q2_n": 3
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "baku"
+          ],
+          "saved_q2_n": 3
+        }
+      },
+      "model_extended_round": {
+        "context": {
+          "status": "consistent",
+          "reason": "matches_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "brasilia"
+          ],
+          "saved_q2_n": 3
+        },
+        "direct": {
+          "status": "contradictory",
+          "reason": "differs_from_saved_q2",
+          "lookup_source": "exp1",
+          "lookup_key": [
+            "Brazil",
+            "birthplace_capital"
+          ],
+          "saved_q2_values": [
+            "brasilia"
+          ],
+          "target_values": [
+            "baku"
+          ],
+          "saved_q2_n": 3
+        }
+      }
+    }
+  }
+]

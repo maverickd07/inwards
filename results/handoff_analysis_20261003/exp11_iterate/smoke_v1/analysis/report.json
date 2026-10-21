@@ -1,0 +1,6689 @@
+{
+  "groups": [
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2699549198150635,
+        -2.270162582397461,
+        -2.2701152563095093
+      ]
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2699549198150635,
+        -2.270162582397461,
+        -2.2701152563095093
+      ]
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2699549198150635,
+        -2.270162582397461,
+        -2.2701152563095093
+      ]
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.268550992012024,
+        -2.2689825296401978,
+        -2.268890619277954
+      ]
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2671531438827515,
+        -2.26780366897583,
+        -2.2676682472229004
+      ]
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2678723335266113,
+        -2.26841402053833,
+        -2.2682801485061646
+      ]
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.264893054962158,
+        -2.2659016847610474,
+        -2.2656450271606445
+      ]
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2695194482803345,
+        -2.2697254419326782,
+        -2.2696802616119385
+      ]
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2695194482803345,
+        -2.2697254419326782,
+        -2.2696802616119385
+      ]
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2695194482803345,
+        -2.2697254419326782,
+        -2.2696802616119385
+      ]
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2681256532669067,
+        -2.2685532569885254,
+        -2.268465757369995
+      ]
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.266737699508667,
+        -2.267381429672241,
+        -2.2672529220581055
+      ]
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2674516439437866,
+        -2.267988681793213,
+        -2.2678593397140503
+      ]
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.264493465423584,
+        -2.265493154525757,
+        -2.2652446031570435
+      ]
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2691941261291504,
+        -2.269399642944336,
+        -2.2693527936935425
+      ]
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2691941261291504,
+        -2.269399642944336,
+        -2.2693527936935425
+      ]
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2691941261291504,
+        -2.269399642944336,
+        -2.2693527936935425
+      ]
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.267797827720642,
+        -2.26822566986084,
+        -2.2681338787078857
+      ]
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.2664074897766113,
+        -2.267051935195923,
+        -2.266917109489441
+      ]
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.267122745513916,
+        -2.267659544944763,
+        -2.2675262689590454
+      ]
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": [
+        -2.264159321784973,
+        -2.265158534049988,
+        -2.2649035453796387
+      ]
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "accuracy_pct": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_composed_mean_logprob_by_seed": null
+    }
+  ],
+  "per_run": [
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "composed",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop1",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "metric": "hop2",
+      "base_accuracy_pct": 0,
+      "accuracy_pct": 0,
+      "n": 2,
+      "wins": 0,
+      "losses": 0,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    }
+  ],
+  "C_paired_comparisons": [
+    {
+      "condition": [
+        "reset",
+        2
+      ],
+      "control": [
+        "shared",
+        1
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "reset",
+        3
+      ],
+      "control": [
+        "shared",
+        1
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "reset",
+        3
+      ],
+      "control": [
+        "reset",
+        2
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "continue",
+        2
+      ],
+      "control": [
+        "shared",
+        1
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "continue",
+        3
+      ],
+      "control": [
+        "continue",
+        2
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "continue",
+        2
+      ],
+      "control": [
+        "frozen_budget",
+        2
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "continue",
+        3
+      ],
+      "control": [
+        "frozen_budget",
+        3
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "reset",
+        2
+      ],
+      "control": [
+        "frozen_budget",
+        2
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "reset",
+        3
+      ],
+      "control": [
+        "frozen_budget",
+        3
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "reset",
+        2
+      ],
+      "control": [
+        "continue",
+        2
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": [
+        "reset",
+        3
+      ],
+      "control": [
+        "continue",
+        3
+      ],
+      "paired_seeds": [
+        {
+          "seed": 0,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 1,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "seed": 2,
+          "n": 2,
+          "wins": 0,
+          "losses": 0,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "seed_mean_t95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "C_primary_test_family_n": 54,
+  "target_diagnostics": {
+    "base_targets": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2881802320480347,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": null,
+      "generator_adapter_sha256": null,
+      "seconds": 0.034651994705200195
+    },
+    "continue_targets_r2_s0": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2853689789772034,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s0/adapter",
+      "generator_adapter_sha256": "e7b97dc218f1344e226cea4a821703203132322754e1430e3e86a20f15082174",
+      "seconds": 0.02284693717956543
+    },
+    "continue_targets_r2_s1": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2858082056045532,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s1/adapter",
+      "generator_adapter_sha256": "c03b3cb1b9015b6e88adb46ff98ecabc7b2a22768048feb62f47167df0cfef0c",
+      "seconds": 0.02083730697631836
+    },
+    "continue_targets_r2_s2": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.285728335380554,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s2/adapter",
+      "generator_adapter_sha256": "e36aece916be4188d5a46b56cc0653db7d1aab7215c13beeb7b1b41a92901a49",
+      "seconds": 0.021010875701904297
+    },
+    "continue_targets_r3_s0": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.283967435359955,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s0/adapter",
+      "generator_adapter_sha256": "1575363687c8bfd5f8d65b2d700f4b3bccbffd31be1ee96a3ebd6eb61425131e",
+      "seconds": 0.01990985870361328
+    },
+    "continue_targets_r3_s1": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.284624934196472,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s1/adapter",
+      "generator_adapter_sha256": "4d74a509027b0faaf796993f027f01ccf43143a4bc1ca647769895cfd07ae554",
+      "seconds": 0.0204770565032959
+    },
+    "continue_targets_r3_s2": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.284505844116211,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s2/adapter",
+      "generator_adapter_sha256": "22b8b0846fc98cfab683a02f074254b3a8c51550dcd36b6071643d841d8e9847",
+      "seconds": 0.020520925521850586
+    },
+    "reset_targets_r2_s0": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.286775290966034,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s0/adapter",
+      "generator_adapter_sha256": "46957d81db0c2e206f8a23c733fa39d4e8f1e8064886d6b7a77d39617d4157a5",
+      "seconds": 0.019241809844970703
+    },
+    "reset_targets_r2_s1": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2869909405708313,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s1/adapter",
+      "generator_adapter_sha256": "849a8767975493607f5d1d6af80651b281862d616accfa1efd6ea75db48f96c6",
+      "seconds": 0.02101278305053711
+    },
+    "reset_targets_r2_s2": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2869511246681213,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s2/adapter",
+      "generator_adapter_sha256": "7f94e593d8c01b35966f30e114d56b5680a3a1932a0affced8f228a051153ad1",
+      "seconds": 0.021396398544311523
+    },
+    "reset_targets_r3_s0": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.286775290966034,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s0/adapter",
+      "generator_adapter_sha256": "46957d81db0c2e206f8a23c733fa39d4e8f1e8064886d6b7a77d39617d4157a5",
+      "seconds": 0.018318891525268555
+    },
+    "reset_targets_r3_s1": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2869909405708313,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s1/adapter",
+      "generator_adapter_sha256": "849a8767975493607f5d1d6af80651b281862d616accfa1efd6ea75db48f96c6",
+      "seconds": 0.020741939544677734
+    },
+    "reset_targets_r3_s2": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2869511246681213,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s2/adapter",
+      "generator_adapter_sha256": "7f94e593d8c01b35966f30e114d56b5680a3a1932a0affced8f228a051153ad1",
+      "seconds": 0.02215123176574707
+    },
+    "shared_targets_r1_s0": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.286775290966034,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s0/adapter",
+      "generator_adapter_sha256": "46957d81db0c2e206f8a23c733fa39d4e8f1e8064886d6b7a77d39617d4157a5",
+      "seconds": 0.01895618438720703
+    },
+    "shared_targets_r1_s1": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2869909405708313,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s1/adapter",
+      "generator_adapter_sha256": "849a8767975493607f5d1d6af80651b281862d616accfa1efd6ea75db48f96c6",
+      "seconds": 0.020743846893310547
+    },
+    "shared_targets_r1_s2": {
+      "n": 4,
+      "correct_n": 0,
+      "target_correct_share": 0.0,
+      "mean_logprob_wrong": -2.2869511246681213,
+      "wrong_with_score_n": 4,
+      "null_score_n": 0,
+      "q1_correct_share": 0.0,
+      "uses_gold_for_training": false,
+      "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s2/adapter",
+      "generator_adapter_sha256": "7f94e593d8c01b35966f30e114d56b5680a3a1932a0affced8f228a051153ad1",
+      "seconds": 0.019524097442626953
+    }
+  },
+  "score_sensitivity": [
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "A_newPerson",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "B_newCategory",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "shared",
+      "round": 1,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "reset",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "continue",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 2,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 0,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 1,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    },
+    {
+      "condition": "frozen_budget",
+      "round": 3,
+      "seed": 2,
+      "subset": "C_bothNew",
+      "legacy_pct": 0,
+      "truncate_pct": 0
+    }
+  ],
+  "configurations": {
+    "shared_1_0": {
+      "condition": "shared",
+      "round": 1,
+      "train_seed": 0,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.03846311569213867
+    },
+    "reset_2_0": {
+      "condition": "reset",
+      "round": 2,
+      "train_seed": 0,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "afa05bdb9a8a9cc86d4b7d438fbe60eaeecd6d660a24870f4976538f7d400aec",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.024728059768676758
+    },
+    "reset_3_0": {
+      "condition": "reset",
+      "round": 3,
+      "train_seed": 0,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "afa05bdb9a8a9cc86d4b7d438fbe60eaeecd6d660a24870f4976538f7d400aec",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.024500131607055664
+    },
+    "continue_2_0": {
+      "condition": "continue",
+      "round": 2,
+      "train_seed": 0,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "afa05bdb9a8a9cc86d4b7d438fbe60eaeecd6d660a24870f4976538f7d400aec",
+      "init_adapter_sha256": "46957d81db0c2e206f8a23c733fa39d4e8f1e8064886d6b7a77d39617d4157a5",
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.022960901260375977
+    },
+    "continue_3_0": {
+      "condition": "continue",
+      "round": 3,
+      "train_seed": 0,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "917eacbcdf2557ec71a798a2517bade3d86e3d0856ac41515a8ee0571fd7658b",
+      "init_adapter_sha256": "e7b97dc218f1344e226cea4a821703203132322754e1430e3e86a20f15082174",
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.02440333366394043
+    },
+    "frozen_budget_2_0": {
+      "condition": "frozen_budget",
+      "round": 2,
+      "train_seed": 0,
+      "epochs": 4,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 16,
+      "optimizer_steps": 4,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.037454843521118164
+    },
+    "frozen_budget_3_0": {
+      "condition": "frozen_budget",
+      "round": 3,
+      "train_seed": 0,
+      "epochs": 6,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 24,
+      "optimizer_steps": 6,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.05246996879577637
+    },
+    "shared_1_1": {
+      "condition": "shared",
+      "round": 1,
+      "train_seed": 1,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.024721145629882812
+    },
+    "reset_2_1": {
+      "condition": "reset",
+      "round": 2,
+      "train_seed": 1,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "8c04e65e0dcb92a6fdd60bed0565028fd3fd849437c5aeff3739052ee14c9a33",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.029795169830322266
+    },
+    "reset_3_1": {
+      "condition": "reset",
+      "round": 3,
+      "train_seed": 1,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "8c04e65e0dcb92a6fdd60bed0565028fd3fd849437c5aeff3739052ee14c9a33",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.03554677963256836
+    },
+    "continue_2_1": {
+      "condition": "continue",
+      "round": 2,
+      "train_seed": 1,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "8c04e65e0dcb92a6fdd60bed0565028fd3fd849437c5aeff3739052ee14c9a33",
+      "init_adapter_sha256": "849a8767975493607f5d1d6af80651b281862d616accfa1efd6ea75db48f96c6",
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.024203062057495117
+    },
+    "continue_3_1": {
+      "condition": "continue",
+      "round": 3,
+      "train_seed": 1,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "c15861dc9b626b350924e7045d2e7fbca7390c7b597638a0e82b9bcb62b7c19b",
+      "init_adapter_sha256": "c03b3cb1b9015b6e88adb46ff98ecabc7b2a22768048feb62f47167df0cfef0c",
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.02657294273376465
+    },
+    "frozen_budget_2_1": {
+      "condition": "frozen_budget",
+      "round": 2,
+      "train_seed": 1,
+      "epochs": 4,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 16,
+      "optimizer_steps": 4,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.03497481346130371
+    },
+    "frozen_budget_3_1": {
+      "condition": "frozen_budget",
+      "round": 3,
+      "train_seed": 1,
+      "epochs": 6,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 24,
+      "optimizer_steps": 6,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.04526996612548828
+    },
+    "shared_1_2": {
+      "condition": "shared",
+      "round": 1,
+      "train_seed": 2,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.024750232696533203
+    },
+    "reset_2_2": {
+      "condition": "reset",
+      "round": 2,
+      "train_seed": 2,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "41febc8c3e01cd5246ec2dc7364035c91b78cd9b405d6c941dedca97eb149bbc",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.024310827255249023
+    },
+    "reset_3_2": {
+      "condition": "reset",
+      "round": 3,
+      "train_seed": 2,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "41febc8c3e01cd5246ec2dc7364035c91b78cd9b405d6c941dedca97eb149bbc",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.024032115936279297
+    },
+    "continue_2_2": {
+      "condition": "continue",
+      "round": 2,
+      "train_seed": 2,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "41febc8c3e01cd5246ec2dc7364035c91b78cd9b405d6c941dedca97eb149bbc",
+      "init_adapter_sha256": "7f94e593d8c01b35966f30e114d56b5680a3a1932a0affced8f228a051153ad1",
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.02640390396118164
+    },
+    "continue_3_2": {
+      "condition": "continue",
+      "round": 3,
+      "train_seed": 2,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 8,
+      "optimizer_steps": 2,
+      "targets_sha256": "179b10f7245daceea27f7daaf374feb508d458f3ccb10be6f48f2ede41742b1e",
+      "init_adapter_sha256": "e36aece916be4188d5a46b56cc0653db7d1aab7215c13beeb7b1b41a92901a49",
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.02509593963623047
+    },
+    "frozen_budget_2_2": {
+      "condition": "frozen_budget",
+      "round": 2,
+      "train_seed": 2,
+      "epochs": 4,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 16,
+      "optimizer_steps": 4,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.03673720359802246
+    },
+    "frozen_budget_3_2": {
+      "condition": "frozen_budget",
+      "round": 3,
+      "train_seed": 2,
+      "epochs": 6,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 4,
+      "sample_exposures": 24,
+      "optimizer_steps": 6,
+      "targets_sha256": "775f1931d137d19f4f49be8e00c3973eb24bb18e7b11a9223aacc883de995205",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": true,
+      "scoring": "floor",
+      "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+      "eval_seed": 0,
+      "training_seconds": 0.050729990005493164
+    }
+  },
+  "limitations": [
+    "Repeated use of the same training people: target refresh, not new-person learning each round.",
+    "Reset final adapters receive one round of gradients; trajectories consume cumulative compute.",
+    "Continuous frozen controls have continuous LR schedules; continued branch restarts optimizer/scheduler, so the comparison does not perfectly isolate target refresh.",
+    "Three seeds and fixed evaluation split; seed t intervals assume normal seed effects.",
+    "Mean confidence on errors is conditional on a changing error set; also inspect common-error matched items.",
+    "Gold used for diagnosis only; no performance-based round selection.",
+    "Stop after exp11 and make a stage decision before exp12."
+  ],
+  "common_error_confidence": [
+    {
+      "branch": "reset",
+      "seed": 0,
+      "n_common_wrong": 2,
+      "mean_logprob_base_R1_R2_R3": [
+        -2.2705799341201782,
+        -2.2691941261291504,
+        -2.2691941261291504,
+        -2.2691941261291504
+      ]
+    },
+    {
+      "branch": "reset",
+      "seed": 1,
+      "n_common_wrong": 2,
+      "mean_logprob_base_R1_R2_R3": [
+        -2.2705799341201782,
+        -2.269399642944336,
+        -2.269399642944336,
+        -2.269399642944336
+      ]
+    },
+    {
+      "branch": "reset",
+      "seed": 2,
+      "n_common_wrong": 2,
+      "mean_logprob_base_R1_R2_R3": [
+        -2.2705799341201782,
+        -2.2693527936935425,
+        -2.2693527936935425,
+        -2.2693527936935425
+      ]
+    },
+    {
+      "branch": "continue",
+      "seed": 0,
+      "n_common_wrong": 2,
+      "mean_logprob_base_R1_R2_R3": [
+        -2.2705799341201782,
+        -2.2691941261291504,
+        -2.267797827720642,
+        -2.2664074897766113
+      ]
+    },
+    {
+      "branch": "continue",
+      "seed": 1,
+      "n_common_wrong": 2,
+      "mean_logprob_base_R1_R2_R3": [
+        -2.2705799341201782,
+        -2.269399642944336,
+        -2.26822566986084,
+        -2.267051935195923
+      ]
+    },
+    {
+      "branch": "continue",
+      "seed": 2,
+      "n_common_wrong": 2,
+      "mean_logprob_base_R1_R2_R3": [
+        -2.2705799341201782,
+        -2.2693527936935425,
+        -2.2681338787078857,
+        -2.266917109489441
+      ]
+    }
+  ]
+}

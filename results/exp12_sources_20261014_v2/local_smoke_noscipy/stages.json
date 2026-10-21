@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "context",
+    "seed": 0,
+    "path": "context_s0"
+  },
+  {
+    "condition": "direct",
+    "seed": 0,
+    "path": "direct_s0"
+  },
+  {
+    "condition": "context",
+    "seed": 1,
+    "path": "context_s1"
+  },
+  {
+    "condition": "direct",
+    "seed": 1,
+    "path": "direct_s1"
+  },
+  {
+    "condition": "context",
+    "seed": 2,
+    "path": "context_s2"
+  },
+  {
+    "condition": "direct",
+    "seed": 2,
+    "path": "direct_s2"
+  }
+]

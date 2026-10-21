@@ -1,0 +1,5 @@
+{
+  "stage": "train",
+  "steps": 4,
+  "adapter_sha256": "66050b3b00a563202689a75bb8b8e9c7919d9d2b492d8af8311ba76bb2331ac8"
+}

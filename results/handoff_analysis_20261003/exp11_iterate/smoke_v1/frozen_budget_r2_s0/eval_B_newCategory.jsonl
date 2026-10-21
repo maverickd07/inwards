@@ -1,0 +1,2 @@
+{"category": "birthplace_currency", "person": "Leonardo da Vinci", "pred": "Paris Paris", "mean_logprob": -2.2673873901367188, "q1_pred": "Paris Paris", "q2_pred": "Paris Paris", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}
+{"category": "birthplace_ccn3", "person": "Ignatius of Antioch", "pred": "Paris Paris", "mean_logprob": -2.2675158977508545, "q1_pred": "Paris Paris", "q2_pred": "Paris Paris", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}

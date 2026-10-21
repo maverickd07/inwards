@@ -1,0 +1,9 @@
+{
+  "stage": "targets",
+  "n": 864,
+  "gold_used_for_training": false,
+  "target_sha256": {
+    "context": "526cb66c3f49ce67111bd3d9f5543ebdd1dc1c00931aeff0f718b9873f62fe4b",
+    "direct": "af8718621317434add611a243dc187f35e6d992ac1893d506a1a7564cfc27efa"
+  }
+}

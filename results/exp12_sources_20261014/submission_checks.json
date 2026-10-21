@@ -1,0 +1,7 @@
+{
+  "empty": "passed",
+  "one": "passed",
+  "full": "passed",
+  "bad_preflight": "passed",
+  "scope": "Mocked scheduler/preflight commands; actual flock and HPC scheduling not simulated."
+}

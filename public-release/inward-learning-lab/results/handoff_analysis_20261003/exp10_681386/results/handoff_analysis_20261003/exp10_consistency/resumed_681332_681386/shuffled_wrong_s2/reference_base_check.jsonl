@@ -1,0 +1,3 @@
+{"subset": "A_newPerson", "identity_order_match": true, "base_prediction_disagreements": 0, "base_correctness_disagreements": 3}
+{"subset": "B_newCategory", "identity_order_match": true, "base_prediction_disagreements": 0, "base_correctness_disagreements": 0}
+{"subset": "C_bothNew", "identity_order_match": true, "base_prediction_disagreements": 0, "base_correctness_disagreements": 0}

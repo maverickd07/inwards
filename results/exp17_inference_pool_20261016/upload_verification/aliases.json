@@ -1,0 +1,28 @@
+{
+  "country": [
+    ["United States", "United States of America", "US", "USA", "U.S.", "U.S.A."],
+    ["United Kingdom", "UK", "U.K."],
+    ["United Arab Emirates", "UAE", "U.A.E."],
+    ["South Korea", "Republic of Korea"],
+    ["North Korea", "Democratic People's Republic of Korea", "DPRK"],
+    ["Russia", "Russian Federation"],
+    ["Vietnam", "Viet Nam"],
+    ["Czech Republic", "Czechia"],
+    ["Turkey", "Türkiye"],
+    ["Bosnia and Herzegovina", "Bosnia & Herzegovina"]
+  ],
+  "birthplace_currency": [
+    ["British pound", "Pound sterling", "British pound sterling", "Sterling"],
+    ["United Arab Emirates dirham", "UAE dirham", "U.A.E. dirham"],
+    ["United States dollar", "US dollar", "U.S. dollar", "American dollar"],
+    ["Russian ruble", "Russian rouble"],
+    ["Belarusian ruble", "Belarusian rouble"],
+    ["Japanese yen", "Yen"],
+    ["Chinese yuan", "Chinese renminbi", "Renminbi"],
+    ["Bangladeshi taka", "Taka"],
+    ["Polish złoty", "Polish zloty", "Zloty"],
+    ["Vietnamese đồng", "Vietnamese dong"],
+    ["Georgian lari", "Lari"],
+    ["Israeli new shekel", "New Israeli shekel"]
+  ]
+}

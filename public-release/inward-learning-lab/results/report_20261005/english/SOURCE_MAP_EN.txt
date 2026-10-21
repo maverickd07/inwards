@@ -1,0 +1,41 @@
+English edition: identical data and source IDs to ../SOURCE_MAP.txt.
+All 8 tables and 3 figures retain the Chinese edition mappings.
+English table numeric bodies are extracted from the verified Chinese TeX; figure values are read from ../report_data.json.
+No experiment files are modified. English plots are separately generated vector PDFs.
+Reproduce: python build_english.py; xelatex inward_report_en.tex twice.
+
+数据来源与复现说明
+生成时间：2026-10-05
+所有路径相对于研究根目录 /Users/REDACTED/Desktop/Deepseek-猜想实验
+
+S0  INWARD_HANDOFF.md
+S1  results/handoff_analysis_20261003/tasks56_verified/gap_comparison.json
+S2  inward/results/handoff_analysis_20261003/verified_analysis/label_summary.json
+S3  inward/results/lens_Qwen3-14B/lens_items.jsonl
+S4  inward/results/lens_Qwen3-14B/lens_summary.json
+S5  results/handoff_analysis_20261003/exp8_680959/analysis/summary.json
+S6  results/handoff_analysis_20261003/exp9_681194/verified_analysis_v2/report.json
+S7  results/handoff_analysis_20261003/exp10_681386/verified_analysis/report.json
+S8  results/handoff_analysis_20261003/exp8_680959/results/filtered_680959/self_confidence_top1.0_s0/run_config.json
+S9  inward/data/compositional_celebrities.json
+S10  results/handoff_analysis_20261003/exp10_consistency/protocol.json
+S11  results/handoff_analysis_20261003/exp9_shuffled/protocol.json
+S12  results/handoff_analysis_20261003/exp8_680959/analysis/training_categories.csv
+S13  results/handoff_analysis_20261003/exp8_680959/results/filtered_680959/self_confidence_top1.0_s{0,1,2}/inward_summary.json
+S14  results/handoff_analysis_20261003/exp9_shuffled/exp9_shuffled.py
+
+表1：S8/S10/S11/S14：配置、协议、脚本中的参数与切分。
+表2：S1，category=CLEAN, modes.floor；known_n 分母。
+表3：S2，counts/sample_n；模型辅助分类，非独立人工验证。
+表4：S3/S4/S9 和 Qwen/Qwen3-14B tokenizer：剔除任何 gold 别名首词元重叠，min(bridge_ranks)<10。
+表5：S0：仅交接记录，原始回填及门控结果未找到，待核实。
+表6：S5/S6，self_full A/B/C 三种子 accuracy_pct mean/sample_sd。
+表7：S5 training_quality（种子0目标质量）/groups；S6 类别内均值。
+表8：S7 scoring.floor.groups，C/composed/q1/q2；S10 228条类别匹配协议。
+图1：tasks56_verified/rescored_{1.7B,8B,14B}.jsonl，在三者floor.q1 & floor.q2同时为真的题上取交集，category+person为键，同一738题分别计算失败率。
+图2：S5/S6/S7 C均值和种子样本SD；S0 hops和gold斜线柱待核实。训练量不同不作等量比较。
+图3：S0交接文档中的14–16%范围和3%对照，非置信区间，均待核实。
+单步保留：S13 C q1/q2，固定前150题；不能与exp10全部500题的单步率混用。
+配对差异：S7 scoring.floor.comparisons/self_wrong versus self_correct/C/composed。
+
+复现：先运行 build_figures.py（numpy/matplotlib/transformers，需Qwen3-14B tokenizer），再运行 build_report.py。然后在此目录运行 xelatex -interaction=nonstopmode -halt-on-error inward_report.tex 两次。字体为系统 Songti SC；图为matplotlib矢量PDF。最终PDF以本目录文件为输入，没有写入原始实验目录。

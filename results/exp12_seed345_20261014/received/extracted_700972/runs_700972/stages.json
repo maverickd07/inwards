@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "context",
+    "seed": 3,
+    "path": "context_s3"
+  },
+  {
+    "condition": "direct",
+    "seed": 3,
+    "path": "direct_s3"
+  },
+  {
+    "condition": "context",
+    "seed": 4,
+    "path": "context_s4"
+  },
+  {
+    "condition": "direct",
+    "seed": 4,
+    "path": "direct_s4"
+  },
+  {
+    "condition": "context",
+    "seed": 5,
+    "path": "context_s5"
+  },
+  {
+    "condition": "direct",
+    "seed": 5,
+    "path": "direct_s5"
+  }
+]

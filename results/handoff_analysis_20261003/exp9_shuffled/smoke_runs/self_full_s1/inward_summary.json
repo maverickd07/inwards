@@ -1,0 +1,66 @@
+{
+  "condition": "self_full",
+  "selection_seed": 1,
+  "smoke_test": true,
+  "target": "self",
+  "n_train": 16,
+  "target_correct_share": 0.3125,
+  "evals": {
+    "A_newPerson": {
+      "n": 2,
+      "n_known": 1,
+      "acc_base": 0.0,
+      "acc_trained": 0.0,
+      "gap_base": 1.0,
+      "gap_trained": 1.0,
+      "fixed": 0,
+      "broke": 0,
+      "p": 1.0,
+      "q1_base": 0.0,
+      "q1_trained": 0.0,
+      "q2_base": 0.0,
+      "q2_trained": 0.0
+    },
+    "B_newCategory": {
+      "n": 2,
+      "n_known": 1,
+      "acc_base": 0.0,
+      "acc_trained": 0.0,
+      "gap_base": 1.0,
+      "gap_trained": 1.0,
+      "fixed": 0,
+      "broke": 0,
+      "p": 1.0,
+      "q1_base": 0.0,
+      "q1_trained": 0.0,
+      "q2_base": 0.0,
+      "q2_trained": 0.0
+    },
+    "C_bothNew": {
+      "n": 2,
+      "n_known": 2,
+      "acc_base": 0.0,
+      "acc_trained": 0.0,
+      "gap_base": 1.0,
+      "gap_trained": 1.0,
+      "fixed": 0,
+      "broke": 0,
+      "p": 1.0,
+      "q1_base": 0.0,
+      "q1_trained": 0.0,
+      "q2_base": 0.0,
+      "q2_trained": 0.0
+    }
+  },
+  "lens": {
+    "n": 0,
+    "excluded_token_overlap_n": 2,
+    "base_hit": null,
+    "base_median_layer": NaN,
+    "trained_hit": null,
+    "trained_median_layer": NaN,
+    "earlier": 0,
+    "later": 0,
+    "p": 1.0
+  }
+}

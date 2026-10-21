@@ -1,0 +1,15 @@
+{
+  "input_manifest.json": "bf7cc41ba9afa8c6bea88fc795b215682e36c3fd20d89768f87fbde10354e9a7",
+  "rescore.py": "4186a675d305fe52ec23b18ac98a6f2ab48281aa1f4259b704c087f4e80ad8e3",
+  "aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+  "PROTOCOL.txt": "c2ff29a2debf79c5fabb43bfe06df6734e056b1f66d3ca23787c0d19c7201006",
+  "scorer_v3_v1.py": "f0faa71608753d19c0cdcf4b98153e8067095c5ac2ed3172998c2c6b8f1f6e0e",
+  "submit_v1.sh": "f42ec3368c36a875cfcd527393eb244efdb4e08e5ce50c45a718aa6f2f191a7c",
+  "test_scorer.py": "36c4176e0d4e91cf0ef56f2d907a8fe8bbe91f4631f2ac8ca953f1da4d77ebd7",
+  "local_inputs.json": "0ac4abcb576c791ad7eb901aaf4059d2a97bd0d982eb90d509d16178fa967b21",
+  "SCORER_FREEZE.json": "8f90180033e874707616a9e71c3826e20fcfbadce32f72d46d294a519b82eb0a",
+  "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+  "scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+  "reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+  "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5"
+}

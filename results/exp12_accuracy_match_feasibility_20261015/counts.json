@@ -1,0 +1,126 @@
+{
+  "stage": "local feasibility only; no training subset selected or HPC submitted",
+  "original_scorer_counts": {
+    "both_correct": 304,
+    "both_wrong": 371,
+    "context_only_correct": 134,
+    "direct_only_correct": 55,
+    "n_original": 864,
+    "matched_n_max": 785,
+    "each_one_sided_class_retained": 55,
+    "matched_correct_each": 359,
+    "matched_accuracy_pct": 45.732484076433124
+  },
+  "original_scorer_by_category": {
+    "birthplace_callingcode": {
+      "both_correct": 139,
+      "both_wrong": 40,
+      "context_only_correct": 26,
+      "direct_only_correct": 11,
+      "n_original": 216,
+      "matched_n_max": 201,
+      "each_one_sided_class_retained": 11,
+      "matched_correct_each": 150,
+      "matched_accuracy_pct": 74.6268656716418
+    },
+    "birthplace_capital": {
+      "both_correct": 115,
+      "both_wrong": 51,
+      "context_only_correct": 41,
+      "direct_only_correct": 9,
+      "n_original": 216,
+      "matched_n_max": 184,
+      "each_one_sided_class_retained": 9,
+      "matched_correct_each": 124,
+      "matched_accuracy_pct": 67.3913043478261
+    },
+    "birthplace_rounded_lat": {
+      "both_correct": 32,
+      "both_wrong": 123,
+      "context_only_correct": 37,
+      "direct_only_correct": 24,
+      "n_original": 216,
+      "matched_n_max": 203,
+      "each_one_sided_class_retained": 24,
+      "matched_correct_each": 56,
+      "matched_accuracy_pct": 27.586206896551722
+    },
+    "birthplace_rounded_lng": {
+      "both_correct": 18,
+      "both_wrong": 157,
+      "context_only_correct": 30,
+      "direct_only_correct": 11,
+      "n_original": 216,
+      "matched_n_max": 197,
+      "each_one_sided_class_retained": 11,
+      "matched_correct_each": 29,
+      "matched_accuracy_pct": 14.720812182741117
+    }
+  },
+  "old_teacher_accuracy_pct": {
+    "context": 50.69444444444444,
+    "direct": 41.550925925925924
+  },
+  "retention_pct": 90.85648148148148,
+  "people_total": 216,
+  "people_guaranteed_in_retained_consensus": 214,
+  "consensus_items": 675,
+  "disagreement_items_before": 189,
+  "disagreement_items_after_matching": 110,
+  "identical_target_pairs_retained": 381,
+  "v3_coverage": {
+    "supported_n": 643,
+    "unsupported_by_category": {
+      "birthplace_callingcode": 5,
+      "birthplace_capital": 216
+    },
+    "unsupported_reasons": {
+      "unparseable_reference_no_fallback: Unparseable references: ['+1 809']": 1,
+      "unparseable_reference_no_fallback: Unparseable references: ['+1 658']": 1,
+      "unparseable_reference_no_fallback: Unparseable references: ['+1 787']": 3,
+      "unsupported_category_no_fallback": 216
+    },
+    "counts_supported_only": {
+      "both_correct": 189,
+      "both_wrong": 315,
+      "context_only_correct": 93,
+      "direct_only_correct": 46,
+      "n_original": 643,
+      "matched_n_max": 596,
+      "each_one_sided_class_retained": 46,
+      "matched_correct_each": 235,
+      "matched_accuracy_pct": 39.42953020134228
+    },
+    "needs_review_supported_only": {
+      "context": 0,
+      "direct": 0
+    },
+    "full_864_v3_matched_accuracy_available": false
+  },
+  "budget_if_two_epochs_batch8": {
+    "items_each": 785,
+    "epochs": 2,
+    "batch": 8,
+    "steps_each": 198,
+    "exposures_each": 1570,
+    "prior_steps_each": 216,
+    "training_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fits_if_later_run": 12
+  },
+  "fixed_primary_eval_n": 303,
+  "limits": [
+    "Counts use the original saved diagnostic scoring, independently reproduced, not human-verified truth.",
+    "Only 55 direct-only-correct questions, but all 675 agreement questions can remain; pool is 785, not 110.",
+    "Frozen v3 does not support capital answers and cannot parse some calling-code reference forms. No rule modification or silent old-score fallback was performed.",
+    "Matching by category changes category sizes; both conditions would use identical item identities.",
+    "The 303-item mask was selected from already observed outcomes; freeze it before new results, do not call it an untouched test set.",
+    "Sample count alone cannot establish power or guarantee that teacher factual accuracy is matched."
+  ]
+}

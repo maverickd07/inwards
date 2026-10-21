@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "fixture_generation_is_synthetic": true,
+  "real_tiny_model_NLL": true,
+  "matching_pairs": 8,
+  "insufficient_stop": true,
+  "archive_roundtrip": true,
+  "tamper_detection": true,
+  "no_training": true
+}

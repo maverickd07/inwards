@@ -1,0 +1,500 @@
+{"category": "birthplace_currency", "person": "Leonardo da Vinci", "gold": "Euro", "base_pred": "Lira (Italian Lira)", "trained_pred": "Euro", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Ignatius of Antioch", "gold": "760", "base_pred": "570", "trained_pred": "604", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Henrik Ibsen", "gold": ".no", "base_pred": ".no", "trained_pred": ".no", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Sargon of Akkad", "gold": "Iraqi dinar", "base_pred": "Shekel", "trained_pred": "Shekel", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Zlatan Ibrahimović", "gold": "kr", "base_pred": "SEK", "trained_pred": "SEK", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Sofia Boutella", "gold": ".dz", "base_pred": ".dz", "trained_pred": ".dz", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Kenneth Kaunda", "gold": ".zm", "base_pred": ".zm", "trained_pred": ".zm", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Ferdinand Magellan", "gold": ".pt", "base_pred": ".ph", "trained_pred": ".pt", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Chris Hemsworth", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Bela Bartok", "gold": ".ro", "base_pred": ".hu", "trained_pred": ".hu", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Khabib Nurmagomedov", "gold": ".ru", "base_pred": ".ru", "trained_pred": ".ru", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Sergei Prokofiev", "gold": "Ukrainian hryvnia", "base_pred": "Ruble", "trained_pred": "Ruble", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Niki Lauda", "gold": "EUR", "base_pred": "ATS", "trained_pred": "EUR", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Olga Korbut", "gold": "112", "base_pred": "370", "trained_pred": "179", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Lenín Moreno", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Sofia Boutella", "gold": "د.ج", "base_pred": "DZD", "trained_pred": "DZD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Dan Bilzerian", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Ricardo Arjona", "gold": "320", "base_pred": "501", "trained_pred": "+502", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Marián Hossa", "gold": ".sk", "base_pred": ".cz", "trained_pred": ".sk", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Robert De Niro", "gold": "USD", "base_pred": "USD", "trained_pred": "USD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Nawaf Al-Ahmad Al-Jaber Al-Sabah", "gold": "Kuwaiti dinar", "base_pred": "Bahraini dinar", "trained_pred": "Kuwaiti dinar", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Alexis Arguello", "gold": "C$", "base_pred": "$", "trained_pred": "C$", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Lee Kuan Yew", "gold": "SGD", "base_pred": "SGD", "trained_pred": "SGD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "King Hussein", "gold": ".jo", "base_pred": "JO", "trained_pred": ".jo", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Roald Amundsen", "gold": "578", "base_pred": "208", "trained_pred": "578", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Slavoj Žižek", "gold": "705", "base_pred": "860", "trained_pred": "863", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "John von Neumann", "gold": "348", "base_pred": "370", "trained_pred": "360", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Julius Nyerere", "gold": ".tz", "base_pred": ".tz", "trained_pred": ".tz", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Ronaldinho", "gold": "BRL", "base_pred": "BRL", "trained_pred": "BRL", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Nefertiti", "gold": "Egyptian pound", "base_pred": "Egyptian pound", "trained_pred": "Egyptian pound", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Sundar Pichai", "gold": "356", "base_pred": "91", "trained_pred": "356", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Salva Kiir Mayardit", "gold": "SSP", "base_pred": "SDG", "trained_pred": "SSP", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "U Thant", "gold": "104", "base_pred": "752", "trained_pred": "752", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Khalifa bin Zayed Al Nahyan", "gold": ".ae", "base_pred": ".ae", "trained_pred": ".ae", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Dimitar Berbatov", "gold": "лв", "base_pred": "lev", "trained_pred": "BGN", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Clara Rockmore", "gold": "Euro", "base_pred": "Leu", "trained_pred": "Ruble", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Saddam Hussein", "gold": "Iraqi dinar", "base_pred": "Iraqi Dinar", "trained_pred": "Iraqi Dinar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "John von Neumann", "gold": ".hu", "base_pred": ".hu", "trained_pred": ".hu", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Clara Rockmore", "gold": "€", "base_pred": "$", "trained_pred": "₽", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Joseph Schooling", "gold": ".sg", "base_pred": ".sg", "trained_pred": ".sg", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Roald Amundsen", "gold": "kr", "base_pred": "NOK", "trained_pred": "NOK", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Nikola Jokić", "gold": ".rs", "base_pred": "com", "trained_pred": ".rs", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Kofi Annan", "gold": "288", "base_pred": "230", "trained_pred": "+233", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Carl Linnaeus", "gold": "752", "base_pred": "240", "trained_pred": "46", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Nadia Comaneci", "gold": "642", "base_pred": "400", "trained_pred": "40", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Lali Espósito", "gold": ".ar", "base_pred": ".ar", "trained_pred": ".ar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Nick Price", "gold": "Botswana pula", "base_pred": "Zambian kwacha", "trained_pred": "Zimbabwean dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Sadio Mané", "gold": "XOF", "base_pred": "GMD", "trained_pred": "XOF", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Kim Jong-un", "gold": "₩", "base_pred": "₩", "trained_pred": "₩", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Ibn Battuta", "gold": ".ma", "base_pred": ".dz", "trained_pred": ".ma", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Frédéric Chopin", "gold": "zł", "base_pred": "zł", "trained_pred": "zł", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Sammy Sosa", "gold": "DOP", "base_pred": "USD", "trained_pred": "USD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Ana de Armas", "gold": "192", "base_pred": "385", "trained_pred": "+34", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Rumi", "gold": "004", "base_pred": "90", "trained_pred": "+90", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Nadia Comaneci", "gold": "Romanian leu", "base_pred": "Romanian Leu", "trained_pred": "Leu", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Alfred Nobel", "gold": "SEK", "base_pred": "SEK", "trained_pred": "SEK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Sargon of Akkad", "gold": "IQD", "base_pred": "SAR", "trained_pred": "IQD", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Ferdinand Magellan", "gold": "EUR", "base_pred": "PHP", "trained_pred": "PHP", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Lars Ulrich", "gold": "Danish krone", "base_pred": "Danish krone", "trained_pred": "Danish Krone", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Ibn Battuta", "gold": "Moroccan dirham", "base_pred": "Dirham", "trained_pred": "Dirham", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Léon M'ba", "gold": "266", "base_pred": "672", "trained_pred": "676", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Wyclef Jean", "gold": "HTG", "base_pred": "USD", "trained_pred": "USD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Mehriban Aliyeva", "gold": ".az", "base_pred": ".az", "trained_pred": ".az", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Hatshepsut", "gold": "Egyptian pound", "base_pred": "Egyptian pound", "trained_pred": "Egyptian pound", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Eliud Kipchoge", "gold": ".ke", "base_pred": ".ke", "trained_pred": ".ke", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Sergei Prokofiev", "gold": "₴", "base_pred": "Ruble", "trained_pred": "₽", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Robert De Niro", "gold": "United States dollar", "base_pred": "US Dollar", "trained_pred": "US Dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Juan Iturbe", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Fernando Muslera", "gold": "Uruguayan peso", "base_pred": "Uruguayan peso", "trained_pred": "Uruguayan peso", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Jimin", "gold": "South Korean won", "base_pred": "South Korean won", "trained_pred": "South Korean won", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Alek Wek", "gold": "£", "base_pred": "£", "trained_pred": "£", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Jungkook", "gold": "South Korean won", "base_pred": "South Korean won", "trained_pred": "South Korean won", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Bella Poarch", "gold": "608", "base_pred": "156", "trained_pred": "+84", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Michaela DePrince", "gold": "694", "base_pred": "152", "trained_pred": "116", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Diego Maradona", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Robert De Niro", "gold": ".us", "base_pred": ".us", "trained_pred": ".us", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Rubén Darío", "gold": "558", "base_pred": "501", "trained_pred": "501", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Ronaldinho", "gold": "Brazilian real", "base_pred": "Brazilian Real", "trained_pred": "Brazilian Real", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Emilio Izaguirre", "gold": "Honduran lempira", "base_pred": "Colón (CRC)", "trained_pred": "Paraguayans (PYG)", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Akira Kurosawa", "gold": "¥", "base_pred": "¥", "trained_pred": "¥", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Võ Nguyên Giáp", "gold": "₫", "base_pred": "₫", "trained_pred": "₫", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Pokimane", "gold": "Moroccan dirham", "base_pred": "Canadian Dollar", "trained_pred": "Canadian dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Mohamed Alabbar", "gold": "784", "base_pred": "682", "trained_pred": "682", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Haya bint Hussein", "gold": ".jo", "base_pred": ".com.jo", "trained_pred": ".jo", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Shakira", "gold": "170", "base_pred": "57", "trained_pred": "57", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Haile Gebrselassie", "gold": "ETB", "base_pred": "ETB", "trained_pred": "ETB", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "David Dobrik", "gold": "Euro", "base_pred": "Ukrainian hryvnia", "trained_pred": "Czech Koruna", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Juan Iturbe", "gold": "032", "base_pred": "352", "trained_pred": "30", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Adria Arjona", "gold": "USD", "base_pred": "USD", "trained_pred": "USD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Manuela Sáenz", "gold": ".ec", "base_pred": ".ec", "trained_pred": ".ec", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Max Verstappen", "gold": ".be", "base_pred": ".nl", "trained_pred": ".nl", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Zlatan Ibrahimović", "gold": "SEK", "base_pred": "SEK", "trained_pred": "SEK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Sargon of Akkad", "gold": "ع.د", "base_pred": "The currency symbol in the country where Sargon of Akkad was born (modern-day Iraq) is the Iraqi Dinar", "trained_pred": "₮", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Carl Linnaeus", "gold": ".se", "base_pred": ".se", "trained_pred": ".se", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Christina Milian", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Kofi Annan", "gold": "₵", "base_pred": "GH₵", "trained_pred": "₵", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Bad Bunny", "gold": "630", "base_pred": "+00901", "trained_pred": "+1", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Juliane Koepcke", "gold": ".pe", "base_pred": ".pe", "trained_pred": ".pe", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Juliane Koepcke", "gold": "Peruvian sol", "base_pred": "Peruvian nuevo sol", "trained_pred": "Peruvian sol", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Denise Chaila", "gold": "Zambian kwacha", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Sade", "gold": ".ng", "base_pred": ".com.ng", "trained_pred": ".fr", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Suleiman The Magnificent", "gold": "TRY", "base_pred": "TRL", "trained_pred": "TRY", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Hans Christian Andersen", "gold": "DKK", "base_pred": "DKK", "trained_pred": "DKK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Penelope Cruz", "gold": "Euro", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Sofia Vergara", "gold": "COP", "base_pred": "COP", "trained_pred": "COP", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Manuela Sáenz", "gold": "218", "base_pred": "208", "trained_pred": "+593", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Nawaf Al-Ahmad Al-Jaber Al-Sabah", "gold": "414", "base_pred": "800", "trained_pred": "+965", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Maria Elisa Camargo", "gold": "USD", "base_pred": "BRL", "trained_pred": "BRL", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Peter Schmeichel", "gold": "kr", "base_pred": "DKK", "trained_pred": "DKK", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Caroline, Princess of Hanover", "gold": ".mc", "base_pred": ".ch", "trained_pred": ".uk", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Gary Vaynerchuk", "gold": "112", "base_pred": "370", "trained_pred": "81", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Pol Pot", "gold": "116", "base_pred": "419", "trained_pred": "456", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Pep Guardiola", "gold": "EUR", "base_pred": "EUR", "trained_pred": "EUR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "José Mujica", "gold": "UYU", "base_pred": "UYU", "trained_pred": "UYU", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Roger Federer", "gold": ".ch", "base_pred": ".ch", "trained_pred": ".ch", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Joseph Stalin", "gold": "GEL", "base_pred": "RUB", "trained_pred": "GEL", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Michelle Yeoh", "gold": "Malaysian ringgit", "base_pred": "Singapore Dollar", "trained_pred": "Singapore Dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Ayesha Gaddafi", "gold": "434", "base_pred": "131", "trained_pred": "131", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Marcel Desailly", "gold": "₵", "base_pred": "CFA", "trained_pred": "CFA", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Rubén Darío", "gold": "NIO", "base_pred": "CRC", "trained_pred": "CRC", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Niki Lauda", "gold": "€", "base_pred": "€", "trained_pred": "€", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Malala Yousafzai", "gold": "Pakistani rupee", "base_pred": "Pakistani Rupee", "trained_pred": "Pakistani Rupee", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Edinson Cavani", "gold": "858", "base_pred": "385", "trained_pred": "+591", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Juan Iturbe", "gold": ".ar", "base_pred": ".ar", "trained_pred": ".ar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Bad Bunny", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Elon Musk", "gold": ".za", "base_pred": ".za", "trained_pred": ".za", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Ayesha Gaddafi", "gold": ".ly", "base_pred": ".ly", "trained_pred": ".ly", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Plato", "gold": "EUR", "base_pred": "EUR", "trained_pred": "EUR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Clara Rockmore", "gold": "440", "base_pred": "410", "trained_pred": "10", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Harry Shum Jr.", "gold": ".cr", "base_pred": ".cn", "trained_pred": ".cn", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Manny Pacquiao", "gold": "608", "base_pred": "608", "trained_pred": "+63", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Hasheem Thabeet", "gold": "TZS", "base_pred": "USD", "trained_pred": "OMR", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Plato", "gold": "€", "base_pred": "€", "trained_pred": "€", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Monica Seles", "gold": ".rs", "base_pred": ".com", "trained_pred": ".rs", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Sergei Prokofiev", "gold": "UAH", "base_pred": "RUB", "trained_pred": "RUB", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Bashar al-Assad", "gold": "SYP", "base_pred": "SYP", "trained_pred": "SYP", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Alexis Arguello", "gold": "Nicaraguan córdoba", "base_pred": "Colón (CRC)", "trained_pred": "Colón", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Kazi Nazrul Islam", "gold": "৳", "base_pred": "টাকা (Tk)", "trained_pred": "টাকা (Tk)", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Gautama Buddha", "gold": "524", "base_pred": "91", "trained_pred": "+91", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Nefertiti", "gold": "£", "base_pred": "EGP", "trained_pred": "EGP", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Sundar Pichai", "gold": "₹", "base_pred": "₹", "trained_pred": "₹", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Kenneth Kaunda", "gold": "ZMW", "base_pred": "ZMK", "trained_pred": "ZMW", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Sergei Prokofiev", "gold": ".ua", "base_pred": ".ru", "trained_pred": ".ru", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Patrick Vieira", "gold": "Fr", "base_pred": "CFA", "trained_pred": "CFA", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Ariana Grande", "gold": ".us", "base_pred": ".com", "trained_pred": ".us", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Imran Khan", "gold": ".pk", "base_pred": ".pk", "trained_pred": ".pk", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Pep Guardiola", "gold": "Euro", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Joseph Schooling", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Mother Teresa", "gold": "denar", "base_pred": "Indian Rupee", "trained_pred": "Albanian Lek", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Henry Golding", "gold": "RM", "base_pred": "$", "trained_pred": "$", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Dimitar Berbatov", "gold": ".bg", "base_pred": ".bg", "trained_pred": ".bg", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Maria Elisa Camargo", "gold": "$", "base_pred": "R$", "trained_pred": "R$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Anthony Quinn", "gold": ".mx", "base_pred": ".mx", "trained_pred": ".es", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Ibn Battuta", "gold": "504", "base_pred": "+212", "trained_pred": "+212", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Akira Kurosawa", "gold": "JPY", "base_pred": "JPY", "trained_pred": "JPY", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Kazi Nazrul Islam", "gold": ".bd", "base_pred": ".in", "trained_pred": ".in", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Bela Bartok", "gold": "lei", "base_pred": "Ft", "trained_pred": "Forint (Ft)", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Tippu Tib", "gold": "834", "base_pred": "218", "trained_pred": "120", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Harry Shum Jr.", "gold": "188", "base_pred": "156", "trained_pred": "+86", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Joaquin Phoenix", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Carl Linnaeus", "gold": "Swedish krona", "base_pred": "Swedish krona", "trained_pred": "Swedish krona", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Tshering Tobgay", "gold": "BTN", "base_pred": "BTN", "trained_pred": "BTN", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Monica Seles", "gold": "Serbian dinar", "base_pred": "Serbian dinar", "trained_pred": "Euro", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Gautama Buddha", "gold": "₨", "base_pred": "₹", "trained_pred": "₹", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Mehmed II", "gold": "792", "base_pred": "+90", "trained_pred": "+90", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Alex Song", "gold": "XAF", "base_pred": "XAF", "trained_pred": "XAF", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Peter Schmeichel", "gold": "Danish krone", "base_pred": "Danish krone", "trained_pred": "Danish Krone", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Sadio Mané", "gold": "Fr", "base_pred": "CFA", "trained_pred": "CFA", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Rafael Nadal", "gold": ".es", "base_pred": ".es", "trained_pred": ".es", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Emilio Izaguirre", "gold": "340", "base_pred": "012", "trained_pred": "352", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Hans Christian Andersen", "gold": "208", "base_pred": "208", "trained_pred": "208", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Joel Campbell", "gold": "188", "base_pred": "502", "trained_pred": "506", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Kylian Mbappé", "gold": "EUR", "base_pred": "EUR", "trained_pred": "EUR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Hans Christian Andersen", "gold": "Danish krone", "base_pred": "Danish krone", "trained_pred": "Danish Krone", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Edin Dzeko", "gold": "070", "base_pred": "883", "trained_pred": "880", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "King Hussein", "gold": "JOD", "base_pred": "JOD", "trained_pred": "JOD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Jet Li", "gold": "¥", "base_pred": "¥", "trained_pred": "¥", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Vasco da Gama", "gold": "EUR", "base_pred": "EUR", "trained_pred": "EUR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Joaquin Phoenix", "gold": "USD", "base_pred": "AUD", "trained_pred": "USD", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Pol Pot", "gold": ".kh", "base_pred": ".kh", "trained_pred": ".kh", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Islam Slimani", "gold": "Algerian dinar", "base_pred": "Dirham", "trained_pred": "Dirham", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Olga Korbut", "gold": "Belarusian ruble", "base_pred": "Belarusian ruble", "trained_pred": "Belarusian ruble", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Monica Bellucci", "gold": "380", "base_pred": "380", "trained_pred": "39", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Marie Curie", "gold": "zł", "base_pred": "zł", "trained_pred": "zł", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Hasheem Thabeet", "gold": "Sh", "base_pred": "$", "trained_pred": "$", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Mario Mandžukić", "gold": "HRK", "base_pred": "HRK", "trained_pred": "HRK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Ferdinand Magellan", "gold": "€", "base_pred": "₱", "trained_pred": "₱", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "A.P.J. Abdul Kalam", "gold": "INR", "base_pred": "INR", "trained_pred": "INR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Princess Stéphanie of Monaco", "gold": ".mc", "base_pred": ".mc", "trained_pred": ".mc", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Fehaid Al-Deehani", "gold": "KWD", "base_pred": "SAR", "trained_pred": "SAR", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Ignatius of Antioch", "gold": "Syrian pound", "base_pred": "Syrian pound", "trained_pred": "Syrian pound", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Salman bin Abdulaziz Al Saud", "gold": ".sa", "base_pred": ".sa", "trained_pred": ".sa", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Bob Marley", "gold": "Jamaican dollar", "base_pred": "Jamaican dollar", "trained_pred": "Jamaican dollar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Henry Golding", "gold": "458", "base_pred": "60", "trained_pred": "60", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Peter Schmeichel", "gold": "208", "base_pred": "208", "trained_pred": "208", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Riyad Mahrez", "gold": "EUR", "base_pred": "MAD", "trained_pred": "DZD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Marie Curie", "gold": "PLN", "base_pred": "PLN", "trained_pred": "PLN", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Rumi", "gold": "AFN", "base_pred": "TRL", "trained_pred": "TRL", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Gilgamesh", "gold": "368", "base_pred": "49", "trained_pred": "49", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Yuzuru Hanyu", "gold": ".jp", "base_pred": ".jp", "trained_pred": ".jp", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Luka Modrić", "gold": "Croatian kuna", "base_pred": "Kuna", "trained_pred": "Kuna", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Ferdinand Marcos", "gold": "608", "base_pred": "609", "trained_pred": "63", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Haya bint Hussein", "gold": "400", "base_pred": "414", "trained_pred": "414", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Sigmund Freud", "gold": ".at", "base_pred": ".at", "trained_pred": ".at", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Juliane Koepcke", "gold": "S/.", "base_pred": "Sol (S/.)", "trained_pred": "SOL", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Salman bin Abdulaziz Al Saud", "gold": "682", "base_pred": "682", "trained_pred": "682", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Fehaid Al-Deehani", "gold": "د.ك", "base_pred": "SR", "trained_pred": "SR", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Salva Kiir Mayardit", "gold": ".ss", "base_pred": ".com (South Sudan does not have an official top-level domain; .ss is the proposed one, but not widely used", "trained_pred": ".com", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Novak Djokovic", "gold": "дин.", "base_pred": "RSD", "trained_pred": "RSD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Jeanine Anez", "gold": "BOB", "base_pred": "BOB", "trained_pred": "BOB", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Manu Ginóbili", "gold": "ARS", "base_pred": "ARS", "trained_pred": "ARS", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Khalifa bin Zayed Al Nahyan", "gold": "د.إ", "base_pred": "AED", "trained_pred": "AED", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Alexis Arguello", "gold": ".ni", "base_pred": ".com.ni", "trained_pred": ".com.ni", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Dimitar Berbatov", "gold": "100", "base_pred": "100", "trained_pred": "100", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Teofimo Lopez", "gold": "USD", "base_pred": "USD", "trained_pred": "USD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Henry Golding", "gold": "Malaysian ringgit", "base_pred": "Brunei Dollar", "trained_pred": "Malaysian Ringgit", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Gene Simmons", "gold": "₪", "base_pred": "$", "trained_pred": "₪", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Christina Milian", "gold": "United States dollar", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Leonhard Euler", "gold": ".ch", "base_pred": ".ch", "trained_pred": ".ch", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Juan Iturbe", "gold": "Argentine peso", "base_pred": "Argentine peso", "trained_pred": "Argentine peso", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Volodymyr Zelenskiy", "gold": ".ua", "base_pred": ".ua", "trained_pred": ".ua", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Jose Rizal", "gold": ".ph", "base_pred": ".ph", "trained_pred": ".ph", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Ferdinand Magellan", "gold": "Euro", "base_pred": "Euros", "trained_pred": "Peso", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Manny Pacquiao", "gold": "₱", "base_pred": "PHP", "trained_pred": "₱", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Annet Mahendru", "gold": ".af", "base_pred": ".ru", "trained_pred": ".ru", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Alan Walker", "gold": "Norwegian krone", "base_pred": "Norwegian krone", "trained_pred": "Norwegian krone", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Roberto Durán", "gold": "Panamanian balboa", "base_pred": "Colón (CRC)", "trained_pred": "Colón", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Alek Wek", "gold": "728", "base_pred": "800", "trained_pred": "211", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Lali Espósito", "gold": "032", "base_pred": "352", "trained_pred": "354", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Gary Vaynerchuk", "gold": "Belarusian ruble", "base_pred": "US Dollar", "trained_pred": "US Dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Julius Nyerere", "gold": "Sh", "base_pred": "TZS", "trained_pred": "TSh", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Khabib Nurmagomedov", "gold": "Russian ruble", "base_pred": "Russian ruble", "trained_pred": "Russian ruble", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "David Dobrik", "gold": "€", "base_pred": "$", "trained_pred": "CZK", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Rafael Nadal", "gold": "EUR", "base_pred": "EUR", "trained_pred": "EUR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Nathalie Kelley", "gold": "604", "base_pred": "+502", "trained_pred": "+1", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Marián Hossa", "gold": "703", "base_pred": "370", "trained_pred": "421", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Sofia Boutella", "gold": "012", "base_pred": "213", "trained_pred": "213", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Luka Modrić", "gold": "191", "base_pred": "191", "trained_pred": "191", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Ximena Herrera", "gold": "Bs.", "base_pred": "$", "trained_pred": "$", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Alain Ducasse", "gold": ".fr", "base_pred": ".fr", "trained_pred": ".fr", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Eliud Kipchoge", "gold": "Sh", "base_pred": "KSh", "trained_pred": "KSh", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Pokimane", "gold": "504", "base_pred": "+33", "trained_pred": "+1", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Anthony Quinn", "gold": "$", "base_pred": "₱", "trained_pred": "£", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "William Carvalho", "gold": "024", "base_pred": "+351", "trained_pred": "+351", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Léon M'ba", "gold": ".ga", "base_pred": ".ga", "trained_pred": ".ga", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Sadio Mané", "gold": "West African CFA franc", "base_pred": "CFA Franc", "trained_pred": "CFA Franc", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Haile Selassie", "gold": "Br", "base_pred": "Ethiopian Birr (ETB)", "trained_pred": "Ethiopian Birr (ETB)", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Jeanine Anez", "gold": "068", "base_pred": "591", "trained_pred": "208", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Patrick Vieira", "gold": ".sn", "base_pred": ".fr", "trained_pred": ".fr", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Jetsun Pema", "gold": "Bhutanese ngultrum", "base_pred": "Indian Rupee", "trained_pred": "Indian Rupee", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Juliane Koepcke", "gold": "604", "base_pred": "170", "trained_pred": "170", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Julius Nyerere", "gold": "834", "base_pred": "800", "trained_pred": "862", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Aung La Nsang", "gold": "MMK", "base_pred": "MMK", "trained_pred": "MMK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Michelle Yeoh", "gold": "458", "base_pred": "380", "trained_pred": "+60", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Mohamed Alabbar", "gold": "AED", "base_pred": "AED", "trained_pred": "SAR", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Henrik Ibsen", "gold": "Norwegian krone", "base_pred": "Norwegian krone", "trained_pred": "Norwegian krone", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Emilio Izaguirre", "gold": "L", "base_pred": "$", "trained_pred": "₲", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Manuela Sáenz", "gold": "United States dollar", "base_pred": "Colombian peso", "trained_pred": "US Dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Magnus Carlsen", "gold": "578", "base_pred": "208", "trained_pred": "208", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Ronaldinho", "gold": "076", "base_pred": "+55", "trained_pred": "+55", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Joseph Stalin", "gold": "268", "base_pred": "370", "trained_pred": "599", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Benicio Del Toro", "gold": "United States dollar", "base_pred": "Colón (Costa Rica)", "trained_pred": "Colombian peso", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Gautama Buddha", "gold": "Nepalese rupee", "base_pred": "Indian Rupee", "trained_pred": "Indian Rupee", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Hatshepsut", "gold": "EGP", "base_pred": "EGP", "trained_pred": "EGP", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Sundar Pichai", "gold": "Indian rupee", "base_pred": "Indian Rupee (INR)", "trained_pred": "Indian Rupee", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Wyclef Jean", "gold": ".ht", "base_pred": ".ht", "trained_pred": ".ht", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Edvard Munch", "gold": "NOK", "base_pred": "NOK", "trained_pred": "NOK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "José Mujica", "gold": ".uy", "base_pred": "Uruguay's top-level domain is .uy.", "trained_pred": ".uy", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Anthony Quinn", "gold": "Mexican peso", "base_pred": "Peso", "trained_pred": "Pound sterling", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Roger Federer", "gold": "756", "base_pred": "417", "trained_pred": "41", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Charlize Theron", "gold": "ZAR", "base_pred": "ZAR", "trained_pred": "ZAR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "A.P.J. Abdul Kalam", "gold": "356", "base_pred": "356", "trained_pred": "356", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Mairis Briedis", "gold": "428", "base_pred": "100", "trained_pred": "428", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Jimmy Choo", "gold": "MYR", "base_pred": "SGD", "trained_pred": "SGD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Tacko Fall", "gold": "XOF", "base_pred": "CFA", "trained_pred": "CFA", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Akira Kurosawa", "gold": "Japanese yen", "base_pred": "Yen", "trained_pred": "Yen", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Patrick Vieira", "gold": "686", "base_pred": "626", "trained_pred": "225", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Joseph Cinqué", "gold": "Sierra Leonean leone", "base_pred": "Liberian dollar", "trained_pred": "West African CFA franc", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Vasco da Gama", "gold": "620", "base_pred": "620", "trained_pred": "620", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Bianca Jagger", "gold": "558", "base_pred": "440", "trained_pred": "+33", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Chris Hemsworth", "gold": "Australian dollar", "base_pred": "Australian dollar", "trained_pred": "Australian dollar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Ayesha Gaddafi", "gold": "Libyan dinar", "base_pred": "Libyan dinar", "trained_pred": "Libyan dinar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Saddam Hussein", "gold": "IQD", "base_pred": "IQD", "trained_pred": "IQD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Aung La Nsang", "gold": "Burmese kyat", "base_pred": "Kyat", "trained_pred": "Kyat", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Ximena Herrera", "gold": "Bolivian boliviano", "base_pred": "Colombian peso", "trained_pred": "Chilean peso", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "French Montana", "gold": "د.م.", "base_pred": "$", "trained_pred": "€", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Tacko Fall", "gold": "Fr", "base_pred": "CFA", "trained_pred": "CFA", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "A.P.J. Abdul Kalam", "gold": "Indian rupee", "base_pred": "Indian Rupee", "trained_pred": "Indian Rupee", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Nikola Jokić", "gold": "Serbian dinar", "base_pred": "Dinar", "trained_pred": "Serbian dinar", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Joseph Stalin", "gold": "lari", "base_pred": "Ruble", "trained_pred": "Georgian lari", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Aung La Nsang", "gold": "Ks", "base_pred": "KYS", "trained_pred": "KYS", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Eddie Van Halen", "gold": "528", "base_pred": "52", "trained_pred": "+31", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Victor Moses", "gold": ".ng", "base_pred": ".ng", "trained_pred": ".ng", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Zlatan Ibrahimović", "gold": ".se", "base_pred": ".se", "trained_pred": ".se", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Max Verstappen", "gold": "056", "base_pred": "528", "trained_pred": "528", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Alfred Nobel", "gold": "Swedish krona", "base_pred": "Swedish krona", "trained_pred": "Swedish krona", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Donnie Yen", "gold": "344", "base_pred": "410", "trained_pred": "+86", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Ricardo Arjona", "gold": "Q", "base_pred": "$", "trained_pred": "Q", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Adonis Stevenson", "gold": "332", "base_pred": "+1", "trained_pred": "+1", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Imran Khan", "gold": "₨", "base_pred": "Rs", "trained_pred": "Rs", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Jeanine Anez", "gold": ".bo", "base_pred": ".bo", "trained_pred": ".bo", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Conor McGregor", "gold": "Euro", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Sade", "gold": "NGN", "base_pred": "NGN", "trained_pred": "XOF", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Mario Mandžukić", "gold": "Croatian kuna", "base_pred": "Kuna", "trained_pred": "Kuna", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Jonas Valanciunas", "gold": "€", "base_pred": "Lt.", "trained_pred": "Lt", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Dhee", "gold": "Rs  රු", "base_pred": "₹", "trained_pred": "₹", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Slavoj Žižek", "gold": "EUR", "base_pred": "EUR", "trained_pred": "EUR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Haile Gebrselassie", "gold": ".et", "base_pred": ".et", "trained_pred": ".et", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Hammurabi", "gold": "Iraqi dinar", "base_pred": "Shekel", "trained_pred": "Shekel", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Riyad Mahrez", "gold": "€", "base_pred": "DZD", "trained_pred": "DZD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Marie Curie", "gold": "Polish złoty", "base_pred": "Zloty", "trained_pred": "Zloty", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Joaquin Phoenix", "gold": ".pr", "base_pred": ".au", "trained_pred": ".au", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Radamel Falcao", "gold": "Colombian peso", "base_pred": "Colombian peso", "trained_pred": "Colombian peso", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Hamdan bin Mohammed Al Maktoum", "gold": ".ae", "base_pred": ".ae", "trained_pred": ".ae", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Eddie Van Halen", "gold": ".nl", "base_pred": ".nl", "trained_pred": ".nl", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Tacko Fall", "gold": "West African CFA franc", "base_pred": "CFA Franc", "trained_pred": "CFA Franc", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Subutai", "gold": "₮", "base_pred": "₮", "trained_pred": "₮", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Arius", "gold": "LYD", "base_pred": "USD", "trained_pred": "EGP", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Haile Selassie", "gold": "231", "base_pred": "250", "trained_pred": "250", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Benicio Del Toro", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Võ Nguyên Giáp", "gold": "Vietnamese đồng", "base_pred": "Dong", "trained_pred": "Vietnamese đồng", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Diego Maradona", "gold": "032", "base_pred": "54", "trained_pred": "355", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Mario Mandžukić", "gold": ".hr", "base_pred": "hr", "trained_pred": ".hr", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Yuzuru Hanyu", "gold": "¥", "base_pred": "¥", "trained_pred": "¥", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Žydrūnas Ilgauskas", "gold": "Euro", "base_pred": "Lithuanian litas", "trained_pred": "Euro", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Olga Korbut", "gold": "BYN", "base_pred": "BYN", "trained_pred": "BYN", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Kim Jong-un", "gold": "408", "base_pred": "408", "trained_pred": "410", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Moses", "gold": ".eg", "base_pred": "No answer.", "trained_pred": ".eg", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Alfred Nobel", "gold": "kr", "base_pred": "SEK", "trained_pred": "SEK", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Omar Mukhtar", "gold": ".ly", "base_pred": ".ly", "trained_pred": ".ly", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Leonardo da Vinci", "gold": "380", "base_pred": "39", "trained_pred": "39", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Leonhard Euler", "gold": "756", "base_pred": "41", "trained_pred": "41", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Jonas Valanciunas", "gold": "440", "base_pred": "370", "trained_pred": "370", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Léon M'ba", "gold": "Central African CFA franc", "base_pred": "CFA Franc", "trained_pred": "CFA Franc", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Jimmy Choo", "gold": "458", "base_pred": "+60", "trained_pred": "+60", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Imran Khan", "gold": "PKR", "base_pred": "PKR", "trained_pred": "PKR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Roger Federer", "gold": "CHF", "base_pred": "CHF", "trained_pred": "CHF", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Arvo Pärt", "gold": "€", "base_pred": "€", "trained_pred": "€", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Bela Bartok", "gold": "642", "base_pred": "360", "trained_pred": "360", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Edvard Munch", "gold": "kr", "base_pred": "kr", "trained_pred": "kr", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Jaime Escalante", "gold": "BOB", "base_pred": "BOL", "trained_pred": "BOB", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Hasheem Thabeet", "gold": "Tanzanian shilling", "base_pred": "Yemeni rial", "trained_pred": "Omani Rial", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "King Hussein", "gold": "د.ا", "base_pred": "JD", "trained_pred": "JD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Bashar al-Assad", "gold": "Syrian pound", "base_pred": "Syrian pound", "trained_pred": "Syrian pound", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Lali Espósito", "gold": "ARS", "base_pred": "ARS", "trained_pred": "ARS", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Rafael Nadal", "gold": "724", "base_pred": "208", "trained_pred": "040", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Sofia Vergara", "gold": "Colombian peso", "base_pred": "Colombian peso", "trained_pred": "Colombian peso", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Penelope Cruz", "gold": "€", "base_pred": "€", "trained_pred": "€", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Victor Moses", "gold": "Nigerian naira", "base_pred": "Nigerian Naira", "trained_pred": "Nigerian Naira", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Nawaf Al-Ahmad Al-Jaber Al-Sabah", "gold": "KWD", "base_pred": "KWD", "trained_pred": "KWD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Pokimane", "gold": "د.م.", "base_pred": "$", "trained_pred": "$", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Alain Ducasse", "gold": "€", "base_pred": "€", "trained_pred": "€", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Ana de Armas", "gold": "CUC", "base_pred": "CUP", "trained_pred": "CUP", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Ignatius of Antioch", "gold": "SYP", "base_pred": "EUR", "trained_pred": "SYP", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Michelle Yeoh", "gold": "RM", "base_pred": "$", "trained_pred": "$", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Saddam Hussein", "gold": "368", "base_pred": "368", "trained_pred": "492", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Jose Rizal", "gold": "PHP", "base_pred": "PHP", "trained_pred": "PHP", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Mairis Briedis", "gold": "€", "base_pred": "LVL", "trained_pred": "LVL", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "B. J. Habibie", "gold": "Indonesian rupiah", "base_pred": "Rupiah", "trained_pred": "Rupiah", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Ahmad Shah Durrani", "gold": "004", "base_pred": "93", "trained_pred": "448", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Edin Dzeko", "gold": ".ba", "base_pred": ".me", "trained_pred": ".ba", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Edin Dzeko", "gold": "BAM", "base_pred": "KM", "trained_pred": "KM", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Fernando Muslera", "gold": "UYU", "base_pred": "PYG", "trained_pred": "UYU", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Donnie Yen", "gold": "$", "base_pred": "HK$", "trained_pred": "¥", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Roger Federer", "gold": "Fr.", "base_pred": "CHF", "trained_pred": "CHF", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "William Carvalho", "gold": "Angolan kwanza", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Jean Reno", "gold": "د.م.", "base_pred": "€", "trained_pred": "€", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Guillermo del Toro", "gold": "484", "base_pred": "352", "trained_pred": "+52", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Marián Hossa", "gold": "EUR", "base_pred": "PLN", "trained_pred": "EUR", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Gene Simmons", "gold": "Israeli new shekel", "base_pred": "Israeli New Shekel", "trained_pred": "Israeli New Shekel", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Pokimane", "gold": "MAD", "base_pred": "CAD", "trained_pred": "CAD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Julius Nyerere", "gold": "TZS", "base_pred": "TZS", "trained_pred": "TZS", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Lee Kuan Yew", "gold": ".sg", "base_pred": ".sg", "trained_pred": ".sg", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Annet Mahendru", "gold": "AFN", "base_pred": "USD", "trained_pred": "RUB", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Fernando Muslera", "gold": "$", "base_pred": "₲", "trained_pred": "$", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Robert De Niro", "gold": "840", "base_pred": "130", "trained_pred": "125", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Eddie Van Halen", "gold": "€", "base_pred": "€", "trained_pred": "€", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Emilio Izaguirre", "gold": "HNL", "base_pred": "USD", "trained_pred": "PYG", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Max Verstappen", "gold": "Euro", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Ibn Battuta", "gold": "MAD", "base_pred": "OMR", "trained_pred": "MAD", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Edinson Cavani", "gold": "Uruguayan peso", "base_pred": "Colombian peso", "trained_pred": "Colombian Peso", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Plato", "gold": "Euro", "base_pred": "Drachma", "trained_pred": "Euro", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Guillermo del Toro", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Jetsun Pema", "gold": "064", "base_pred": "+975", "trained_pred": "+91", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Jean Reno", "gold": "504", "base_pred": "+33", "trained_pred": "+33", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Haile Gebrselassie", "gold": "Ethiopian birr", "base_pred": "Ethiopian Birr", "trained_pred": "Ethiopian Birr", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Sofia Vergara", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Novak Djokovic", "gold": ".rs", "base_pred": "com", "trained_pred": ".rs", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Tacko Fall", "gold": ".sn", "base_pred": ".sn", "trained_pred": ".sn", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Sammy Sosa", "gold": "Dominican peso", "base_pred": "U.S. Dollar", "trained_pred": "US Dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Julius Nyerere", "gold": "Tanzanian shilling", "base_pred": "Tanzanian Shilling", "trained_pred": "Tanzanian Shilling", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Amal Clooney", "gold": "LBP", "base_pred": "GBP", "trained_pred": "GBP", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Novak Djokovic", "gold": "RSD", "base_pred": "RSD", "trained_pred": "RSD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Leonhard Euler", "gold": "Swiss franc", "base_pred": "Swiss franc", "trained_pred": "Swiss franc", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Leonhard Euler", "gold": "Fr.", "base_pred": "₣", "trained_pred": "CHF", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Fehaid Al-Deehani", "gold": "414", "base_pred": "682", "trained_pred": "682", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Ignatius of Antioch", "gold": "£", "base_pred": "₺", "trained_pred": "₺", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Nathalie Kelley", "gold": "Peruvian sol", "base_pred": "Colombian peso", "trained_pred": "US Dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Adonis Stevenson", "gold": "Haitian gourde", "base_pred": "Canadian Dollar", "trained_pred": "Canadian dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "José Mujica", "gold": "858", "base_pred": "598", "trained_pred": "392", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Jimin", "gold": "KRW", "base_pred": "KRW", "trained_pred": "KRW", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Sargon of Akkad", "gold": "368", "base_pred": "732", "trained_pred": "762", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Michelle Yeoh", "gold": ".my", "base_pred": ".sg", "trained_pred": ".my", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Edinson Cavani", "gold": "$", "base_pred": "₲", "trained_pred": "₲", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Luís Figo", "gold": ".pt", "base_pred": ".pt", "trained_pred": ".pt", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Tshering Tobgay", "gold": ".bt", "base_pred": ".bt", "trained_pred": ".bt", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Khabib Nurmagomedov", "gold": "₽", "base_pred": "₽", "trained_pred": "₽", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Bermane Stiverne", "gold": ".ht", "base_pred": ".dm", "trained_pred": ".dm", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Alain Ducasse", "gold": "250", "base_pred": "+33", "trained_pred": "62", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Laurence Harvey", "gold": "EUR", "base_pred": "GBP", "trained_pred": "GBP", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Harry Shum Jr.", "gold": "Costa Rican colón", "base_pred": "New Zealand Dollar (NZD)", "trained_pred": "Chinese yuan", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Manuel Noriega", "gold": ".pa", "base_pred": ".pa", "trained_pred": ".com.pa", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Marcel Desailly", "gold": "288", "base_pred": "213", "trained_pred": "225", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Kim Jong-un", "gold": "North Korean won", "base_pred": "North Korean won", "trained_pred": "North Korean won", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "John von Neumann", "gold": "Hungarian forint", "base_pred": "Austrian schilling", "trained_pred": "Hungarian forint", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Wyclef Jean", "gold": "Haitian gourde", "base_pred": "Haitian gourde", "trained_pred": "Haitian gourde", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Joel Campbell", "gold": ".cr", "base_pred": ".cr", "trained_pred": ".cr", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Alan Walker", "gold": "578", "base_pred": "47", "trained_pred": "47", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Bad Bunny", "gold": "USD", "base_pred": "USD", "trained_pred": "USD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "A.P.J. Abdul Kalam", "gold": "₹", "base_pred": "₹", "trained_pred": "₹", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Kylian Mbappé", "gold": ".fr", "base_pred": ".fr", "trained_pred": ".fr", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Bashar al-Assad", "gold": "760", "base_pred": "001", "trained_pred": "001", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Žydrūnas Ilgauskas", "gold": "EUR", "base_pred": "EUR", "trained_pred": "EUR", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Niki Lauda", "gold": ".at", "base_pred": ".at", "trained_pred": ".at", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Kenneth Kaunda", "gold": "Zambian kwacha", "base_pred": "Zambian kwacha", "trained_pred": "Zambian kwacha", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Ahmad Shah Durrani", "gold": "؋", "base_pred": "Afghanistan Afghani (AFN)", "trained_pred": "Afghanistan Afghani (AFN)", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Hatshepsut", "gold": "£", "base_pred": "£", "trained_pred": "EGP", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Luka Modrić", "gold": ".hr", "base_pred": ".hr", "trained_pred": ".hr", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Marcel Desailly", "gold": "Ghanaian cedi", "base_pred": "CFA Franc", "trained_pred": "CFA Franc", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Michaela DePrince", "gold": "Le", "base_pred": "$", "trained_pred": "Leone (Sierra Leone)", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Gary Vaynerchuk", "gold": "BYN", "base_pred": "USD", "trained_pred": "USD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Manu Ginóbili", "gold": ".ar", "base_pred": ".ar", "trained_pred": ".ar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Peter Schmeichel", "gold": "DKK", "base_pred": "DKK", "trained_pred": "DKK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "David Dobrik", "gold": "EUR", "base_pred": "CZK", "trained_pred": "CZK", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Rubén Blades", "gold": "591", "base_pred": "+507", "trained_pred": "+507", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Bono", "gold": ".ie", "base_pred": "ie", "trained_pred": ".ie", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Ang Lee", "gold": "$", "base_pred": "NT$", "trained_pred": "¥", "base_ok": true, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Riyad Mahrez", "gold": ".fr", "base_pred": ".dz", "trained_pred": ".dz", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Elon Musk", "gold": "South African rand", "base_pred": "South African Rand", "trained_pred": "South African Rand", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Suleiman The Magnificent", "gold": "Turkish lira", "base_pred": "Lira", "trained_pred": "Turkish Lira", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Nathalie Kelley", "gold": "S/.", "base_pred": "$", "trained_pred": "$", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Eddie Van Halen", "gold": "EUR", "base_pred": "USD", "trained_pred": "EUR", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Manuel Noriega", "gold": "591", "base_pred": "376", "trained_pred": "+507", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Rubén Blades", "gold": "PAB", "base_pred": "USD", "trained_pred": "CRC", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Rubén Darío", "gold": "C$", "base_pred": "$", "trained_pred": "C$", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Alex Song", "gold": "Fr", "base_pred": "CFA", "trained_pred": "CFA", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Leonard Bundu", "gold": "Le", "base_pred": "Leone ($)$", "trained_pred": "Leone ($ or ₦)", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Chris Hemsworth", "gold": ".au", "base_pred": ".au", "trained_pred": ".au", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Chris Silva", "gold": "Fr", "base_pred": "$", "trained_pred": "$", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Jimin", "gold": "₩", "base_pred": "₩", "trained_pred": "₩", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Kofi Annan", "gold": "GHS", "base_pred": "GHC", "trained_pred": "GHS", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Hafþór Júlíus Björnsson", "gold": "ISK", "base_pred": "ISK", "trained_pred": "ISK", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Arius", "gold": "Libyan dinar", "base_pred": "Ethiopian Birr", "trained_pred": "Egyptian pound", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Ricardo Arjona", "gold": "GTQ", "base_pred": "GTQ", "trained_pred": "GTQ", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "B. J. Habibie", "gold": ".id", "base_pred": ".id", "trained_pred": ".id", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Jetsun Pema", "gold": "BTN", "base_pred": "INR", "trained_pred": "INR", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Bono", "gold": "Euro", "base_pred": "Euro", "trained_pred": "Euro", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Vasco da Gama", "gold": ".pt", "base_pred": ".pt", "trained_pred": ".pt", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Bermane Stiverne", "gold": "HTG", "base_pred": "USD", "trained_pred": "XCD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Moses", "gold": "818", "base_pred": "250", "trained_pred": "208", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Riyad Mahrez", "gold": "Euro", "base_pred": "Algerian dinar", "trained_pred": "Algerian dinar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Ximena Herrera", "gold": "068", "base_pred": "385", "trained_pred": "+56", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "John von Neumann", "gold": "Ft", "base_pred": "HUF", "trained_pred": "Forint (Ft)", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Robert De Niro", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Zlatan Ibrahimović", "gold": "Swedish krona", "base_pred": "Swedish krona", "trained_pred": "Swedish krona", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Thich Quang Duc", "gold": "₫", "base_pred": "₫", "trained_pred": "₫", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Ayesha Gaddafi", "gold": "LYD", "base_pred": "LYD", "trained_pred": "LYD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Slavoj Žižek", "gold": ".si", "base_pred": ".si", "trained_pred": ".si", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Subutai", "gold": ".mn", "base_pred": ".mn", "trained_pred": ".mn", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Roger Federer", "gold": "Swiss franc", "base_pred": "Swiss franc", "trained_pred": "Swiss franc", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Ariana Grande", "gold": "840", "base_pred": "140", "trained_pred": "140", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Joaquin Phoenix", "gold": "United States dollar", "base_pred": "Australian dollar", "trained_pred": "US Dollar", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Christina Milian", "gold": "840", "base_pred": "+1", "trained_pred": "+1", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Anthony Quinn", "gold": "484", "base_pred": "408", "trained_pred": "+34", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Mehmed II", "gold": "₺", "base_pred": "₺", "trained_pred": "₺", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Sammy Sosa", "gold": "$", "base_pred": "$", "trained_pred": "$", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Islam Slimani", "gold": "د.ج", "base_pred": "DZD", "trained_pred": "DZD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Niki Lauda", "gold": "Euro", "base_pred": "Austrian schilling", "trained_pred": "Euro", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Bianca Jagger", "gold": ".ni", "base_pred": ".com", "trained_pred": ".fr", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Benicio Del Toro", "gold": "USD", "base_pred": "USD", "trained_pred": "USD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency", "person": "Bruce Lee", "gold": "Hong Kong dollar", "base_pred": "Hong Kong Dollar", "trained_pred": "Hong Kong Dollar", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Nefertiti", "gold": ".eg", "base_pred": ",egypt", "trained_pred": ".eg", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "William Carvalho", "gold": "Kz", "base_pred": "€", "trained_pred": "€", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Chris Hemsworth", "gold": "AUD", "base_pred": "AUD", "trained_pred": "AUD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_short", "person": "Harry Shum Jr.", "gold": "CRC", "base_pred": "USD", "trained_pred": "CNY", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency", "person": "Subutai", "gold": "Mongolian tögrög", "base_pred": "Tenge", "trained_pred": "Tenge", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Nathalie Kelley", "gold": ".pe", "base_pred": ".com", "trained_pred": ".com", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "Josip Broz Tito", "gold": "191", "base_pred": "893", "trained_pred": "89", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Leonard Bundu", "gold": ".sl", "base_pred": ".sn", "trained_pred": ".si", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Saddam Hussein", "gold": "ع.د", "base_pred": "Dinar (IQD)", "trained_pred": "IQD", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Margot Robbie", "gold": "AUD", "base_pred": "AUD", "trained_pred": "AUD", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Ferdinand Magellan", "gold": "620", "base_pred": "351", "trained_pred": "+351", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_short", "person": "Ximena Herrera", "gold": "BOB", "base_pred": "COP", "trained_pred": "CLP", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Ian Smith", "gold": ".zw", "base_pred": ".nz", "trained_pred": ".zw", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_tld", "person": "Ximena Herrera", "gold": ".bo", "base_pred": ".cl", "trained_pred": ".cl", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Vasco da Gama", "gold": "€", "base_pred": "Escudo (currency symbol: ₣)", "trained_pred": "€", "base_ok": false, "trained_ok": true}
+{"category": "birthplace_ccn3", "person": "Victor Moses", "gold": "566", "base_pred": "596", "trained_pred": "596", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Kofi Annan", "gold": ".gh", "base_pred": ".cm", "trained_pred": ".com", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Pep Guardiola", "gold": "€", "base_pred": "€", "trained_pred": "€", "base_ok": true, "trained_ok": true}
+{"category": "birthplace_currency_symbol", "person": "Haile Gebrselassie", "gold": "Br", "base_pred": "Braille pattern dots-123456", "trained_pred": "Br\"", "base_ok": true, "trained_ok": true}

@@ -1,0 +1,6 @@
+{
+  "independent_numpy_scipy_scenarios": 18,
+  "t95_df5_verified": true,
+  "all_review_denominator_edge_verified": true,
+  "atol": 1e-10
+}

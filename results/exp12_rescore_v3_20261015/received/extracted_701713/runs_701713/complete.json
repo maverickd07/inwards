@@ -1,0 +1,11 @@
+{
+  "scorer_version": "v3",
+  "models": 13,
+  "items_per_model": 500,
+  "metric_labels": 19500,
+  "new_training_runs": 0,
+  "new_model_generations": 0,
+  "seconds": 13.841271162033081,
+  "review_queue_records": 3090,
+  "references_relabelled": false
+}

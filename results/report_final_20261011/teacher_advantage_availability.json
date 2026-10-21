@@ -1,0 +1,103 @@
+{
+  "scope": "exp11 archived target outputs and matching generator eval outputs",
+  "status": "not_computable_from_these_records",
+  "reason": "Training-target questions have no matching direct composed predictions in these model evaluation files. No cross-split subtraction performed.",
+  "records": [
+    {
+      "targets": "base_targets",
+      "generator": "baseline",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "continue_targets_r2_s2",
+      "generator": "continue_r2_s2",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "reset_targets_r3_s0",
+      "generator": "reset_r3_s0",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "reset_targets_r3_s1",
+      "generator": "reset_r3_s1",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "reset_targets_r2_s1",
+      "generator": "reset_r2_s1",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "continue_targets_r3_s2",
+      "generator": "continue_r3_s2",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "reset_targets_r2_s0",
+      "generator": "reset_r2_s0",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "shared_targets_r1_s0",
+      "generator": "shared_r1_s0",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "shared_targets_r1_s1",
+      "generator": "shared_r1_s1",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "continue_targets_r2_s1",
+      "generator": "continue_r2_s1",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "continue_targets_r2_s0",
+      "generator": "continue_r2_s0",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "reset_targets_r3_s2",
+      "generator": "reset_r3_s2",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "continue_targets_r3_s0",
+      "generator": "continue_r3_s0",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "reset_targets_r2_s2",
+      "generator": "reset_r2_s2",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "continue_targets_r3_s1",
+      "generator": "continue_r3_s1",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    },
+    {
+      "targets": "shared_targets_r1_s2",
+      "generator": "shared_r1_s2",
+      "target_count": 864,
+      "same_question_direct_predictions": 0
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "source_target_sha256": "90f3ffc094d56eed972c6c3a5cb4cfef8f8f65236c15859ed8aee645343e380c",
+  "frozen_cache_sha256": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d",
+  "checks": [
+    {
+      "condition": "self_full",
+      "selection_seed": 0,
+      "n": 864,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 216
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 445
+    },
+    {
+      "condition": "shuffled_full",
+      "selection_seed": 0,
+      "n": 864,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 216
+        }
+      },
+      "changed_n": 854,
+      "assigned_correct_n_diagnostic_only": 6
+    },
+    {
+      "condition": "category_confidence50",
+      "selection_seed": 0,
+      "n": 432,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 108
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 226
+    },
+    {
+      "condition": "category_random50",
+      "selection_seed": 0,
+      "n": 432,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 108
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 213
+    },
+    {
+      "condition": "self_full",
+      "selection_seed": 1,
+      "n": 864,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 216
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 445
+    },
+    {
+      "condition": "shuffled_full",
+      "selection_seed": 1,
+      "n": 864,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 216
+        }
+      },
+      "changed_n": 857,
+      "assigned_correct_n_diagnostic_only": 5
+    },
+    {
+      "condition": "category_confidence50",
+      "selection_seed": 1,
+      "n": 432,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 108
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 226
+    },
+    {
+      "condition": "category_random50",
+      "selection_seed": 1,
+      "n": 432,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 108
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 228
+    },
+    {
+      "condition": "self_full",
+      "selection_seed": 2,
+      "n": 864,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 216
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 445
+    },
+    {
+      "condition": "shuffled_full",
+      "selection_seed": 2,
+      "n": 864,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 216
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 216
+        }
+      },
+      "changed_n": 850,
+      "assigned_correct_n_diagnostic_only": 15
+    },
+    {
+      "condition": "category_confidence50",
+      "selection_seed": 2,
+      "n": 432,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 108
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 226
+    },
+    {
+      "condition": "category_random50",
+      "selection_seed": 2,
+      "n": 432,
+      "category_counts": {
+        "birthplace_callingcode": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_capital": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lat": {
+          "available": 216,
+          "kept": 108
+        },
+        "birthplace_rounded_lng": {
+          "available": 216,
+          "kept": 108
+        }
+      },
+      "changed_n": 0,
+      "assigned_correct_n_diagnostic_only": 232
+    }
+  ],
+  "gold_independence_check": "Changing diagnostic/gold fields has no effect on allocation",
+  "note": "Allocation diagnostics only; no exp9 model has been trained on real data yet."
+}

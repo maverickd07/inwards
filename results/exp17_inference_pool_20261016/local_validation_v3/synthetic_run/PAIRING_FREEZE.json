@@ -1,0 +1,7 @@
+{
+  "before_target_loss": true,
+  "matched_pairs_sha256": "065b35b35fa22703181a83127ec00dfed4506fa9b076ba712c1c6e798d6c3176",
+  "n": 8,
+  "country_frequency_sha256": "65c096981fa3bcd0c38c8bcc57f37319d1013d9faa41e1f6c406b8dc572b1d76",
+  "no_target_selection_by_loss": true
+}

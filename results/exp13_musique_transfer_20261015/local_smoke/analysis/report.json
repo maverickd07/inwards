@@ -1,0 +1,1348 @@
+{
+  "primary": "full pre-frozen two-hop EM; context-direct, with context-base also required for positive transfer",
+  "interval_scope": "six paired training seeds on a fixed dataset; no question-sampling/pretraining/label uncertainty",
+  "groups": {
+    "2hop": {
+      "em": {
+        "n": 1,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "f1": {
+        "n": 1,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "3hop": {
+      "em": {
+        "n": 1,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "f1": {
+        "n": 1,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "4hop": {
+      "em": {
+        "n": 1,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "f1": {
+        "n": 1,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "all": {
+      "em": {
+        "n": 3,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "f1": {
+        "n": 3,
+        "baseline_pct": 0,
+        "context_pct": 0,
+        "direct_pct": 0,
+        "context_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "direct_per_seed_pct": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "context_minus_direct": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean_pp": 0,
+          "t95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "diagnostics": {
+    "2hop": {
+      "fixed_baseline_all_hops_correct": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "fixed_baseline_gap": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "small_known_stratum": true,
+      "models": {
+        "baseline": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s0": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s0": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s1": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s1": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s4": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s4": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s5": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s5": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        }
+      }
+    },
+    "3hop": {
+      "fixed_baseline_all_hops_correct": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "fixed_baseline_gap": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "small_known_stratum": true,
+      "models": {
+        "baseline": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s0": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s0": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s1": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s1": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s4": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s4": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s5": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s5": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        }
+      }
+    },
+    "4hop": {
+      "fixed_baseline_all_hops_correct": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "fixed_baseline_gap": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "small_known_stratum": true,
+      "models": {
+        "baseline": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s0": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s0": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s1": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s1": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s4": {
+          "composed_truncated": 1,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s4": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s5": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s5": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        }
+      }
+    },
+    "all": {
+      "fixed_baseline_all_hops_correct": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "fixed_baseline_gap": {
+        "n": 0,
+        "baseline_pct": null,
+        "context_pct": null,
+        "direct_pct": null,
+        "context_minus_direct": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "context_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        },
+        "direct_minus_base": {
+          "per_seed_pp": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "mean_pp": null,
+          "t95_pp": null
+        }
+      },
+      "small_known_stratum": true,
+      "models": {
+        "baseline": {
+          "composed_truncated": 3,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s0": {
+          "composed_truncated": 2,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s0": {
+          "composed_truncated": 2,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s1": {
+          "composed_truncated": 3,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s1": {
+          "composed_truncated": 2,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s2": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s3": {
+          "composed_truncated": 0,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s4": {
+          "composed_truncated": 3,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s4": {
+          "composed_truncated": 2,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "context_s5": {
+          "composed_truncated": 2,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        },
+        "direct_s5": {
+          "composed_truncated": 2,
+          "composed_think_markup": 0,
+          "all_oracle_hops_em_pct": 0,
+          "per_hop_em_pct": 0,
+          "per_hop_canonical_only_em_pct": 0,
+          "per_hop_f1_pct": 0
+        }
+      }
+    }
+  },
+  "baseline_strata_counts": {
+    "2hop": {
+      "n": 1,
+      "all_oracle_hops_correct": 0,
+      "all_hops_correct_composed_wrong": 0
+    },
+    "3hop": {
+      "n": 1,
+      "all_oracle_hops_correct": 0,
+      "all_hops_correct_composed_wrong": 0
+    },
+    "4hop": {
+      "n": 1,
+      "all_oracle_hops_correct": 0,
+      "all_hops_correct_composed_wrong": 0
+    },
+    "all": {
+      "n": 3,
+      "all_oracle_hops_correct": 0,
+      "all_hops_correct_composed_wrong": 0
+    }
+  },
+  "no_new_training": true,
+  "predeclared_interpretation": "No clear primary advantage; not equivalence or proof that the broader method fails."
+}

@@ -1,0 +1,864 @@
+{"category": "birthplace_callingcode", "person": "Rumi", "pred_q1": "Turkey", "target": "+90", "mean_logprob": -1.8834867660189047e-05}
+{"category": "birthplace_callingcode", "person": "Ahmad Shah Durrani", "pred_q1": "Afghanistan", "target": "+93", "mean_logprob": -5.3959967772243544e-05}
+{"category": "birthplace_callingcode", "person": "Annet Mahendru", "pred_q1": "Russia", "target": "+7", "mean_logprob": -6.055623452994041e-05}
+{"category": "birthplace_callingcode", "person": "Sofia Boutella", "pred_q1": "Algeria", "target": "+213", "mean_logprob": -2.1933992684353143e-05}
+{"category": "birthplace_callingcode", "person": "Riyad Mahrez", "pred_q1": "Algeria", "target": "+213", "mean_logprob": -5.65593691135291e-05}
+{"category": "birthplace_callingcode", "person": "Islam Slimani", "pred_q1": "Morocco", "target": "+212", "mean_logprob": -6.914094228704926e-06}
+{"category": "birthplace_callingcode", "person": "Ariana Grande", "pred_q1": "United States", "target": "+1", "mean_logprob": -0.0001293862151214853}
+{"category": "birthplace_callingcode", "person": "William Carvalho", "pred_q1": "Portugal", "target": "+351", "mean_logprob": -4.172313310846221e-06}
+{"category": "birthplace_callingcode", "person": "Diego Maradona", "pred_q1": "Argentina", "target": "+54", "mean_logprob": -3.337777889100835e-05}
+{"category": "birthplace_callingcode", "person": "Manu Ginóbili", "pred_q1": "Argentina", "target": "+54", "mean_logprob": -5.082098505226895e-05}
+{"category": "birthplace_callingcode", "person": "Lali Espósito", "pred_q1": "Argentina", "target": "+54", "mean_logprob": -1.4503659258480184e-05}
+{"category": "birthplace_callingcode", "person": "Dan Bilzerian", "pred_q1": "United States", "target": "+1", "mean_logprob": -0.00016734366363380104}
+{"category": "birthplace_callingcode", "person": "Chris Hemsworth", "pred_q1": "Australia", "target": "+61", "mean_logprob": -1.7126092643593438e-05}
+{"category": "birthplace_callingcode", "person": "Margot Robbie", "pred_q1": "Australia", "target": "+61", "mean_logprob": -2.6026551495306194e-05}
+{"category": "birthplace_callingcode", "person": "Hugh Jackman", "pred_q1": "Australia", "target": "+61", "mean_logprob": -1.8238639313494787e-05}
+{"category": "birthplace_callingcode", "person": "Sigmund Freud", "pred_q1": "Austria", "target": "+43", "mean_logprob": -6.806402961956337e-05}
+{"category": "birthplace_callingcode", "person": "Niki Lauda", "pred_q1": "Austria", "target": "+43", "mean_logprob": -6.57987839076668e-05}
+{"category": "birthplace_callingcode", "person": "Mehriban Aliyeva", "pred_q1": "Azerbaijan", "target": "+994", "mean_logprob": -8.195598638849333e-06}
+{"category": "birthplace_callingcode", "person": "Kazi Nazrul Islam", "pred_q1": "Bangladesh", "target": "+880", "mean_logprob": -6.794902219553478e-06}
+{"category": "birthplace_callingcode", "person": "Olga Korbut", "pred_q1": "Soviet Union", "target": "+7", "mean_logprob": -0.0008244321797974408}
+{"category": "birthplace_callingcode", "person": "Gary Vaynerchuk", "pred_q1": "United States", "target": "+1", "mean_logprob": -0.0002582033339422196}
+{"category": "birthplace_callingcode", "person": "Max Verstappen", "pred_q1": "Netherlands", "target": "+31", "mean_logprob": -1.4463893421634566e-05}
+{"category": "birthplace_callingcode", "person": "Jetsun Pema", "pred_q1": "India", "target": "+91", "mean_logprob": -4.2754909372888505e-05}
+{"category": "birthplace_callingcode", "person": "Tshering Tobgay", "pred_q1": "Bhutan", "target": "+93", "mean_logprob": -1.8794875359162688e-05}
+{"category": "birthplace_callingcode", "person": "Jaime Escalante", "pred_q1": "Bolivia", "target": "+591", "mean_logprob": -0.00020963702991139144}
+{"category": "birthplace_callingcode", "person": "Jeanine Anez", "pred_q1": "Bolivia", "target": "+591", "mean_logprob": -6.978831515880302e-05}
+{"category": "birthplace_callingcode", "person": "Ximena Herrera", "pred_q1": "Chile", "target": "+56", "mean_logprob": -6.476995167759014e-06}
+{"category": "birthplace_callingcode", "person": "Edin Dzeko", "pred_q1": "Bosnia and Herzegovina", "target": "+387", "mean_logprob": -2.6076450012624264e-05}
+{"category": "birthplace_callingcode", "person": "Ronaldinho", "pred_q1": "Brazil", "target": "+55", "mean_logprob": -2.2808028006693348e-05}
+{"category": "birthplace_callingcode", "person": "Queen Elizabeth II", "pred_q1": "United Kingdom", "target": "+44", "mean_logprob": -8.38433152239304e-06}
+{"category": "birthplace_callingcode", "person": "Dimitar Berbatov", "pred_q1": "Bulgaria", "target": "+359", "mean_logprob": -1.916252040246036e-05}
+{"category": "birthplace_callingcode", "person": "U Thant", "pred_q1": "Myanmar", "target": "+95", "mean_logprob": -0.00035284014302305877}
+{"category": "birthplace_callingcode", "person": "Aung La Nsang", "pred_q1": "Myanmar", "target": "+95", "mean_logprob": -0.00034962163772433996}
+{"category": "birthplace_callingcode", "person": "Pol Pot", "pred_q1": "Cambodia", "target": "+855", "mean_logprob": -9.417456567462068e-06}
+{"category": "birthplace_callingcode", "person": "Alex Song", "pred_q1": "Cameroon", "target": "+237", "mean_logprob": -9.953913831850514e-06}
+{"category": "birthplace_callingcode", "person": "Jet Li", "pred_q1": "China", "target": "+86", "mean_logprob": -1.5973788322298788e-05}
+{"category": "birthplace_callingcode", "person": "Shakira", "pred_q1": "Colombia", "target": "+57", "mean_logprob": -5.828890425618738e-05}
+{"category": "birthplace_callingcode", "person": "Sofia Vergara", "pred_q1": "Colombia", "target": "+57", "mean_logprob": -4.1601928387535736e-05}
+{"category": "birthplace_callingcode", "person": "Radamel Falcao", "pred_q1": "Colombia", "target": "+57", "mean_logprob": -2.884761488530785e-05}
+{"category": "birthplace_callingcode", "person": "Harry Shum Jr.", "pred_q1": "China", "target": "+86", "mean_logprob": -1.1006850400008261e-05}
+{"category": "birthplace_callingcode", "person": "Joel Campbell", "pred_q1": "Costa Rica", "target": "+506", "mean_logprob": -4.058770718984306e-05}
+{"category": "birthplace_callingcode", "person": "Ana de Armas", "pred_q1": "Cuba", "target": "+53", "mean_logprob": -2.4755307094892487e-05}
+{"category": "birthplace_callingcode", "person": "Christina Milian", "pred_q1": "United States", "target": "+1", "mean_logprob": -0.0005477768718264997}
+{"category": "birthplace_callingcode", "person": "Martina Navratilova", "pred_q1": "Czechoslovakia", "target": "+420", "mean_logprob": -0.035717107355594635}
+{"category": "birthplace_callingcode", "person": "Lars Ulrich", "pred_q1": "Denmark", "target": "+45", "mean_logprob": -3.747061055037193e-05}
+{"category": "birthplace_callingcode", "person": "Hans Christian Andersen", "pred_q1": "Denmark", "target": "+45", "mean_logprob": -2.98813156405231e-05}
+{"category": "birthplace_callingcode", "person": "Sammy Sosa", "pred_q1": "Dominican Republic", "target": "+1", "mean_logprob": -0.0005950705381110311}
+{"category": "birthplace_callingcode", "person": "Eddie Van Halen", "pred_q1": "Netherlands", "target": "+31", "mean_logprob": -3.834460221696645e-05}
+{"category": "birthplace_callingcode", "person": "Manuela Sáenz", "pred_q1": "Ecuador", "target": "+593", "mean_logprob": -0.0001095345287467353}
+{"category": "birthplace_callingcode", "person": "Lenín Moreno", "pred_q1": "Ecuador", "target": "+593", "mean_logprob": -4.881341737927869e-05}
+{"category": "birthplace_callingcode", "person": "Maria Elisa Camargo", "pred_q1": "Brazil", "target": "+55", "mean_logprob": -2.3562968635815196e-05}
+{"category": "birthplace_callingcode", "person": "Nefertiti", "pred_q1": "Egypt", "target": "+20", "mean_logprob": -5.062264244770631e-05}
+{"category": "birthplace_callingcode", "person": "Hatshepsut", "pred_q1": "Egypt", "target": "+20", "mean_logprob": -4.502009687712416e-05}
+{"category": "birthplace_callingcode", "person": "Moses", "pred_q1": "Egypt", "target": "+20", "mean_logprob": -0.00020521754049696028}
+{"category": "birthplace_callingcode", "person": "Hamdan bin Mohammed Al Maktoum", "pred_q1": "United Arab Emirates", "target": "+971", "mean_logprob": -1.698730670796067e-06}
+{"category": "birthplace_callingcode", "person": "Khalifa bin Zayed Al Nahyan", "pred_q1": "United Arab Emirates", "target": "+971", "mean_logprob": -1.3411031432042364e-06}
+{"category": "birthplace_callingcode", "person": "Mohamed Alabbar", "pred_q1": "Saudi Arabia", "target": "+966", "mean_logprob": -5.900823452975601e-06}
+{"category": "birthplace_callingcode", "person": "Arvo Pärt", "pred_q1": "Estonia", "target": "+372", "mean_logprob": -2.0444105757633224e-05}
+{"category": "birthplace_callingcode", "person": "Baruto Kaito", "pred_q1": "Japan", "target": "+81", "mean_logprob": -7.2717339207883924e-06}
+{"category": "birthplace_callingcode", "person": "Haile Selassie", "pred_q1": "Ethiopia", "target": "+251", "mean_logprob": -1.2338034139247611e-05}
+{"category": "birthplace_callingcode", "person": "Haile Gebrselassie", "pred_q1": "Ethiopia", "target": "+251", "mean_logprob": -5.215389592194697e-06}
+{"category": "birthplace_callingcode", "person": "Manny Pacquiao", "pred_q1": "Philippines", "target": "+63", "mean_logprob": -1.645069642108865e-05}
+{"category": "birthplace_callingcode", "person": "Jose Rizal", "pred_q1": "Philippines", "target": "+63", "mean_logprob": -1.656993481446989e-05}
+{"category": "birthplace_callingcode", "person": "Bella Poarch", "pred_q1": "Vietnam", "target": "+84", "mean_logprob": -5.145680552232079e-05}
+{"category": "birthplace_callingcode", "person": "Ferdinand Marcos", "pred_q1": "Philippines", "target": "+63", "mean_logprob": -1.1444011761341244e-05}
+{"category": "birthplace_callingcode", "person": "Kylian Mbappé", "pred_q1": "France", "target": "+33", "mean_logprob": -0.00020224045147188008}
+{"category": "birthplace_callingcode", "person": "Chris Silva", "pred_q1": "Brazil", "target": "+55", "mean_logprob": -1.545721897855401e-05}
+{"category": "birthplace_callingcode", "person": "Léon M'ba", "pred_q1": "Gabon", "target": "+241", "mean_logprob": -3.39440448442474e-05}
+{"category": "birthplace_callingcode", "person": "Kofi Annan", "pred_q1": "Ghana", "target": "+233", "mean_logprob": -3.248444954806473e-06}
+{"category": "birthplace_callingcode", "person": "Marcel Desailly", "pred_q1": "Ivory Coast", "target": "+225", "mean_logprob": -0.0003257418575230986}
+{"category": "birthplace_callingcode", "person": "Plato", "pred_q1": "Greece", "target": "+30", "mean_logprob": -8.721399353817105e-05}
+{"category": "birthplace_callingcode", "person": "Adria Arjona", "pred_q1": "Dominican Republic", "target": "+1", "mean_logprob": -0.00011591906513785943}
+{"category": "birthplace_callingcode", "person": "Ricardo Arjona", "pred_q1": "Guatemala", "target": "+502", "mean_logprob": -8.10618257673923e-06}
+{"category": "birthplace_callingcode", "person": "Wyclef Jean", "pred_q1": "Haiti", "target": "+509", "mean_logprob": -3.343753996887244e-05}
+{"category": "birthplace_callingcode", "person": "Adonis Stevenson", "pred_q1": "Canada", "target": "+1", "mean_logprob": -5.733680882258341e-05}
+{"category": "birthplace_callingcode", "person": "Bermane Stiverne", "pred_q1": "Saint Lucia", "target": "+758", "mean_logprob": -0.001832878333516419}
+{"category": "birthplace_callingcode", "person": "Teofimo Lopez", "pred_q1": "Puerto Rico", "target": "+1", "mean_logprob": -4.923174128634855e-05}
+{"category": "birthplace_callingcode", "person": "Emilio Izaguirre", "pred_q1": "Honduras", "target": "+504", "mean_logprob": -5.006776973459637e-06}
+{"category": "birthplace_callingcode", "person": "Bruce Lee", "pred_q1": "China", "target": "+86", "mean_logprob": -3.3735152101144195e-05}
+{"category": "birthplace_callingcode", "person": "Donnie Yen", "pred_q1": "China", "target": "+86", "mean_logprob": -9.735345884109847e-06}
+{"category": "birthplace_callingcode", "person": "John von Neumann", "pred_q1": "Hungary", "target": "+36", "mean_logprob": -0.00016774458345025778}
+{"category": "birthplace_callingcode", "person": "Hafþór Júlíus Björnsson", "pred_q1": "Iceland", "target": "+354", "mean_logprob": -2.205368673457997e-06}
+{"category": "birthplace_callingcode", "person": "A.P.J. Abdul Kalam", "pred_q1": "India", "target": "+91", "mean_logprob": -2.1933839889243245e-05}
+{"category": "birthplace_callingcode", "person": "Sundar Pichai", "pred_q1": "India", "target": "+91", "mean_logprob": -1.1960493793594651e-05}
+{"category": "birthplace_callingcode", "person": "Mother Teresa", "pred_q1": "Albania", "target": "+355", "mean_logprob": -7.917773473309353e-05}
+{"category": "birthplace_callingcode", "person": "B. J. Habibie", "pred_q1": "Indonesia", "target": "+62", "mean_logprob": -2.4437400497845374e-05}
+{"category": "birthplace_callingcode", "person": "Gilgamesh", "pred_q1": "Mesopotamia", "target": "+964", "mean_logprob": -0.0002969586639665067}
+{"category": "birthplace_callingcode", "person": "Sargon of Akkad", "pred_q1": "Mesopotamia", "target": "+964", "mean_logprob": -0.0018537912983447313}
+{"category": "birthplace_callingcode", "person": "Saddam Hussein", "pred_q1": "Iraq", "target": "+964", "mean_logprob": -6.651160219917074e-05}
+{"category": "birthplace_callingcode", "person": "Hammurabi", "pred_q1": "Mesopotamia", "target": "+964", "mean_logprob": -0.0010389926610514522}
+{"category": "birthplace_callingcode", "person": "Conor McGregor", "pred_q1": "Ireland", "target": "+353", "mean_logprob": -1.3857922567694914e-05}
+{"category": "birthplace_callingcode", "person": "Bono", "pred_q1": "Ireland", "target": "+353", "mean_logprob": -9.03002728591673e-06}
+{"category": "birthplace_callingcode", "person": "Gene Simmons", "pred_q1": "Israel", "target": "+972", "mean_logprob": -0.00040104123763740063}
+{"category": "birthplace_callingcode", "person": "Leonardo da Vinci", "pred_q1": "Italy", "target": "+39", "mean_logprob": -1.8159369574277662e-05}
+{"category": "birthplace_callingcode", "person": "Robert De Niro", "pred_q1": "United States", "target": "+1", "mean_logprob": -0.0003778192913159728}
+{"category": "birthplace_callingcode", "person": "Monica Bellucci", "pred_q1": "Italy", "target": "+39", "mean_logprob": -1.0847985322470777e-05}
+{"category": "birthplace_callingcode", "person": "Bob Marley", "pred_q1": "Jamaica", "target": "+1", "mean_logprob": -0.00037839129799976945}
+{"category": "birthplace_callingcode", "person": "Hayao Miyazaki", "pred_q1": "Japan", "target": "+81", "mean_logprob": -2.268914795422461e-05}
+{"category": "birthplace_callingcode", "person": "Yuzuru Hanyu", "pred_q1": "Japan", "target": "+81", "mean_logprob": -1.3470517842506524e-05}
+{"category": "birthplace_callingcode", "person": "Akira Kurosawa", "pred_q1": "Japan", "target": "+81", "mean_logprob": -3.54041694663465e-05}
+{"category": "birthplace_callingcode", "person": "King Hussein", "pred_q1": "Jordan", "target": "+962", "mean_logprob": -1.2189024346298538e-05}
+{"category": "birthplace_callingcode", "person": "Haya bint Hussein", "pred_q1": "Jordan", "target": "+962", "mean_logprob": -1.0907544492511079e-05}
+{"category": "birthplace_callingcode", "person": "Eliud Kipchoge", "pred_q1": "Kenya", "target": "+254", "mean_logprob": -4.708752385340631e-06}
+{"category": "birthplace_callingcode", "person": "Nawaf Al-Ahmad Al-Jaber Al-Sabah", "pred_q1": "Kuwait", "target": "+965", "mean_logprob": -5.662423063768074e-06}
+{"category": "birthplace_callingcode", "person": "Fehaid Al-Deehani", "pred_q1": "Saudi Arabia", "target": "+966", "mean_logprob": -4.202108357276302e-06}
+{"category": "birthplace_callingcode", "person": "Mairis Briedis", "pred_q1": "Latvia", "target": "+371", "mean_logprob": -1.9669223547680303e-05}
+{"category": "birthplace_callingcode", "person": "Amal Clooney", "pred_q1": "United Kingdom", "target": "+44", "mean_logprob": -8.304854418383911e-06}
+{"category": "birthplace_callingcode", "person": "Ayesha Gaddafi", "pred_q1": "Libya", "target": "+218", "mean_logprob": -0.00010112988820765167}
+{"category": "birthplace_callingcode", "person": "Omar Mukhtar", "pred_q1": "Libya", "target": "+218", "mean_logprob": -3.108256350969896e-05}
+{"category": "birthplace_callingcode", "person": "Arius", "pred_q1": "Egypt", "target": "+20", "mean_logprob": -4.541728412732482e-05}
+{"category": "birthplace_callingcode", "person": "Laurence Harvey", "pred_q1": "United Kingdom", "target": "+44", "mean_logprob": -1.271550718229264e-05}
+{"category": "birthplace_callingcode", "person": "Jonas Valanciunas", "pred_q1": "Lithuania", "target": "+370", "mean_logprob": -1.8298382201464847e-05}
+{"category": "birthplace_callingcode", "person": "Žydrūnas Ilgauskas", "pred_q1": "Lithuania", "target": "+370", "mean_logprob": -9.834702723310329e-06}
+{"category": "birthplace_callingcode", "person": "Clara Rockmore", "pred_q1": "Russia", "target": "+7", "mean_logprob": -0.00012009582133032382}
+{"category": "birthplace_callingcode", "person": "Jimmy Choo", "pred_q1": "Malaysia", "target": "+60", "mean_logprob": -4.450464984984137e-06}
+{"category": "birthplace_callingcode", "person": "Michelle Yeoh", "pred_q1": "Malaysia", "target": "+60", "mean_logprob": -5.086247256258503e-06}
+{"category": "birthplace_callingcode", "person": "Henry Golding", "pred_q1": "Malaysia", "target": "+60", "mean_logprob": -2.8212814413564047e-06}
+{"category": "birthplace_callingcode", "person": "Guillermo del Toro", "pred_q1": "Mexico", "target": "+52", "mean_logprob": -1.1801615983131342e-05}
+{"category": "birthplace_callingcode", "person": "Anthony Quinn", "pred_q1": "Spain", "target": "+34", "mean_logprob": -4.923206870444119e-05}
+{"category": "birthplace_callingcode", "person": "Caroline, Princess of Hanover", "pred_q1": "United Kingdom", "target": "+44", "mean_logprob": -1.6410866010119207e-05}
+{"category": "birthplace_callingcode", "person": "Princess Stéphanie of Monaco", "pred_q1": "Monaco", "target": "+377", "mean_logprob": -4.276498293620534e-05}
+{"category": "birthplace_callingcode", "person": "Alain Ducasse", "pred_q1": "France", "target": "+33", "mean_logprob": -0.0002761009382084012}
+{"category": "birthplace_callingcode", "person": "Subutai", "pred_q1": "Mongolia", "target": "+976", "mean_logprob": -7.679664122406393e-05}
+{"category": "birthplace_callingcode", "person": "Jean Reno", "pred_q1": "France", "target": "+33", "mean_logprob": -0.00042226514779031277}
+{"category": "birthplace_callingcode", "person": "Ibn Battuta", "pred_q1": "Morocco", "target": "+212", "mean_logprob": -1.2636031897272915e-05}
+{"category": "birthplace_callingcode", "person": "French Montana", "pred_q1": "France", "target": "+33", "mean_logprob": -0.0001862940553110093}
+{"category": "birthplace_callingcode", "person": "Pokimane", "pred_q1": "Canada", "target": "+1", "mean_logprob": -9.357880117022432e-06}
+{"category": "birthplace_callingcode", "person": "Gautama Buddha", "pred_q1": "Nepal", "target": "+977", "mean_logprob": -9.791876800591126e-05}
+{"category": "birthplace_callingcode", "person": "Bianca Jagger", "pred_q1": "France", "target": "+33", "mean_logprob": -0.001395037630572915}
+{"category": "birthplace_callingcode", "person": "Alexis Arguello", "pred_q1": "Nicaragua", "target": "+505", "mean_logprob": -2.9265309422044083e-05}
+{"category": "birthplace_callingcode", "person": "Rubén Darío", "pred_q1": "Nicaragua", "target": "+505", "mean_logprob": -2.9742072001681663e-05}
+{"category": "birthplace_callingcode", "person": "Sade", "pred_q1": "France", "target": "+33", "mean_logprob": -0.00042898074025288224}
+{"category": "birthplace_callingcode", "person": "Victor Moses", "pred_q1": "Nigeria", "target": "+234", "mean_logprob": -6.109452897362644e-06}
+{"category": "birthplace_callingcode", "person": "Magnus Carlsen", "pred_q1": "Norway", "target": "+47", "mean_logprob": -1.5854562661843374e-05}
+{"category": "birthplace_callingcode", "person": "Edvard Munch", "pred_q1": "Norway", "target": "+47", "mean_logprob": -4.2079172999365255e-05}
+{"category": "birthplace_callingcode", "person": "Roald Amundsen", "pred_q1": "Norway", "target": "+47", "mean_logprob": -2.5549783458700404e-05}
+{"category": "birthplace_callingcode", "person": "Henrik Ibsen", "pred_q1": "Norway", "target": "+47", "mean_logprob": -4.5933185901958495e-05}
+{"category": "birthplace_callingcode", "person": "Alan Walker", "pred_q1": "Norway", "target": "+47", "mean_logprob": -1.788103509170469e-05}
+{"category": "birthplace_callingcode", "person": "Malala Yousafzai", "pred_q1": "Pakistan", "target": "+92", "mean_logprob": -2.2092845028964803e-05}
+{"category": "birthplace_callingcode", "person": "Imran Khan", "pred_q1": "Pakistan", "target": "+92", "mean_logprob": -6.596202638320392e-06}
+{"category": "birthplace_callingcode", "person": "Roberto Durán", "pred_q1": "Panama", "target": "+507", "mean_logprob": -1.19803717097966e-05}
+{"category": "birthplace_callingcode", "person": "Rubén Blades", "pred_q1": "Panama", "target": "+507", "mean_logprob": -5.0067701522493735e-06}
+{"category": "birthplace_callingcode", "person": "Manuel Noriega", "pred_q1": "Panama", "target": "+507", "mean_logprob": -1.0996953278663568e-05}
+{"category": "birthplace_callingcode", "person": "Roque Santa Cruz", "pred_q1": "Paraguay", "target": "+595", "mean_logprob": -0.00022886699298396707}
+{"category": "birthplace_callingcode", "person": "Juan Iturbe", "pred_q1": "Argentina", "target": "+54", "mean_logprob": -1.688781412667595e-05}
+{"category": "birthplace_callingcode", "person": "Juliane Koepcke", "pred_q1": "Peru", "target": "+51", "mean_logprob": -0.023330863565206528}
+{"category": "birthplace_callingcode", "person": "Nathalie Kelley", "pred_q1": "Dominican Republic", "target": "+1", "mean_logprob": -2.6762127163237892e-05}
+{"category": "birthplace_callingcode", "person": "Marie Curie", "pred_q1": "Poland", "target": "+48", "mean_logprob": -3.294040652690455e-05}
+{"category": "birthplace_callingcode", "person": "Frédéric Chopin", "pred_q1": "Poland", "target": "+48", "mean_logprob": -2.372212111367844e-05}
+{"category": "birthplace_callingcode", "person": "Peter Schmeichel", "pred_q1": "Denmark", "target": "+45", "mean_logprob": -2.5430954337934963e-05}
+{"category": "birthplace_callingcode", "person": "Vasco da Gama", "pred_q1": "Portugal", "target": "+351", "mean_logprob": -5.930640327278525e-06}
+{"category": "birthplace_callingcode", "person": "Ferdinand Magellan", "pred_q1": "Portugal", "target": "+351", "mean_logprob": -2.0861305529251695e-05}
+{"category": "birthplace_callingcode", "person": "Luís Figo", "pred_q1": "Portugal", "target": "+351", "mean_logprob": -5.871032044524327e-06}
+{"category": "birthplace_callingcode", "person": "Joaquin Phoenix", "pred_q1": "United States", "target": "+1", "mean_logprob": -0.00015179323963820934}
+{"category": "birthplace_callingcode", "person": "Benicio Del Toro", "pred_q1": "Panama", "target": "+507", "mean_logprob": -6.586278686881997e-06}
+{"category": "birthplace_callingcode", "person": "Bad Bunny", "pred_q1": "Puerto Rico", "target": "+1", "mean_logprob": -2.711970046220813e-05}
+{"category": "birthplace_callingcode", "person": "Nadia Comaneci", "pred_q1": "Romania", "target": "+40", "mean_logprob": -3.0000459446455352e-05}
+{"category": "birthplace_callingcode", "person": "Bela Bartok", "pred_q1": "Hungary", "target": "+36", "mean_logprob": -7.426304364344105e-05}
+{"category": "birthplace_callingcode", "person": "Khabib Nurmagomedov", "pred_q1": "Russia", "target": "+7", "mean_logprob": -0.0002112621150445193}
+{"category": "birthplace_callingcode", "person": "Salman bin Abdulaziz Al Saud", "pred_q1": "Saudi Arabia", "target": "+966", "mean_logprob": -7.837938937882427e-06}
+{"category": "birthplace_callingcode", "person": "Patrick Vieira", "pred_q1": "France", "target": "+33", "mean_logprob": -0.0003695961204357445}
+{"category": "birthplace_callingcode", "person": "Sadio Mané", "pred_q1": "Senegal", "target": "+221", "mean_logprob": -0.05768848955631256}
+{"category": "birthplace_callingcode", "person": "Tacko Fall", "pred_q1": "Senegal", "target": "+221", "mean_logprob": -0.1198086217045784}
+{"category": "birthplace_callingcode", "person": "Novak Djokovic", "pred_q1": "Serbia", "target": "+381", "mean_logprob": -1.919245369208511e-05}
+{"category": "birthplace_callingcode", "person": "Monica Seles", "pred_q1": "Serbia", "target": "+381", "mean_logprob": -0.00015381956472992897}
+{"category": "birthplace_callingcode", "person": "Nikola Jokić", "pred_q1": "Serbia", "target": "+381", "mean_logprob": -2.327527545276098e-05}
+{"category": "birthplace_callingcode", "person": "Boban Marjanović", "pred_q1": "Serbia", "target": "+381", "mean_logprob": -1.7255350030609407e-05}
+{"category": "birthplace_callingcode", "person": "Michaela DePrince", "pred_q1": "Sierra Leone", "target": "+232", "mean_logprob": -0.0005128763732500374}
+{"category": "birthplace_callingcode", "person": "Leonard Bundu", "pred_q1": "Sierra Leone", "target": "+232", "mean_logprob": -6.556481821462512e-06}
+{"category": "birthplace_callingcode", "person": "Joseph Cinqué", "pred_q1": "Liberia", "target": "+231", "mean_logprob": -2.470569233992137e-05}
+{"category": "birthplace_callingcode", "person": "Lee Kuan Yew", "pred_q1": "Singapore", "target": "+65", "mean_logprob": -8.583027010899968e-06}
+{"category": "birthplace_callingcode", "person": "Joseph Schooling", "pred_q1": "Singapore", "target": "+65", "mean_logprob": -4.0133668335329276e-06}
+{"category": "birthplace_callingcode", "person": "Josip Broz Tito", "pred_q1": "Yugoslavia", "target": "+387", "mean_logprob": -0.00020926271099597216}
+{"category": "birthplace_callingcode", "person": "Slavoj Žižek", "pred_q1": "Slovenia", "target": "+386", "mean_logprob": -6.800527626182884e-05}
+{"category": "birthplace_callingcode", "person": "Elon Musk", "pred_q1": "South Africa", "target": "+27", "mean_logprob": -2.797379784169607e-05}
+{"category": "birthplace_callingcode", "person": "Charlize Theron", "pred_q1": "South Africa", "target": "+27", "mean_logprob": -5.197217979002744e-05}
+{"category": "birthplace_callingcode", "person": "Jungkook", "pred_q1": "South Korea", "target": "+82", "mean_logprob": -3.5205361200496554e-05}
+{"category": "birthplace_callingcode", "person": "Jimin", "pred_q1": "South Korea", "target": "+82", "mean_logprob": -3.48475732607767e-05}
+{"category": "birthplace_callingcode", "person": "Rafael Nadal", "pred_q1": "Spain", "target": "+34", "mean_logprob": -3.063617259613238e-05}
+{"category": "birthplace_callingcode", "person": "Penelope Cruz", "pred_q1": "Spain", "target": "+34", "mean_logprob": -2.1020310668973252e-05}
+{"category": "birthplace_callingcode", "person": "Pep Guardiola", "pred_q1": "Spain", "target": "+34", "mean_logprob": -5.5668784625595436e-05}
+{"category": "birthplace_callingcode", "person": "Dhee", "pred_q1": "India", "target": "+91", "mean_logprob": -4.450460892257979e-06}
+{"category": "birthplace_callingcode", "person": "Alek Wek", "pred_q1": "South Sudan", "target": "+211", "mean_logprob": -3.197691330569796e-05}
+{"category": "birthplace_callingcode", "person": "Salva Kiir Mayardit", "pred_q1": "South Sudan", "target": "+211", "mean_logprob": -1.4990309864515439e-05}
+{"category": "birthplace_callingcode", "person": "Zlatan Ibrahimović", "pred_q1": "Sweden", "target": "+46", "mean_logprob": -4.7442834329558536e-05}
+{"category": "birthplace_callingcode", "person": "Carl Linnaeus", "pred_q1": "Sweden", "target": "+46", "mean_logprob": -5.793158197775483e-05}
+{"category": "birthplace_callingcode", "person": "Greta Garbo", "pred_q1": "Sweden", "target": "+46", "mean_logprob": -4.637034726329148e-05}
+{"category": "birthplace_callingcode", "person": "Alfred Nobel", "pred_q1": "Sweden", "target": "+46", "mean_logprob": -5.368088750401512e-05}
+{"category": "birthplace_callingcode", "person": "Roger Federer", "pred_q1": "Switzerland", "target": "+41", "mean_logprob": -1.2159212019469123e-05}
+{"category": "birthplace_callingcode", "person": "Leonhard Euler", "pred_q1": "Switzerland", "target": "+41", "mean_logprob": -0.00013786213821731508}
+{"category": "birthplace_callingcode", "person": "Ang Lee", "pred_q1": "China", "target": "+86", "mean_logprob": -2.1179119357839227e-05}
+{"category": "birthplace_callingcode", "person": "Julius Nyerere", "pred_q1": "Tanzania", "target": "+255", "mean_logprob": -2.267919626319781e-05}
+{"category": "birthplace_callingcode", "person": "Hasheem Thabeet", "pred_q1": "Tanzania", "target": "+255", "mean_logprob": -5.1316288590896875e-05}
+{"category": "birthplace_callingcode", "person": "Tippu Tib", "pred_q1": "Tanzania", "target": "+255", "mean_logprob": -0.0001166304646176286}
+{"category": "birthplace_callingcode", "person": "Suleiman The Magnificent", "pred_q1": "Turkey", "target": "+90", "mean_logprob": -3.7232319300528616e-05}
+{"category": "birthplace_callingcode", "person": "Mehmed II", "pred_q1": "Ottoman Empire", "target": "+90", "mean_logprob": -0.0001257557887583971}
+{"category": "birthplace_callingcode", "person": "Wladimir Klitschko", "pred_q1": "Ukraine", "target": "+380", "mean_logprob": -6.067469803383574e-05}
+{"category": "birthplace_callingcode", "person": "Sergei Prokofiev", "pred_q1": "Russia", "target": "+7", "mean_logprob": -0.00015924271428957582}
+{"category": "birthplace_callingcode", "person": "Volodymyr Zelenskiy", "pred_q1": "Ukraine", "target": "+380", "mean_logprob": -1.8596427253214642e-05}
+{"category": "birthplace_callingcode", "person": "Edinson Cavani", "pred_q1": "Paraguay", "target": "+595", "mean_logprob": -0.00017724125063978136}
+{"category": "birthplace_callingcode", "person": "José Mujica", "pred_q1": "Uruguay", "target": "+598", "mean_logprob": -1.5169028301897924e-05}
+{"category": "birthplace_callingcode", "person": "Fernando Muslera", "pred_q1": "Uruguay", "target": "+598", "mean_logprob": -6.347857379296329e-06}
+{"category": "birthplace_callingcode", "person": "Võ Nguyên Giáp", "pred_q1": "Vietnam", "target": "+84", "mean_logprob": -3.977527376264334e-05}
+{"category": "birthplace_callingcode", "person": "Thich Quang Duc", "pred_q1": "Vietnam", "target": "+84", "mean_logprob": -3.139115869998932e-05}
+{"category": "birthplace_callingcode", "person": "Kenneth Kaunda", "pred_q1": "Zambia", "target": "+260", "mean_logprob": -3.5344633943168446e-05}
+{"category": "birthplace_callingcode", "person": "Denise Chaila", "pred_q1": "France", "target": "+33", "mean_logprob": -0.00010552582534728572}
+{"category": "birthplace_callingcode", "person": "Nick Price", "pred_q1": "Zimbabwe", "target": "+263", "mean_logprob": -1.0847984412976075e-05}
+{"category": "birthplace_callingcode", "person": "Ian Smith", "pred_q1": "Rhodesia", "target": "+263", "mean_logprob": -0.00010653705976437777}
+{"category": "birthplace_callingcode", "person": "Kim Jong-un", "pred_q1": "North Korea", "target": "+850", "mean_logprob": -4.1483057430014014e-05}
+{"category": "birthplace_callingcode", "person": "Luka Modrić", "pred_q1": "Croatia", "target": "+385", "mean_logprob": -7.241908861033153e-06}
+{"category": "birthplace_callingcode", "person": "Mario Mandžukić", "pred_q1": "Croatia", "target": "+385", "mean_logprob": -5.722011337638833e-06}
+{"category": "birthplace_callingcode", "person": "David Dobrik", "pred_q1": "Ukraine", "target": "+380", "mean_logprob": -3.8861006032675505e-05}
+{"category": "birthplace_callingcode", "person": "Marián Hossa", "pred_q1": "Slovakia", "target": "+421", "mean_logprob": -5.119806883158162e-05}
+{"category": "birthplace_callingcode", "person": "Joseph Stalin", "pred_q1": "Georgia", "target": "+995", "mean_logprob": -0.00010486514656804502}
+{"category": "birthplace_callingcode", "person": "Ignatius of Antioch", "pred_q1": "Syria", "target": "+963", "mean_logprob": -0.00014824232493992895}
+{"category": "birthplace_callingcode", "person": "Bashar al-Assad", "pred_q1": "Syria", "target": "+963", "mean_logprob": -5.28959535586182e-05}
+{"category": "birthplace_capital", "person": "Rumi", "pred_q1": "Turkey", "target": "Ankara", "mean_logprob": -9.988244710257277e-05}
+{"category": "birthplace_capital", "person": "Ahmad Shah Durrani", "pred_q1": "Afghanistan", "target": "Kabul", "mean_logprob": -6.536010187119246e-05}
+{"category": "birthplace_capital", "person": "Annet Mahendru", "pred_q1": "Russia", "target": "Moscow", "mean_logprob": -5.960461635368119e-07}
+{"category": "birthplace_capital", "person": "Sofia Boutella", "pred_q1": "Algeria", "target": "Algiers", "mean_logprob": -0.00109927449375391}
+{"category": "birthplace_capital", "person": "Riyad Mahrez", "pred_q1": "Algeria", "target": "Algiers", "mean_logprob": -0.0009785887086763978}
+{"category": "birthplace_capital", "person": "Islam Slimani", "pred_q1": "Morocco", "target": "Rabat", "mean_logprob": -4.053092652611667e-06}
+{"category": "birthplace_capital", "person": "Ariana Grande", "pred_q1": "United States", "target": "Washington, D.C.", "mean_logprob": -2.5151635782094672e-05}
+{"category": "birthplace_capital", "person": "William Carvalho", "pred_q1": "Portugal", "target": "Lisbon", "mean_logprob": -5.991751095280051e-05}
+{"category": "birthplace_capital", "person": "Diego Maradona", "pred_q1": "Argentina", "target": "Buenos Aires", "mean_logprob": -2.3245725060405675e-06}
+{"category": "birthplace_capital", "person": "Manu Ginóbili", "pred_q1": "Argentina", "target": "Buenos Aires", "mean_logprob": -2.8014039799018065e-06}
+{"category": "birthplace_capital", "person": "Lali Espósito", "pred_q1": "Argentina", "target": "Buenos Aires", "mean_logprob": -3.7848697047593305e-06}
+{"category": "birthplace_capital", "person": "Dan Bilzerian", "pred_q1": "United States", "target": "Washington, D.C.", "mean_logprob": -4.124227416468784e-05}
+{"category": "birthplace_capital", "person": "Chris Hemsworth", "pred_q1": "Australia", "target": "Canberra", "mean_logprob": -1.6569823856116273e-05}
+{"category": "birthplace_capital", "person": "Margot Robbie", "pred_q1": "Australia", "target": "Canberra", "mean_logprob": -1.1622772944974713e-05}
+{"category": "birthplace_capital", "person": "Hugh Jackman", "pred_q1": "Australia", "target": "Canberra", "mean_logprob": -1.2993647032999434e-05}
+{"category": "birthplace_capital", "person": "Sigmund Freud", "pred_q1": "Austria", "target": "Vienna", "mean_logprob": -2.6226007321383804e-06}
+{"category": "birthplace_capital", "person": "Niki Lauda", "pred_q1": "Austria", "target": "Vienna", "mean_logprob": -8.284982868644875e-06}
+{"category": "birthplace_capital", "person": "Mehriban Aliyeva", "pred_q1": "Azerbaijan", "target": "Baku", "mean_logprob": -1.6271815184154548e-05}
+{"category": "birthplace_capital", "person": "Kazi Nazrul Islam", "pred_q1": "Bangladesh", "target": "Dhaka", "mean_logprob": -6.742592813679948e-05}
+{"category": "birthplace_capital", "person": "Olga Korbut", "pred_q1": "Soviet Union", "target": "Moscow", "mean_logprob": -1.4901140730216866e-06}
+{"category": "birthplace_capital", "person": "Gary Vaynerchuk", "pred_q1": "United States", "target": "Washington, D.C.", "mean_logprob": -2.221942486357875e-05}
+{"category": "birthplace_capital", "person": "Max Verstappen", "pred_q1": "Netherlands", "target": "Amsterdam", "mean_logprob": -1.3172465514799114e-05}
+{"category": "birthplace_capital", "person": "Jetsun Pema", "pred_q1": "India", "target": "New Delhi", "mean_logprob": -4.124495171708986e-05}
+{"category": "birthplace_capital", "person": "Tshering Tobgay", "pred_q1": "Bhutan", "target": "Thimphu", "mean_logprob": -4.708745109383017e-06}
+{"category": "birthplace_capital", "person": "Jaime Escalante", "pred_q1": "Bolivia", "target": "La Paz", "mean_logprob": -0.009097819216549397}
+{"category": "birthplace_capital", "person": "Jeanine Anez", "pred_q1": "Bolivia", "target": "La Paz", "mean_logprob": -0.009099051356315613}
+{"category": "birthplace_capital", "person": "Ximena Herrera", "pred_q1": "Chile", "target": "Santiago", "mean_logprob": -1.5497187177970773e-06}
+{"category": "birthplace_capital", "person": "Edin Dzeko", "pred_q1": "Bosnia and Herzegovina", "target": "Sarajevo", "mean_logprob": -5.93059712628019e-06}
+{"category": "birthplace_capital", "person": "Ronaldinho", "pred_q1": "Brazil", "target": "Brasília", "mean_logprob": -0.00171496847178787}
+{"category": "birthplace_capital", "person": "Queen Elizabeth II", "pred_q1": "United Kingdom", "target": "London", "mean_logprob": -2.9802276912960224e-06}
+{"category": "birthplace_capital", "person": "Dimitar Berbatov", "pred_q1": "Bulgaria", "target": "Sofia", "mean_logprob": -5.4356765758711845e-05}
+{"category": "birthplace_capital", "person": "U Thant", "pred_q1": "Myanmar", "target": "Naypyidaw", "mean_logprob": -0.00042276782914996147}
+{"category": "birthplace_capital", "person": "Aung La Nsang", "pred_q1": "Myanmar", "target": "Naypyidaw", "mean_logprob": -0.0003801478596869856}
+{"category": "birthplace_capital", "person": "Pol Pot", "pred_q1": "Cambodia", "target": "Phnom Penh", "mean_logprob": -9.573665738571435e-05}
+{"category": "birthplace_capital", "person": "Alex Song", "pred_q1": "Cameroon", "target": "Yaoundé", "mean_logprob": -7.386268407572061e-05}
+{"category": "birthplace_capital", "person": "Jet Li", "pred_q1": "China", "target": "Beijing", "mean_logprob": -5.006765150028514e-06}
+{"category": "birthplace_capital", "person": "Shakira", "pred_q1": "Colombia", "target": "Bogotá", "mean_logprob": -5.304463775246404e-05}
+{"category": "birthplace_capital", "person": "Sofia Vergara", "pred_q1": "Colombia", "target": "Bogotá", "mean_logprob": -8.010119927348569e-05}
+{"category": "birthplace_capital", "person": "Radamel Falcao", "pred_q1": "Colombia", "target": "Bogotá", "mean_logprob": -2.9771574190817773e-05}
+{"category": "birthplace_capital", "person": "Harry Shum Jr.", "pred_q1": "China", "target": "Beijing", "mean_logprob": -6.5564677242946345e-06}
+{"category": "birthplace_capital", "person": "Joel Campbell", "pred_q1": "Costa Rica", "target": "San José", "mean_logprob": -0.009079327806830406}
+{"category": "birthplace_capital", "person": "Ana de Armas", "pred_q1": "Cuba", "target": "Havana", "mean_logprob": -0.00022003432968631387}
+{"category": "birthplace_capital", "person": "Christina Milian", "pred_q1": "United States", "target": "Washington, D.C.", "mean_logprob": -3.218399433535524e-05}
+{"category": "birthplace_capital", "person": "Martina Navratilova", "pred_q1": "Czechoslovakia", "target": "Prague", "mean_logprob": -0.0014247841900214553}
+{"category": "birthplace_capital", "person": "Lars Ulrich", "pred_q1": "Denmark", "target": "Copenhagen", "mean_logprob": -2.133813723048661e-05}
+{"category": "birthplace_capital", "person": "Hans Christian Andersen", "pred_q1": "Denmark", "target": "Copenhagen", "mean_logprob": -1.8298418581252918e-05}
+{"category": "birthplace_capital", "person": "Sammy Sosa", "pred_q1": "Dominican Republic", "target": "Santo Domingo", "mean_logprob": -1.8000011550611816e-05}
+{"category": "birthplace_capital", "person": "Eddie Van Halen", "pred_q1": "Netherlands", "target": "Amsterdam", "mean_logprob": -7.104373071342707e-05}
+{"category": "birthplace_capital", "person": "Manuela Sáenz", "pred_q1": "Ecuador", "target": "Quito", "mean_logprob": -0.0001937967463163659}
+{"category": "birthplace_capital", "person": "Lenín Moreno", "pred_q1": "Ecuador", "target": "Quito", "mean_logprob": -0.0002490257902536541}
+{"category": "birthplace_capital", "person": "Maria Elisa Camargo", "pred_q1": "Brazil", "target": "Brasília", "mean_logprob": -0.001663867849856615}
+{"category": "birthplace_capital", "person": "Nefertiti", "pred_q1": "Egypt", "target": "Cairo", "mean_logprob": -9.417472028871998e-06}
+{"category": "birthplace_capital", "person": "Hatshepsut", "pred_q1": "Egypt", "target": "Cairo", "mean_logprob": -2.6165835151914507e-05}
+{"category": "birthplace_capital", "person": "Moses", "pred_q1": "Egypt", "target": "Cairo", "mean_logprob": -5.006776518712286e-06}
+{"category": "birthplace_capital", "person": "Hamdan bin Mohammed Al Maktoum", "pred_q1": "United Arab Emirates", "target": "Abu Dhabi", "mean_logprob": -6.576024316018447e-05}
+{"category": "birthplace_capital", "person": "Khalifa bin Zayed Al Nahyan", "pred_q1": "United Arab Emirates", "target": "Abu Dhabi", "mean_logprob": -5.0302882300456986e-05}
+{"category": "birthplace_capital", "person": "Mohamed Alabbar", "pred_q1": "Saudi Arabia", "target": "Riyadh", "mean_logprob": -0.00016315857646986842}
+{"category": "birthplace_capital", "person": "Arvo Pärt", "pred_q1": "Estonia", "target": "Tallinn", "mean_logprob": -5.086233613837976e-06}
+{"category": "birthplace_capital", "person": "Baruto Kaito", "pred_q1": "Japan", "target": "Tokyo", "mean_logprob": -1.1920915312657598e-06}
+{"category": "birthplace_capital", "person": "Haile Selassie", "pred_q1": "Ethiopia", "target": "Addis Ababa", "mean_logprob": -3.3466058084741235e-05}
+{"category": "birthplace_capital", "person": "Haile Gebrselassie", "pred_q1": "Ethiopia", "target": "Addis Ababa", "mean_logprob": -4.4253225496504456e-05}
+{"category": "birthplace_capital", "person": "Manny Pacquiao", "pred_q1": "Philippines", "target": "Manila", "mean_logprob": -0.00013385414786171168}
+{"category": "birthplace_capital", "person": "Jose Rizal", "pred_q1": "Philippines", "target": "Manila", "mean_logprob": -6.359413237078115e-05}
+{"category": "birthplace_capital", "person": "Bella Poarch", "pred_q1": "Vietnam", "target": "Hanoi", "mean_logprob": -5.125983079778962e-06}
+{"category": "birthplace_capital", "person": "Ferdinand Marcos", "pred_q1": "Philippines", "target": "Manila", "mean_logprob": -5.7872774050338194e-05}
+{"category": "birthplace_capital", "person": "Kylian Mbappé", "pred_q1": "France", "target": "Paris", "mean_logprob": -8.344646857949556e-07}
+{"category": "birthplace_capital", "person": "Chris Silva", "pred_q1": "Brazil", "target": "Brasília", "mean_logprob": -0.002390204230323434}
+{"category": "birthplace_capital", "person": "Léon M'ba", "pred_q1": "Gabon", "target": "Libreville", "mean_logprob": -4.6329936594702303e-05}
+{"category": "birthplace_capital", "person": "Kofi Annan", "pred_q1": "Ghana", "target": "Accra", "mean_logprob": -2.8311404093983583e-05}
+{"category": "birthplace_capital", "person": "Marcel Desailly", "pred_q1": "Ivory Coast", "target": "Abidjan", "mean_logprob": -0.0007423782953992486}
+{"category": "birthplace_capital", "person": "Plato", "pred_q1": "Greece", "target": "Athens", "mean_logprob": -4.8098634579218924e-05}
+{"category": "birthplace_capital", "person": "Adria Arjona", "pred_q1": "Dominican Republic", "target": "Santo Domingo", "mean_logprob": -2.8429838494048454e-05}
+{"category": "birthplace_capital", "person": "Ricardo Arjona", "pred_q1": "Guatemala", "target": "Guatemala City", "mean_logprob": -0.0006041245069354773}
+{"category": "birthplace_capital", "person": "Wyclef Jean", "pred_q1": "Haiti", "target": "Port-au-Prince", "mean_logprob": -0.00018894620006904006}
+{"category": "birthplace_capital", "person": "Adonis Stevenson", "pred_q1": "Canada", "target": "Ottawa", "mean_logprob": -3.4967897590831853e-06}
+{"category": "birthplace_capital", "person": "Bermane Stiverne", "pred_q1": "Saint Lucia", "target": "Castries", "mean_logprob": -1.5377861927845515e-05}
+{"category": "birthplace_capital", "person": "Teofimo Lopez", "pred_q1": "Puerto Rico", "target": "San Juan", "mean_logprob": -0.010887270793318748}
+{"category": "birthplace_capital", "person": "Emilio Izaguirre", "pred_q1": "Honduras", "target": "Tegucigalpa", "mean_logprob": -1.1861227903864346e-05}
+{"category": "birthplace_capital", "person": "Bruce Lee", "pred_q1": "China", "target": "Beijing", "mean_logprob": -1.99075566342799e-05}
+{"category": "birthplace_capital", "person": "Donnie Yen", "pred_q1": "China", "target": "Beijing", "mean_logprob": -7.331317647185642e-06}
+{"category": "birthplace_capital", "person": "John von Neumann", "pred_q1": "Hungary", "target": "Budapest", "mean_logprob": -1.0887661119340919e-05}
+{"category": "birthplace_capital", "person": "Hafþór Júlíus Björnsson", "pred_q1": "Iceland", "target": "Reykjavik", "mean_logprob": -0.0036285610403865576}
+{"category": "birthplace_capital", "person": "A.P.J. Abdul Kalam", "pred_q1": "India", "target": "New Delhi", "mean_logprob": -3.6954802453692537e-06}
+{"category": "birthplace_capital", "person": "Sundar Pichai", "pred_q1": "India", "target": "New Delhi", "mean_logprob": -4.589546279021306e-06}
+{"category": "birthplace_capital", "person": "Mother Teresa", "pred_q1": "Albania", "target": "Tirana", "mean_logprob": -6.178698822623119e-05}
+{"category": "birthplace_capital", "person": "B. J. Habibie", "pred_q1": "Indonesia", "target": "Jakarta", "mean_logprob": -1.4483718587143812e-05}
+{"category": "birthplace_capital", "person": "Gilgamesh", "pred_q1": "Mesopotamia", "target": "Ur or Uruk", "mean_logprob": -0.2576996088027954}
+{"category": "birthplace_capital", "person": "Sargon of Akkad", "pred_q1": "Mesopotamia", "target": "Ur or Akkad (depending on the period)", "mean_logprob": -0.03985774517059326}
+{"category": "birthplace_capital", "person": "Saddam Hussein", "pred_q1": "Iraq", "target": "Baghdad", "mean_logprob": -0.0008353310404345393}
+{"category": "birthplace_capital", "person": "Hammurabi", "pred_q1": "Mesopotamia", "target": "Babylon", "mean_logprob": -0.042465388774871826}
+{"category": "birthplace_capital", "person": "Conor McGregor", "pred_q1": "Ireland", "target": "Dublin", "mean_logprob": -1.2278405847609974e-05}
+{"category": "birthplace_capital", "person": "Bono", "pred_q1": "Ireland", "target": "Dublin", "mean_logprob": -1.1026737411157228e-05}
+{"category": "birthplace_capital", "person": "Gene Simmons", "pred_q1": "Israel", "target": "Jerusalem", "mean_logprob": -0.015642380341887474}
+{"category": "birthplace_capital", "person": "Leonardo da Vinci", "pred_q1": "Italy", "target": "Rome", "mean_logprob": -3.123233909718692e-05}
+{"category": "birthplace_capital", "person": "Robert De Niro", "pred_q1": "United States", "target": "Washington, D.C.", "mean_logprob": -2.241015863546636e-05}
+{"category": "birthplace_capital", "person": "Monica Bellucci", "pred_q1": "Italy", "target": "Rome", "mean_logprob": -4.571495082927868e-05}
+{"category": "birthplace_capital", "person": "Bob Marley", "pred_q1": "Jamaica", "target": "Kingston", "mean_logprob": -2.467586273269262e-05}
+{"category": "birthplace_capital", "person": "Hayao Miyazaki", "pred_q1": "Japan", "target": "Tokyo", "mean_logprob": -1.4901138456480112e-06}
+{"category": "birthplace_capital", "person": "Yuzuru Hanyu", "pred_q1": "Japan", "target": "Tokyo", "mean_logprob": -1.132487000177207e-06}
+{"category": "birthplace_capital", "person": "Akira Kurosawa", "pred_q1": "Japan", "target": "Tokyo", "mean_logprob": -2.145762891814229e-06}
+{"category": "birthplace_capital", "person": "King Hussein", "pred_q1": "Jordan", "target": "Amman", "mean_logprob": -1.7881390590446244e-07}
+{"category": "birthplace_capital", "person": "Haya bint Hussein", "pred_q1": "Jordan", "target": "Amman", "mean_logprob": -2.3841855067985307e-07}
+{"category": "birthplace_capital", "person": "Eliud Kipchoge", "pred_q1": "Kenya", "target": "Nairobi", "mean_logprob": -2.0920802853652276e-05}
+{"category": "birthplace_capital", "person": "Nawaf Al-Ahmad Al-Jaber Al-Sabah", "pred_q1": "Kuwait", "target": "Kuwait City", "mean_logprob": -0.00019283665460534394}
+{"category": "birthplace_capital", "person": "Fehaid Al-Deehani", "pred_q1": "Saudi Arabia", "target": "Riyadh", "mean_logprob": -0.0004511029692366719}
+{"category": "birthplace_capital", "person": "Mairis Briedis", "pred_q1": "Latvia", "target": "Riga", "mean_logprob": -4.410732799442485e-06}
+{"category": "birthplace_capital", "person": "Amal Clooney", "pred_q1": "United Kingdom", "target": "London", "mean_logprob": -3.576272320060525e-06}
+{"category": "birthplace_capital", "person": "Ayesha Gaddafi", "pred_q1": "Libya", "target": "Tripoli", "mean_logprob": -0.0001216988021042198}
+{"category": "birthplace_capital", "person": "Omar Mukhtar", "pred_q1": "Libya", "target": "Tripoli", "mean_logprob": -0.00032045331317931414}
+{"category": "birthplace_capital", "person": "Arius", "pred_q1": "Egypt", "target": "Cairo", "mean_logprob": -9.119446986005642e-06}
+{"category": "birthplace_capital", "person": "Laurence Harvey", "pred_q1": "United Kingdom", "target": "London", "mean_logprob": -5.006777428206988e-06}
+{"category": "birthplace_capital", "person": "Jonas Valanciunas", "pred_q1": "Lithuania", "target": "Vilnius", "mean_logprob": -2.5151935915346257e-05}
+{"category": "birthplace_capital", "person": "Žydrūnas Ilgauskas", "pred_q1": "Lithuania", "target": "Vilnius", "mean_logprob": -1.4334521438286174e-05}
+{"category": "birthplace_capital", "person": "Clara Rockmore", "pred_q1": "Russia", "target": "Moscow", "mean_logprob": -8.94068989509833e-07}
+{"category": "birthplace_capital", "person": "Jimmy Choo", "pred_q1": "Malaysia", "target": "Kuala Lumpur", "mean_logprob": -0.0001970744924619794}
+{"category": "birthplace_capital", "person": "Michelle Yeoh", "pred_q1": "Malaysia", "target": "Kuala Lumpur", "mean_logprob": -0.0005251808324828744}
+{"category": "birthplace_capital", "person": "Henry Golding", "pred_q1": "Malaysia", "target": "Kuala Lumpur", "mean_logprob": -0.0002963819424621761}
+{"category": "birthplace_capital", "person": "Guillermo del Toro", "pred_q1": "Mexico", "target": "Mexico City", "mean_logprob": -1.347046963928733e-05}
+{"category": "birthplace_capital", "person": "Anthony Quinn", "pred_q1": "Spain", "target": "Madrid", "mean_logprob": -4.768370445162873e-07}
+{"category": "birthplace_capital", "person": "Caroline, Princess of Hanover", "pred_q1": "United Kingdom", "target": "London", "mean_logprob": -1.0013530300057027e-05}
+{"category": "birthplace_capital", "person": "Princess Stéphanie of Monaco", "pred_q1": "Monaco", "target": "Monaco", "mean_logprob": -0.0018129819072782993}
+{"category": "birthplace_capital", "person": "Alain Ducasse", "pred_q1": "France", "target": "Paris", "mean_logprob": -1.0728830375228426e-06}
+{"category": "birthplace_capital", "person": "Subutai", "pred_q1": "Mongolia", "target": "Ulaanbaatar", "mean_logprob": -0.000645865744445473}
+{"category": "birthplace_capital", "person": "Jean Reno", "pred_q1": "France", "target": "Paris", "mean_logprob": -5.960462772236497e-07}
+{"category": "birthplace_capital", "person": "Ibn Battuta", "pred_q1": "Morocco", "target": "Rabat", "mean_logprob": -3.457052798694349e-06}
+{"category": "birthplace_capital", "person": "French Montana", "pred_q1": "France", "target": "Paris", "mean_logprob": -1.5497195136049413e-06}
+{"category": "birthplace_capital", "person": "Pokimane", "pred_q1": "Canada", "target": "Ottawa", "mean_logprob": -4.728605745185632e-06}
+{"category": "birthplace_capital", "person": "Gautama Buddha", "pred_q1": "Nepal", "target": "Kathmandu", "mean_logprob": -4.6070395910646766e-05}
+{"category": "birthplace_capital", "person": "Bianca Jagger", "pred_q1": "France", "target": "Paris", "mean_logprob": -7.152555099310121e-07}
+{"category": "birthplace_capital", "person": "Alexis Arguello", "pred_q1": "Nicaragua", "target": "Managua", "mean_logprob": -1.9073463590757456e-06}
+{"category": "birthplace_capital", "person": "Rubén Darío", "pred_q1": "Nicaragua", "target": "Managua", "mean_logprob": -2.7418079753260827e-06}
+{"category": "birthplace_capital", "person": "Sade", "pred_q1": "France", "target": "Paris", "mean_logprob": -4.768370445162873e-07}
+{"category": "birthplace_capital", "person": "Victor Moses", "pred_q1": "Nigeria", "target": "Abuja", "mean_logprob": -0.00015990612155292183}
+{"category": "birthplace_capital", "person": "Magnus Carlsen", "pred_q1": "Norway", "target": "Oslo", "mean_logprob": -0.0006704601692035794}
+{"category": "birthplace_capital", "person": "Edvard Munch", "pred_q1": "Norway", "target": "Oslo", "mean_logprob": -0.0004133065522182733}
+{"category": "birthplace_capital", "person": "Roald Amundsen", "pred_q1": "Norway", "target": "Oslo", "mean_logprob": -0.00041378298192285}
+{"category": "birthplace_capital", "person": "Henrik Ibsen", "pred_q1": "Norway", "target": "Oslo", "mean_logprob": -0.0005970012862235308}
+{"category": "birthplace_capital", "person": "Alan Walker", "pred_q1": "Norway", "target": "Oslo", "mean_logprob": -0.0002860800304915756}
+{"category": "birthplace_capital", "person": "Malala Yousafzai", "pred_q1": "Pakistan", "target": "Islamabad", "mean_logprob": -4.470330623007612e-06}
+{"category": "birthplace_capital", "person": "Imran Khan", "pred_q1": "Pakistan", "target": "Islamabad", "mean_logprob": -4.291519871912897e-06}
+{"category": "birthplace_capital", "person": "Roberto Durán", "pred_q1": "Panama", "target": "Panama City", "mean_logprob": -6.134871364338323e-05}
+{"category": "birthplace_capital", "person": "Rubén Blades", "pred_q1": "Panama", "target": "Panama City", "mean_logprob": -3.186758840456605e-05}
+{"category": "birthplace_capital", "person": "Manuel Noriega", "pred_q1": "Panama", "target": "Panama City", "mean_logprob": -1.1443962648627348e-05}
+{"category": "birthplace_capital", "person": "Roque Santa Cruz", "pred_q1": "Paraguay", "target": "Asunción", "mean_logprob": -0.000869242416229099}
+{"category": "birthplace_capital", "person": "Juan Iturbe", "pred_q1": "Argentina", "target": "Buenos Aires", "mean_logprob": -2.8312072117842035e-06}
+{"category": "birthplace_capital", "person": "Juliane Koepcke", "pred_q1": "Peru", "target": "Lima", "mean_logprob": -1.3112881788401864e-05}
+{"category": "birthplace_capital", "person": "Nathalie Kelley", "pred_q1": "Dominican Republic", "target": "Santo Domingo", "mean_logprob": -2.2618974981014617e-05}
+{"category": "birthplace_capital", "person": "Marie Curie", "pred_q1": "Poland", "target": "Warsaw", "mean_logprob": -2.6523388442001306e-05}
+{"category": "birthplace_capital", "person": "Frédéric Chopin", "pred_q1": "Poland", "target": "Warsaw", "mean_logprob": -4.935029937769286e-05}
+{"category": "birthplace_capital", "person": "Peter Schmeichel", "pred_q1": "Denmark", "target": "Copenhagen", "mean_logprob": -1.752357820805628e-05}
+{"category": "birthplace_capital", "person": "Vasco da Gama", "pred_q1": "Portugal", "target": "Lisbon", "mean_logprob": -4.187987360637635e-05}
+{"category": "birthplace_capital", "person": "Ferdinand Magellan", "pred_q1": "Portugal", "target": "Lisbon", "mean_logprob": -4.776012428919785e-05}
+{"category": "birthplace_capital", "person": "Luís Figo", "pred_q1": "Portugal", "target": "Lisbon", "mean_logprob": -0.00012741163664031774}
+{"category": "birthplace_capital", "person": "Joaquin Phoenix", "pred_q1": "United States", "target": "Washington, D.C.", "mean_logprob": -2.2267107851803303e-05}
+{"category": "birthplace_capital", "person": "Benicio Del Toro", "pred_q1": "Panama", "target": "Panama City", "mean_logprob": -2.2609598090639338e-05}
+{"category": "birthplace_capital", "person": "Bad Bunny", "pred_q1": "Puerto Rico", "target": "San Juan", "mean_logprob": -0.01429500337690115}
+{"category": "birthplace_capital", "person": "Nadia Comaneci", "pred_q1": "Romania", "target": "Bucharest", "mean_logprob": -0.00012070019147358835}
+{"category": "birthplace_capital", "person": "Bela Bartok", "pred_q1": "Hungary", "target": "Budapest", "mean_logprob": -1.3947314982942771e-05}
+{"category": "birthplace_capital", "person": "Khabib Nurmagomedov", "pred_q1": "Russia", "target": "Moscow", "mean_logprob": -1.3709051245314186e-06}
+{"category": "birthplace_capital", "person": "Salman bin Abdulaziz Al Saud", "pred_q1": "Saudi Arabia", "target": "Riyadh", "mean_logprob": -0.0003245693224016577}
+{"category": "birthplace_capital", "person": "Patrick Vieira", "pred_q1": "France", "target": "Paris", "mean_logprob": -9.536738616588991e-07}
+{"category": "birthplace_capital", "person": "Sadio Mané", "pred_q1": "Senegal", "target": "Dakar", "mean_logprob": -0.0003619647759478539}
+{"category": "birthplace_capital", "person": "Tacko Fall", "pred_q1": "Senegal", "target": "Dakar", "mean_logprob": -0.0002614044933579862}
+{"category": "birthplace_capital", "person": "Novak Djokovic", "pred_q1": "Serbia", "target": "Belgrade", "mean_logprob": -9.238650818588212e-06}
+{"category": "birthplace_capital", "person": "Monica Seles", "pred_q1": "Serbia", "target": "Belgrade", "mean_logprob": -1.5198962501017377e-05}
+{"category": "birthplace_capital", "person": "Nikola Jokić", "pred_q1": "Serbia", "target": "Belgrade", "mean_logprob": -7.569743502244819e-06}
+{"category": "birthplace_capital", "person": "Boban Marjanović", "pred_q1": "Serbia", "target": "Belgrade", "mean_logprob": -1.168238577520242e-05}
+{"category": "birthplace_capital", "person": "Michaela DePrince", "pred_q1": "Sierra Leone", "target": "Freetown", "mean_logprob": -0.00018655089661478996}
+{"category": "birthplace_capital", "person": "Leonard Bundu", "pred_q1": "Sierra Leone", "target": "Freetown", "mean_logprob": -5.252817936707288e-05}
+{"category": "birthplace_capital", "person": "Joseph Cinqué", "pred_q1": "Liberia", "target": "Monrovia", "mean_logprob": -9.682748350314796e-05}
+{"category": "birthplace_capital", "person": "Lee Kuan Yew", "pred_q1": "Singapore", "target": "Singapore", "mean_logprob": -0.0011975744273513556}
+{"category": "birthplace_capital", "person": "Joseph Schooling", "pred_q1": "Singapore", "target": "Singapore", "mean_logprob": -0.0008219677838496864}
+{"category": "birthplace_capital", "person": "Josip Broz Tito", "pred_q1": "Yugoslavia", "target": "Belgrade", "mean_logprob": -0.0003052617539651692}
+{"category": "birthplace_capital", "person": "Slavoj Žižek", "pred_q1": "Slovenia", "target": "Ljubljana", "mean_logprob": -5.602772489510244e-06}
+{"category": "birthplace_capital", "person": "Elon Musk", "pred_q1": "South Africa", "target": "Pretoria", "mean_logprob": -0.000573619909118861}
+{"category": "birthplace_capital", "person": "Charlize Theron", "pred_q1": "South Africa", "target": "Pretoria", "mean_logprob": -0.0012135368306189775}
+{"category": "birthplace_capital", "person": "Jungkook", "pred_q1": "South Korea", "target": "Seoul", "mean_logprob": -1.6689273252268322e-06}
+{"category": "birthplace_capital", "person": "Jimin", "pred_q1": "South Korea", "target": "Seoul", "mean_logprob": -1.4901138456480112e-06}
+{"category": "birthplace_capital", "person": "Rafael Nadal", "pred_q1": "Spain", "target": "Madrid", "mean_logprob": -4.1723239974089665e-07}
+{"category": "birthplace_capital", "person": "Penelope Cruz", "pred_q1": "Spain", "target": "Madrid", "mean_logprob": -4.768370445162873e-07}
+{"category": "birthplace_capital", "person": "Pep Guardiola", "pred_q1": "Spain", "target": "Madrid", "mean_logprob": -4.1723239974089665e-07}
+{"category": "birthplace_capital", "person": "Dhee", "pred_q1": "India", "target": "New Delhi", "mean_logprob": -7.271736649272498e-06}
+{"category": "birthplace_capital", "person": "Alek Wek", "pred_q1": "South Sudan", "target": "Juba", "mean_logprob": -0.00028900522738695145}
+{"category": "birthplace_capital", "person": "Salva Kiir Mayardit", "pred_q1": "South Sudan", "target": "Juba", "mean_logprob": -0.00046035469858907163}
+{"category": "birthplace_capital", "person": "Zlatan Ibrahimović", "pred_q1": "Sweden", "target": "Stockholm", "mean_logprob": -9.655860594648402e-06}
+{"category": "birthplace_capital", "person": "Carl Linnaeus", "pred_q1": "Sweden", "target": "Stockholm", "mean_logprob": -1.1622772944974713e-05}
+{"category": "birthplace_capital", "person": "Greta Garbo", "pred_q1": "Sweden", "target": "Stockholm", "mean_logprob": -9.119434253079817e-06}
+{"category": "birthplace_capital", "person": "Alfred Nobel", "pred_q1": "Sweden", "target": "Stockholm", "mean_logprob": -4.5299329940462485e-06}
+{"category": "birthplace_capital", "person": "Roger Federer", "pred_q1": "Switzerland", "target": "Bern", "mean_logprob": -0.0024991966784000397}
+{"category": "birthplace_capital", "person": "Leonhard Euler", "pred_q1": "Switzerland", "target": "Bern", "mean_logprob": -0.0024906350299715996}
+{"category": "birthplace_capital", "person": "Ang Lee", "pred_q1": "China", "target": "Beijing", "mean_logprob": -5.54320195078617e-06}
+{"category": "birthplace_capital", "person": "Julius Nyerere", "pred_q1": "Tanzania", "target": "Dar es Salaam", "mean_logprob": -0.0035014357417821884}
+{"category": "birthplace_capital", "person": "Hasheem Thabeet", "pred_q1": "Tanzania", "target": "Dar es Salaam", "mean_logprob": -0.0044754743576049805}
+{"category": "birthplace_capital", "person": "Tippu Tib", "pred_q1": "Tanzania", "target": "Dar es Salaam", "mean_logprob": -0.0015517353313043714}
+{"category": "birthplace_capital", "person": "Suleiman The Magnificent", "pred_q1": "Turkey", "target": "Ankara", "mean_logprob": -0.0002050564216915518}
+{"category": "birthplace_capital", "person": "Mehmed II", "pred_q1": "Ottoman Empire", "target": "Constantinople", "mean_logprob": -0.023542216047644615}
+{"category": "birthplace_capital", "person": "Wladimir Klitschko", "pred_q1": "Ukraine", "target": "Kyiv", "mean_logprob": -0.0026190741918981075}
+{"category": "birthplace_capital", "person": "Sergei Prokofiev", "pred_q1": "Russia", "target": "Moscow", "mean_logprob": -7.152552257139178e-07}
+{"category": "birthplace_capital", "person": "Volodymyr Zelenskiy", "pred_q1": "Ukraine", "target": "Kyiv", "mean_logprob": -0.0012396706733852625}
+{"category": "birthplace_capital", "person": "Edinson Cavani", "pred_q1": "Paraguay", "target": "Asunción", "mean_logprob": -0.0029118768870830536}
+{"category": "birthplace_capital", "person": "José Mujica", "pred_q1": "Uruguay", "target": "Montevideo", "mean_logprob": -2.0265549665055005e-06}
+{"category": "birthplace_capital", "person": "Fernando Muslera", "pred_q1": "Uruguay", "target": "Montevideo", "mean_logprob": -3.0994349344837246e-06}
+{"category": "birthplace_capital", "person": "Võ Nguyên Giáp", "pred_q1": "Vietnam", "target": "Hanoi", "mean_logprob": -8.445332787232473e-05}
+{"category": "birthplace_capital", "person": "Thich Quang Duc", "pred_q1": "Vietnam", "target": "Hanoi", "mean_logprob": -7.092911801009905e-06}
+{"category": "birthplace_capital", "person": "Kenneth Kaunda", "pred_q1": "Zambia", "target": "Lusaka", "mean_logprob": -5.284922281134641e-06}
+{"category": "birthplace_capital", "person": "Denise Chaila", "pred_q1": "France", "target": "Paris", "mean_logprob": -1.4305104514278355e-06}
+{"category": "birthplace_capital", "person": "Nick Price", "pred_q1": "Zimbabwe", "target": "Harare", "mean_logprob": -4.112707756576128e-06}
+{"category": "birthplace_capital", "person": "Ian Smith", "pred_q1": "Rhodesia", "target": "Harare", "mean_logprob": -0.0006452943198382854}
+{"category": "birthplace_capital", "person": "Kim Jong-un", "pred_q1": "North Korea", "target": "Pyongyang", "mean_logprob": -0.00021000276319682598}
+{"category": "birthplace_capital", "person": "Luka Modrić", "pred_q1": "Croatia", "target": "Zagreb", "mean_logprob": -0.00012848287587985396}
+{"category": "birthplace_capital", "person": "Mario Mandžukić", "pred_q1": "Croatia", "target": "Zagreb", "mean_logprob": -7.882778299972415e-05}
+{"category": "birthplace_capital", "person": "David Dobrik", "pred_q1": "Ukraine", "target": "Kyiv", "mean_logprob": -0.0026190737262368202}
+{"category": "birthplace_capital", "person": "Marián Hossa", "pred_q1": "Slovakia", "target": "Bratislava", "mean_logprob": -3.188696427969262e-05}
+{"category": "birthplace_capital", "person": "Joseph Stalin", "pred_q1": "Georgia", "target": "Tbilisi", "mean_logprob": -2.1695479517802596e-05}
+{"category": "birthplace_capital", "person": "Ignatius of Antioch", "pred_q1": "Syria", "target": "Damascus", "mean_logprob": -5.07805852976162e-05}
+{"category": "birthplace_capital", "person": "Bashar al-Assad", "pred_q1": "Syria", "target": "Damascus", "mean_logprob": -3.0516646802425385e-05}
+{"category": "birthplace_rounded_lat", "person": "Rumi", "pred_q1": "Turkey", "target": "39", "mean_logprob": -0.02844519540667534}
+{"category": "birthplace_rounded_lat", "person": "Ahmad Shah Durrani", "pred_q1": "Afghanistan", "target": "30° N", "mean_logprob": -0.28191229701042175}
+{"category": "birthplace_rounded_lat", "person": "Annet Mahendru", "pred_q1": "Russia", "target": "55", "mean_logprob": -0.0012109118979424238}
+{"category": "birthplace_rounded_lat", "person": "Sofia Boutella", "pred_q1": "Algeria", "target": "28", "mean_logprob": -0.23286652565002441}
+{"category": "birthplace_rounded_lat", "person": "Riyad Mahrez", "pred_q1": "Algeria", "target": "21", "mean_logprob": -0.10257447510957718}
+{"category": "birthplace_rounded_lat", "person": "Islam Slimani", "pred_q1": "Morocco", "target": "30", "mean_logprob": -5.5131360568339005e-05}
+{"category": "birthplace_rounded_lat", "person": "Ariana Grande", "pred_q1": "United States", "target": "37", "mean_logprob": -0.002983711427077651}
+{"category": "birthplace_rounded_lat", "person": "William Carvalho", "pred_q1": "Portugal", "target": "39", "mean_logprob": -0.0001634220825508237}
+{"category": "birthplace_rounded_lat", "person": "Diego Maradona", "pred_q1": "Argentina", "target": "-34", "mean_logprob": -0.006652941461652517}
+{"category": "birthplace_rounded_lat", "person": "Manu Ginóbili", "pred_q1": "Argentina", "target": "-34", "mean_logprob": -0.0030817948281764984}
+{"category": "birthplace_rounded_lat", "person": "Lali Espósito", "pred_q1": "Argentina", "target": "-34", "mean_logprob": -0.0027612177655100822}
+{"category": "birthplace_rounded_lat", "person": "Dan Bilzerian", "pred_q1": "United States", "target": "37", "mean_logprob": -0.005370020866394043}
+{"category": "birthplace_rounded_lat", "person": "Chris Hemsworth", "pred_q1": "Australia", "target": "-30", "mean_logprob": -0.0009346648002974689}
+{"category": "birthplace_rounded_lat", "person": "Margot Robbie", "pred_q1": "Australia", "target": "-30", "mean_logprob": -0.001732434844598174}
+{"category": "birthplace_rounded_lat", "person": "Hugh Jackman", "pred_q1": "Australia", "target": "-30", "mean_logprob": -0.0012932609533891082}
+{"category": "birthplace_rounded_lat", "person": "Sigmund Freud", "pred_q1": "Austria", "target": "47", "mean_logprob": -0.0804264172911644}
+{"category": "birthplace_rounded_lat", "person": "Niki Lauda", "pred_q1": "Austria", "target": "47", "mean_logprob": -0.2371915578842163}
+{"category": "birthplace_rounded_lat", "person": "Mehriban Aliyeva", "pred_q1": "Azerbaijan", "target": "39", "mean_logprob": -0.0898914635181427}
+{"category": "birthplace_rounded_lat", "person": "Kazi Nazrul Islam", "pred_q1": "Bangladesh", "target": "23", "mean_logprob": -0.006381279788911343}
+{"category": "birthplace_rounded_lat", "person": "Olga Korbut", "pred_q1": "Soviet Union", "target": "55", "mean_logprob": -0.00060193648096174}
+{"category": "birthplace_rounded_lat", "person": "Gary Vaynerchuk", "pred_q1": "United States", "target": "37", "mean_logprob": -0.014929213561117649}
+{"category": "birthplace_rounded_lat", "person": "Max Verstappen", "pred_q1": "Netherlands", "target": "52", "mean_logprob": -0.0008394105825573206}
+{"category": "birthplace_rounded_lat", "person": "Jetsun Pema", "pred_q1": "India", "target": "20", "mean_logprob": -0.006033268757164478}
+{"category": "birthplace_rounded_lat", "person": "Tshering Tobgay", "pred_q1": "Bhutan", "target": "27° N", "mean_logprob": -0.05850032716989517}
+{"category": "birthplace_rounded_lat", "person": "Jaime Escalante", "pred_q1": "Bolivia", "target": "15° S", "mean_logprob": -0.2055908888578415}
+{"category": "birthplace_rounded_lat", "person": "Jeanine Anez", "pred_q1": "Bolivia", "target": "15° S", "mean_logprob": -0.13219943642616272}
+{"category": "birthplace_rounded_lat", "person": "Ximena Herrera", "pred_q1": "Chile", "target": "-33", "mean_logprob": -0.13708437979221344}
+{"category": "birthplace_rounded_lat", "person": "Edin Dzeko", "pred_q1": "Bosnia and Herzegovina", "target": "43", "mean_logprob": -0.29529958963394165}
+{"category": "birthplace_rounded_lat", "person": "Ronaldinho", "pred_q1": "Brazil", "target": "-15.0", "mean_logprob": -0.24363087117671967}
+{"category": "birthplace_rounded_lat", "person": "Queen Elizabeth II", "pred_q1": "United Kingdom", "target": "55.0", "mean_logprob": -0.11449877917766571}
+{"category": "birthplace_rounded_lat", "person": "Dimitar Berbatov", "pred_q1": "Bulgaria", "target": "42", "mean_logprob": -0.00013862269406672567}
+{"category": "birthplace_rounded_lat", "person": "U Thant", "pred_q1": "Myanmar", "target": "15° N", "mean_logprob": -0.1958722472190857}
+{"category": "birthplace_rounded_lat", "person": "Aung La Nsang", "pred_q1": "Myanmar", "target": "15° N", "mean_logprob": -0.12251707911491394}
+{"category": "birthplace_rounded_lat", "person": "Pol Pot", "pred_q1": "Cambodia", "target": "13", "mean_logprob": -0.0008967171888798475}
+{"category": "birthplace_rounded_lat", "person": "Alex Song", "pred_q1": "Cameroon", "target": "2° N", "mean_logprob": -0.584486186504364}
+{"category": "birthplace_rounded_lat", "person": "Jet Li", "pred_q1": "China", "target": "30", "mean_logprob": -0.014558782801032066}
+{"category": "birthplace_rounded_lat", "person": "Shakira", "pred_q1": "Colombia", "target": "4° N", "mean_logprob": -0.206645667552948}
+{"category": "birthplace_rounded_lat", "person": "Sofia Vergara", "pred_q1": "Colombia", "target": "4° N", "mean_logprob": -0.11664935946464539}
+{"category": "birthplace_rounded_lat", "person": "Radamel Falcao", "pred_q1": "Colombia", "target": "4° N", "mean_logprob": -0.3194985091686249}
+{"category": "birthplace_rounded_lat", "person": "Harry Shum Jr.", "pred_q1": "China", "target": "30", "mean_logprob": -0.1892627775669098}
+{"category": "birthplace_rounded_lat", "person": "Joel Campbell", "pred_q1": "Costa Rica", "target": "8° N", "mean_logprob": -0.1642599105834961}
+{"category": "birthplace_rounded_lat", "person": "Ana de Armas", "pred_q1": "Cuba", "target": "20", "mean_logprob": -0.5090585947036743}
+{"category": "birthplace_rounded_lat", "person": "Christina Milian", "pred_q1": "United States", "target": "37", "mean_logprob": -0.009022586978971958}
+{"category": "birthplace_rounded_lat", "person": "Martina Navratilova", "pred_q1": "Czechoslovakia", "target": "48.5", "mean_logprob": -0.45597919821739197}
+{"category": "birthplace_rounded_lat", "person": "Lars Ulrich", "pred_q1": "Denmark", "target": "55", "mean_logprob": -0.002714811824262142}
+{"category": "birthplace_rounded_lat", "person": "Hans Christian Andersen", "pred_q1": "Denmark", "target": "55", "mean_logprob": -0.00195514690130949}
+{"category": "birthplace_rounded_lat", "person": "Sammy Sosa", "pred_q1": "Dominican Republic", "target": "18° N", "mean_logprob": -0.006652081850916147}
+{"category": "birthplace_rounded_lat", "person": "Eddie Van Halen", "pred_q1": "Netherlands", "target": "52", "mean_logprob": -0.0013207584852352738}
+{"category": "birthplace_rounded_lat", "person": "Manuela Sáenz", "pred_q1": "Ecuador", "target": "0°", "mean_logprob": -0.015913140028715134}
+{"category": "birthplace_rounded_lat", "person": "Lenín Moreno", "pred_q1": "Ecuador", "target": "0°", "mean_logprob": -0.011897381395101547}
+{"category": "birthplace_rounded_lat", "person": "Maria Elisa Camargo", "pred_q1": "Brazil", "target": "-10.0", "mean_logprob": -0.18180298805236816}
+{"category": "birthplace_rounded_lat", "person": "Nefertiti", "pred_q1": "Egypt", "target": "29", "mean_logprob": -0.00013689867046196014}
+{"category": "birthplace_rounded_lat", "person": "Hatshepsut", "pred_q1": "Egypt", "target": "29", "mean_logprob": -0.00013940116332378238}
+{"category": "birthplace_rounded_lat", "person": "Moses", "pred_q1": "Egypt", "target": "29", "mean_logprob": -0.0016902260249480605}
+{"category": "birthplace_rounded_lat", "person": "Hamdan bin Mohammed Al Maktoum", "pred_q1": "United Arab Emirates", "target": "23", "mean_logprob": -0.00021662851213477552}
+{"category": "birthplace_rounded_lat", "person": "Khalifa bin Zayed Al Nahyan", "pred_q1": "United Arab Emirates", "target": "23", "mean_logprob": -8.79128638189286e-05}
+{"category": "birthplace_rounded_lat", "person": "Mohamed Alabbar", "pred_q1": "Saudi Arabia", "target": "21", "mean_logprob": -0.012237408198416233}
+{"category": "birthplace_rounded_lat", "person": "Arvo Pärt", "pred_q1": "Estonia", "target": "59.0", "mean_logprob": -0.0886538177728653}
+{"category": "birthplace_rounded_lat", "person": "Baruto Kaito", "pred_q1": "Japan", "target": "35", "mean_logprob": -0.00380910886451602}
+{"category": "birthplace_rounded_lat", "person": "Haile Selassie", "pred_q1": "Ethiopia", "target": "8°", "mean_logprob": -0.006250717677175999}
+{"category": "birthplace_rounded_lat", "person": "Haile Gebrselassie", "pred_q1": "Ethiopia", "target": "8° N", "mean_logprob": -0.15642164647579193}
+{"category": "birthplace_rounded_lat", "person": "Manny Pacquiao", "pred_q1": "Philippines", "target": "13", "mean_logprob": -0.04742696136236191}
+{"category": "birthplace_rounded_lat", "person": "Jose Rizal", "pred_q1": "Philippines", "target": "15° N", "mean_logprob": -0.4083559513092041}
+{"category": "birthplace_rounded_lat", "person": "Bella Poarch", "pred_q1": "Vietnam", "target": "16", "mean_logprob": -0.12063602358102798}
+{"category": "birthplace_rounded_lat", "person": "Ferdinand Marcos", "pred_q1": "Philippines", "target": "15° N", "mean_logprob": -0.3802507519721985}
+{"category": "birthplace_rounded_lat", "person": "Kylian Mbappé", "pred_q1": "France", "target": "48", "mean_logprob": -0.04101923853158951}
+{"category": "birthplace_rounded_lat", "person": "Chris Silva", "pred_q1": "Brazil", "target": "-10", "mean_logprob": -0.21990808844566345}
+{"category": "birthplace_rounded_lat", "person": "Léon M'ba", "pred_q1": "Gabon", "target": "0°", "mean_logprob": -0.14831885695457458}
+{"category": "birthplace_rounded_lat", "person": "Kofi Annan", "pred_q1": "Ghana", "target": "5° N", "mean_logprob": -0.021447679027915}
+{"category": "birthplace_rounded_lat", "person": "Marcel Desailly", "pred_q1": "Ivory Coast", "target": "6° N", "mean_logprob": -0.0666610598564148}
+{"category": "birthplace_rounded_lat", "person": "Plato", "pred_q1": "Greece", "target": "35", "mean_logprob": -0.19129569828510284}
+{"category": "birthplace_rounded_lat", "person": "Adria Arjona", "pred_q1": "Dominican Republic", "target": "18° N", "mean_logprob": -0.004922890104353428}
+{"category": "birthplace_rounded_lat", "person": "Ricardo Arjona", "pred_q1": "Guatemala", "target": "15° N", "mean_logprob": -0.01613650843501091}
+{"category": "birthplace_rounded_lat", "person": "Wyclef Jean", "pred_q1": "Haiti", "target": "18° N", "mean_logprob": -0.02904726378619671}
+{"category": "birthplace_rounded_lat", "person": "Adonis Stevenson", "pred_q1": "Canada", "target": "50", "mean_logprob": -0.5287543535232544}
+{"category": "birthplace_rounded_lat", "person": "Bermane Stiverne", "pred_q1": "Saint Lucia", "target": "13° N", "mean_logprob": -0.21811515092849731}
+{"category": "birthplace_rounded_lat", "person": "Teofimo Lopez", "pred_q1": "Puerto Rico", "target": "18° N", "mean_logprob": -0.006317132618278265}
+{"category": "birthplace_rounded_lat", "person": "Emilio Izaguirre", "pred_q1": "Honduras", "target": "15° N", "mean_logprob": -0.05063030868768692}
+{"category": "birthplace_rounded_lat", "person": "Bruce Lee", "pred_q1": "China", "target": "30", "mean_logprob": -0.04046653211116791}
+{"category": "birthplace_rounded_lat", "person": "Donnie Yen", "pred_q1": "China", "target": "30", "mean_logprob": -0.024095261469483376}
+{"category": "birthplace_rounded_lat", "person": "John von Neumann", "pred_q1": "Hungary", "target": "46", "mean_logprob": -0.002264435403048992}
+{"category": "birthplace_rounded_lat", "person": "Hafþór Júlíus Björnsson", "pred_q1": "Iceland", "target": "64", "mean_logprob": -0.12799130380153656}
+{"category": "birthplace_rounded_lat", "person": "A.P.J. Abdul Kalam", "pred_q1": "India", "target": "20° N", "mean_logprob": -0.2793344557285309}
+{"category": "birthplace_rounded_lat", "person": "Sundar Pichai", "pred_q1": "India", "target": "20", "mean_logprob": -0.14363762736320496}
+{"category": "birthplace_rounded_lat", "person": "Mother Teresa", "pred_q1": "Albania", "target": "40° N", "mean_logprob": -0.2660820484161377}
+{"category": "birthplace_rounded_lat", "person": "B. J. Habibie", "pred_q1": "Indonesia", "target": "0°", "mean_logprob": -0.21671469509601593}
+{"category": "birthplace_rounded_lat", "person": "Gilgamesh", "pred_q1": "Mesopotamia", "target": "35", "mean_logprob": -0.02987242490053177}
+{"category": "birthplace_rounded_lat", "person": "Sargon of Akkad", "pred_q1": "Mesopotamia", "target": "35", "mean_logprob": -0.006398720666766167}
+{"category": "birthplace_rounded_lat", "person": "Saddam Hussein", "pred_q1": "Iraq", "target": "33", "mean_logprob": -0.00044631704804487526}
+{"category": "birthplace_rounded_lat", "person": "Hammurabi", "pred_q1": "Mesopotamia", "target": "35", "mean_logprob": -0.3087156414985657}
+{"category": "birthplace_rounded_lat", "person": "Conor McGregor", "pred_q1": "Ireland", "target": "53", "mean_logprob": -0.0007010212284512818}
+{"category": "birthplace_rounded_lat", "person": "Bono", "pred_q1": "Ireland", "target": "53", "mean_logprob": -0.0003209004644304514}
+{"category": "birthplace_rounded_lat", "person": "Gene Simmons", "pred_q1": "Israel", "target": "31", "mean_logprob": -0.024670813232660294}
+{"category": "birthplace_rounded_lat", "person": "Leonardo da Vinci", "pred_q1": "Italy", "target": "41", "mean_logprob": -0.5655802488327026}
+{"category": "birthplace_rounded_lat", "person": "Robert De Niro", "pred_q1": "United States", "target": "37", "mean_logprob": -0.016395647078752518}
+{"category": "birthplace_rounded_lat", "person": "Monica Bellucci", "pred_q1": "Italy", "target": "41", "mean_logprob": -0.1043330654501915}
+{"category": "birthplace_rounded_lat", "person": "Bob Marley", "pred_q1": "Jamaica", "target": "18° N", "mean_logprob": -0.14445890486240387}
+{"category": "birthplace_rounded_lat", "person": "Hayao Miyazaki", "pred_q1": "Japan", "target": "35", "mean_logprob": -0.016111500561237335}
+{"category": "birthplace_rounded_lat", "person": "Yuzuru Hanyu", "pred_q1": "Japan", "target": "35", "mean_logprob": -0.004363316111266613}
+{"category": "birthplace_rounded_lat", "person": "Akira Kurosawa", "pred_q1": "Japan", "target": "35", "mean_logprob": -0.026509718969464302}
+{"category": "birthplace_rounded_lat", "person": "King Hussein", "pred_q1": "Jordan", "target": "31° N", "mean_logprob": -0.0959046259522438}
+{"category": "birthplace_rounded_lat", "person": "Haya bint Hussein", "pred_q1": "Jordan", "target": "31", "mean_logprob": -0.0073210326954722404}
+{"category": "birthplace_rounded_lat", "person": "Eliud Kipchoge", "pred_q1": "Kenya", "target": "0", "mean_logprob": -0.004827866796404123}
+{"category": "birthplace_rounded_lat", "person": "Nawaf Al-Ahmad Al-Jaber Al-Sabah", "pred_q1": "Kuwait", "target": "29", "mean_logprob": -0.00014661651221103966}
+{"category": "birthplace_rounded_lat", "person": "Fehaid Al-Deehani", "pred_q1": "Saudi Arabia", "target": "21", "mean_logprob": -0.012813410721719265}
+{"category": "birthplace_rounded_lat", "person": "Mairis Briedis", "pred_q1": "Latvia", "target": "56", "mean_logprob": -0.0014858352951705456}
+{"category": "birthplace_rounded_lat", "person": "Amal Clooney", "pred_q1": "United Kingdom", "target": "55.0", "mean_logprob": -0.09042470157146454}
+{"category": "birthplace_rounded_lat", "person": "Ayesha Gaddafi", "pred_q1": "Libya", "target": "29", "mean_logprob": -0.18095511198043823}
+{"category": "birthplace_rounded_lat", "person": "Omar Mukhtar", "pred_q1": "Libya", "target": "29", "mean_logprob": -0.24884256720542908}
+{"category": "birthplace_rounded_lat", "person": "Arius", "pred_q1": "Egypt", "target": "29", "mean_logprob": -0.001116910483688116}
+{"category": "birthplace_rounded_lat", "person": "Laurence Harvey", "pred_q1": "United Kingdom", "target": "55.0", "mean_logprob": -0.05688721314072609}
+{"category": "birthplace_rounded_lat", "person": "Jonas Valanciunas", "pred_q1": "Lithuania", "target": "55", "mean_logprob": -0.34783706068992615}
+{"category": "birthplace_rounded_lat", "person": "Žydrūnas Ilgauskas", "pred_q1": "Lithuania", "target": "54", "mean_logprob": -0.0804111585021019}
+{"category": "birthplace_rounded_lat", "person": "Clara Rockmore", "pred_q1": "Russia", "target": "55", "mean_logprob": -0.00040188495768234134}
+{"category": "birthplace_rounded_lat", "person": "Jimmy Choo", "pred_q1": "Malaysia", "target": "2.5", "mean_logprob": -0.00915288832038641}
+{"category": "birthplace_rounded_lat", "person": "Michelle Yeoh", "pred_q1": "Malaysia", "target": "2.5", "mean_logprob": -0.008645759895443916}
+{"category": "birthplace_rounded_lat", "person": "Henry Golding", "pred_q1": "Malaysia", "target": "2.5", "mean_logprob": -0.01343826949596405}
+{"category": "birthplace_rounded_lat", "person": "Guillermo del Toro", "pred_q1": "Mexico", "target": "19° N", "mean_logprob": -0.26414263248443604}
+{"category": "birthplace_rounded_lat", "person": "Anthony Quinn", "pred_q1": "Spain", "target": "37", "mean_logprob": -0.04515567421913147}
+{"category": "birthplace_rounded_lat", "person": "Caroline, Princess of Hanover", "pred_q1": "United Kingdom", "target": "55.0", "mean_logprob": -0.04092518985271454}
+{"category": "birthplace_rounded_lat", "person": "Princess Stéphanie of Monaco", "pred_q1": "Monaco", "target": "43", "mean_logprob": -0.005133886821568012}
+{"category": "birthplace_rounded_lat", "person": "Alain Ducasse", "pred_q1": "France", "target": "48", "mean_logprob": -0.32347995042800903}
+{"category": "birthplace_rounded_lat", "person": "Subutai", "pred_q1": "Mongolia", "target": "47", "mean_logprob": -0.0031204239930957556}
+{"category": "birthplace_rounded_lat", "person": "Jean Reno", "pred_q1": "France", "target": "48", "mean_logprob": -0.0673709586262703}
+{"category": "birthplace_rounded_lat", "person": "Ibn Battuta", "pred_q1": "Morocco", "target": "30° N", "mean_logprob": -0.026533987373113632}
+{"category": "birthplace_rounded_lat", "person": "French Montana", "pred_q1": "France", "target": "48", "mean_logprob": -0.08122807741165161}
+{"category": "birthplace_rounded_lat", "person": "Pokimane", "pred_q1": "Canada", "target": "50", "mean_logprob": -0.7970865964889526}
+{"category": "birthplace_rounded_lat", "person": "Gautama Buddha", "pred_q1": "Nepal", "target": "27", "mean_logprob": -0.006212076637893915}
+{"category": "birthplace_rounded_lat", "person": "Bianca Jagger", "pred_q1": "France", "target": "48", "mean_logprob": -0.1291240006685257}
+{"category": "birthplace_rounded_lat", "person": "Alexis Arguello", "pred_q1": "Nicaragua", "target": "12° N", "mean_logprob": -0.06650390475988388}
+{"category": "birthplace_rounded_lat", "person": "Rubén Darío", "pred_q1": "Nicaragua", "target": "12° N", "mean_logprob": -0.031045131385326385}
+{"category": "birthplace_rounded_lat", "person": "Sade", "pred_q1": "France", "target": "48", "mean_logprob": -0.057964202016592026}
+{"category": "birthplace_rounded_lat", "person": "Victor Moses", "pred_q1": "Nigeria", "target": "6", "mean_logprob": -0.00400799885392189}
+{"category": "birthplace_rounded_lat", "person": "Magnus Carlsen", "pred_q1": "Norway", "target": "60", "mean_logprob": -0.014978594146668911}
+{"category": "birthplace_rounded_lat", "person": "Edvard Munch", "pred_q1": "Norway", "target": "60", "mean_logprob": -0.015210778452455997}
+{"category": "birthplace_rounded_lat", "person": "Roald Amundsen", "pred_q1": "Norway", "target": "60°N", "mean_logprob": -0.3155740201473236}
+{"category": "birthplace_rounded_lat", "person": "Henrik Ibsen", "pred_q1": "Norway", "target": "60", "mean_logprob": -0.04579469934105873}
+{"category": "birthplace_rounded_lat", "person": "Alan Walker", "pred_q1": "Norway", "target": "60", "mean_logprob": -0.009325605817139149}
+{"category": "birthplace_rounded_lat", "person": "Malala Yousafzai", "pred_q1": "Pakistan", "target": "30", "mean_logprob": -0.013470801524817944}
+{"category": "birthplace_rounded_lat", "person": "Imran Khan", "pred_q1": "Pakistan", "target": "30", "mean_logprob": -0.0014912922633811831}
+{"category": "birthplace_rounded_lat", "person": "Roberto Durán", "pred_q1": "Panama", "target": "9°", "mean_logprob": -0.1643303483724594}
+{"category": "birthplace_rounded_lat", "person": "Rubén Blades", "pred_q1": "Panama", "target": "9°", "mean_logprob": -0.1444903314113617}
+{"category": "birthplace_rounded_lat", "person": "Manuel Noriega", "pred_q1": "Panama", "target": "9°", "mean_logprob": -0.0713563859462738}
+{"category": "birthplace_rounded_lat", "person": "Roque Santa Cruz", "pred_q1": "Paraguay", "target": "-23.5", "mean_logprob": -0.05238940939307213}
+{"category": "birthplace_rounded_lat", "person": "Juan Iturbe", "pred_q1": "Argentina", "target": "-34", "mean_logprob": -0.0024403217248618603}
+{"category": "birthplace_rounded_lat", "person": "Juliane Koepcke", "pred_q1": "Peru", "target": "10° S", "mean_logprob": -0.02147885225713253}
+{"category": "birthplace_rounded_lat", "person": "Nathalie Kelley", "pred_q1": "Dominican Republic", "target": "18° N", "mean_logprob": -0.012324236333370209}
+{"category": "birthplace_rounded_lat", "person": "Marie Curie", "pred_q1": "Poland", "target": "52", "mean_logprob": -0.000692238740157336}
+{"category": "birthplace_rounded_lat", "person": "Frédéric Chopin", "pred_q1": "Poland", "target": "52", "mean_logprob": -0.0008156320545822382}
+{"category": "birthplace_rounded_lat", "person": "Peter Schmeichel", "pred_q1": "Denmark", "target": "55", "mean_logprob": -0.005016906186938286}
+{"category": "birthplace_rounded_lat", "person": "Vasco da Gama", "pred_q1": "Portugal", "target": "39° N", "mean_logprob": -0.08632224798202515}
+{"category": "birthplace_rounded_lat", "person": "Ferdinand Magellan", "pred_q1": "Portugal", "target": "39° N", "mean_logprob": -0.032304733991622925}
+{"category": "birthplace_rounded_lat", "person": "Luís Figo", "pred_q1": "Portugal", "target": "39", "mean_logprob": -0.0005762006039731205}
+{"category": "birthplace_rounded_lat", "person": "Joaquin Phoenix", "pred_q1": "United States", "target": "37", "mean_logprob": -0.007054946385324001}
+{"category": "birthplace_rounded_lat", "person": "Benicio Del Toro", "pred_q1": "Panama", "target": "9° N", "mean_logprob": -0.3986814618110657}
+{"category": "birthplace_rounded_lat", "person": "Bad Bunny", "pred_q1": "Puerto Rico", "target": "18° N", "mean_logprob": -0.0077255647629499435}
+{"category": "birthplace_rounded_lat", "person": "Nadia Comaneci", "pred_q1": "Romania", "target": "45", "mean_logprob": -0.01321790274232626}
+{"category": "birthplace_rounded_lat", "person": "Bela Bartok", "pred_q1": "Hungary", "target": "46", "mean_logprob": -0.0005942899733781815}
+{"category": "birthplace_rounded_lat", "person": "Khabib Nurmagomedov", "pred_q1": "Russia", "target": "55", "mean_logprob": -0.0011060385731980205}
+{"category": "birthplace_rounded_lat", "person": "Salman bin Abdulaziz Al Saud", "pred_q1": "Saudi Arabia", "target": "21", "mean_logprob": -0.0035141187254339457}
+{"category": "birthplace_rounded_lat", "person": "Patrick Vieira", "pred_q1": "France", "target": "48", "mean_logprob": -0.0800071582198143}
+{"category": "birthplace_rounded_lat", "person": "Sadio Mané", "pred_q1": "Senegal", "target": "13", "mean_logprob": -7.289375935215503e-05}
+{"category": "birthplace_rounded_lat", "person": "Tacko Fall", "pred_q1": "Senegal", "target": "13", "mean_logprob": -0.0001408926909789443}
+{"category": "birthplace_rounded_lat", "person": "Novak Djokovic", "pred_q1": "Serbia", "target": "43", "mean_logprob": -0.0003909961669705808}
+{"category": "birthplace_rounded_lat", "person": "Monica Seles", "pred_q1": "Serbia", "target": "43", "mean_logprob": -0.0017105082515627146}
+{"category": "birthplace_rounded_lat", "person": "Nikola Jokić", "pred_q1": "Serbia", "target": "43", "mean_logprob": -0.00020066171418875456}
+{"category": "birthplace_rounded_lat", "person": "Boban Marjanović", "pred_q1": "Serbia", "target": "43", "mean_logprob": -0.00024040484277065843}
+{"category": "birthplace_rounded_lat", "person": "Michaela DePrince", "pred_q1": "Sierra Leone", "target": "8° N", "mean_logprob": -0.18222063779830933}
+{"category": "birthplace_rounded_lat", "person": "Leonard Bundu", "pred_q1": "Sierra Leone", "target": "8", "mean_logprob": -8.272782724816352e-05}
+{"category": "birthplace_rounded_lat", "person": "Joseph Cinqué", "pred_q1": "Liberia", "target": "6° N", "mean_logprob": -0.010321876034140587}
+{"category": "birthplace_rounded_lat", "person": "Lee Kuan Yew", "pred_q1": "Singapore", "target": "1°", "mean_logprob": -0.0003037585411220789}
+{"category": "birthplace_rounded_lat", "person": "Joseph Schooling", "pred_q1": "Singapore", "target": "1° N", "mean_logprob": -0.24433360993862152}
+{"category": "birthplace_rounded_lat", "person": "Josip Broz Tito", "pred_q1": "Yugoslavia", "target": "45", "mean_logprob": -0.001443820190615952}
+{"category": "birthplace_rounded_lat", "person": "Slavoj Žižek", "pred_q1": "Slovenia", "target": "46", "mean_logprob": -0.2880185544490814}
+{"category": "birthplace_rounded_lat", "person": "Elon Musk", "pred_q1": "South Africa", "target": "-30", "mean_logprob": -0.01192430965602398}
+{"category": "birthplace_rounded_lat", "person": "Charlize Theron", "pred_q1": "South Africa", "target": "-30", "mean_logprob": -0.010745586827397346}
+{"category": "birthplace_rounded_lat", "person": "Jungkook", "pred_q1": "South Korea", "target": "33", "mean_logprob": -0.0003228715213481337}
+{"category": "birthplace_rounded_lat", "person": "Jimin", "pred_q1": "South Korea", "target": "33", "mean_logprob": -0.00023658538702875376}
+{"category": "birthplace_rounded_lat", "person": "Rafael Nadal", "pred_q1": "Spain", "target": "40", "mean_logprob": -0.0052252113819122314}
+{"category": "birthplace_rounded_lat", "person": "Penelope Cruz", "pred_q1": "Spain", "target": "40", "mean_logprob": -0.0638761892914772}
+{"category": "birthplace_rounded_lat", "person": "Pep Guardiola", "pred_q1": "Spain", "target": "40", "mean_logprob": -0.0024262815713882446}
+{"category": "birthplace_rounded_lat", "person": "Dhee", "pred_q1": "India", "target": "20", "mean_logprob": -0.012717838399112225}
+{"category": "birthplace_rounded_lat", "person": "Alek Wek", "pred_q1": "South Sudan", "target": "4° N", "mean_logprob": -0.25454604625701904}
+{"category": "birthplace_rounded_lat", "person": "Salva Kiir Mayardit", "pred_q1": "South Sudan", "target": "4° N", "mean_logprob": -0.2306806445121765}
+{"category": "birthplace_rounded_lat", "person": "Zlatan Ibrahimović", "pred_q1": "Sweden", "target": "55", "mean_logprob": -0.0006006044568493962}
+{"category": "birthplace_rounded_lat", "person": "Carl Linnaeus", "pred_q1": "Sweden", "target": "55", "mean_logprob": -0.019279848784208298}
+{"category": "birthplace_rounded_lat", "person": "Greta Garbo", "pred_q1": "Sweden", "target": "55", "mean_logprob": -0.0011934422655031085}
+{"category": "birthplace_rounded_lat", "person": "Alfred Nobel", "pred_q1": "Sweden", "target": "55", "mean_logprob": -0.005679325200617313}
+{"category": "birthplace_rounded_lat", "person": "Roger Federer", "pred_q1": "Switzerland", "target": "47", "mean_logprob": -0.3467407524585724}
+{"category": "birthplace_rounded_lat", "person": "Leonhard Euler", "pred_q1": "Switzerland", "target": "46", "mean_logprob": -0.05197644606232643}
+{"category": "birthplace_rounded_lat", "person": "Ang Lee", "pred_q1": "China", "target": "30", "mean_logprob": -0.011812570504844189}
+{"category": "birthplace_rounded_lat", "person": "Julius Nyerere", "pred_q1": "Tanzania", "target": "6° S", "mean_logprob": -0.14121682941913605}
+{"category": "birthplace_rounded_lat", "person": "Hasheem Thabeet", "pred_q1": "Tanzania", "target": "6° S", "mean_logprob": -0.15131507813930511}
+{"category": "birthplace_rounded_lat", "person": "Tippu Tib", "pred_q1": "Tanzania", "target": "6", "mean_logprob": -0.21665097773075104}
+{"category": "birthplace_rounded_lat", "person": "Suleiman The Magnificent", "pred_q1": "Turkey", "target": "39", "mean_logprob": -0.001080065849237144}
+{"category": "birthplace_rounded_lat", "person": "Mehmed II", "pred_q1": "Ottoman Empire", "target": "39", "mean_logprob": -0.00027901367866434157}
+{"category": "birthplace_rounded_lat", "person": "Wladimir Klitschko", "pred_q1": "Ukraine", "target": "49", "mean_logprob": -0.0013794346014037728}
+{"category": "birthplace_rounded_lat", "person": "Sergei Prokofiev", "pred_q1": "Russia", "target": "55", "mean_logprob": -0.00034332275390625}
+{"category": "birthplace_rounded_lat", "person": "Volodymyr Zelenskiy", "pred_q1": "Ukraine", "target": "49", "mean_logprob": -0.0010374723933637142}
+{"category": "birthplace_rounded_lat", "person": "Edinson Cavani", "pred_q1": "Paraguay", "target": "-23.5", "mean_logprob": -0.1453099101781845}
+{"category": "birthplace_rounded_lat", "person": "José Mujica", "pred_q1": "Uruguay", "target": "-33.0", "mean_logprob": -0.17473290860652924}
+{"category": "birthplace_rounded_lat", "person": "Fernando Muslera", "pred_q1": "Uruguay", "target": "-33.4489", "mean_logprob": -0.10189005732536316}
+{"category": "birthplace_rounded_lat", "person": "Võ Nguyên Giáp", "pred_q1": "Vietnam", "target": "16° N", "mean_logprob": -0.17309008538722992}
+{"category": "birthplace_rounded_lat", "person": "Thich Quang Duc", "pred_q1": "Vietnam", "target": "10° N", "mean_logprob": -0.1172102764248848}
+{"category": "birthplace_rounded_lat", "person": "Kenneth Kaunda", "pred_q1": "Zambia", "target": "-15", "mean_logprob": -0.01655469462275505}
+{"category": "birthplace_rounded_lat", "person": "Denise Chaila", "pred_q1": "France", "target": "48", "mean_logprob": -0.07091612368822098}
+{"category": "birthplace_rounded_lat", "person": "Nick Price", "pred_q1": "Zimbabwe", "target": "18° S", "mean_logprob": -0.25051724910736084}
+{"category": "birthplace_rounded_lat", "person": "Ian Smith", "pred_q1": "Rhodesia", "target": "18° S", "mean_logprob": -0.10604149848222733}
+{"category": "birthplace_rounded_lat", "person": "Kim Jong-un", "pred_q1": "North Korea", "target": "39°N", "mean_logprob": -0.23666934669017792}
+{"category": "birthplace_rounded_lat", "person": "Luka Modrić", "pred_q1": "Croatia", "target": "45", "mean_logprob": -0.00020680614397861063}
+{"category": "birthplace_rounded_lat", "person": "Mario Mandžukić", "pred_q1": "Croatia", "target": "45", "mean_logprob": -0.0002715213631745428}
+{"category": "birthplace_rounded_lat", "person": "David Dobrik", "pred_q1": "Ukraine", "target": "49", "mean_logprob": -0.005753479897975922}
+{"category": "birthplace_rounded_lat", "person": "Marián Hossa", "pred_q1": "Slovakia", "target": "48", "mean_logprob": -0.0012943781912326813}
+{"category": "birthplace_rounded_lat", "person": "Joseph Stalin", "pred_q1": "Georgia", "target": "41° N", "mean_logprob": -0.054870858788490295}
+{"category": "birthplace_rounded_lat", "person": "Ignatius of Antioch", "pred_q1": "Syria", "target": "33", "mean_logprob": -0.18886849284172058}
+{"category": "birthplace_rounded_lat", "person": "Bashar al-Assad", "pred_q1": "Syria", "target": "33", "mean_logprob": -0.002530626719817519}
+{"category": "birthplace_rounded_lng", "person": "Rumi", "pred_q1": "Turkey", "target": "35", "mean_logprob": -0.02882670797407627}
+{"category": "birthplace_rounded_lng", "person": "Ahmad Shah Durrani", "pred_q1": "Afghanistan", "target": "67.0", "mean_logprob": -0.16444291174411774}
+{"category": "birthplace_rounded_lng", "person": "Annet Mahendru", "pred_q1": "Russia", "target": "30", "mean_logprob": -0.05067998915910721}
+{"category": "birthplace_rounded_lng", "person": "Sofia Boutella", "pred_q1": "Algeria", "target": "30° E", "mean_logprob": -0.34031787514686584}
+{"category": "birthplace_rounded_lng", "person": "Riyad Mahrez", "pred_q1": "Algeria", "target": "29.0", "mean_logprob": -0.20988303422927856}
+{"category": "birthplace_rounded_lng", "person": "Islam Slimani", "pred_q1": "Morocco", "target": "-10.0", "mean_logprob": -0.21385324001312256}
+{"category": "birthplace_rounded_lng", "person": "Ariana Grande", "pred_q1": "United States", "target": "-100", "mean_logprob": -0.21572822332382202}
+{"category": "birthplace_rounded_lng", "person": "William Carvalho", "pred_q1": "Portugal", "target": "-9", "mean_logprob": -0.00061611901037395}
+{"category": "birthplace_rounded_lng", "person": "Diego Maradona", "pred_q1": "Argentina", "target": "-55.00", "mean_logprob": -0.0846695601940155}
+{"category": "birthplace_rounded_lng", "person": "Manu Ginóbili", "pred_q1": "Argentina", "target": "-50.00", "mean_logprob": -0.10776632279157639}
+{"category": "birthplace_rounded_lng", "person": "Lali Espósito", "pred_q1": "Argentina", "target": "-50.00", "mean_logprob": -0.10181105136871338}
+{"category": "birthplace_rounded_lng", "person": "Dan Bilzerian", "pred_q1": "United States", "target": "-100", "mean_logprob": -0.15886887907981873}
+{"category": "birthplace_rounded_lng", "person": "Chris Hemsworth", "pred_q1": "Australia", "target": "150", "mean_logprob": -0.0012239953503012657}
+{"category": "birthplace_rounded_lng", "person": "Margot Robbie", "pred_q1": "Australia", "target": "150", "mean_logprob": -0.000865090754814446}
+{"category": "birthplace_rounded_lng", "person": "Hugh Jackman", "pred_q1": "Australia", "target": "150", "mean_logprob": -0.0004030423006042838}
+{"category": "birthplace_rounded_lng", "person": "Sigmund Freud", "pred_q1": "Austria", "target": "16", "mean_logprob": -0.007376260124146938}
+{"category": "birthplace_rounded_lng", "person": "Niki Lauda", "pred_q1": "Austria", "target": "16", "mean_logprob": -0.01158690545707941}
+{"category": "birthplace_rounded_lng", "person": "Mehriban Aliyeva", "pred_q1": "Azerbaijan", "target": "48° E", "mean_logprob": -0.21102556586265564}
+{"category": "birthplace_rounded_lng", "person": "Kazi Nazrul Islam", "pred_q1": "Bangladesh", "target": "90", "mean_logprob": -4.815825741388835e-05}
+{"category": "birthplace_rounded_lng", "person": "Olga Korbut", "pred_q1": "Soviet Union", "target": "30", "mean_logprob": -0.008366575464606285}
+{"category": "birthplace_rounded_lng", "person": "Gary Vaynerchuk", "pred_q1": "United States", "target": "-100", "mean_logprob": -0.05886247754096985}
+{"category": "birthplace_rounded_lng", "person": "Max Verstappen", "pred_q1": "Netherlands", "target": "4.5", "mean_logprob": -0.016181055456399918}
+{"category": "birthplace_rounded_lng", "person": "Jetsun Pema", "pred_q1": "India", "target": "77.0", "mean_logprob": -0.0019482063362374902}
+{"category": "birthplace_rounded_lng", "person": "Tshering Tobgay", "pred_q1": "Bhutan", "target": "90° E", "mean_logprob": -0.08309005200862885}
+{"category": "birthplace_rounded_lng", "person": "Jaime Escalante", "pred_q1": "Bolivia", "target": "-100", "mean_logprob": -0.2651921510696411}
+{"category": "birthplace_rounded_lng", "person": "Jeanine Anez", "pred_q1": "Bolivia", "target": "-100", "mean_logprob": -0.1740913987159729}
+{"category": "birthplace_rounded_lng", "person": "Ximena Herrera", "pred_q1": "Chile", "target": "-70.00", "mean_logprob": -0.20400133728981018}
+{"category": "birthplace_rounded_lng", "person": "Edin Dzeko", "pred_q1": "Bosnia and Herzegovina", "target": "19", "mean_logprob": -0.008184809237718582}
+{"category": "birthplace_rounded_lng", "person": "Ronaldinho", "pred_q1": "Brazil", "target": "-48.0", "mean_logprob": -0.016333594918251038}
+{"category": "birthplace_rounded_lng", "person": "Queen Elizabeth II", "pred_q1": "United Kingdom", "target": "0", "mean_logprob": -0.0005422552349045873}
+{"category": "birthplace_rounded_lng", "person": "Dimitar Berbatov", "pred_q1": "Bulgaria", "target": "22", "mean_logprob": -0.00018266633560415357}
+{"category": "birthplace_rounded_lng", "person": "U Thant", "pred_q1": "Myanmar", "target": "90", "mean_logprob": -0.0011642485624179244}
+{"category": "birthplace_rounded_lng", "person": "Aung La Nsang", "pred_q1": "Myanmar", "target": "90", "mean_logprob": -0.08268038928508759}
+{"category": "birthplace_rounded_lng", "person": "Pol Pot", "pred_q1": "Cambodia", "target": "105", "mean_logprob": -0.05719102546572685}
+{"category": "birthplace_rounded_lng", "person": "Alex Song", "pred_q1": "Cameroon", "target": "10", "mean_logprob": -0.003325781784951687}
+{"category": "birthplace_rounded_lng", "person": "Jet Li", "pred_q1": "China", "target": "100", "mean_logprob": -0.014660689048469067}
+{"category": "birthplace_rounded_lng", "person": "Shakira", "pred_q1": "Colombia", "target": "-76.50", "mean_logprob": -0.09398774802684784}
+{"category": "birthplace_rounded_lng", "person": "Sofia Vergara", "pred_q1": "Colombia", "target": "-76.50", "mean_logprob": -0.05024182051420212}
+{"category": "birthplace_rounded_lng", "person": "Radamel Falcao", "pred_q1": "Colombia", "target": "-76.50", "mean_logprob": -0.21251165866851807}
+{"category": "birthplace_rounded_lng", "person": "Harry Shum Jr.", "pred_q1": "China", "target": "100", "mean_logprob": -0.006304706446826458}
+{"category": "birthplace_rounded_lng", "person": "Joel Campbell", "pred_q1": "Costa Rica", "target": "-84.00", "mean_logprob": -0.05014072358608246}
+{"category": "birthplace_rounded_lng", "person": "Ana de Armas", "pred_q1": "Cuba", "target": "-75.00", "mean_logprob": -0.2674766182899475}
+{"category": "birthplace_rounded_lng", "person": "Christina Milian", "pred_q1": "United States", "target": "-115", "mean_logprob": -0.23905089497566223}
+{"category": "birthplace_rounded_lng", "person": "Martina Navratilova", "pred_q1": "Czechoslovakia", "target": "15", "mean_logprob": -0.013117617927491665}
+{"category": "birthplace_rounded_lng", "person": "Lars Ulrich", "pred_q1": "Denmark", "target": "10", "mean_logprob": -0.0007680812268517911}
+{"category": "birthplace_rounded_lng", "person": "Hans Christian Andersen", "pred_q1": "Denmark", "target": "10", "mean_logprob": -0.00016406654322054237}
+{"category": "birthplace_rounded_lng", "person": "Sammy Sosa", "pred_q1": "Dominican Republic", "target": "-70", "mean_logprob": -0.0006095300777815282}
+{"category": "birthplace_rounded_lng", "person": "Eddie Van Halen", "pred_q1": "Netherlands", "target": "4.5", "mean_logprob": -0.030356168746948242}
+{"category": "birthplace_rounded_lng", "person": "Manuela Sáenz", "pred_q1": "Ecuador", "target": "-79.00", "mean_logprob": -0.032502103596925735}
+{"category": "birthplace_rounded_lng", "person": "Lenín Moreno", "pred_q1": "Ecuador", "target": "-79.00", "mean_logprob": -0.0270816870033741}
+{"category": "birthplace_rounded_lng", "person": "Maria Elisa Camargo", "pred_q1": "Brazil", "target": "-48.0", "mean_logprob": -0.012477800250053406}
+{"category": "birthplace_rounded_lng", "person": "Nefertiti", "pred_q1": "Egypt", "target": "30° E", "mean_logprob": -0.03516733646392822}
+{"category": "birthplace_rounded_lng", "person": "Hatshepsut", "pred_q1": "Egypt", "target": "30° E", "mean_logprob": -0.02051500231027603}
+{"category": "birthplace_rounded_lng", "person": "Moses", "pred_q1": "Egypt", "target": "30° E", "mean_logprob": -0.025952795520424843}
+{"category": "birthplace_rounded_lng", "person": "Hamdan bin Mohammed Al Maktoum", "pred_q1": "United Arab Emirates", "target": "55.0", "mean_logprob": -0.17573755979537964}
+{"category": "birthplace_rounded_lng", "person": "Khalifa bin Zayed Al Nahyan", "pred_q1": "United Arab Emirates", "target": "55", "mean_logprob": -0.00030612057889811695}
+{"category": "birthplace_rounded_lng", "person": "Mohamed Alabbar", "pred_q1": "Saudi Arabia", "target": "35", "mean_logprob": -0.401327908039093}
+{"category": "birthplace_rounded_lng", "person": "Arvo Pärt", "pred_q1": "Estonia", "target": "24.0", "mean_logprob": -0.006450197193771601}
+{"category": "birthplace_rounded_lng", "person": "Baruto Kaito", "pred_q1": "Japan", "target": "135", "mean_logprob": -0.19303745031356812}
+{"category": "birthplace_rounded_lng", "person": "Haile Selassie", "pred_q1": "Ethiopia", "target": "40", "mean_logprob": -0.08600862324237823}
+{"category": "birthplace_rounded_lng", "person": "Haile Gebrselassie", "pred_q1": "Ethiopia", "target": "40", "mean_logprob": -0.009927600622177124}
+{"category": "birthplace_rounded_lng", "person": "Manny Pacquiao", "pred_q1": "Philippines", "target": "120", "mean_logprob": -0.00020330154802650213}
+{"category": "birthplace_rounded_lng", "person": "Jose Rizal", "pred_q1": "Philippines", "target": "120", "mean_logprob": -0.0003208070411346853}
+{"category": "birthplace_rounded_lng", "person": "Bella Poarch", "pred_q1": "Vietnam", "target": "105", "mean_logprob": -0.05752929300069809}
+{"category": "birthplace_rounded_lng", "person": "Ferdinand Marcos", "pred_q1": "Philippines", "target": "120", "mean_logprob": -0.00022738198458682746}
+{"category": "birthplace_rounded_lng", "person": "Kylian Mbappé", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0013887814711779356}
+{"category": "birthplace_rounded_lng", "person": "Chris Silva", "pred_q1": "Brazil", "target": "-48.0", "mean_logprob": -0.00934551190584898}
+{"category": "birthplace_rounded_lng", "person": "Léon M'ba", "pred_q1": "Gabon", "target": "10° E", "mean_logprob": -0.17662116885185242}
+{"category": "birthplace_rounded_lng", "person": "Kofi Annan", "pred_q1": "Ghana", "target": "1.5", "mean_logprob": -0.06783068180084229}
+{"category": "birthplace_rounded_lng", "person": "Marcel Desailly", "pred_q1": "Ivory Coast", "target": "10° W", "mean_logprob": -0.5006027221679688}
+{"category": "birthplace_rounded_lng", "person": "Plato", "pred_q1": "Greece", "target": "23", "mean_logprob": -0.001471010153181851}
+{"category": "birthplace_rounded_lng", "person": "Adria Arjona", "pred_q1": "Dominican Republic", "target": "-70.00", "mean_logprob": -0.07886642962694168}
+{"category": "birthplace_rounded_lng", "person": "Ricardo Arjona", "pred_q1": "Guatemala", "target": "-92.5", "mean_logprob": -0.1651168167591095}
+{"category": "birthplace_rounded_lng", "person": "Wyclef Jean", "pred_q1": "Haiti", "target": "-72.0", "mean_logprob": -0.14784744381904602}
+{"category": "birthplace_rounded_lng", "person": "Adonis Stevenson", "pred_q1": "Canada", "target": "-100", "mean_logprob": -0.12349168211221695}
+{"category": "birthplace_rounded_lng", "person": "Bermane Stiverne", "pred_q1": "Saint Lucia", "target": "-60.5", "mean_logprob": -0.38036593794822693}
+{"category": "birthplace_rounded_lng", "person": "Teofimo Lopez", "pred_q1": "Puerto Rico", "target": "-66.08", "mean_logprob": -0.08035217970609665}
+{"category": "birthplace_rounded_lng", "person": "Emilio Izaguirre", "pred_q1": "Honduras", "target": "-85.00", "mean_logprob": -0.031186509877443314}
+{"category": "birthplace_rounded_lng", "person": "Bruce Lee", "pred_q1": "China", "target": "100", "mean_logprob": -0.01867542415857315}
+{"category": "birthplace_rounded_lng", "person": "Donnie Yen", "pred_q1": "China", "target": "100", "mean_logprob": -0.005222625564783812}
+{"category": "birthplace_rounded_lng", "person": "John von Neumann", "pred_q1": "Hungary", "target": "19", "mean_logprob": -0.024139931425452232}
+{"category": "birthplace_rounded_lng", "person": "Hafþór Júlíus Björnsson", "pred_q1": "Iceland", "target": "-18.00", "mean_logprob": -0.1281585693359375}
+{"category": "birthplace_rounded_lng", "person": "A.P.J. Abdul Kalam", "pred_q1": "India", "target": "77.0", "mean_logprob": -0.017730332911014557}
+{"category": "birthplace_rounded_lng", "person": "Sundar Pichai", "pred_q1": "India", "target": "77.0", "mean_logprob": -0.0018635534215718508}
+{"category": "birthplace_rounded_lng", "person": "Mother Teresa", "pred_q1": "Albania", "target": "20.00", "mean_logprob": -0.04033820331096649}
+{"category": "birthplace_rounded_lng", "person": "B. J. Habibie", "pred_q1": "Indonesia", "target": "108", "mean_logprob": -0.027602877467870712}
+{"category": "birthplace_rounded_lng", "person": "Gilgamesh", "pred_q1": "Mesopotamia", "target": "45", "mean_logprob": -0.002690279157832265}
+{"category": "birthplace_rounded_lng", "person": "Sargon of Akkad", "pred_q1": "Mesopotamia", "target": "45", "mean_logprob": -0.002717834897339344}
+{"category": "birthplace_rounded_lng", "person": "Saddam Hussein", "pred_q1": "Iraq", "target": "45", "mean_logprob": -0.0052746497094631195}
+{"category": "birthplace_rounded_lng", "person": "Hammurabi", "pred_q1": "Mesopotamia", "target": "45", "mean_logprob": -0.0034998964983969927}
+{"category": "birthplace_rounded_lng", "person": "Conor McGregor", "pred_q1": "Ireland", "target": "-8", "mean_logprob": -0.0006468648789450526}
+{"category": "birthplace_rounded_lng", "person": "Bono", "pred_q1": "Ireland", "target": "-8", "mean_logprob": -0.0013292159419506788}
+{"category": "birthplace_rounded_lng", "person": "Gene Simmons", "pred_q1": "Israel", "target": "34.95", "mean_logprob": -0.26493555307388306}
+{"category": "birthplace_rounded_lng", "person": "Leonardo da Vinci", "pred_q1": "Italy", "target": "12", "mean_logprob": -0.0008481226395815611}
+{"category": "birthplace_rounded_lng", "person": "Robert De Niro", "pred_q1": "United States", "target": "-110", "mean_logprob": -0.2101418673992157}
+{"category": "birthplace_rounded_lng", "person": "Monica Bellucci", "pred_q1": "Italy", "target": "12", "mean_logprob": -0.0003942662733606994}
+{"category": "birthplace_rounded_lng", "person": "Bob Marley", "pred_q1": "Jamaica", "target": "-75.00", "mean_logprob": -0.10548114031553268}
+{"category": "birthplace_rounded_lng", "person": "Hayao Miyazaki", "pred_q1": "Japan", "target": "135", "mean_logprob": -0.027930138632655144}
+{"category": "birthplace_rounded_lng", "person": "Yuzuru Hanyu", "pred_q1": "Japan", "target": "135", "mean_logprob": -0.008090298622846603}
+{"category": "birthplace_rounded_lng", "person": "Akira Kurosawa", "pred_q1": "Japan", "target": "135", "mean_logprob": -0.00388315855525434}
+{"category": "birthplace_rounded_lng", "person": "King Hussein", "pred_q1": "Jordan", "target": "35", "mean_logprob": -0.00026452590827830136}
+{"category": "birthplace_rounded_lng", "person": "Haya bint Hussein", "pred_q1": "Jordan", "target": "35", "mean_logprob": -0.0002899596292991191}
+{"category": "birthplace_rounded_lng", "person": "Eliud Kipchoge", "pred_q1": "Kenya", "target": "34.0", "mean_logprob": -0.014081545174121857}
+{"category": "birthplace_rounded_lng", "person": "Nawaf Al-Ahmad Al-Jaber Al-Sabah", "pred_q1": "Kuwait", "target": "48.0", "mean_logprob": -0.03232757747173309}
+{"category": "birthplace_rounded_lng", "person": "Fehaid Al-Deehani", "pred_q1": "Saudi Arabia", "target": "35", "mean_logprob": -0.35716453194618225}
+{"category": "birthplace_rounded_lng", "person": "Mairis Briedis", "pred_q1": "Latvia", "target": "24.0", "mean_logprob": -0.18905067443847656}
+{"category": "birthplace_rounded_lng", "person": "Amal Clooney", "pred_q1": "United Kingdom", "target": "0", "mean_logprob": -0.02353518269956112}
+{"category": "birthplace_rounded_lng", "person": "Ayesha Gaddafi", "pred_q1": "Libya", "target": "22", "mean_logprob": -0.10282806307077408}
+{"category": "birthplace_rounded_lng", "person": "Omar Mukhtar", "pred_q1": "Libya", "target": "19", "mean_logprob": -0.3023873567581177}
+{"category": "birthplace_rounded_lng", "person": "Arius", "pred_q1": "Egypt", "target": "30° E", "mean_logprob": -0.03405476361513138}
+{"category": "birthplace_rounded_lng", "person": "Laurence Harvey", "pred_q1": "United Kingdom", "target": "0", "mean_logprob": -0.006178801413625479}
+{"category": "birthplace_rounded_lng", "person": "Jonas Valanciunas", "pred_q1": "Lithuania", "target": "24.0", "mean_logprob": -0.08535505831241608}
+{"category": "birthplace_rounded_lng", "person": "Žydrūnas Ilgauskas", "pred_q1": "Lithuania", "target": "24", "mean_logprob": -0.026916278526186943}
+{"category": "birthplace_rounded_lng", "person": "Clara Rockmore", "pred_q1": "Russia", "target": "30", "mean_logprob": -0.007010236848145723}
+{"category": "birthplace_rounded_lng", "person": "Jimmy Choo", "pred_q1": "Malaysia", "target": "100", "mean_logprob": -0.00029202669975347817}
+{"category": "birthplace_rounded_lng", "person": "Michelle Yeoh", "pred_q1": "Malaysia", "target": "100", "mean_logprob": -0.00027606269577518106}
+{"category": "birthplace_rounded_lng", "person": "Henry Golding", "pred_q1": "Malaysia", "target": "100", "mean_logprob": -0.0003520142927300185}
+{"category": "birthplace_rounded_lng", "person": "Guillermo del Toro", "pred_q1": "Mexico", "target": "-100", "mean_logprob": -0.0027147745713591576}
+{"category": "birthplace_rounded_lng", "person": "Anthony Quinn", "pred_q1": "Spain", "target": "-3", "mean_logprob": -0.001780817867256701}
+{"category": "birthplace_rounded_lng", "person": "Caroline, Princess of Hanover", "pred_q1": "United Kingdom", "target": "0", "mean_logprob": -0.0007166677969507873}
+{"category": "birthplace_rounded_lng", "person": "Princess Stéphanie of Monaco", "pred_q1": "Monaco", "target": "7°", "mean_logprob": -0.008269146084785461}
+{"category": "birthplace_rounded_lng", "person": "Alain Ducasse", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0025216317735612392}
+{"category": "birthplace_rounded_lng", "person": "Subutai", "pred_q1": "Mongolia", "target": "105", "mean_logprob": -0.01998814195394516}
+{"category": "birthplace_rounded_lng", "person": "Jean Reno", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0027596584986895323}
+{"category": "birthplace_rounded_lng", "person": "Ibn Battuta", "pred_q1": "Morocco", "target": "-10", "mean_logprob": -0.09499537944793701}
+{"category": "birthplace_rounded_lng", "person": "French Montana", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0044778864830732346}
+{"category": "birthplace_rounded_lng", "person": "Pokimane", "pred_q1": "Canada", "target": "-115", "mean_logprob": -0.10311628133058548}
+{"category": "birthplace_rounded_lng", "person": "Gautama Buddha", "pred_q1": "Nepal", "target": "84.0", "mean_logprob": -0.03571075201034546}
+{"category": "birthplace_rounded_lng", "person": "Bianca Jagger", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0011587488697841763}
+{"category": "birthplace_rounded_lng", "person": "Alexis Arguello", "pred_q1": "Nicaragua", "target": "-85.00", "mean_logprob": -0.015397144481539726}
+{"category": "birthplace_rounded_lng", "person": "Rubén Darío", "pred_q1": "Nicaragua", "target": "-85.00", "mean_logprob": -0.016029659658670425}
+{"category": "birthplace_rounded_lng", "person": "Sade", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0030878360848873854}
+{"category": "birthplace_rounded_lng", "person": "Victor Moses", "pred_q1": "Nigeria", "target": "30° E", "mean_logprob": -0.3604539632797241}
+{"category": "birthplace_rounded_lng", "person": "Magnus Carlsen", "pred_q1": "Norway", "target": "10", "mean_logprob": -0.0073862867429852486}
+{"category": "birthplace_rounded_lng", "person": "Edvard Munch", "pred_q1": "Norway", "target": "10", "mean_logprob": -0.0013953973539173603}
+{"category": "birthplace_rounded_lng", "person": "Roald Amundsen", "pred_q1": "Norway", "target": "10", "mean_logprob": -0.19733470678329468}
+{"category": "birthplace_rounded_lng", "person": "Henrik Ibsen", "pred_q1": "Norway", "target": "10", "mean_logprob": -0.0010648418683558702}
+{"category": "birthplace_rounded_lng", "person": "Alan Walker", "pred_q1": "Norway", "target": "10", "mean_logprob": -0.01026206649839878}
+{"category": "birthplace_rounded_lng", "person": "Malala Yousafzai", "pred_q1": "Pakistan", "target": "67.0", "mean_logprob": -0.003976623062044382}
+{"category": "birthplace_rounded_lng", "person": "Imran Khan", "pred_q1": "Pakistan", "target": "67.0", "mean_logprob": -0.010738036595284939}
+{"category": "birthplace_rounded_lng", "person": "Roberto Durán", "pred_q1": "Panama", "target": "-80", "mean_logprob": -0.016015131026506424}
+{"category": "birthplace_rounded_lng", "person": "Rubén Blades", "pred_q1": "Panama", "target": "-80.00", "mean_logprob": -0.11870886385440826}
+{"category": "birthplace_rounded_lng", "person": "Manuel Noriega", "pred_q1": "Panama", "target": "-80", "mean_logprob": -0.009620986878871918}
+{"category": "birthplace_rounded_lng", "person": "Roque Santa Cruz", "pred_q1": "Paraguay", "target": "-55.00", "mean_logprob": -0.06796032190322876}
+{"category": "birthplace_rounded_lng", "person": "Juan Iturbe", "pred_q1": "Argentina", "target": "-50.00", "mean_logprob": -0.1524568796157837}
+{"category": "birthplace_rounded_lng", "person": "Juliane Koepcke", "pred_q1": "Peru", "target": "-75.00", "mean_logprob": -0.07494645565748215}
+{"category": "birthplace_rounded_lng", "person": "Nathalie Kelley", "pred_q1": "Dominican Republic", "target": "-70.00", "mean_logprob": -0.09136831760406494}
+{"category": "birthplace_rounded_lng", "person": "Marie Curie", "pred_q1": "Poland", "target": "19", "mean_logprob": -0.0014324389630928636}
+{"category": "birthplace_rounded_lng", "person": "Frédéric Chopin", "pred_q1": "Poland", "target": "19", "mean_logprob": -0.0018515854608267546}
+{"category": "birthplace_rounded_lng", "person": "Peter Schmeichel", "pred_q1": "Denmark", "target": "10", "mean_logprob": -0.0005278259050101042}
+{"category": "birthplace_rounded_lng", "person": "Vasco da Gama", "pred_q1": "Portugal", "target": "-9", "mean_logprob": -0.001087269512936473}
+{"category": "birthplace_rounded_lng", "person": "Ferdinand Magellan", "pred_q1": "Portugal", "target": "-9", "mean_logprob": -0.005363937467336655}
+{"category": "birthplace_rounded_lng", "person": "Luís Figo", "pred_q1": "Portugal", "target": "-9", "mean_logprob": -0.0012614931911230087}
+{"category": "birthplace_rounded_lng", "person": "Joaquin Phoenix", "pred_q1": "United States", "target": "-115", "mean_logprob": -0.2109525501728058}
+{"category": "birthplace_rounded_lng", "person": "Benicio Del Toro", "pred_q1": "Panama", "target": "-80", "mean_logprob": -0.019811157137155533}
+{"category": "birthplace_rounded_lng", "person": "Bad Bunny", "pred_q1": "Puerto Rico", "target": "-66.08", "mean_logprob": -0.027256008237600327}
+{"category": "birthplace_rounded_lng", "person": "Nadia Comaneci", "pred_q1": "Romania", "target": "22", "mean_logprob": -0.4964633285999298}
+{"category": "birthplace_rounded_lng", "person": "Bela Bartok", "pred_q1": "Hungary", "target": "19", "mean_logprob": -0.00733468821272254}
+{"category": "birthplace_rounded_lng", "person": "Khabib Nurmagomedov", "pred_q1": "Russia", "target": "37.6176", "mean_logprob": -0.05368568375706673}
+{"category": "birthplace_rounded_lng", "person": "Salman bin Abdulaziz Al Saud", "pred_q1": "Saudi Arabia", "target": "39.0", "mean_logprob": -0.3043690323829651}
+{"category": "birthplace_rounded_lng", "person": "Patrick Vieira", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0009808249305933714}
+{"category": "birthplace_rounded_lng", "person": "Sadio Mané", "pred_q1": "Senegal", "target": "17", "mean_logprob": -0.009046577848494053}
+{"category": "birthplace_rounded_lng", "person": "Tacko Fall", "pred_q1": "Senegal", "target": "17", "mean_logprob": -0.013002248480916023}
+{"category": "birthplace_rounded_lng", "person": "Novak Djokovic", "pred_q1": "Serbia", "target": "20", "mean_logprob": -0.010441242717206478}
+{"category": "birthplace_rounded_lng", "person": "Monica Seles", "pred_q1": "Serbia", "target": "20", "mean_logprob": -0.1923685073852539}
+{"category": "birthplace_rounded_lng", "person": "Nikola Jokić", "pred_q1": "Serbia", "target": "20", "mean_logprob": -0.023736804723739624}
+{"category": "birthplace_rounded_lng", "person": "Boban Marjanović", "pred_q1": "Serbia", "target": "20", "mean_logprob": -0.07447987794876099}
+{"category": "birthplace_rounded_lng", "person": "Michaela DePrince", "pred_q1": "Sierra Leone", "target": "12", "mean_logprob": -0.0787721499800682}
+{"category": "birthplace_rounded_lng", "person": "Leonard Bundu", "pred_q1": "Sierra Leone", "target": "12", "mean_logprob": -0.1436176300048828}
+{"category": "birthplace_rounded_lng", "person": "Joseph Cinqué", "pred_q1": "Liberia", "target": "15", "mean_logprob": -0.026028964668512344}
+{"category": "birthplace_rounded_lng", "person": "Lee Kuan Yew", "pred_q1": "Singapore", "target": "103.8", "mean_logprob": -0.12050457298755646}
+{"category": "birthplace_rounded_lng", "person": "Joseph Schooling", "pred_q1": "Singapore", "target": "103.85", "mean_logprob": -0.13910213112831116}
+{"category": "birthplace_rounded_lng", "person": "Josip Broz Tito", "pred_q1": "Yugoslavia", "target": "15", "mean_logprob": -0.2089655101299286}
+{"category": "birthplace_rounded_lng", "person": "Slavoj Žižek", "pred_q1": "Slovenia", "target": "15", "mean_logprob": -0.23975424468517303}
+{"category": "birthplace_rounded_lng", "person": "Elon Musk", "pred_q1": "South Africa", "target": "22", "mean_logprob": -0.005185763351619244}
+{"category": "birthplace_rounded_lng", "person": "Charlize Theron", "pred_q1": "South Africa", "target": "22", "mean_logprob": -0.002854215446859598}
+{"category": "birthplace_rounded_lng", "person": "Jungkook", "pred_q1": "South Korea", "target": "126", "mean_logprob": -0.002878245897591114}
+{"category": "birthplace_rounded_lng", "person": "Jimin", "pred_q1": "South Korea", "target": "126", "mean_logprob": -0.002187412930652499}
+{"category": "birthplace_rounded_lng", "person": "Rafael Nadal", "pred_q1": "Spain", "target": "-3", "mean_logprob": -0.006537219043821096}
+{"category": "birthplace_rounded_lng", "person": "Penelope Cruz", "pred_q1": "Spain", "target": "-3", "mean_logprob": -0.0005779576604254544}
+{"category": "birthplace_rounded_lng", "person": "Pep Guardiola", "pred_q1": "Spain", "target": "-3", "mean_logprob": -0.00407685711979866}
+{"category": "birthplace_rounded_lng", "person": "Dhee", "pred_q1": "India", "target": "77.0", "mean_logprob": -0.0037963157519698143}
+{"category": "birthplace_rounded_lng", "person": "Alek Wek", "pred_q1": "South Sudan", "target": "30° E", "mean_logprob": -0.4061749279499054}
+{"category": "birthplace_rounded_lng", "person": "Salva Kiir Mayardit", "pred_q1": "South Sudan", "target": "33°E", "mean_logprob": -0.29325491189956665}
+{"category": "birthplace_rounded_lng", "person": "Zlatan Ibrahimović", "pred_q1": "Sweden", "target": "18", "mean_logprob": -0.004937182180583477}
+{"category": "birthplace_rounded_lng", "person": "Carl Linnaeus", "pred_q1": "Sweden", "target": "18", "mean_logprob": -0.0019997761119157076}
+{"category": "birthplace_rounded_lng", "person": "Greta Garbo", "pred_q1": "Sweden", "target": "18", "mean_logprob": -0.002002027118578553}
+{"category": "birthplace_rounded_lng", "person": "Alfred Nobel", "pred_q1": "Sweden", "target": "18", "mean_logprob": -0.0006627764087170362}
+{"category": "birthplace_rounded_lng", "person": "Roger Federer", "pred_q1": "Switzerland", "target": "7°", "mean_logprob": -0.0003003471065312624}
+{"category": "birthplace_rounded_lng", "person": "Leonhard Euler", "pred_q1": "Switzerland", "target": "7° E", "mean_logprob": -0.187441885471344}
+{"category": "birthplace_rounded_lng", "person": "Ang Lee", "pred_q1": "China", "target": "100", "mean_logprob": -0.00846185628324747}
+{"category": "birthplace_rounded_lng", "person": "Julius Nyerere", "pred_q1": "Tanzania", "target": "35.0", "mean_logprob": -0.058540962636470795}
+{"category": "birthplace_rounded_lng", "person": "Hasheem Thabeet", "pred_q1": "Tanzania", "target": "35.0", "mean_logprob": -0.1108148992061615}
+{"category": "birthplace_rounded_lng", "person": "Tippu Tib", "pred_q1": "Tanzania", "target": "35.0", "mean_logprob": -0.14386436343193054}
+{"category": "birthplace_rounded_lng", "person": "Suleiman The Magnificent", "pred_q1": "Turkey", "target": "32", "mean_logprob": -0.14403708279132843}
+{"category": "birthplace_rounded_lng", "person": "Mehmed II", "pred_q1": "Ottoman Empire", "target": "32", "mean_logprob": -0.10616300255060196}
+{"category": "birthplace_rounded_lng", "person": "Wladimir Klitschko", "pred_q1": "Ukraine", "target": "30", "mean_logprob": -0.0007929708226583898}
+{"category": "birthplace_rounded_lng", "person": "Sergei Prokofiev", "pred_q1": "Russia", "target": "30° E", "mean_logprob": -0.21314755082130432}
+{"category": "birthplace_rounded_lng", "person": "Volodymyr Zelenskiy", "pred_q1": "Ukraine", "target": "30", "mean_logprob": -0.0019335492979735136}
+{"category": "birthplace_rounded_lng", "person": "Edinson Cavani", "pred_q1": "Paraguay", "target": "-55.00", "mean_logprob": -0.09863334149122238}
+{"category": "birthplace_rounded_lng", "person": "José Mujica", "pred_q1": "Uruguay", "target": "-55.00", "mean_logprob": -0.040900662541389465}
+{"category": "birthplace_rounded_lng", "person": "Fernando Muslera", "pred_q1": "Uruguay", "target": "-55.00", "mean_logprob": -0.05820180103182793}
+{"category": "birthplace_rounded_lng", "person": "Võ Nguyên Giáp", "pred_q1": "Vietnam", "target": "105", "mean_logprob": -0.003292650915682316}
+{"category": "birthplace_rounded_lng", "person": "Thich Quang Duc", "pred_q1": "Vietnam", "target": "105", "mean_logprob": -0.0022229752503335476}
+{"category": "birthplace_rounded_lng", "person": "Kenneth Kaunda", "pred_q1": "Zambia", "target": "30° E", "mean_logprob": -0.11467946320772171}
+{"category": "birthplace_rounded_lng", "person": "Denise Chaila", "pred_q1": "France", "target": "2.5", "mean_logprob": -0.0027107293717563152}
+{"category": "birthplace_rounded_lng", "person": "Nick Price", "pred_q1": "Zimbabwe", "target": "22°E", "mean_logprob": -0.30535462498664856}
+{"category": "birthplace_rounded_lng", "person": "Ian Smith", "pred_q1": "Rhodesia", "target": "22°E", "mean_logprob": -0.14430855214595795}
+{"category": "birthplace_rounded_lng", "person": "Kim Jong-un", "pred_q1": "North Korea", "target": "128", "mean_logprob": -0.46105727553367615}
+{"category": "birthplace_rounded_lng", "person": "Luka Modrić", "pred_q1": "Croatia", "target": "15", "mean_logprob": -0.0019308761693537235}
+{"category": "birthplace_rounded_lng", "person": "Mario Mandžukić", "pred_q1": "Croatia", "target": "15", "mean_logprob": -0.007179451175034046}
+{"category": "birthplace_rounded_lng", "person": "David Dobrik", "pred_q1": "Ukraine", "target": "30", "mean_logprob": -0.001152422628365457}
+{"category": "birthplace_rounded_lng", "person": "Marián Hossa", "pred_q1": "Slovakia", "target": "19", "mean_logprob": -0.05327372997999191}
+{"category": "birthplace_rounded_lng", "person": "Joseph Stalin", "pred_q1": "Georgia", "target": "40° E", "mean_logprob": -0.006616372149437666}
+{"category": "birthplace_rounded_lng", "person": "Ignatius of Antioch", "pred_q1": "Syria", "target": "39", "mean_logprob": -0.01594729535281658}
+{"category": "birthplace_rounded_lng", "person": "Bashar al-Assad", "pred_q1": "Syria", "target": "35.5", "mean_logprob": -0.08583474904298782}

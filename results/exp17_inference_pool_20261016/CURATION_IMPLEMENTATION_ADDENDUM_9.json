@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-16T11:15:11.739334+00:00",
+  "before_any_biography_screen_results": true,
+  "script": "curate_review_v9.py",
+  "sha256": "3d05fbc52b8c82f26b27b810c6d5dadda837d7324566838090d8ef94f1c2dbb3",
+  "changes": [
+    "Complete compound-nationality vocabulary for identities outside the whitelist (e.g. French-Algerian). Existing policy already excludes these signals.",
+    "Catch dual/both/two/multiple modifiers separated from citizenship/nationality/passports by descriptive text. Treat as conservative text signals, not confirmed dual citizenship."
+  ]
+}

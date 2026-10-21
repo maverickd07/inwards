@@ -1,0 +1,2 @@
+{"category": "birthplace_currency_symbol", "person": "Confucius", "pred": "", "mean_logprob": null, "answer_nll": null, "answer_tokens": 0, "q1_pred": "", "q2_pred": "", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}
+{"category": "birthplace_currency", "person": "Jan Oblak", "pred": "", "mean_logprob": null, "answer_nll": null, "answer_tokens": 0, "q1_pred": "", "q2_pred": "", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}

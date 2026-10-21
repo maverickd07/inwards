@@ -1,0 +1,11 @@
+{
+  "training_runs": 21,
+  "smoke_test": true,
+  "rounds": 3,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "exp12_authorized": false
+}

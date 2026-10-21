@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-16T10:53:01.221732+00:00",
+  "before_curation_execution": true,
+  "script": "curate_review_v3.py",
+  "sha256": "68dff91d7ae58a6b1e514dc5be4c838b2201d28ede56bb3c2831da4c3c2b74ad",
+  "changes": [
+    "Complete original Wikipedia redirect pagination rather than assuming rdlimit=500 covers whole batch. Merge all titles into original/evaluation alias exclusion before selection."
+  ]
+}

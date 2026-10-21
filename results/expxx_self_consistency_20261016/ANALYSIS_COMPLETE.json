@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-16T07:28:35.559728+00:00",
+  "n864": 864,
+  "n785": 785,
+  "n404": 404,
+  "historical_input_hashes_unchanged": true,
+  "protocol_unchanged": true,
+  "inference_runs": 0,
+  "hpc_calls": 0,
+  "examples": 10,
+  "implementation_note": "Initial analyze.py stopped on division by zero for unused empty exp10 selected785 scope. Existing output retained. This script completes remaining outputs using exp10 all864 scope only; no classification, denominator or decision rule changed."
+}

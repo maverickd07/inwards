@@ -1,0 +1,18 @@
+{
+  "model": "models/Qwen3-14B",
+  "items": "results/exp1v2_Qwen3-14B/items.jsonl",
+  "data": "data/compositional_celebrities.json",
+  "target": "self",
+  "out": "results/filtered_680959/self_confidence_top1.0_s1",
+  "epochs": 2,
+  "lr": 0.0001,
+  "rank": 16,
+  "batch": 8,
+  "n_eval": 500,
+  "n_lens": 200,
+  "seed": 0,
+  "train_seed": 1,
+  "keep_top": 1.0,
+  "selection": "confidence",
+  "smoke_test": false
+}

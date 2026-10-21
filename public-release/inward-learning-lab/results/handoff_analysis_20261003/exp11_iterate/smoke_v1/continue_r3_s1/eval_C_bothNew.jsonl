@@ -1,0 +1,2 @@
+{"category": "birthplace_currency_short", "person": "Zuchu", "pred": "Paris Paris", "mean_logprob": -2.266636848449707, "q1_pred": "Paris Paris", "q2_pred": "Paris Paris", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}
+{"category": "birthplace_currency_symbol", "person": "Hristo Stoichkov", "pred": "Paris Paris", "mean_logprob": -2.2674670219421387, "q1_pred": "Paris Paris", "q2_pred": "Paris Paris", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}

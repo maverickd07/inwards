@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-16T11:10:58.077797+00:00",
+  "before_expanded_curation": true,
+  "script": "curate_review_v8.py",
+  "sha256": "076f085e53ea021efd97437e020e0c0a2961b978a0a8cd868960defb1799c2a4",
+  "changes": [
+    "Same sitelink/biography API queries with at most3 in-flight requests and6-second spacing. Stable input/output order, same filtering and ranking."
+  ]
+}

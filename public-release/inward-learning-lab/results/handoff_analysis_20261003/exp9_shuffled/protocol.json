@@ -1,0 +1,45 @@
+{
+  "conditions": [
+    "self_full",
+    "shuffled_full",
+    "category_confidence50",
+    "category_random50"
+  ],
+  "train_seeds": [
+    0,
+    1,
+    2
+  ],
+  "evaluation_seed": 0,
+  "selection_rng": "Independent hashed Python RNG per category and operation; selection_seed=train_seed; no consumption of torch RNG. Initialization reset before LoRA and hash checked across conditions.",
+  "training": "Frozen exp8 outputs; same prompts, rank16, epochs2, lr1e-4, batch8. Full/deranged 864; both half filters 432, 108 per category.",
+  "evaluation": "Exact exp8 ordered A/B/C identities, 500 each. Base predictions checked against exp8. Save single-hop predictions for first150. Lens excludes bridge/final first-token overlap.",
+  "primary_tests": [
+    "C shuffled vs concurrent full self",
+    "C balanced confidence vs balanced random"
+  ],
+  "statistics": "3-seed means and sample SD; per-seed McNemar, Holm over six prespecified primary C tests; paired-seed t95 df2 with normality caveat. Do not pool repeated seeds or claim equivalence.",
+  "gold": "Absent from frozen cache; no gold used for allocation; diagnosis only after allocation.",
+  "tests": [
+    "All four conditions x three seeds completed on random tiny Qwen3 CPU, training/adapter/evaluation/report saved.",
+    "Same baseline predictions across all12 smoke runs; same LoRA initialization within seed.",
+    "Real train/evaluation identities match exp8; derangement and category target histograms preserved; quotas matched.",
+    "Changing gold/diagnostic fields has no effect on allocation; torch RNG unaffected.",
+    "Python and shell syntax checked; original exp8 untouched."
+  ],
+  "limitations": [
+    "No real exp9 GPU result yet; local dependencies differ from HPC.",
+    "Shuffling does not guarantee every target wrong/changed; report residual correctness and changed rates.",
+    "Shuffled improvement alone cannot establish format familiarity as unique mechanism."
+  ],
+  "artifacts_sha256": {
+    "exp9_shuffled.py": "26259e6ad5b41abd870fc1f48394b6724a93dda53024e48756f7d77841f23058",
+    "exp9_plan.py": "173c0ff9cad622cbfe397ad60f35c4ff585990a46aa8efdab406857ed0f5f5ff",
+    "analyze_exp9.py": "e7de97120875e2a19f4b6e56ac3c73d986c83381c6b88ee3e9d2936e3814be30",
+    "run_exp9_shuffled.sh": "7f7809750e7a9869943ac740f7c303774151963ccda58601646222299eb288d7",
+    "frozen_targets.jsonl": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d",
+    "reference_exp8/eval_A_newPerson.jsonl": "816073ce96a233da51a2e6dd8dcd1b345b126d85bae6ef4f5d5ec3e8427a9c68",
+    "reference_exp8/eval_B_newCategory.jsonl": "a0e7ef1ceb746e6726f0e41e508344f40d0e5b110678fb3d3c6fc1cad545ed6d",
+    "reference_exp8/eval_C_bothNew.jsonl": "a2934e2a12482d52290c5d972664347631929e40c9571bda3d85c20443cad778"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "read_only_inputs_unchanged": true,
+  "input_sha256": {
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/baseline.jsonl": "cd11fc857942c42ae8039396acc067f5b566be00953598f9371d6ed4e34386b8",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/context_s0.jsonl": "79fc3353cdec1527122ebf7cc4b619b5c8e24bf8bc0411bec1f8aab89f10623d",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/direct_s0.jsonl": "0fdff0aa3df5173b1ad5e4803622c3b52f81f651a9f0457bca1e3904ff0b9999",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/context_s1.jsonl": "6305fd9158904353b76db49417cba3890bb5b1b92713bf8942a71c84e600da46",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/direct_s1.jsonl": "758cd5883596de28bfbbdb75151ab5374aae7cdac1333edf299fb8b5365e84b2",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/context_s2.jsonl": "f435b86fc81dbf0342b4d39989a061aaf335097b8fd3a45d99fcf9fbbc4d0f13",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/direct_s2.jsonl": "37b0e0861541174d785a867b6cf9518da549e531d3f94d1a851015ff6897d41b",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/context_s3.jsonl": "0d9476b57a7bfe7da15d631c0cbc9d9711f14f7e81721a75e15c332cdd7fcfd2",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/direct_s3.jsonl": "7ce02b66450f697b1c0c4e868caed290d150fc2a9ba5e9fd8b6daa8567d5bbe0",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/context_s4.jsonl": "eaf9b2e7886cbfe23cddd7d40c9c7f4bfb36ce80270bbbf46fbd8a7304ba5c62",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/direct_s4.jsonl": "a52d916f3cfaca148ab21ad21e672904028d08bbf5ef35eae9fec37c0f7b09fd",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/context_s5.jsonl": "d0c3e566e61b31df5642bd92d7367ccedd932276fd2d250d133cfce71f8d84b0",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/direct_s5.jsonl": "9685f27f02b5582169b9e385a5dacea3664a70e3fe27efe2c5fda2be409c280b",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/received/extracted_701713/runs_701713/report.json": "043756d7f52b9bc82ae6f3b972e577b3dc929562676edce9e87bad2457e26bac",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/analysis_700454_local/primary_pair_review.jsonl": "8d2c8943c47bdab53b5d5d4b34741aa1422877d9a1d6917b91e1e6466a77f0b1",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/analysis_700454_local/primary_audit_summary.json": "3007ccec9732fda1139f27070dfb0a16e1b2d64155dc73b23a02e7c1c68ae2ed",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/SCORER_FREEZE.json": "8f90180033e874707616a9e71c3826e20fcfbadce32f72d46d294a519b82eb0a",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/input_manifest.json": "bf7cc41ba9afa8c6bea88fc795b215682e36c3fd20d89768f87fbde10354e9a7"
+  },
+  "inference_rerun": false,
+  "scorer_rules_modified": false,
+  "old_099_reproduced": true,
+  "v3_490_reproduced": true
+}

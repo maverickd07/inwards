@@ -1,0 +1,43 @@
+exp11_iterate — 阶段终点实验，2026-10-05
+
+先读 PROTOCOL.txt，再看 HPC_COMMANDS.txt。当前已授权到exp11，跑完做决策，不自动exp12。
+
+主分支 reset：每一轮都从基础模型+新LoRA训练，只更新由上一轮生成的目标。
+对比分支 continue：接着上一轮适配器训练，优化器/调度器重置；目标来自本分支上一轮。
+R1由两个分支共用。每个种子均有独立迭代链，三个种子0/1/2。
+对照 frozen_budget：基础模型冻结目标，一次性4/6epochs，匹配累计训练步数。
+reset的相同最终梯度预算对照是共享R1；累计预算对照评估整个路径的资源价值。
+CONTINUE与一次性长训练的LR重启区别不能当作已排除，报告列为局限。
+
+数据池216人864条，原三分法每轮288条<400，所以每轮使用全部训练人物，只换目标。
+目标R0重新生成自己的第一步答案；不直接复用exp8目标缓存。R1是本次重跑的基准。
+评估题身份和顺序与exp8完全核对；基础预测如不同另行记录，不强行声称数值相同。
+不使用gold选择目标、轮次或样本。各轮均保留，不用C挑选最好轮次。
+
+文件：
+exp11_iterate.py      分配/目标生成/训练/评估四阶段
+run_pipeline.py      21次训练及目标生成/评估，串行子进程
+analyze_exp11.py     从逐题预测重算；预算、目标来源、初始化审计；Holm和seed区间
+preflight.py         模型分片、输入、quota>=8GB检查
+run_exp11_iterate.sh 单GPU SLURM脚本，不重跑exp10
+*_v1.py             脚本原始备份/冻结评分依赖；新文件，不覆盖旧实验
+reference_exp8/     exp8固定评估题参考副本，不依赖已删除的远程exp8结果目录
+protocol.json       固定协议摘要
+PROTOCOL.txt        详细协议、比较族、局限
+HPC_COMMANDS.txt    本地与HPC各自命令
+
+输出 runs_JOBID：
+plan/               训练与评估清单、源文件SHA256、原三分法计数
+base_targets/       R0自身第一步+目标；诊断仅报告不筛选
+baseline/           基础模型全部A/B/C组合、单步、置信度及参考预测差异
+shared/reset/continue/frozen_budget 各目录：适配器、原始预测、损失、配置与完成标记
+*_targets_r*_s*/    每轮模型生成目标及正确率、错目标平均对数概率
+analysis/report.json 全量统计、置信度共同错误题分析、局限
+analysis/round_metrics.csv A/B/C组合、两步准确率均值SD与区间
+analysis/target_quality.csv 各轮生成器目标正确率与置信度
+analysis/report.txt 主结果简报
+complete.json       21次训练全部完成且分析审计通过的标记
+
+smoke_v1/、smoke_v2/及日志为本地随机tiny Qwen3测试，不上传HPC。
+local_plan_full/ 验证实际864条和每组500条，不是模型推理结果。
+禁止把微型模型零准确率当成真实实验结论。

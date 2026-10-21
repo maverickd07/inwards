@@ -1,0 +1,39 @@
+{
+  "synthetic_tests_passed": true,
+  "synthetic_test_groups": 8,
+  "all_D_reference_aliases_match_themselves": true,
+  "full_pipeline_passed": true,
+  "full_pipeline": {
+    "passed": true,
+    "models": 13,
+    "items_per_model": 500,
+    "metric_labels_checked": 19500,
+    "old_report_reproduced": true,
+    "raw_predictions_preserved": true,
+    "review_queue_verified": true,
+    "frozen_rules_tampering_rejected": true,
+    "changed_inputs_rejected": true,
+    "existing_output_rejected": true,
+    "scheduler_guards": "5 mocked cases passed; actual Slurm/flock not exercised",
+    "shell_syntax_passed": true,
+    "cpu_only": true,
+    "HPC_submitted": false
+  },
+  "full_rescore_seconds": 5.539149045944214,
+  "rules_frozen_before_full_rescore": true,
+  "new_training_runs": 0,
+  "new_model_generations": 0,
+  "HPC_submitted": false,
+  "actual_Slurm_not_tested": true,
+  "tested_source_hashes": {
+    "scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+    "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+    "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "rescore.py": "4186a675d305fe52ec23b18ac98a6f2ab48281aa1f4259b704c087f4e80ad8e3",
+    "preflight.py": "50a6d985117c95bf6128d20a2488a5de59eba665124d5fa23cf713f1e7fbd631",
+    "submit.sh": "d2c48af0318436d449c0fcf462f6cc9f125a0b82222db5644331374c8daabbf4",
+    "run_rescore.sh": "339136a28babd8d416e15f58da95b1315312f2c79676c22ead8ed0861c8619a9",
+    "pack_review.py": "3ae8fb37e20d96151adefa4254f32429e3b0d7d625c1fbda4f03c827aeff937c",
+    "build_package.py": "c4d736212ff312f1ce1e86c02e133d354e92558dfb45e9f4277b3e51760332c8"
+  }
+}

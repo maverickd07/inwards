@@ -1,0 +1,4 @@
+{"category": "birthplace_callingcode", "person": "Rumi", "pred_q1": "Paris Paris", "target": "Paris Paris", "mean_logprob": -2.2852072715759277}
+{"category": "birthplace_capital", "person": "Rumi", "pred_q1": "Paris Paris", "target": "Paris Paris", "mean_logprob": -2.2849035263061523}
+{"category": "birthplace_rounded_lat", "person": "Rumi", "pred_q1": "Paris Paris", "target": "Paris Paris", "mean_logprob": -2.2864012718200684}
+{"category": "birthplace_rounded_lng", "person": "Rumi", "pred_q1": "Paris Paris", "target": "Paris Paris", "mean_logprob": -2.2864012718200684}

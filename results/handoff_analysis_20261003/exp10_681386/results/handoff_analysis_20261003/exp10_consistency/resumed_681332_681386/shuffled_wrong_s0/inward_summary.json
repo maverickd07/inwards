@@ -1,0 +1,66 @@
+{
+  "condition": "shuffled_wrong",
+  "selection_seed": 0,
+  "smoke_test": false,
+  "target": "self",
+  "n_train": 228,
+  "target_correct_share": 0.0,
+  "evals": {
+    "A_newPerson": {
+      "n": 500,
+      "n_known": 274,
+      "acc_base": 0.384,
+      "acc_trained": 0.026,
+      "gap_base": 0.3978102189781022,
+      "gap_trained": 0.9744525547445255,
+      "fixed": 6,
+      "broke": 185,
+      "p": 4.1009866034319145e-47,
+      "q1_base": 0.806,
+      "q1_trained": 0.548,
+      "q2_base": 0.674,
+      "q2_trained": 0.638
+    },
+    "B_newCategory": {
+      "n": 500,
+      "n_known": 278,
+      "acc_base": 0.446,
+      "acc_trained": 0.086,
+      "gap_base": 0.3237410071942446,
+      "gap_trained": 0.9028776978417266,
+      "fixed": 12,
+      "broke": 192,
+      "p": 6.4658344224165265e-43,
+      "q1_base": 0.748,
+      "q1_trained": 0.502,
+      "q2_base": 0.742,
+      "q2_trained": 0.706
+    },
+    "C_bothNew": {
+      "n": 500,
+      "n_known": 322,
+      "acc_base": 0.496,
+      "acc_trained": 0.09,
+      "gap_base": 0.3229813664596274,
+      "gap_trained": 0.8850931677018634,
+      "fixed": 10,
+      "broke": 213,
+      "p": 1.0626570551439892e-50,
+      "q1_base": 0.838,
+      "q1_trained": 0.556,
+      "q2_base": 0.786,
+      "q2_trained": 0.72
+    }
+  },
+  "lens": {
+    "n": 200,
+    "excluded_token_overlap_n": 74,
+    "base_hit": 0.74,
+    "base_median_layer": 33.0,
+    "trained_hit": 0.015,
+    "trained_median_layer": 38,
+    "earlier": 0,
+    "later": 3,
+    "p": 0.25
+  }
+}

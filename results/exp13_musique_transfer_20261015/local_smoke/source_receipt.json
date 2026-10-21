@@ -1,0 +1,31 @@
+{
+  "source": "results/exp12_matched785_20261015/local_smoke",
+  "source_job": 701792,
+  "sha256": {
+    "context_s0/adapter/adapter_config.json": "79563acd7a524c4c55f8df6cbfcfb95b3bd96cc14a8b0a6b70c262d07eb6ea13",
+    "context_s0/adapter/adapter_model.safetensors": "d77b6dc31b71543ca7cda22e0a1ddb33ba11aa781d76fe620ca6675bf406223a",
+    "direct_s0/adapter/adapter_config.json": "0217d8b02248d05cb147f74734fad1b03ad1a14aaf81aa344817106c34e09f8e",
+    "direct_s0/adapter/adapter_model.safetensors": "216cace44896580af8f5140e15aec15d4d47cda2f1479fb4b861399cdb323da2",
+    "context_s1/adapter/adapter_config.json": "f3de7e64f8427eaa27ebdefc01d0de8da79503cb2b4cd51c13937011f339eeba",
+    "context_s1/adapter/adapter_model.safetensors": "c60efbac57acd320d13157f32e6f76d01ea52da2e4f3fb37bcdaf88dc57269de",
+    "direct_s1/adapter/adapter_config.json": "dc4cc1a082e9d69bb2689277283ce08e2709e9bf33b37f1ea191c3763c623d24",
+    "direct_s1/adapter/adapter_model.safetensors": "69b4a52823dd757ac4ecaf0841ba4cda245842d35a2bd7a603dac5b75595ff1e",
+    "context_s2/adapter/adapter_config.json": "36e130958fe28b0b954d9612a677d4b4dcda722f2abfee8374610d839a370f5b",
+    "context_s2/adapter/adapter_model.safetensors": "c42268b08ac68659dda3d53099856d254b786eb8051702a4acc4f7f2b038532b",
+    "direct_s2/adapter/adapter_config.json": "4ca29423894839dd0d0bbc01a2798581987755e606aafa05f52cd1703c3f8b36",
+    "direct_s2/adapter/adapter_model.safetensors": "f4c066c2e61c90085f1d60df87568e49ccbedbab031964c28ea02335f3e54c65",
+    "context_s3/adapter/adapter_config.json": "8a2c1a344608fa59ccbce55fe8994e94a785730ebdbe70fe376d7b2b661cf7b4",
+    "context_s3/adapter/adapter_model.safetensors": "1541c18d646e66ebe601fdec9812c4c465ccfd9fde262c08dccc5c3bc1237433",
+    "direct_s3/adapter/adapter_config.json": "b141c31a86cb006dbb7f8d28ebc47818ff3460bea572d7ee65206d51b6b6a860",
+    "direct_s3/adapter/adapter_model.safetensors": "42f04b070d844fb5ad90b32290522ad33f0f6efd25cc599a4303951ca0413793",
+    "context_s4/adapter/adapter_config.json": "c61fb04d90f275ea13074cf6e1c55124c30d353d9e6cb2da0142b35a1835a6b9",
+    "context_s4/adapter/adapter_model.safetensors": "746d5e19c8094cf7a0a1df58fc7003a2c6574763c9b6b1c85663af1f3ceaa9e3",
+    "direct_s4/adapter/adapter_config.json": "0d8b3f68d1efa41c31acca0e92717d3ea1df3f2cfa66752dbd37f812dbfa9748",
+    "direct_s4/adapter/adapter_model.safetensors": "142f1f2c5db3eba212db0b58f1d91b460e099edfedeb14339666a087fed41573",
+    "context_s5/adapter/adapter_config.json": "d0546acea8110018e012627f2951d7b888f34855223061eb262f27d900cc1cf7",
+    "context_s5/adapter/adapter_model.safetensors": "8468f4a4a9c6b11dedc11726b2649dc1f96faa263e4de80f0fdc12812df9581f",
+    "direct_s5/adapter/adapter_config.json": "994610398c2e87435f5fbbc2c6029b191fb9fc9eede5ab39b4f25d3055d56228",
+    "direct_s5/adapter/adapter_model.safetensors": "c920af82d980942e64d81ed8099622b94320d344264a7d5666a8830663db5217"
+  },
+  "smoke_test": true
+}

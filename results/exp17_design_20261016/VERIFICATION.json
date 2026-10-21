@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "direct_feasibility_and_full_target_multiset_permutations_checked": true,
+  "sources": [
+    "exp12",
+    "exp1",
+    "extended"
+  ],
+  "no_inference_or_submission": true
+}

@@ -1,0 +1,11 @@
+{
+  "answer_nll_matches_masked_causal_loss": true,
+  "empty_answer_handling": true,
+  "deterministic_duplicate_prompts": true,
+  "exact_mcnemar": true,
+  "quota_fail_closed": true,
+  "numeric_symbol_audit_safety": true,
+  "corrupted_scoring_rejected": true,
+  "existing_run_overwrite_rejected": true,
+  "scope": "CPU tiny model and data integrity only; no 14B GPU execution"
+}

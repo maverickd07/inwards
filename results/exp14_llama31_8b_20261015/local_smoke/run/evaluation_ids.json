@@ -1,0 +1,36 @@
+{
+  "known": [
+    [
+      "birthplace_currency",
+      "Jan Oblak"
+    ],
+    [
+      "birthplace_currency",
+      "Yohani"
+    ]
+  ],
+  "clean": [
+    [
+      "birthplace_currency",
+      "Jan Oblak"
+    ],
+    [
+      "birthplace_currency",
+      "Yohani"
+    ]
+  ],
+  "all_D": [
+    [
+      "birthplace_currency",
+      "Jan Oblak"
+    ],
+    [
+      "birthplace_currency",
+      "Yohani"
+    ]
+  ],
+  "definition": "known = baseline q1 and q2 accepted, no review; clean = known AND baseline composed not flagged. No conditioning on composed correctness; no trained-model selection.",
+  "baseline_composed_review_n": 0,
+  "baseline_known_composed_wrong_n": 0,
+  "small_primary_n_warning": true
+}

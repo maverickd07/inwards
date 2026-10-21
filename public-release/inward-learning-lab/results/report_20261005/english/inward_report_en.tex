@@ -1,0 +1,192 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=19mm,top=17mm,bottom=18mm]{geometry}
+\usepackage{fontspec,float,graphicx,booktabs,amsmath,xcolor,hyperref,fancyhdr,enumitem,caption}
+\setmainfont{Times New Roman}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue!45!black,pdftitle={Inward Breakthrough: Learning to Use Existing Knowledge},pdfauthor={Daniel Chen}}
+\definecolor{ink}{HTML}{254C60}
+\setlength{\emergencystretch}{2em}\setlength{\tabcolsep}{5pt}\setlength{\parindent}{1em}\setlength{\parskip}{4pt}
+\renewcommand{\baselinestretch}{1.12}
+\captionsetup{font=small,labelfont=bf,skip=4pt}
+\setlist{nosep,leftmargin=1.6em}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Inward Breakthrough | Research Report}\fancyhead[R]{\small October 2026}\fancyfoot[C]{\thepage}
+\newcommand{\src}[1]{{\scriptsize\color{ink}[#1]}}
+\newcommand{\con}[1]{\par\noindent\textbf{Takeaway.} #1\par}
+\newcommand{\sub}[1]{\par\medskip\noindent{\large\bfseries\color{ink}#1}\par\smallskip}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\vspace*{9mm}
+{\Huge\bfseries Inward Breakthrough}\\[5mm]
+{\LARGE Can Large Language Models Learn to Use\\[2mm]Existing Knowledge Through Their Own Signals?}\\[9mm]
+{\large Daniel Chen}\\[3mm]
+{\large Bocconi $\times$ HEC Paris}\\[4mm]
+October 2026
+\end{center}\vspace{5mm}
+\sub{Abstract}
+This study examines a knowledge-use gap: language models can answer two constituent factual questions separately yet fail to answer their composition. Measurements on Qwen3 support the existence of this gap. Training on self-generated targets yields modest transfer gains, whereas shuffling targets severely damages performance. Confidence filtering increases target accuracy but does not consistently outperform random selection. Gains from correct and incorrect self-targets remain difficult to distinguish. These findings support further investigation of internal knowledge use, but do not establish a general mechanism of autonomous inward improvement.
+\sub{1\quad Research question and motivation}
+A model may identify a person's country of birth and separately answer a question about that country's attributes, yet fail when asked the composed question directly. This distinguishes \textbf{facts accessible through separate prompts} from \textbf{facts successfully retrieved and combined in the current task}. We operationalize the knowledge-use gap as the composition failure rate among items for which both individual hops are answered correctly.\src{S0,S1}
+
+``Outward improvement'' adds external facts, gold answers, or task feedback. ``Inward improvement'' uses the model's own answers or internal signals to improve access to its existing knowledge. These approaches are compatible. The narrow question here is whether self-generated targets, without directly using gold answers as training targets, can improve compositional generalization. ``Existing knowledge'' is a behavioral definition, not a complete account of internal factual storage.
+\sub{Scope of the evidence}
+The report follows three stages: gap measurement and scoring checks; internal readout and inference-time patching; and training controls involving self-targets, confidence selection, and shuffling. All verified numbers are read from local files. Error bars represent sample standard deviations across training seeds. \textbf{Unverified} results are recorded only in the handoff document, with their original result files unavailable. Source IDs map to the accompanying source register; original files are not modified.
+\newpage
+\sub{2\quad Experimental setup and statistical conventions}
+Compositional Celebrities supplies two-hop questions connecting people, countries of birth, and country attributes. ``Clean'' categories start with \texttt{birthplace} and exclude \texttt{common\_name}. Gap measurement covers several Qwen3 sizes; training experiments primarily use Qwen3-14B.\src{S1,S9}
+\begin{table}[H]\centering\small
+\caption{Main settings, from saved configurations, protocols, and scripts.\src{S8,S10,S11,S14}}
+\begin{tabular}{p{32mm}p{115mm}}\toprule
+Component & Setting\\\midrule
+Models & Qwen3: 0.6B, 1.7B, 8B, and 14B; main training model: 14B\\
+Training pool & 864 composed questions: capital, calling code, latitude/longitude\\
+Evaluation splits & A: seen categories/new people; B: new categories/seen people; C: both new\\
+Held-out families & Currency, top-level domain, and numeric country code; C is the primary transfer outcome\\
+Evaluation size & 500 questions per split; fixed evaluation sampling seed 0\\
+Training seeds & 0, 1, and 2; independently initialized adapters on the base model\\
+LoRA & Rank 16, alpha 32, dropout 0.05; learning rate $10^{-4}$, 2 epochs, batch size 8\\
+Self-target generation & Answer hop 1, then place the model's own answer in context to generate the composed target\\
+Control sizes & exp8 half-pool: 432 items; each exp10 condition: 228 items\\\bottomrule
+\end{tabular}\end{table}
+\textbf{Splits and supervision.} People and category families are partitioned separately. C excludes both training people and training families, rather than randomly holding out questions of the same type. exp8/exp9 freeze self-targets and vary selection or assignment. exp10 uses gold answers to classify target correctness, but never uses gold answers as training text. It is therefore a gold-stratified diagnostic, not fully unsupervised sample selection.\src{S10,S11,S14}
+
+\textbf{Scoring.} Legacy string normalization could delete numeric minus signs and decimal points. Revised numeric scoring preserves signs and compares values after mathematical floor rounding, with truncation as a sensitivity check. Gap tables use revised scoring; exp8/exp9 retain their historical scoring; exp10 uses floor. exp10 C composition outcomes are identical under legacy, floor, and truncation scoring, although other metrics must remain version-specific.\src{S1,S7}
+\[
+K=\{i:q_{1,i}=1\land q_{2,i}=1\},\qquad
+\mathrm{gap}_{\mathrm{clear}}=\frac{\sum_{i\in K}(1-\mathrm{clear}_i)}{|K|}.
+\]
+$\mathrm{gap}_{\mathrm{ctx}}$ uses the same denominator, replacing direct composition with the answer obtained after supplying the intermediate fact.
+
+\textbf{Statistics.} Means and sample standard deviations summarize three training seeds. Item-level comparisons pair the same evaluation questions within the same seed using McNemar tests; exp10 applies the analysis file's Holm correction. Paired-seed $t$ intervals describe seed variation only. Three seeds do not adequately capture uncertainty across training runs, datasets, and splits.\src{S5,S6,S7}
+\newpage
+\sub{3\quad Results}
+\sub{3.1\quad Gap measurement and failure classification}
+\begin{table}[H]\centering\small
+\caption{Clean categories, each model's own two-hop-known subset; floor scoring. Percentages use the known-item denominator.\src{S1}}
+\begin{tabular}{lrrr}\toprule
+Size & Known items & gap\_clear (\%) & gap\_ctx (\%)\\\midrule
+0.6B & 143 & 42.7 & 60.1 \\
+1.7B & 947 & 74.7 & 65.4 \\
+8B & 1902 & 39.5 & 12.8 \\
+14B & 2379 & 33.8 & 10.9 \\
+\bottomrule\end{tabular}\end{table}
+\begin{figure}[H]\centering\includegraphics[width=.90\linewidth]{fig1_scaling_en.pdf}
+\caption{The same 738 questions, with both hops independently correct in all three models under floor scoring. This common subset is easier than the model-specific subsets in Table 2.\src{S1; rescored files}}
+\end{figure}
+For 14B, roughly one-third of known-hop questions fail in direct composition; supplying the intermediate fact sharply reduces the gap (Table 2). For the shared 8B/14B known subset, legacy scoring gives 1628 questions and gaps of 35.9\% versus 23.6\%; floor scoring gives 1613 questions and 35.5\% versus 23.2\%. Thus, the shorthand ``about 36\% to 24\%'' is supported for that paired subset, not as an all-question scaling curve.\src{S1; rescored\_8B/14B}
+\begin{table}[H]\centering\small
+\caption{Seed-7 sample of 120 from 818 legacy-scored failures.\src{S2}}
+\begin{tabular}{lrr}\toprule
+Label & Count & Share (\%)\\\midrule
+GENUINE & 94 & 78.3 \\
+AMBIGUOUS\_GOLD & 12 & 10.0 \\
+FORMAT & 8 & 6.7 \\
+SCORER\_ERROR & 6 & 5.0 \\
+\bottomrule\end{tabular}\end{table}
+Classification used item-by-item model-assisted review, assigning uncertain cases to GENUINE. It has \textbf{not undergone independent human validation}. Historical currencies, relation-type confusion, and scoring errors account for some disputed cases. The sample share is not a precise estimate of the genuine-error rate of the entire gap.\src{S2}
+\con{Separate factual accessibility does not guarantee successful composition. The audit suggests that formatting and scoring errors do not explain all failures.}
+\newpage
+\sub{3.2\quad Internal activation: readable bridge signals}
+\begin{table}[H]\centering\small
+\caption{Logit lens after excluding first-token overlap between bridge entities and final gold answers. A hit means rank $<10$ at any layer.\src{S3,S4,S9; tokenizer}}
+\begin{tabular}{lrrrr}\toprule
+Group & Initial $n$ & Excluded & Hits/retained & Hit rate (\%)\\\midrule
+Failure & 300 & 12 & 243/288 & 84.4 \\
+Success & 300 & 22 & 254/278 & 91.4 \\
+\bottomrule\end{tabular}\end{table}
+Overlap exclusion uses all gold aliases, including tokenizations with a leading space, to avoid mistaking a shared final-answer token for the bridge entity. The historical summary of roughly 84\% and 91\% is reproducible under this convention. However, this measures first-token decodability, not a complete entity representation or its causal use in subsequent computation.\src{S3,S9; figure code}
+\con{Bridge signals are often readable even on failures, suggesting a possible retrieval or composition bottleneck. The lens alone does not identify its mechanism.}
+\sub{3.3\quad Inference-time intervention: repairs and damage}
+\begin{figure}[H]\centering\includegraphics[width=.90\linewidth]{fig3_patching_en.pdf}\setcounter{figure}{2}
+\caption{Fixed-layer patching versus control, as recorded in the handoff. The range is \textbf{not a confidence interval}. Original patching files are unavailable; all values are unverified.\src{S0}}
+\end{figure}
+\begin{table}[H]\centering\small
+\caption{Historical intervention claims and verification status.\src{S0}}
+\begin{tabular}{p{29mm}p{86mm}p{25mm}}\toprule
+Condition & Handoff record & Status\\\midrule
+Fixed-layer patch & Repair 14--16\%; control 3\%; $p<10^{-8}$ & Unverified\\
+Overall impact & Previously correct items damaged; negative net effect & Unverified\\
+Confidence gating & Net effect approximately zero & Unverified\\\bottomrule
+\end{tabular}\end{table}
+Repair rate describes initially incorrect items only. Net accuracy change must also subtract initially correct items that become wrong. A higher repair rate is therefore insufficient to establish practical benefit. Without the original interventions and paired predictions, these claims are not treated as audited causal evidence.
+\con{The historical record suggests destructive side effects from simple patching; available files do not allow independent verification of magnitude or significance.}
+\newpage
+\sub{3.4\quad Inward training: modest compositional transfer}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{fig2_conditions_en.pdf}\setcounter{figure}{1}
+\caption{C composition accuracy. Dashed line: base model; error bars: sample SD across three seeds. Hatched (*) bars are unverified historical single-run results. Full, half, and correctness-diagnostic conditions use 864, 432, and 228 items respectively; cross-condition bars are not equal-budget causal comparisons.\src{S0,S5,S6,S7}}
+\end{figure}
+\begin{table}[H]\centering\small
+\caption{Full self-target training on fixed splits; mean $\pm$ sample SD.\src{S5,S6}}
+\begin{tabular}{lrrr}\toprule
+Split & Base (\%) & Self (\%) & Gain (pp)\\\midrule
+A: new people & 39.0 & 47.9 $\pm$ 0.5 & +8.9 \\
+B: new categories & 44.6 & 50.8 $\pm$ 1.6 & +6.2 \\
+C: both new & 49.6 & 53.1 $\pm$ 0.9 & +3.5 \\
+\bottomrule\end{tabular}\end{table}
+Full self-target training reaches 53.1 $\pm$ 0.9\% on C, above the base model (Figure 2). Historical single-hop-only training (49.8\%) and gold-target training (56.8\%) can be traced only to the handoff and remain \textbf{unverified}. Gold training is a single run and cannot support a seed-stability comparison against three-seed means.\src{S0,S5,S6}
+
+\textbf{Retention is imperfect.} The saved exp8 single-hop check covers only the fixed first 150 C items. Hop 1 changes from 84.7\% to 86.4\%, while hop 2 changes from 74.0\% to 72.4\% (post-training seed means). Hop 1 is broadly retained, but hop 2 declines slightly. It would be inaccurate to claim that all single-hop capabilities remain unchanged.\src{S13}
+
+\textbf{Magnitude and significance.} The C gain is a few percentage points, a modest effect. Item-level paired improvements are not significant in every seed. Consistent directions do not substitute for broader stability testing. Holding out both people and category families makes the gain more informative than training-item memorization, but general task adaptation remains a plausible contributor.\src{S5,S6}
+\con{Self-target training supports limited compositional transfer; it does not establish sustained autonomous improvement or the absence of forgetting.}
+\newpage
+\sub{3.5\quad Confidence filtering: better targets, no stable extra gain}
+\begin{table}[H]\centering\small
+\caption{Target quality and C accuracy. Target quality is for the frozen pool/selection seed 0; C averages three training seeds. Within-category conditions preserve the same count per category.\src{S5,S6}}
+\begin{tabular}{lrrr}\toprule
+Condition & Training $n$ & Target accuracy (\%) & C accuracy (\%)\\\midrule
+Full & 864 & 51.5 & 53.1 $\pm$ 0.9 \\
+Global confidence 50\% & 432 & 70.6 & 53.5 $\pm$ 0.9 \\
+Global random 50\% & 432 & 49.8 & 54.1 $\pm$ 0.5 \\
+
+Within-category confidence 50\% & 432 & --- & 52.5 $\pm$ 1.8 \\
+Within-category random 50\% & 432 & --- & 52.5 $\pm$ 0.9 \\
+\bottomrule\end{tabular}\end{table}
+Mean whole-target log probability distinguishes correct from incorrect targets with AUROC 0.722 on the full pool. This is a ranking diagnostic, not probability calibration. Gold answers are not used to construct training targets or select samples in exp8/exp9. Confidence filtering substantially improves target accuracy but does not exceed the equally sized random-selection C mean; the within-category comparison also shows no stable advantage.\src{S5,S6}
+\con{Confidence predicts some target correctness, but filtering does not consistently improve compositional transfer. ``No gain'' here means no added filtering benefit, not no improvement over the base model.}
+\sub{3.6\quad Controls: correspondence matters, correctness unresolved}
+\begin{table}[H]\centering\small
+\caption{exp10: 228 items per condition with matched category counts; 500 C questions, floor scoring. Single-hop columns are seed means.\src{S7,S10}}
+\begin{tabular}{lrrrr}\toprule
+Condition & C (\%) & Gain (pp) & Hop 1 (\%) & Hop 2 (\%)\\\midrule
+Self: incorrect & 51.5 $\pm$ 0.4 & +1.9 & 84.1 & 78.3 \\
+Self: correct & 51.8 $\pm$ 0.7 & +2.2 & 84.5 & 77.3 \\
+Shuffled: incorrect & 8.7 $\pm$ 0.3 & -40.9 & 53.0 & 72.3 \\
+\bottomrule\end{tabular}\end{table}
+Incorrect self-targets and shuffled incorrect targets use the same questions; shuffling changes question--target correspondence within categories. Full shuffling reaches 5.2 $\pm$ 1.5\% on C (exp9), and shuffling incorrect targets likewise causes severe damage. This does not support the strong explanation that question-format familiarity alone is sufficient. However, shuffling also introduces contradictory supervision and distributional disruption, so the damage cannot be uniquely attributed to factual content.\src{S6,S7,S10,S11}
+
+The incorrect-minus-correct self-target gain difference is -0.27 pp, with paired-seed 95\% interval [-1.52, 0.98]. No stable difference is detected, but \textbf{this is not an equivalence result}. Neither improvement over the base survives the item-level Holm correction. Correct and incorrect groups contain different questions, leaving difficulty and semantic-correctness confounds.\src{S7}
+\con{Question--self-target correspondence appears important, but the independent effects of factual correctness and consistency with the model's own beliefs remain unresolved.}
+\newpage
+\sub{4\quad Discussion: supported findings, withdrawn claims, limits}
+\textbf{Four findings currently supported:}
+\begin{enumerate}
+\item Single-hop accessibility does not guarantee composition. Paired scaling and intermediate-fact context suggest a knowledge-use bottleneck.\src{S1}
+\item Bridge signals are often readable on failures; absent readable signals cannot explain all failures. This remains correlational evidence.\src{S3,S9}
+\item Self-target training yields modest average transfer on C; arbitrarily reassigning targets to questions severely damages performance.\src{S5,S6,S7}
+\item Target accuracy and downstream transfer are not simply monotonic: confidence-ranking ability does not imply a stable selection advantage.\src{S5,S6}
+\end{enumerate}
+\textbf{Four strong claims withdrawn or no longer used:}
+\begin{enumerate}
+\item ``A hidden-layer readout shows that the model actually used that knowledge.'' Causal identification is missing.
+\item ``More accurate training targets necessarily improve composition.'' Filtering results do not support that necessity.
+\item ``Incorrect and correct targets work equally well, so consistency is the mechanism.'' Nonsignificance establishes neither equivalence nor a unique mechanism.
+\item ``Inward training causes no forgetting and enables sustained self-improvement.'' Single-hop decline is observed; iteration and cross-family generality remain untested.
+\end{enumerate}
+\textbf{Limitations.} Evidence covers one model family and one factual-composition benchmark. Few seeds, one fixed split, and exploratory multiple comparisons limit inference. Gold-answer narrowness affects correctness labels; the 120-item audit lacks independent human validation. First-token readouts do not establish causal use. Original patching, single-hop-only, and gold-target files are unavailable, and those figures remain unverified. Different training sizes and scoring versions limit cross-experiment comparisons.\src{S0,S1,S2,S5,S6,S7}
+\sub{5\quad Next steps}
+\begin{enumerate}
+\item \textbf{Iterative self-training:} regenerate targets using new people each round; compare with fresh base-model training. Monitor confidence on errors, forgetting, and cumulative optimization budgets.
+\item \textbf{Cross-structure transfer:} change chain length, relation types, and phrasing while matching data and optimization steps.
+\item \textbf{Latent probes:} combine readouts with causal interventions; control token overlap, decoder, and position confounds.
+\item \textbf{A second model family:} reproduce frozen-target, random-selection, shuffling, and correctness diagnostics.
+\item \textbf{Literature comparison:} distinguish composition gaps [1], internal multi-hop timing [2,5], context distillation [3], and self-generated reasoning training [4].
+\end{enumerate}
+\sub{References}
+
+{\footnotesize\raggedright\setlength{\parskip}{2pt}\noindent
+[1] Press, O., et al. (2022). Measuring and Narrowing the Compositionality Gap in Language Models. \href{https://arxiv.org/abs/2210.03350}{arXiv:2210.03350}.\par\noindent
+[2] Biran, E., et al. (2024). Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries. \href{https://arxiv.org/abs/2406.12775}{arXiv:2406.12775}.\par\noindent
+[3] Snell, C., Klein, D., \& Zhong, R. (2022). Learning by Distilling Context. \href{https://arxiv.org/abs/2209.15189}{arXiv:2209.15189}.\par\noindent
+[4] Zelikman, E., et al. (2022). STaR: Bootstrapping Reasoning With Reasoning. \href{https://arxiv.org/abs/2203.14465}{arXiv:2203.14465}.\par\noindent
+[5] Liu, X., et al. (2026). Layer-Order Inversion: Rethinking Latent Multi-Hop Reasoning in Large Language Models. \href{https://arxiv.org/abs/2601.03542}{arXiv:2601.03542}.}
+
+\end{document}

@@ -1,0 +1,8 @@
+{
+  "rows": 864,
+  "selected": 785,
+  "different": 404,
+  "scorer_sha256": "ce05ddc7910cd04bcb1927f1b58bba8d9ce199860f53c8535d18ef0232fb4f89",
+  "policy_sha256": "3826a7f9b9291ed69420fdfea2ded42c10e0edce16f00258d759def49d933bd7",
+  "no_inference": true
+}

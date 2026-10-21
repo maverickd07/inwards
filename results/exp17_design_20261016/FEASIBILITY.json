@@ -1,0 +1,173 @@
+{
+  "exp12": {
+    "stages": {
+      "all864": 864,
+      "v3_q1_marked_wrong": 228,
+      "first_wrong_resolved": 176,
+      "own_q2_available": 139,
+      "consistent_target_strict_wrong": 136,
+      "country_rule_and_frequency_matched": 139,
+      "also_attribute_incompatible": 139,
+      "full_strict_eligible": 136
+    },
+    "by_category": {
+      "birthplace_callingcode": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 35,
+        "consistent_target_strict_wrong": 32,
+        "country_rule_and_frequency_matched": 35,
+        "also_attribute_incompatible": 35,
+        "full_strict_eligible": 32
+      },
+      "birthplace_capital": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 30,
+        "consistent_target_strict_wrong": 30,
+        "country_rule_and_frequency_matched": 30,
+        "also_attribute_incompatible": 30,
+        "full_strict_eligible": 30
+      },
+      "birthplace_rounded_lat": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 33,
+        "consistent_target_strict_wrong": 33,
+        "country_rule_and_frequency_matched": 33,
+        "also_attribute_incompatible": 33,
+        "full_strict_eligible": 33
+      },
+      "birthplace_rounded_lng": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 41,
+        "consistent_target_strict_wrong": 41,
+        "country_rule_and_frequency_matched": 41,
+        "also_attribute_incompatible": 41,
+        "full_strict_eligible": 41
+      }
+    },
+    "unique_eligible_people": 42,
+    "additional_if_frequency_relaxed_not_selected": 0,
+    "all864_stable_q2_n": 565
+  },
+  "exp1": {
+    "stages": {
+      "all864": 864,
+      "v3_q1_marked_wrong": 228,
+      "first_wrong_resolved": 176,
+      "own_q2_available": 176,
+      "consistent_target_strict_wrong": 172,
+      "country_rule_and_frequency_matched": 176,
+      "also_attribute_incompatible": 176,
+      "full_strict_eligible": 172
+    },
+    "by_category": {
+      "birthplace_callingcode": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 44,
+        "consistent_target_strict_wrong": 41,
+        "country_rule_and_frequency_matched": 44,
+        "also_attribute_incompatible": 44,
+        "full_strict_eligible": 41
+      },
+      "birthplace_capital": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 44,
+        "consistent_target_strict_wrong": 44,
+        "country_rule_and_frequency_matched": 44,
+        "also_attribute_incompatible": 44,
+        "full_strict_eligible": 44
+      },
+      "birthplace_rounded_lat": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 44,
+        "consistent_target_strict_wrong": 43,
+        "country_rule_and_frequency_matched": 44,
+        "also_attribute_incompatible": 44,
+        "full_strict_eligible": 43
+      },
+      "birthplace_rounded_lng": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 44,
+        "consistent_target_strict_wrong": 44,
+        "country_rule_and_frequency_matched": 44,
+        "also_attribute_incompatible": 44,
+        "full_strict_eligible": 44
+      }
+    },
+    "unique_eligible_people": 44,
+    "additional_if_frequency_relaxed_not_selected": 0,
+    "all864_stable_q2_n": 812
+  },
+  "extended": {
+    "stages": {
+      "all864": 864,
+      "v3_q1_marked_wrong": 228,
+      "first_wrong_resolved": 176,
+      "own_q2_available": 171,
+      "consistent_target_strict_wrong": 167,
+      "country_rule_and_frequency_matched": 171,
+      "also_attribute_incompatible": 171,
+      "full_strict_eligible": 167
+    },
+    "by_category": {
+      "birthplace_callingcode": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 44,
+        "consistent_target_strict_wrong": 41,
+        "country_rule_and_frequency_matched": 44,
+        "also_attribute_incompatible": 44,
+        "full_strict_eligible": 41
+      },
+      "birthplace_capital": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 44,
+        "consistent_target_strict_wrong": 44,
+        "country_rule_and_frequency_matched": 44,
+        "also_attribute_incompatible": 44,
+        "full_strict_eligible": 44
+      },
+      "birthplace_rounded_lat": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 39,
+        "consistent_target_strict_wrong": 38,
+        "country_rule_and_frequency_matched": 39,
+        "also_attribute_incompatible": 39,
+        "full_strict_eligible": 38
+      },
+      "birthplace_rounded_lng": {
+        "all864": 216,
+        "v3_q1_marked_wrong": 57,
+        "first_wrong_resolved": 44,
+        "own_q2_available": 44,
+        "consistent_target_strict_wrong": 44,
+        "country_rule_and_frequency_matched": 44,
+        "also_attribute_incompatible": 44,
+        "full_strict_eligible": 44
+      }
+    },
+    "unique_eligible_people": 44,
+    "additional_if_frequency_relaxed_not_selected": 0,
+    "all864_stable_q2_n": 805
+  }
+}

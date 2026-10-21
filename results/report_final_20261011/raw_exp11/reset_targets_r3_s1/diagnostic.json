@@ -1,0 +1,13 @@
+{
+  "n": 864,
+  "correct_n": 425,
+  "target_correct_share": 0.49189814814814814,
+  "mean_logprob_wrong": -0.03681129185431931,
+  "wrong_with_score_n": 439,
+  "null_score_n": 0,
+  "q1_correct_share": 0.7268518518518519,
+  "uses_gold_for_training": false,
+  "generator_adapter": "results/handoff_analysis_20261003/exp11_iterate/runs_685985/reset_r3_s1/adapter",
+  "generator_adapter_sha256": "146bab76716061d490e88fe9d3fbc8fca94113a10b89b292692252c396ee19a9",
+  "seconds": 239.25888395309448
+}

@@ -1,0 +1,14 @@
+EXP13 MuSiQue closed-book transfer; no new training.
+PRIMARY: fixed full two-hop EM; EM/F1 are official answer metrics, not official open-book leaderboard results.
+No clear primary advantage; not equivalence or proof that the broader method fails.
+2hop em: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+2hop f1: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+3hop em: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+3hop f1: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+4hop em: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+4hop f1: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+all em: n=3; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+all f1: n=3; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+Baseline oracle-hop strata: {"2hop": {"n": 1, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}, "3hop": {"n": 1, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}, "4hop": {"n": 1, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}, "all": {"n": 3, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}}
+Secondary strata never redefine the primary set. Oracle single-hop questions expose reference bridge entities; these diagnostics do not prove internal knowledge activation. Alias limitations and public-data pretraining overlap remain.
+STOP: fixed13-model evaluation complete; no automatic extra seeds, datasets, tuning or training.

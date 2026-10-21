@@ -1,0 +1,128 @@
+[
+  {
+    "condition": "shared",
+    "round": 1,
+    "seed": 0,
+    "path": "shared_r1_s0"
+  },
+  {
+    "condition": "reset",
+    "round": 2,
+    "seed": 0,
+    "path": "reset_r2_s0"
+  },
+  {
+    "condition": "reset",
+    "round": 3,
+    "seed": 0,
+    "path": "reset_r3_s0"
+  },
+  {
+    "condition": "continue",
+    "round": 2,
+    "seed": 0,
+    "path": "continue_r2_s0"
+  },
+  {
+    "condition": "continue",
+    "round": 3,
+    "seed": 0,
+    "path": "continue_r3_s0"
+  },
+  {
+    "condition": "frozen_budget",
+    "round": 2,
+    "seed": 0,
+    "path": "frozen_budget_r2_s0"
+  },
+  {
+    "condition": "frozen_budget",
+    "round": 3,
+    "seed": 0,
+    "path": "frozen_budget_r3_s0"
+  },
+  {
+    "condition": "shared",
+    "round": 1,
+    "seed": 1,
+    "path": "shared_r1_s1"
+  },
+  {
+    "condition": "reset",
+    "round": 2,
+    "seed": 1,
+    "path": "reset_r2_s1"
+  },
+  {
+    "condition": "reset",
+    "round": 3,
+    "seed": 1,
+    "path": "reset_r3_s1"
+  },
+  {
+    "condition": "continue",
+    "round": 2,
+    "seed": 1,
+    "path": "continue_r2_s1"
+  },
+  {
+    "condition": "continue",
+    "round": 3,
+    "seed": 1,
+    "path": "continue_r3_s1"
+  },
+  {
+    "condition": "frozen_budget",
+    "round": 2,
+    "seed": 1,
+    "path": "frozen_budget_r2_s1"
+  },
+  {
+    "condition": "frozen_budget",
+    "round": 3,
+    "seed": 1,
+    "path": "frozen_budget_r3_s1"
+  },
+  {
+    "condition": "shared",
+    "round": 1,
+    "seed": 2,
+    "path": "shared_r1_s2"
+  },
+  {
+    "condition": "reset",
+    "round": 2,
+    "seed": 2,
+    "path": "reset_r2_s2"
+  },
+  {
+    "condition": "reset",
+    "round": 3,
+    "seed": 2,
+    "path": "reset_r3_s2"
+  },
+  {
+    "condition": "continue",
+    "round": 2,
+    "seed": 2,
+    "path": "continue_r2_s2"
+  },
+  {
+    "condition": "continue",
+    "round": 3,
+    "seed": 2,
+    "path": "continue_r3_s2"
+  },
+  {
+    "condition": "frozen_budget",
+    "round": 2,
+    "seed": 2,
+    "path": "frozen_budget_r2_s2"
+  },
+  {
+    "condition": "frozen_budget",
+    "round": 3,
+    "seed": 2,
+    "path": "frozen_budget_r3_s2"
+  }
+]

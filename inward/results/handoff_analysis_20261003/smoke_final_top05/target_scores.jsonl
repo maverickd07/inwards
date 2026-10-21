@@ -1,0 +1,8 @@
+{"category": "birthplace_callingcode", "person": "Rumi", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.2858052253723145, "kept": false, "diagnostic_target_ok": false}
+{"category": "birthplace_callingcode", "person": "Ahmad Shah Durrani", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.28250789642334, "kept": true, "diagnostic_target_ok": false}
+{"category": "birthplace_callingcode", "person": "Annet Mahendru", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.283925771713257, "kept": true, "diagnostic_target_ok": false}
+{"category": "birthplace_callingcode", "person": "Sofia Boutella", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.283925771713257, "kept": true, "diagnostic_target_ok": false}
+{"category": "birthplace_callingcode", "person": "Riyad Mahrez", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.283925771713257, "kept": false, "diagnostic_target_ok": false}
+{"category": "birthplace_callingcode", "person": "Islam Slimani", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.283925771713257, "kept": false, "diagnostic_target_ok": false}
+{"category": "birthplace_callingcode", "person": "Ariana Grande", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.2830328941345215, "kept": true, "diagnostic_target_ok": false}
+{"category": "birthplace_callingcode", "person": "William Carvalho", "target": "Paris Paris Paris Paris Paris Paris Paris Paris", "mean_logprob": -2.283925771713257, "kept": false, "diagnostic_target_ok": false}

@@ -1,0 +1,9 @@
+{
+  "auroc": null,
+  "n_scored": 8,
+  "n_correct": 0,
+  "n_kept": 6,
+  "keep_top": 0.7,
+  "score_definition": "mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded",
+  "selection_uses_gold": false
+}

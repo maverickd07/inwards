@@ -1,0 +1,5 @@
+{
+  "train_seed": 2,
+  "lora_initial_sha256": "1f36182a91298f371e8a4d183a25cc336c05a4da5e202ab2dc22321e6744ad97",
+  "continued_from": "results/handoff_analysis_20261003/exp11_iterate/runs_685985/continue_r2_s2/adapter"
+}

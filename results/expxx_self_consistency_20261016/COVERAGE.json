@@ -1,0 +1,89 @@
+{
+  "all864": {
+    "exp12": {
+      "n": 864,
+      "counts": {
+        "available": 565,
+        "missing_saved_q2": 240,
+        "z_unresolved": 52,
+        "saved_q2_conflicting": 7
+      },
+      "available_pct": 65.39351851851852
+    },
+    "exp1": {
+      "n": 864,
+      "counts": {
+        "available": 812,
+        "z_unresolved": 52
+      },
+      "available_pct": 93.98148148148148
+    },
+    "extended": {
+      "n": 864,
+      "counts": {
+        "available": 805,
+        "z_unresolved": 52,
+        "saved_q2_conflicting": 7
+      },
+      "available_pct": 93.17129629629629
+    }
+  },
+  "selected785": {
+    "exp12": {
+      "n": 785,
+      "counts": {
+        "available": 505,
+        "missing_saved_q2": 222,
+        "z_unresolved": 51,
+        "saved_q2_conflicting": 7
+      },
+      "available_pct": 64.3312101910828
+    },
+    "exp1": {
+      "n": 785,
+      "counts": {
+        "available": 734,
+        "z_unresolved": 51
+      },
+      "available_pct": 93.5031847133758
+    },
+    "extended": {
+      "n": 785,
+      "counts": {
+        "available": 727,
+        "z_unresolved": 51,
+        "saved_q2_conflicting": 7
+      },
+      "available_pct": 92.61146496815287
+    }
+  },
+  "different404": {
+    "exp12": {
+      "n": 404,
+      "counts": {
+        "available": 266,
+        "missing_saved_q2": 99,
+        "z_unresolved": 33,
+        "saved_q2_conflicting": 6
+      },
+      "available_pct": 65.84158415841584
+    },
+    "exp1": {
+      "n": 404,
+      "counts": {
+        "available": 371,
+        "z_unresolved": 33
+      },
+      "available_pct": 91.83168316831683
+    },
+    "extended": {
+      "n": 404,
+      "counts": {
+        "available": 365,
+        "z_unresolved": 33,
+        "saved_q2_conflicting": 6
+      },
+      "available_pct": 90.34653465346534
+    }
+  }
+}

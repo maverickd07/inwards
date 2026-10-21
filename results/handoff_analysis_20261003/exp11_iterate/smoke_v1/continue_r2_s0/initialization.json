@@ -1,0 +1,5 @@
+{
+  "train_seed": 0,
+  "lora_initial_sha256": "939aa44e39bee5c8d6f887dc26a128c45ce629057c19e63d56c71a56621fdfeb",
+  "continued_from": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s0/adapter"
+}

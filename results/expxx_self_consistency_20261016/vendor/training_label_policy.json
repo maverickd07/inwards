@@ -1,0 +1,14 @@
+{
+  "version": "training-audit-v1 (separate from frozen evaluation v3)",
+  "capital_alias_groups": [["Kyiv", "Kiev"], ["Ulan Bator", "Ulaanbaatar"], ["Washington D.C.", "Washington, D.C.", "Washington DC", "Washington, DC"]],
+  "calling_code_groups": [["1809", "1829", "1849"], ["1658", "1876"], ["1787", "1939"]],
+  "sources": [
+    {"claim": "Kyiv and historical English spelling Kiev denote the same capital", "url": "https://mfa.gov.ua/en/correctua"},
+    {"claim": "Ulaanbaatar and Ulan Bator denote the same Mongolian capital", "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=11&pitem=50&seq=377040"},
+    {"claim": "Washington, DC is the US capital; punctuation variants normalize only", "url": "https://os.dc.gov/service/dc-sister-cities"},
+    {"claim": "Dominican Republic +1 809/829/849; Jamaica +1 876/658; Puerto Rico +1 787/939", "url": "https://www.itu.int/oth/T0202.aspx?code=992&parent=T0202"}
+  ],
+  "retrieved": "2026-10-15",
+  "scope": "Orthographic aliases and verified same-territory codes only. No historic/capital/birthplace reference relabeling. +1 alone is ambiguous against a specific +1 NPA reference and is flagged, not silently accepted.",
+  "blinding": "Rules do not receive condition, person or seed. Existing cached answers were inspected for format coverage; this is not an independently blinded factual audit."
+}

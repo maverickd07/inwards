@@ -1,0 +1,32 @@
+{
+  "A_newPerson": [
+    [
+      "birthplace_rounded_lng",
+      "Wilson Palacios"
+    ],
+    [
+      "birthplace_capital",
+      "Kristaps Porzingis"
+    ]
+  ],
+  "B_newCategory": [
+    [
+      "birthplace_currency_symbol",
+      "Ignatius of Antioch"
+    ],
+    [
+      "birthplace_ccn3",
+      "A.P.J. Abdul Kalam"
+    ]
+  ],
+  "C_bothNew": [
+    [
+      "birthplace_currency_short",
+      "Muhammad Yunus"
+    ],
+    [
+      "birthplace_tld",
+      "Grigor Dimitrov"
+    ]
+  ]
+}

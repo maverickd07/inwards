@@ -1,0 +1,411 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec,xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}[BoldFont=FandolSong-Bold.otf]
+\setCJKmonofont{FandolSong-Regular.otf}
+\setmainfont{texgyrepagella-regular.otf}[BoldFont=texgyrepagella-bold.otf,ItalicFont=texgyrepagella-italic.otf,BoldItalicFont=texgyrepagella-bolditalic.otf]
+\setsansfont{texgyreheros-regular.otf}[BoldFont=texgyreheros-bold.otf]
+\setmonofont{lmmono10-regular.otf}[Scale=0.85]
+\usepackage[margin=20mm,headheight=15pt]{geometry}
+\usepackage{amsmath,amssymb,booktabs,tabularx,array,graphicx,float,caption,xcolor,enumitem,fancyhdr,hyperref,xurl}
+\definecolor{ink}{HTML}{183D50}\definecolor{muted}{HTML}{56717E}\definecolor{light}{HTML}{EDF3F5}
+\hypersetup{colorlinks=true,urlcolor=ink,linkcolor=ink,citecolor=ink,pdftitle={向内破：大语言模型能否靠自身信号学会利用已有知识},pdfauthor={陈威宇 Daniel Chen}}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{muted}向内破 · exp1--exp11 阶段研究报告}\fancyhead[R]{\small\color{muted}2026 年 10 月}\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{1.7em}\setlength{\parskip}{4pt}\linespread{1.16}
+\setlist{nosep,leftmargin=1.8em,topsep=4pt}
+\captionsetup{hypcap=false,font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\renewcommand{\figurename}{图}\renewcommand{\tablename}{表}\renewcommand{\refname}{参考文献}
+\newcommand{\ev}[1]{{\color{muted}\small〔#1〕}}
+\newcommand{\takeaway}[1]{\par\noindent\colorbox{light}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\small\textbf{本节判断：}#1}}\par}
+\newcommand{\fig}[3]{\begin{figure}[H]\centering\IfFileExists{#1.pdf}{\includegraphics[width=#2\linewidth]{#1.pdf}}{\fbox{\parbox{0.9\linewidth}{图表资源 \texttt{\detokenize{#1}}：完整图见随附最终 PDF；此编辑器预览未载入外部图文件。}}}\caption{#3}\end{figure}}
+\newcommand{\note}[1]{\par\noindent{\footnotesize\color{muted}#1}\par}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\begin{document}
+\thispagestyle{empty}
+{\color{muted}\small 研究阶段总结\quad /\quad Qwen3 · 组合事实推理 · 自生成监督}\par
+\vspace{5mm}
+{\color{ink}\LARGE\bfseries 向内破：大语言模型能否靠\par 自身信号学会利用已有知识\par}
+\vspace{4mm}
+{\large 陈威宇（Daniel Chen）\quad Bocconi $\times$ HEC Paris}\par
+{\small 2026 年 10 月 · 最终阶段版（核验日期：2026-10-11）}\par
+\vspace{3mm}
+\noindent\textbf{摘要}\quad 本研究检验模型能否以自生成信号改善已有事实的组合使用。经评分审计与多种对照，观察到组合性缺口及小幅迁移收益；打乱目标显著损害表现。置信度过滤与多轮迭代尚无稳定额外优势，并伴随部分单步能力回落。结果支持继续研究知识利用，但不足以支持持续自我提升或特定内部机制。
+\fig{fig1_overview}{1}{核心证据：左为全量 self 在 A/B/C 的收益；右为 exp11 的 C 组轨迹。误差线为三个训练种子的样本标准差，不是置信区间。左右实验基线分别为 49.6\%（C）与 50.0\%，不得混合比较。来源：E8、E9、E11。}
+\noindent\textbf{三条核心发现}
+\begin{enumerate}
+\item \textbf{问题存在。}14B 在两步单问均正确的样本中，仍有 33.80\% 组合失败；给出正确中间事实后为 10.93\%。这支持研究知识利用障碍，而非仅增加事实覆盖。\ev{G}
+\item \textbf{自身输出能提供有限训练价值。}全量 self 的 C 组为 $53.13\%\pm0.90$，较基线提高 3.53 个百分点；类别内打乱后为 $5.20\%\pm1.51$。对应关系重要，但内部“自我对齐”机制尚未被识别。\ev{E8、E9}
+\item \textbf{尚未得到持续改进的可靠信号。}exp11 重置 R3 为 $53.53\%\pm0.50$，接续 R3 为 $53.67\%\pm1.01$；均未稳定超过匹配预算对照，部分第二步能力下降。\ev{E11}
+\end{enumerate}
+\takeaway{本阶段止于 exp11。建议保留“知识利用”问题，修订“仅刷新输出目标即可持续提升”的路线；下一阶段先选择可检验的信号与迁移目标，再决定是否投入新实验。当前结果是有限的研究信号，不是通用能力突破。}
+\clearpage
+\section{研究问题与证据路线}
+\subsection{从“拥有知识”到“在需要时使用知识”}
+两步问题可写作 $x\!\rightarrow\!z\!\rightarrow\!y$：例如人物的出生国为中间实体 $z$，再由国家属性得到答案 $y$。模型分别回答两步正确，却在直接回答组合问题时失败，构成操作性定义上的“知识利用缺口”。这里的“知道”仅指给定提示与解码条件下的单步正确，不能等同于可完整定位的事实存储。
+
+“向外进化”通过新语料、外部教师或反馈扩展监督；“向内进化”尝试利用当前模型自身可产生或可读取的信号，改善已有能力的调用。本研究实际检验的是后者的一个窄版本：\textbf{以自生成答案监督组合问题的直接回答}。预训练本身当然包含外部知识，因此并不声称信息完全自足。
+\subsection{阶段假设与实验顺序}
+三个层次必须分开：H1，组合性缺口具有实质内容；H2，自生成监督能够产生留出集收益；H3，刷新自身信号能够在匹配预算下带来可重复的额外收益。内部实体可读性、行为收益与因果机制也分别对应不同证据强度。
+\begin{center}\small
+\captionof{table}{exp1--exp11 的问题、实验与证据状态。编号为历史实验编号；不把缺失原始记录的结果当作已复核证据。}
+\begin{tabularx}{\linewidth}{@{}p{13mm}p{33mm}Y@{}}\toprule
+实验 & 核心问题 & 本报告处理 \\\midrule
+exp1 & 缺口与规模变化 & 重评分、共同已知题交集；数值可复核。\\
+exp2 & 中间实体是否可读 & 逻辑透镜；排除首词元重叠，保留读出限制。\\
+exp3 & 逐层回填探索 & 探索性层选择；原始结果未查到，移入附录。\\
+exp4 & 固定层回填 & 修复与破坏必须并看；原始结果未查到。\\
+exp5 & 置信度门控干预 & 历史记录保留，净收益数字待核实。\\
+exp6/6b & self 训练及透镜变化 & 方案作为前驱；历史 gold/hops 与透镜机制数字待核实。\\
+exp7 & 评分与类别审计 & 严格数值评分、别名与干净类别；与后续复核共同使用。\\
+exp8 & 全量与过滤训练 & 三种子；全局置信度与随机筛选对照。\\
+exp9 & 对应关系与类别构成 & 类别内打乱；类别内等量过滤对照。\\
+exp10 & 正确性与自身目标 & 类别配额匹配的错／对／打乱错目标，各 228 条。\\
+exp11 & 迭代是否超越预算效应 & 重置、接续、固定目标预算对照；三个种子，三轮。\\\bottomrule
+\end{tabularx}
+\end{center}
+\note{来源：H（历史目的与状态）、G/L/A（测量与审计）、E8--E11（复核结果）、P（协议及代码）。完整路径在附录。}
+\takeaway{本阶段形成的是“测量问题—尝试干预—训练对照—检验迭代”的证据链；并非每个历史实验都具有同等可复现性。}
+\clearpage
+\section{实验设置与统计口径}
+\subsection{模型、任务与切分}
+使用 Compositional Celebrities，测量覆盖 Qwen3-0.6B、1.7B、8B、14B，训练主模型为 Qwen3-14B。干净测量集保留 \texttt{birthplace} 系列并排除 \texttt{common\_name}；不将全部类别混为同一种二跳结构。修订口径的测量题池含 4,207 题。\ev{G、P}
+
+训练类别族为首都、国际电话区号、经纬度；经纬度含两个具体类别。留出族为货币、顶级域名与国家数字代码，货币的不同表达作为同一族。人物由名称 MD5 的奇偶性划分；评估抽样种子固定为 0，训练种子为 0、1、2。A 使用新人物和已见类别族；B 使用已见人物和新类别族；C 同时使用新人物与新类别族，是主结果。每组固定 500 题；全量训练为 216 位人物、864 条问题。\ev{P、E8、E11}
+
+这不是完全独立的知识域迁移：训练和测试仍共享出生国桥接结构及国家属性域；同一人物或国家可贡献多个相关样本。C 排除了训练人物和训练类别族，\textbf{没有排除所有桥接国家与关联事实}。
+\subsection{自生成监督与优化}
+先由教师模型独立回答第一步，再把自己的第一步答案作为背景，回答组合问题。由此生成目标 $\tilde y$；学生训练时输入不含该背景的原组合问题 $q$，最小化答案 token 的交叉熵：
+\[
+\tilde z=f_{\theta_T}(q_1),\quad
+\tilde y=f_{\theta_T}(q;\,\text{背景}=\tilde z),\qquad
+\mathcal L=-\sum_{t\in\text{答案}}\log p_{\theta_S}(\tilde y_t\mid q,\tilde y_{<t}).
+\]
+提示 token 不计入损失；标准答案不进入 self 训练目标。exp10 用标准答案划分子集，因此是有标签的机制诊断，不能称为全流程无监督。\ev{P}
+\begin{center}\small
+\captionof{table}{主训练配置与解码；exp11 从运行配置和代码核对。}
+\begin{tabularx}{\linewidth}{@{}p{34mm}Y@{}}\toprule
+项目 & 设置 \\\midrule
+LoRA & rank 16，alpha 32，dropout 0.05；注意力 q/k/v/o 与 MLP gate/up/down 投影。\\
+优化 & AdamW，学习率 $10^{-4}$，weight decay 0；批量 8，每轮 2 epochs，梯度范数截断 1。\\
+exp11 步数 & 全量每轮 216 步；学习率有 20 步预热因子与线性衰减；重启训练时优化器和调度器重置。\\
+数值与解码 & BF16、梯度检查点；贪心生成，最多 24 个新 token；非显式长思维链设置。\\
+资源范围 & 单 GPU 作业设计；本报告未重新启动 GPU 实验。硬件峰值显存和吞吐未形成完整基准记录。\\\bottomrule
+\end{tabularx}
+\end{center}
+\subsection{评分与不确定性}
+旧评分与修订评分分开报告。修订数值评分保留正负号、小数与方向，拒绝多候选数字；默认 floor，并提供 truncate 敏感性检查。文本实体沿用原别名评分，因此仍有误判空间。\ev{P、G}
+
+“$\pm$”均为三个训练种子的\textbf{样本标准差}，百分点记为 pp。配对比较在同一评估题上统计改对／改错，采用双侧精确 McNemar；种子配对差值另给 $t$ 型 95\% 区间（自由度 2）。种子不是额外独立的测试题。exp11 主 C 组检验族为 54 项，单步为 42 项，分别做 Holm 校正。区间仅描述种子变化，不能覆盖所有数据抽样、题间相关或研究者选择的不确定性。\ev{E11}
+\clearpage
+\section{缺口测量与规模比较：exp1、exp7}
+令 $K_i$ 表示两步单问均正确；组合缺口定义为 $\Pr(\text{组合错}\mid K_i)$。\texttt{gap\_ctx} 在同一条件分母上测量提供\textbf{正确}中间事实后的组合错误率；它与训练时使用自己的中间答案不同。
+\begin{center}\small
+\captionof{table}{各模型自身已知子集上的缺口（\%，修订 floor 评分）。分母随模型改变，不是同题规模比较。}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+模型 & 已知题数 & 组合错数 & gap\_clear & gap\_ctx \\\midrule
+0.6B & 143 & 61 & 42.66 & 60.14 \\
+1.7B & 947 & 707 & 74.66 & 65.36 \\
+8B & 1902 & 752 & 39.54 & 12.83 \\
+14B & 2379 & 804 & 33.80 & 10.93 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：G，\texttt{category=CLEAN, modes.floor}。14B 为 $804/2379$，给背景后为 10.93\%；描述的是该操作性子集，而非模型所有知识。}
+\fig{fig2_gap}{0.87}{跨规模严格同题比较：三种模型两步均答对的共同 738 题。1.7B／8B／14B 的 gap\_clear 分别为 74.12／26.83／15.45\%，gap\_ctx 为 64.77／3.79／0.54\%。来源：G 的三个逐题重评分文件，本报告重新取交集计算。}
+0.6B 的条件缺口低于 1.7B，且提供背景后的缺口反而更大，不能据此认为小模型更善于组合：其已知子集只有 143 题，与其他规模的条件样本不同。选择效应及提示适应性都是可能解释，\textbf{尚未被本实验单独识别}。图 2 仅对较大三个模型取共同交集，不据此补写 0.6B 的因果解释。
+
+旧报告的“8B 约 36\% 到 14B 约 24\%”来自两模型共同已知集：旧评分为 $35.87\%\rightarrow23.59\%$（1,628 题），修订评分为 $35.46\%\rightarrow23.19\%$（1,613 题）。图 2 的三模型交集更小，数字不同并不构成矛盾。\ev{G}
+
+对旧评分下 818 个合格失败样本，以种子 7 抽取 120 题逐题模型辅助分类：94 题判为实质错误，12 题为标准答案歧义，8 题为格式，6 题为评分错误；实质错误占 78.33\%。这不是独立人工盲审，且不确定案例被保守归入实质错误，不能当作无偏的“真错比例”估计。\ev{A}
+\takeaway{组合性缺口在重评分和共同样本比较后仍存在；规模增大与显式中间事实能缩小缺口，但当前实验没有识别唯一成因。}
+\clearpage
+\section{内部可读性与推理时干预：exp2--exp6b}
+\subsection{逻辑透镜发现了什么}
+将中间层残差状态经最终归一化与词表读出映射为 token 分数，检查中间实体别名首 token 的最佳名次。该透镜沿用输出层的读出坐标，因此属于\textbf{可读性诊断}，不是对隐藏状态所含全部信息的完整测量。失败与成功组分别抽取 300 题，剔除任何中间实体／最终答案别名首词元重叠后，再判断是否在任一层进入 top-10。\ev{L}
+\begin{center}\small
+\captionof{table}{去首词元重叠后的中间实体可读性。命中指首 token 在至少一层可读，不指完整实体生成。}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+组别 & 原始题数 & 排除数 & 命中／保留 & 命中率（\%）\\\midrule
+组合失败 & 300 & 12 & 243/288 & 84.38 \\
+组合成功 & 300 & 22 & 254/278 & 91.37 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：L 原始 \texttt{lens\_items.jsonl} 及先前过滤分析。本次核验原始输入哈希未变；过滤结果沿用已保存派生数据，未重新下载 tokenizer 重建过滤。}
+失败组的中间答案经常可读，支持“失败不总等于中间实体完全没有相关激活”。但这种激活可能是并行联想、浅层词汇关联或未被后续读取的信息。首 token 命中也可能高估完整实体表征。
+
+对于“前 30 层几乎读不到”的观察，合理结论是\textbf{当前读出方法在早层不敏感}；不能反推早层没有信息，更不能把晚层可读性直接解释为推理启动时刻。表 4 汇总的是跨层是否命中，不构成精确时间定位。\ev{L}
+\subsection{从读出到干预，证据为何需要降级}
+exp3 探索把单步问题激活回填到组合问题；exp4 采用固定层和对照，以区分真实桥接信号与一般扰动；exp5 再用置信度门控。干预质量应同时看修复、破坏与净准确率，不能仅以“修好了多少失败题”评价。历史交接记录提示存在修复与副作用并存的情况，但本地未查到支持原汇总数字的逐题回填／门控结果。\ev{H}
+
+因此，本版\textbf{不再绘制历史回填修复率图，也不将其 $p$ 值列为已验证发现}。附录保留待核实条目，避免丢失研究过程；这个处理不等于重新判定历史结果为假。
+
+exp6 将工作重心转为 self 训练，exp6b 试图用透镜变化解释训练机制。原始 gold、hops 和部分透镜比较尚不足以复核；后续 exp8--exp11 提供的行为证据可以使用，但不能替代这些缺失对照的独立复现。
+\subsection{与已有工作的关系}
+组合性缺口的测量与 Press 等的 compositionality gap 相衔接；Biran 等的 \emph{Hopping Too Late} 提供了层间知识组合的机制背景。这里的两阶段目标生成更接近上下文蒸馏：教师在额外背景中作答，学生学习直接回答。与 STaR 使用推理轨迹自举相比，本实验主要训练短答案而非验证后的完整推理轨迹。Layer-Order Inversion 提供另一个结构性视角，但本实验未复现其方法，不能借用其机制结论。\cite{press,biran,snell,star,inversion}
+\takeaway{已经有“答案相关信息可读”的证据，尚无足够证据说明这些方向被正常计算使用，或 self 的收益由某一特定内部机制产生。}
+\clearpage
+\section{自生成训练与置信度过滤：exp8}
+\subsection{全量 self：小幅、跨切分不均匀的收益}
+\begin{center}\small
+\captionof{table}{全量 self 的组合正确率（\%，均值 $\pm$ 种子标准差）。每个切分 500 题，训练 864 条。}
+\begin{tabular}{@{}lrrr@{}}\toprule
+评估切分 & 基线 & self & 提升（pp）\\\midrule
+A：新人物 & 39.0 & 47.87 $\pm$ 0.50 & +8.87 \\
+B：新类别族 & 44.6 & 50.80 $\pm$ 1.60 & +6.20 \\
+C：两者均新 & 49.6 & 53.13 $\pm$ 0.90 & +3.53 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：E8/E9。C 组种子为 53.2／52.2／54.0\%；平均收益的种子 $t$ 型 95\% 区间为 [1.29, 5.77] pp。exp8 与 exp9 全量汇总结果相同，不将这两个汇总当作两份独立复现证据。}
+新人物、新类别族、两者均新的平均增益依次缩小，是值得关注的迁移模式。但三个切分的题目构成、基线与难度不同，尚未定义或控制“迁移距离”；因此这里仅说\textbf{跨切分收益不均匀}，不声称已经发现普适的距离衰减定律。
+
+单步能力不能概括为“不下降”。在旧实验 C 组固定前 150 题上，第一步由 84.67\% 到 86.44\%，第二步由 74.00\% 到 72.44\%（三种子均值）。这一诊断子集与 exp10/11 的全部 500 题不同，不能直接拼接比较。\ev{S}
+\subsection{更正确的目标，不必然带来更好的 C 组收益}
+\begin{center}\small
+\captionof{table}{exp8 全局筛选结果。目标正确率列为种子 0 对应子集的诊断；随机子集随种子变化。}
+\begin{tabular}{@{}lrrr@{}}\toprule
+条件 & 训练条数 & 目标正确率（\%） & C 正确率（\%）\\\midrule
+全量 self & 864 & 51.50 & 53.13 $\pm$ 0.90 \\
+全局置信度 50\% & 432 & 70.60 & 53.47 $\pm$ 0.95 \\
+全局随机 50\% & 432 & 49.77 & 54.07 $\pm$ 0.50 \\
+全局置信度 70\% & 605 & 61.49 & 52.80 $\pm$ 0.72 \\
+全局随机 70\% & 605 & 50.08 & 54.53 $\pm$ 0.31 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：E8 的 \texttt{training\_quality} 与原评分 C 组汇总。不同保留比例的数据量和优化步数不同；比较过滤策略时应在相同保留比例下比较。}
+置信度保留一半把目标正确率从 51.50\% 提高到 70.60\%，但 C 组没有相应优势；相同比例的随机筛选均值反而更高。全局筛选还改变类别构成，因此 exp9 补上类别内等量比较，避免将类别选择效应误认为答案质量效应。\ev{E8、E9}
+
+这些结果限制了一个简单策略：“只要更相信模型高置信度答案，就能更有效地向内学习”。它们不意味着目标正确性没有作用，也不意味着任何置信度或一致性信号都无用。
+\takeaway{全量 self 有可复核的小幅收益；当前置信度排序改善了目标标签质量，却没有稳定改善严格留出切分的训练效果。}
+\clearpage
+\section{对应关系与答案正确性：exp9、exp10}
+\fig{fig3_controls}{1}{C 组对照，误差线为种子标准差。左右训练量不同：exp9 全量为 864 条，类别内半量为 432 条；exp10 各条件为 228 条。两图不得解释为同训练预算下的效果排序。来源：E9、E10。}
+\subsection{打乱目标与类别内筛选}
+\begin{center}\small
+\captionof{table}{exp9：类别内错配造成严重退化；类别内置信度与随机筛选没有稳定差异。}
+\begin{tabular}{@{}lr@{}}\toprule 条件 & C 正确率（\%）\\\midrule
+exp9 全量 self（864 条） & 53.13 $\pm$ 0.90 \\
+exp9 类别内打乱（864 条） & 5.20 $\pm$ 1.51 \\
+exp9 类别内置信度（432 条） & 52.53 $\pm$ 1.79 \\
+exp9 类别内随机（432 条） & 52.47 $\pm$ 0.90 \\
+\bottomrule\end{tabular}
+\end{center}
+打乱全量相对 self 全量平均下降 47.93 pp，种子差值区间为 $[-53.25,-42.62]$ pp。类别内置信度相对随机平均仅 $+0.07$ pp，三个种子的差值方向不一致。不能把打乱的破坏仅归因于“违背模型认知”：题答对应关系、内容分布与训练冲突等同时变化。它支持\textbf{结构化对应关系有价值}，没有唯一识别出内在一致性机制。\ev{E9}
+\subsection{自己的错答案与对答案}
+修订评分下，原池有 438 条对、426 条错。为使三个条件的类别配额一致，逐类别取正确／错误数量的较小值，得到 51、60、71、46 条，共 228 条；并非原先估计的约 419 条。self 错与打乱错使用同一批问题；self 对使用另一批问题，因此“正确性”的比较还混有问题难度与内容差异。\ev{E10、P}
+\begin{center}\small
+\captionof{table}{exp10 类别匹配后的 C 组结果（\%）；单步列为三种子均值。}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+条件（各 228 条） & 组合均值 $\pm$ SD & 提升（pp） & 第一步 & 第二步\\\midrule
+self 错答案 & 51.53 $\pm$ 0.42 & +1.93 & 84.13 & 78.27 \\
+self 对答案 & 51.80 $\pm$ 0.69 & +2.20 & 84.47 & 77.27 \\
+打乱错答案 & 8.73 $\pm$ 0.31 & -40.87 & 53.00 & 72.33 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：E10，floor 评分；组合／第一步／第二步基线分别为 49.6／83.8／78.6\%。}
+self 错减 self 对为 $-0.27$ pp，种子差值区间 $[-1.52,0.98]$ pp；各种子的配对检验未检出差异。\textbf{未检出差异不等于等效}，也不意味着错答案在机制上与对答案相同。\ev{E10}
+\takeaway{错误的自身目标也可能产生有限收益；目前证据尚不能把“内容正确性”和“与自身认知一致”干净分离。}
+\clearpage
+\section{迭代实验的设计与基线衔接：exp11}
+\subsection{实际运行的三条路线}
+原计划把 216 位训练人物分成三份，每份得到 288 条，低于预设的 400 条阈值；因此实际每轮复用全部 864 条，只刷新目标。结果检验的是\textbf{固定问题池上的目标迭代}，不是持续吸收新人物数据。\ev{P、E11}
+
+共享 R1 以基础模型生成的目标训练。随后分为：
+\begin{align*}
+\text{重置：}\quad \theta^R_k&=\operatorname{Train}(\theta_0,D,T(\theta^R_{k-1})),\\
+\text{接续：}\quad \theta^C_k&=\operatorname{Train}(\theta^C_{k-1},D,T(\theta^C_{k-1})),\\
+\text{固定目标：}\quad \theta^F_k&=\operatorname{Train}_{k\text{ 倍轮次}}(\theta_0,D,T(\theta_0)).
+\end{align*}
+这里 $T$ 是“自己回答第一步，再带入背景生成目标”的固定流程。重置路线每轮丢弃上一轮学生参数，仅接收上一轮目标；接续路线继承适配器，但重置优化器和调度器。固定目标路线从基础模型一次训练，匹配累计样本呈现次数和梯度步数。\ev{P}
+\begin{center}\small
+\captionof{table}{预算匹配的含义；每个最终模型的唯一样本始终为 864 条。}
+\begin{tabularx}{\linewidth}{@{}lrrY@{}}\toprule
+路线 & R2 链累计步数 & R3 链累计步数 & 必须保留的差异\\\midrule
+重置 & 432 & 648 & 最终一次拟合仍只有 216 步；前轮成本用于产生教师目标。\\
+接续 & 432 & 648 & 继承适配器；分段重置优化器与学习率调度。\\
+固定目标 & 432 & 648 & 一次连续训练；不支付逐轮刷新目标的同等生成成本。\\\bottomrule
+\end{tabularx}
+\end{center}
+\note{来源：P 与 E11 运行配置。对应样本呈现次数为 R2 3,456、R3 5,184。匹配梯度预算不等于完整 FLOPs 或端到端计算成本匹配；优化日程也未完全一致。}
+共享 R1 加上三条路线各两个后续条件，共 7 个条件、3 个种子、21 次拟合。完成标记与全部阶段记录齐全；本次重新核算 94,500 个训练后评分标签（21 次 $\times$ 3 组 $\times$ 500 题 $\times$ 3 项指标）。各阶段计时合计约 5.34 小时，包含生成、加载与评估，不能称为纯训练时间。\ev{E11}
+\subsection{为什么 49.6\% 变成了 50.0\%}
+本次逐题检查确认：exp11 与 exp8 的 A/B/C 评估\textbf{身份与顺序一致}，全量训练条数也相同。C 组基础模型重新生成时，18 条答案文本发生变化；其中 4 题从错到对、2 题从对到错，净增 2 题，故 $248/500$ 变成 $250/500$。\ev{E11、B}
+
+新 C 组答案在旧评分与修订评分下的正确数同为 250；进一步逐题核验判定相同。\textbf{此处基线漂移来自预测变化，不能归因于评分切换。}具体是批处理、数值实现还是其他运行差异，当前证据未定位。exp11 应以自己的基线 50.0\% 比较，不能借用 exp8 的 49.6\%。
+\takeaway{exp11 的 R1 收益为 +2.53 pp，旧全量为 +3.53 pp；两者不是同一次运行的重复统计，也不能将差额直接解释为方法效果变化。}
+\clearpage
+\section{迭代结果：均值略升，但没有稳定预算优势}
+\begin{center}\small
+\captionof{table}{exp11 全部条件的组合正确率（\%，均值 $\pm$ SD）。}
+\begin{tabular}{@{}lrrr@{}}\toprule
+条件 & A：新人物 & B：新类别族 & C：两者均新\\\midrule
+基础模型 & 38.20 & 44.40 & 50.00\\
+共享 R1 & 48.33 $\pm$ 0.46 & 51.60 $\pm$ 1.11 & 52.53 $\pm$ 1.33 \\
+重置 R2 & 48.13 $\pm$ 0.50 & 52.27 $\pm$ 1.79 & 52.93 $\pm$ 1.10 \\
+重置 R3 & 47.40 $\pm$ 0.87 & 52.00 $\pm$ 1.04 & 53.53 $\pm$ 0.50 \\
+接续 R2 & 46.67 $\pm$ 0.64 & 52.33 $\pm$ 0.31 & 53.67 $\pm$ 0.95 \\
+接续 R3 & 47.40 $\pm$ 1.59 & 52.40 $\pm$ 1.25 & 53.67 $\pm$ 1.01 \\
+固定目标／2 轮预算 & 47.60 $\pm$ 0.40 & 52.47 $\pm$ 1.10 & 54.00 $\pm$ 1.06 \\
+固定目标／3 轮预算 & 48.67 $\pm$ 1.01 & 51.67 $\pm$ 1.53 & 52.73 $\pm$ 1.36 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：E11，\texttt{groups, metric=composed}。固定目标 2 轮预算的 C 均值最高，不作测试集选优后部署推荐；完整条件同时列出。}
+重置路线的均值为 $52.53\%\rightarrow52.93\%\rightarrow53.53\%$，仍有增长，不能写成“第二轮后没有增长”。接续路线为 $52.53\%\rightarrow53.67\%\rightarrow53.67\%$，均值在后两轮持平，但不代表每个种子不变，更不等于到达参数或函数意义的不动点。\ev{E11}
+\begin{center}\small
+\captionof{table}{C 组关键配对差值与种子 $t$ 型 95\% 区间（pp）。区间基于相同训练种子的差值，三个种子使区间较宽。}
+\begin{tabular}{@{}lrr@{}}\toprule
+比较 & 平均差值 & 95\% 区间\\\midrule
+重置 R2 $-$ R1 & +0.40 & [-0.46, 1.26] \\
+重置 R3 $-$ R1 & +1.00 & [-3.55, 5.55] \\
+重置 R3 $-$ R2 & +0.60 & [-3.34, 4.54] \\
+接续 R2 $-$ R1 & +1.13 & [-0.61, 2.88] \\
+接续 R3 $-$ R2 & +0.00 & [-3.26, 3.26] \\
+重置 R3 $-$ 固定目标 & +0.80 & [-3.75, 5.35] \\
+接续 R3 $-$ 固定目标 & +0.93 & [-3.05, 4.92] \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：E11，\texttt{C\_paired\_comparisons}。所列区间均包含 0；不能把均值顺序当成稳定优势。逐种子精确 McNemar 与 Holm 结果保存在附录所列文件。}
+
+重置 R3 相对 R1 为 $+1.00$ pp，但其中一个种子反而下降；接续 R3 相对固定目标 3 轮预算为 $+0.93$ pp，区间也很宽。固定目标本身从两轮预算到三轮预算下降，说明更多梯度步骤并不保证更好表现。\ev{E11}
+
+主 C 组的 54 项检验，经 Holm 校正后没有一项低于 0.05。这个结论不意味着效果严格为零：多重比较、仅三个种子及题目相关性都限制了辨别小效应的能力。但现有结果足以阻止“多轮持续自我提升已经成立”的表述。\ev{E11}
+\takeaway{刷新目标尚未表现出稳定的额外收益。当前更合适的结论是“收益有限且对训练方式敏感”，而不是“迭代必然提升”或“整个向内学习方向已被否定”。}
+\clearpage
+\section{能力保留与信号质量：为什么还不能扩张结论}
+\fig{fig4_retention}{1}{exp11 的两个约束。左：C 组第二步能力随训练下降的趋势；右：刷新后的目标正确率没有持续提高。误差线为种子标准差；目标由当前轮模型产生，R3 目标仅用于诊断，未训练 R4。来源：E11。}
+\begin{center}\small
+\captionof{table}{exp11 C 组单步正确率（\%，均值 $\pm$ SD），均在全部 500 题评估。}
+\begin{tabular}{@{}lrr@{}}\toprule 条件 & 第一步 & 第二步\\\midrule
+基础模型 & 82.80 & 78.40\\
+共享 R1 & 84.87 $\pm$ 0.46 & 77.07 $\pm$ 2.10 \\
+重置 R2 & 85.20 $\pm$ 0.35 & 76.67 $\pm$ 1.70 \\
+重置 R3 & 85.40 $\pm$ 0.20 & 76.60 $\pm$ 0.60 \\
+接续 R2 & 84.20 $\pm$ 0.87 & 76.33 $\pm$ 0.42 \\
+接续 R3 & 84.07 $\pm$ 0.61 & 75.60 $\pm$ 0.20 \\
+固定目标／2 轮预算 & 84.47 $\pm$ 0.76 & 77.53 $\pm$ 0.83 \\
+固定目标／3 轮预算 & 83.87 $\pm$ 1.17 & 75.00 $\pm$ 1.91 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：E11，\texttt{metric=hop1/hop2}。这里报告观察到的下降，不用“不显著”替代能力保持或非劣效检验。}
+\begin{center}\small
+\captionof{table}{生成目标的质量与错误目标置信度。置信度为答案 token 平均 log probability；越接近 0，模型对生成串越确信，不是事实正确概率。}
+\begin{tabular}{@{}lrr@{}}\toprule 目标生成者 & 目标正确率均值（\%） & 错误目标平均 log probability\\\midrule
+基础模型 & 51.16 & -0.080 \\
+R1 生成 & 50.42 & -0.059 \\
+重置 R2 生成 & 50.46 & -0.036 \\
+重置 R3 生成 & 50.42 & -0.028 \\
+接续 R2 生成 & 50.73 & -0.018 \\
+接续 R3 生成 & 50.85 & -0.008 \\
+\bottomrule\end{tabular}
+\end{center}
+\note{来源：E11，\texttt{target\_diagnostics}；各轮错误目标集合会变化，均值不构成同题校准比较。}
+错误训练目标的生成置信度上升，而目标正确率基本不变，提示自我强化风险。可是，在 C 组固定“各轮始终答错”的共同子集上，平均 log probability 并未一致单调上升。因此不能概括成“模型在测试集上越来越错、越来越自信”，更不能仅据置信度曲线宣称模型崩塌。\ev{E11}
+\takeaway{评价迭代必须同时看组合收益、单步保留及信号质量；单看 C 组略升会遗漏可见的能力代价。}
+\clearpage
+\section{阶段结论、局限与路线选择}
+\subsection{当前支持的四点结论}
+\begin{enumerate}
+\item \textbf{知识利用是一个可操作的研究问题。}评分修订、共同样本分析与背景提示比较后，组合性缺口仍存在。\ev{G、A}
+\item \textbf{自生成目标具有有限监督价值。}全量 self 在留出切分出现小幅收益；对应关系被破坏时明显退化。证据限于当前任务、模型家族与训练设置。\ev{E8、E9}
+\item \textbf{简单质量代理尚不足够。}提高目标正确率的全局置信度过滤，没有转化为稳定 C 组优势；类别内对照也未建立稳定优势。\ev{E8、E9}
+\item \textbf{输出目标迭代尚未成为可靠的持续改进方法。}均值略升并存于预算对照无稳定优势、目标质量近乎不变和部分单步下降。\ev{E11}
+\end{enumerate}
+\subsection{明确撤回或不采用的四类表述}
+\begin{enumerate}
+\item “逻辑透镜可读，说明模型已经完成了中间推理”——可读性不足以确定因果使用。
+\item “self 提升且单步能力不下降”——第二步存在回落，必须分开报告。
+\item “错答案和对答案等效，说明模型在和自己对齐”——未检出差异不是等效，且训练问题未完全匹配。
+\item “self 达到标准答案训练约一半效果／多轮收敛到不动点”——前者依赖未充分核验的单次对照，后者缺乏直接机制证据。
+\end{enumerate}
+\subsection{主要局限}
+\textbf{外部有效性：}只有一个模型家族与一种主要两跳事实结构，Qwen3 的规模比较不是第二模型家族复现；没有下游通用评测或产品收益测量。
+
+\textbf{统计与评分：}每组有限测试题、仅三个训练种子；国家与人物共享带来相关性。别名评分仍可能误判；120 题分类未经过独立人工盲审；现有区间未联合覆盖题目与种子不确定性。旧、新基线生成存在漂移。
+
+\textbf{机制识别：}self 与随机错配差异过大，只能排除部分简单解释；exp10 同时改变目标来源和问题集合。目标质量、风格、难度、输出分布与正则化效应尚未干净分离。
+
+\textbf{研究过程：}评估集虽未用于梯度训练，却在多轮实验中反复查看；本阶段不是对全新封存基准的一次性确认。若进入下一阶段，应区分开发集与最终封存测试，而非在同一 C 组不断选择策略。
+\subsection{决策：保留问题，修订路线，暂不自动启动 exp12}
+按照阶段约定，以 exp11 作为决策检查点，而非新基准数据集。\textbf{建议修订方法后再投入：}保留“如何使模型更可靠地调用已有知识”的问题；暂不继续机械增加相同 self 迭代轮数。下一条路线应优先识别一个对组合成功有预测力、并能通过干预验证使用价值的自身信号，再判断其能否支持训练。
+
+候选工作包括：在同一题与相同预算下区分信号可读和被使用；预先定义的跨结构迁移；第二模型家族复现；与上下文蒸馏、STaR 及知识组合机制工作的直接对照。这些是\textbf{待选择的研究路线}，不是已经授权或必然执行的实验清单。目标应是可重复、具有实际幅度且不以能力退化换取的收益，而不是预设“永不衰减或饱和”。
+\takeaway{本阶段的价值是缩小了问题与方法的边界：有值得研究的知识利用信号，但尚不足以支持通用迁移、持续自我提升或特定内部机制。下一笔算力应服务于路线判别。}
+\clearpage
+\appendix
+\section{完整性审计与历史待核实项目}
+\subsection{本次重新核验的范围}
+本次报告构建读取原始结果与已保存分析，不修改历史实验文件。核对旧报告所用 40 个现存来源哈希；检查 exp11 的 21 次拟合完成标记、种子与预算，重新评分 94,500 个训练后标签并核算 C 组配对 McNemar；同时校验 exp9、exp10 的 C 组逐题结果与汇总一致。没有重新执行 GPU 训练，也没有补足历史缺失对照。
+
+exp11 下载归档为 \texttt{exp11\_685985\_review.tgz}；本报告目录内保存其新解包副本 \texttt{raw\_exp11/}。所有文件级 SHA-256 位于 \texttt{source\_sha256.json}。代码与运行配置能追踪本地证据，但不等于已完成跨机器独立复现。
+\begin{center}\small
+\captionof{table}{历史记录中的待核实条目：仅作研究档案，不进入正文效果图或主结论。}
+\begin{tabularx}{\linewidth}{@{}p{17mm}Yp{40mm}@{}}\toprule
+实验 & 历史说法 & 本版处理\\\midrule
+exp3 & 逐层搜索发现部分回填修复 & 缺原始逐题结果；待核实。\\
+exp4 & 固定层修复约 14--16\%，对照约 3\%；历史 $p<10^{-8}$ & 数字和检验待核实；不作图；不能遗漏破坏率。\\
+exp5 & 门控后净收益约为 0 & 缺原始门控输出；待核实。\\
+exp6 & 仅单步 C 为 49.8\%；gold 为 56.8\%（单次） & 均待核实；不计算 self/gold 效果比。\\
+exp6b & 透镜变化支持／反对提前组合的机制解释 & 缺可完整复核的原始比较；不下机制结论。\\\bottomrule
+\end{tabularx}
+\end{center}
+\note{来源仅为 H；上述数字并非本报告重新确认的结果。未发现原始文件，不等于实验未曾运行。}
+\begin{center}\small
+\captionof{table}{exp11 C 组全部种子结果（\%），避免均值掩盖方向差异。}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+条件 & 种子 0 & 种子 1 & 种子 2 & 较基线均值（pp）\\\midrule
+共享 R1 & 52.2 & 51.4 & 54.0 & +2.53 \\
+重置 R2 & 52.4 & 52.2 & 54.2 & +2.93 \\
+重置 R3 & 53.6 & 54.0 & 53.0 & +3.53 \\
+接续 R2 & 54.0 & 52.6 & 54.4 & +3.67 \\
+接续 R3 & 52.6 & 53.8 & 54.6 & +3.67 \\
+固定目标／2 轮预算 & 54.8 & 52.8 & 54.4 & +4.00 \\
+固定目标／3 轮预算 & 53.2 & 51.2 & 53.8 & +2.73 \\
+\bottomrule\end{tabular}
+\end{center}
+\subsection{汇报与邮件保持一致的表述}
+可以写：“自生成监督在严格留出切分上带来小幅提升，但第二步能力有所回落；当前迭代尚未稳定超过预算对照。”不应写：“已找到内部学习机制”“错目标与对目标等效”“获得通用持续学习能力”。
+\clearpage
+\section{来源索引、图表映射与复现}
+\small
+所有路径相对于研究根目录。为便于阅读，正文用简短证据码；原始路径与完整哈希随报告保存。E11 为本报告目录中新解包的 \texttt{raw\_exp11/}，其归档内父路径是 \texttt{results/handoff\_analysis\_20261003/exp11\_iterate/runs\_685985/}。
+\begin{description}[leftmargin=9mm,labelwidth=8mm]
+\item[H] \path{INWARD_HANDOFF.md}；历史设计与规范，不覆盖后续数据。
+\item[G] \path{results/handoff_analysis_20261003/tasks56_verified/gap_comparison.json}；同目录 \path{rescored_1.7B.jsonl}、\path{rescored_8B.jsonl}、\path{rescored_14B.jsonl}。
+\item[A] \path{inward/results/handoff_analysis_20261003/verified_analysis/label_summary.json}。
+\item[L] \path{inward/results/lens_Qwen3-14B/lens_items.jsonl}、\path{lens_summary.json}；过滤派生值见 \path{results/report_20261005/report_data.json} 的 \texttt{lens\_filtered}，算法见同目录 \texttt{build\_figures.py}。
+\item[E8] \path{results/handoff_analysis_20261003/exp8_680959/analysis/summary.json}。
+\item[E9] \path{results/handoff_analysis_20261003/exp9_681194/verified_analysis_v2/report.json}；对应原始 \path{runs_681194/*/eval_C_bothNew.jsonl} 见哈希清单。
+\item[E10] \path{results/handoff_analysis_20261003/exp10_681386/verified_analysis/report.json}；对应 \path{resumed_681332_681386/*/eval_C_bothNew.jsonl} 见哈希清单。
+\item[E11] \path{raw_exp11/analysis/report.json}、\path{stages.json}、\path{complete.json}、\path{plan/allocation.json}；\texttt{baseline/} 与各条件目录下 \texttt{eval\_*.jsonl}、\texttt{run\_config.json}、\texttt{timing.json}、各生成阶段 \texttt{diagnostic.json}。
+\item[B] \path{results/handoff_analysis_20261003/exp11_iterate/reference_exp8/eval_C_bothNew.jsonl} 与 E11 的 \path{baseline/eval_C_bothNew.jsonl}。
+\item[S] \path{results/handoff_analysis_20261003/exp8_680959/results/filtered_680959/} 下 \path{self_confidence_top1.0_s0/s1/s2} 各目录的 \texttt{inward\_summary.json}（此处为三个目录简称）。
+\item[P] \path{results/handoff_analysis_20261003/} 下 \texttt{exp9\_shuffled/}、\texttt{exp10\_consistency/}、\texttt{exp11\_iterate/} 的 \texttt{protocol.json} 和对应 Python 脚本；exp11 含 \texttt{scoring\_v2\_v1.py}。数据原件：\path{inward/data/compositional_celebrities.json}。
+\end{description}
+\begin{center}\footnotesize
+\captionof{table}{图表与具体证据映射；每张图由 \texttt{build\_evidence.py} 生成矢量 PDF。}
+\begin{tabularx}{\linewidth}{@{}p{27mm}Y@{}}\toprule
+对象 & 数据与字段\\\midrule
+图 1；表 5 & E8/E9 \texttt{self\_full} A/B/C；E11 \texttt{groups} 的 C 组合均值与 SD。\\
+图 2；表 3 & G 的共同已知交集逐题重算；表 3 为 \texttt{CLEAN/modes.floor}。\\
+图 3；表 7--8 & E9 \texttt{groups}；E10 \texttt{scoring.floor.groups}，各自训练条数由协议限定。\\
+图 4；表 12--13 & E11 \texttt{groups/metric=hop1,hop2}、\texttt{target\_diagnostics}。\\
+表 1--2、9 & H、P 与 E11 \texttt{plan/allocation.json}、各 \texttt{run\_config.json}。\\
+表 4、6 & L 的重叠过滤派生值；E8 \texttt{training\_quality} 与 \texttt{groups}。\\
+表 10--11、15 & E11 \texttt{groups}、\texttt{C\_paired\_comparisons}、逐题预测。\\
+表 14 & 仅 H 的历史记录，全部待核实。\\\bottomrule
+\end{tabularx}
+\end{center}
+\note{复现顺序：运行 \texttt{python build\_evidence.py}，再运行 \texttt{python build\_report.py}，最后用 XeLaTeX 或兼容 XeTeX 的 Tectonic 编译 \texttt{inward\_final\_zh.tex}。完整依赖与本次编译、视觉检查记录见 \texttt{BUILD\_README.txt}。}
+\clearpage
+\normalsize
+\begin{thebibliography}{9}
+\bibitem{press} Press, O., Zhang, M., Min, S., Schmidt, L., Smith, N. A., and Lewis, M.\quad \emph{Measuring and Narrowing the Compositionality Gap in Language Models}. 2022 预印本；Findings of EMNLP, 2023.\par\url{https://arxiv.org/abs/2210.03350}
+\bibitem{biran} Biran, E., Gottesman, D., Yang, S., Geva, M., and Globerson, A.\quad \emph{Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries}. EMNLP, 2024.\par\url{https://arxiv.org/abs/2406.12775}
+\bibitem{snell} Snell, C., Klein, D., and Zhong, R.\quad \emph{Learning by Distilling Context}. 2022.\par\url{https://arxiv.org/abs/2209.15189}
+\bibitem{star} Zelikman, E., Wu, Y., Mu, J., and Goodman, N. D.\quad \emph{STaR: Bootstrapping Reasoning With Reasoning}. NeurIPS, 2022.\par\url{https://arxiv.org/abs/2203.14465}
+\bibitem{inversion} Liu, X., Liu, Y., Zhang, J., Zhang, Y., Zhang, K., and Liu, Q.\quad \emph{Layer-Order Inversion: Rethinking Latent Multi-Hop Reasoning in Large Language Models}. 2026.\par\url{https://arxiv.org/abs/2601.03542}
+\end{thebibliography}
+\vspace{5mm}
+\noindent\textbf{文献使用边界}\par
+以上文献用于定位问题和方法关系，链接指向论文原始记录。本报告没有将他人的结果视为本项目的复现，也未据此声称方法新颖性已经确立。本阶段留下的核心开放问题是：如何定义一个模型可以自行生成、又确实预测后续可用性的监督信号；以及如何以有限算力区分信号改进、训练预算和记忆重整的贡献。
+\vfill
+\noindent{\small\color{muted}报告版本：2026-10-11\quad ·\quad 证据截止：本地已保存 exp1--exp11 文件\par 结果保存原则：不覆盖历史文件；无法核验的数字明确隔离。}
+\end{document}

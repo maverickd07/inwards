@@ -1,0 +1,20 @@
+{
+  "model": "models/Qwen3-14B",
+  "items": "results/exp1v2_Qwen3-14B/items.jsonl",
+  "data": "data/compositional_celebrities.json",
+  "target": "self",
+  "out": "results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s2",
+  "epochs": 2,
+  "lr": 0.0001,
+  "rank": 16,
+  "batch": 8,
+  "n_eval": 500,
+  "n_lens": 200,
+  "seed": 0,
+  "train_seed": 2,
+  "condition": "self_wrong",
+  "selection_seed": 2,
+  "target_cache": "results/handoff_analysis_20261003/exp10_consistency/frozen_targets.jsonl",
+  "reference_evals": "results/handoff_analysis_20261003/exp10_consistency/reference_exp8",
+  "smoke_test": false
+}

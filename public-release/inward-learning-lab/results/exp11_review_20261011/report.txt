@@ -1,0 +1,10 @@
+EXP11 primary C results (floor; three seeds; no seed pooling):
+shared R1: 52.53 +/- 1.33% ; gain +2.53 pp
+reset R2: 52.93 +/- 1.10% ; gain +2.93 pp
+reset R3: 53.53 +/- 0.50% ; gain +3.53 pp
+continue R2: 53.67 +/- 0.95% ; gain +3.67 pp
+continue R3: 53.67 +/- 1.01% ; gain +3.67 pp
+frozen_budget R2: 54.00 +/- 1.06% ; gain +4.00 pp
+frozen_budget R3: 52.73 +/- 1.36% ; gain +2.73 pp
+All round outcomes retained. Do not select the best round on C.
+Stop at this checkpoint and decide next direction with the user.

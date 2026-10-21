@@ -1,0 +1,43 @@
+{
+  "condition": "shuffled_full",
+  "target_cache_sha256": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d",
+  "n_pool": 864,
+  "n_kept": 864,
+  "target_changed_n": 857,
+  "target_changed_share": 0.9918981481481481,
+  "assigned_target_correct_n": 5,
+  "assigned_target_correct_share": 0.005787037037037037,
+  "original_pool_target_correct_share": 0.5150462962962963,
+  "original_target_auroc": 0.7215574803571907,
+  "uses_gold_for_allocation": false,
+  "category_counts": {
+    "birthplace_callingcode": {
+      "available": 216,
+      "kept": 216,
+      "target_changed_n": 214,
+      "assigned_target_correct_n": 2,
+      "original_target_correct_n": 165
+    },
+    "birthplace_capital": {
+      "available": 216,
+      "kept": 216,
+      "target_changed_n": 213,
+      "assigned_target_correct_n": 1,
+      "original_target_correct_n": 156
+    },
+    "birthplace_rounded_lat": {
+      "available": 216,
+      "kept": 216,
+      "target_changed_n": 215,
+      "assigned_target_correct_n": 2,
+      "original_target_correct_n": 73
+    },
+    "birthplace_rounded_lng": {
+      "available": 216,
+      "kept": 216,
+      "target_changed_n": 215,
+      "assigned_target_correct_n": 0,
+      "original_target_correct_n": 51
+    }
+  }
+}

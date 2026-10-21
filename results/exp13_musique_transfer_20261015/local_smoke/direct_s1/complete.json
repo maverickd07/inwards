@@ -1,0 +1,11 @@
+{
+  "name": "direct_s1",
+  "smoke_test": true,
+  "queries_sha256": "8e72e0aeb9838ad5dd62f0a4cbf7a78f964fbff301591c087260708b4776ff7b",
+  "predictions_sha256": "af76e2bea51cbc0ca0bf86d1accaf7421fae687f67c0031010797c2abfec0fbd",
+  "adapter_sha256": "69b4a52823dd757ac4ecaf0841ba4cda245842d35a2bd7a603dac5b75595ff1e",
+  "config_sha256": "6ec636c3be41af247cf4f7661ef1e4fb83f44d87ae93d8a17328d9d95179cb3e",
+  "load_seconds": 0.04381680488586426,
+  "queries": 12,
+  "seconds": 0.012490987777709961
+}

@@ -1,0 +1,222 @@
+{
+  "model": "models/Qwen3-0.6B",
+  "min_both_per_category": 30,
+  "categories_in_headline": [
+    "birthplace_currency_short",
+    "birthplace_tld"
+  ],
+  "headline": {
+    "n": 936,
+    "acc_q1": 0.14316239316239315,
+    "acc_q2": 0.422008547008547,
+    "acc_comp": 0.1794871794871795,
+    "acc_ctx": 0.2264957264957265,
+    "n_both_hops_correct": 76,
+    "gap_original": 0.42105263157894735,
+    "gap_clear": 0.4342105263157895,
+    "gap_context": 0.4736842105263158,
+    "stopped_at_hop1": 0.06578947368421052,
+    "context_echo": 0.2631578947368421
+  },
+  "all_items": {
+    "n": 8688,
+    "acc_q1": 0.11406537753222835,
+    "acc_q2": 0.1438766114180479,
+    "acc_comp": 0.053406998158379376,
+    "acc_ctx": 0.06353591160220995,
+    "n_both_hops_correct": 178,
+    "gap_original": 0.5,
+    "gap_clear": 0.4662921348314607,
+    "gap_context": 0.601123595505618,
+    "stopped_at_hop1": 0.15730337078651685,
+    "context_echo": 0.43258426966292135
+  },
+  "by_category": {
+    "birthdate_uspresident": {
+      "n": 708,
+      "acc_q1": 0.0,
+      "acc_q2": 0.0014124293785310734,
+      "acc_comp": 0.02401129943502825,
+      "acc_ctx": 0.0,
+      "n_both_hops_correct": 0
+    },
+    "birthplace_callingcode": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.06196581196581197,
+      "acc_comp": 0.0,
+      "acc_ctx": 0.0,
+      "n_both_hops_correct": 7,
+      "gap_original": 1.0,
+      "gap_clear": 1.0,
+      "gap_context": 1.0,
+      "stopped_at_hop1": 0.8571428571428571,
+      "context_echo": 1.0
+    },
+    "birthplace_capital": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.3162393162393162,
+      "acc_comp": 0.1858974358974359,
+      "acc_ctx": 0.2264957264957265,
+      "n_both_hops_correct": 29,
+      "gap_original": 0.4482758620689655,
+      "gap_clear": 0.3793103448275862,
+      "gap_context": 0.6206896551724138,
+      "stopped_at_hop1": 0.1724137931034483,
+      "context_echo": 0.6206896551724138
+    },
+    "birthplace_ccn3": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.0,
+      "acc_comp": 0.0,
+      "acc_ctx": 0.0,
+      "n_both_hops_correct": 0
+    },
+    "birthplace_currency": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.3803418803418803,
+      "acc_comp": 0.1752136752136752,
+      "acc_ctx": 0.049145299145299144,
+      "n_both_hops_correct": 27,
+      "gap_original": 0.33333333333333337,
+      "gap_clear": 0.37037037037037035,
+      "gap_context": 0.9259259259259259,
+      "stopped_at_hop1": 0.18518518518518517,
+      "context_echo": 0.7777777777777778
+    },
+    "birthplace_currency_short": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.36752136752136755,
+      "acc_comp": 0.1047008547008547,
+      "acc_ctx": 0.09188034188034189,
+      "n_both_hops_correct": 34,
+      "gap_original": 0.6764705882352942,
+      "gap_clear": 0.7352941176470589,
+      "gap_context": 0.7352941176470589,
+      "stopped_at_hop1": 0.14705882352941177,
+      "context_echo": 0.35294117647058826
+    },
+    "birthplace_currency_symbol": {
+      "n": 463,
+      "acc_q1": 0.1447084233261339,
+      "acc_q2": 0.047516198704103674,
+      "acc_comp": 0.07775377969762419,
+      "acc_ctx": 0.05399568034557235,
+      "n_both_hops_correct": 7,
+      "gap_original": 0.4285714285714286,
+      "gap_clear": 0.4285714285714286,
+      "gap_context": 0.4285714285714286,
+      "stopped_at_hop1": 0.14285714285714285,
+      "context_echo": 0.0
+    },
+    "birthplace_est_common_name": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.2799145299145299,
+      "acc_comp": 0.017094017094017096,
+      "acc_ctx": 0.08547008547008547,
+      "n_both_hops_correct": 9,
+      "gap_original": 0.5555555555555556,
+      "gap_clear": 0.6666666666666667,
+      "gap_context": 0.5555555555555556,
+      "stopped_at_hop1": 0.0,
+      "context_echo": 0.0
+    },
+    "birthplace_jpn_common_name": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.0,
+      "acc_comp": 0.0,
+      "acc_ctx": 0.0,
+      "n_both_hops_correct": 0
+    },
+    "birthplace_rounded_lat": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.14957264957264957,
+      "acc_comp": 0.053418803418803416,
+      "acc_ctx": 0.027777777777777776,
+      "n_both_hops_correct": 8,
+      "gap_original": 0.875,
+      "gap_clear": 0.625,
+      "gap_context": 0.875,
+      "stopped_at_hop1": 0.25,
+      "context_echo": 0.875
+    },
+    "birthplace_rounded_lng": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.05128205128205128,
+      "acc_comp": 0.03418803418803419,
+      "acc_ctx": 0.014957264957264958,
+      "n_both_hops_correct": 2,
+      "gap_original": 1.0,
+      "gap_clear": 1.0,
+      "gap_context": 1.0,
+      "stopped_at_hop1": 1.0,
+      "context_echo": 1.0
+    },
+    "birthplace_rus_common_name": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.0,
+      "acc_comp": 0.0,
+      "acc_ctx": 0.002136752136752137,
+      "n_both_hops_correct": 0
+    },
+    "birthplace_spa_common_name": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.3888888888888889,
+      "acc_comp": 0.03632478632478633,
+      "acc_ctx": 0.2670940170940171,
+      "n_both_hops_correct": 13,
+      "gap_original": 0.8461538461538461,
+      "gap_clear": 0.46153846153846156,
+      "gap_context": 0.3076923076923077,
+      "stopped_at_hop1": 0.15384615384615385,
+      "context_echo": 0.15384615384615385
+    },
+    "birthplace_tld": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.47649572649572647,
+      "acc_comp": 0.25427350427350426,
+      "acc_ctx": 0.3611111111111111,
+      "n_both_hops_correct": 42,
+      "gap_original": 0.2142857142857143,
+      "gap_clear": 0.19047619047619047,
+      "gap_context": 0.26190476190476186,
+      "stopped_at_hop1": 0.0,
+      "context_echo": 0.19047619047619047
+    },
+    "birthplace_urd_common_name": {
+      "n": 468,
+      "acc_q1": 0.14316239316239315,
+      "acc_q2": 0.0,
+      "acc_comp": 0.0,
+      "acc_ctx": 0.0,
+      "n_both_hops_correct": 0
+    },
+    "birthyear_masterchamp": {
+      "n": 725,
+      "acc_q1": 0.037241379310344824,
+      "acc_q2": 0.09655172413793103,
+      "acc_comp": 0.011034482758620689,
+      "acc_ctx": 0.0,
+      "n_both_hops_correct": 0
+    },
+    "birthyear_nobelLiterature": {
+      "n": 708,
+      "acc_q1": 0.03672316384180791,
+      "acc_q2": 0.0,
+      "acc_comp": 0.0,
+      "acc_ctx": 0.0,
+      "n_both_hops_correct": 0
+    }
+  }
+}

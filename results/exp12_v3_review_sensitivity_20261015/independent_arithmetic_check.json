@@ -1,0 +1,6 @@
+{
+  "numpy_three_primary_scenarios_match": true,
+  "scipy_t95_match": true,
+  "no_inference": true,
+  "no_rule_edits": true
+}

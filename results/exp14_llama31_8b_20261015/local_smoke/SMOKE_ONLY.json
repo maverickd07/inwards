@@ -1,0 +1,5 @@
+{
+  "architecture": "LlamaForCausalLM",
+  "gold": "synthetic tiny predictions, software validation only",
+  "official_8B_or_GPU_tested": false
+}

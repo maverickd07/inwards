@@ -1,0 +1,97 @@
+{
+  "job_id": "701713",
+  "complete": {
+    "scorer_version": "v3",
+    "models": 13,
+    "items_per_model": 500,
+    "metric_labels": 19500,
+    "new_training_runs": 0,
+    "new_model_generations": 0,
+    "seconds": 13.841271162033081,
+    "review_queue_records": 3090,
+    "references_relabelled": false
+  },
+  "archive_sha256_verified": true,
+  "frozen_rules_match": true,
+  "package_hashes_match": true,
+  "all_input_hashes_match": true,
+  "all_13_model_outputs_byte_identical_to_validated_local_results": true,
+  "review_queue_byte_identical": true,
+  "reports_numerically_equivalent": true,
+  "floating_point_last_digit_differences": [
+    {
+      "path": "/groups/original_012/q1/new/gain_over_base_pp/direct/sd",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "path": "/groups/original_012/q1/new/gain_over_base_pp/direct/seed_t95/0",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "path": "/groups/original_012/q1/new/gain_over_base_pp/direct/seed_t95/1",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "path": "/groups/added_345/composed/new/accuracy_pct/context/sd",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "path": "/groups/added_345/composed/new/accuracy_pct/context/seed_t95/0",
+      "absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "path": "/groups/added_345/composed/new/accuracy_pct/context/seed_t95/1",
+      "absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "path": "/groups/added_345/composed/new/gain_over_base_pp/context/sd",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "path": "/groups/added_345/composed/new/gain_over_base_pp/context/seed_t95/0",
+      "absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "path": "/groups/added_345/q2/old/gain_over_base_pp/direct/sd",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/groups/added_345/q2/old/gain_over_base_pp/direct/seed_t95/0",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "path": "/groups/added_345/q2/old/gain_over_base_pp/direct/seed_t95/1",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "path": "/groups/all_012345/q1/new/context_minus_direct_pp/sd",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "path": "/groups/all_012345/q1/new/context_minus_direct_pp/seed_t95/0",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/groups/all_012345/q1/new/context_minus_direct_pp/seed_t95/1",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "path": "/groups/all_012345/q2/old/gain_over_base_pp/direct/sd",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "path": "/groups/all_012345/q2/old/gain_over_base_pp/direct/seed_t95/0",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/groups/all_012345/q2/old/gain_over_base_pp/direct/seed_t95/1",
+      "absolute_difference": 5.551115123125783e-17
+    }
+  ],
+  "all_intervals_independently_checked_with_scipy": true,
+  "limitations": [
+    "No final sacct export; pipeline completion marker and log checked.",
+    "No manual factual adjudication or dataset reference relabeling.",
+    "Conservative v3 scores count flagged unsupported answers as unaccepted; they remain in the 500-item denominator."
+  ]
+}

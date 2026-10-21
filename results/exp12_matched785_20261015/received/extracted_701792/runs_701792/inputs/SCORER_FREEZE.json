@@ -1,0 +1,15 @@
+{
+  "version": "v3",
+  "date": "2026-10-15",
+  "stage": "after synthetic tests; before first full 13-model v3 scoring",
+  "policy": "post-hoc conservative typed whole-answer; no reference relabeling",
+  "sha256": {
+    "scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+    "aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+    "reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+    "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+    "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "PROTOCOL.txt": "c2ff29a2debf79c5fabb43bfe06df6734e056b1f66d3ca23787c0d19c7201006",
+    "input_manifest.json": "bf7cc41ba9afa8c6bea88fc795b215682e36c3fd20d89768f87fbde10354e9a7"
+  }
+}

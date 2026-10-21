@@ -1,0 +1,57 @@
+{
+  "condition": "self_correct",
+  "target_cache_sha256": "synthetic-smoke-only",
+  "n_pool": 16,
+  "n_kept": 8,
+  "target_changed_n": 0,
+  "target_changed_share": 0.0,
+  "assigned_target_correct_n": 8,
+  "assigned_target_correct_share": 1.0,
+  "original_pool_target_correct_share": 0.5,
+  "original_target_auroc": 0.5,
+  "uses_gold_for_allocation": true,
+  "allocation_scorer": "scoring_v2_floor",
+  "subset_seed": 7,
+  "category_counts": {
+    "birthplace_callingcode": {
+      "available": 4,
+      "original_correct": 2,
+      "original_wrong": 2,
+      "kept": 2,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 2,
+      "original_target_correct_n": 2
+    },
+    "birthplace_capital": {
+      "available": 4,
+      "original_correct": 2,
+      "original_wrong": 2,
+      "kept": 2,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 2,
+      "original_target_correct_n": 2
+    },
+    "birthplace_rounded_lat": {
+      "available": 4,
+      "original_correct": 2,
+      "original_wrong": 2,
+      "kept": 2,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 2,
+      "original_target_correct_n": 2
+    },
+    "birthplace_rounded_lng": {
+      "available": 4,
+      "original_correct": 2,
+      "original_wrong": 2,
+      "kept": 2,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 2,
+      "original_target_correct_n": 2
+    }
+  }
+}

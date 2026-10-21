@@ -1,0 +1,2 @@
+{"category": "birthplace_currency_short", "person": "Muhammad Yunus", "gold": "BDT", "base_pred": "", "trained_pred": "", "base_q1_pred": "", "trained_q1_pred": "", "base_q2_pred": "", "trained_q2_pred": "", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_tld", "person": "Grigor Dimitrov", "gold": ".bg", "base_pred": "", "trained_pred": "", "base_q1_pred": "", "trained_q1_pred": "", "base_q2_pred": "", "trained_q2_pred": "", "base_ok": false, "trained_ok": false}

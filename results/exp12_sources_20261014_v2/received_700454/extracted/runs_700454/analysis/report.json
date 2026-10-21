@@ -1,0 +1,4899 @@
+{
+  "manifest": {
+    "primary_split": "D_reservedC",
+    "historical_eval_seed": 0,
+    "reserved_eval_seed": 12,
+    "train_seeds": [
+      0,
+      1,
+      2
+    ],
+    "reserved_candidate_n": 756,
+    "reserved_full_keys": [
+      [
+        "birthplace_currency_symbol",
+        "Confucius"
+      ],
+      [
+        "birthplace_currency",
+        "Jan Oblak"
+      ],
+      [
+        "birthplace_tld",
+        "Natti Natasha"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Kristaps Porzingis"
+      ],
+      [
+        "birthplace_tld",
+        "Christopher Columbus"
+      ],
+      [
+        "birthplace_currency_short",
+        "Catilina Aubameyang"
+      ],
+      [
+        "birthplace_ccn3",
+        "Thuy Trang"
+      ],
+      [
+        "birthplace_currency_short",
+        "Muammar Gaddafi"
+      ],
+      [
+        "birthplace_ccn3",
+        "Sheikh Mujibur Rahman"
+      ],
+      [
+        "birthplace_currency_short",
+        "Patrick Ewing"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Niels Bohr"
+      ],
+      [
+        "birthplace_currency",
+        "Yohani"
+      ],
+      [
+        "birthplace_tld",
+        "Mika Häkkinen"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Svetlana Alexievich"
+      ],
+      [
+        "birthplace_tld",
+        "Vlad the Impaler"
+      ],
+      [
+        "birthplace_tld",
+        "Nizami Ganjavi"
+      ],
+      [
+        "birthplace_currency",
+        "Bar Refaeli"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Nelson Mandela"
+      ],
+      [
+        "birthplace_ccn3",
+        "Skanderbeg"
+      ],
+      [
+        "birthplace_tld",
+        "Bjork"
+      ],
+      [
+        "birthplace_tld",
+        "Jack Ma"
+      ],
+      [
+        "birthplace_ccn3",
+        "Michael Sata"
+      ],
+      [
+        "birthplace_currency_short",
+        "Demna Gvasalia"
+      ],
+      [
+        "birthplace_currency_short",
+        "Virat Kohli"
+      ],
+      [
+        "birthplace_currency",
+        "Angela Sarafyan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Pedro Martínez"
+      ],
+      [
+        "birthplace_currency",
+        "Albert Einstein"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jacobo Árbenz"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Milla Jovovich"
+      ],
+      [
+        "birthplace_currency",
+        "Mohamed Salah"
+      ],
+      [
+        "birthplace_ccn3",
+        "Naomi Osaka"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Leif Erikson"
+      ],
+      [
+        "birthplace_tld",
+        "Cristiano Ronaldo"
+      ],
+      [
+        "birthplace_currency_short",
+        "Gloria Estefan"
+      ],
+      [
+        "birthplace_tld",
+        "Anastasio Somoza Debayle"
+      ],
+      [
+        "birthplace_currency_short",
+        "Anna Diop"
+      ],
+      [
+        "birthplace_ccn3",
+        "Canelo Álvarez"
+      ],
+      [
+        "birthplace_ccn3",
+        "Pele"
+      ],
+      [
+        "birthplace_ccn3",
+        "Ovince Saint Preux"
+      ],
+      [
+        "birthplace_tld",
+        "Mila Kunis"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Barbara Palvin"
+      ],
+      [
+        "birthplace_currency",
+        "Stefán Karl Stefánsson"
+      ],
+      [
+        "birthplace_ccn3",
+        "Anastasio Somoza Debayle"
+      ],
+      [
+        "birthplace_currency_short",
+        "Hamilcar Barca"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Enver Hoxha"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jan Oblak"
+      ],
+      [
+        "birthplace_tld",
+        "Bobby Fischer"
+      ],
+      [
+        "birthplace_tld",
+        "Eriq Zavaleta"
+      ],
+      [
+        "birthplace_ccn3",
+        "Mila Kunis"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Wilfred Ndidi"
+      ],
+      [
+        "birthplace_currency_short",
+        "Emin Agalarov"
+      ],
+      [
+        "birthplace_tld",
+        "Norodom Sihamoni"
+      ],
+      [
+        "birthplace_tld",
+        "Luis Suarez"
+      ],
+      [
+        "birthplace_currency",
+        "Heath Ledger"
+      ],
+      [
+        "birthplace_ccn3",
+        "Ludwig van Beethoven"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Julia Nickson-Soul"
+      ],
+      [
+        "birthplace_currency",
+        "Jigme Khesar Namgyel Wangchuck"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Jackie Chan"
+      ],
+      [
+        "birthplace_ccn3",
+        "Elīna Garanča"
+      ],
+      [
+        "birthplace_currency_short",
+        "Sergey Brin"
+      ],
+      [
+        "birthplace_tld",
+        "Svetlana Alexievich"
+      ],
+      [
+        "birthplace_currency_short",
+        "Carl Jung"
+      ],
+      [
+        "birthplace_tld",
+        "Queen Rania"
+      ],
+      [
+        "birthplace_tld",
+        "Che Guevara"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Francis Ngannou"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Daniel Zovatto"
+      ],
+      [
+        "birthplace_tld",
+        "Jean-Claude Van Damme"
+      ],
+      [
+        "birthplace_currency_short",
+        "Grace Kelly"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Muhammad Ali Jinnah"
+      ],
+      [
+        "birthplace_ccn3",
+        "Keylor Navas"
+      ],
+      [
+        "birthplace_tld",
+        "Kimi Raikkonen"
+      ],
+      [
+        "birthplace_ccn3",
+        "Kristaps Porzingis"
+      ],
+      [
+        "birthplace_currency",
+        "Daniel Zovatto"
+      ],
+      [
+        "birthplace_tld",
+        "Kevin Sanjaya Sukamuljo"
+      ],
+      [
+        "birthplace_currency",
+        "Catherine the Great"
+      ],
+      [
+        "birthplace_currency_short",
+        "Giannis Antetokounmpo"
+      ],
+      [
+        "birthplace_currency_short",
+        "Jackie Chan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Genghis Khan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Steve Irwin"
+      ],
+      [
+        "birthplace_ccn3",
+        "Nelson Mandela"
+      ],
+      [
+        "birthplace_currency",
+        "Odion Ighalo"
+      ],
+      [
+        "birthplace_currency",
+        "Queen Rania"
+      ],
+      [
+        "birthplace_currency_short",
+        "Paulo Wanchope"
+      ],
+      [
+        "birthplace_currency_short",
+        "Franz Liszt"
+      ],
+      [
+        "birthplace_currency_short",
+        "Solomon"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Bobby Fischer"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Winston Duke"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Giannis Antetokounmpo"
+      ],
+      [
+        "birthplace_currency",
+        "Hristo Stoichkov"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jack Ma"
+      ],
+      [
+        "birthplace_tld",
+        "Kim Yo-jong"
+      ],
+      [
+        "birthplace_currency_short",
+        "Thuy Trang"
+      ],
+      [
+        "birthplace_ccn3",
+        "Paulo Wanchope"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Galileo Galilei"
+      ],
+      [
+        "birthplace_ccn3",
+        "The Weeknd"
+      ],
+      [
+        "birthplace_currency",
+        "Leif Erikson"
+      ],
+      [
+        "birthplace_currency_short",
+        "Diego Forlán"
+      ],
+      [
+        "birthplace_ccn3",
+        "Zayed bin Sultan Al Nahyan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Möngke Khan"
+      ],
+      [
+        "birthplace_currency",
+        "Kimi Raikkonen"
+      ],
+      [
+        "birthplace_tld",
+        "Marc Chagall"
+      ],
+      [
+        "birthplace_ccn3",
+        "Pete Sandoval"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Pete Sandoval"
+      ],
+      [
+        "birthplace_currency",
+        "Barbara Palvin"
+      ],
+      [
+        "birthplace_currency",
+        "Dua Lipa"
+      ],
+      [
+        "birthplace_ccn3",
+        "Hussein, Crown Prince"
+      ],
+      [
+        "birthplace_tld",
+        "Levy Mwanawasa"
+      ],
+      [
+        "birthplace_ccn3",
+        "Bartolo Colón"
+      ],
+      [
+        "birthplace_currency_short",
+        "Danai Gurira"
+      ],
+      [
+        "birthplace_currency",
+        "Tina Turner"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Tom Hanks"
+      ],
+      [
+        "birthplace_currency_short",
+        "Rodrigo Duterte"
+      ],
+      [
+        "birthplace_tld",
+        "Emin Agalarov"
+      ],
+      [
+        "birthplace_ccn3",
+        "Karl Marx"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Stefán Karl Stefánsson"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Marc Chagall"
+      ],
+      [
+        "birthplace_currency_short",
+        "Kevin Sanjaya Sukamuljo"
+      ],
+      [
+        "birthplace_currency",
+        "Jean Ping"
+      ],
+      [
+        "birthplace_tld",
+        "Brian Lara"
+      ],
+      [
+        "birthplace_currency",
+        "Nicki Minaj"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Shakhriyar Mamedyarov"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Keylor Navas"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Gloria Estefan"
+      ],
+      [
+        "birthplace_currency",
+        "Jeļena Ostapenko"
+      ],
+      [
+        "birthplace_currency",
+        "Sheikh Mujibur Rahman"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Antonio José de Sucre"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Gabriela Rodríguez de Bukele"
+      ],
+      [
+        "birthplace_tld",
+        "Alfredo Bowman"
+      ],
+      [
+        "birthplace_currency",
+        "Luc Mbah a Moute"
+      ],
+      [
+        "birthplace_currency",
+        "Yip Man"
+      ],
+      [
+        "birthplace_tld",
+        "Anett Kontaveit"
+      ],
+      [
+        "birthplace_tld",
+        "Rodrigo Duterte"
+      ],
+      [
+        "birthplace_ccn3",
+        "Lionel Messi"
+      ],
+      [
+        "birthplace_currency",
+        "Aloysius Pang"
+      ],
+      [
+        "birthplace_currency_short",
+        "Mohammed bin Rashid Al Maktoum"
+      ],
+      [
+        "birthplace_tld",
+        "Giannis Antetokounmpo"
+      ],
+      [
+        "birthplace_currency",
+        "Muammar Gaddafi"
+      ],
+      [
+        "birthplace_ccn3",
+        "Wolfgang Amadeus Mozart"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Oscar Isaac"
+      ],
+      [
+        "birthplace_ccn3",
+        "Antonio Valencia"
+      ],
+      [
+        "birthplace_currency",
+        "Möngke Khan"
+      ],
+      [
+        "birthplace_ccn3",
+        "AB de Villiers"
+      ],
+      [
+        "birthplace_currency_short",
+        "Alfredo Bowman"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Sebastian Stan"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Jacobo Árbenz"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jwan Yosef"
+      ],
+      [
+        "birthplace_ccn3",
+        "Francis Ngannou"
+      ],
+      [
+        "birthplace_currency_short",
+        "Grigor Dimitrov"
+      ],
+      [
+        "birthplace_currency",
+        "Jakaya Kikwete"
+      ],
+      [
+        "birthplace_ccn3",
+        "Pablo Picasso"
+      ],
+      [
+        "birthplace_currency",
+        "Solomon"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Jaber Al-Mubarak Al-Hamad Al-Sabah"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Rigoberta Menchú"
+      ],
+      [
+        "birthplace_tld",
+        "Domantas Sabonis"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Anett Kontaveit"
+      ],
+      [
+        "birthplace_currency_short",
+        "Tom Hanks"
+      ],
+      [
+        "birthplace_currency",
+        "Sergey Brin"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "St. Augustine"
+      ],
+      [
+        "birthplace_tld",
+        "Sonia Ben Ammar"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Lionel Messi"
+      ],
+      [
+        "birthplace_currency",
+        "Doris Lessing"
+      ],
+      [
+        "birthplace_ccn3",
+        "Nico Rosberg"
+      ],
+      [
+        "birthplace_currency",
+        "Carl Jung"
+      ],
+      [
+        "birthplace_currency_short",
+        "Keanu Reeves"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Mahatma Gandhi"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Danai Gurira"
+      ],
+      [
+        "birthplace_currency",
+        "Giannis Antetokounmpo"
+      ],
+      [
+        "birthplace_currency",
+        "Mila Kunis"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Patrick Ewing"
+      ],
+      [
+        "birthplace_currency",
+        "Nicolaus Copernicus"
+      ],
+      [
+        "birthplace_ccn3",
+        "Confucius"
+      ],
+      [
+        "birthplace_ccn3",
+        "St. Augustine"
+      ],
+      [
+        "birthplace_ccn3",
+        "Pedro Pascal"
+      ],
+      [
+        "birthplace_ccn3",
+        "Hannibal"
+      ],
+      [
+        "birthplace_tld",
+        "Muttiah Muralitharan"
+      ],
+      [
+        "birthplace_currency",
+        "Nikola Tesla"
+      ],
+      [
+        "birthplace_currency_short",
+        "Tony Jaa"
+      ],
+      [
+        "birthplace_ccn3",
+        "Diego Forlán"
+      ],
+      [
+        "birthplace_tld",
+        "Fazlur Rahman Khan"
+      ],
+      [
+        "birthplace_currency",
+        "Tutankhamun"
+      ],
+      [
+        "birthplace_currency_short",
+        "Ri Sol-ju"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "The Weeknd"
+      ],
+      [
+        "birthplace_tld",
+        "Zuchu"
+      ],
+      [
+        "birthplace_currency",
+        "Roberto Clemente"
+      ],
+      [
+        "birthplace_tld",
+        "Fidel Castro"
+      ],
+      [
+        "birthplace_currency_short",
+        "Tina Turner"
+      ],
+      [
+        "birthplace_currency_short",
+        "Michael Sata"
+      ],
+      [
+        "birthplace_ccn3",
+        "Aliko Dangote"
+      ],
+      [
+        "birthplace_tld",
+        "Nelson Mandela"
+      ],
+      [
+        "birthplace_currency",
+        "Julian Assange"
+      ],
+      [
+        "birthplace_currency_short",
+        "Emma Watson"
+      ],
+      [
+        "birthplace_tld",
+        "Osman I"
+      ],
+      [
+        "birthplace_tld",
+        "Virat Kohli"
+      ],
+      [
+        "birthplace_currency",
+        "Michael Jordan"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jigme Singye Wangchuck"
+      ],
+      [
+        "birthplace_ccn3",
+        "Asma al-Assad"
+      ],
+      [
+        "birthplace_tld",
+        "Wangari Maathai"
+      ],
+      [
+        "birthplace_ccn3",
+        "Oscar de la Renta"
+      ],
+      [
+        "birthplace_ccn3",
+        "Christopher Columbus"
+      ],
+      [
+        "birthplace_currency_short",
+        "Josephine Bakhita"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Achraf Hakimi"
+      ],
+      [
+        "birthplace_tld",
+        "Ingrid Bergman"
+      ],
+      [
+        "birthplace_currency_short",
+        "Kristaps Porzingis"
+      ],
+      [
+        "birthplace_ccn3",
+        "Robert Lewandowski"
+      ],
+      [
+        "birthplace_currency_short",
+        "W. E. B. Du Bois"
+      ],
+      [
+        "birthplace_tld",
+        "Jigme Dorji Wangchuck"
+      ],
+      [
+        "birthplace_currency_short",
+        "Nizami Ganjavi"
+      ],
+      [
+        "birthplace_currency",
+        "Trevor Noah"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Abebe Bikila"
+      ],
+      [
+        "birthplace_ccn3",
+        "Tina Turner"
+      ],
+      [
+        "birthplace_currency",
+        "Karl Marx"
+      ],
+      [
+        "birthplace_currency_short",
+        "Muhammad Ali Jinnah"
+      ],
+      [
+        "birthplace_currency",
+        "Kublai Khan"
+      ],
+      [
+        "birthplace_ccn3",
+        "Solomon"
+      ],
+      [
+        "birthplace_currency_short",
+        "Foday Sankoh"
+      ],
+      [
+        "birthplace_tld",
+        "Angela Lansbury"
+      ],
+      [
+        "birthplace_currency_short",
+        "Aung San Suu Kyi"
+      ],
+      [
+        "birthplace_tld",
+        "Kublai Khan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Jack Ma"
+      ],
+      [
+        "birthplace_ccn3",
+        "Ho Chi Minh"
+      ],
+      [
+        "birthplace_ccn3",
+        "Mala Sinha"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Chinua Achebe"
+      ],
+      [
+        "birthplace_currency_short",
+        "Christoph Waltz"
+      ],
+      [
+        "birthplace_currency",
+        "Norodom Sihanouk"
+      ],
+      [
+        "birthplace_currency_short",
+        "Mirko Cro Cop"
+      ],
+      [
+        "birthplace_currency_short",
+        "Stefán Karl Stefánsson"
+      ],
+      [
+        "birthplace_currency",
+        "Pele"
+      ],
+      [
+        "birthplace_ccn3",
+        "Yip Man"
+      ],
+      [
+        "birthplace_currency",
+        "Daniel Cousin"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Mohammed bin Rashid Al Maktoum"
+      ],
+      [
+        "birthplace_tld",
+        "Pete Sandoval"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Mohamed Salah"
+      ],
+      [
+        "birthplace_tld",
+        "Muhammad Yunus"
+      ],
+      [
+        "birthplace_ccn3",
+        "Aristotle"
+      ],
+      [
+        "birthplace_tld",
+        "Jigme Khesar Namgyel Wangchuck"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Sheikh Mujibur Rahman"
+      ],
+      [
+        "birthplace_currency",
+        "Jaber Al-Mubarak Al-Hamad Al-Sabah"
+      ],
+      [
+        "birthplace_currency_short",
+        "Roger Milla"
+      ],
+      [
+        "birthplace_ccn3",
+        "Omar Torrijos"
+      ],
+      [
+        "birthplace_currency",
+        "Oscar Wilde"
+      ],
+      [
+        "birthplace_ccn3",
+        "Che Guevara"
+      ],
+      [
+        "birthplace_currency_short",
+        "Garcelle Beauvais"
+      ],
+      [
+        "birthplace_currency_short",
+        "Mahatma Gandhi"
+      ],
+      [
+        "birthplace_tld",
+        "Michael Jordan"
+      ],
+      [
+        "birthplace_currency",
+        "Mohammed bin Rashid Al Maktoum"
+      ],
+      [
+        "birthplace_tld",
+        "Ivan Reitman"
+      ],
+      [
+        "birthplace_currency",
+        "Ovince Saint Preux"
+      ],
+      [
+        "birthplace_ccn3",
+        "Emmerson Mnangagwa"
+      ],
+      [
+        "birthplace_ccn3",
+        "Lee Hsien Loong"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Trevor Noah"
+      ],
+      [
+        "birthplace_tld",
+        "Gabriel Garcia Marquez"
+      ],
+      [
+        "birthplace_ccn3",
+        "Usain Bolt"
+      ],
+      [
+        "birthplace_currency",
+        "Ricardo Mayorga"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Wolfgang Amadeus Mozart"
+      ],
+      [
+        "birthplace_currency_short",
+        "André the Giant"
+      ],
+      [
+        "birthplace_currency",
+        "Shakhriyar Mamedyarov"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jaber Al-Mubarak Al-Hamad Al-Sabah"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Omar Torrijos"
+      ],
+      [
+        "birthplace_currency",
+        "Galileo Galilei"
+      ],
+      [
+        "birthplace_currency",
+        "Pedro Martínez"
+      ],
+      [
+        "birthplace_currency",
+        "Asma al-Assad"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Tutankhamun"
+      ],
+      [
+        "birthplace_currency_short",
+        "Brian Lara"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Goodluck Jonathan"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Ogedei Khan"
+      ],
+      [
+        "birthplace_tld",
+        "Ahmad Shah Massoud"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Fidel Castro"
+      ],
+      [
+        "birthplace_currency_short",
+        "Odion Ighalo"
+      ],
+      [
+        "birthplace_tld",
+        "Emma Watson"
+      ],
+      [
+        "birthplace_ccn3",
+        "Roger Milla"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Robert Lewandowski"
+      ],
+      [
+        "birthplace_currency_short",
+        "Kublai Khan"
+      ],
+      [
+        "birthplace_tld",
+        "Maria Sharapova"
+      ],
+      [
+        "birthplace_currency",
+        "Paul Keres"
+      ],
+      [
+        "birthplace_tld",
+        "Jwan Yosef"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Peter Sagan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Mia Khalifa"
+      ],
+      [
+        "birthplace_currency_short",
+        "Nicolaus Copernicus"
+      ],
+      [
+        "birthplace_currency",
+        "Vincent van Gogh"
+      ],
+      [
+        "birthplace_currency",
+        "Vladimir Lenin"
+      ],
+      [
+        "birthplace_currency_short",
+        "Desi Arnaz"
+      ],
+      [
+        "birthplace_tld",
+        "Jigme Singye Wangchuck"
+      ],
+      [
+        "birthplace_currency_short",
+        "Pedro Pascal"
+      ],
+      [
+        "birthplace_tld",
+        "Jean Ping"
+      ],
+      [
+        "birthplace_ccn3",
+        "W. E. B. Du Bois"
+      ],
+      [
+        "birthplace_tld",
+        "Bartolo Colón"
+      ],
+      [
+        "birthplace_currency",
+        "Edgar Ramirez"
+      ],
+      [
+        "birthplace_currency_short",
+        "Bartolo Colón"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Vladimir Lenin"
+      ],
+      [
+        "birthplace_currency",
+        "Neymar"
+      ],
+      [
+        "birthplace_tld",
+        "Kwame Nkrumah"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Solomon"
+      ],
+      [
+        "birthplace_tld",
+        "Sheikh Mujibur Rahman"
+      ],
+      [
+        "birthplace_tld",
+        "Emir Kusturica"
+      ],
+      [
+        "birthplace_currency_short",
+        "Ogedei Khan"
+      ],
+      [
+        "birthplace_currency",
+        "Mala Sinha"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Agostinho Neto"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Usain Bolt"
+      ],
+      [
+        "birthplace_currency_short",
+        "Marc Chagall"
+      ],
+      [
+        "birthplace_ccn3",
+        "Khatia Buniatishvili"
+      ],
+      [
+        "birthplace_ccn3",
+        "Domantas Sabonis"
+      ],
+      [
+        "birthplace_ccn3",
+        "Mahatma Gandhi"
+      ],
+      [
+        "birthplace_tld",
+        "Chinua Achebe"
+      ],
+      [
+        "birthplace_tld",
+        "Sergey Brin"
+      ],
+      [
+        "birthplace_tld",
+        "Ricardo Mayorga"
+      ],
+      [
+        "birthplace_currency",
+        "Kim Taehyung"
+      ],
+      [
+        "birthplace_ccn3",
+        "Leif Erikson"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jean-Jacques Rousseau"
+      ],
+      [
+        "birthplace_tld",
+        "Edgar Ramirez"
+      ],
+      [
+        "birthplace_ccn3",
+        "Norodom Sihamoni"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Osman I"
+      ],
+      [
+        "birthplace_currency_short",
+        "Gabriela Rodríguez de Bukele"
+      ],
+      [
+        "birthplace_tld",
+        "Antonio José de Sucre"
+      ],
+      [
+        "birthplace_tld",
+        "Mirko Cro Cop"
+      ],
+      [
+        "birthplace_tld",
+        "Hussein, Crown Prince"
+      ],
+      [
+        "birthplace_currency_short",
+        "Sheikh Mujibur Rahman"
+      ],
+      [
+        "birthplace_currency",
+        "Khatia Buniatishvili"
+      ],
+      [
+        "birthplace_ccn3",
+        "Edgar Ramirez"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Antonio Valencia"
+      ],
+      [
+        "birthplace_tld",
+        "Demna Gvasalia"
+      ],
+      [
+        "birthplace_currency_short",
+        "Omar Torrijos"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Julian Assange"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Paul Keres"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Kimi Raikkonen"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jackie Chan"
+      ],
+      [
+        "birthplace_ccn3",
+        "Brian Lara"
+      ],
+      [
+        "birthplace_currency_short",
+        "Antonio José de Sucre"
+      ],
+      [
+        "birthplace_ccn3",
+        "Jean-Claude Van Damme"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Diego Forlán"
+      ],
+      [
+        "birthplace_currency_short",
+        "Mahmud of Ghazni"
+      ],
+      [
+        "birthplace_currency_short",
+        "Vladimir Lenin"
+      ],
+      [
+        "birthplace_currency_short",
+        "Aliko Dangote"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Odion Ighalo"
+      ],
+      [
+        "birthplace_currency",
+        "André the Giant"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Kublai Khan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Angela Sarafyan"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Luka Dončić"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Jakaya Kikwete"
+      ],
+      [
+        "birthplace_currency",
+        "Svetlana Alexievich"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Keanu Reeves"
+      ],
+      [
+        "birthplace_tld",
+        "Jeļena Ostapenko"
+      ],
+      [
+        "birthplace_currency",
+        "Gabriel Garcia Marquez"
+      ],
+      [
+        "birthplace_currency",
+        "Ogedei Khan"
+      ],
+      [
+        "birthplace_tld",
+        "Patrick Ewing"
+      ],
+      [
+        "birthplace_tld",
+        "Elīna Garanča"
+      ],
+      [
+        "birthplace_tld",
+        "Akon"
+      ],
+      [
+        "birthplace_ccn3",
+        "Muammar Gaddafi"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Genghis Khan"
+      ],
+      [
+        "birthplace_tld",
+        "Abebe Bikila"
+      ],
+      [
+        "birthplace_ccn3",
+        "BamBam"
+      ],
+      [
+        "birthplace_ccn3",
+        "Cleopatra"
+      ],
+      [
+        "birthplace_ccn3",
+        "Osman I"
+      ],
+      [
+        "birthplace_tld",
+        "Mary Magdalene"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Tony Jaa"
+      ],
+      [
+        "birthplace_currency_short",
+        "Francis Ngannou"
+      ],
+      [
+        "birthplace_currency_short",
+        "Natalie Portman"
+      ],
+      [
+        "birthplace_currency_short",
+        "Oscar Isaac"
+      ],
+      [
+        "birthplace_tld",
+        "Jacobo Árbenz"
+      ],
+      [
+        "birthplace_tld",
+        "Zine El Abidine Ben Ali"
+      ],
+      [
+        "birthplace_ccn3",
+        "Katie Melua"
+      ],
+      [
+        "birthplace_tld",
+        "Paul Keres"
+      ],
+      [
+        "birthplace_ccn3",
+        "Oscar Wilde"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Franz Liszt"
+      ],
+      [
+        "birthplace_ccn3",
+        "Akon"
+      ],
+      [
+        "birthplace_tld",
+        "Doris Lessing"
+      ],
+      [
+        "birthplace_ccn3",
+        "Fazlur Rahman Khan"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Simon Bolivar"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Dwayne Johnson"
+      ],
+      [
+        "birthplace_ccn3",
+        "Grigor Dimitrov"
+      ],
+      [
+        "birthplace_tld",
+        "Mia Khalifa"
+      ],
+      [
+        "birthplace_tld",
+        "Jean-Jacques Rousseau"
+      ],
+      [
+        "birthplace_tld",
+        "Ricky Martin"
+      ],
+      [
+        "birthplace_tld",
+        "Keylor Navas"
+      ],
+      [
+        "birthplace_currency_short",
+        "Abdullah II"
+      ],
+      [
+        "birthplace_currency_short",
+        "Ricardo Mayorga"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Albert Einstein"
+      ],
+      [
+        "birthplace_ccn3",
+        "Wasim Akram"
+      ],
+      [
+        "birthplace_ccn3",
+        "Chinua Achebe"
+      ],
+      [
+        "birthplace_currency_short",
+        "Nikola Tesla"
+      ],
+      [
+        "birthplace_currency",
+        "Jacqueline Fernandez"
+      ],
+      [
+        "birthplace_tld",
+        "Emmerson Mnangagwa"
+      ],
+      [
+        "birthplace_currency_short",
+        "Mustafa Kemal Ataturk"
+      ],
+      [
+        "birthplace_tld",
+        "Omar Torrijos"
+      ],
+      [
+        "birthplace_tld",
+        "Vincent van Gogh"
+      ],
+      [
+        "birthplace_currency_short",
+        "Zayed bin Sultan Al Nahyan"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Henrikh Mkhitaryan"
+      ],
+      [
+        "birthplace_tld",
+        "Mala Sinha"
+      ],
+      [
+        "birthplace_ccn3",
+        "Sebastian Stan"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Ovince Saint Preux"
+      ],
+      [
+        "birthplace_ccn3",
+        "André the Giant"
+      ],
+      [
+        "birthplace_currency",
+        "Eriq Zavaleta"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Nicki Minaj"
+      ],
+      [
+        "birthplace_currency_short",
+        "Norodom Sihamoni"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Ivan Reitman"
+      ],
+      [
+        "birthplace_currency",
+        "Oscar de la Renta"
+      ],
+      [
+        "birthplace_tld",
+        "Ferenc Puskás"
+      ],
+      [
+        "birthplace_currency",
+        "Carlos Slim"
+      ],
+      [
+        "birthplace_currency_short",
+        "Jigme Khesar Namgyel Wangchuck"
+      ],
+      [
+        "birthplace_ccn3",
+        "Danai Gurira"
+      ],
+      [
+        "birthplace_currency",
+        "Naomi Osaka"
+      ],
+      [
+        "birthplace_tld",
+        "Zayed bin Sultan Al Nahyan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Svetlana Boginskaya"
+      ],
+      [
+        "birthplace_currency",
+        "Desi Arnaz"
+      ],
+      [
+        "birthplace_currency",
+        "Catilina Aubameyang"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Mika Häkkinen"
+      ],
+      [
+        "birthplace_ccn3",
+        "Svetlana Alexievich"
+      ],
+      [
+        "birthplace_ccn3",
+        "Simon Bolivar"
+      ],
+      [
+        "birthplace_ccn3",
+        "Nizami Ganjavi"
+      ],
+      [
+        "birthplace_tld",
+        "Tutankhamun"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Grace Kelly"
+      ],
+      [
+        "birthplace_currency",
+        "Keanu Reeves"
+      ],
+      [
+        "birthplace_currency_short",
+        "Bjork"
+      ],
+      [
+        "birthplace_currency",
+        "W. E. B. Du Bois"
+      ],
+      [
+        "birthplace_tld",
+        "Mohamed Salah"
+      ],
+      [
+        "birthplace_currency",
+        "Zayed bin Sultan Al Nahyan"
+      ],
+      [
+        "birthplace_currency_short",
+        "Ingrid Bergman"
+      ],
+      [
+        "birthplace_currency",
+        "Pedro Pascal"
+      ],
+      [
+        "birthplace_ccn3",
+        "Niels Bohr"
+      ],
+      [
+        "birthplace_ccn3",
+        "Bobby Fischer"
+      ],
+      [
+        "birthplace_currency",
+        "Emir Kusturica"
+      ],
+      [
+        "birthplace_tld",
+        "Heath Ledger"
+      ],
+      [
+        "birthplace_tld",
+        "Franz Kafka"
+      ],
+      [
+        "birthplace_ccn3",
+        "Kwame Nkrumah"
+      ],
+      [
+        "birthplace_currency",
+        "Michael Schumacher"
+      ],
+      [
+        "birthplace_ccn3",
+        "Mohammed bin Rashid Al Maktoum"
+      ],
+      [
+        "birthplace_tld",
+        "Cleopatra"
+      ],
+      [
+        "birthplace_ccn3",
+        "Kobe Bryant"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Desi Arnaz"
+      ],
+      [
+        "birthplace_ccn3",
+        "Svetlana Boginskaya"
+      ],
+      [
+        "birthplace_ccn3",
+        "Giannis Antetokounmpo"
+      ],
+      [
+        "birthplace_currency",
+        "Sonia Ben Ammar"
+      ],
+      [
+        "birthplace_currency_short",
+        "Henrikh Mkhitaryan"
+      ],
+      [
+        "birthplace_tld",
+        "Marek Hamšík"
+      ],
+      [
+        "birthplace_currency",
+        "Peter Sagan"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Kim Taehyung"
+      ],
+      [
+        "birthplace_currency",
+        "Emmerson Mnangagwa"
+      ],
+      [
+        "birthplace_currency",
+        "Saad Al-Salim Al-Sabah"
+      ],
+      [
+        "birthplace_tld",
+        "Asma al-Assad"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Paulo Wanchope"
+      ],
+      [
+        "birthplace_currency",
+        "Muhammad Yunus"
+      ],
+      [
+        "birthplace_currency_short",
+        "Norodom Sihanouk"
+      ],
+      [
+        "birthplace_tld",
+        "Hamilcar Barca"
+      ],
+      [
+        "birthplace_currency",
+        "Skanderbeg"
+      ],
+      [
+        "birthplace_ccn3",
+        "Yohani"
+      ],
+      [
+        "birthplace_currency",
+        "Bartolo Colón"
+      ],
+      [
+        "birthplace_tld",
+        "Cung Le"
+      ],
+      [
+        "birthplace_currency_short",
+        "Trevor Noah"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Kevin Sanjaya Sukamuljo"
+      ],
+      [
+        "birthplace_currency",
+        "Roger Milla"
+      ],
+      [
+        "birthplace_ccn3",
+        "Bar Refaeli"
+      ],
+      [
+        "birthplace_ccn3",
+        "Ri Sol-ju"
+      ],
+      [
+        "birthplace_tld",
+        "Aloysius Pang"
+      ],
+      [
+        "birthplace_currency",
+        "Lee Chong Wei"
+      ],
+      [
+        "birthplace_tld",
+        "Jacqueline Fernandez"
+      ],
+      [
+        "birthplace_tld",
+        "Lee Hsien Loong"
+      ],
+      [
+        "birthplace_currency_short",
+        "Wangari Maathai"
+      ],
+      [
+        "birthplace_ccn3",
+        "Nicolaus Copernicus"
+      ],
+      [
+        "birthplace_ccn3",
+        "Trevor Noah"
+      ],
+      [
+        "birthplace_ccn3",
+        "Wilson Palacios"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Jacqueline Fernandez"
+      ],
+      [
+        "birthplace_currency",
+        "Natti Natasha"
+      ],
+      [
+        "birthplace_currency",
+        "Jean-Claude Van Damme"
+      ],
+      [
+        "birthplace_currency_short",
+        "Confucius"
+      ],
+      [
+        "birthplace_currency",
+        "Enver Hoxha"
+      ],
+      [
+        "birthplace_currency_short",
+        "Lee Hsien Loong"
+      ],
+      [
+        "birthplace_currency",
+        "Keylor Navas"
+      ],
+      [
+        "birthplace_currency_short",
+        "Sheikh Hasina"
+      ],
+      [
+        "birthplace_tld",
+        "Aliko Dangote"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Natti Natasha"
+      ],
+      [
+        "birthplace_tld",
+        "Christoph Waltz"
+      ],
+      [
+        "birthplace_currency",
+        "Demna Gvasalia"
+      ],
+      [
+        "birthplace_ccn3",
+        "Daniel Zovatto"
+      ],
+      [
+        "birthplace_currency_short",
+        "Luol Deng"
+      ],
+      [
+        "birthplace_currency",
+        "Thuy Trang"
+      ],
+      [
+        "birthplace_currency",
+        "Fidel Castro"
+      ],
+      [
+        "birthplace_ccn3",
+        "Mustafa Kemal Ataturk"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Mirko Cro Cop"
+      ],
+      [
+        "birthplace_currency",
+        "Nelson Mandela"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Jigme Dorji Wangchuck"
+      ],
+      [
+        "birthplace_currency",
+        "Kim Yo-jong"
+      ],
+      [
+        "birthplace_ccn3",
+        "Zuchu"
+      ],
+      [
+        "birthplace_tld",
+        "António Guterres"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Luis Suarez"
+      ],
+      [
+        "birthplace_tld",
+        "Pele"
+      ],
+      [
+        "birthplace_ccn3",
+        "Garcelle Beauvais"
+      ],
+      [
+        "birthplace_currency_short",
+        "Prophet Muhammad"
+      ],
+      [
+        "birthplace_ccn3",
+        "Frida Kahlo"
+      ],
+      [
+        "birthplace_currency",
+        "Zuchu"
+      ],
+      [
+        "birthplace_tld",
+        "Luc Mbah a Moute"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Ingrid Bergman"
+      ],
+      [
+        "birthplace_currency_short",
+        "Jacqueline Fernandez"
+      ],
+      [
+        "birthplace_tld",
+        "Stephen Hawking"
+      ],
+      [
+        "birthplace_tld",
+        "Canelo Álvarez"
+      ],
+      [
+        "birthplace_currency_symbol",
+        "Jigme Singye Wangchuck"
+      ],
+      [
+        "birthplace_currency",
+        "Stephen Hawking"
+      ],
+      [
+        "birthplace_currency",
+        "Emin Agalarov"
+      ],
+      [
+        "birthplace_currency",
+        "Aliko Dangote"
+      ],
+      [
+        "birthplace_tld",
+        "Julia Nickson-Soul"
+      ],
+      [
+        "birthplace_currency_short",
+        "Drake"
+      ],
+      [
+        "birthplace_currency",
+        "Pete Sandoval"
+      ]
+    ],
+    "actual_counts": {
+      "A_newPerson": 500,
+      "B_newCategory": 500,
+      "C_bothNew": 500,
+      "D_reservedC": 500
+    },
+    "historical_exclusion_sha256": "d0aa2353f3a8a300804ef15c2b47c6416cb4da25c18ec3c9b326a15884a418cc",
+    "smoke_test": false,
+    "caveat": "New to the archived training comparisons, not a new dataset or new country/person pool relative to all measurement work."
+  },
+  "groups": [
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "context",
+      "baseline_pct": 38.0,
+      "accuracy_pct": {
+        "values": [
+          47.599999999999994,
+          48.199999999999996,
+          48.199999999999996
+        ],
+        "mean": 47.99999999999999,
+        "sample_sd": 0.3464101615137763,
+        "seed_t95": [
+          47.1394694540501,
+          48.860530545949885
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          9.6,
+          10.2,
+          10.2
+        ],
+        "mean": 10.0,
+        "sample_sd": 0.34641016151377524,
+        "seed_t95": [
+          9.139469454050108,
+          10.860530545949892
+        ]
+      }
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "direct",
+      "baseline_pct": 38.0,
+      "accuracy_pct": {
+        "values": [
+          37.0,
+          37.2,
+          36.8
+        ],
+        "mean": 37.0,
+        "sample_sd": 0.20000000000000284,
+        "seed_t95": [
+          36.503172457649924,
+          37.496827542350076
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -1.0,
+          -0.8,
+          -1.2
+        ],
+        "mean": -1.0,
+        "sample_sd": 0.19999999999999996,
+        "seed_t95": [
+          -1.496827542350066,
+          -0.5031724576499339
+        ]
+      }
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "context",
+      "baseline_pct": 80.60000000000001,
+      "accuracy_pct": {
+        "values": [
+          81.2,
+          80.80000000000001,
+          80.60000000000001
+        ],
+        "mean": 80.86666666666667,
+        "sample_sd": 0.30550504633038594,
+        "seed_t95": [
+          80.10775005994734,
+          81.62558327338601
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.6,
+          0.2,
+          0.0
+        ],
+        "mean": 0.26666666666666666,
+        "sample_sd": 0.30550504633038933,
+        "seed_t95": [
+          -0.4922499400526856,
+          1.0255832733860188
+        ]
+      }
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "direct",
+      "baseline_pct": 80.60000000000001,
+      "accuracy_pct": {
+        "values": [
+          79.4,
+          81.0,
+          80.0
+        ],
+        "mean": 80.13333333333334,
+        "sample_sd": 0.8082903768654734,
+        "seed_t95": [
+          78.12542872611694,
+          82.14123794054974
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -1.2,
+          0.4,
+          -0.6
+        ],
+        "mean": -0.4666666666666666,
+        "sample_sd": 0.8082903768654761,
+        "seed_t95": [
+          -2.4745712738830834,
+          1.54123794054975
+        ]
+      }
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "context",
+      "baseline_pct": 67.0,
+      "accuracy_pct": {
+        "values": [
+          67.0,
+          67.60000000000001,
+          65.4
+        ],
+        "mean": 66.66666666666667,
+        "sample_sd": 1.1372481406154658,
+        "seed_t95": [
+          63.84158567294585,
+          69.49174766038749
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          0.6,
+          -1.6
+        ],
+        "mean": -0.33333333333333337,
+        "sample_sd": 1.1372481406154655,
+        "seed_t95": [
+          -3.158414327054155,
+          2.491747660387488
+        ]
+      }
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "direct",
+      "baseline_pct": 67.0,
+      "accuracy_pct": {
+        "values": [
+          69.0,
+          69.0,
+          68.2
+        ],
+        "mean": 68.73333333333333,
+        "sample_sd": 0.461880215351699,
+        "seed_t95": [
+          67.58595927206682,
+          69.88070739459985
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          2.0,
+          2.0,
+          1.2
+        ],
+        "mean": 1.7333333333333334,
+        "sample_sd": 0.46188021535170065,
+        "seed_t95": [
+          0.5859592720668096,
+          2.880707394599857
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "context",
+      "baseline_pct": 44.6,
+      "accuracy_pct": {
+        "values": [
+          52.0,
+          50.4,
+          52.800000000000004
+        ],
+        "mean": 51.733333333333334,
+        "sample_sd": 1.22202018532156,
+        "seed_t95": [
+          48.69766690645592,
+          54.76899976021075
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          7.4,
+          5.8,
+          8.2
+        ],
+        "mean": 7.133333333333333,
+        "sample_sd": 1.222020185321557,
+        "seed_t95": [
+          4.097666906455925,
+          10.168999760210742
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "direct",
+      "baseline_pct": 44.6,
+      "accuracy_pct": {
+        "values": [
+          44.6,
+          44.2,
+          44.4
+        ],
+        "mean": 44.4,
+        "sample_sd": 0.1999999999999993,
+        "seed_t95": [
+          43.90317245764994,
+          44.89682754235006
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          -0.4,
+          -0.2
+        ],
+        "mean": -0.2,
+        "sample_sd": 0.2,
+        "seed_t95": [
+          -0.6968275423500663,
+          0.2968275423500662
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "context",
+      "baseline_pct": 74.6,
+      "accuracy_pct": {
+        "values": [
+          74.8,
+          74.0,
+          75.2
+        ],
+        "mean": 74.66666666666667,
+        "sample_sd": 0.6110100926607795,
+        "seed_t95": [
+          73.14883345322797,
+          76.18449988010538
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.2,
+          -0.6,
+          0.6
+        ],
+        "mean": 0.06666666666666667,
+        "sample_sd": 0.6110100926607787,
+        "seed_t95": [
+          -1.4511665467720378,
+          1.5844998801053711
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "direct",
+      "baseline_pct": 74.6,
+      "accuracy_pct": {
+        "values": [
+          75.8,
+          74.8,
+          73.8
+        ],
+        "mean": 74.8,
+        "sample_sd": 1.0,
+        "seed_t95": [
+          72.31586228824966,
+          77.28413771175033
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          1.2,
+          0.2,
+          -0.8
+        ],
+        "mean": 0.19999999999999998,
+        "sample_sd": 1.0,
+        "seed_t95": [
+          -2.284137711750331,
+          2.6841377117503313
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "context",
+      "baseline_pct": 74.2,
+      "accuracy_pct": {
+        "values": [
+          73.8,
+          72.2,
+          74.2
+        ],
+        "mean": 73.4,
+        "sample_sd": 1.0583005244258352,
+        "seed_t95": [
+          70.77103575690863,
+          76.02896424309138
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -0.4,
+          -2.0,
+          0.0
+        ],
+        "mean": -0.8,
+        "sample_sd": 1.0583005244258363,
+        "seed_t95": [
+          -3.4289642430913725,
+          1.8289642430913722
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "direct",
+      "baseline_pct": 74.2,
+      "accuracy_pct": {
+        "values": [
+          75.0,
+          74.4,
+          74.2
+        ],
+        "mean": 74.53333333333333,
+        "sample_sd": 0.4163331998932245,
+        "seed_t95": [
+          73.49910433082488,
+          75.56756233584179
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.8,
+          0.2,
+          0.0
+        ],
+        "mean": 0.33333333333333337,
+        "sample_sd": 0.4163331998932266,
+        "seed_t95": [
+          -0.7008956691751197,
+          1.3675623358417863
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "context",
+      "baseline_pct": 50.0,
+      "accuracy_pct": {
+        "values": [
+          53.800000000000004,
+          52.0,
+          54.6
+        ],
+        "mean": 53.46666666666667,
+        "sample_sd": 1.3316656236958797,
+        "seed_t95": [
+          50.15862587140221,
+          56.77470746193113
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          3.8,
+          2.0,
+          4.6
+        ],
+        "mean": 3.4666666666666663,
+        "sample_sd": 1.3316656236958784,
+        "seed_t95": [
+          0.1586258714022093,
+          6.774707461931124
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "direct",
+      "baseline_pct": 50.0,
+      "accuracy_pct": {
+        "values": [
+          50.4,
+          49.6,
+          49.4
+        ],
+        "mean": 49.8,
+        "sample_sd": 0.5291502622129176,
+        "seed_t95": [
+          48.48551787845431,
+          51.114482121545684
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.4,
+          -0.4,
+          -0.6
+        ],
+        "mean": -0.19999999999999998,
+        "sample_sd": 0.5291502622129182,
+        "seed_t95": [
+          -1.514482121545686,
+          1.1144821215456862
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "context",
+      "baseline_pct": 83.39999999999999,
+      "accuracy_pct": {
+        "values": [
+          84.8,
+          84.8,
+          84.8
+        ],
+        "mean": 84.8,
+        "sample_sd": 0.0,
+        "seed_t95": [
+          84.8,
+          84.8
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          1.4,
+          1.4,
+          1.4
+        ],
+        "mean": 1.4,
+        "sample_sd": 0.0,
+        "seed_t95": [
+          1.4,
+          1.4
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "direct",
+      "baseline_pct": 83.39999999999999,
+      "accuracy_pct": {
+        "values": [
+          82.6,
+          84.2,
+          82.8
+        ],
+        "mean": 83.2,
+        "sample_sd": 0.871779788708139,
+        "seed_t95": [
+          81.03437895052838,
+          85.36562104947163
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -0.8,
+          0.8,
+          -0.6
+        ],
+        "mean": -0.19999999999999998,
+        "sample_sd": 0.8717797887081348,
+        "seed_t95": [
+          -2.365621049471613,
+          1.9656210494716129
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "context",
+      "baseline_pct": 78.0,
+      "accuracy_pct": {
+        "values": [
+          77.2,
+          75.2,
+          78.0
+        ],
+        "mean": 76.8,
+        "sample_sd": 1.4422205101855945,
+        "seed_t95": [
+          73.21732564198815,
+          80.38267435801184
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -0.8,
+          -2.8,
+          0.0
+        ],
+        "mean": -1.2,
+        "sample_sd": 1.4422205101855956,
+        "seed_t95": [
+          -4.782674358011841,
+          2.3826743580118404
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "direct",
+      "baseline_pct": 78.0,
+      "accuracy_pct": {
+        "values": [
+          77.2,
+          77.8,
+          77.0
+        ],
+        "mean": 77.33333333333333,
+        "sample_sd": 0.4163331998932245,
+        "seed_t95": [
+          76.29910433082487,
+          78.36756233584178
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -0.8,
+          -0.2,
+          -1.0
+        ],
+        "mean": -0.6666666666666667,
+        "sample_sd": 0.41633319989322654,
+        "seed_t95": [
+          -1.7008956691751198,
+          0.3675623358417863
+        ]
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "context",
+      "baseline_pct": 48.8,
+      "accuracy_pct": {
+        "values": [
+          51.4,
+          50.6,
+          54.0
+        ],
+        "mean": 52.0,
+        "sample_sd": 1.7776388834631174,
+        "seed_t95": [
+          47.584100211715516,
+          56.415899788284484
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          2.6,
+          1.8,
+          5.2
+        ],
+        "mean": 3.2,
+        "sample_sd": 1.7776388834631178,
+        "seed_t95": [
+          -1.2158997882844824,
+          7.615899788284483
+        ]
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "direct",
+      "baseline_pct": 48.8,
+      "accuracy_pct": {
+        "values": [
+          49.4,
+          48.8,
+          49.2
+        ],
+        "mean": 49.13333333333333,
+        "sample_sd": 0.30550504633039055,
+        "seed_t95": [
+          48.37441672661398,
+          49.892249940052686
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.6,
+          0.0,
+          0.4
+        ],
+        "mean": 0.3333333333333333,
+        "sample_sd": 0.30550504633038933,
+        "seed_t95": [
+          -0.4255832733860189,
+          1.0922499400526855
+        ]
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "context",
+      "baseline_pct": 82.39999999999999,
+      "accuracy_pct": {
+        "values": [
+          81.6,
+          82.8,
+          82.6
+        ],
+        "mean": 82.33333333333333,
+        "sample_sd": 0.6429100507328647,
+        "seed_t95": [
+          80.7362562310445,
+          83.93041043562215
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -0.8,
+          0.4,
+          0.2
+        ],
+        "mean": -0.06666666666666667,
+        "sample_sd": 0.6429100507328637,
+        "seed_t95": [
+          -1.663743768955492,
+          1.5304104356221586
+        ]
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "direct",
+      "baseline_pct": 82.39999999999999,
+      "accuracy_pct": {
+        "values": [
+          81.2,
+          82.8,
+          81.2
+        ],
+        "mean": 81.73333333333333,
+        "sample_sd": 0.923760430703398,
+        "seed_t95": [
+          79.4385852108003,
+          84.02808145586637
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -1.2,
+          0.4,
+          -1.2
+        ],
+        "mean": -0.6666666666666666,
+        "sample_sd": 0.9237604307034012,
+        "seed_t95": [
+          -2.9614147891997136,
+          1.6280814558663805
+        ]
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "context",
+      "baseline_pct": 75.2,
+      "accuracy_pct": {
+        "values": [
+          74.0,
+          74.0,
+          75.8
+        ],
+        "mean": 74.6,
+        "sample_sd": 1.0392304845413247,
+        "seed_t95": [
+          72.01840836215032,
+          77.18159163784966
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          -1.2,
+          -1.2,
+          0.6
+        ],
+        "mean": -0.6,
+        "sample_sd": 1.0392304845413263,
+        "seed_t95": [
+          -3.1815916378496785,
+          1.9815916378496783
+        ]
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "direct",
+      "baseline_pct": 75.2,
+      "accuracy_pct": {
+        "values": [
+          75.2,
+          75.0,
+          74.6
+        ],
+        "mean": 74.93333333333334,
+        "sample_sd": 0.30550504633039366,
+        "seed_t95": [
+          74.17441672661397,
+          75.6922499400527
+        ]
+      },
+      "gain_pp": {
+        "values": [
+          0.0,
+          -0.2,
+          -0.6
+        ],
+        "mean": -0.26666666666666666,
+        "sample_sd": 0.30550504633038933,
+        "seed_t95": [
+          -1.0255832733860188,
+          0.4922499400526856
+        ]
+      }
+    }
+  ],
+  "per_run": [
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 47.599999999999994,
+      "n": 500,
+      "wins": 70,
+      "losses": 22,
+      "gain_pp": 9.6,
+      "mcnemar_p": 5.348143171041869e-07
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 48.199999999999996,
+      "n": 500,
+      "wins": 66,
+      "losses": 15,
+      "gain_pp": 10.2,
+      "mcnemar_p": 8.625605549980354e-09
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 48.199999999999996,
+      "n": 500,
+      "wins": 72,
+      "losses": 21,
+      "gain_pp": 10.2,
+      "mcnemar_p": 1.0387186371213771e-07
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 37.0,
+      "n": 500,
+      "wins": 5,
+      "losses": 10,
+      "gain_pp": -1.0,
+      "mcnemar_p": 0.3017578125
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 37.2,
+      "n": 500,
+      "wins": 6,
+      "losses": 10,
+      "gain_pp": -0.8,
+      "mcnemar_p": 0.454498291015625
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 36.8,
+      "n": 500,
+      "wins": 7,
+      "losses": 13,
+      "gain_pp": -1.2,
+      "mcnemar_p": 0.26317596435546875
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 81.2,
+      "n": 500,
+      "wins": 10,
+      "losses": 7,
+      "gain_pp": 0.6,
+      "mcnemar_p": 0.629058837890625
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 80.80000000000001,
+      "n": 500,
+      "wins": 11,
+      "losses": 10,
+      "gain_pp": 0.2,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 80.60000000000001,
+      "n": 500,
+      "wins": 13,
+      "losses": 13,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 79.4,
+      "n": 500,
+      "wins": 3,
+      "losses": 9,
+      "gain_pp": -1.2,
+      "mcnemar_p": 0.14599609375
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 81.0,
+      "n": 500,
+      "wins": 4,
+      "losses": 2,
+      "gain_pp": 0.4,
+      "mcnemar_p": 0.6875
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 80.0,
+      "n": 500,
+      "wins": 3,
+      "losses": 6,
+      "gain_pp": -0.6,
+      "mcnemar_p": 0.5078125
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 67.0,
+      "n": 500,
+      "wins": 16,
+      "losses": 16,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 67.60000000000001,
+      "n": 500,
+      "wins": 18,
+      "losses": 15,
+      "gain_pp": 0.6,
+      "mcnemar_p": 0.7283324808813632
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 65.4,
+      "n": 500,
+      "wins": 15,
+      "losses": 23,
+      "gain_pp": -1.6,
+      "mcnemar_p": 0.2558750795433298
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 69.0,
+      "n": 500,
+      "wins": 14,
+      "losses": 4,
+      "gain_pp": 2.0,
+      "mcnemar_p": 0.0308837890625
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 69.0,
+      "n": 500,
+      "wins": 15,
+      "losses": 5,
+      "gain_pp": 2.0,
+      "mcnemar_p": 0.04138946533203125
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 68.2,
+      "n": 500,
+      "wins": 12,
+      "losses": 6,
+      "gain_pp": 1.2,
+      "mcnemar_p": 0.237884521484375
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 52.0,
+      "n": 500,
+      "wins": 59,
+      "losses": 22,
+      "gain_pp": 7.4,
+      "mcnemar_p": 4.769842118193511e-05
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 50.4,
+      "n": 500,
+      "wins": 49,
+      "losses": 20,
+      "gain_pp": 5.8,
+      "mcnemar_p": 0.0006361729964503618
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 52.800000000000004,
+      "n": 500,
+      "wins": 57,
+      "losses": 16,
+      "gain_pp": 8.2,
+      "mcnemar_p": 1.5256583158538737e-06
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 44.6,
+      "n": 500,
+      "wins": 8,
+      "losses": 8,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 44.2,
+      "n": 500,
+      "wins": 5,
+      "losses": 7,
+      "gain_pp": -0.4,
+      "mcnemar_p": 0.7744140625
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 44.4,
+      "n": 500,
+      "wins": 6,
+      "losses": 7,
+      "gain_pp": -0.2,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 74.8,
+      "n": 500,
+      "wins": 4,
+      "losses": 3,
+      "gain_pp": 0.2,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 74.0,
+      "n": 500,
+      "wins": 3,
+      "losses": 6,
+      "gain_pp": -0.6,
+      "mcnemar_p": 0.5078125
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 75.2,
+      "n": 500,
+      "wins": 3,
+      "losses": 0,
+      "gain_pp": 0.6,
+      "mcnemar_p": 0.25
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 75.8,
+      "n": 500,
+      "wins": 10,
+      "losses": 4,
+      "gain_pp": 1.2,
+      "mcnemar_p": 0.1795654296875
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 74.8,
+      "n": 500,
+      "wins": 4,
+      "losses": 3,
+      "gain_pp": 0.2,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 73.8,
+      "n": 500,
+      "wins": 5,
+      "losses": 9,
+      "gain_pp": -0.8,
+      "mcnemar_p": 0.4239501953125
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 73.8,
+      "n": 500,
+      "wins": 12,
+      "losses": 14,
+      "gain_pp": -0.4,
+      "mcnemar_p": 0.8450189828872681
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 72.2,
+      "n": 500,
+      "wins": 3,
+      "losses": 13,
+      "gain_pp": -2.0,
+      "mcnemar_p": 0.021270751953125
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 74.2,
+      "n": 500,
+      "wins": 14,
+      "losses": 14,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 75.0,
+      "n": 500,
+      "wins": 8,
+      "losses": 4,
+      "gain_pp": 0.8,
+      "mcnemar_p": 0.3876953125
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 74.4,
+      "n": 500,
+      "wins": 4,
+      "losses": 3,
+      "gain_pp": 0.2,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 74.2,
+      "n": 500,
+      "wins": 3,
+      "losses": 3,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 53.800000000000004,
+      "n": 500,
+      "wins": 39,
+      "losses": 20,
+      "gain_pp": 3.8,
+      "mcnemar_p": 0.018337087779101986
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 52.0,
+      "n": 500,
+      "wins": 31,
+      "losses": 21,
+      "gain_pp": 2.0,
+      "mcnemar_p": 0.21160856876151612
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 54.6,
+      "n": 500,
+      "wins": 40,
+      "losses": 17,
+      "gain_pp": 4.6,
+      "mcnemar_p": 0.003201543767450382
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 50.4,
+      "n": 500,
+      "wins": 5,
+      "losses": 3,
+      "gain_pp": 0.4,
+      "mcnemar_p": 0.7265625
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 49.6,
+      "n": 500,
+      "wins": 1,
+      "losses": 3,
+      "gain_pp": -0.4,
+      "mcnemar_p": 0.625
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 49.4,
+      "n": 500,
+      "wins": 0,
+      "losses": 3,
+      "gain_pp": -0.6,
+      "mcnemar_p": 0.25
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 84.8,
+      "n": 500,
+      "wins": 13,
+      "losses": 6,
+      "gain_pp": 1.4,
+      "mcnemar_p": 0.1670684814453125
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 84.8,
+      "n": 500,
+      "wins": 14,
+      "losses": 7,
+      "gain_pp": 1.4,
+      "mcnemar_p": 0.18924713134765625
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 84.8,
+      "n": 500,
+      "wins": 16,
+      "losses": 9,
+      "gain_pp": 1.4,
+      "mcnemar_p": 0.2295229434967041
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 82.6,
+      "n": 500,
+      "wins": 5,
+      "losses": 9,
+      "gain_pp": -0.8,
+      "mcnemar_p": 0.4239501953125
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 84.2,
+      "n": 500,
+      "wins": 6,
+      "losses": 2,
+      "gain_pp": 0.8,
+      "mcnemar_p": 0.2890625
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 82.8,
+      "n": 500,
+      "wins": 4,
+      "losses": 7,
+      "gain_pp": -0.6,
+      "mcnemar_p": 0.548828125
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 77.2,
+      "n": 500,
+      "wins": 14,
+      "losses": 18,
+      "gain_pp": -0.8,
+      "mcnemar_p": 0.5966148958541453
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 75.2,
+      "n": 500,
+      "wins": 6,
+      "losses": 20,
+      "gain_pp": -2.8,
+      "mcnemar_p": 0.009355306625366211
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 78.0,
+      "n": 500,
+      "wins": 11,
+      "losses": 11,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 77.2,
+      "n": 500,
+      "wins": 3,
+      "losses": 7,
+      "gain_pp": -0.8,
+      "mcnemar_p": 0.34375
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 77.8,
+      "n": 500,
+      "wins": 2,
+      "losses": 3,
+      "gain_pp": -0.2,
+      "mcnemar_p": 1.0
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 77.0,
+      "n": 500,
+      "wins": 1,
+      "losses": 6,
+      "gain_pp": -1.0,
+      "mcnemar_p": 0.125
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 51.4,
+      "n": 500,
+      "wins": 30,
+      "losses": 17,
+      "gain_pp": 2.6,
+      "mcnemar_p": 0.07894069368148848,
+      "mcnemar_p_holm": 0.5525848557704194
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 50.6,
+      "n": 500,
+      "wins": 24,
+      "losses": 15,
+      "gain_pp": 1.8,
+      "mcnemar_p": 0.19959086691960692,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 54.0,
+      "n": 500,
+      "wins": 34,
+      "losses": 8,
+      "gain_pp": 5.2,
+      "mcnemar_p": 6.877111491121468e-05,
+      "mcnemar_p_holm": 0.0006189400342009321
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 49.4,
+      "n": 500,
+      "wins": 7,
+      "losses": 4,
+      "gain_pp": 0.6,
+      "mcnemar_p": 0.548828125,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 48.8,
+      "n": 500,
+      "wins": 2,
+      "losses": 2,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 49.2,
+      "n": 500,
+      "wins": 4,
+      "losses": 2,
+      "gain_pp": 0.4,
+      "mcnemar_p": 0.6875,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 81.6,
+      "n": 500,
+      "wins": 10,
+      "losses": 14,
+      "gain_pp": -0.8,
+      "mcnemar_p": 0.5412561893463135,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 82.8,
+      "n": 500,
+      "wins": 13,
+      "losses": 11,
+      "gain_pp": 0.4,
+      "mcnemar_p": 0.8388197422027588,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 82.6,
+      "n": 500,
+      "wins": 16,
+      "losses": 15,
+      "gain_pp": 0.2,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 81.2,
+      "n": 500,
+      "wins": 1,
+      "losses": 7,
+      "gain_pp": -1.2,
+      "mcnemar_p": 0.0703125,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 82.8,
+      "n": 500,
+      "wins": 3,
+      "losses": 1,
+      "gain_pp": 0.4,
+      "mcnemar_p": 0.625,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 81.2,
+      "n": 500,
+      "wins": 1,
+      "losses": 7,
+      "gain_pp": -1.2,
+      "mcnemar_p": 0.0703125,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 74.0,
+      "n": 500,
+      "wins": 11,
+      "losses": 17,
+      "gain_pp": -1.2,
+      "mcnemar_p": 0.34492845088243484,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 74.0,
+      "n": 500,
+      "wins": 6,
+      "losses": 12,
+      "gain_pp": -1.2,
+      "mcnemar_p": 0.237884521484375,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "context",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 75.8,
+      "n": 500,
+      "wins": 17,
+      "losses": 14,
+      "gain_pp": 0.6,
+      "mcnemar_p": 0.720100131817162,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 0,
+      "accuracy_pct": 75.2,
+      "n": 500,
+      "wins": 4,
+      "losses": 4,
+      "gain_pp": 0.0,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 1,
+      "accuracy_pct": 75.0,
+      "n": 500,
+      "wins": 3,
+      "losses": 4,
+      "gain_pp": -0.2,
+      "mcnemar_p": 1.0,
+      "mcnemar_p_holm": 1.0
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "condition": "direct",
+      "control": "baseline",
+      "seed": 2,
+      "accuracy_pct": 74.6,
+      "n": 500,
+      "wins": 1,
+      "losses": 4,
+      "gain_pp": -0.6,
+      "mcnemar_p": 0.375,
+      "mcnemar_p_holm": 1.0
+    }
+  ],
+  "context_minus_direct": [
+    {
+      "split": "A_newPerson",
+      "metric": "composed",
+      "paired_seeds": [
+        {
+          "split": "A_newPerson",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 75,
+          "losses": 22,
+          "gain_pp": 10.6,
+          "mcnemar_p": 6.073393488182724e-08
+        },
+        {
+          "split": "A_newPerson",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 72,
+          "losses": 17,
+          "gain_pp": 11.0,
+          "mcnemar_p": 3.1727390190435945e-09
+        },
+        {
+          "split": "A_newPerson",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 78,
+          "losses": 21,
+          "gain_pp": 11.4,
+          "mcnemar_p": 6.882318238301829e-09
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          10.6,
+          11.0,
+          11.4
+        ],
+        "mean": 11.0,
+        "sample_sd": 0.40000000000000036,
+        "seed_t95": [
+          10.006344915299866,
+          11.993655084700134
+        ]
+      }
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop1",
+      "paired_seeds": [
+        {
+          "split": "A_newPerson",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 13,
+          "losses": 4,
+          "gain_pp": 1.8,
+          "mcnemar_p": 0.049041748046875
+        },
+        {
+          "split": "A_newPerson",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 8,
+          "losses": 9,
+          "gain_pp": -0.2,
+          "mcnemar_p": 1.0
+        },
+        {
+          "split": "A_newPerson",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 13,
+          "losses": 10,
+          "gain_pp": 0.6,
+          "mcnemar_p": 0.6776394844055176
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          1.8,
+          -0.2,
+          0.6
+        ],
+        "mean": 0.7333333333333334,
+        "sample_sd": 1.0066445913694333,
+        "seed_t95": [
+          -1.7673104584169779,
+          3.2339771250836447
+        ]
+      }
+    },
+    {
+      "split": "A_newPerson",
+      "metric": "hop2",
+      "paired_seeds": [
+        {
+          "split": "A_newPerson",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 12,
+          "losses": 22,
+          "gain_pp": -2.0,
+          "mcnemar_p": 0.12144948495551944
+        },
+        {
+          "split": "A_newPerson",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 15,
+          "losses": 22,
+          "gain_pp": -1.4,
+          "mcnemar_p": 0.3240086000878364
+        },
+        {
+          "split": "A_newPerson",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 15,
+          "losses": 29,
+          "gain_pp": -2.8,
+          "mcnemar_p": 0.048766765904474596
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          -2.0,
+          -1.4,
+          -2.8
+        ],
+        "mean": -2.0666666666666664,
+        "sample_sd": 0.7023769168568492,
+        "seed_t95": [
+          -3.8114676536936924,
+          -0.3218656796396404
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "composed",
+      "paired_seeds": [
+        {
+          "split": "B_newCategory",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 60,
+          "losses": 23,
+          "gain_pp": 7.4,
+          "mcnemar_p": 5.973595638605141e-05
+        },
+        {
+          "split": "B_newCategory",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 47,
+          "losses": 16,
+          "gain_pp": 6.2,
+          "mcnemar_p": 0.00011705541630032301
+        },
+        {
+          "split": "B_newCategory",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 54,
+          "losses": 12,
+          "gain_pp": 8.4,
+          "mcnemar_p": 1.6944941229476377e-07
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          7.4,
+          6.2,
+          8.4
+        ],
+        "mean": 7.333333333333334,
+        "sample_sd": 1.1015141094572205,
+        "seed_t95": [
+          4.597020594005571,
+          10.069646072661097
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop1",
+      "paired_seeds": [
+        {
+          "split": "B_newCategory",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 8,
+          "losses": 13,
+          "gain_pp": -1.0,
+          "mcnemar_p": 0.38331031799316406
+        },
+        {
+          "split": "B_newCategory",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 5,
+          "losses": 9,
+          "gain_pp": -0.8,
+          "mcnemar_p": 0.4239501953125
+        },
+        {
+          "split": "B_newCategory",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 12,
+          "losses": 5,
+          "gain_pp": 1.4,
+          "mcnemar_p": 0.143463134765625
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          -1.0,
+          -0.8,
+          1.4
+        ],
+        "mean": -0.1333333333333334,
+        "sample_sd": 1.3316656236958786,
+        "seed_t95": [
+          -3.441374128597791,
+          3.174707461931124
+        ]
+      }
+    },
+    {
+      "split": "B_newCategory",
+      "metric": "hop2",
+      "paired_seeds": [
+        {
+          "split": "B_newCategory",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 12,
+          "losses": 18,
+          "gain_pp": -1.2,
+          "mcnemar_p": 0.361594608053565
+        },
+        {
+          "split": "B_newCategory",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 5,
+          "losses": 16,
+          "gain_pp": -2.2,
+          "mcnemar_p": 0.02660369873046875
+        },
+        {
+          "split": "B_newCategory",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 16,
+          "losses": 16,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          -1.2,
+          -2.2,
+          0.0
+        ],
+        "mean": -1.1333333333333333,
+        "sample_sd": 1.1015141094572205,
+        "seed_t95": [
+          -3.869646072661097,
+          1.6029794059944305
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "composed",
+      "paired_seeds": [
+        {
+          "split": "C_bothNew",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 38,
+          "losses": 21,
+          "gain_pp": 3.4,
+          "mcnemar_p": 0.036343179957053884
+        },
+        {
+          "split": "C_bothNew",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 32,
+          "losses": 20,
+          "gain_pp": 2.4,
+          "mcnemar_p": 0.12634707581392135
+        },
+        {
+          "split": "C_bothNew",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 41,
+          "losses": 15,
+          "gain_pp": 5.2,
+          "mcnemar_p": 0.0006855641563783821
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          3.4,
+          2.4,
+          5.2
+        ],
+        "mean": 3.6666666666666665,
+        "sample_sd": 1.4189197769195177,
+        "seed_t95": [
+          0.14187453887252577,
+          7.191458794460807
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop1",
+      "paired_seeds": [
+        {
+          "split": "C_bothNew",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 15,
+          "losses": 4,
+          "gain_pp": 2.2,
+          "mcnemar_p": 0.0192108154296875
+        },
+        {
+          "split": "C_bothNew",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 9,
+          "losses": 6,
+          "gain_pp": 0.6,
+          "mcnemar_p": 0.60723876953125
+        },
+        {
+          "split": "C_bothNew",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 16,
+          "losses": 6,
+          "gain_pp": 2.0,
+          "mcnemar_p": 0.052478790283203125
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          2.2,
+          0.6,
+          2.0
+        ],
+        "mean": 1.6,
+        "sample_sd": 0.8717797887081348,
+        "seed_t95": [
+          -0.5656210494716127,
+          3.765621049471613
+        ]
+      }
+    },
+    {
+      "split": "C_bothNew",
+      "metric": "hop2",
+      "paired_seeds": [
+        {
+          "split": "C_bothNew",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 15,
+          "losses": 15,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0
+        },
+        {
+          "split": "C_bothNew",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 9,
+          "losses": 22,
+          "gain_pp": -2.6,
+          "mcnemar_p": 0.029449373483657837
+        },
+        {
+          "split": "C_bothNew",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 15,
+          "losses": 10,
+          "gain_pp": 1.0,
+          "mcnemar_p": 0.42435622215270996
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.0,
+          -2.6,
+          1.0
+        ],
+        "mean": -0.5333333333333333,
+        "sample_sd": 1.858314648635514,
+        "seed_t95": [
+          -5.1496428323068795,
+          4.082976165640213
+        ]
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "composed",
+      "paired_seeds": [
+        {
+          "split": "D_reservedC",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 28,
+          "losses": 18,
+          "gain_pp": 2.0,
+          "mcnemar_p": 0.18392482137699062,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "split": "D_reservedC",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 24,
+          "losses": 15,
+          "gain_pp": 1.8,
+          "mcnemar_p": 0.19959086691960692,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "split": "D_reservedC",
+          "metric": "composed",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 30,
+          "losses": 6,
+          "gain_pp": 4.8,
+          "mcnemar_p": 6.960169412195683e-05,
+          "mcnemar_p_holm": 0.0006189400342009321
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          2.0,
+          1.8,
+          4.8
+        ],
+        "mean": 2.8666666666666667,
+        "sample_sd": 1.6772994167212165,
+        "seed_t95": [
+          -1.2999760683073416,
+          7.033309401640675
+        ]
+      },
+      "person_cluster": {
+        "clusters": 233,
+        "bootstrap_replicates": 2000,
+        "percentile95_pp": [
+          0.6956789990601838,
+          5.096696436505819
+        ],
+        "scope": "Conditional on fitted seeds; no simultaneous crossed-country/person uncertainty model."
+      },
+      "bridge_country_cluster": {
+        "clusters": 108,
+        "bootstrap_replicates": 2000,
+        "percentile95_pp": [
+          0.41490670974171684,
+          5.4110381244869075
+        ],
+        "scope": "Conditional on fitted seeds; no simultaneous crossed-country/person uncertainty model."
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop1",
+      "paired_seeds": [
+        {
+          "split": "D_reservedC",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 11,
+          "losses": 9,
+          "gain_pp": 0.4,
+          "mcnemar_p": 0.8238029479980469,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "split": "D_reservedC",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 10,
+          "losses": 10,
+          "gain_pp": 0.0,
+          "mcnemar_p": 1.0,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "split": "D_reservedC",
+          "metric": "hop1",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 17,
+          "losses": 10,
+          "gain_pp": 1.4,
+          "mcnemar_p": 0.24778856337070465,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          0.4,
+          0.0,
+          1.4
+        ],
+        "mean": 0.6,
+        "sample_sd": 0.7211102550927978,
+        "seed_t95": [
+          -1.1913371790059202,
+          2.3913371790059204
+        ]
+      },
+      "person_cluster": {
+        "clusters": 233,
+        "bootstrap_replicates": 2000,
+        "percentile95_pp": [
+          -2.2743150737085767,
+          3.4776902887139105
+        ],
+        "scope": "Conditional on fitted seeds; no simultaneous crossed-country/person uncertainty model."
+      },
+      "bridge_country_cluster": {
+        "clusters": 108,
+        "bootstrap_replicates": 2000,
+        "percentile95_pp": [
+          -1.8712286395213225,
+          3.704631485192603
+        ],
+        "scope": "Conditional on fitted seeds; no simultaneous crossed-country/person uncertainty model."
+      }
+    },
+    {
+      "split": "D_reservedC",
+      "metric": "hop2",
+      "paired_seeds": [
+        {
+          "split": "D_reservedC",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 0,
+          "n": 500,
+          "wins": 11,
+          "losses": 17,
+          "gain_pp": -1.2,
+          "mcnemar_p": 0.34492845088243484,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "split": "D_reservedC",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 1,
+          "n": 500,
+          "wins": 8,
+          "losses": 13,
+          "gain_pp": -1.0,
+          "mcnemar_p": 0.38331031799316406,
+          "mcnemar_p_holm": 1.0
+        },
+        {
+          "split": "D_reservedC",
+          "metric": "hop2",
+          "condition": "context",
+          "control": "direct",
+          "seed": 2,
+          "n": 500,
+          "wins": 18,
+          "losses": 12,
+          "gain_pp": 1.2,
+          "mcnemar_p": 0.361594608053565,
+          "mcnemar_p_holm": 1.0
+        }
+      ],
+      "gain_pp": {
+        "values": [
+          -1.2,
+          -1.0,
+          1.2
+        ],
+        "mean": -0.3333333333333333,
+        "sample_sd": 1.3316656236958786,
+        "seed_t95": [
+          -3.641374128597791,
+          2.974707461931124
+        ]
+      },
+      "person_cluster": {
+        "clusters": 233,
+        "bootstrap_replicates": 2000,
+        "percentile95_pp": [
+          -2.0309177080590604,
+          1.3661469006147542
+        ],
+        "scope": "Conditional on fitted seeds; no simultaneous crossed-country/person uncertainty model."
+      },
+      "bridge_country_cluster": {
+        "clusters": 108,
+        "bootstrap_replicates": 2000,
+        "percentile95_pp": [
+          -2.3810814998450573,
+          1.7718286078864642
+        ],
+        "scope": "Conditional on fitted seeds; no simultaneous crossed-country/person uncertainty model."
+      }
+    }
+  ],
+  "teacher_advantage": {
+    "n": 864,
+    "wins": 134,
+    "losses": 55,
+    "gain_pp": 9.143518518518519,
+    "mcnemar_p": 8.564388300810373e-09,
+    "context_pct": 50.69444444444444,
+    "direct_pct": 41.550925925925924,
+    "same_target_n": 381,
+    "scope": "Paired training questions, same frozen base model; diagnostic, not held-out transfer.",
+    "person_cluster": {
+      "clusters": 216,
+      "bootstrap_replicates": 2000,
+      "percentile95_pp": [
+        5.555555555555555,
+        12.731481481481481
+      ],
+      "scope": "Conditional on fitted seeds; no simultaneous crossed-country/person uncertainty model."
+    }
+  },
+  "perplexity_diagnostics": {
+    "context_under_context": {
+      "n": 864,
+      "empty_n": 0,
+      "token_weighted_nll": 0.057364561322287726,
+      "token_weighted_perplexity": 1.059041825716438,
+      "mean_per_item_nll": 0.05381530777404058
+    },
+    "context_under_direct": {
+      "n": 864,
+      "empty_n": 0,
+      "token_weighted_nll": 1.661897061139042,
+      "token_weighted_perplexity": 5.269297548366952,
+      "mean_per_item_nll": 1.804060362561491
+    },
+    "direct_under_context": {
+      "n": 864,
+      "empty_n": 0,
+      "token_weighted_nll": 2.9011897725120623,
+      "token_weighted_perplexity": 18.195781336420993,
+      "mean_per_item_nll": 3.174859842649953
+    },
+    "direct_under_direct": {
+      "n": 864,
+      "empty_n": 0,
+      "token_weighted_nll": 0.12338757633007764,
+      "token_weighted_perplexity": 1.1313228099302108,
+      "mean_per_item_nll": 0.13059824098292655
+    }
+  },
+  "same_answer_prompt_effect": {
+    "context": {
+      "n": 864,
+      "same_answer_context_minus_direct_nll": -1.7502450547874504
+    },
+    "direct": {
+      "n": 864,
+      "same_answer_context_minus_direct_nll": 3.0442616016670265
+    }
+  },
+  "primary_family_n": 9,
+  "retention_family_n": 18,
+  "configurations": {
+    "context_s0": {
+      "condition": "context",
+      "round": 1,
+      "train_seed": 0,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 864,
+      "sample_exposures": 1728,
+      "optimizer_steps": 216,
+      "targets_sha256": "526cb66c3f49ce67111bd3d9f5543ebdd1dc1c00931aeff0f718b9873f62fe4b",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": false,
+      "scoring": "floor",
+      "model": "models/Qwen3-14B",
+      "eval_seed": 0,
+      "training_seconds": 199.2442660331726,
+      "evaluation_seconds": 537.4234640598297,
+      "experiment": "exp12_sources",
+      "primary_split": "D_reservedC",
+      "reserved_eval_seed": 12,
+      "plan_sha256": "804489ae07bb6e24ec9d525839926b01efcc4f1bd12383aa88907ee3f2deaacc",
+      "trained_target_tokens_including_eos": 6646,
+      "presented_prompt_tokens": 99064,
+      "max_sequence_tokens": 73
+    },
+    "direct_s0": {
+      "condition": "direct",
+      "round": 1,
+      "train_seed": 0,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 864,
+      "sample_exposures": 1728,
+      "optimizer_steps": 216,
+      "targets_sha256": "af8718621317434add611a243dc187f35e6d992ac1893d506a1a7564cfc27efa",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": false,
+      "scoring": "floor",
+      "model": "models/Qwen3-14B",
+      "eval_seed": 0,
+      "training_seconds": 203.7828254699707,
+      "evaluation_seconds": 545.4806928634644,
+      "experiment": "exp12_sources",
+      "primary_split": "D_reservedC",
+      "reserved_eval_seed": 12,
+      "plan_sha256": "804489ae07bb6e24ec9d525839926b01efcc4f1bd12383aa88907ee3f2deaacc",
+      "trained_target_tokens_including_eos": 6212,
+      "presented_prompt_tokens": 99064,
+      "max_sequence_tokens": 71
+    },
+    "context_s1": {
+      "condition": "context",
+      "round": 1,
+      "train_seed": 1,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 864,
+      "sample_exposures": 1728,
+      "optimizer_steps": 216,
+      "targets_sha256": "526cb66c3f49ce67111bd3d9f5543ebdd1dc1c00931aeff0f718b9873f62fe4b",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": false,
+      "scoring": "floor",
+      "model": "models/Qwen3-14B",
+      "eval_seed": 0,
+      "training_seconds": 204.97132444381714,
+      "evaluation_seconds": 534.8194139003754,
+      "experiment": "exp12_sources",
+      "primary_split": "D_reservedC",
+      "reserved_eval_seed": 12,
+      "plan_sha256": "804489ae07bb6e24ec9d525839926b01efcc4f1bd12383aa88907ee3f2deaacc",
+      "trained_target_tokens_including_eos": 6646,
+      "presented_prompt_tokens": 99064,
+      "max_sequence_tokens": 73
+    },
+    "direct_s1": {
+      "condition": "direct",
+      "round": 1,
+      "train_seed": 1,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 864,
+      "sample_exposures": 1728,
+      "optimizer_steps": 216,
+      "targets_sha256": "af8718621317434add611a243dc187f35e6d992ac1893d506a1a7564cfc27efa",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": false,
+      "scoring": "floor",
+      "model": "models/Qwen3-14B",
+      "eval_seed": 0,
+      "training_seconds": 193.87700653076172,
+      "evaluation_seconds": 541.842592716217,
+      "experiment": "exp12_sources",
+      "primary_split": "D_reservedC",
+      "reserved_eval_seed": 12,
+      "plan_sha256": "804489ae07bb6e24ec9d525839926b01efcc4f1bd12383aa88907ee3f2deaacc",
+      "trained_target_tokens_including_eos": 6212,
+      "presented_prompt_tokens": 99064,
+      "max_sequence_tokens": 71
+    },
+    "context_s2": {
+      "condition": "context",
+      "round": 1,
+      "train_seed": 2,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 864,
+      "sample_exposures": 1728,
+      "optimizer_steps": 216,
+      "targets_sha256": "526cb66c3f49ce67111bd3d9f5543ebdd1dc1c00931aeff0f718b9873f62fe4b",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": false,
+      "scoring": "floor",
+      "model": "models/Qwen3-14B",
+      "eval_seed": 0,
+      "training_seconds": 210.28472471237183,
+      "evaluation_seconds": 542.6104860305786,
+      "experiment": "exp12_sources",
+      "primary_split": "D_reservedC",
+      "reserved_eval_seed": 12,
+      "plan_sha256": "804489ae07bb6e24ec9d525839926b01efcc4f1bd12383aa88907ee3f2deaacc",
+      "trained_target_tokens_including_eos": 6646,
+      "presented_prompt_tokens": 99064,
+      "max_sequence_tokens": 73
+    },
+    "direct_s2": {
+      "condition": "direct",
+      "round": 1,
+      "train_seed": 2,
+      "epochs": 2,
+      "batch": 8,
+      "lr": 0.0001,
+      "rank": 16,
+      "n_unique": 864,
+      "sample_exposures": 1728,
+      "optimizer_steps": 216,
+      "targets_sha256": "af8718621317434add611a243dc187f35e6d992ac1893d506a1a7564cfc27efa",
+      "init_adapter_sha256": null,
+      "optimizer_reset": true,
+      "scheduler_reset": true,
+      "smoke_test": false,
+      "scoring": "floor",
+      "model": "models/Qwen3-14B",
+      "eval_seed": 0,
+      "training_seconds": 198.67090845108032,
+      "evaluation_seconds": 551.0268709659576,
+      "experiment": "exp12_sources",
+      "primary_split": "D_reservedC",
+      "reserved_eval_seed": 12,
+      "plan_sha256": "804489ae07bb6e24ec9d525839926b01efcc4f1bd12383aa88907ee3f2deaacc",
+      "trained_target_tokens_including_eos": 6212,
+      "presented_prompt_tokens": 99064,
+      "max_sequence_tokens": 71
+    }
+  },
+  "scoring_sensitivity": [
+    {
+      "condition": "context",
+      "seed": 0,
+      "split": "A_newPerson",
+      "legacy_pct": 48.0,
+      "truncate_pct": 48.0
+    },
+    {
+      "condition": "context",
+      "seed": 0,
+      "split": "B_newCategory",
+      "legacy_pct": 52.0,
+      "truncate_pct": 52.0
+    },
+    {
+      "condition": "context",
+      "seed": 0,
+      "split": "C_bothNew",
+      "legacy_pct": 53.800000000000004,
+      "truncate_pct": 53.800000000000004
+    },
+    {
+      "condition": "context",
+      "seed": 0,
+      "split": "D_reservedC",
+      "legacy_pct": 51.4,
+      "truncate_pct": 51.4
+    },
+    {
+      "condition": "direct",
+      "seed": 0,
+      "split": "A_newPerson",
+      "legacy_pct": 38.2,
+      "truncate_pct": 37.4
+    },
+    {
+      "condition": "direct",
+      "seed": 0,
+      "split": "B_newCategory",
+      "legacy_pct": 44.6,
+      "truncate_pct": 44.6
+    },
+    {
+      "condition": "direct",
+      "seed": 0,
+      "split": "C_bothNew",
+      "legacy_pct": 50.4,
+      "truncate_pct": 50.4
+    },
+    {
+      "condition": "direct",
+      "seed": 0,
+      "split": "D_reservedC",
+      "legacy_pct": 49.4,
+      "truncate_pct": 49.4
+    },
+    {
+      "condition": "context",
+      "seed": 1,
+      "split": "A_newPerson",
+      "legacy_pct": 48.199999999999996,
+      "truncate_pct": 48.199999999999996
+    },
+    {
+      "condition": "context",
+      "seed": 1,
+      "split": "B_newCategory",
+      "legacy_pct": 50.4,
+      "truncate_pct": 50.4
+    },
+    {
+      "condition": "context",
+      "seed": 1,
+      "split": "C_bothNew",
+      "legacy_pct": 52.0,
+      "truncate_pct": 52.0
+    },
+    {
+      "condition": "context",
+      "seed": 1,
+      "split": "D_reservedC",
+      "legacy_pct": 50.6,
+      "truncate_pct": 50.6
+    },
+    {
+      "condition": "direct",
+      "seed": 1,
+      "split": "A_newPerson",
+      "legacy_pct": 37.8,
+      "truncate_pct": 37.4
+    },
+    {
+      "condition": "direct",
+      "seed": 1,
+      "split": "B_newCategory",
+      "legacy_pct": 44.2,
+      "truncate_pct": 44.2
+    },
+    {
+      "condition": "direct",
+      "seed": 1,
+      "split": "C_bothNew",
+      "legacy_pct": 49.6,
+      "truncate_pct": 49.6
+    },
+    {
+      "condition": "direct",
+      "seed": 1,
+      "split": "D_reservedC",
+      "legacy_pct": 48.8,
+      "truncate_pct": 48.8
+    },
+    {
+      "condition": "context",
+      "seed": 2,
+      "split": "A_newPerson",
+      "legacy_pct": 48.199999999999996,
+      "truncate_pct": 48.199999999999996
+    },
+    {
+      "condition": "context",
+      "seed": 2,
+      "split": "B_newCategory",
+      "legacy_pct": 52.800000000000004,
+      "truncate_pct": 52.800000000000004
+    },
+    {
+      "condition": "context",
+      "seed": 2,
+      "split": "C_bothNew",
+      "legacy_pct": 54.6,
+      "truncate_pct": 54.6
+    },
+    {
+      "condition": "context",
+      "seed": 2,
+      "split": "D_reservedC",
+      "legacy_pct": 54.0,
+      "truncate_pct": 54.0
+    },
+    {
+      "condition": "direct",
+      "seed": 2,
+      "split": "A_newPerson",
+      "legacy_pct": 37.2,
+      "truncate_pct": 36.8
+    },
+    {
+      "condition": "direct",
+      "seed": 2,
+      "split": "B_newCategory",
+      "legacy_pct": 44.4,
+      "truncate_pct": 44.4
+    },
+    {
+      "condition": "direct",
+      "seed": 2,
+      "split": "C_bothNew",
+      "legacy_pct": 49.4,
+      "truncate_pct": 49.4
+    },
+    {
+      "condition": "direct",
+      "seed": 2,
+      "split": "D_reservedC",
+      "legacy_pct": 49.2,
+      "truncate_pct": 49.2
+    }
+  ],
+  "flip_audit": {
+    "flip_records": 913,
+    "unique_answer_pairs": 383,
+    "repair_records": 627,
+    "damage_records": 286,
+    "human_review": "pending; no automatic content/format attribution"
+  },
+  "limitations": [
+    "Only one task domain/model family; country/person overlap and correlated questions remain.",
+    "D excludes 76 archived C evaluation files (500 unique identities), not all historical exp1 measurement exposure.",
+    "Six fits, one cached target pair per question; seed intervals reflect training variability only.",
+    "Context teacher costs extra first-hop generation and longer prompts; gradient budgets match, total compute does not.",
+    "Perplexity is conditional answer-string likelihood, not a factuality estimate or a separate training arm.",
+    "Manual semantic adjudication remains pending; scorer flips are not automatically factual repairs.",
+    "Failure to detect context/direct differences does not establish equivalence; retention is not a formal noninferiority claim."
+  ]
+}

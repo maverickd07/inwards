@@ -1,0 +1,317 @@
+{
+  "self_wrong_s0": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 0,
+    "correct": 0
+  },
+  "shuffled_wrong_s0": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 235,
+    "correct": 0
+  },
+  "self_correct_s0": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 0,
+    "correct": 235
+  },
+  "self_wrong_s1": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 0,
+    "correct": 0
+  },
+  "shuffled_wrong_s1": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 235,
+    "correct": 0
+  },
+  "self_correct_s1": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 0,
+    "correct": 235
+  },
+  "self_wrong_s2": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 0,
+    "correct": 0
+  },
+  "shuffled_wrong_s2": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 235,
+    "correct": 0
+  },
+  "self_correct_s2": {
+    "n": 235,
+    "counts": {
+      "birthplace_callingcode": {
+        "available": 216,
+        "original_correct": 165,
+        "original_wrong": 51,
+        "kept": 51,
+        "subset_seed": 7
+      },
+      "birthplace_capital": {
+        "available": 216,
+        "original_correct": 156,
+        "original_wrong": 60,
+        "kept": 60,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lat": {
+        "available": 216,
+        "original_correct": 73,
+        "original_wrong": 143,
+        "kept": 73,
+        "subset_seed": 7
+      },
+      "birthplace_rounded_lng": {
+        "available": 216,
+        "original_correct": 51,
+        "original_wrong": 165,
+        "kept": 51,
+        "subset_seed": 7
+      }
+    },
+    "changed": 0,
+    "correct": 235
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "completion_marker": {
+    "training_runs": 6,
+    "smoke_test": false,
+    "primary_split": "D_reservedC",
+    "seconds": 6205.250292301178,
+    "manual_flip_review": "pending",
+    "next_experiment_authorized": false
+  },
+  "verified_sources": [
+    "exp12.py",
+    "engine_exp11_v1.py",
+    "exp1_gap_v2_v1.py",
+    "scoring_v2_v1.py",
+    "analyze.py",
+    "run_pipeline.py",
+    "preflight.py",
+    "submit.sh",
+    "run_exp12.sh",
+    "test_integrity.py",
+    "PROTOCOL.txt",
+    "README.txt",
+    "HPC_COMMANDS.txt",
+    "HPC_DIAGNOSIS.txt",
+    "LOCAL_VERIFICATION.json",
+    "input_hashes.json",
+    "historical_C_exclusion.json",
+    "build_package.py"
+  ],
+  "verified_prediction_labels": 42000,
+  "all_six_fits_and_budgets": true,
+  "paired_initializations": true,
+  "target_hashes_and_training_examples": true,
+  "sealed_D_identities_match": true,
+  "no_train_or_historical_C_identity_leakage": true,
+  "all_reported_means_paired_tests_Holm_and_cluster_intervals_recomputed": true,
+  "teacher_and_saved_NLL_aggregation_recomputed": true,
+  "adapter_weights": "Not downloaded; completion hash records exist but local binary rehash unavailable.",
+  "raw_model_NLL": "Not rerun on 14B; aggregates of saved token scores checked.",
+  "Slurm_final_state": "No sacct export in archive; computation completion marker and final successful log verified."
+}

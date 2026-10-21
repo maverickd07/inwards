@@ -1,0 +1,43 @@
+{
+  "condition": "category_confidence50",
+  "target_cache_sha256": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d",
+  "n_pool": 16,
+  "n_kept": 8,
+  "target_changed_n": 0,
+  "target_changed_share": 0.0,
+  "assigned_target_correct_n": 0,
+  "assigned_target_correct_share": 0.0,
+  "original_pool_target_correct_share": 0.3125,
+  "original_target_auroc": 0.43636363636363634,
+  "uses_gold_for_allocation": false,
+  "category_counts": {
+    "birthplace_callingcode": {
+      "available": 4,
+      "kept": 2,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 0,
+      "original_target_correct_n": 0
+    },
+    "birthplace_capital": {
+      "available": 4,
+      "kept": 2,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 0,
+      "original_target_correct_n": 0
+    },
+    "birthplace_rounded_lat": {
+      "available": 4,
+      "kept": 2,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 0,
+      "original_target_correct_n": 0
+    },
+    "birthplace_rounded_lng": {
+      "available": 4,
+      "kept": 2,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 0,
+      "original_target_correct_n": 0
+    }
+  }
+}

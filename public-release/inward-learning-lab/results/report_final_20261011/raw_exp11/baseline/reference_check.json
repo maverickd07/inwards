@@ -1,0 +1,23 @@
+[
+  {
+    "subset": "A_newPerson",
+    "n": 500,
+    "identity_order_match": true,
+    "raw_base_prediction_disagreements": 20,
+    "legacy_label_disagreements": 6
+  },
+  {
+    "subset": "B_newCategory",
+    "n": 500,
+    "identity_order_match": true,
+    "raw_base_prediction_disagreements": 18,
+    "legacy_label_disagreements": 3
+  },
+  {
+    "subset": "C_bothNew",
+    "n": 500,
+    "identity_order_match": true,
+    "raw_base_prediction_disagreements": 18,
+    "legacy_label_disagreements": 6
+  }
+]

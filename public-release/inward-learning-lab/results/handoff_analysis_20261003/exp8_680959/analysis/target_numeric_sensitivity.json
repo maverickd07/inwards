@@ -1,0 +1,26 @@
+[
+  {
+    "run": "self_confidence_top1.0_s0",
+    "numeric_v2_auroc": 0.7326033828542029,
+    "correct_all": 438,
+    "all_n": 864,
+    "correct_kept": 438,
+    "kept_n": 864
+  },
+  {
+    "run": "self_confidence_top0.5_s0",
+    "numeric_v2_auroc": 0.7326033828542029,
+    "correct_all": 438,
+    "all_n": 864,
+    "correct_kept": 305,
+    "kept_n": 432
+  },
+  {
+    "run": "self_confidence_top0.7_s0",
+    "numeric_v2_auroc": 0.7326033828542029,
+    "correct_all": 438,
+    "all_n": 864,
+    "correct_kept": 372,
+    "kept_n": 605
+  }
+]

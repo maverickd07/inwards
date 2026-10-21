@@ -1,0 +1,13 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "peft": "0.18.1",
+    "numpy": "2.5.4"
+  },
+  "cuda": null,
+  "gpu": null,
+  "smoke_test": true
+}

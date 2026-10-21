@@ -1,0 +1,18 @@
+{
+  "inward_final_zh.pdf": "2a85799a77c9c0540c2b3c6d0e5cd9c38c641abe780db534ae9d30309858b5b1",
+  "inward_final_zh.tex": "319b9e2b99ddbe50ba44fda503aee2cd2533a8bfb01a91e1303277457807e9a3",
+  "build_report.py": "94c7c7ace3fa7b38476b04cb93f8d1c9d4096b3d70ef17e0151068794fb5f1fd",
+  "build_evidence.py": "07cb73d65d222ff73f0d9bf0b477df64a53b253cd431efec85fce94f81dfc661",
+  "verify_pdf.py": "0a06a72e6945a08112e97e16391efb8f1c1ffc92d02fdca514eba91d72a75c08",
+  "evidence.json": "7c73af8ee5ba0fc5957779874be6848b2f19b753d8173af9496fa6a465cbcc55",
+  "source_sha256.json": "b13f85d0affc45bbab44e6ec84a370211b0323b215eb090add562a4b20259423",
+  "SOURCE_MAP.txt": "1e2dba0d2ab72b3b66c1687023988ce4e14e8836fd04593733ddc8a1cc6ec2db",
+  "BUILD_README.txt": "df78468ed4b22cc0c1dc7498f5f1ae642f98c1fa21865514ad23ec866eef2b2d",
+  "DECISIONS.txt": "4400303721e5521c4d6ed68d32070b4bb25c5c86a6e8f17a0a41accc4e9502df",
+  "fig1_overview.pdf": "8d7d1d11cc39a02b3d4b0b1d96cebc2d10beeffe3ae4da747343b88f9a38c577",
+  "fig2_gap.pdf": "fd945bbc8e04af9ff5d736e3d8d576d83e7250c2d9dc92ea0c786b0a98101f8a",
+  "fig3_controls.pdf": "49a711336003bcd11ff77c05a9b4a0896916d23356084cc98dfd9363c9beb4f4",
+  "fig4_retention.pdf": "27679c7fd6478c777a6b8496e19b820681335af2e55be090d1dbcbf2a338a56f",
+  "inward_final_source.zip": "c4efc92a35b3c48ac286424eb9ac0c695f1e6f7c0215dd361846d552e2e301ac",
+  "teacher_advantage_availability.json": "63ebf8d9ea6bd61a285ccdc6fc2a4b2fce974edecf7976df0290e04116ee2073"
+}

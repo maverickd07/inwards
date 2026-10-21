@@ -1,0 +1,9 @@
+additional candidate year 1985 cumulative 199
+additional candidate year 1986 cumulative 394
+additional candidate year 1987 cumulative 591
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/expand_public.py", line 11, in <module>
+    d=api('en.wikipedia.org',{**params,'gcmlimit':200,**first['continue']})
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/collect_public.py", line 15, in api
+    if pause:time.sleep(pause)
+KeyboardInterrupt

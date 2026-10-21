@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "models": 13,
+  "items_per_model": 500,
+  "metric_labels_checked": 19500,
+  "old_report_reproduced": true,
+  "raw_predictions_preserved": true,
+  "review_queue_verified": true,
+  "frozen_rules_tampering_rejected": true,
+  "changed_inputs_rejected": true,
+  "existing_output_rejected": true,
+  "scheduler_guards": "5 mocked cases passed; actual Slurm/flock not exercised",
+  "shell_syntax_passed": true,
+  "cpu_only": true,
+  "HPC_submitted": false
+}

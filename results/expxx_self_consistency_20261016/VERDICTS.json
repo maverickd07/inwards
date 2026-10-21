@@ -1,0 +1,808 @@
+[
+  {
+    "method": "attribute_floor",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 75,
+        "contradictory": 125,
+        "unknown": 116
+      },
+      "pct": {
+        "consistent": 23.734177215189874,
+        "contradictory": 39.55696202531646,
+        "unknown": 36.70886075949367
+      },
+      "consistent_among_judgeable_pct": 37.5,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "z_unresolved": 32,
+        "target_not_in_attribute_table": 83,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 6,
+        "contradictory": 181,
+        "unknown": 130
+      },
+      "pct": {
+        "consistent": 1.8927444794952681,
+        "contradictory": 57.09779179810725,
+        "unknown": 41.00946372239748
+      },
+      "consistent_among_judgeable_pct": 3.2085561497326203,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "target_not_in_attribute_table": 105,
+        "z_unresolved": 24,
+        "target_unparseable": 1
+      }
+    },
+    "delta_pp": 21.841432735694607,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -19.16803098670287,
+      58.55029349518827
+    ],
+    "judgeable_delta_pp": 34.29144385026738
+  },
+  {
+    "method": "attribute_floor",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 71,
+        "contradictory": 125,
+        "unknown": 109
+      },
+      "pct": {
+        "consistent": 23.278688524590162,
+        "contradictory": 40.98360655737705,
+        "unknown": 35.73770491803279
+      },
+      "consistent_among_judgeable_pct": 36.224489795918366,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 27,
+        "target_not_in_attribute_table": 81,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 6,
+        "contradictory": 179,
+        "unknown": 100
+      },
+      "pct": {
+        "consistent": 2.1052631578947367,
+        "contradictory": 62.80701754385965,
+        "unknown": 35.08771929824562
+      },
+      "consistent_among_judgeable_pct": 3.2432432432432434,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "target_not_in_attribute_table": 81,
+        "z_unresolved": 19
+      }
+    },
+    "delta_pp": 21.173425366695426,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -13.91429393155019,
+      56.911130284728216
+    ],
+    "judgeable_delta_pp": 32.981246552675124
+  },
+  {
+    "method": "attribute_round",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 76,
+        "contradictory": 129,
+        "unknown": 111
+      },
+      "pct": {
+        "consistent": 24.050632911392405,
+        "contradictory": 40.822784810126585,
+        "unknown": 35.12658227848101
+      },
+      "consistent_among_judgeable_pct": 37.073170731707314,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "z_unresolved": 32,
+        "target_not_in_attribute_table": 78,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 7,
+        "contradictory": 180,
+        "unknown": 130
+      },
+      "pct": {
+        "consistent": 2.2082018927444795,
+        "contradictory": 56.782334384858046,
+        "unknown": 41.00946372239748
+      },
+      "consistent_among_judgeable_pct": 3.7433155080213902,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "target_not_in_attribute_table": 105,
+        "z_unresolved": 24,
+        "target_unparseable": 1
+      }
+    },
+    "delta_pp": 21.842431018647925,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -19.167032703749552,
+      56.96901329712894
+    ],
+    "judgeable_delta_pp": 33.329855223685925
+  },
+  {
+    "method": "attribute_round",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 72,
+        "contradictory": 129,
+        "unknown": 104
+      },
+      "pct": {
+        "consistent": 23.60655737704918,
+        "contradictory": 42.295081967213115,
+        "unknown": 34.09836065573771
+      },
+      "consistent_among_judgeable_pct": 35.82089552238806,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 27,
+        "target_not_in_attribute_table": 76,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 7,
+        "contradictory": 178,
+        "unknown": 100
+      },
+      "pct": {
+        "consistent": 2.456140350877193,
+        "contradictory": 62.45614035087719,
+        "unknown": 35.08771929824562
+      },
+      "consistent_among_judgeable_pct": 3.7837837837837838,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "target_not_in_attribute_table": 81,
+        "z_unresolved": 19
+      }
+    },
+    "delta_pp": 21.15041702617199,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -13.937302272073627,
+      55.2487776819097
+    ],
+    "judgeable_delta_pp": 32.037111738604274
+  },
+  {
+    "method": "model_exp12",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 108,
+        "contradictory": 98,
+        "unknown": 110
+      },
+      "pct": {
+        "consistent": 34.177215189873415,
+        "contradictory": 31.0126582278481,
+        "unknown": 34.81012658227848
+      },
+      "consistent_among_judgeable_pct": 52.42718446601942,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "missing_saved_q2": 71,
+        "z_unresolved": 32,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 16,
+        "contradictory": 195,
+        "unknown": 106
+      },
+      "pct": {
+        "consistent": 5.047318611987381,
+        "contradictory": 61.51419558359621,
+        "unknown": 33.4384858044164
+      },
+      "consistent_among_judgeable_pct": 7.5829383886255926,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "missing_saved_q2": 76,
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 29.129896577886033,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -4.308589226530369,
+      63.940023160164515
+    ],
+    "judgeable_delta_pp": 44.84424607739383
+  },
+  {
+    "method": "model_exp12",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 104,
+        "contradictory": 98,
+        "unknown": 103
+      },
+      "pct": {
+        "consistent": 34.09836065573771,
+        "contradictory": 32.131147540983605,
+        "unknown": 33.77049180327869
+      },
+      "consistent_among_judgeable_pct": 51.48514851485149,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 69,
+        "z_unresolved": 27,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 16,
+        "contradictory": 174,
+        "unknown": 95
+      },
+      "pct": {
+        "consistent": 5.614035087719298,
+        "contradictory": 61.05263157894737,
+        "unknown": 33.333333333333336
+      },
+      "consistent_among_judgeable_pct": 8.421052631578947,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 70,
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 28.48432556801841,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -4.849007765314926,
+      62.254817371297094
+    ],
+    "judgeable_delta_pp": 43.06409588327254
+  },
+  {
+    "method": "model_exp1",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 141,
+        "contradictory": 142,
+        "unknown": 33
+      },
+      "pct": {
+        "consistent": 44.620253164556964,
+        "contradictory": 44.936708860759495,
+        "unknown": 10.443037974683545
+      },
+      "consistent_among_judgeable_pct": 49.82332155477032,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "z_unresolved": 32,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 25,
+        "contradictory": 267,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 7.886435331230284,
+        "contradictory": 84.22712933753944,
+        "unknown": 7.886435331230284
+      },
+      "consistent_among_judgeable_pct": 8.561643835616438,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_unparseable": 1
+      }
+    },
+    "delta_pp": 36.73381783332668,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      28.847382502096398,
+      47.17685580801023
+    ],
+    "judgeable_delta_pp": 41.26167771915388
+  },
+  {
+    "method": "model_exp1",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 135,
+        "contradictory": 142,
+        "unknown": 28
+      },
+      "pct": {
+        "consistent": 44.26229508196721,
+        "contradictory": 46.557377049180324,
+        "unknown": 9.180327868852459
+      },
+      "consistent_among_judgeable_pct": 48.73646209386282,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 27,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 25,
+        "contradictory": 241,
+        "unknown": 19
+      },
+      "pct": {
+        "consistent": 8.771929824561404,
+        "contradictory": 84.56140350877193,
+        "unknown": 6.666666666666667
+      },
+      "consistent_among_judgeable_pct": 9.398496240601503,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19
+      }
+    },
+    "delta_pp": 35.490365257405806,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      28.823698590739138,
+      44.670693126258264
+    ],
+    "judgeable_delta_pp": 39.337965853261316
+  },
+  {
+    "method": "model_extended",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 142,
+        "contradictory": 135,
+        "unknown": 39
+      },
+      "pct": {
+        "consistent": 44.936708860759495,
+        "contradictory": 42.721518987341774,
+        "unknown": 12.341772151898734
+      },
+      "consistent_among_judgeable_pct": 51.26353790613718,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "z_unresolved": 32,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 25,
+        "contradictory": 261,
+        "unknown": 31
+      },
+      "pct": {
+        "consistent": 7.886435331230284,
+        "contradictory": 82.33438485804416,
+        "unknown": 9.779179810725552
+      },
+      "consistent_among_judgeable_pct": 8.741258741258742,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_unparseable": 1,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 37.050273529529214,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      27.271093718803662,
+      49.392045681427945
+    ],
+    "judgeable_delta_pp": 42.52227916487844
+  },
+  {
+    "method": "model_extended",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 136,
+        "contradictory": 135,
+        "unknown": 34
+      },
+      "pct": {
+        "consistent": 44.59016393442623,
+        "contradictory": 44.26229508196721,
+        "unknown": 11.147540983606557
+      },
+      "consistent_among_judgeable_pct": 50.18450184501845,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 27,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 25,
+        "contradictory": 235,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 8.771929824561404,
+        "contradictory": 82.45614035087719,
+        "unknown": 8.771929824561404
+      },
+      "consistent_among_judgeable_pct": 9.615384615384615,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 35.818234109864825,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      27.04630428530342,
+      46.96577509347138
+    ],
+    "judgeable_delta_pp": 40.56911722963384
+  },
+  {
+    "method": "model_exp12_round",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 109,
+        "contradictory": 97,
+        "unknown": 110
+      },
+      "pct": {
+        "consistent": 34.49367088607595,
+        "contradictory": 30.696202531645568,
+        "unknown": 34.81012658227848
+      },
+      "consistent_among_judgeable_pct": 52.9126213592233,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "missing_saved_q2": 71,
+        "z_unresolved": 32,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 16,
+        "contradictory": 195,
+        "unknown": 106
+      },
+      "pct": {
+        "consistent": 5.047318611987381,
+        "contradictory": 61.51419558359621,
+        "unknown": 33.4384858044164
+      },
+      "consistent_among_judgeable_pct": 7.5829383886255926,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "missing_saved_q2": 76,
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 29.446352274088564,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -3.9921335303278376,
+      64.25647885636704
+    ],
+    "judgeable_delta_pp": 45.32968297059771
+  },
+  {
+    "method": "model_exp12_round",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 105,
+        "contradictory": 97,
+        "unknown": 103
+      },
+      "pct": {
+        "consistent": 34.42622950819672,
+        "contradictory": 31.80327868852459,
+        "unknown": 33.77049180327869
+      },
+      "consistent_among_judgeable_pct": 51.98019801980198,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 69,
+        "z_unresolved": 27,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 16,
+        "contradictory": 174,
+        "unknown": 95
+      },
+      "pct": {
+        "consistent": 5.614035087719298,
+        "contradictory": 61.05263157894737,
+        "unknown": 33.333333333333336
+      },
+      "consistent_among_judgeable_pct": 8.421052631578947,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 70,
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 28.81219442047742,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -4.521138912855914,
+      62.58268622375611
+    ],
+    "judgeable_delta_pp": 43.55914538822304
+  },
+  {
+    "method": "model_exp1_round",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 143,
+        "contradictory": 140,
+        "unknown": 33
+      },
+      "pct": {
+        "consistent": 45.25316455696203,
+        "contradictory": 44.30379746835443,
+        "unknown": 10.443037974683545
+      },
+      "consistent_among_judgeable_pct": 50.53003533568904,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "z_unresolved": 32,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 26,
+        "contradictory": 266,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 8.201892744479496,
+        "contradictory": 83.91167192429022,
+        "unknown": 7.886435331230284
+      },
+      "consistent_among_judgeable_pct": 8.904109589041095,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_unparseable": 1
+      }
+    },
+    "delta_pp": 37.05127181248253,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      29.164836481252248,
+      47.494309787166074
+    ],
+    "judgeable_delta_pp": 41.62592574664795
+  },
+  {
+    "method": "model_exp1_round",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 137,
+        "contradictory": 140,
+        "unknown": 28
+      },
+      "pct": {
+        "consistent": 44.91803278688525,
+        "contradictory": 45.90163934426229,
+        "unknown": 9.180327868852459
+      },
+      "consistent_among_judgeable_pct": 49.458483754512635,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 27,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 26,
+        "contradictory": 240,
+        "unknown": 19
+      },
+      "pct": {
+        "consistent": 9.12280701754386,
+        "contradictory": 84.21052631578948,
+        "unknown": 6.666666666666667
+      },
+      "consistent_among_judgeable_pct": 9.774436090225564,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19
+      }
+    },
+    "delta_pp": 35.795225769341386,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      29.128559102674718,
+      44.975553638193844
+    ],
+    "judgeable_delta_pp": 39.68404766428707
+  },
+  {
+    "method": "model_extended_round",
+    "target_stratum": "wrong",
+    "context": {
+      "n": 316,
+      "counts": {
+        "consistent": 144,
+        "contradictory": 133,
+        "unknown": 39
+      },
+      "pct": {
+        "consistent": 45.56962025316456,
+        "contradictory": 42.08860759493671,
+        "unknown": 12.341772151898734
+      },
+      "consistent_among_judgeable_pct": 51.985559566787,
+      "target_review_n": 11,
+      "unknown_reasons": {
+        "z_unresolved": 32,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 317,
+      "counts": {
+        "consistent": 26,
+        "contradictory": 260,
+        "unknown": 31
+      },
+      "pct": {
+        "consistent": 8.201892744479496,
+        "contradictory": 82.01892744479495,
+        "unknown": 9.779179810725552
+      },
+      "consistent_among_judgeable_pct": 9.090909090909092,
+      "target_review_n": 32,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_unparseable": 1,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 37.367727508685064,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      27.588547697959513,
+      49.7094996605838
+    ],
+    "judgeable_delta_pp": 42.89465047587791
+  },
+  {
+    "method": "model_extended_round",
+    "target_stratum": "strict_wrong",
+    "context": {
+      "n": 305,
+      "counts": {
+        "consistent": 138,
+        "contradictory": 133,
+        "unknown": 34
+      },
+      "pct": {
+        "consistent": 45.24590163934426,
+        "contradictory": 43.60655737704918,
+        "unknown": 11.147540983606557
+      },
+      "consistent_among_judgeable_pct": 50.92250922509225,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 27,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 285,
+      "counts": {
+        "consistent": 26,
+        "contradictory": 234,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 9.12280701754386,
+        "contradictory": 82.10526315789474,
+        "unknown": 8.771929824561404
+      },
+      "consistent_among_judgeable_pct": 10.0,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 36.123094621800405,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      27.351164797239,
+      47.270635605406966
+    ],
+    "judgeable_delta_pp": 40.92250922509225
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "training_runs": 6,
+  "added_seeds": [
+    3,
+    4,
+    5
+  ],
+  "primary_split": "D_reservedC",
+  "smoke_test": false,
+  "seconds": 2591.209678173065,
+  "baseline_regenerated": false,
+  "targets_regenerated": false,
+  "new_scorer_applied": false,
+  "next_experiment_authorized": false
+}

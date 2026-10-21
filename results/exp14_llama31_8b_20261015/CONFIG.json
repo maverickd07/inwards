@@ -1,0 +1,56 @@
+{
+  "experiment": "exp14_llama31_8b",
+  "model_repo": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "model_relative_path": "models/Llama-3.1-8B-Instruct",
+  "dependency_receipt": "results/exp13_musique_transfer_20261015/submitted_job.txt",
+  "train_items": 864,
+  "conditions": [
+    "context",
+    "direct"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "epochs": 2,
+  "batch": 8,
+  "steps_per_fit": 216,
+  "fits": 12,
+  "sample_exposures_per_fit": 1728,
+  "lr": 0.0001,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "warmup_steps": 20,
+  "gradient_clip": 1,
+  "generation_batch": 8,
+  "max_new_tokens": 24,
+  "dtype": "bfloat16",
+  "primary": "D_Llama_known_clean_pretrain",
+  "success": "paired_six_seed_t95_lower_pp > 0",
+  "t975_df5": 2.570581835636314,
+  "scorer": "frozen_v3",
+  "quota_free_gb_after_download": 6,
+  "time_limit_hours": 24,
+  "estimated_compute_hours": [
+    2,
+    4
+  ],
+  "estimate_excludes": [
+    "model_download",
+    "queue",
+    "MuSiQue_dependency_wait"
+  ],
+  "expected_versions": {
+    "torch": "2.13.0",
+    "transformers": "5.17.0",
+    "peft": "0.21.1",
+    "numpy": "2.3.5",
+    "accelerate": "1.15.0"
+  }
+}

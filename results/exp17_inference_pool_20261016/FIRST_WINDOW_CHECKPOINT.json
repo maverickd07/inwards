@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-16T11:11:13.763282+00:00",
+  "metadata_screen_complete": true,
+  "new_metadata_pass": 580,
+  "country_cap_upper_bound": 397,
+  "biography_screen_complete": false,
+  "reason_stopped": "Even before biography exclusions, fewer than400 can be selected. Continue unchanged screening once over the combined two-window pool; retain all collected source/cache and first metadata screen.",
+  "inference_performed": false
+}

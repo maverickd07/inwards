@@ -1,0 +1,14 @@
+EXP14 Llama replication: software_smoke_only
+Primary pretraining-sealed clean n=2
+Six paired seeds; t95 df5; intervals do not include question-sampling uncertainty.
+clean (2) all_wrong: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+clean (2) all_correct: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+clean (2) exclude_pair_union: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+known (2) all_wrong: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+known (2) all_correct: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+known (2) exclude_pair_union: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+all_D (2) all_wrong: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+all_D (2) all_correct: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+all_D (2) exclude_pair_union: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+No automatic content/format interpretation; blinded audit pending.
+Positive replication supports cross-family efficacy, not a unique knowledge-use mechanism.

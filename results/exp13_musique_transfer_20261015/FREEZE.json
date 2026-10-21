@@ -1,0 +1,30 @@
+{
+  "stage": "Before first new14B inference; all data/selection/scoring/interpretation frozen",
+  "sha256": {
+    "PROTOCOL.txt": "5eff6ab7151ea501877ec943a520ed10e4e3207d8b6fed05f37acb377ae18d1a",
+    "analyze.py": "c5ca5d96158c81c81475726cab48a9f232dd601f81479d67ba7ba8aabfd5b05e",
+    "check_source.py": "284ed43f2a35f42b003cc27059859346e4f1270f6b9105ac5efd81c429047e72",
+    "common.py": "479928a21707e625a3cf11e8a25df600283bee98d56e5aa70c359addc3168fc1",
+    "data/excluded.jsonl": "9085f495c842e4e2a10a466da3f2c994e389f643ce447603415307ac09d11382",
+    "data/items.jsonl": "50859fa718aa00b6d755ee5c6f0a529bcf76c97961348fd63a3c7b3e757c23cc",
+    "data/manifest.json": "4fcfebdf380d2202d559f6bb930f23bc78f9da60691131b149b656036381e87b",
+    "data/queries.jsonl": "0c6914b3735f66f68ad5e3db623e196fb747af9cfe69aa519f9f32a5eddfb149",
+    "data/timing_queries.jsonl": "f5e022f4a03e6ed4a34cf648bb9fc89b808e75940e67d2191406e099917c273d",
+    "infer.py": "ae5efbeae3fb6b798e0dd9a7b8688f518e866d4195046dffde326d685536f482",
+    "inference_config.json": "6ec636c3be41af247cf4f7661ef1e4fb83f44d87ae93d8a17328d9d95179cb3e",
+    "pack_review.py": "3e7291f23facce39baf614d237ca46eb0c2e74c3beb9e055d36445255fc29ff0",
+    "preflight.py": "c5ad5e3522f966c887cf6c09fa4b15ce920a4fe1ff5ef4e714a5ff53641c3a79",
+    "preflight_v1.py": "2b2ac5335e339a5bc6e1f5116739269ffbaef148d1a1194374aad199285c5319",
+    "prepare_data.py": "41512ba0cb89a61284060f2017b26fed7cbc741fbd1ae2a2a9745b76292cdb3a",
+    "run_exp13.sh": "94ed9d439ae111d46ee67fd2b93c52394319f8458bf0e8b16b3376324e7ab5fb",
+    "run_pipeline.py": "1cde2d469492c945b0e6c55b4bcb98fb0f15afe9c275f454ce49ddedc8e9a498",
+    "score_model.py": "06c4b4cfbd372b8ddc480a11bcf8a058d852a9b5578ce858a777931a45124313",
+    "scoring.py": "417fa34c3948bb1a7de18999165c91bca0e55b5ac29866103a0898b9bbe518c9",
+    "source_manifest.json": "7888329e67c94592c89ca0d6bb5e6c4236862490413d1845429912cec4caf4f4",
+    "submit.sh": "d60c300826f72f3a82a53862540572eb6c73285736600493290a750d38db7b16",
+    "upstream/LICENSE": "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448",
+    "upstream/metrics/answer.py": "10368f619b4d5ef5d83748c05a96c0afd332a14ab5c010740c98d58dfaefe974",
+    "upstream/metrics/metric.py": "c858d1bfda2f0b005065e87a402cd2f82154eb7eed5916845ae130759cc3a299",
+    "upstream_commit.json": "42ea50e548a23daad6843e29a5037146150df4207c6d5f883fc84e92ac222515"
+  }
+}

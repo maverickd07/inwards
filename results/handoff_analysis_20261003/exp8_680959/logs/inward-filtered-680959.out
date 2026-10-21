@@ -1,0 +1,567 @@
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:12,  6.12it/s]Loading weights:   0%|          | 2/443 [00:00<01:23,  5.29it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:09, 43.63it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:05, 69.78it/s]Loading weights:  11%|█         | 48/443 [00:00<00:03, 104.66it/s]Loading weights:  14%|█▎        | 60/443 [00:00<00:03, 108.66it/s]Loading weights:  17%|█▋        | 75/443 [00:00<00:03, 120.55it/s]Loading weights:  21%|██        | 91/443 [00:01<00:02, 126.78it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:02, 123.15it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:02, 138.24it/s]Loading weights:  32%|███▏      | 140/443 [00:01<00:02, 133.88it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 140.67it/s]Loading weights:  39%|███▉      | 173/443 [00:01<00:01, 135.07it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:01, 141.25it/s]Loading weights:  47%|████▋     | 206/443 [00:01<00:01, 135.93it/s]Loading weights:  51%|█████     | 224/443 [00:01<00:01, 141.94it/s]Loading weights:  54%|█████▍    | 239/443 [00:02<00:01, 136.40it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 141.82it/s]Loading weights:  61%|██████▏   | 272/443 [00:02<00:01, 136.49it/s]Loading weights:  65%|██████▌   | 290/443 [00:02<00:01, 142.50it/s]Loading weights:  69%|██████▉   | 305/443 [00:02<00:01, 136.67it/s]Loading weights:  73%|███████▎  | 323/443 [00:02<00:00, 142.16it/s]Loading weights:  76%|███████▋  | 338/443 [00:02<00:00, 136.61it/s]Loading weights:  80%|████████  | 356/443 [00:02<00:00, 135.16it/s]Loading weights:  84%|████████▍ | 372/443 [00:03<00:00, 141.40it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 142.96it/s]Loading weights:  91%|█████████ | 404/443 [00:03<00:00, 137.03it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 142.74it/s]Loading weights:  99%|█████████▊| 437/443 [00:03<00:00, 136.84it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 126.36it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 864, 'keep_top': 1.0, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 864 examples in 52s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/216 loss 0.749 (37s)
+  epoch 1 step 100/216 loss 0.442 (75s)
+  epoch 2 step 150/216 loss 0.209 (111s)
+  epoch 2 step 200/216 loss 0.161 (148s)
+training done in 161s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  47.8%   (fixed 67, broke 23, McNemar p = 3.8e-06)
+  composition gap        base  40.5%  ->  trained  23.7%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  82.0%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  62.0%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  50.8%   (fixed 52, broke 21, McNemar p = 0.00037)
+  composition gap        base  32.4%  ->  trained  19.1%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  74.7%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  53.2%   (fixed 37, broke 19, McNemar p = 0.022)
+  composition gap        base  32.3%  ->  trained  27.0%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  75.3%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 78% of items, median first layer 33.0
+  per item: earlier after training 22, later 10, same 117 (sign test p = 0.05)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:11,  2.31it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:10, 40.71it/s]Loading weights:   8%|▊         | 34/443 [00:00<00:05, 73.85it/s]Loading weights:  11%|█         | 48/443 [00:00<00:04, 89.63it/s]Loading weights:  14%|█▍        | 61/443 [00:00<00:04, 92.57it/s]Loading weights:  17%|█▋        | 76/443 [00:00<00:03, 107.16it/s]Loading weights:  21%|██        | 92/443 [00:01<00:02, 118.32it/s]Loading weights:  24%|██▍       | 106/443 [00:01<00:02, 114.78it/s]Loading weights:  28%|██▊       | 122/443 [00:01<00:02, 126.76it/s]Loading weights:  31%|███       | 136/443 [00:01<00:02, 127.54it/s]Loading weights:  34%|███▍      | 150/443 [00:01<00:02, 120.78it/s]Loading weights:  37%|███▋      | 166/443 [00:01<00:02, 130.87it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 133.13it/s]Loading weights:  44%|████▍     | 194/443 [00:01<00:01, 126.48it/s]Loading weights:  48%|████▊     | 213/443 [00:02<00:01, 138.51it/s]Loading weights:  51%|█████▏    | 228/443 [00:02<00:01, 133.13it/s]Loading weights:  55%|█████▌    | 245/443 [00:02<00:01, 137.58it/s]Loading weights:  58%|█████▊    | 259/443 [00:02<00:01, 129.87it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 142.71it/s]Loading weights:  66%|██████▋   | 294/443 [00:02<00:01, 137.19it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 142.89it/s]Loading weights:  74%|███████▍  | 327/443 [00:02<00:00, 136.52it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 142.50it/s]Loading weights:  81%|████████▏ | 360/443 [00:03<00:00, 136.22it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 142.38it/s]Loading weights:  89%|████████▊ | 393/443 [00:03<00:00, 135.63it/s]Loading weights:  93%|█████████▎| 410/443 [00:03<00:00, 139.40it/s]Loading weights:  96%|█████████▌| 424/443 [00:03<00:00, 132.07it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 121.57it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 432, 'keep_top': 0.5, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 432 examples in 51s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/108 loss 0.302 (36s)
+  epoch 2 step 100/108 loss 0.060 (71s)
+training done in 78s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  46.6%   (fixed 64, broke 26, McNemar p = 7.7e-05)
+  composition gap        base  40.5%  ->  trained  26.9%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  80.7%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  65.3%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  51.6%   (fixed 50, broke 15, McNemar p = 1.6e-05)
+  composition gap        base  32.4%  ->  trained  18.7%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  79.3%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  74.0%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  52.4%   (fixed 34, broke 20, McNemar p = 0.076)
+  composition gap        base  32.3%  ->  trained  27.0%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  75.3%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 76% of items, median first layer 33
+  per item: earlier after training 19, later 22, same 107 (sign test p = 0.76)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:02,  2.42it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:10, 42.31it/s]Loading weights:   8%|▊         | 35/443 [00:00<00:05, 78.76it/s]Loading weights:  11%|█         | 49/443 [00:00<00:04, 88.71it/s]Loading weights:  14%|█▍        | 62/443 [00:00<00:03, 98.07it/s]Loading weights:  18%|█▊        | 81/443 [00:00<00:03, 116.46it/s]Loading weights:  21%|██▏       | 95/443 [00:01<00:03, 113.92it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 126.83it/s]Loading weights:  29%|██▉       | 128/443 [00:01<00:02, 120.76it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 131.35it/s]Loading weights:  36%|███▋      | 161/443 [00:01<00:02, 124.55it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 134.02it/s]Loading weights:  44%|████▍     | 194/443 [00:01<00:01, 125.81it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 135.10it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 127.04it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 135.56it/s]Loading weights:  59%|█████▊    | 260/443 [00:02<00:01, 127.18it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 135.62it/s]Loading weights:  66%|██████▌   | 293/443 [00:02<00:01, 127.39it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:01, 129.11it/s]Loading weights:  73%|███████▎  | 325/443 [00:02<00:00, 126.96it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 138.06it/s]Loading weights:  81%|████████  | 359/443 [00:03<00:00, 128.99it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 137.06it/s]Loading weights:  88%|████████▊ | 392/443 [00:03<00:00, 128.06it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 129.46it/s]Loading weights:  96%|█████████▌| 424/443 [00:03<00:00, 127.50it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 119.48it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 605, 'keep_top': 0.7, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 605 examples in 52s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/152 loss 0.507 (36s)
+  epoch 2 step 100/152 loss 0.091 (72s)
+  epoch 2 step 150/152 loss 0.107 (107s)
+training done in 109s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  47.4%   (fixed 67, broke 25, McNemar p = 1.4e-05)
+  composition gap        base  40.5%  ->  trained  24.0%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  80.7%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  62.0%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  50.2%   (fixed 49, broke 21, McNemar p = 0.0011)
+  composition gap        base  32.4%  ->  trained  21.6%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  74.7%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  52.0%   (fixed 33, broke 21, McNemar p = 0.13)
+  composition gap        base  32.3%  ->  trained  27.6%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.0%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  72.0%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 80% of items, median first layer 33
+  per item: earlier after training 30, later 13, same 110 (sign test p = 0.014)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:48,  2.62it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 42.71it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 63.86it/s]Loading weights:  11%|█         | 48/443 [00:00<00:04, 98.04it/s]Loading weights:  14%|█▍        | 61/443 [00:00<00:03, 100.63it/s]Loading weights:  18%|█▊        | 81/443 [00:00<00:02, 122.54it/s]Loading weights:  21%|██▏       | 95/443 [00:01<00:02, 119.80it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 133.47it/s]Loading weights:  29%|██▉       | 129/443 [00:01<00:02, 129.26it/s]Loading weights:  33%|███▎      | 146/443 [00:01<00:02, 134.21it/s]Loading weights:  36%|███▌      | 160/443 [00:01<00:02, 127.70it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 140.80it/s]Loading weights:  44%|████▍     | 195/443 [00:01<00:01, 134.89it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 141.49it/s]Loading weights:  51%|█████▏    | 228/443 [00:02<00:01, 135.44it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 141.53it/s]Loading weights:  59%|█████▉    | 261/443 [00:02<00:01, 135.17it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 141.08it/s]Loading weights:  66%|██████▋   | 294/443 [00:02<00:01, 135.48it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 141.33it/s]Loading weights:  74%|███████▍  | 327/443 [00:02<00:00, 134.75it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 140.76it/s]Loading weights:  81%|████████▏ | 360/443 [00:02<00:00, 135.40it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 141.52it/s]Loading weights:  89%|████████▊ | 393/443 [00:03<00:00, 135.90it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 142.06it/s]Loading weights:  96%|█████████▌| 426/443 [00:03<00:00, 135.98it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 125.10it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 432, 'keep_top': 0.5, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'random'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 432 examples in 53s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/108 loss 0.703 (38s)
+  epoch 2 step 100/108 loss 0.264 (76s)
+training done in 83s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  46.4%   (fixed 61, broke 24, McNemar p = 7.4e-05)
+  composition gap        base  40.5%  ->  trained  28.0%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  65.3%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  47.2%   (fixed 35, broke 22, McNemar p = 0.11)
+  composition gap        base  32.4%  ->  trained  25.5%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  74.7%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  54.6%   (fixed 40, broke 15, McNemar p = 0.001)
+  composition gap        base  32.3%  ->  trained  24.5%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  84.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  71.3%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 76% of items, median first layer 33
+  per item: earlier after training 5, later 41, same 104 (sign test p = 4.4e-08)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:04,  2.40it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:10, 41.94it/s]Loading weights:   8%|▊         | 35/443 [00:00<00:05, 78.38it/s]Loading weights:  11%|█         | 49/443 [00:00<00:04, 88.64it/s]Loading weights:  14%|█▍        | 62/443 [00:00<00:03, 97.86it/s]Loading weights:  18%|█▊        | 81/443 [00:00<00:03, 116.63it/s]Loading weights:  21%|██▏       | 95/443 [00:01<00:03, 114.37it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 127.31it/s]Loading weights:  29%|██▉       | 128/443 [00:01<00:02, 121.55it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 132.15it/s]Loading weights:  36%|███▋      | 161/443 [00:01<00:02, 125.23it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 134.64it/s]Loading weights:  44%|████▍     | 194/443 [00:01<00:01, 126.54it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 135.47it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 129.39it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 133.02it/s]Loading weights:  59%|█████▊    | 260/443 [00:02<00:01, 134.40it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 143.59it/s]Loading weights:  66%|██████▋   | 294/443 [00:02<00:01, 137.48it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 135.92it/s]Loading weights:  74%|███████▎  | 326/443 [00:02<00:00, 136.71it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 145.20it/s]Loading weights:  81%|████████▏ | 360/443 [00:03<00:00, 138.41it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 144.11it/s]Loading weights:  89%|████████▊ | 393/443 [00:03<00:00, 137.12it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 142.95it/s]Loading weights:  96%|█████████▌| 426/443 [00:03<00:00, 136.70it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 122.81it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 605, 'keep_top': 0.7, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'random'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 605 examples in 51s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/152 loss 0.677 (38s)
+  epoch 2 step 100/152 loss 0.188 (74s)
+  epoch 2 step 150/152 loss 0.177 (111s)
+training done in 113s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  48.4%   (fixed 66, broke 19, McNemar p = 3e-07)
+  composition gap        base  40.5%  ->  trained  24.7%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  82.0%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  64.7%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  49.2%   (fixed 38, broke 15, McNemar p = 0.0022)
+  composition gap        base  32.4%  ->  trained  22.7%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  74.7%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  54.2%   (fixed 35, broke 12, McNemar p = 0.0011)
+  composition gap        base  32.3%  ->  trained  26.1%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  72.7%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 78% of items, median first layer 33
+  per item: earlier after training 17, later 6, same 128 (sign test p = 0.035)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:32,  4.78it/s]Loading weights:   0%|          | 2/443 [00:00<01:30,  4.89it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 43.68it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 64.72it/s]Loading weights:  11%|█         | 48/443 [00:00<00:04, 98.23it/s]Loading weights:  14%|█▎        | 60/443 [00:00<00:03, 102.76it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 106.13it/s]Loading weights:  21%|██        | 91/443 [00:01<00:02, 122.82it/s]Loading weights:  23%|██▎       | 104/443 [00:01<00:02, 123.14it/s]Loading weights:  26%|██▋       | 117/443 [00:01<00:02, 123.34it/s]Loading weights:  31%|███       | 136/443 [00:01<00:02, 134.03it/s]Loading weights:  34%|███▍      | 150/443 [00:01<00:02, 126.23it/s]Loading weights:  38%|███▊      | 168/443 [00:01<00:02, 133.16it/s]Loading weights:  41%|████      | 182/443 [00:01<00:02, 126.14it/s]Loading weights:  46%|████▌     | 202/443 [00:01<00:01, 137.86it/s]Loading weights:  49%|████▉     | 216/443 [00:02<00:01, 129.03it/s]Loading weights:  53%|█████▎    | 235/443 [00:02<00:01, 137.38it/s]Loading weights:  56%|█████▌    | 249/443 [00:02<00:01, 128.96it/s]Loading weights:  60%|██████    | 268/443 [00:02<00:01, 137.07it/s]Loading weights:  64%|██████▎   | 282/443 [00:02<00:01, 128.78it/s]Loading weights:  68%|██████▊   | 301/443 [00:02<00:01, 137.20it/s]Loading weights:  71%|███████   | 315/443 [00:02<00:00, 128.82it/s]Loading weights:  75%|███████▌  | 334/443 [00:02<00:00, 137.05it/s]Loading weights:  79%|███████▊  | 348/443 [00:03<00:00, 128.93it/s]Loading weights:  83%|████████▎ | 367/443 [00:03<00:00, 137.09it/s]Loading weights:  86%|████████▌ | 381/443 [00:03<00:00, 128.48it/s]Loading weights:  90%|████████▉ | 398/443 [00:03<00:00, 138.75it/s]Loading weights:  93%|█████████▎| 413/443 [00:03<00:00, 124.78it/s]Loading weights:  98%|█████████▊| 433/443 [00:03<00:00, 136.13it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 119.60it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 864, 'keep_top': 1.0, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 864 examples in 51s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/216 loss 0.814 (37s)
+  epoch 1 step 100/216 loss 0.436 (75s)
+  epoch 2 step 150/216 loss 0.204 (111s)
+  epoch 2 step 200/216 loss 0.192 (149s)
+training done in 162s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  48.4%   (fixed 65, broke 18, McNemar p = 2.1e-07)
+  composition gap        base  40.5%  ->  trained  24.7%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  81.3%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  65.3%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  49.2%   (fixed 46, broke 23, McNemar p = 0.0076)
+  composition gap        base  32.4%  ->  trained  21.2%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  79.3%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  74.7%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  52.2%   (fixed 29, broke 16, McNemar p = 0.072)
+  composition gap        base  32.3%  ->  trained  28.0%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  72.0%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 78% of items, median first layer 33
+  per item: earlier after training 15, later 25, same 110 (sign test p = 0.15)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:22,  5.35it/s]Loading weights:   0%|          | 2/443 [00:00<01:22,  5.35it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 47.02it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 69.03it/s]Loading weights:  11%|█         | 48/443 [00:00<00:03, 103.13it/s]Loading weights:  14%|█▎        | 60/443 [00:00<00:03, 106.56it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 110.22it/s]Loading weights:  21%|██        | 92/443 [00:01<00:02, 130.15it/s]Loading weights:  24%|██▍       | 106/443 [00:01<00:02, 124.58it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:02, 135.41it/s]Loading weights:  31%|███▏      | 139/443 [00:01<00:02, 128.52it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 139.59it/s]Loading weights:  39%|███▉      | 173/443 [00:01<00:02, 134.07it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:01, 139.39it/s]Loading weights:  47%|████▋     | 206/443 [00:01<00:01, 133.34it/s]Loading weights:  51%|█████     | 224/443 [00:01<00:01, 139.96it/s]Loading weights:  54%|█████▍    | 239/443 [00:02<00:01, 135.02it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 139.63it/s]Loading weights:  61%|██████▏   | 272/443 [00:02<00:01, 133.86it/s]Loading weights:  65%|██████▌   | 290/443 [00:02<00:01, 139.95it/s]Loading weights:  69%|██████▉   | 305/443 [00:02<00:01, 134.90it/s]Loading weights:  73%|███████▎  | 323/443 [00:02<00:00, 140.77it/s]Loading weights:  76%|███████▋  | 338/443 [00:02<00:00, 134.49it/s]Loading weights:  80%|████████  | 356/443 [00:02<00:00, 140.14it/s]Loading weights:  84%|████████▎ | 371/443 [00:03<00:00, 134.72it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 140.24it/s]Loading weights:  91%|█████████ | 404/443 [00:03<00:00, 134.70it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 139.82it/s]Loading weights:  99%|█████████▊| 437/443 [00:03<00:00, 134.49it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 124.48it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 432, 'keep_top': 0.5, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 432 examples in 54s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/108 loss 0.335 (35s)
+  epoch 2 step 100/108 loss 0.064 (71s)
+training done in 78s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  44.2%   (fixed 56, broke 30, McNemar p = 0.0067)
+  composition gap        base  40.5%  ->  trained  29.0%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  64.7%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  52.0%   (fixed 54, broke 17, McNemar p = 1.3e-05)
+  composition gap        base  32.4%  ->  trained  20.1%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  79.3%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  54.2%   (fixed 40, broke 17, McNemar p = 0.0032)
+  composition gap        base  32.3%  ->  trained  25.5%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  85.3%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  77.3%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 80% of items, median first layer 33
+  per item: earlier after training 41, later 13, same 100 (sign test p = 0.00018)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:20,  5.49it/s]Loading weights:   0%|          | 2/443 [00:00<01:29,  4.94it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 43.82it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 64.77it/s]Loading weights:  11%|█         | 48/443 [00:00<00:04, 97.96it/s]Loading weights:  14%|█▎        | 60/443 [00:00<00:03, 102.20it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 105.34it/s]Loading weights:  21%|██        | 92/443 [00:01<00:02, 117.87it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:02, 119.37it/s]Loading weights:  28%|██▊       | 123/443 [00:01<00:02, 135.72it/s]Loading weights:  31%|███       | 137/443 [00:01<00:02, 119.79it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 135.18it/s]Loading weights:  39%|███▉      | 172/443 [00:01<00:02, 127.14it/s]Loading weights:  43%|████▎     | 189/443 [00:01<00:01, 138.10it/s]Loading weights:  46%|████▌     | 204/443 [00:01<00:01, 124.69it/s]Loading weights:  51%|█████     | 224/443 [00:02<00:01, 136.33it/s]Loading weights:  54%|█████▍    | 239/443 [00:02<00:01, 130.32it/s]Loading weights:  58%|█████▊    | 255/443 [00:02<00:01, 137.59it/s]Loading weights:  61%|██████    | 270/443 [00:02<00:01, 124.25it/s]Loading weights:  65%|██████▌   | 289/443 [00:02<00:01, 133.40it/s]Loading weights:  68%|██████▊   | 303/443 [00:02<00:01, 125.93it/s]Loading weights:  73%|███████▎  | 322/443 [00:02<00:00, 142.09it/s]Loading weights:  76%|███████▌  | 337/443 [00:02<00:00, 126.95it/s]Loading weights:  80%|████████  | 355/443 [00:03<00:00, 132.83it/s]Loading weights:  83%|████████▎ | 369/443 [00:03<00:00, 125.63it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 136.70it/s]Loading weights:  91%|█████████ | 403/443 [00:03<00:00, 128.51it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 136.86it/s]Loading weights:  98%|█████████▊| 436/443 [00:03<00:00, 128.67it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 119.29it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 605, 'keep_top': 0.7, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 605 examples in 52s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/152 loss 0.488 (36s)
+  epoch 2 step 100/152 loss 0.098 (71s)
+  epoch 2 step 150/152 loss 0.087 (107s)
+training done in 109s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  46.4%   (fixed 61, broke 24, McNemar p = 7.4e-05)
+  composition gap        base  40.5%  ->  trained  25.8%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  81.3%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  63.3%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  49.6%   (fixed 45, broke 20, McNemar p = 0.0026)
+  composition gap        base  32.4%  ->  trained  21.6%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  75.3%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  53.4%   (fixed 40, broke 21, McNemar p = 0.02)
+  composition gap        base  32.3%  ->  trained  26.1%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.0%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  72.0%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 80% of items, median first layer 33
+  per item: earlier after training 54, later 6, same 93 (sign test p = 9.7e-11)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:53,  2.55it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:10, 41.55it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 62.25it/s]Loading weights:  11%|█         | 48/443 [00:00<00:04, 95.56it/s]Loading weights:  14%|█▍        | 61/443 [00:00<00:03, 97.81it/s]Loading weights:  18%|█▊        | 81/443 [00:00<00:03, 112.71it/s]Loading weights:  21%|██        | 94/443 [00:01<00:03, 115.92it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 131.54it/s]Loading weights:  29%|██▉       | 128/443 [00:01<00:02, 124.58it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 134.86it/s]Loading weights:  36%|███▋      | 161/443 [00:01<00:02, 127.26it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 136.75it/s]Loading weights:  44%|████▍     | 194/443 [00:01<00:01, 128.35it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 137.35it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 129.11it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 130.90it/s]Loading weights:  59%|█████▊    | 260/443 [00:02<00:01, 131.37it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 139.57it/s]Loading weights:  66%|██████▋   | 294/443 [00:02<00:01, 132.92it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 138.30it/s]Loading weights:  74%|███████▎  | 326/443 [00:02<00:00, 129.43it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 138.12it/s]Loading weights:  81%|████████  | 359/443 [00:03<00:00, 129.60it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 138.42it/s]Loading weights:  88%|████████▊ | 392/443 [00:03<00:00, 129.65it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 138.32it/s]Loading weights:  96%|█████████▌| 425/443 [00:03<00:00, 129.96it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 121.28it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 432, 'keep_top': 0.5, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'random'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 432 examples in 52s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/108 loss 0.745 (37s)
+  epoch 2 step 100/108 loss 0.263 (74s)
+training done in 81s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  44.4%   (fixed 53, broke 26, McNemar p = 0.0032)
+  composition gap        base  40.5%  ->  trained  30.1%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  80.7%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  64.7%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  50.8%   (fixed 47, broke 16, McNemar p = 0.00012)
+  composition gap        base  32.4%  ->  trained  21.9%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  82.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  75.3%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  54.0%   (fixed 38, broke 16, McNemar p = 0.0038)
+  composition gap        base  32.3%  ->  trained  26.4%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  85.3%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  76.0%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 81% of items, median first layer 33.0
+  per item: earlier after training 35, later 7, same 112 (sign test p = 1.5e-05)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:12,  6.10it/s]Loading weights:   0%|          | 2/443 [00:00<01:28,  4.97it/s]Loading weights:   4%|▍         | 18/443 [00:00<00:08, 50.65it/s]Loading weights:   8%|▊         | 37/443 [00:00<00:04, 88.02it/s]Loading weights:  11%|█▏        | 50/443 [00:00<00:04, 94.60it/s]Loading weights:  16%|█▌        | 70/443 [00:00<00:03, 119.09it/s]Loading weights:  19%|█▉        | 84/443 [00:00<00:03, 118.20it/s]Loading weights:  23%|██▎       | 103/443 [00:01<00:02, 132.67it/s]Loading weights:  26%|██▋       | 117/443 [00:01<00:02, 127.39it/s]Loading weights:  31%|███       | 136/443 [00:01<00:02, 138.16it/s]Loading weights:  34%|███▍      | 151/443 [00:01<00:02, 133.85it/s]Loading weights:  38%|███▊      | 169/443 [00:01<00:01, 140.93it/s]Loading weights:  42%|████▏     | 184/443 [00:01<00:01, 135.90it/s]Loading weights:  46%|████▌     | 202/443 [00:01<00:01, 141.63it/s]Loading weights:  49%|████▉     | 217/443 [00:01<00:01, 136.56it/s]Loading weights:  53%|█████▎    | 235/443 [00:02<00:01, 142.89it/s]Loading weights:  56%|█████▋    | 250/443 [00:02<00:01, 137.33it/s]Loading weights:  60%|██████    | 267/443 [00:02<00:01, 140.20it/s]Loading weights:  64%|██████▎   | 282/443 [00:02<00:01, 135.20it/s]Loading weights:  68%|██████▊   | 301/443 [00:02<00:00, 144.26it/s]Loading weights:  71%|███████▏  | 316/443 [00:02<00:00, 138.25it/s]Loading weights:  75%|███████▌  | 334/443 [00:02<00:00, 143.76it/s]Loading weights:  79%|███████▉  | 349/443 [00:02<00:00, 137.93it/s]Loading weights:  83%|████████▎ | 367/443 [00:02<00:00, 143.87it/s]Loading weights:  86%|████████▌ | 382/443 [00:03<00:00, 138.22it/s]Loading weights:  90%|█████████ | 400/443 [00:03<00:00, 143.64it/s]Loading weights:  94%|█████████▎| 415/443 [00:03<00:00, 137.85it/s]Loading weights:  98%|█████████▊| 433/443 [00:03<00:00, 143.64it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 127.12it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 605, 'keep_top': 0.7, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'random'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 605 examples in 53s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/152 loss 0.709 (38s)
+  epoch 2 step 100/152 loss 0.232 (75s)
+  epoch 2 step 150/152 loss 0.174 (112s)
+training done in 115s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  45.8%   (fixed 60, broke 26, McNemar p = 0.00032)
+  composition gap        base  40.5%  ->  trained  28.3%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  79.3%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  65.3%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  51.6%   (fixed 50, broke 15, McNemar p = 1.6e-05)
+  composition gap        base  32.4%  ->  trained  19.1%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.7%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  76.7%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  54.8%   (fixed 40, broke 14, McNemar p = 0.00054)
+  composition gap        base  32.3%  ->  trained  25.5%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  84.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  75.3%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 78% of items, median first layer 33.0
+  per item: earlier after training 25, later 11, same 115 (sign test p = 0.029)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:19,  5.57it/s]Loading weights:   0%|          | 2/443 [00:00<01:28,  4.98it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:09, 47.07it/s]Loading weights:   8%|▊         | 37/443 [00:00<00:04, 86.23it/s]Loading weights:  11%|█         | 49/443 [00:00<00:04, 94.42it/s]Loading weights:  14%|█▍        | 61/443 [00:00<00:03, 100.02it/s]Loading weights:  18%|█▊        | 81/443 [00:00<00:02, 121.86it/s]Loading weights:  21%|██        | 94/443 [00:01<00:03, 115.36it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 131.22it/s]Loading weights:  29%|██▉       | 128/443 [00:01<00:02, 123.73it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 133.80it/s]Loading weights:  36%|███▋      | 161/443 [00:01<00:02, 126.26it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 135.75it/s]Loading weights:  44%|████▍     | 194/443 [00:01<00:01, 127.33it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 136.53it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 128.43it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 137.16it/s]Loading weights:  59%|█████▊    | 260/443 [00:02<00:01, 128.45it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 130.07it/s]Loading weights:  66%|██████▌   | 293/443 [00:02<00:01, 130.95it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 139.05it/s]Loading weights:  74%|███████▎  | 326/443 [00:02<00:00, 129.57it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 138.10it/s]Loading weights:  81%|████████  | 359/443 [00:03<00:00, 129.08it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 138.18it/s]Loading weights:  88%|████████▊ | 392/443 [00:03<00:00, 128.97it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 137.23it/s]Loading weights:  96%|█████████▌| 425/443 [00:03<00:00, 128.77it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 121.00it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 864, 'keep_top': 1.0, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 864 examples in 52s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/216 loss 0.716 (37s)
+  epoch 1 step 100/216 loss 0.474 (75s)
+  epoch 2 step 150/216 loss 0.210 (112s)
+  epoch 2 step 200/216 loss 0.175 (149s)
+training done in 161s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  47.4%   (fixed 64, broke 22, McNemar p = 6.5e-06)
+  composition gap        base  40.5%  ->  trained  25.4%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  81.3%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  63.3%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  52.4%   (fixed 55, broke 16, McNemar p = 3.8e-06)
+  composition gap        base  32.4%  ->  trained  17.3%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  72.0%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  54.0%   (fixed 39, broke 17, McNemar p = 0.0046)
+  composition gap        base  32.3%  ->  trained  26.4%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.0%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  70.0%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 81% of items, median first layer 33.0
+  per item: earlier after training 24, later 10, same 119 (sign test p = 0.024)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:34,  2.86it/s]Loading weights:   3%|▎         | 14/443 [00:00<00:10, 39.67it/s]Loading weights:   6%|▌         | 27/443 [00:00<00:06, 66.05it/s]Loading weights:   9%|▉         | 42/443 [00:00<00:04, 90.59it/s]Loading weights:  13%|█▎        | 58/443 [00:00<00:03, 106.67it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 109.75it/s]Loading weights:  21%|██        | 92/443 [00:00<00:02, 129.97it/s]Loading weights:  24%|██▍       | 107/443 [00:01<00:02, 127.86it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:02, 136.31it/s]Loading weights:  32%|███▏      | 140/443 [00:01<00:02, 132.99it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 140.24it/s]Loading weights:  39%|███▉      | 173/443 [00:01<00:01, 135.53it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:01, 141.60it/s]Loading weights:  47%|████▋     | 206/443 [00:01<00:01, 136.46it/s]Loading weights:  51%|█████     | 224/443 [00:01<00:01, 142.88it/s]Loading weights:  54%|█████▍    | 239/443 [00:02<00:01, 137.29it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 142.87it/s]Loading weights:  61%|██████▏   | 272/443 [00:02<00:01, 137.44it/s]Loading weights:  65%|██████▌   | 290/443 [00:02<00:01, 136.01it/s]Loading weights:  69%|██████▉   | 306/443 [00:02<00:00, 142.12it/s]Loading weights:  73%|███████▎  | 322/443 [00:02<00:00, 141.47it/s]Loading weights:  76%|███████▌  | 337/443 [00:02<00:00, 136.56it/s]Loading weights:  80%|████████  | 356/443 [00:02<00:00, 145.55it/s]Loading weights:  84%|████████▎ | 371/443 [00:02<00:00, 139.21it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 144.31it/s]Loading weights:  91%|█████████ | 404/443 [00:03<00:00, 138.49it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 144.03it/s]Loading weights:  99%|█████████▊| 437/443 [00:03<00:00, 138.10it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 127.19it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 432, 'keep_top': 0.5, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 432 examples in 51s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/108 loss 0.306 (36s)
+  epoch 2 step 100/108 loss 0.063 (71s)
+training done in 78s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  46.2%   (fixed 56, broke 20, McNemar p = 4.4e-05)
+  composition gap        base  40.5%  ->  trained  28.3%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  62.7%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  52.6%   (fixed 50, broke 10, McNemar p = 1.6e-07)
+  composition gap        base  32.4%  ->  trained  20.1%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  78.7%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  77.3%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  53.8%   (fixed 35, broke 14, McNemar p = 0.0038)
+  composition gap        base  32.3%  ->  trained  24.5%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  84.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  76.7%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 78% of items, median first layer 33
+  per item: earlier after training 38, later 8, same 104 (sign test p = 9.2e-06)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:27,  5.04it/s]Loading weights:   0%|          | 2/443 [00:00<01:24,  5.22it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 45.97it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 67.78it/s]Loading weights:  11%|█         | 48/443 [00:00<00:03, 102.46it/s]Loading weights:  14%|█▎        | 60/443 [00:00<00:03, 106.64it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 110.15it/s]Loading weights:  21%|██        | 92/443 [00:01<00:02, 129.66it/s]Loading weights:  24%|██▍       | 106/443 [00:01<00:02, 124.51it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:02, 135.55it/s]Loading weights:  31%|███▏      | 139/443 [00:01<00:02, 128.75it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 138.89it/s]Loading weights:  39%|███▉      | 173/443 [00:01<00:02, 133.25it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:01, 138.48it/s]Loading weights:  46%|████▋     | 205/443 [00:01<00:01, 130.86it/s]Loading weights:  51%|█████     | 224/443 [00:01<00:01, 140.13it/s]Loading weights:  54%|█████▍    | 239/443 [00:02<00:01, 134.52it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 139.35it/s]Loading weights:  61%|██████    | 271/443 [00:02<00:01, 131.98it/s]Loading weights:  65%|██████▌   | 290/443 [00:02<00:01, 140.91it/s]Loading weights:  69%|██████▉   | 305/443 [00:02<00:01, 134.84it/s]Loading weights:  73%|███████▎  | 323/443 [00:02<00:00, 139.98it/s]Loading weights:  76%|███████▋  | 338/443 [00:02<00:00, 134.16it/s]Loading weights:  80%|████████  | 356/443 [00:02<00:00, 139.83it/s]Loading weights:  84%|████████▎ | 371/443 [00:03<00:00, 134.24it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 132.42it/s]Loading weights:  91%|█████████ | 403/443 [00:03<00:00, 133.73it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 142.44it/s]Loading weights:  99%|█████████▊| 437/443 [00:03<00:00, 135.85it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 123.79it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 605, 'keep_top': 0.7, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'confidence'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 605 examples in 51s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/152 loss 0.485 (36s)
+  epoch 2 step 100/152 loss 0.078 (71s)
+  epoch 2 step 150/152 loss 0.078 (107s)
+training done in 110s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  46.8%   (fixed 63, broke 24, McNemar p = 3.5e-05)
+  composition gap        base  40.5%  ->  trained  25.8%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  82.0%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  65.3%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  50.8%   (fixed 51, broke 20, McNemar p = 0.0003)
+  composition gap        base  32.4%  ->  trained  20.9%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.0%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  76.0%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  53.0%   (fixed 34, broke 17, McNemar p = 0.024)
+  composition gap        base  32.3%  ->  trained  26.4%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.7%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  74.7%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 80% of items, median first layer 33
+  per item: earlier after training 21, later 14, same 119 (sign test p = 0.31)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:15,  5.88it/s]Loading weights:   0%|          | 2/443 [00:00<01:24,  5.20it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 45.88it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 68.01it/s]Loading weights:  11%|█         | 48/443 [00:00<00:03, 102.58it/s]Loading weights:  14%|█▎        | 60/443 [00:00<00:03, 106.92it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 110.35it/s]Loading weights:  21%|██        | 92/443 [00:01<00:02, 130.57it/s]Loading weights:  24%|██▍       | 106/443 [00:01<00:02, 125.15it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:02, 136.43it/s]Loading weights:  31%|███▏      | 139/443 [00:01<00:02, 129.73it/s]Loading weights:  35%|███▌      | 157/443 [00:01<00:02, 137.46it/s]Loading weights:  39%|███▊      | 171/443 [00:01<00:02, 130.15it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:01, 141.44it/s]Loading weights:  47%|████▋     | 206/443 [00:01<00:01, 135.38it/s]Loading weights:  51%|█████     | 224/443 [00:01<00:01, 141.41it/s]Loading weights:  54%|█████▍    | 239/443 [00:02<00:01, 135.09it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 140.78it/s]Loading weights:  61%|██████▏   | 272/443 [00:02<00:01, 135.02it/s]Loading weights:  65%|██████▌   | 290/443 [00:02<00:01, 140.80it/s]Loading weights:  69%|██████▉   | 305/443 [00:02<00:01, 134.87it/s]Loading weights:  73%|███████▎  | 323/443 [00:02<00:00, 133.40it/s]Loading weights:  76%|███████▌  | 337/443 [00:02<00:00, 134.97it/s]Loading weights:  80%|████████  | 356/443 [00:02<00:00, 142.80it/s]Loading weights:  84%|████████▎ | 371/443 [00:03<00:00, 135.74it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 140.87it/s]Loading weights:  91%|█████████ | 404/443 [00:03<00:00, 135.17it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 141.39it/s]Loading weights:  99%|█████████▊| 437/443 [00:03<00:00, 136.35it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 124.79it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 432, 'keep_top': 0.5, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'random'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 432 examples in 52s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/108 loss 0.748 (37s)
+  epoch 2 step 100/108 loss 0.229 (74s)
+training done in 81s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  44.2%   (fixed 53, broke 27, McNemar p = 0.0049)
+  composition gap        base  40.5%  ->  trained  29.7%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  82.7%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  64.7%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  47.6%   (fixed 34, broke 19, McNemar p = 0.053)
+  composition gap        base  32.4%  ->  trained  24.1%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  79.3%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  73.3%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  53.6%   (fixed 34, broke 14, McNemar p = 0.0055)
+  composition gap        base  32.3%  ->  trained  25.5%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.0%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  72.7%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 77% of items, median first layer 33.0
+  per item: earlier after training 5, later 24, same 122 (sign test p = 0.00055)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:13,  5.98it/s]Loading weights:   0%|          | 2/443 [00:00<01:18,  5.59it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:09, 45.26it/s]Loading weights:   6%|▌         | 27/443 [00:00<00:06, 68.23it/s]Loading weights:   9%|▉         | 41/443 [00:00<00:04, 90.30it/s]Loading weights:  13%|█▎        | 58/443 [00:00<00:03, 109.11it/s]Loading weights:  16%|█▌        | 71/443 [00:00<00:03, 115.13it/s]Loading weights:  19%|█▉        | 86/443 [00:00<00:02, 125.32it/s]Loading weights:  23%|██▎       | 103/443 [00:01<00:02, 132.87it/s]Loading weights:  26%|██▋       | 117/443 [00:01<00:02, 127.30it/s]Loading weights:  31%|███       | 136/443 [00:01<00:02, 138.32it/s]Loading weights:  34%|███▍      | 150/443 [00:01<00:02, 130.84it/s]Loading weights:  38%|███▊      | 169/443 [00:01<00:01, 140.90it/s]Loading weights:  42%|████▏     | 184/443 [00:01<00:01, 134.89it/s]Loading weights:  46%|████▌     | 202/443 [00:01<00:01, 140.19it/s]Loading weights:  49%|████▉     | 217/443 [00:01<00:01, 135.06it/s]Loading weights:  53%|█████▎    | 235/443 [00:02<00:01, 141.04it/s]Loading weights:  56%|█████▋    | 250/443 [00:02<00:01, 135.73it/s]Loading weights:  60%|██████    | 268/443 [00:02<00:01, 141.16it/s]Loading weights:  64%|██████▍   | 283/443 [00:02<00:01, 135.35it/s]Loading weights:  68%|██████▊   | 301/443 [00:02<00:01, 141.05it/s]Loading weights:  71%|███████▏  | 316/443 [00:02<00:00, 136.08it/s]Loading weights:  75%|███████▌  | 334/443 [00:02<00:00, 141.29it/s]Loading weights:  79%|███████▉  | 349/443 [00:02<00:00, 136.15it/s]Loading weights:  83%|████████▎ | 367/443 [00:02<00:00, 142.11it/s]Loading weights:  86%|████████▌ | 382/443 [00:03<00:00, 136.09it/s]Loading weights:  90%|█████████ | 400/443 [00:03<00:00, 141.48it/s]Loading weights:  94%|█████████▎| 415/443 [00:03<00:00, 135.47it/s]Loading weights:  98%|█████████▊| 433/443 [00:03<00:00, 139.97it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 125.45it/s]
+Confidence diagnostic BEFORE training: {'auroc': 0.7215574803571907, 'n_scored': 864, 'n_correct': 445, 'n_kept': 605, 'keep_top': 0.7, 'score_definition': 'mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded', 'selection_uses_gold': False, 'selection': 'random'}
+targets: model's own answer with its own hop-1 answer stated in context (no gold used); 605 examples in 51s; share of targets that happen to be correct: 51.5%
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 1 step 50/152 loss 0.741 (37s)
+  epoch 2 step 100/152 loss 0.254 (74s)
+  epoch 2 step 150/152 loss 0.182 (112s)
+training done in 114s
+
+====================================================================================================
+TARGET = SELF  (model's own answer with its own hop-1 answer stated in context (no gold used))
+
+[A_newPerson]  n=500  (both hops known by base model: 279)
+  composed accuracy      base  39.0%  ->  trained  46.8%   (fixed 64, broke 25, McNemar p = 4.3e-05)
+  composition gap        base  40.5%  ->  trained  26.2%   (lower is better)
+  hop-1 alone accuracy   base  80.7%  ->  trained  79.3%   (should not drop)
+  hop-2 alone accuracy   base  64.7%  ->  trained  64.0%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  50.6%   (fixed 48, broke 18, McNemar p = 0.00029)
+  composition gap        base  32.4%  ->  trained  21.2%   (lower is better)
+  hop-1 alone accuracy   base  79.3%  ->  trained  80.7%   (should not drop)
+  hop-2 alone accuracy   base  73.3%  ->  trained  74.7%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  54.6%   (fixed 43, broke 18, McNemar p = 0.0019)
+  composition gap        base  32.3%  ->  trained  25.5%   (lower is better)
+  hop-1 alone accuracy   base  84.7%  ->  trained  86.0%   (should not drop)
+  hop-2 alone accuracy   base  74.0%  ->  trained  72.7%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 78% of items, median first layer 33
+  trained : reaches top-10 in 77% of items, median first layer 33.0
+  per item: earlier after training 19, later 15, same 115 (sign test p = 0.61)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.

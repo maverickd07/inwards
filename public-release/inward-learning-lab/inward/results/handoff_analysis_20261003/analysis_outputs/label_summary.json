@@ -1,0 +1,193 @@
+{
+  "source": "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/results/exp1v2_Qwen3-14B/items.jsonl",
+  "source_sha256": "c27e89277bc36a38a42394e0ac1d93ef8a799d3da3cfb110d0507c293d9a1aad",
+  "seed": 7,
+  "eligible": 818,
+  "sample_n": 120,
+  "counts": {
+    "GENUINE": 94,
+    "AMBIGUOUS_GOLD": 12,
+    "FORMAT": 8,
+    "SCORER_ERROR": 6
+  },
+  "shares": {
+    "GENUINE": 0.7833333333333333,
+    "AMBIGUOUS_GOLD": 0.1,
+    "FORMAT": 0.06666666666666667,
+    "SCORER_ERROR": 0.05
+  },
+  "by_category": {
+    "birthplace_callingcode": {
+      "n": 2,
+      "GENUINE": {
+        "n": 2,
+        "share": 1.0
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 0,
+        "share": 0.0
+      },
+      "FORMAT": {
+        "n": 0,
+        "share": 0.0
+      },
+      "SCORER_ERROR": {
+        "n": 0,
+        "share": 0.0
+      }
+    },
+    "birthplace_capital": {
+      "n": 27,
+      "GENUINE": {
+        "n": 22,
+        "share": 0.8148148148148148
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 4,
+        "share": 0.14814814814814814
+      },
+      "FORMAT": {
+        "n": 0,
+        "share": 0.0
+      },
+      "SCORER_ERROR": {
+        "n": 1,
+        "share": 0.037037037037037035
+      }
+    },
+    "birthplace_ccn3": {
+      "n": 12,
+      "GENUINE": {
+        "n": 11,
+        "share": 0.9166666666666666
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 0,
+        "share": 0.0
+      },
+      "FORMAT": {
+        "n": 1,
+        "share": 0.08333333333333333
+      },
+      "SCORER_ERROR": {
+        "n": 0,
+        "share": 0.0
+      }
+    },
+    "birthplace_currency": {
+      "n": 13,
+      "GENUINE": {
+        "n": 5,
+        "share": 0.38461538461538464
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 3,
+        "share": 0.23076923076923078
+      },
+      "FORMAT": {
+        "n": 0,
+        "share": 0.0
+      },
+      "SCORER_ERROR": {
+        "n": 5,
+        "share": 0.38461538461538464
+      }
+    },
+    "birthplace_currency_short": {
+      "n": 10,
+      "GENUINE": {
+        "n": 7,
+        "share": 0.7
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 2,
+        "share": 0.2
+      },
+      "FORMAT": {
+        "n": 1,
+        "share": 0.1
+      },
+      "SCORER_ERROR": {
+        "n": 0,
+        "share": 0.0
+      }
+    },
+    "birthplace_currency_symbol": {
+      "n": 12,
+      "GENUINE": {
+        "n": 3,
+        "share": 0.25
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 3,
+        "share": 0.25
+      },
+      "FORMAT": {
+        "n": 6,
+        "share": 0.5
+      },
+      "SCORER_ERROR": {
+        "n": 0,
+        "share": 0.0
+      }
+    },
+    "birthplace_rounded_lat": {
+      "n": 26,
+      "GENUINE": {
+        "n": 26,
+        "share": 1.0
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 0,
+        "share": 0.0
+      },
+      "FORMAT": {
+        "n": 0,
+        "share": 0.0
+      },
+      "SCORER_ERROR": {
+        "n": 0,
+        "share": 0.0
+      }
+    },
+    "birthplace_rounded_lng": {
+      "n": 10,
+      "GENUINE": {
+        "n": 10,
+        "share": 1.0
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 0,
+        "share": 0.0
+      },
+      "FORMAT": {
+        "n": 0,
+        "share": 0.0
+      },
+      "SCORER_ERROR": {
+        "n": 0,
+        "share": 0.0
+      }
+    },
+    "birthplace_tld": {
+      "n": 8,
+      "GENUINE": {
+        "n": 8,
+        "share": 1.0
+      },
+      "AMBIGUOUS_GOLD": {
+        "n": 0,
+        "share": 0.0
+      },
+      "FORMAT": {
+        "n": 0,
+        "share": 0.0
+      },
+      "SCORER_ERROR": {
+        "n": 0,
+        "share": 0.0
+      }
+    }
+  },
+  "labeling": "Individual model review; conservative GENUINE for uncertainty; historical alternative accepted when question has no time constraint. Not independent human validation."
+}

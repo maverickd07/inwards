@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": {
+    "strategy": "BatchLongest",
+    "direction": "Right",
+    "pad_to_multiple_of": null,
+    "pad_id": 0,
+    "pad_type_id": 0,
+    "pad_token": "[PAD]"
+  },
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[EOS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": {
+    "type": "TemplateProcessing",
+    "single": [
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      }
+    ],
+    "pair": [
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      },
+      {
+        "Sequence": {
+          "id": "B",
+          "type_id": 1
+        }
+      }
+    ],
+    "special_tokens": {}
+  },
+  "decoder": null,
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "[PAD]": 0,
+      "[EOS]": 1,
+      "[UNK]": 2,
+      "What": 3,
+      "is": 4,
+      "the": 5,
+      "country": 6,
+      "where": 7,
+      "was": 8,
+      "born": 9,
+      "Fixture": 10,
+      "Alpha": 11,
+      "Beta": 12,
+      "of": 13,
+      "capital": 14,
+      "calling": 15,
+      "code": 16,
+      "latitude": 17,
+      "longitude": 18,
+      "rounded": 19,
+      "down": 20,
+      "Canada": 21,
+      "Germany": 22,
+      "Ottawa": 23,
+      "Berlin": 24,
+      "France": 25,
+      "Spain": 26,
+      "+": 27,
+      "1": 28,
+      "49": 29,
+      "56": 30,
+      "51": 31,
+      "-": 32,
+      "106": 33,
+      "10": 34,
+      "Answer": 35,
+      ":": 36,
+      "?": 37,
+      ".": 38
+    },
+    "unk_token": "[UNK]"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-16T10:53:15.417096+00:00",
+  "before_curation_execution": true,
+  "script": "curate_review_v4.py",
+  "sha256": "e8fc4e98a85f92ed50ef747915df02ea2d0e14c27335f4483db4d3837eecac66",
+  "changes": [
+    "Also complete new-candidate biography redirect pagination. No changes to inclusion criteria or ranking."
+  ]
+}

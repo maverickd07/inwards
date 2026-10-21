@@ -1,0 +1,8 @@
+{"country": "Canada", "category": "birthplace_callingcode", "question": "What is the calling code of Canada?", "prediction": "+1"}
+{"country": "Canada", "category": "birthplace_capital", "question": "What is the capital of Canada?", "prediction": "Ottawa"}
+{"country": "Canada", "category": "birthplace_rounded_lat", "question": "What is the (rounded down) latitude of Canada?", "prediction": "56"}
+{"country": "Canada", "category": "birthplace_rounded_lng", "question": "What is the (rounded down) longitude of Canada?", "prediction": "-106"}
+{"country": "Germany", "category": "birthplace_callingcode", "question": "What is the calling code of Germany?", "prediction": "+49"}
+{"country": "Germany", "category": "birthplace_capital", "question": "What is the capital of Germany?", "prediction": "Berlin"}
+{"country": "Germany", "category": "birthplace_rounded_lat", "question": "What is the (rounded down) latitude of Germany?", "prediction": "51"}
+{"country": "Germany", "category": "birthplace_rounded_lng", "question": "What is the (rounded down) longitude of Germany?", "prediction": "10"}

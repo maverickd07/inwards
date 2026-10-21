@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-16T10:47:42.942882+00:00",
+  "before_first_curation_execution": true,
+  "reason": "Resolve disambiguation identities before alias exclusion; recognize listed overseas territories; fail closed on non-value birthplace/citizenship claims; add compound nationality text signals. Implements the already frozen missing-data/territory/alias rules, does not change country scope, sample count or model-based criteria.",
+  "source_original_sha256": "5618dd7fa0aa27f30aa7e1d2d619c8157808df09fe32955061be786e77fa77bb",
+  "source_executed_sha256": "d5f528dfaf1129bbf5a7eaf97cb405763cba2b3e6893fb22d7d74cd26ae91c8d"
+}

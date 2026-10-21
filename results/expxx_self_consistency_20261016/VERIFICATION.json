@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-16T07:35:03.622488+00:00",
+  "passed": true,
+  "tables_recounted": 11000,
+  "item_method_condition_records_checked": 32064,
+  "raw_targets_and_labels_match_saved_sources": true,
+  "frozen_inputs_protocol_and_code_unchanged": true,
+  "all_candidate_and_example_constraints_verified": true
+}

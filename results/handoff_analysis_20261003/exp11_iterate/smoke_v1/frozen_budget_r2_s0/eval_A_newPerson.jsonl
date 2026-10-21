@@ -1,0 +1,2 @@
+{"category": "birthplace_rounded_lng", "person": "Wilson Palacios", "pred": "Paris Paris", "mean_logprob": -2.267707109451294, "q1_pred": "Paris Paris", "q2_pred": "Paris Paris", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}
+{"category": "birthplace_capital", "person": "Kristaps Porzingis", "pred": "Paris Paris", "mean_logprob": -2.2680375576019287, "q1_pred": "Paris Paris", "q2_pred": "Paris Paris", "composed_ok": false, "q1_ok": false, "q2_ok": false, "legacy_composed_ok": false}

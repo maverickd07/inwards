@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-16T10:41:44.137690+00:00",
+  "before_curation_execution": true,
+  "files": {
+    "CURATION_POLICY_ZH.txt": "58f2f47ba356f44a14b986f84c3ea28c630718ff102fe3ca1dd75ce27d49148a",
+    "curate.py": "5618dd7fa0aa27f30aa7e1d2d619c8157808df09fe32955061be786e77fa77bb"
+  }
+}

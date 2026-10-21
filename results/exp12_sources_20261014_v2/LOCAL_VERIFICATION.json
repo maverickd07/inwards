@@ -1,0 +1,71 @@
+{
+  "full_tiny_pipeline_passed": true,
+  "integrity_checks_passed": true,
+  "tested_core_source_hashes_match_delivery": true,
+  "training_runs_in_smoke": 6,
+  "smoke_seconds": 26.149868965148926,
+  "full_data_counts": {
+    "train": 864,
+    "A": 500,
+    "B": 500,
+    "C": 500,
+    "D": 500
+  },
+  "D_excludes_prior_C_and_training_people_families": true,
+  "historical_C_files": 76,
+  "historical_C_unique_items": 500,
+  "D_reserved_seed": 12,
+  "submission_checks": {
+    "empty": "passed",
+    "one": "passed",
+    "full": "passed",
+    "bad_preflight": "passed",
+    "scope": "Mocked scheduler/preflight commands; actual flock and HPC scheduling not simulated."
+  },
+  "historical_audit": {
+    "flip_records": 4887,
+    "unique_answer_pairs": 522,
+    "repair_records": 3522,
+    "damage_records": 1365,
+    "human_review": "pending; no automatic content/format attribution"
+  },
+  "runtime": {
+    "python": "3.11.15 (main, May  8 2026, 18:24:56) [Clang 22.1.3 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "versions": {
+      "torch": "2.14.1",
+      "transformers": "4.57.6",
+      "peft": "0.21.1",
+      "numpy": "2.4.6"
+    },
+    "cuda": null,
+    "gpu": null,
+    "smoke_test": true
+  },
+  "14B_GPU_tested_locally": false,
+  "HPC_submitted": false,
+  "pending": "Upload v2 and submit; real HPC GPU execution and semantic audit remain unverified.",
+  "repair": "Remove unnecessary SciPy dependency; scientific design unchanged",
+  "scipy_absent_in_validation_environment": true,
+  "statistics_equivalence": {
+    "exact_p_cases": 2053,
+    "max_absolute_p_error": 1.3877787807814457e-15,
+    "analytic_t_df2": 4.302652729749464,
+    "scipy_t_df2": 4.302652729749462,
+    "absolute_t_error": 1.7763568394002505e-15,
+    "conclusion": "numerically equivalent at reporting precision"
+  },
+  "preflight_without_scipy": {
+    "preflight_without_scipy": "passed",
+    "model_shards": "synthetic fixture only",
+    "input_hashes": "actual research inputs checked",
+    "required_package_versions": {
+      "torch": "2.14.1",
+      "transformers": "4.57.6",
+      "peft": "0.21.1",
+      "numpy": "2.4.6",
+      "accelerate": "1.15.0"
+    }
+  },
+  "submission_script_checks": "Prior tested logic identical except experiment directory; Bash syntax rechecked."
+}

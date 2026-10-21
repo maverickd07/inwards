@@ -1,0 +1,210 @@
+[
+  {
+    "id": "2hop__64323_55840",
+    "question": "Who played the king that was king of england in 1951 in the king's speech?",
+    "references": [
+      "Colin Firth"
+    ],
+    "baseline_prediction": "Colin Firth",
+    "baseline_em": 1,
+    "context_em": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "direct_em": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "context_predictions": [
+      "Colin Firth",
+      "Colin Firth",
+      "Colin Firth",
+      "Colin Firth",
+      "Colin Firth",
+      "Colin Firth"
+    ],
+    "direct_predictions": [
+      "Colin Firth",
+      "Colin Firth",
+      "Colin Firth",
+      "George VI",
+      "Colin Firth",
+      "Colin Firth"
+    ]
+  },
+  {
+    "id": "2hop__60686_229757",
+    "question": "Who is the spouse of the actress that plays leslie knope on parks and recreation?",
+    "references": [
+      "Will Arnett"
+    ],
+    "baseline_prediction": "Ron Swanson",
+    "baseline_em": 0,
+    "context_em": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "direct_em": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "context_predictions": [
+      "Will Arnett",
+      "Will Arnett",
+      "Will Arnett",
+      "Ron Swanson",
+      "Will Arnett",
+      "Will Arnett"
+    ],
+    "direct_predictions": [
+      "Ron Swanson",
+      "Ron Swanson",
+      "Ron Swanson",
+      "Ron Swanson",
+      "Ron Swanson",
+      "Ron Swanson"
+    ]
+  },
+  {
+    "id": "2hop__141456_6455",
+    "question": "What was the resulting browser for the company Mozilla Messaging is a part of?",
+    "references": [
+      "Firefox",
+      "Firefox web browser",
+      "Mozilla Firefox"
+    ],
+    "baseline_prediction": "Thunderbird",
+    "baseline_em": 0,
+    "context_em": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "direct_em": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "context_predictions": [
+      "Firefox",
+      "Firefox",
+      "Firefox",
+      "Firefox",
+      "Firefox",
+      "Firefox"
+    ],
+    "direct_predictions": [
+      "Thunderbird",
+      "Thunderbird",
+      "Thunderbird",
+      "Thunderbird",
+      "Thunderbird",
+      "Thunderbird"
+    ]
+  },
+  {
+    "id": "2hop__412633_15781",
+    "question": "Who, along with the author of An Essay on the History of Civil Society, criticized the idea of social contract theorists?",
+    "references": [
+      "David Hume",
+      "Hume"
+    ],
+    "baseline_prediction": "Adam Ferguson",
+    "baseline_em": 0,
+    "context_em": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "direct_em": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "context_predictions": [
+      "David Hume",
+      "Adam Ferguson",
+      "David Hume",
+      "Adam Ferguson",
+      "Adam Ferguson",
+      "David Hume"
+    ],
+    "direct_predictions": [
+      "Adam Ferguson",
+      "Adam Ferguson",
+      "Adam Ferguson",
+      "Adam Ferguson",
+      "Adam Ferguson",
+      "Adam Ferguson"
+    ]
+  },
+  {
+    "id": "2hop__65576_80026",
+    "question": "Who played the spoilt character in Charlie and the Chocolate Factory?",
+    "references": [
+      "Julie Dawn Cole"
+    ],
+    "baseline_prediction": "Julie Dawn Cole",
+    "baseline_em": 1,
+    "context_em": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "direct_em": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "context_predictions": [
+      "Julie Walters",
+      "Julie Walters",
+      "Julie Walters",
+      "Julie Walters",
+      "Julie Dawn Cole",
+      "Julie Walters"
+    ],
+    "direct_predictions": [
+      "Julie Dawn Cole",
+      "Julie Dawn Cole",
+      "Julie Dawn Cole",
+      "Julie Dawn Cole",
+      "Julie Dawn Cole",
+      "Julie Dawn Cole"
+    ]
+  }
+]

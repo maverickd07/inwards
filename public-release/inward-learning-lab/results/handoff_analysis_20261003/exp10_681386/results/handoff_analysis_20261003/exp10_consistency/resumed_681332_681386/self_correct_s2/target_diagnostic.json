@@ -1,0 +1,57 @@
+{
+  "condition": "self_correct",
+  "target_cache_sha256": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d",
+  "n_pool": 864,
+  "n_kept": 228,
+  "target_changed_n": 0,
+  "target_changed_share": 0.0,
+  "assigned_target_correct_n": 228,
+  "assigned_target_correct_share": 1.0,
+  "original_pool_target_correct_share": 0.5069444444444444,
+  "original_target_auroc": 0.7326033828542028,
+  "uses_gold_for_allocation": true,
+  "allocation_scorer": "scoring_v2_floor",
+  "subset_seed": 7,
+  "category_counts": {
+    "birthplace_callingcode": {
+      "available": 216,
+      "original_correct": 165,
+      "original_wrong": 51,
+      "kept": 51,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 51,
+      "original_target_correct_n": 51
+    },
+    "birthplace_capital": {
+      "available": 216,
+      "original_correct": 156,
+      "original_wrong": 60,
+      "kept": 60,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 60,
+      "original_target_correct_n": 60
+    },
+    "birthplace_rounded_lat": {
+      "available": 216,
+      "original_correct": 71,
+      "original_wrong": 145,
+      "kept": 71,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 71,
+      "original_target_correct_n": 71
+    },
+    "birthplace_rounded_lng": {
+      "available": 216,
+      "original_correct": 46,
+      "original_wrong": 170,
+      "kept": 46,
+      "subset_seed": 7,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 46,
+      "original_target_correct_n": 46
+    }
+  }
+}

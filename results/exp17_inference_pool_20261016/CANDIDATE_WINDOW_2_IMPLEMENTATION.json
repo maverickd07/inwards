@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-16T11:10:43.628686+00:00",
+  "script": "expand_public_v2.py",
+  "sha256": "de33ef064bba3fc3fca5c005e7c3795a5f36ac1692022bc2ad679ec30289ab93",
+  "changes": "Same fixed second-window API queries with up to3 concurrent requests; retain6-second global request spacing and cached retries. Sequential first script interrupted; no final expanded data or model outputs existed."
+}

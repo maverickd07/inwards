@@ -1,0 +1,17 @@
+EXP12 matched785: fixed evaluation v3; 12 completed fits.
+Primary: fixed303, composed, review=wrong. All intervals: six paired training seeds, df5 t95.
+fixed_D303 n=2
+  all_wrong: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  all_correct: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  exclude_pair_union: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  matched-unmatched change: 0.0 pp; t95 [0.0, 0.0]
+full_D500 n=2
+  all_wrong: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  all_correct: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  exclude_pair_union: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  matched-unmatched change: 0.0 pp; t95 [0.0, 0.0]
+selected785 revised training acceptance: {"context": {"old_correct": 359, "revised_correct": 360, "revised_accuracy_pct": 45.859872611464965, "needs_review": 20, "mean_target_characters": 4.0114649681528665, "changed_labels": 1}, "direct": {"old_correct": 359, "revised_correct": 359, "revised_accuracy_pct": 45.732484076433124, "needs_review": 41, "mean_target_characters": 3.7719745222929935, "changed_labels": 2}}
+  sensitivity {"all_wrong": {"n": 785, "context_correct": 360, "direct_correct": 359, "difference_pp": 0.12738853503184713}, "all_correct": {"n": 785, "context_correct": 380, "direct_correct": 400, "difference_pp": -2.5477707006369426}, "exclude_pair_union": {"n": 740, "context_correct": 351, "direct_correct": 357, "difference_pp": -0.8108108108108109}}
+different404 revised training acceptance: {"context": {"old_correct": 87, "revised_correct": 88, "revised_accuracy_pct": 21.782178217821784, "needs_review": 11, "mean_target_characters": 3.6905940594059405, "changed_labels": 1}, "direct": {"old_correct": 87, "revised_correct": 87, "revised_accuracy_pct": 21.534653465346533, "needs_review": 32, "mean_target_characters": 3.2252475247524752, "changed_labels": 2}}
+  sensitivity {"all_wrong": {"n": 404, "context_correct": 88, "direct_correct": 87, "difference_pp": 0.24752475247524752}, "all_correct": {"n": 404, "context_correct": 99, "direct_correct": 119, "difference_pp": -4.9504950495049505}, "exclude_pair_union": {"n": 368, "context_correct": 79, "direct_correct": 85, "difference_pp": -1.6304347826086956}}
+Frozen interpretation rules: inputs/PROTOCOL.txt. Residual teacher-accuracy differences must be disclosed. 404 analysis concerns training targets, not generalization. No automatic follow-up training.

@@ -1,0 +1,2 @@
+{"category": "birthplace_rounded_lng", "person": "Wilson Palacios", "gold": -86, "base_pred": "", "trained_pred": "", "base_q1_pred": "", "trained_q1_pred": "", "base_q2_pred": "", "trained_q2_pred": "", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_capital", "person": "Kristaps Porzingis", "gold": "Riga", "base_pred": "", "trained_pred": "", "base_q1_pred": "", "trained_q1_pred": "", "base_q2_pred": "", "trained_q2_pred": "", "base_ok": false, "trained_ok": false}

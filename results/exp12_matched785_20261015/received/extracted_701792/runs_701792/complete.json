@@ -1,0 +1,23 @@
+{
+  "training_runs": 12,
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "items_per_fit": 785,
+  "steps_per_fit": 198,
+  "epochs": 2,
+  "batch": 8,
+  "primary_split": "fixed_D303",
+  "eval_full_split": "D_reservedC",
+  "baseline_regenerated": false,
+  "targets_regenerated": false,
+  "smoke_test": false,
+  "seconds": 4927.619609832764,
+  "training_label_audit_complete": true,
+  "next_experiment_authorized": false
+}

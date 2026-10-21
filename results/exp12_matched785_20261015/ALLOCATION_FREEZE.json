@@ -1,0 +1,3988 @@
+{
+  "frozen_before_new_training": true,
+  "files": {
+    "frozen_inputs/all864_target_classes.jsonl": "8eda3f6e45898607a6322a27f748c1707e6465d718935a465e61c57ce82faebe",
+    "frozen_inputs/different404_keys.json": "0ad84f339e6109d1a576a506b9af026112656379cafa8bf67b3712c76ddda715",
+    "frozen_inputs/paired_targets/complete.json": "c4e5ce288d7792ec944c337ac11dcfedba44889505037d063ca644be0e57939a",
+    "frozen_inputs/paired_targets/context_targets.jsonl": "d6a95531caf11315cf31cc7279167fcc61f8ca542ca1066ca4efe8cdcdb5b49a",
+    "frozen_inputs/paired_targets/direct_targets.jsonl": "b0de238ab95da6c6928471da99301d6ecf22ec6a2f8738c5d42df1945e9503f1",
+    "frozen_inputs/plan/exp12_manifest.json": "e5abdddec16eac9f2ac1762fc4c83e505a32b483ae1e1d4677cf64b4abcb60e3",
+    "frozen_inputs/plan/items_D_reservedC.jsonl": "f2f4fcc2f9ddbf0263efa066a7830b7fbfc80c7040ed25604eb727b7fabfddd4",
+    "frozen_inputs/plan/train.jsonl": "fd7484c7928794e6647ab62d42575be8a4ae8ece5ed3e353339e0af833782ef8",
+    "frozen_inputs/primary_D303_keys.json": "6de684d61292f4895fdaeec04adae152ab88e9293cfe6851b87d490ff8f88ae8",
+    "frozen_inputs/reference_v3/baseline.jsonl": "cd11fc857942c42ae8039396acc067f5b566be00953598f9371d6ed4e34386b8",
+    "frozen_inputs/reference_v3/context_s0.jsonl": "79fc3353cdec1527122ebf7cc4b619b5c8e24bf8bc0411bec1f8aab89f10623d",
+    "frozen_inputs/reference_v3/context_s1.jsonl": "6305fd9158904353b76db49417cba3890bb5b1b92713bf8942a71c84e600da46",
+    "frozen_inputs/reference_v3/context_s2.jsonl": "f435b86fc81dbf0342b4d39989a061aaf335097b8fd3a45d99fcf9fbbc4d0f13",
+    "frozen_inputs/reference_v3/context_s3.jsonl": "0d9476b57a7bfe7da15d631c0cbc9d9711f14f7e81721a75e15c332cdd7fcfd2",
+    "frozen_inputs/reference_v3/context_s4.jsonl": "eaf9b2e7886cbfe23cddd7d40c9c7f4bfb36ce80270bbbf46fbd8a7304ba5c62",
+    "frozen_inputs/reference_v3/context_s5.jsonl": "d0c3e566e61b31df5642bd92d7367ccedd932276fd2d250d133cfce71f8d84b0",
+    "frozen_inputs/reference_v3/direct_s0.jsonl": "0fdff0aa3df5173b1ad5e4803622c3b52f81f651a9f0457bca1e3904ff0b9999",
+    "frozen_inputs/reference_v3/direct_s1.jsonl": "758cd5883596de28bfbbdb75151ab5374aae7cdac1333edf299fb8b5365e84b2",
+    "frozen_inputs/reference_v3/direct_s2.jsonl": "37b0e0861541174d785a867b6cf9518da549e531d3f94d1a851015ff6897d41b",
+    "frozen_inputs/reference_v3/direct_s3.jsonl": "7ce02b66450f697b1c0c4e868caed290d150fc2a9ba5e9fd8b6daa8567d5bbe0",
+    "frozen_inputs/reference_v3/direct_s4.jsonl": "a52d916f3cfaca148ab21ad21e672904028d08bbf5ef35eae9fec37c0f7b09fd",
+    "frozen_inputs/reference_v3/direct_s5.jsonl": "9685f27f02b5582169b9e385a5dacea3664a70e3fe27efe2c5fda2be409c280b",
+    "frozen_inputs/selected_target_classes.jsonl": "0c32ac0d20e84ab573481828f10bb39a12312924ae8fdd1032e5660e95db1ddb"
+  },
+  "allocation": {
+    "selection_scorer": "original scoring_v2_v1; NOT revised training audit labels",
+    "selection_seed": 20261015,
+    "algorithm": "sorted categories; keep all agreement and smaller one-sided classes; random.Random(seed).sample larger class; restore original order",
+    "original_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      38,
+      39,
+      40,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      93,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      164,
+      166,
+      167,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      223,
+      224,
+      226,
+      227,
+      228,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      245,
+      246,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      259,
+      260,
+      261,
+      263,
+      264,
+      265,
+      266,
+      269,
+      271,
+      272,
+      273,
+      274,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      341,
+      342,
+      344,
+      345,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      382,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      397,
+      398,
+      399,
+      400,
+      402,
+      403,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      574,
+      575,
+      578,
+      579,
+      580,
+      581,
+      582,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662,
+      663,
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      690,
+      691,
+      694,
+      695,
+      696,
+      697,
+      698,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      740,
+      741,
+      742,
+      743,
+      744,
+      745,
+      746,
+      747,
+      748,
+      749,
+      750,
+      751,
+      752,
+      753,
+      754,
+      755,
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782,
+      783,
+      784,
+      786,
+      787,
+      788,
+      792,
+      793,
+      794,
+      795,
+      796,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      819,
+      820,
+      821,
+      822,
+      823,
+      824,
+      825,
+      826,
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      833,
+      834,
+      835,
+      836,
+      837,
+      838,
+      839,
+      841,
+      842,
+      843,
+      844,
+      845,
+      846,
+      847,
+      848,
+      849,
+      850,
+      851,
+      852,
+      853,
+      854,
+      855,
+      856,
+      857,
+      858,
+      859,
+      860,
+      861,
+      862,
+      863
+    ],
+    "identities": [
+      [
+        "birthplace_callingcode",
+        "Rumi"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ahmad Shah Durrani"
+      ],
+      [
+        "birthplace_callingcode",
+        "Annet Mahendru"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sofia Boutella"
+      ],
+      [
+        "birthplace_callingcode",
+        "Riyad Mahrez"
+      ],
+      [
+        "birthplace_callingcode",
+        "Islam Slimani"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ariana Grande"
+      ],
+      [
+        "birthplace_callingcode",
+        "William Carvalho"
+      ],
+      [
+        "birthplace_callingcode",
+        "Diego Maradona"
+      ],
+      [
+        "birthplace_callingcode",
+        "Manu Ginóbili"
+      ],
+      [
+        "birthplace_callingcode",
+        "Lali Espósito"
+      ],
+      [
+        "birthplace_callingcode",
+        "Dan Bilzerian"
+      ],
+      [
+        "birthplace_callingcode",
+        "Chris Hemsworth"
+      ],
+      [
+        "birthplace_callingcode",
+        "Margot Robbie"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hugh Jackman"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sigmund Freud"
+      ],
+      [
+        "birthplace_callingcode",
+        "Niki Lauda"
+      ],
+      [
+        "birthplace_callingcode",
+        "Mehriban Aliyeva"
+      ],
+      [
+        "birthplace_callingcode",
+        "Kazi Nazrul Islam"
+      ],
+      [
+        "birthplace_callingcode",
+        "Olga Korbut"
+      ],
+      [
+        "birthplace_callingcode",
+        "Gary Vaynerchuk"
+      ],
+      [
+        "birthplace_callingcode",
+        "Max Verstappen"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jetsun Pema"
+      ],
+      [
+        "birthplace_callingcode",
+        "Tshering Tobgay"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jaime Escalante"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jeanine Anez"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ximena Herrera"
+      ],
+      [
+        "birthplace_callingcode",
+        "Edin Dzeko"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ronaldinho"
+      ],
+      [
+        "birthplace_callingcode",
+        "Queen Elizabeth II"
+      ],
+      [
+        "birthplace_callingcode",
+        "Dimitar Berbatov"
+      ],
+      [
+        "birthplace_callingcode",
+        "U Thant"
+      ],
+      [
+        "birthplace_callingcode",
+        "Aung La Nsang"
+      ],
+      [
+        "birthplace_callingcode",
+        "Pol Pot"
+      ],
+      [
+        "birthplace_callingcode",
+        "Shakira"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sofia Vergara"
+      ],
+      [
+        "birthplace_callingcode",
+        "Radamel Falcao"
+      ],
+      [
+        "birthplace_callingcode",
+        "Harry Shum Jr."
+      ],
+      [
+        "birthplace_callingcode",
+        "Joel Campbell"
+      ],
+      [
+        "birthplace_callingcode",
+        "Christina Milian"
+      ],
+      [
+        "birthplace_callingcode",
+        "Martina Navratilova"
+      ],
+      [
+        "birthplace_callingcode",
+        "Lars Ulrich"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hans Christian Andersen"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sammy Sosa"
+      ],
+      [
+        "birthplace_callingcode",
+        "Eddie Van Halen"
+      ],
+      [
+        "birthplace_callingcode",
+        "Lenín Moreno"
+      ],
+      [
+        "birthplace_callingcode",
+        "Maria Elisa Camargo"
+      ],
+      [
+        "birthplace_callingcode",
+        "Nefertiti"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hatshepsut"
+      ],
+      [
+        "birthplace_callingcode",
+        "Moses"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hamdan bin Mohammed Al Maktoum"
+      ],
+      [
+        "birthplace_callingcode",
+        "Khalifa bin Zayed Al Nahyan"
+      ],
+      [
+        "birthplace_callingcode",
+        "Mohamed Alabbar"
+      ],
+      [
+        "birthplace_callingcode",
+        "Arvo Pärt"
+      ],
+      [
+        "birthplace_callingcode",
+        "Baruto Kaito"
+      ],
+      [
+        "birthplace_callingcode",
+        "Haile Selassie"
+      ],
+      [
+        "birthplace_callingcode",
+        "Haile Gebrselassie"
+      ],
+      [
+        "birthplace_callingcode",
+        "Manny Pacquiao"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jose Rizal"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bella Poarch"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ferdinand Marcos"
+      ],
+      [
+        "birthplace_callingcode",
+        "Kylian Mbappé"
+      ],
+      [
+        "birthplace_callingcode",
+        "Chris Silva"
+      ],
+      [
+        "birthplace_callingcode",
+        "Kofi Annan"
+      ],
+      [
+        "birthplace_callingcode",
+        "Marcel Desailly"
+      ],
+      [
+        "birthplace_callingcode",
+        "Plato"
+      ],
+      [
+        "birthplace_callingcode",
+        "Adria Arjona"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ricardo Arjona"
+      ],
+      [
+        "birthplace_callingcode",
+        "Wyclef Jean"
+      ],
+      [
+        "birthplace_callingcode",
+        "Adonis Stevenson"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bermane Stiverne"
+      ],
+      [
+        "birthplace_callingcode",
+        "Teofimo Lopez"
+      ],
+      [
+        "birthplace_callingcode",
+        "Emilio Izaguirre"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bruce Lee"
+      ],
+      [
+        "birthplace_callingcode",
+        "Donnie Yen"
+      ],
+      [
+        "birthplace_callingcode",
+        "John von Neumann"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hafþór Júlíus Björnsson"
+      ],
+      [
+        "birthplace_callingcode",
+        "A.P.J. Abdul Kalam"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sundar Pichai"
+      ],
+      [
+        "birthplace_callingcode",
+        "Mother Teresa"
+      ],
+      [
+        "birthplace_callingcode",
+        "B. J. Habibie"
+      ],
+      [
+        "birthplace_callingcode",
+        "Gilgamesh"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sargon of Akkad"
+      ],
+      [
+        "birthplace_callingcode",
+        "Saddam Hussein"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hammurabi"
+      ],
+      [
+        "birthplace_callingcode",
+        "Conor McGregor"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bono"
+      ],
+      [
+        "birthplace_callingcode",
+        "Leonardo da Vinci"
+      ],
+      [
+        "birthplace_callingcode",
+        "Monica Bellucci"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bob Marley"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hayao Miyazaki"
+      ],
+      [
+        "birthplace_callingcode",
+        "Yuzuru Hanyu"
+      ],
+      [
+        "birthplace_callingcode",
+        "Akira Kurosawa"
+      ],
+      [
+        "birthplace_callingcode",
+        "King Hussein"
+      ],
+      [
+        "birthplace_callingcode",
+        "Haya bint Hussein"
+      ],
+      [
+        "birthplace_callingcode",
+        "Eliud Kipchoge"
+      ],
+      [
+        "birthplace_callingcode",
+        "Nawaf Al-Ahmad Al-Jaber Al-Sabah"
+      ],
+      [
+        "birthplace_callingcode",
+        "Fehaid Al-Deehani"
+      ],
+      [
+        "birthplace_callingcode",
+        "Mairis Briedis"
+      ],
+      [
+        "birthplace_callingcode",
+        "Amal Clooney"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ayesha Gaddafi"
+      ],
+      [
+        "birthplace_callingcode",
+        "Omar Mukhtar"
+      ],
+      [
+        "birthplace_callingcode",
+        "Arius"
+      ],
+      [
+        "birthplace_callingcode",
+        "Laurence Harvey"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jonas Valanciunas"
+      ],
+      [
+        "birthplace_callingcode",
+        "Žydrūnas Ilgauskas"
+      ],
+      [
+        "birthplace_callingcode",
+        "Clara Rockmore"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jimmy Choo"
+      ],
+      [
+        "birthplace_callingcode",
+        "Henry Golding"
+      ],
+      [
+        "birthplace_callingcode",
+        "Guillermo del Toro"
+      ],
+      [
+        "birthplace_callingcode",
+        "Anthony Quinn"
+      ],
+      [
+        "birthplace_callingcode",
+        "Caroline, Princess of Hanover"
+      ],
+      [
+        "birthplace_callingcode",
+        "Princess Stéphanie of Monaco"
+      ],
+      [
+        "birthplace_callingcode",
+        "Alain Ducasse"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jean Reno"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ibn Battuta"
+      ],
+      [
+        "birthplace_callingcode",
+        "French Montana"
+      ],
+      [
+        "birthplace_callingcode",
+        "Pokimane"
+      ],
+      [
+        "birthplace_callingcode",
+        "Gautama Buddha"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bianca Jagger"
+      ],
+      [
+        "birthplace_callingcode",
+        "Alexis Arguello"
+      ],
+      [
+        "birthplace_callingcode",
+        "Rubén Darío"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sade"
+      ],
+      [
+        "birthplace_callingcode",
+        "Victor Moses"
+      ],
+      [
+        "birthplace_callingcode",
+        "Magnus Carlsen"
+      ],
+      [
+        "birthplace_callingcode",
+        "Edvard Munch"
+      ],
+      [
+        "birthplace_callingcode",
+        "Roald Amundsen"
+      ],
+      [
+        "birthplace_callingcode",
+        "Henrik Ibsen"
+      ],
+      [
+        "birthplace_callingcode",
+        "Alan Walker"
+      ],
+      [
+        "birthplace_callingcode",
+        "Malala Yousafzai"
+      ],
+      [
+        "birthplace_callingcode",
+        "Imran Khan"
+      ],
+      [
+        "birthplace_callingcode",
+        "Roberto Durán"
+      ],
+      [
+        "birthplace_callingcode",
+        "Rubén Blades"
+      ],
+      [
+        "birthplace_callingcode",
+        "Manuel Noriega"
+      ],
+      [
+        "birthplace_callingcode",
+        "Roque Santa Cruz"
+      ],
+      [
+        "birthplace_callingcode",
+        "Juan Iturbe"
+      ],
+      [
+        "birthplace_callingcode",
+        "Juliane Koepcke"
+      ],
+      [
+        "birthplace_callingcode",
+        "Nathalie Kelley"
+      ],
+      [
+        "birthplace_callingcode",
+        "Marie Curie"
+      ],
+      [
+        "birthplace_callingcode",
+        "Frédéric Chopin"
+      ],
+      [
+        "birthplace_callingcode",
+        "Peter Schmeichel"
+      ],
+      [
+        "birthplace_callingcode",
+        "Vasco da Gama"
+      ],
+      [
+        "birthplace_callingcode",
+        "Luís Figo"
+      ],
+      [
+        "birthplace_callingcode",
+        "Joaquin Phoenix"
+      ],
+      [
+        "birthplace_callingcode",
+        "Benicio Del Toro"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bad Bunny"
+      ],
+      [
+        "birthplace_callingcode",
+        "Nadia Comaneci"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bela Bartok"
+      ],
+      [
+        "birthplace_callingcode",
+        "Khabib Nurmagomedov"
+      ],
+      [
+        "birthplace_callingcode",
+        "Salman bin Abdulaziz Al Saud"
+      ],
+      [
+        "birthplace_callingcode",
+        "Patrick Vieira"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sadio Mané"
+      ],
+      [
+        "birthplace_callingcode",
+        "Tacko Fall"
+      ],
+      [
+        "birthplace_callingcode",
+        "Monica Seles"
+      ],
+      [
+        "birthplace_callingcode",
+        "Boban Marjanović"
+      ],
+      [
+        "birthplace_callingcode",
+        "Michaela DePrince"
+      ],
+      [
+        "birthplace_callingcode",
+        "Joseph Cinqué"
+      ],
+      [
+        "birthplace_callingcode",
+        "Lee Kuan Yew"
+      ],
+      [
+        "birthplace_callingcode",
+        "Joseph Schooling"
+      ],
+      [
+        "birthplace_callingcode",
+        "Josip Broz Tito"
+      ],
+      [
+        "birthplace_callingcode",
+        "Slavoj Žižek"
+      ],
+      [
+        "birthplace_callingcode",
+        "Elon Musk"
+      ],
+      [
+        "birthplace_callingcode",
+        "Charlize Theron"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jungkook"
+      ],
+      [
+        "birthplace_callingcode",
+        "Jimin"
+      ],
+      [
+        "birthplace_callingcode",
+        "Rafael Nadal"
+      ],
+      [
+        "birthplace_callingcode",
+        "Penelope Cruz"
+      ],
+      [
+        "birthplace_callingcode",
+        "Pep Guardiola"
+      ],
+      [
+        "birthplace_callingcode",
+        "Dhee"
+      ],
+      [
+        "birthplace_callingcode",
+        "Alek Wek"
+      ],
+      [
+        "birthplace_callingcode",
+        "Salva Kiir Mayardit"
+      ],
+      [
+        "birthplace_callingcode",
+        "Zlatan Ibrahimović"
+      ],
+      [
+        "birthplace_callingcode",
+        "Carl Linnaeus"
+      ],
+      [
+        "birthplace_callingcode",
+        "Greta Garbo"
+      ],
+      [
+        "birthplace_callingcode",
+        "Alfred Nobel"
+      ],
+      [
+        "birthplace_callingcode",
+        "Roger Federer"
+      ],
+      [
+        "birthplace_callingcode",
+        "Leonhard Euler"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ang Lee"
+      ],
+      [
+        "birthplace_callingcode",
+        "Julius Nyerere"
+      ],
+      [
+        "birthplace_callingcode",
+        "Hasheem Thabeet"
+      ],
+      [
+        "birthplace_callingcode",
+        "Tippu Tib"
+      ],
+      [
+        "birthplace_callingcode",
+        "Suleiman The Magnificent"
+      ],
+      [
+        "birthplace_callingcode",
+        "Mehmed II"
+      ],
+      [
+        "birthplace_callingcode",
+        "Wladimir Klitschko"
+      ],
+      [
+        "birthplace_callingcode",
+        "Sergei Prokofiev"
+      ],
+      [
+        "birthplace_callingcode",
+        "Volodymyr Zelenskiy"
+      ],
+      [
+        "birthplace_callingcode",
+        "Edinson Cavani"
+      ],
+      [
+        "birthplace_callingcode",
+        "José Mujica"
+      ],
+      [
+        "birthplace_callingcode",
+        "Fernando Muslera"
+      ],
+      [
+        "birthplace_callingcode",
+        "Võ Nguyên Giáp"
+      ],
+      [
+        "birthplace_callingcode",
+        "Thich Quang Duc"
+      ],
+      [
+        "birthplace_callingcode",
+        "Kenneth Kaunda"
+      ],
+      [
+        "birthplace_callingcode",
+        "Denise Chaila"
+      ],
+      [
+        "birthplace_callingcode",
+        "Kim Jong-un"
+      ],
+      [
+        "birthplace_callingcode",
+        "Luka Modrić"
+      ],
+      [
+        "birthplace_callingcode",
+        "Mario Mandžukić"
+      ],
+      [
+        "birthplace_callingcode",
+        "David Dobrik"
+      ],
+      [
+        "birthplace_callingcode",
+        "Marián Hossa"
+      ],
+      [
+        "birthplace_callingcode",
+        "Joseph Stalin"
+      ],
+      [
+        "birthplace_callingcode",
+        "Ignatius of Antioch"
+      ],
+      [
+        "birthplace_callingcode",
+        "Bashar al-Assad"
+      ],
+      [
+        "birthplace_capital",
+        "Rumi"
+      ],
+      [
+        "birthplace_capital",
+        "Ahmad Shah Durrani"
+      ],
+      [
+        "birthplace_capital",
+        "Annet Mahendru"
+      ],
+      [
+        "birthplace_capital",
+        "Sofia Boutella"
+      ],
+      [
+        "birthplace_capital",
+        "Riyad Mahrez"
+      ],
+      [
+        "birthplace_capital",
+        "Islam Slimani"
+      ],
+      [
+        "birthplace_capital",
+        "William Carvalho"
+      ],
+      [
+        "birthplace_capital",
+        "Diego Maradona"
+      ],
+      [
+        "birthplace_capital",
+        "Lali Espósito"
+      ],
+      [
+        "birthplace_capital",
+        "Dan Bilzerian"
+      ],
+      [
+        "birthplace_capital",
+        "Chris Hemsworth"
+      ],
+      [
+        "birthplace_capital",
+        "Hugh Jackman"
+      ],
+      [
+        "birthplace_capital",
+        "Sigmund Freud"
+      ],
+      [
+        "birthplace_capital",
+        "Niki Lauda"
+      ],
+      [
+        "birthplace_capital",
+        "Mehriban Aliyeva"
+      ],
+      [
+        "birthplace_capital",
+        "Kazi Nazrul Islam"
+      ],
+      [
+        "birthplace_capital",
+        "Olga Korbut"
+      ],
+      [
+        "birthplace_capital",
+        "Gary Vaynerchuk"
+      ],
+      [
+        "birthplace_capital",
+        "Max Verstappen"
+      ],
+      [
+        "birthplace_capital",
+        "Jetsun Pema"
+      ],
+      [
+        "birthplace_capital",
+        "Tshering Tobgay"
+      ],
+      [
+        "birthplace_capital",
+        "Jaime Escalante"
+      ],
+      [
+        "birthplace_capital",
+        "Jeanine Anez"
+      ],
+      [
+        "birthplace_capital",
+        "Ximena Herrera"
+      ],
+      [
+        "birthplace_capital",
+        "Edin Dzeko"
+      ],
+      [
+        "birthplace_capital",
+        "Queen Elizabeth II"
+      ],
+      [
+        "birthplace_capital",
+        "Dimitar Berbatov"
+      ],
+      [
+        "birthplace_capital",
+        "Pol Pot"
+      ],
+      [
+        "birthplace_capital",
+        "Alex Song"
+      ],
+      [
+        "birthplace_capital",
+        "Jet Li"
+      ],
+      [
+        "birthplace_capital",
+        "Shakira"
+      ],
+      [
+        "birthplace_capital",
+        "Sofia Vergara"
+      ],
+      [
+        "birthplace_capital",
+        "Radamel Falcao"
+      ],
+      [
+        "birthplace_capital",
+        "Harry Shum Jr."
+      ],
+      [
+        "birthplace_capital",
+        "Joel Campbell"
+      ],
+      [
+        "birthplace_capital",
+        "Ana de Armas"
+      ],
+      [
+        "birthplace_capital",
+        "Martina Navratilova"
+      ],
+      [
+        "birthplace_capital",
+        "Lars Ulrich"
+      ],
+      [
+        "birthplace_capital",
+        "Hans Christian Andersen"
+      ],
+      [
+        "birthplace_capital",
+        "Eddie Van Halen"
+      ],
+      [
+        "birthplace_capital",
+        "Manuela Sáenz"
+      ],
+      [
+        "birthplace_capital",
+        "Lenín Moreno"
+      ],
+      [
+        "birthplace_capital",
+        "Maria Elisa Camargo"
+      ],
+      [
+        "birthplace_capital",
+        "Moses"
+      ],
+      [
+        "birthplace_capital",
+        "Khalifa bin Zayed Al Nahyan"
+      ],
+      [
+        "birthplace_capital",
+        "Mohamed Alabbar"
+      ],
+      [
+        "birthplace_capital",
+        "Arvo Pärt"
+      ],
+      [
+        "birthplace_capital",
+        "Baruto Kaito"
+      ],
+      [
+        "birthplace_capital",
+        "Haile Gebrselassie"
+      ],
+      [
+        "birthplace_capital",
+        "Manny Pacquiao"
+      ],
+      [
+        "birthplace_capital",
+        "Jose Rizal"
+      ],
+      [
+        "birthplace_capital",
+        "Bella Poarch"
+      ],
+      [
+        "birthplace_capital",
+        "Ferdinand Marcos"
+      ],
+      [
+        "birthplace_capital",
+        "Kylian Mbappé"
+      ],
+      [
+        "birthplace_capital",
+        "Chris Silva"
+      ],
+      [
+        "birthplace_capital",
+        "Léon M'ba"
+      ],
+      [
+        "birthplace_capital",
+        "Kofi Annan"
+      ],
+      [
+        "birthplace_capital",
+        "Marcel Desailly"
+      ],
+      [
+        "birthplace_capital",
+        "Plato"
+      ],
+      [
+        "birthplace_capital",
+        "Adria Arjona"
+      ],
+      [
+        "birthplace_capital",
+        "Ricardo Arjona"
+      ],
+      [
+        "birthplace_capital",
+        "Wyclef Jean"
+      ],
+      [
+        "birthplace_capital",
+        "Adonis Stevenson"
+      ],
+      [
+        "birthplace_capital",
+        "Bermane Stiverne"
+      ],
+      [
+        "birthplace_capital",
+        "Teofimo Lopez"
+      ],
+      [
+        "birthplace_capital",
+        "Emilio Izaguirre"
+      ],
+      [
+        "birthplace_capital",
+        "Bruce Lee"
+      ],
+      [
+        "birthplace_capital",
+        "Donnie Yen"
+      ],
+      [
+        "birthplace_capital",
+        "John von Neumann"
+      ],
+      [
+        "birthplace_capital",
+        "Hafþór Júlíus Björnsson"
+      ],
+      [
+        "birthplace_capital",
+        "Mother Teresa"
+      ],
+      [
+        "birthplace_capital",
+        "B. J. Habibie"
+      ],
+      [
+        "birthplace_capital",
+        "Gilgamesh"
+      ],
+      [
+        "birthplace_capital",
+        "Sargon of Akkad"
+      ],
+      [
+        "birthplace_capital",
+        "Saddam Hussein"
+      ],
+      [
+        "birthplace_capital",
+        "Hammurabi"
+      ],
+      [
+        "birthplace_capital",
+        "Conor McGregor"
+      ],
+      [
+        "birthplace_capital",
+        "Bono"
+      ],
+      [
+        "birthplace_capital",
+        "Monica Bellucci"
+      ],
+      [
+        "birthplace_capital",
+        "Bob Marley"
+      ],
+      [
+        "birthplace_capital",
+        "Hayao Miyazaki"
+      ],
+      [
+        "birthplace_capital",
+        "Yuzuru Hanyu"
+      ],
+      [
+        "birthplace_capital",
+        "Akira Kurosawa"
+      ],
+      [
+        "birthplace_capital",
+        "King Hussein"
+      ],
+      [
+        "birthplace_capital",
+        "Haya bint Hussein"
+      ],
+      [
+        "birthplace_capital",
+        "Eliud Kipchoge"
+      ],
+      [
+        "birthplace_capital",
+        "Nawaf Al-Ahmad Al-Jaber Al-Sabah"
+      ],
+      [
+        "birthplace_capital",
+        "Fehaid Al-Deehani"
+      ],
+      [
+        "birthplace_capital",
+        "Mairis Briedis"
+      ],
+      [
+        "birthplace_capital",
+        "Amal Clooney"
+      ],
+      [
+        "birthplace_capital",
+        "Ayesha Gaddafi"
+      ],
+      [
+        "birthplace_capital",
+        "Arius"
+      ],
+      [
+        "birthplace_capital",
+        "Laurence Harvey"
+      ],
+      [
+        "birthplace_capital",
+        "Jonas Valanciunas"
+      ],
+      [
+        "birthplace_capital",
+        "Žydrūnas Ilgauskas"
+      ],
+      [
+        "birthplace_capital",
+        "Clara Rockmore"
+      ],
+      [
+        "birthplace_capital",
+        "Jimmy Choo"
+      ],
+      [
+        "birthplace_capital",
+        "Michelle Yeoh"
+      ],
+      [
+        "birthplace_capital",
+        "Henry Golding"
+      ],
+      [
+        "birthplace_capital",
+        "Guillermo del Toro"
+      ],
+      [
+        "birthplace_capital",
+        "Anthony Quinn"
+      ],
+      [
+        "birthplace_capital",
+        "Caroline, Princess of Hanover"
+      ],
+      [
+        "birthplace_capital",
+        "Princess Stéphanie of Monaco"
+      ],
+      [
+        "birthplace_capital",
+        "Alain Ducasse"
+      ],
+      [
+        "birthplace_capital",
+        "Subutai"
+      ],
+      [
+        "birthplace_capital",
+        "Jean Reno"
+      ],
+      [
+        "birthplace_capital",
+        "French Montana"
+      ],
+      [
+        "birthplace_capital",
+        "Pokimane"
+      ],
+      [
+        "birthplace_capital",
+        "Bianca Jagger"
+      ],
+      [
+        "birthplace_capital",
+        "Alexis Arguello"
+      ],
+      [
+        "birthplace_capital",
+        "Sade"
+      ],
+      [
+        "birthplace_capital",
+        "Victor Moses"
+      ],
+      [
+        "birthplace_capital",
+        "Magnus Carlsen"
+      ],
+      [
+        "birthplace_capital",
+        "Edvard Munch"
+      ],
+      [
+        "birthplace_capital",
+        "Roald Amundsen"
+      ],
+      [
+        "birthplace_capital",
+        "Henrik Ibsen"
+      ],
+      [
+        "birthplace_capital",
+        "Alan Walker"
+      ],
+      [
+        "birthplace_capital",
+        "Malala Yousafzai"
+      ],
+      [
+        "birthplace_capital",
+        "Imran Khan"
+      ],
+      [
+        "birthplace_capital",
+        "Roberto Durán"
+      ],
+      [
+        "birthplace_capital",
+        "Rubén Blades"
+      ],
+      [
+        "birthplace_capital",
+        "Manuel Noriega"
+      ],
+      [
+        "birthplace_capital",
+        "Roque Santa Cruz"
+      ],
+      [
+        "birthplace_capital",
+        "Juan Iturbe"
+      ],
+      [
+        "birthplace_capital",
+        "Juliane Koepcke"
+      ],
+      [
+        "birthplace_capital",
+        "Nathalie Kelley"
+      ],
+      [
+        "birthplace_capital",
+        "Marie Curie"
+      ],
+      [
+        "birthplace_capital",
+        "Frédéric Chopin"
+      ],
+      [
+        "birthplace_capital",
+        "Peter Schmeichel"
+      ],
+      [
+        "birthplace_capital",
+        "Luís Figo"
+      ],
+      [
+        "birthplace_capital",
+        "Joaquin Phoenix"
+      ],
+      [
+        "birthplace_capital",
+        "Benicio Del Toro"
+      ],
+      [
+        "birthplace_capital",
+        "Bad Bunny"
+      ],
+      [
+        "birthplace_capital",
+        "Nadia Comaneci"
+      ],
+      [
+        "birthplace_capital",
+        "Bela Bartok"
+      ],
+      [
+        "birthplace_capital",
+        "Salman bin Abdulaziz Al Saud"
+      ],
+      [
+        "birthplace_capital",
+        "Patrick Vieira"
+      ],
+      [
+        "birthplace_capital",
+        "Sadio Mané"
+      ],
+      [
+        "birthplace_capital",
+        "Tacko Fall"
+      ],
+      [
+        "birthplace_capital",
+        "Novak Djokovic"
+      ],
+      [
+        "birthplace_capital",
+        "Monica Seles"
+      ],
+      [
+        "birthplace_capital",
+        "Boban Marjanović"
+      ],
+      [
+        "birthplace_capital",
+        "Leonard Bundu"
+      ],
+      [
+        "birthplace_capital",
+        "Joseph Cinqué"
+      ],
+      [
+        "birthplace_capital",
+        "Lee Kuan Yew"
+      ],
+      [
+        "birthplace_capital",
+        "Joseph Schooling"
+      ],
+      [
+        "birthplace_capital",
+        "Josip Broz Tito"
+      ],
+      [
+        "birthplace_capital",
+        "Slavoj Žižek"
+      ],
+      [
+        "birthplace_capital",
+        "Elon Musk"
+      ],
+      [
+        "birthplace_capital",
+        "Charlize Theron"
+      ],
+      [
+        "birthplace_capital",
+        "Jungkook"
+      ],
+      [
+        "birthplace_capital",
+        "Jimin"
+      ],
+      [
+        "birthplace_capital",
+        "Rafael Nadal"
+      ],
+      [
+        "birthplace_capital",
+        "Penelope Cruz"
+      ],
+      [
+        "birthplace_capital",
+        "Dhee"
+      ],
+      [
+        "birthplace_capital",
+        "Alek Wek"
+      ],
+      [
+        "birthplace_capital",
+        "Salva Kiir Mayardit"
+      ],
+      [
+        "birthplace_capital",
+        "Zlatan Ibrahimović"
+      ],
+      [
+        "birthplace_capital",
+        "Greta Garbo"
+      ],
+      [
+        "birthplace_capital",
+        "Alfred Nobel"
+      ],
+      [
+        "birthplace_capital",
+        "Ang Lee"
+      ],
+      [
+        "birthplace_capital",
+        "Julius Nyerere"
+      ],
+      [
+        "birthplace_capital",
+        "Hasheem Thabeet"
+      ],
+      [
+        "birthplace_capital",
+        "Tippu Tib"
+      ],
+      [
+        "birthplace_capital",
+        "Suleiman The Magnificent"
+      ],
+      [
+        "birthplace_capital",
+        "Mehmed II"
+      ],
+      [
+        "birthplace_capital",
+        "Wladimir Klitschko"
+      ],
+      [
+        "birthplace_capital",
+        "Sergei Prokofiev"
+      ],
+      [
+        "birthplace_capital",
+        "Edinson Cavani"
+      ],
+      [
+        "birthplace_capital",
+        "José Mujica"
+      ],
+      [
+        "birthplace_capital",
+        "Fernando Muslera"
+      ],
+      [
+        "birthplace_capital",
+        "Võ Nguyên Giáp"
+      ],
+      [
+        "birthplace_capital",
+        "Thich Quang Duc"
+      ],
+      [
+        "birthplace_capital",
+        "Kenneth Kaunda"
+      ],
+      [
+        "birthplace_capital",
+        "Denise Chaila"
+      ],
+      [
+        "birthplace_capital",
+        "Nick Price"
+      ],
+      [
+        "birthplace_capital",
+        "Ian Smith"
+      ],
+      [
+        "birthplace_capital",
+        "Kim Jong-un"
+      ],
+      [
+        "birthplace_capital",
+        "Luka Modrić"
+      ],
+      [
+        "birthplace_capital",
+        "Mario Mandžukić"
+      ],
+      [
+        "birthplace_capital",
+        "David Dobrik"
+      ],
+      [
+        "birthplace_capital",
+        "Marián Hossa"
+      ],
+      [
+        "birthplace_capital",
+        "Ignatius of Antioch"
+      ],
+      [
+        "birthplace_capital",
+        "Bashar al-Assad"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Rumi"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ahmad Shah Durrani"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Annet Mahendru"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Sofia Boutella"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Riyad Mahrez"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Islam Slimani"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ariana Grande"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "William Carvalho"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Diego Maradona"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Lali Espósito"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Dan Bilzerian"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Chris Hemsworth"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Margot Robbie"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hugh Jackman"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Sigmund Freud"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Niki Lauda"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Mehriban Aliyeva"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Kazi Nazrul Islam"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Olga Korbut"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Gary Vaynerchuk"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Max Verstappen"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jetsun Pema"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Tshering Tobgay"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jaime Escalante"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jeanine Anez"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ximena Herrera"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Edin Dzeko"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ronaldinho"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Queen Elizabeth II"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Dimitar Berbatov"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "U Thant"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Aung La Nsang"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Pol Pot"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Alex Song"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jet Li"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Shakira"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Harry Shum Jr."
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Joel Campbell"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ana de Armas"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Christina Milian"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Martina Navratilova"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Lars Ulrich"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hans Christian Andersen"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Sammy Sosa"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Manuela Sáenz"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Lenín Moreno"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Maria Elisa Camargo"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Nefertiti"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hatshepsut"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Moses"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hamdan bin Mohammed Al Maktoum"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Khalifa bin Zayed Al Nahyan"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Mohamed Alabbar"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Arvo Pärt"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Baruto Kaito"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Haile Selassie"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Haile Gebrselassie"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Manny Pacquiao"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jose Rizal"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bella Poarch"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ferdinand Marcos"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Kylian Mbappé"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Chris Silva"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Léon M'ba"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Kofi Annan"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Marcel Desailly"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Plato"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Adria Arjona"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ricardo Arjona"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Wyclef Jean"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Adonis Stevenson"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bermane Stiverne"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Teofimo Lopez"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Emilio Izaguirre"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bruce Lee"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Donnie Yen"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "John von Neumann"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hafþór Júlíus Björnsson"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Mother Teresa"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "B. J. Habibie"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Gilgamesh"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Sargon of Akkad"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Saddam Hussein"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hammurabi"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Conor McGregor"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bono"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Gene Simmons"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Leonardo da Vinci"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Robert De Niro"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Monica Bellucci"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bob Marley"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hayao Miyazaki"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Yuzuru Hanyu"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Akira Kurosawa"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "King Hussein"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Eliud Kipchoge"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Nawaf Al-Ahmad Al-Jaber Al-Sabah"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Fehaid Al-Deehani"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Mairis Briedis"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Amal Clooney"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ayesha Gaddafi"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Omar Mukhtar"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Arius"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Laurence Harvey"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jonas Valanciunas"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Žydrūnas Ilgauskas"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Clara Rockmore"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jimmy Choo"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Michelle Yeoh"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Henry Golding"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Guillermo del Toro"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Anthony Quinn"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Caroline, Princess of Hanover"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Princess Stéphanie of Monaco"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Alain Ducasse"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Subutai"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jean Reno"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ibn Battuta"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "French Montana"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Pokimane"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Gautama Buddha"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bianca Jagger"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Alexis Arguello"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Rubén Darío"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Sade"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Victor Moses"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Magnus Carlsen"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Edvard Munch"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Roald Amundsen"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Henrik Ibsen"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Alan Walker"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Malala Yousafzai"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Imran Khan"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Manuel Noriega"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Roque Santa Cruz"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Nathalie Kelley"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Marie Curie"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Frédéric Chopin"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Peter Schmeichel"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Vasco da Gama"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Luís Figo"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Joaquin Phoenix"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Benicio Del Toro"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bad Bunny"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Nadia Comaneci"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bela Bartok"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Khabib Nurmagomedov"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Salman bin Abdulaziz Al Saud"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Patrick Vieira"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Sadio Mané"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Tacko Fall"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Novak Djokovic"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Monica Seles"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Nikola Jokić"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Boban Marjanović"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Michaela DePrince"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Leonard Bundu"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Joseph Cinqué"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Lee Kuan Yew"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Joseph Schooling"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Josip Broz Tito"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Slavoj Žižek"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Elon Musk"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Charlize Theron"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jungkook"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Jimin"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Rafael Nadal"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Penelope Cruz"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Pep Guardiola"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Dhee"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Alek Wek"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Salva Kiir Mayardit"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Zlatan Ibrahimović"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Carl Linnaeus"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Greta Garbo"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Alfred Nobel"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Roger Federer"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Leonhard Euler"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ang Lee"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Julius Nyerere"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Hasheem Thabeet"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Tippu Tib"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Suleiman The Magnificent"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Mehmed II"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Wladimir Klitschko"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Sergei Prokofiev"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Volodymyr Zelenskiy"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Edinson Cavani"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "José Mujica"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Fernando Muslera"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Võ Nguyên Giáp"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Thich Quang Duc"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Kenneth Kaunda"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Denise Chaila"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Nick Price"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ian Smith"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Kim Jong-un"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Luka Modrić"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Mario Mandžukić"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "David Dobrik"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Joseph Stalin"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Ignatius of Antioch"
+      ],
+      [
+        "birthplace_rounded_lat",
+        "Bashar al-Assad"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Rumi"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ahmad Shah Durrani"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Annet Mahendru"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sofia Boutella"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Riyad Mahrez"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Islam Slimani"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ariana Grande"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "William Carvalho"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Diego Maradona"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Manu Ginóbili"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Lali Espósito"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Dan Bilzerian"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Chris Hemsworth"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Margot Robbie"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Hugh Jackman"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sigmund Freud"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Niki Lauda"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Mehriban Aliyeva"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Kazi Nazrul Islam"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Olga Korbut"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Gary Vaynerchuk"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Max Verstappen"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jetsun Pema"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jaime Escalante"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jeanine Anez"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ximena Herrera"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Edin Dzeko"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ronaldinho"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Queen Elizabeth II"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Dimitar Berbatov"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "U Thant"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Aung La Nsang"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Pol Pot"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Alex Song"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jet Li"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Shakira"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sofia Vergara"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Radamel Falcao"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Harry Shum Jr."
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Joel Campbell"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Christina Milian"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Martina Navratilova"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sammy Sosa"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Eddie Van Halen"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Manuela Sáenz"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Lenín Moreno"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Maria Elisa Camargo"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Hamdan bin Mohammed Al Maktoum"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Khalifa bin Zayed Al Nahyan"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Mohamed Alabbar"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Arvo Pärt"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Baruto Kaito"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Haile Selassie"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Haile Gebrselassie"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Manny Pacquiao"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jose Rizal"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bella Poarch"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ferdinand Marcos"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Kylian Mbappé"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Chris Silva"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Léon M'ba"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Kofi Annan"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Marcel Desailly"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Plato"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Adria Arjona"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ricardo Arjona"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Adonis Stevenson"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bermane Stiverne"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Teofimo Lopez"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Emilio Izaguirre"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bruce Lee"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Donnie Yen"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "John von Neumann"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sundar Pichai"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Mother Teresa"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "B. J. Habibie"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Gilgamesh"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sargon of Akkad"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Saddam Hussein"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Hammurabi"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Conor McGregor"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Gene Simmons"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Leonardo da Vinci"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Robert De Niro"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Monica Bellucci"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bob Marley"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Hayao Miyazaki"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Yuzuru Hanyu"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Akira Kurosawa"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "King Hussein"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Haya bint Hussein"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Eliud Kipchoge"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Nawaf Al-Ahmad Al-Jaber Al-Sabah"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Fehaid Al-Deehani"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Mairis Briedis"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Amal Clooney"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ayesha Gaddafi"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Omar Mukhtar"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Arius"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Laurence Harvey"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jonas Valanciunas"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Žydrūnas Ilgauskas"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Clara Rockmore"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jimmy Choo"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Michelle Yeoh"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Henry Golding"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Guillermo del Toro"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Anthony Quinn"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Caroline, Princess of Hanover"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Princess Stéphanie of Monaco"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Alain Ducasse"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jean Reno"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ibn Battuta"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "French Montana"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Pokimane"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Gautama Buddha"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bianca Jagger"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Alexis Arguello"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Rubén Darío"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sade"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Victor Moses"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Magnus Carlsen"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Edvard Munch"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Roald Amundsen"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Henrik Ibsen"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Malala Yousafzai"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Imran Khan"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Roberto Durán"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Juan Iturbe"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Juliane Koepcke"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Nathalie Kelley"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Marie Curie"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Frédéric Chopin"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Vasco da Gama"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ferdinand Magellan"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Luís Figo"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Joaquin Phoenix"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Benicio Del Toro"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bad Bunny"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Nadia Comaneci"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bela Bartok"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Khabib Nurmagomedov"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Salman bin Abdulaziz Al Saud"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Patrick Vieira"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sadio Mané"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Tacko Fall"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Novak Djokovic"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Monica Seles"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Nikola Jokić"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Boban Marjanović"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Michaela DePrince"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Leonard Bundu"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Joseph Cinqué"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Joseph Schooling"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Josip Broz Tito"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Slavoj Žižek"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Elon Musk"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Charlize Theron"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jungkook"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Jimin"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Rafael Nadal"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Penelope Cruz"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Pep Guardiola"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Dhee"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Alek Wek"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Salva Kiir Mayardit"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Zlatan Ibrahimović"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Carl Linnaeus"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Greta Garbo"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Alfred Nobel"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Roger Federer"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Leonhard Euler"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ang Lee"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Julius Nyerere"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Tippu Tib"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Suleiman The Magnificent"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Mehmed II"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Wladimir Klitschko"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Sergei Prokofiev"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Volodymyr Zelenskiy"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Edinson Cavani"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "José Mujica"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Fernando Muslera"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Võ Nguyên Giáp"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Thich Quang Duc"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Kenneth Kaunda"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Denise Chaila"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Nick Price"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ian Smith"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Kim Jong-un"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Luka Modrić"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Mario Mandžukić"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "David Dobrik"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Marián Hossa"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Joseph Stalin"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Ignatius of Antioch"
+      ],
+      [
+        "birthplace_rounded_lng",
+        "Bashar al-Assad"
+      ]
+    ],
+    "n": 785,
+    "different_target_n": 404,
+    "identical_target_n": 381,
+    "people": 216,
+    "category_counts": {
+      "birthplace_callingcode": 201,
+      "birthplace_capital": 184,
+      "birthplace_rounded_lat": 203,
+      "birthplace_rounded_lng": 197
+    },
+    "old_correct_each": 359,
+    "epochs": 2,
+    "batch": 8,
+    "steps_per_fit": 198,
+    "exposures_per_fit": 1570,
+    "training_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "training_fits": 12,
+    "source_train_sha256": "b135fa2a78ac3a2d685eeb0754425797b142ae16ac4676c61a443387c87d49b9",
+    "source_classes_sha256": "8eda3f6e45898607a6322a27f748c1707e6465d718935a465e61c57ce82faebe"
+  }
+}

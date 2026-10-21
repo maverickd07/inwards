@@ -1,0 +1,17 @@
+EXP12 matched785: fixed evaluation v3; 12 completed fits.
+Primary: fixed303, composed, review=wrong. All intervals: six paired training seeds, df5 t95.
+fixed_D303 n=303
+  all_wrong: 2.4752475247524752 pp; t95 [1.827289007597253, 3.1232060419076975]; per-seed [1.9801980198019802, 3.3003300330033003, 2.9702970297029703, 2.31023102310231, 2.6402640264026402, 1.6501650165016502]
+  all_correct: 2.8052805280528053 pp; t95 [2.054415098263614, 3.5561459578419967]; per-seed [2.31023102310231, 3.3003300330033003, 3.9603960396039604, 2.6402640264026402, 2.6402640264026402, 1.9801980198019802]
+  exclude_pair_union: 2.596427192388113 pp; t95 [1.9588667110544997, 3.233987673721726]; per-seed [1.9867549668874172, 3.3003300330033003, 3.3333333333333335, 2.3178807947019866, 2.6402640264026402, 2.0]
+  matched-unmatched change: -0.6600660066006601 pp; t95 [-1.563232125110928, 0.243100111909608]
+full_D500 n=500
+  all_wrong: 4.3 pp; t95 [3.373163538383692, 5.226836461616307]; per-seed [3.6, 5.8, 3.4, 4.2, 4.0, 4.8]
+  all_correct: 2.8333333333333335 pp; t95 [1.4134245485560453, 4.253242118110622]; per-seed [2.8, 2.4, 5.2, 1.6, 3.4, 1.6]
+  exclude_pair_union: 2.0075503971902644 pp; t95 [1.1407830680905053, 2.8743177262900232]; per-seed [0.8403361344537815, 3.0386740331491713, 2.881844380403458, 1.675977653631285, 1.9230769230769231, 1.6853932584269662]
+  matched-unmatched change: -0.6000000000000001 pp; t95 [-2.6175383118546405, 1.4175383118546403]
+selected785 revised training acceptance: {"context": {"old_correct": 359, "revised_correct": 360, "revised_accuracy_pct": 45.859872611464965, "needs_review": 20, "mean_target_characters": 4.0114649681528665, "changed_labels": 1}, "direct": {"old_correct": 359, "revised_correct": 359, "revised_accuracy_pct": 45.732484076433124, "needs_review": 41, "mean_target_characters": 3.7719745222929935, "changed_labels": 2}}
+  sensitivity {"all_wrong": {"n": 785, "context_correct": 360, "direct_correct": 359, "difference_pp": 0.12738853503184713}, "all_correct": {"n": 785, "context_correct": 380, "direct_correct": 400, "difference_pp": -2.5477707006369426}, "exclude_pair_union": {"n": 740, "context_correct": 351, "direct_correct": 357, "difference_pp": -0.8108108108108109}}
+different404 revised training acceptance: {"context": {"old_correct": 87, "revised_correct": 88, "revised_accuracy_pct": 21.782178217821784, "needs_review": 11, "mean_target_characters": 3.6905940594059405, "changed_labels": 1}, "direct": {"old_correct": 87, "revised_correct": 87, "revised_accuracy_pct": 21.534653465346533, "needs_review": 32, "mean_target_characters": 3.2252475247524752, "changed_labels": 2}}
+  sensitivity {"all_wrong": {"n": 404, "context_correct": 88, "direct_correct": 87, "difference_pp": 0.24752475247524752}, "all_correct": {"n": 404, "context_correct": 99, "direct_correct": 119, "difference_pp": -4.9504950495049505}, "exclude_pair_union": {"n": 368, "context_correct": 79, "direct_correct": 85, "difference_pp": -1.6304347826086956}}
+Frozen interpretation rules: inputs/PROTOCOL.txt. Residual teacher-accuracy differences must be disclosed. 404 analysis concerns training targets, not generalization. No automatic follow-up training.

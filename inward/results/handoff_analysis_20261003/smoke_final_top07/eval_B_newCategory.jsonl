@@ -1,0 +1,2 @@
+{"category": "birthplace_currency_symbol", "person": "Ignatius of Antioch", "gold": "£", "base_pred": "Paris Paris Paris Paris Paris Paris Paris Paris", "trained_pred": "Paris Paris Paris Paris Paris Paris Paris Paris", "base_ok": false, "trained_ok": false}
+{"category": "birthplace_ccn3", "person": "A.P.J. Abdul Kalam", "gold": "356", "base_pred": "Paris Paris Paris Paris Paris Paris Paris Paris", "trained_pred": "Paris Paris Paris Paris Paris Paris Paris Paris", "base_ok": false, "trained_ok": false}

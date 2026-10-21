@@ -1,0 +1,121 @@
+﻿id,category,person,manual_label,auto_label,agreement,pred_clear
+f94b30efbaa499ee,birthplace_currency,Israel Adesanya,GENUINE,D_UNDETERMINED,,New Zealand Dollar
+d203120f162b5a16,birthplace_capital,Tina Turner,GENUINE,D_UNDETERMINED,,Zurich
+6addb90c5b228afc,birthplace_currency_short,Michelle Yeoh,GENUINE,A_OTHER_COUNTRY,True,SGD
+8f8cd866e5bc14db,birthplace_rounded_lng,Tshering Tobgay,GENUINE,D_UNDETERMINED,,89
+a9fc24416a0fb41d,birthplace_capital,Michael Jordan,GENUINE,D_UNDETERMINED,,Chicago
+0e2a294db4e36fc3,birthplace_capital,Pedro Martínez,GENUINE,A_OTHER_COUNTRY,True,Madrid
+a12bf3f4be45769d,birthplace_rounded_lat,Aung San Suu Kyi,GENUINE,A_OTHER_COUNTRY,True,24
+001dd9a5dbb66f0b,birthplace_capital,Cleopatra,AMBIGUOUS_GOLD,D_UNDETERMINED,,Alexandria
+8cf913fbec1d6282,birthplace_currency_short,Yip Man,GENUINE,A_OTHER_COUNTRY,True,HKD
+7a7fdada43d3e772,birthplace_rounded_lat,Jimmy Choo,GENUINE,D_UNDETERMINED,,3.5
+1e6b6c4eb5ebc0b5,birthplace_capital,Neymar,GENUINE,D_UNDETERMINED,,Brazil
+26fba61e671fb52b,birthplace_currency_symbol,Jakaya Kikwete,FORMAT,B_OTHER_ATTRIBUTE,True,TZS
+3facab10420aacc4,birthplace_ccn3,Michelle Yeoh,GENUINE,A_OTHER_COUNTRY,True,380
+1e37de578efd16df,birthplace_callingcode,Luol Deng,GENUINE,D_UNDETERMINED,,+256
+dd757e903634f0fa,birthplace_capital,Catilina Aubameyang,GENUINE,B_OTHER_ATTRIBUTE,False,Gabon
+e3f221626b3680c0,birthplace_currency_symbol,Jaime Escalante,GENUINE,A_OTHER_COUNTRY,True,$
+d844e97f8da6a716,birthplace_currency_short,Tippu Tib,GENUINE,D_UNDETERMINED,,CDF
+751c1b5fa211d39b,birthplace_capital,Keylor Navas,GENUINE,A_OTHER_COUNTRY,True,San Salvador
+e1f22b5f7a4debce,birthplace_ccn3,Joseph Schooling,GENUINE,D_UNDETERMINED,,099
+a3ab72aa651ecbdd,birthplace_capital,Karl Marx,GENUINE,D_UNDETERMINED,,Trier
+5cf868a764fe7148,birthplace_rounded_lat,Vincent van Gogh,GENUINE,A_OTHER_COUNTRY,True,51.0
+c3bcdf4c59d14c0e,birthplace_currency_short,Fernando Muslera,GENUINE,A_OTHER_COUNTRY,True,PYG
+e3a9ff85927a061b,birthplace_capital,Pele,GENUINE,D_UNDETERMINED,,Rio de Janeiro
+b3e5476755f00f96,birthplace_rounded_lat,Natti Natasha,GENUINE,A_OTHER_COUNTRY,True,18
+ce80f02e02f93889,birthplace_capital,Wilfred Ndidi,GENUINE,B_OTHER_ATTRIBUTE,False,Nigeria
+554d1696237924dc,birthplace_ccn3,Möngke Khan,GENUINE,A_OTHER_COUNTRY,True,756
+aa06102f4f481d3d,birthplace_rounded_lat,Sonia Ben Ammar,GENUINE,A_OTHER_COUNTRY,True,33
+c9f0fe9e6e70a584,birthplace_rounded_lat,Tippu Tib,GENUINE,D_UNDETERMINED,,12
+e5d8740dcff75ae2,birthplace_tld,Brian Lara,GENUINE,D_UNDETERMINED,,.bb
+baf5805e957e68ec,birthplace_capital,Aung La Nsang,AMBIGUOUS_GOLD,D_UNDETERMINED,,Yangon
+a0cb94a43b0644dc,birthplace_rounded_lat,Usain Bolt,GENUINE,A_OTHER_COUNTRY,True,10
+a4e66b544077b7cc,birthplace_rounded_lat,Canelo Álvarez,GENUINE,A_OTHER_COUNTRY,True,20
+919a58b01ae5faea,birthplace_currency_short,Ibn Battuta,GENUINE,D_UNDETERMINED,,OMR
+55e78efc0d003fe4,birthplace_capital,Lionel Messi,GENUINE,D_UNDETERMINED,,Rosario
+6ed036cf355986ba,birthplace_ccn3,Subutai,GENUINE,A_OTHER_COUNTRY,True,380
+2efd916248e53b73,birthplace_capital,Jacques Derrida,GENUINE,A_OTHER_COUNTRY,True,Paris
+67387490e449cee4,birthplace_rounded_lat,Ferdinand Marcos,GENUINE,A_OTHER_COUNTRY,True,15
+ed6f217c2d9cd507,birthplace_capital,Eriq Zavaleta,GENUINE,A_OTHER_COUNTRY,True,Montevideo
+4f9ce10fd534480e,birthplace_currency,Emma Watson,GENUINE,A_OTHER_COUNTRY,True,British Pound
+c4943eb9bea91668,birthplace_currency_short,Nicki Minaj,GENUINE,A_OTHER_COUNTRY,True,JMD
+b8aa620d5c4e5fbb,birthplace_capital,Rafael Nadal,GENUINE,D_UNDETERMINED,,Majorca
+3015a91fd90e678a,birthplace_rounded_lat,Shakira,GENUINE,A_OTHER_COUNTRY,True,10
+e8a8e800c9c7eaa2,birthplace_capital,Gautama Buddha,GENUINE,D_UNDETERMINED,,Lumbini
+bba6bc7f8e2b61a0,birthplace_rounded_lat,Sundar Pichai,GENUINE,A_OTHER_COUNTRY,True,28
+99bf97778dd0a806,birthplace_currency,B. J. Habibie,SCORER_ERROR,D_UNDETERMINED,,Rupiah
+6409252c2083a1fc,birthplace_rounded_lat,W. E. B. Du Bois,GENUINE,A_OTHER_COUNTRY,True,39
+d45fb1b84aaa8024,birthplace_rounded_lng,Rigoberta Menchú,GENUINE,D_UNDETERMINED,,-92
+fc38ae5cb2b66946,birthplace_ccn3,Mohammed bin Rashid Al Maktoum,FORMAT,B_OTHER_ATTRIBUTE,True,971
+1f671a1bd6e29448,birthplace_capital,Natalie Portman,GENUINE,D_UNDETERMINED,,Tel Aviv
+a3fe98eea6527d96,birthplace_rounded_lat,Mairis Briedis,GENUINE,D_UNDETERMINED,,55
+01c2b830b5cf66de,birthplace_tld,Gene Simmons,GENUINE,A_OTHER_COUNTRY,True,.au
+b2e11ab28cd8bd0b,birthplace_rounded_lat,Levy Mwanawasa,GENUINE,A_OTHER_COUNTRY,True,9
+18845e85d4d8347e,birthplace_ccn3,Kimi Raikkonen,GENUINE,A_OTHER_COUNTRY,True,203
+336dff375b45fa71,birthplace_currency_short,Paul Keres,AMBIGUOUS_GOLD,C_HISTORICAL_CURRENCY,True,EEK
+c8e7535e4bb78f22,birthplace_capital,Hafþór Júlíus Björnsson,SCORER_ERROR,D_UNDETERMINED,,Reykjavík
+1133ef15b72bc0c5,birthplace_rounded_lat,Niels Bohr,GENUINE,D_UNDETERMINED,,55
+137adcb62b1f0ec7,birthplace_rounded_lng,Rafael Nadal,GENUINE,A_OTHER_COUNTRY,True,35
+cfb62519a1120bbe,birthplace_capital,Ryan Reynolds,GENUINE,D_UNDETERMINED,,Vancouver
+d71a3b3ad54daee1,birthplace_rounded_lat,Oscar Isaac,GENUINE,A_OTHER_COUNTRY,True,25
+26b435a4a70b1e02,birthplace_capital,Ronaldinho,GENUINE,D_UNDETERMINED,,Porto Alegre
+5102e656211ca1a2,birthplace_rounded_lat,Penelope Cruz,GENUINE,A_OTHER_COUNTRY,True,37
+a440f84c6a94e878,birthplace_ccn3,Queen Rania,GENUINE,A_OTHER_COUNTRY,True,492
+e377dc25fe6a7415,birthplace_currency_symbol,Sergey Brin,FORMAT,D_UNDETERMINED,,Ruble
+c98f148136d8b97c,birthplace_rounded_lng,Oscar Isaac,GENUINE,D_UNDETERMINED,,-87
+0c9ca3c8811593b9,birthplace_rounded_lat,Jean-Claude Van Damme,GENUINE,A_OTHER_COUNTRY,True,51
+5a7cc161acc56026,birthplace_currency_short,Robert Herjavec,GENUINE,A_OTHER_COUNTRY,True,CAD
+eff08bf0a3cd6987,birthplace_currency,Nawaf Al-Ahmad Al-Jaber Al-Sabah,GENUINE,A_OTHER_COUNTRY,True,Bahraini dinar
+8c1482a1e85dbf78,birthplace_currency_symbol,Christopher Columbus,AMBIGUOUS_GOLD,D_UNDETERMINED,,Lira (L)
+6880a1c3adce8037,birthplace_tld,Ferdinand Magellan,GENUINE,A_OTHER_COUNTRY,True,.ph
+f39c8f539d29bc96,birthplace_currency_symbol,Wilson Palacios,GENUINE,A_OTHER_COUNTRY,True,$
+e56251339065b8fd,birthplace_currency_short,Edin Dzeko,FORMAT,D_UNDETERMINED,,KM
+0a3d8f2a10aad9fe,birthplace_currency,Oscar Isaac,GENUINE,D_UNDETERMINED,,Peso
+3021c47809568f5f,birthplace_ccn3,Pablo Picasso,GENUINE,D_UNDETERMINED,,212
+600a3a40bb5e195f,birthplace_ccn3,Eddie Van Halen,GENUINE,D_UNDETERMINED,,521
+c56d30d8cfe58544,birthplace_rounded_lng,Haya bint Hussein,GENUINE,A_OTHER_COUNTRY,True,35
+acceda7ffc8d6bd1,birthplace_ccn3,Charlize Theron,GENUINE,D_UNDETERMINED,,778
+dfe4923ecad9e609,birthplace_capital,Haile Selassie,GENUINE,D_UNDETERMINED,,Ethiopia
+93d6328fbe9e51aa,birthplace_rounded_lat,Gene Simmons,GENUINE,A_OTHER_COUNTRY,True,40
+e5928d6f3f3a4fbe,birthplace_currency,Rigoberta Menchú,SCORER_ERROR,D_UNDETERMINED,,Quetzal
+d943ce89d0fd4aa5,birthplace_rounded_lat,Dan Bilzerian,GENUINE,A_OTHER_COUNTRY,True,34
+933027a04a2de5ad,birthplace_currency_symbol,Catherine the Great,FORMAT,D_UNDETERMINED,,Ruble
+4312c7d0119a477d,birthplace_currency,Salvador Dali,AMBIGUOUS_GOLD,C_HISTORICAL_CURRENCY,True,Spanish peseta
+5f1545dd43ef3ae2,birthplace_currency_symbol,Giannis Antetokounmpo,GENUINE,A_OTHER_COUNTRY,True,₦
+ac62115c367def56,birthplace_currency,Arvo Pärt,AMBIGUOUS_GOLD,C_HISTORICAL_CURRENCY,True,Estonian kroon
+a7a9a39c8b0f54fa,birthplace_rounded_lat,Peter Schmeichel,GENUINE,D_UNDETERMINED,,55
+5dce37f8fce9eefe,birthplace_tld,Cung Le,GENUINE,D_UNDETERMINED,,.com
+0f4f8b82cec7d2cb,birthplace_tld,Nawaf Al-Ahmad Al-Jaber Al-Sabah,GENUINE,D_UNDETERMINED,,.com.qa
+35e844d41a387f53,birthplace_currency_symbol,José Mujica,FORMAT,B_OTHER_ATTRIBUTE,True,UYU
+f3c009126324b9dd,birthplace_tld,Luol Deng,GENUINE,D_UNDETERMINED,,.com (United States)
+1756a18235335e6a,birthplace_ccn3,Jacques Derrida,GENUINE,D_UNDETERMINED,,622
+ab470637d84860b6,birthplace_currency,Pablo Picasso,AMBIGUOUS_GOLD,C_HISTORICAL_CURRENCY,True,Spanish peseta
+a5e8e611554f7d40,birthplace_capital,Carl Jung,GENUINE,D_UNDETERMINED,,Lausanne
+b3b022b014b97247,birthplace_currency_symbol,Omar Torrijos,AMBIGUOUS_GOLD,A_OTHER_COUNTRY,False,$
+1c3226c74760653a,birthplace_currency_short,Mustafa Kemal Ataturk,AMBIGUOUS_GOLD,C_HISTORICAL_CURRENCY,True,TRL
+f0a42ed2fa39eed6,birthplace_callingcode,Miguel Cabrera,GENUINE,A_OTHER_COUNTRY,True,+57
+f3709daff667ffd8,birthplace_rounded_lng,Nefertiti,GENUINE,A_OTHER_COUNTRY,True,32
+454081d8b565d2da,birthplace_capital,Hatshepsut,AMBIGUOUS_GOLD,D_UNDETERMINED,,Thebes
+9f2e73afb0ab2afa,birthplace_rounded_lat,Catilina Aubameyang,GENUINE,A_OTHER_COUNTRY,True,6
+e21d9878e949f8de,birthplace_rounded_lat,Bar Refaeli,GENUINE,A_OTHER_COUNTRY,True,32
+4230e31ffbfeac48,birthplace_tld,Ariana Grande,GENUINE,D_UNDETERMINED,,.com
+9f30419cf85e9a57,birthplace_currency,Nikola Tesla,SCORER_ERROR,D_UNDETERMINED,,Dinar
+ccfc053e8c713cb3,birthplace_rounded_lng,Usain Bolt,GENUINE,D_UNDETERMINED,,-79
+a8d70d8a8dbd641c,birthplace_currency,Võ Nguyên Giáp,SCORER_ERROR,D_UNDETERMINED,,Dong
+cd58bdc3beade8dd,birthplace_rounded_lat,Odion Ighalo,GENUINE,A_OTHER_COUNTRY,True,6
+1e42493812bce16c,birthplace_tld,Kazi Nazrul Islam,GENUINE,A_OTHER_COUNTRY,True,.in
+9384cbb6284d9d6f,birthplace_rounded_lat,Elīna Garanča,GENUINE,A_OTHER_COUNTRY,True,56
+9a10287cee9debb0,birthplace_currency_symbol,Bjork,FORMAT,B_OTHER_ATTRIBUTE,True,ISK
+76343989e266da20,birthplace_capital,Gabriel Garcia Marquez,GENUINE,D_UNDETERMINED,,Aracataca
+c7cc487e58e83ef6,birthplace_capital,Tom Hanks,GENUINE,D_UNDETERMINED,,Anchorage
+ac7953257c2217ac,birthplace_ccn3,Han Kwang-song,GENUINE,A_OTHER_COUNTRY,True,410
+fcc296ce282b5200,birthplace_currency_symbol,Jonas Valanciunas,AMBIGUOUS_GOLD,D_UNDETERMINED,,Lt.
+b57b1d4c0484078b,birthplace_rounded_lng,Sammy Sosa,GENUINE,D_UNDETERMINED,,-87
+994bf49b941a2b74,birthplace_capital,The Weeknd,GENUINE,D_UNDETERMINED,,Toronto
+57e0f335bbbece2d,birthplace_capital,Aung San Suu Kyi,AMBIGUOUS_GOLD,D_UNDETERMINED,,Yangon
+551a67126a0a8d6d,birthplace_currency,Solomon,GENUINE,D_UNDETERMINED,,"Solomon was born in Ethiopia, and the currency is the Ethiopian Birr."
+ad8bf37acf6bab61,birthplace_rounded_lng,Svetlana Alexievich,GENUINE,D_UNDETERMINED,,55
+3cc2dffc92cb585e,birthplace_rounded_lat,Mikhail Tal,GENUINE,A_OTHER_COUNTRY,True,56
+0327c67b8ab79041,birthplace_rounded_lng,Ricardo Arjona,GENUINE,D_UNDETERMINED,,-89
+43c4d13272cca87d,birthplace_currency_symbol,Léon M'ba,FORMAT,D_UNDETERMINED,,CFA
+454185cf153d4133,birthplace_currency,Pedro Martínez,SCORER_ERROR,D_UNDETERMINED,,Peso

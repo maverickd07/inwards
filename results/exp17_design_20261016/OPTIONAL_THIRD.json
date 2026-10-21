@@ -1,0 +1,17 @@
+{
+  "exp12": {
+    "available864": 565,
+    "missing_or_conflicting_unique_country_category_queries": 125,
+    "unresolved_firsthop_rows": 52
+  },
+  "exp1": {
+    "available864": 812,
+    "missing_or_conflicting_unique_country_category_queries": 0,
+    "unresolved_firsthop_rows": 52
+  },
+  "extended": {
+    "available864": 805,
+    "missing_or_conflicting_unique_country_category_queries": 3,
+    "unresolved_firsthop_rows": 52
+  }
+}

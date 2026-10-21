@@ -1,0 +1,16 @@
+[
+  "/private/tmp/exp12-match-venv/bin/python",
+  "-u",
+  "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py",
+  "--source",
+  "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs",
+  "--model",
+  "results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model",
+  "--out",
+  "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/direct_s4",
+  "--train-seed",
+  "4",
+  "--condition",
+  "direct",
+  "--smoke-test"
+]

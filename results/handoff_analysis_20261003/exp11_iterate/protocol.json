@@ -1,0 +1,39 @@
+{
+  "experiment": "exp11_iterate",
+  "date": "2026-10-05",
+  "rounds": 3,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "train_unique": 864,
+  "train_people": 216,
+  "partition_seed": 7,
+  "partition_counts": [
+    288,
+    288,
+    288
+  ],
+  "minimum_items": 400,
+  "reuse_all_people": true,
+  "evaluation_seed": 0,
+  "evaluation_n_per_split": 500,
+  "epochs_per_round": 2,
+  "batch": 8,
+  "steps_per_round": 216,
+  "fit_count": 21,
+  "conditions": [
+    "shared_r1",
+    "reset_r2",
+    "reset_r3",
+    "continue_r2",
+    "continue_r3",
+    "frozen_budget_r2",
+    "frozen_budget_r3"
+  ],
+  "primary_C_test_family_n": 54,
+  "C_hop_test_family_n": 42,
+  "gold_role": "diagnostic_only",
+  "stop_after_exp11": true
+}

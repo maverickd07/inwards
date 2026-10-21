@@ -1,0 +1,580 @@
+﻿size,source_line,category,person,field,prediction,gold,old_ok,floor_ok,truncate_ok
+0.6B,709,birthplace_callingcode,Rumi,q2,The calling code of Afghanistan is 93.,"[""+93""]",True,False,False
+0.6B,710,birthplace_callingcode,Ahmad Shah Massoud,q2,The calling code of Afghanistan is 93.,"[""+93""]",True,False,False
+0.6B,711,birthplace_callingcode,Mahmud of Ghazni,q2,The calling code of Afghanistan is 93.,"[""+93""]",True,False,False
+0.6B,711,birthplace_callingcode,Mahmud of Ghazni,clear,Mahmud of Ghazni was born in the country of Afghanistan. The calling code for Afghanistan is 93.,"[""+93""]",True,False,False
+0.6B,712,birthplace_callingcode,Ahmad Shah Durrani,q2,The calling code of Afghanistan is 93.,"[""+93""]",True,False,False
+0.6B,713,birthplace_callingcode,Annet Mahendru,q2,The calling code of Afghanistan is 93.,"[""+93""]",True,False,False
+0.6B,721,birthplace_callingcode,Dwayne Johnson,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,722,birthplace_callingcode,Ariana Grande,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,723,birthplace_callingcode,Michael Jordan,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,724,birthplace_callingcode,Kobe Bryant,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,733,birthplace_callingcode,Dan Bilzerian,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,795,birthplace_callingcode,Keanu Reeves,q2,Canada's calling code is 1-800-263-3389.,"[""+1""]",True,False,False
+0.6B,796,birthplace_callingcode,Ryan Reynolds,q2,Canada's calling code is 1-800-263-3389.,"[""+1""]",True,False,False
+0.6B,797,birthplace_callingcode,Drake,q2,Canada's calling code is 1-800-263-3389.,"[""+1""]",True,False,False
+0.6B,798,birthplace_callingcode,The Weeknd,q2,Canada's calling code is 1-800-263-3389.,"[""+1""]",True,False,False
+0.6B,816,birthplace_callingcode,Christina Milian,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,872,birthplace_callingcode,W. E. B. Du Bois,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,876,birthplace_callingcode,Tom Hanks,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,881,birthplace_callingcode,Oscar Isaac,q2,Guatemala's calling code is 502.,"[""+502""]",True,False,False
+0.6B,882,birthplace_callingcode,Adria Arjona,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,883,birthplace_callingcode,Ricardo Arjona,q2,Guatemala's calling code is 502.,"[""+502""]",True,False,False
+0.6B,884,birthplace_callingcode,Rigoberta Menchú,q2,Guatemala's calling code is 502.,"[""+502""]",True,False,False
+0.6B,885,birthplace_callingcode,Jacobo Árbenz,q2,Guatemala's calling code is 502.,"[""+502""]",True,False,False
+0.6B,890,birthplace_callingcode,Ovince Saint Preux,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,893,birthplace_callingcode,Teofimo Lopez,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,902,birthplace_callingcode,Ferenc Puskás,clear,Ferenc Puskás was born in Hungary. The calling code for Hungary is 36.,"[""+36""]",True,False,False
+0.6B,903,birthplace_callingcode,Bobby Fischer,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,931,birthplace_callingcode,Robert De Niro,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,939,birthplace_callingcode,Yuzuru Hanyu,clear,Yuzuru Hanyu was born in Japan. The calling code for Japan is 81.,"[""+81""]",True,False,False
+0.6B,980,birthplace_callingcode,Grace Kelly,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,993,birthplace_callingcode,Achraf Hakimi,clear,Achraf Hakimi was born in the country of Algeria. The calling code for Algeria is 212.,"[""+212""]",True,False,False
+0.6B,1015,birthplace_callingcode,Imran Khan,clear,Imran Khan was born in Pakistan. The calling code for Pakistan is 92.,"[""+92""]",True,False,False
+0.6B,1052,birthplace_callingcode,Eriq Zavaleta,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,1104,birthplace_callingcode,Alfred Nobel,clear,Alfred Nobel was born in Sweden. The calling code for Sweden is 46.,"[""+46""]",True,False,False
+0.6B,1106,birthplace_callingcode,Tina Turner,q2,The calling code of United States is 1.,"[""+1""]",True,False,False
+0.6B,1125,birthplace_callingcode,Suleiman The Magnificent,clear,Suleiman The Magnificent was born in the country of Turkey. The calling code for Turkey is 90.,"[""+90""]",True,False,False
+0.6B,1126,birthplace_callingcode,Mustafa Kemal Ataturk,clear,Mustafa Kemal Atatürk was born in Turkey. The calling code for Turkey is 90.,"[""+90""]",True,False,False
+0.6B,1128,birthplace_callingcode,Osman I,clear,Osman I was born in the country of the Ottoman Empire. The calling code for that country is 90.,"[""+90""]",True,False,False
+0.6B,1685,birthplace_ccn3,Shakhriyar Mamedyarov,clear,Shakhriyar Mamedyarov was born in the country of Kazakhstan. The 3166-1 numeric code for Kazakhstan is 31,"[""031""]",True,False,False
+0.6B,4486,birthplace_rounded_lat,Emin Agalarov,clear,"Emin Agalarov was born in the country of Georgia. The latitude of Georgia is approximately 40.01 degrees. Rounded down, this is",[40],True,False,False
+0.6B,4501,birthplace_rounded_lat,Jigme Khesar Namgyel Wangchuck,q2,Bhutan's latitude is approximately 27.5 degrees.,[27],True,False,False
+0.6B,4502,birthplace_rounded_lat,Jetsun Pema,q2,Bhutan's latitude is approximately 27.5 degrees.,[27],True,False,False
+0.6B,4502,birthplace_rounded_lat,Jetsun Pema,clear,Jetsun Pema was born in the country of Bhutan. The latitude of Bhutan is approximately 27.5 degrees.,[27],True,False,False
+0.6B,4503,birthplace_rounded_lat,Jigme Singye Wangchuck,q2,Bhutan's latitude is approximately 27.5 degrees.,[27],True,False,False
+0.6B,4504,birthplace_rounded_lat,Jigme Dorji Wangchuck,q2,Bhutan's latitude is approximately 27.5 degrees.,[27],True,False,False
+0.6B,4505,birthplace_rounded_lat,Tshering Tobgay,q2,Bhutan's latitude is approximately 27.5 degrees.,[27],True,False,False
+0.6B,4547,birthplace_rounded_lat,Keylor Navas,q2,"Costa Rica's latitude is approximately 10.15° N. Rounded down, it is 10° N.",[10],True,False,False
+0.6B,4547,birthplace_rounded_lat,Keylor Navas,ctx,Keylor Navas was born in Costa Rica. The country where he was born is Costa Rica. The rounded down latitude of Costa Rica is 10.,[10],True,False,False
+0.6B,4548,birthplace_rounded_lat,Harry Shum Jr.,q2,"Costa Rica's latitude is approximately 10.15° N. Rounded down, it is 10° N.",[10],True,False,False
+0.6B,4549,birthplace_rounded_lat,Joel Campbell,q2,"Costa Rica's latitude is approximately 10.15° N. Rounded down, it is 10° N.",[10],True,False,False
+0.6B,4550,birthplace_rounded_lat,Daniel Zovatto,q2,"Costa Rica's latitude is approximately 10.15° N. Rounded down, it is 10° N.",[10],True,False,False
+0.6B,4551,birthplace_rounded_lat,Paulo Wanchope,q2,"Costa Rica's latitude is approximately 10.15° N. Rounded down, it is 10° N.",[10],True,False,False
+0.6B,4569,birthplace_rounded_lat,Antonio Valencia,q2,"Ecuador's latitude is approximately 1.306 degrees. Rounded down, it is 1.306.",[-2],False,True,False
+0.6B,4570,birthplace_rounded_lat,Manuela Sáenz,q2,"Ecuador's latitude is approximately 1.306 degrees. Rounded down, it is 1.306.",[-2],False,True,False
+0.6B,4571,birthplace_rounded_lat,Lenín Moreno,q2,"Ecuador's latitude is approximately 1.306 degrees. Rounded down, it is 1.306.",[-2],False,True,False
+0.6B,4572,birthplace_rounded_lat,Maria Elisa Camargo,q2,"Ecuador's latitude is approximately 1.306 degrees. Rounded down, it is 1.306.",[-2],False,True,False
+0.6B,4583,birthplace_rounded_lat,Arvo Pärt,q2,Estonia's latitude is approximately 59.45 degrees.,[59],True,False,False
+0.6B,4584,birthplace_rounded_lat,Anett Kontaveit,q2,Estonia's latitude is approximately 59.45 degrees.,[59],True,False,False
+0.6B,4585,birthplace_rounded_lat,Paul Keres,q2,Estonia's latitude is approximately 59.45 degrees.,[59],True,False,False
+0.6B,4586,birthplace_rounded_lat,Baruto Kaito,q2,Estonia's latitude is approximately 59.45 degrees.,[59],True,False,False
+0.6B,4639,birthplace_rounded_lat,Franz Liszt,clear,"Liszt was born in Hungary. The latitude of Hungary is approximately 47.6061° N. Rounded down, this is 4",[47],True,False,False
+0.6B,4651,birthplace_rounded_lat,Mother Teresa,clear,"Mother Teresa was born in Italy, and the rounded-down latitude of that country is 41.",[41],True,False,False
+0.6B,4652,birthplace_rounded_lat,Kevin Sanjaya Sukamuljo,clear,Kevin Sanjaya Sukamuljo was born in the country of Indonesia. The latitude of Indonesia is approximately 10.5° N. Rounded down,[-5],True,False,False
+0.6B,4653,birthplace_rounded_lat,B. J. Habibie,clear,B. J. Habibie was born in Indonesia. The country where he was born is Indonesia. The latitude of Indonesia is approximately 18.5,[-5],True,False,False
+0.6B,4658,birthplace_rounded_lat,Conor McGregor,q2,Ireland's latitude is approximately 53.5 degrees.,[53],True,False,False
+0.6B,4659,birthplace_rounded_lat,Oscar Wilde,q2,Ireland's latitude is approximately 53.5 degrees.,[53],True,False,False
+0.6B,4662,birthplace_rounded_lat,Bono,q2,Ireland's latitude is approximately 53.5 degrees.,[53],True,False,False
+0.6B,4673,birthplace_rounded_lat,Bob Marley,q2,Jamaica's latitude is approximately 18.5 degrees.,[18],True,False,False
+0.6B,4673,birthplace_rounded_lat,Bob Marley,clear,"Bob Marley was born in Jamaica, and the rounded-down latitude of Jamaica is 18.",[18],True,False,False
+0.6B,4673,birthplace_rounded_lat,Bob Marley,ctx,Bob Marley was born in Jamaica. The country where Bob Marley was born is Jamaica. The rounded down latitude of Jamaica is 18.5.,[18],True,False,False
+0.6B,4674,birthplace_rounded_lat,Usain Bolt,q2,Jamaica's latitude is approximately 18.5 degrees.,[18],True,False,False
+0.6B,4674,birthplace_rounded_lat,Usain Bolt,ctx,Usain Bolt was born in Jamaica. The country where Usain Bolt was born is Jamaica. The rounded down latitude of Jamaica is 18.0.,[18],True,False,False
+0.6B,4675,birthplace_rounded_lat,Patrick Ewing,q2,Jamaica's latitude is approximately 18.5 degrees.,[18],True,False,False
+0.6B,4687,birthplace_rounded_lat,Uhuru Kenyatta,clear,Uhuru Kenyatta was born in the country of Kenya. The latitude of Kenya is approximately 1.85 degrees.,[1],True,False,False
+0.6B,4688,birthplace_rounded_lat,Wangari Maathai,clear,Wangari Maathai was born in the country of Kenya. The latitude of Kenya is approximately 1.85 degrees.,[1],True,False,False
+0.6B,4702,birthplace_rounded_lat,Ayesha Gaddafi,clear,Ayesha Gaddafi was born in the country of Yemen. The latitude of Yemen is approximately 25.05 degrees.,[25],True,False,False
+0.6B,4705,birthplace_rounded_lat,Domantas Sabonis,q2,Lithuania's latitude is approximately 56.75 degrees.,[56],True,False,False
+0.6B,4706,birthplace_rounded_lat,Laurence Harvey,q2,Lithuania's latitude is approximately 56.75 degrees.,[56],True,False,False
+0.6B,4707,birthplace_rounded_lat,Jonas Valanciunas,q2,Lithuania's latitude is approximately 56.75 degrees.,[56],True,False,False
+0.6B,4708,birthplace_rounded_lat,Žydrūnas Ilgauskas,q2,Lithuania's latitude is approximately 56.75 degrees.,[56],True,False,False
+0.6B,4708,birthplace_rounded_lat,Žydrūnas Ilgauskas,clear,Žydrūnas Ilgauskas was born in the country of Lithuania. The latitude of Lithuania is approximately 56.75 degrees. Rounded,[56],True,False,False
+0.6B,4709,birthplace_rounded_lat,Clara Rockmore,q2,Lithuania's latitude is approximately 56.75 degrees.,[56],True,False,False
+0.6B,4709,birthplace_rounded_lat,Clara Rockmore,ctx,Clara Rockmore was born in Lithuania. The country where Clara Rockmore was born is Lithuania. The rounded down latitude of Lithuania is 56.,[56],True,False,False
+0.6B,4733,birthplace_rounded_lat,Gautama Buddha,q2,Nepal's latitude is approximately 28.5 degrees.,[28],True,False,False
+0.6B,4747,birthplace_rounded_lat,Wilfred Ndidi,clear,Wilfred Ndidi was born in the country of the Democratic Republic of the Congo. The latitude of the country is approximately 10° S.,[10],True,False,False
+0.6B,4751,birthplace_rounded_lat,Henrik Ibsen,clear,"Henrik Ibsen was born in Norway, and the rounded-down latitude of Norway is 62.",[62],True,False,False
+0.6B,4756,birthplace_rounded_lat,Muhammad Ali Jinnah,clear,Jinnah's birth country is Pakistan. The latitude of Pakistan is approximately 30.25 degrees.,[30],True,False,False
+0.6B,4776,birthplace_rounded_lat,Benicio Del Toro,ctx,Benicio Del Toro was born in Puerto Rico. The country where he was born is Puerto Rico. The rounded down latitude of Puerto Rico is 18.,[18],True,False,False
+0.6B,4779,birthplace_rounded_lat,Ricky Martin,clear,"Ricky Martin was born in Mexico City, which has a latitude of 18.5284°. The rounded-down latitude is 18",[18],True,False,False
+0.6B,4792,birthplace_rounded_lat,Prophet Muhammad,clear,"Prophet Muhammad was born in the country of Saudi Arabia, which has a latitude of approximately 25 degrees.",[25],True,False,False
+0.6B,4799,birthplace_rounded_lat,Novak Djokovic,q2,"Serbia's latitude is approximately 44.4999° N. Rounded down, it is 44.50°.",[44],True,False,False
+0.6B,4800,birthplace_rounded_lat,Nikola Tesla,q2,"Serbia's latitude is approximately 44.4999° N. Rounded down, it is 44.50°.",[44],True,False,False
+0.6B,4801,birthplace_rounded_lat,Monica Seles,q2,"Serbia's latitude is approximately 44.4999° N. Rounded down, it is 44.50°.",[44],True,False,False
+0.6B,4802,birthplace_rounded_lat,Nikola Jokić,q2,"Serbia's latitude is approximately 44.4999° N. Rounded down, it is 44.50°.",[44],True,False,False
+0.6B,4802,birthplace_rounded_lat,Nikola Jokić,clear,"Nikola Jokić was born in the country of Serbia. The latitude of Serbia is approximately 44.99 degrees. Rounded down, this",[44],True,False,False
+0.6B,4803,birthplace_rounded_lat,Boban Marjanović,q2,"Serbia's latitude is approximately 44.4999° N. Rounded down, it is 44.50°.",[44],True,False,False
+0.6B,4808,birthplace_rounded_lat,Lee Kuan Yew,q2,"Singapore's latitude is approximately 1.35° N. Rounded down, it is 1.35°.",[1],True,False,False
+0.6B,4809,birthplace_rounded_lat,Lee Hsien Loong,q2,"Singapore's latitude is approximately 1.35° N. Rounded down, it is 1.35°.",[1],True,False,False
+0.6B,4810,birthplace_rounded_lat,Joseph Schooling,q2,"Singapore's latitude is approximately 1.35° N. Rounded down, it is 1.35°.",[1],True,False,False
+0.6B,4811,birthplace_rounded_lat,Julia Nickson-Soul,q2,"Singapore's latitude is approximately 1.35° N. Rounded down, it is 1.35°.",[1],True,False,False
+0.6B,4812,birthplace_rounded_lat,Aloysius Pang,q2,"Singapore's latitude is approximately 1.35° N. Rounded down, it is 1.35°.",[1],True,False,False
+0.6B,4826,birthplace_rounded_lat,Rafael Nadal,q2,Spain's latitude is approximately 40.41 degrees.,[40],True,False,False
+0.6B,4827,birthplace_rounded_lat,Pablo Picasso,q2,Spain's latitude is approximately 40.41 degrees.,[40],True,False,False
+0.6B,4828,birthplace_rounded_lat,Penelope Cruz,q2,Spain's latitude is approximately 40.41 degrees.,[40],True,False,False
+0.6B,4828,birthplace_rounded_lat,Penelope Cruz,ctx,Penelope Cruz was born in Spain. The country where Penelope Cruz was born is Spain. The rounded down latitude of Spain is 40.0.,[40],True,False,False
+0.6B,4829,birthplace_rounded_lat,Pep Guardiola,q2,Spain's latitude is approximately 40.41 degrees.,[40],True,False,False
+0.6B,4830,birthplace_rounded_lat,Salvador Dali,q2,Spain's latitude is approximately 40.41 degrees.,[40],True,False,False
+0.6B,4839,birthplace_rounded_lat,Zlatan Ibrahimović,q2,Sweden's latitude is approximately 62.5 degrees.,[62],True,False,False
+0.6B,4840,birthplace_rounded_lat,Ingrid Bergman,q2,Sweden's latitude is approximately 62.5 degrees.,[62],True,False,False
+0.6B,4841,birthplace_rounded_lat,Carl Linnaeus,q2,Sweden's latitude is approximately 62.5 degrees.,[62],True,False,False
+0.6B,4842,birthplace_rounded_lat,Greta Garbo,q2,Sweden's latitude is approximately 62.5 degrees.,[62],True,False,False
+0.6B,4843,birthplace_rounded_lat,Alfred Nobel,q2,Sweden's latitude is approximately 62.5 degrees.,[62],True,False,False
+0.6B,4904,birthplace_rounded_lat,David Dobrik,ctx,David Dobrik was born in Slovakia. The country where David Dobrik was born is Slovakia. The rounded down latitude of Slovakia is 48.5.,[48],True,False,False
+0.6B,4908,birthplace_rounded_lat,Katie Melua,clear,"Katie Melua was born in New Zealand, and the rounded-down latitude of that country is 42.",[42],True,False,False
+0.6B,4911,birthplace_rounded_lat,Ignatius of Antioch,q2,Syria's latitude is approximately 35.5 degrees.,[35],True,False,False
+0.6B,4912,birthplace_rounded_lat,Hafez al-Assad,q2,Syria's latitude is approximately 35.5 degrees.,[35],True,False,False
+0.6B,4913,birthplace_rounded_lat,Jwan Yosef,q2,Syria's latitude is approximately 35.5 degrees.,[35],True,False,False
+0.6B,4914,birthplace_rounded_lat,Asma al-Assad,q2,Syria's latitude is approximately 35.5 degrees.,[35],True,False,False
+0.6B,4915,birthplace_rounded_lat,Bashar al-Assad,q2,Syria's latitude is approximately 35.5 degrees.,[35],True,False,False
+0.6B,4925,birthplace_rounded_lng,Riyad Mahrez,clear,Riyad Mahrez was born in the country of Algeria. The longitude of Algeria is approximately 2° 15' N.,[2],True,False,False
+0.6B,4967,birthplace_rounded_lng,Jean-Claude Van Damme,q2,Belgium's longitude is approximately 4.95 degrees.,[4],True,False,False
+0.6B,4967,birthplace_rounded_lng,Jean-Claude Van Damme,clear,Jean-Claude Van Damme was born in Belgium. The longitude of Belgium is approximately 4.95 degrees.,[4],True,False,False
+0.6B,4968,birthplace_rounded_lng,Max Verstappen,q2,Belgium's longitude is approximately 4.95 degrees.,[4],True,False,False
+0.6B,5020,birthplace_rounded_lng,Fidel Castro,q2,"Cuba's longitude is approximately 80° 15' 10"".",[-80],True,False,False
+0.6B,5021,birthplace_rounded_lng,Ana de Armas,q2,"Cuba's longitude is approximately 80° 15' 10"".",[-80],True,False,False
+0.6B,5022,birthplace_rounded_lng,Desi Arnaz,q2,"Cuba's longitude is approximately 80° 15' 10"".",[-80],True,False,False
+0.6B,5024,birthplace_rounded_lng,Gloria Estefan,q2,"Cuba's longitude is approximately 80° 15' 10"".",[-80],True,False,False
+0.6B,5037,birthplace_rounded_lng,Antonio Valencia,q2,"Ecuador's longitude is approximately 77° 12' (or -77° 12'). Rounded down, it is 77",[-77],True,False,False
+0.6B,5038,birthplace_rounded_lng,Manuela Sáenz,q2,"Ecuador's longitude is approximately 77° 12' (or -77° 12'). Rounded down, it is 77",[-77],True,False,False
+0.6B,5039,birthplace_rounded_lng,Lenín Moreno,q2,"Ecuador's longitude is approximately 77° 12' (or -77° 12'). Rounded down, it is 77",[-77],True,False,False
+0.6B,5040,birthplace_rounded_lng,Maria Elisa Camargo,q2,"Ecuador's longitude is approximately 77° 12' (or -77° 12'). Rounded down, it is 77",[-77],True,False,False
+0.6B,5068,birthplace_rounded_lng,Napoleon Bonaparte,clear,Napoleon Bonaparte was born in France. The longitude of France is approximately 2° 10' N.,[2],True,False,False
+0.6B,5082,birthplace_rounded_lng,Marcel Desailly,clear,"Marcel Desailly was born in France. The longitude of France is approximately 2° 10' N. Rounded down, this is 2",[-2],True,False,False
+0.6B,5103,birthplace_rounded_lng,Bruce Lee,q2,Hong Kong's longitude is approximately 114.04 degrees.,[114],True,False,False
+0.6B,5104,birthplace_rounded_lng,Jackie Chan,q2,Hong Kong's longitude is approximately 114.04 degrees.,[114],True,False,False
+0.6B,5105,birthplace_rounded_lng,Donnie Yen,q2,Hong Kong's longitude is approximately 114.04 degrees.,[114],True,False,False
+0.6B,5139,birthplace_rounded_lng,Galileo Galilei,clear,"Galileo Galilei was born in Italy, and the longitude of that country is 41° 12' 10"".",[12],True,False,False
+0.6B,5158,birthplace_rounded_lng,Saad Al-Salim Al-Sabah,ctx,Al-Salim Al-Sabah's birth country is Kuwait. The longitude of Kuwait is approximately 45° 15' N. Rounded down,[45],True,False,False
+0.6B,5200,birthplace_rounded_lng,Achraf Hakimi,clear,"Achraf Hakimi was born in the United States. The longitude of the United States is approximately -77.05°. Rounded down, this",[-5],True,False,False
+0.6B,5232,birthplace_rounded_lng,Nathalie Kelley,ctx,Nathalie Kelley was born in Peru. The country where Nathalie Kelley was born is Peru. The longitude of Peru is approximately -75.55,[-76],False,True,False
+0.6B,5309,birthplace_rounded_lng,Carl Linnaeus,ctx,Carl Linnaeus was born in Sweden. The country where Carl Linnaeus was born is Sweden. The rounded down longitude of Sweden is 15.,[15],True,False,False
+0.6B,5310,birthplace_rounded_lng,Greta Garbo,clear,Greta Garbo was born in the United States. The longitude of the country where she was born is 99° 15' 10,[15],True,False,False
+0.6B,5318,birthplace_rounded_lng,Julius Nyerere,q2,Tanzania's longitude is approximately 35° 10' S.,[35],True,False,False
+0.6B,5318,birthplace_rounded_lng,Julius Nyerere,ctx,"Nyerere's birth country is Tanzania. The longitude of Tanzania is approximately 35° 12' 15"". Rounded down, it is",[35],True,False,False
+0.6B,5319,birthplace_rounded_lng,Zuchu,q2,Tanzania's longitude is approximately 35° 10' S.,[35],True,False,False
+0.6B,5319,birthplace_rounded_lng,Zuchu,ctx,Zuchu's birth country is Tanzania. The longitude of Tanzania is approximately 35° S.,[35],True,False,False
+0.6B,5320,birthplace_rounded_lng,Hasheem Thabeet,q2,Tanzania's longitude is approximately 35° 10' S.,[35],True,False,False
+0.6B,5321,birthplace_rounded_lng,Jakaya Kikwete,q2,Tanzania's longitude is approximately 35° 10' S.,[35],True,False,False
+0.6B,5321,birthplace_rounded_lng,Jakaya Kikwete,ctx,"Jakaya Kikwete's birth country is Tanzania. The longitude of Tanzania is approximately 35° S. Rounded down, it is 35",[35],True,False,False
+0.6B,5322,birthplace_rounded_lng,Tippu Tib,q2,Tanzania's longitude is approximately 35° 10' S.,[35],True,False,False
+0.6B,5335,birthplace_rounded_lng,Osman I,clear,"Osman I was born in the country of the Ottoman Empire, which is located in the Middle East. The longitude of the country is approximately 35 degrees",[35],True,False,False
+0.6B,5373,birthplace_rounded_lng,Marek Hamšík,clear,Marek Hamšík was born in the country of Czechoslovakia. The longitude of the country is 19.5 degrees.,[19],True,False,False
+0.6B,7266,birthyear_masterchamp,Elvis Presley,q1,Elvis Presley was born in 1935.,"[""1935""]",True,False,False
+0.6B,7326,birthyear_masterchamp,Bob Dylan,q1,Bob Dylan was born in 1941.,"[""1941""]",True,False,False
+0.6B,7387,birthyear_masterchamp,John Candy,q1,John Candy was born in 1950.,"[""1950""]",True,False,False
+0.6B,7408,birthyear_masterchamp,Liam Neeson,q1,Liam Neeson was born in 1952.,"[""1952""]",True,False,False
+0.6B,7425,birthyear_masterchamp,Alfred Molina,q1,Alfred Molina was born in 1953.,"[""1953""]",True,False,False
+0.6B,7427,birthyear_masterchamp,Oprah Winfrey,q1,Oprah Winfrey was born in 1954.,"[""1954""]",True,False,False
+0.6B,7431,birthyear_masterchamp,Angela Merkel,q1,Angela Merkel was born in 1954.,"[""1954""]",True,False,False
+0.6B,7436,birthyear_masterchamp,Bill Gates,q1,Bill Gates was born in 1955.,"[""1955""]",True,False,False
+0.6B,7458,birthyear_masterchamp,Bernie Mac,q1,Bernie Mac was born in 1957.,"[""1957""]",True,False,False
+0.6B,7466,birthyear_masterchamp,Michael Jackson,q1,Michael Jackson was born in 1958.,"[""1958""]",True,False,False
+0.6B,7470,birthyear_masterchamp,Madonna,q1,Madonna was born in 1958.,"[""1958""]",True,False,False
+0.6B,7473,birthyear_masterchamp,Neil deGrasse Tyson,q1,Neil deGrasse Tyson was born in 1958.,"[""1958""]",True,False,False
+0.6B,7657,birthyear_masterchamp,Kanye West,q1,Kanye West was born in 1977.,"[""1977""]",True,False,False
+0.6B,7693,birthyear_masterchamp,Channing Tatum,q1,Channing Tatum was born in 1980.,"[""1980""]",True,False,False
+0.6B,7703,birthyear_masterchamp,Zlatan Ibrahimović,q1,Zlatan Ibrahimović was born in 1981.,"[""1981""]",True,False,False
+0.6B,7742,birthyear_masterchamp,Lewis Hamilton,q1,Lewis Hamilton was born in 1985.,"[""1985""]",True,False,False
+0.6B,7760,birthyear_masterchamp,Kendrick Lamar,q1,Kendrick Lamar was born in 1987.,"[""1987""]",True,False,False
+0.6B,7767,birthyear_masterchamp,Adele,q1,Adele was born in 1988.,"[""1988""]",True,False,False
+0.6B,7790,birthyear_masterchamp,Canelo Álvarez,q1,Canelo Álvarez was born in 1990.,"[""1990""]",True,False,False
+0.6B,7828,birthyear_masterchamp,Halsey,q1,Halsey was born in 1994.,"[""1994""]",True,False,False
+0.6B,7829,birthyear_masterchamp,Justin Bieber,q1,Justin Bieber was born in 1994.,"[""1994""]",True,False,False
+0.6B,7845,birthyear_masterchamp,Kehlani,q1,Kehlani was born in 1995.,"[""1995""]",True,False,False
+0.6B,7856,birthyear_masterchamp,Kylie Jenner,q1,Kylie Jenner was born in 1997.,"[""1997""]",True,False,False
+0.6B,7887,birthyear_masterchamp,Lil Pump,q1,Lil Pump was born in 2000.,"[""2000""]",True,False,False
+0.6B,8041,birthyear_nobelLiterature,Bob Marley,q1,Bob Marley was born in 1945.,"[""1945""]",True,False,False
+0.6B,8092,birthyear_nobelLiterature,John Candy,q1,John Candy was born in 1950.,"[""1950""]",True,False,False
+0.6B,8113,birthyear_nobelLiterature,Liam Neeson,q1,Liam Neeson was born in 1952.,"[""1952""]",True,False,False
+0.6B,8130,birthyear_nobelLiterature,Alfred Molina,q1,Alfred Molina was born in 1953.,"[""1953""]",True,False,False
+0.6B,8132,birthyear_nobelLiterature,Oprah Winfrey,q1,Oprah Winfrey was born in 1954.,"[""1954""]",True,False,False
+0.6B,8136,birthyear_nobelLiterature,Angela Merkel,q1,Angela Merkel was born in 1954.,"[""1954""]",True,False,False
+0.6B,8141,birthyear_nobelLiterature,Bill Gates,q1,Bill Gates was born in 1955.,"[""1955""]",True,False,False
+0.6B,8163,birthyear_nobelLiterature,Bernie Mac,q1,Bernie Mac was born in 1957.,"[""1957""]",True,False,False
+0.6B,8171,birthyear_nobelLiterature,Michael Jackson,q1,Michael Jackson was born in 1958.,"[""1958""]",True,False,False
+0.6B,8175,birthyear_nobelLiterature,Madonna,q1,Madonna was born in 1958.,"[""1958""]",True,False,False
+0.6B,8178,birthyear_nobelLiterature,Neil deGrasse Tyson,q1,Neil deGrasse Tyson was born in 1958.,"[""1958""]",True,False,False
+0.6B,8362,birthyear_nobelLiterature,Kanye West,q1,Kanye West was born in 1977.,"[""1977""]",True,False,False
+0.6B,8398,birthyear_nobelLiterature,Channing Tatum,q1,Channing Tatum was born in 1980.,"[""1980""]",True,False,False
+0.6B,8408,birthyear_nobelLiterature,Zlatan Ibrahimović,q1,Zlatan Ibrahimović was born in 1981.,"[""1981""]",True,False,False
+0.6B,8447,birthyear_nobelLiterature,Lewis Hamilton,q1,Lewis Hamilton was born in 1985.,"[""1985""]",True,False,False
+0.6B,8465,birthyear_nobelLiterature,Kendrick Lamar,q1,Kendrick Lamar was born in 1987.,"[""1987""]",True,False,False
+0.6B,8472,birthyear_nobelLiterature,Adele,q1,Adele was born in 1988.,"[""1988""]",True,False,False
+0.6B,8495,birthyear_nobelLiterature,Canelo Álvarez,q1,Canelo Álvarez was born in 1990.,"[""1990""]",True,False,False
+0.6B,8533,birthyear_nobelLiterature,Halsey,q1,Halsey was born in 1994.,"[""1994""]",True,False,False
+0.6B,8534,birthyear_nobelLiterature,Justin Bieber,q1,Justin Bieber was born in 1994.,"[""1994""]",True,False,False
+0.6B,8550,birthyear_nobelLiterature,Kehlani,q1,Kehlani was born in 1995.,"[""1995""]",True,False,False
+0.6B,8561,birthyear_nobelLiterature,Kylie Jenner,q1,Kylie Jenner was born in 1997.,"[""1997""]",True,False,False
+0.6B,8592,birthyear_nobelLiterature,Lil Pump,q1,Lil Pump was born in 2000.,"[""2000""]",True,False,False
+1.7B,714,birthplace_callingcode,Skanderbeg,clear,Skanderbeg's country's calling code is 355.,"[""+355""]",True,False,False
+1.7B,716,birthplace_callingcode,Sofia Boutella,ctx,Algeria's calling code is +213.,"[""+213""]",True,False,False
+1.7B,721,birthplace_callingcode,Dwayne Johnson,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,722,birthplace_callingcode,Ariana Grande,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,723,birthplace_callingcode,Michael Jordan,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,724,birthplace_callingcode,Kobe Bryant,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,733,birthplace_callingcode,Dan Bilzerian,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,735,birthplace_callingcode,Angela Sarafyan,ctx,Armenia's calling code is +374.,"[""+374""]",True,False,False
+1.7B,752,birthplace_callingcode,Sheikh Hasina,ctx,Bangladesh's calling code is +880.,"[""+880""]",True,False,False
+1.7B,762,birthplace_callingcode,Jigme Khesar Namgyel Wangchuck,ctx,Bhutan's calling code is +975.,"[""+975""]",True,False,False
+1.7B,763,birthplace_callingcode,Jetsun Pema,ctx,Bhutan's international dialing code is +975.,"[""+975""]",True,False,False
+1.7B,764,birthplace_callingcode,Jigme Singye Wangchuck,ctx,Bhutan's calling code is +975.,"[""+975""]",True,False,False
+1.7B,765,birthplace_callingcode,Jigme Dorji Wangchuck,ctx,Bhutan's calling code is +975.,"[""+975""]",True,False,False
+1.7B,766,birthplace_callingcode,Tshering Tobgay,ctx,Bhutan's calling code is +975.,"[""+975""]",True,False,False
+1.7B,768,birthplace_callingcode,Jeanine Anez,ctx,Bolivia's international dialing code is +591.,"[""+591""]",True,False,False
+1.7B,770,birthplace_callingcode,Ximena Herrera,ctx,Bolivia's international dialing code is +591.,"[""+591""]",True,False,False
+1.7B,775,birthplace_callingcode,Pele,clear,Pele's calling code is 55.,"[""+55""]",True,False,False
+1.7B,778,birthplace_callingcode,Queen Elizabeth II,clear,"Queen Elizabeth II's country of birth is the United Kingdom, and the calling code for the United Kingdom is +44.","[""+44""]",True,False,False
+1.7B,787,birthplace_callingcode,Norodom Sihanouk,ctx,Cambodia's calling code is +855.,"[""+855""]",True,False,False
+1.7B,790,birthplace_callingcode,Norodom Sihamoni,ctx,Cambodia's calling code is +855.,"[""+855""]",True,False,False
+1.7B,795,birthplace_callingcode,Keanu Reeves,q2,1-800-267-3777,"[""+1""]",True,False,False
+1.7B,796,birthplace_callingcode,Ryan Reynolds,q2,1-800-267-3777,"[""+1""]",True,False,False
+1.7B,797,birthplace_callingcode,Drake,q2,1-800-267-3777,"[""+1""]",True,False,False
+1.7B,797,birthplace_callingcode,Drake,clear,+1 (800) 555-3241,"[""+1""]",True,False,False
+1.7B,798,birthplace_callingcode,The Weeknd,q2,1-800-267-3777,"[""+1""]",True,False,False
+1.7B,799,birthplace_callingcode,Pedro Pascal,ctx,Chile's calling code is +56.,"[""+56""]",True,False,False
+1.7B,804,birthplace_callingcode,Shakira,ctx,Colombia's calling code is +57.,"[""+57""]",True,False,False
+1.7B,805,birthplace_callingcode,Gabriel Garcia Marquez,ctx,Colombia's calling code is +57.,"[""+57""]",True,False,False
+1.7B,806,birthplace_callingcode,Sofia Vergara,ctx,Colombia's calling code is +57.,"[""+57""]",True,False,False
+1.7B,807,birthplace_callingcode,Radamel Falcao,ctx,Colombia's calling code is +57.,"[""+57""]",True,False,False
+1.7B,811,birthplace_callingcode,Daniel Zovatto,ctx,Costa Rica's international dialing code is +506.,"[""+506""]",True,False,False
+1.7B,816,birthplace_callingcode,Christina Milian,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,816,birthplace_callingcode,Christina Milian,clear,+1 (312) 333-3333,"[""+1""]",True,False,False
+1.7B,849,birthplace_callingcode,Haile Selassie,ctx,Ethiopia's calling code is +251.,"[""+251""]",True,False,False
+1.7B,850,birthplace_callingcode,Haile Gebrselassie,ctx,Ethiopia's calling code is +251.,"[""+251""]",True,False,False
+1.7B,864,birthplace_callingcode,Chris Silva,ctx,Gabon's calling code is +241.,"[""+241""]",True,False,False
+1.7B,865,birthplace_callingcode,Jean Ping,ctx,Gabon's calling code is +241.,"[""+241""]",True,False,False
+1.7B,872,birthplace_callingcode,W. E. B. Du Bois,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,873,birthplace_callingcode,Kofi Annan,ctx,Ghana's calling code is +233.,"[""+233""]",True,False,False
+1.7B,874,birthplace_callingcode,Kwame Nkrumah,ctx,Ghana's calling code is +233.,"[""+233""]",True,False,False
+1.7B,875,birthplace_callingcode,Marcel Desailly,ctx,Ghana's international dialing code is +233.,"[""+233""]",True,False,False
+1.7B,876,birthplace_callingcode,Tom Hanks,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,881,birthplace_callingcode,Oscar Isaac,ctx,Guatemala's calling code is +502.,"[""+502""]",True,False,False
+1.7B,882,birthplace_callingcode,Adria Arjona,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,884,birthplace_callingcode,Rigoberta Menchú,ctx,Guatemala's international dialing code is +502.,"[""+502""]",True,False,False
+1.7B,890,birthplace_callingcode,Ovince Saint Preux,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,892,birthplace_callingcode,Natti Natasha,q2,1-800-333-3333,"[""+1""]",True,False,False
+1.7B,892,birthplace_callingcode,Natti Natasha,ctx,1-26-33,"[""+1""]",True,False,False
+1.7B,893,birthplace_callingcode,Teofimo Lopez,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,903,birthplace_callingcode,Bobby Fischer,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,920,birthplace_callingcode,Oscar Wilde,clear,"Oscar Wilde was born in Ireland, and the calling code for Ireland is +353.","[""+353""]",True,False,False
+1.7B,931,birthplace_callingcode,Robert De Niro,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,961,birthplace_callingcode,Mia Khalifa,ctx,Lebanon's calling code is +961.,"[""+961""]",True,False,False
+1.7B,971,birthplace_callingcode,Lee Chong Wei,ctx,Malaysia's calling code is +60.,"[""+60""]",True,False,False
+1.7B,973,birthplace_callingcode,Michelle Yeoh,ctx,Malaysia's calling code is +60.,"[""+60""]",True,False,False
+1.7B,980,birthplace_callingcode,Grace Kelly,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,992,birthplace_callingcode,Pokimane,ctx,Morocco's calling code is +212.,"[""+212""]",True,False,False
+1.7B,1001,birthplace_callingcode,Israel Adesanya,ctx,Nigeria's calling code is +234.,"[""+234""]",True,False,False
+1.7B,1002,birthplace_callingcode,Chinua Achebe,ctx,Nigeria's calling code is +234.,"[""+234""]",True,False,False
+1.7B,1003,birthplace_callingcode,Sade,ctx,Nigeria's international dialing code is +234.,"[""+234""]",True,False,False
+1.7B,1005,birthplace_callingcode,Victor Moses,ctx,Nigeria's calling code is +234.,"[""+234""]",True,False,False
+1.7B,1007,birthplace_callingcode,Goodluck Jonathan,ctx,Nigeria's calling code is +234.,"[""+234""]",True,False,False
+1.7B,1008,birthplace_callingcode,Wilfred Ndidi,ctx,Nigeria's calling code is +234.,"[""+234""]",True,False,False
+1.7B,1009,birthplace_callingcode,Magnus Carlsen,ctx,Norway's calling code is +47.,"[""+47""]",True,False,False
+1.7B,1012,birthplace_callingcode,Henrik Ibsen,clear,Henrik Ibsen's birth country's calling code is +47.,"[""+47""]",True,False,False
+1.7B,1013,birthplace_callingcode,Alan Walker,ctx,Norway's calling code is +47.,"[""+47""]",True,False,False
+1.7B,1050,birthplace_callingcode,Gabriela Rodríguez de Bukele,ctx,El Salvador's calling code is +503.,"[""+503""]",True,False,False
+1.7B,1051,birthplace_callingcode,Pete Sandoval,ctx,El Salvador's international dialing code is +503.,"[""+503""]",True,False,False
+1.7B,1052,birthplace_callingcode,Eriq Zavaleta,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,1055,birthplace_callingcode,Patrick Vieira,ctx,Senegal's calling code is +221.,"[""+221""]",True,False,False
+1.7B,1058,birthplace_callingcode,Tacko Fall,ctx,Senegal's calling code is +221.,"[""+221""]",True,False,False
+1.7B,1059,birthplace_callingcode,Anna Diop,ctx,Senegal's calling code is +221.,"[""+221""]",True,False,False
+1.7B,1065,birthplace_callingcode,Michaela DePrince,ctx,Sierra Leone's international dialing code is +232.,"[""+232""]",True,False,False
+1.7B,1066,birthplace_callingcode,Foday Sankoh,ctx,Sierra Leone's calling code is +232.,"[""+232""]",True,False,False
+1.7B,1067,birthplace_callingcode,Leonard Bundu,ctx,Sierra Leone's international dialing code is +232.,"[""+232""]",True,False,False
+1.7B,1072,birthplace_callingcode,Julia Nickson-Soul,ctx,Singapore's international dialing code is +65.,"[""+65""]",True,False,False
+1.7B,1075,birthplace_callingcode,Slavoj Žižek,clear,Slavoj Žižek was born in Slovenia. The calling code for Slovenia is +386.,"[""+386""]",True,False,False
+1.7B,1082,birthplace_callingcode,Trevor Noah,ctx,South Africa's calling code is +27.,"[""+27""]",True,False,False
+1.7B,1095,birthplace_callingcode,Dhee,ctx,Sri Lanka's calling code is +94.,"[""+94""]",True,False,False
+1.7B,1097,birthplace_callingcode,Luol Deng,ctx,Sudan's calling code is +249.,"[""+249""]",True,False,False
+1.7B,1099,birthplace_callingcode,Josephine Bakhita,ctx,Sudan's calling code is +249.,"[""+249""]",True,False,False
+1.7B,1105,birthplace_callingcode,Roger Federer,ctx,Switzerland's calling code is +41.,"[""+41""]",True,False,False
+1.7B,1106,birthplace_callingcode,Tina Turner,q2,1-800-232-4636,"[""+1""]",True,False,False
+1.7B,1115,birthplace_callingcode,Tippu Tib,ctx,Tanzania's calling code is +255.,"[""+255""]",True,False,False
+1.7B,1147,birthplace_callingcode,Kenneth Kaunda,ctx,Zambia's calling code is +260.,"[""+260""]",True,False,False
+1.7B,1161,birthplace_callingcode,Mirko Cro Cop,ctx,Croatia's calling code is +385.,"[""+385""]",True,False,False
+1.7B,1162,birthplace_callingcode,Robert Herjavec,ctx,Croatia's calling code is +385.,"[""+385""]",True,False,False
+1.7B,1173,birthplace_callingcode,Hafez al-Assad,ctx,Syria's calling code is +963.,"[""+963""]",True,False,False
+1.7B,4453,birthplace_rounded_lat,Skanderbeg,clear,"Skanderbeg's birthplace is Albania, and the latitude of Albania is approximately 41.1° N. Rounded down, the latitude is 4",[41],True,False,False
+1.7B,4534,birthplace_rounded_lat,Keanu Reeves,q2,-60°,[60],True,False,False
+1.7B,4535,birthplace_rounded_lat,Ryan Reynolds,q2,-60°,[60],True,False,False
+1.7B,4536,birthplace_rounded_lat,Drake,q2,-60°,[60],True,False,False
+1.7B,4537,birthplace_rounded_lat,The Weeknd,q2,-60°,[60],True,False,False
+1.7B,4551,birthplace_rounded_lat,Paulo Wanchope,clear,-10°,[10],True,False,False
+1.7B,4602,birthplace_rounded_lat,Catilina Aubameyang,q2,Gabon 1° N,[-1],True,False,False
+1.7B,4603,birthplace_rounded_lat,Chris Silva,q2,Gabon 1° N,[-1],True,False,False
+1.7B,4604,birthplace_rounded_lat,Jean Ping,q2,Gabon 1° N,[-1],True,False,False
+1.7B,4605,birthplace_rounded_lat,Daniel Cousin,q2,Gabon 1° N,[-1],True,False,False
+1.7B,4606,birthplace_rounded_lat,Léon M'ba,q2,Gabon 1° N,[-1],True,False,False
+1.7B,4686,birthplace_rounded_lat,Eliud Kipchoge,q2,1° S,[1],True,False,False
+1.7B,4687,birthplace_rounded_lat,Uhuru Kenyatta,q2,1° S,[1],True,False,False
+1.7B,4688,birthplace_rounded_lat,Wangari Maathai,q2,1° S,[1],True,False,False
+1.7B,4744,birthplace_rounded_lat,Victor Moses,clear,-10°,[10],True,False,False
+1.7B,4784,birthplace_rounded_lat,Khabib Nurmagomedov,q2,"Russia is located in the northern hemisphere, so its latitude is rounded down to 60 degrees north.",[60],True,False,False
+1.7B,4785,birthplace_rounded_lat,Vladimir Lenin,q2,"Russia is located in the northern hemisphere, so its latitude is rounded down to 60 degrees north.",[60],True,False,False
+1.7B,4786,birthplace_rounded_lat,Catherine the Great,q2,"Russia is located in the northern hemisphere, so its latitude is rounded down to 60 degrees north.",[60],True,False,False
+1.7B,4787,birthplace_rounded_lat,Maria Sharapova,q2,"Russia is located in the northern hemisphere, so its latitude is rounded down to 60 degrees north.",[60],True,False,False
+1.7B,4788,birthplace_rounded_lat,Sergey Brin,q2,"Russia is located in the northern hemisphere, so its latitude is rounded down to 60 degrees north.",[60],True,False,False
+1.7B,4799,birthplace_rounded_lat,Novak Djokovic,clear,"Novak Djokovic is born in Serbia. The latitude of Serbia is approximately 44.0° N. Rounded down, the latitude is 4",[44],True,False,False
+1.7B,4801,birthplace_rounded_lat,Monica Seles,clear,"Monica Seles was born in Serbia. The latitude of Serbia is approximately 44.0° N. Rounded down, the latitude is 44",[44],True,False,False
+1.7B,4808,birthplace_rounded_lat,Lee Kuan Yew,q2,1.29° S,[1],True,False,False
+1.7B,4809,birthplace_rounded_lat,Lee Hsien Loong,q2,1.29° S,[1],True,False,False
+1.7B,4810,birthplace_rounded_lat,Joseph Schooling,q2,1.29° S,[1],True,False,False
+1.7B,4811,birthplace_rounded_lat,Julia Nickson-Soul,q2,1.29° S,[1],True,False,False
+1.7B,4812,birthplace_rounded_lat,Aloysius Pang,q2,1.29° S,[1],True,False,False
+1.7B,4844,birthplace_rounded_lat,Roger Federer,q2,Switzerland's latitude is approximately 47.3 degrees north.,[47],True,False,False
+1.7B,4846,birthplace_rounded_lat,Carl Jung,q2,Switzerland's latitude is approximately 47.3 degrees north.,[47],True,False,False
+1.7B,4847,birthplace_rounded_lat,Jean-Jacques Rousseau,q2,Switzerland's latitude is approximately 47.3 degrees north.,[47],True,False,False
+1.7B,4848,birthplace_rounded_lat,Leonhard Euler,q2,Switzerland's latitude is approximately 47.3 degrees north.,[47],True,False,False
+1.7B,5026,birthplace_rounded_lng,Ivan Reitman,q2,"Slovakia's longitude is approximately 19.5° E, so the rounded down longitude is 19° E.",[19],True,False,False
+1.7B,5196,birthplace_rounded_lng,Jean Reno,q2,2.5,[-5],True,False,False
+1.7B,5197,birthplace_rounded_lng,Ibn Battuta,q2,2.5,[-5],True,False,False
+1.7B,5197,birthplace_rounded_lng,Ibn Battuta,clear,"Ibn Battuta's birthplace is in present-day Morocco, and the longitude of the country where he was born is approximately 10.5° East",[-5],True,False,False
+1.7B,5198,birthplace_rounded_lng,French Montana,q2,2.5,[-5],True,False,False
+1.7B,5199,birthplace_rounded_lng,Pokimane,q2,2.5,[-5],True,False,False
+1.7B,5200,birthplace_rounded_lng,Achraf Hakimi,q2,2.5,[-5],True,False,False
+1.7B,5243,birthplace_rounded_lng,Joaquin Phoenix,q2,"Puerto Rico's longitude is approximately 66.12° W, rounded down to 66° W.",[-66],True,False,False
+1.7B,5244,birthplace_rounded_lng,Benicio Del Toro,q2,"Puerto Rico's longitude is approximately 66.12° W, rounded down to 66° W.",[-66],True,False,False
+1.7B,5245,birthplace_rounded_lng,Roberto Clemente,q2,"Puerto Rico's longitude is approximately 66.12° W, rounded down to 66° W.",[-66],True,False,False
+1.7B,5246,birthplace_rounded_lng,Bad Bunny,q2,"Puerto Rico's longitude is approximately 66.12° W, rounded down to 66° W.",[-66],True,False,False
+1.7B,5247,birthplace_rounded_lng,Ricky Martin,q2,"Puerto Rico's longitude is approximately 66.12° W, rounded down to 66° W.",[-66],True,False,False
+1.7B,5269,birthplace_rounded_lng,Monica Seles,clear,"Monica Seles was born in Serbia, and the longitude of Serbia is approximately 21.0° E. The rounded down longitude is 21",[21],True,False,False
+1.7B,5276,birthplace_rounded_lng,Lee Kuan Yew,q2,"103°15'00""",[103],True,False,False
+1.7B,5277,birthplace_rounded_lng,Lee Hsien Loong,q2,"103°15'00""",[103],True,False,False
+1.7B,5278,birthplace_rounded_lng,Joseph Schooling,q2,"103°15'00""",[103],True,False,False
+1.7B,5279,birthplace_rounded_lng,Julia Nickson-Soul,q2,"103°15'00""",[103],True,False,False
+1.7B,5280,birthplace_rounded_lng,Aloysius Pang,q2,"103°15'00""",[103],True,False,False
+1.7B,5286,birthplace_rounded_lng,Elon Musk,q2,24°00' S,[24],True,False,False
+1.7B,5287,birthplace_rounded_lng,Charlize Theron,q2,24°00' S,[24],True,False,False
+1.7B,5288,birthplace_rounded_lng,Nelson Mandela,q2,24°00' S,[24],True,False,False
+1.7B,5289,birthplace_rounded_lng,Trevor Noah,q2,24°00' S,[24],True,False,False
+1.7B,5290,birthplace_rounded_lng,AB de Villiers,q2,24°00' S,[24],True,False,False
+1.7B,5317,birthplace_rounded_lng,Ang Lee,q2,"121° 20' 30"" E",[121],True,False,False
+1.7B,5360,birthplace_rounded_lng,Nick Price,clear,30° W,[30],True,False,False
+1.7B,5367,birthplace_rounded_lng,Luka Modrić,clear,"Luka Modrić is born in Croatia, and the longitude of Croatia is approximately 15° 25' E. Rounded down, the longitude",[15],True,False,False
+1.7B,5371,birthplace_rounded_lng,Peter Sagan,q2,"Slovakia's longitude is approximately 19.5° E, so the rounded down longitude is 19° E.",[19],True,False,False
+1.7B,5372,birthplace_rounded_lng,David Dobrik,q2,"Slovakia's longitude is approximately 19.5° E, so the rounded down longitude is 19° E.",[19],True,False,False
+1.7B,5373,birthplace_rounded_lng,Marek Hamšík,q2,"Slovakia's longitude is approximately 19.5° E, so the rounded down longitude is 19° E.",[19],True,False,False
+1.7B,5374,birthplace_rounded_lng,Marián Hossa,q2,"Slovakia's longitude is approximately 19.5° E, so the rounded down longitude is 19° E.",[19],True,False,False
+1.7B,7276,birthyear_masterchamp,Pope Francis,q1,"October 17, 1936","[""1936""]",True,False,False
+1.7B,7335,birthyear_masterchamp,Bernie Sanders,q1,Bernie Sanders was born in 1941.,"[""1941""]",True,False,False
+1.7B,7353,birthyear_masterchamp,Donald Trump,q1,"January 18, 1946","[""1946""]",True,False,False
+1.7B,7354,birthyear_masterchamp,Bill Clinton,q1,Bill Clinton was born in 1946.,"[""1946""]",True,False,False
+1.7B,7496,birthyear_masterchamp,Barack Obama,q1,Barack Obama was born in 1961.,"[""1961""]",True,False,False
+1.7B,7534,birthyear_masterchamp,Michelle Obama,q1,Michelle Obama was born in 1964.,"[""1964""]",True,False,False
+1.7B,7596,birthyear_masterchamp,Elon Musk,q1,Elon Musk was born in 1971.,"[""1971""]",True,False,False
+1.7B,7630,birthyear_masterchamp,Amy Adams,q1,"April 21, 1974","[""1974""]",True,False,False
+1.7B,7657,birthyear_masterchamp,Kanye West,q1,"June 8, 1977","[""1977""]",True,False,False
+1.7B,7687,birthyear_masterchamp,Kristen Bell,q1,Kristen Bell was born in 1980.,"[""1980""]",True,False,False
+1.7B,7691,birthyear_masterchamp,Zooey Deschanel,q1,Zooey Deschanel was born in 1980.,"[""1980""]",True,False,False
+1.7B,7700,birthyear_masterchamp,Roger Federer,q1,25 April 1981,"[""1981""]",True,False,False
+1.7B,7719,birthyear_masterchamp,Emily Blunt,q1,Emily Blunt was born in 1983.,"[""1983""]",True,False,False
+1.7B,7727,birthyear_masterchamp,LeBron James,q1,23 April 1984,"[""1984""]",True,False,False
+1.7B,7739,birthyear_masterchamp,Anna Kendrick,q1,"April 21, 1985","[""1985""]",True,False,False
+1.7B,7741,birthyear_masterchamp,Michael Phelps,q1,25 April 1985,"[""1985""]",True,False,False
+1.7B,7742,birthyear_masterchamp,Lewis Hamilton,q1,"April 7, 1985","[""1985""]",True,False,False
+1.7B,7746,birthyear_masterchamp,Lady Gaga,q1,2 October 1986,"[""1986""]",True,False,False
+1.7B,7752,birthyear_masterchamp,Rafael Nadal,q1,"April 3, 1986","[""1986""]",True,False,False
+1.7B,7768,birthyear_masterchamp,Emma Stone,q1,Emma Stone was born in 1988.,"[""1988""]",True,False,False
+1.7B,7770,birthyear_masterchamp,Rihanna,q1,"August 8, 1988","[""1988""]",True,False,False
+1.7B,7775,birthyear_masterchamp,Robert Lewandowski,q1,24 April 1988,"[""1988""]",True,False,False
+1.7B,7777,birthyear_masterchamp,Elizabeth Olsen,q1,"April 21, 1989","[""1989""]",True,False,False
+1.7B,7779,birthyear_masterchamp,Daniel Radcliffe,q1,"October 15, 1989","[""1989""]",True,False,False
+1.7B,7786,birthyear_masterchamp,Emma Watson,q1,"April 6, 1990","[""1990""]",True,False,False
+1.7B,7788,birthyear_masterchamp,Jennifer Lawrence,q1,"April 26, 1990","[""1990""]",True,False,False
+1.7B,7991,birthyear_nobelLiterature,Pope Francis,q1,"October 17, 1936","[""1936""]",True,False,False
+1.7B,8058,birthyear_nobelLiterature,Donald Trump,q1,"January 18, 1946","[""1946""]",True,False,False
+1.7B,8059,birthyear_nobelLiterature,Bill Clinton,q1,Bill Clinton was born in 1946.,"[""1946""]",True,False,False
+1.7B,8201,birthyear_nobelLiterature,Barack Obama,q1,Barack Obama was born in 1961.,"[""1961""]",True,False,False
+1.7B,8239,birthyear_nobelLiterature,Michelle Obama,q1,Michelle Obama was born in 1964.,"[""1964""]",True,False,False
+1.7B,8301,birthyear_nobelLiterature,Elon Musk,q1,Elon Musk was born in 1971.,"[""1971""]",True,False,False
+1.7B,8335,birthyear_nobelLiterature,Amy Adams,q1,"April 21, 1974","[""1974""]",True,False,False
+1.7B,8362,birthyear_nobelLiterature,Kanye West,q1,"June 8, 1977","[""1977""]",True,False,False
+1.7B,8392,birthyear_nobelLiterature,Kristen Bell,q1,Kristen Bell was born in 1980.,"[""1980""]",True,False,False
+1.7B,8396,birthyear_nobelLiterature,Zooey Deschanel,q1,Zooey Deschanel was born in 1980.,"[""1980""]",True,False,False
+1.7B,8405,birthyear_nobelLiterature,Roger Federer,q1,25 April 1981,"[""1981""]",True,False,False
+1.7B,8424,birthyear_nobelLiterature,Emily Blunt,q1,Emily Blunt was born in 1983.,"[""1983""]",True,False,False
+1.7B,8432,birthyear_nobelLiterature,LeBron James,q1,23 April 1984,"[""1984""]",True,False,False
+1.7B,8444,birthyear_nobelLiterature,Anna Kendrick,q1,"April 21, 1985","[""1985""]",True,False,False
+1.7B,8446,birthyear_nobelLiterature,Michael Phelps,q1,25 April 1985,"[""1985""]",True,False,False
+1.7B,8447,birthyear_nobelLiterature,Lewis Hamilton,q1,"April 7, 1985","[""1985""]",True,False,False
+1.7B,8451,birthyear_nobelLiterature,Lady Gaga,q1,2 October 1986,"[""1986""]",True,False,False
+1.7B,8457,birthyear_nobelLiterature,Rafael Nadal,q1,"April 3, 1986","[""1986""]",True,False,False
+1.7B,8473,birthyear_nobelLiterature,Emma Stone,q1,Emma Stone was born in 1988.,"[""1988""]",True,False,False
+1.7B,8475,birthyear_nobelLiterature,Rihanna,q1,"August 8, 1988","[""1988""]",True,False,False
+1.7B,8480,birthyear_nobelLiterature,Robert Lewandowski,q1,24 April 1988,"[""1988""]",True,False,False
+1.7B,8482,birthyear_nobelLiterature,Elizabeth Olsen,q1,"April 21, 1989","[""1989""]",True,False,False
+1.7B,8484,birthyear_nobelLiterature,Daniel Radcliffe,q1,"October 15, 1989","[""1989""]",True,False,False
+1.7B,8491,birthyear_nobelLiterature,Emma Watson,q1,"April 6, 1990","[""1990""]",True,False,False
+1.7B,8493,birthyear_nobelLiterature,Jennifer Lawrence,q1,"April 26, 1990","[""1990""]",True,False,False
+8B,1677,birthplace_ccn3,Wolfgang Amadeus Mozart,q2,Austria's 3166-1 numeric code is 040.,"[""040""]",True,False,False
+8B,1678,birthplace_ccn3,Sigmund Freud,q2,Austria's 3166-1 numeric code is 040.,"[""040""]",True,False,False
+8B,1679,birthplace_ccn3,Christoph Waltz,q2,Austria's 3166-1 numeric code is 040.,"[""040""]",True,False,False
+8B,1680,birthplace_ccn3,Niki Lauda,q2,Austria's 3166-1 numeric code is 040.,"[""040""]",True,False,False
+8B,1865,birthplace_ccn3,Leonardo da Vinci,clear,"3166-1 is the ISO standard for country codes. The numeric code for Italy, where Leonardo da Vinci was born, is 380","[""380""]",True,False,False
+8B,1865,birthplace_ccn3,Leonardo da Vinci,ctx,"3166-1 is the ISO country code standard, and the numeric code for Italy is 380. Therefore, the answer is 3","[""380""]",True,False,False
+8B,1877,birthplace_ccn3,Ichiro Suzuki,clear,"3166-1 is the ISO country code standard, and the numeric code for Japan, where Ichiro Suzuki was born, is 392","[""392""]",True,False,False
+8B,2092,birthplace_ccn3,Ri Sol-ju,q2,"3166-1 is a standard for country codes, and North Korea's numeric code is 408.","[""408""]",True,False,False
+8B,2093,birthplace_ccn3,Kim Yo-jong,q2,"3166-1 is a standard for country codes, and North Korea's numeric code is 408.","[""408""]",True,False,False
+8B,2094,birthplace_ccn3,Kim Jong-un,q2,"3166-1 is a standard for country codes, and North Korea's numeric code is 408.","[""408""]",True,False,False
+8B,2095,birthplace_ccn3,Han Kwang-song,q2,"3166-1 is a standard for country codes, and North Korea's numeric code is 408.","[""408""]",True,False,False
+8B,4465,birthplace_rounded_lat,Isabel dos Santos,ctx,11.5 degrees south,[-12],False,True,False
+8B,4469,birthplace_rounded_lat,Diego Maradona,clear,34,[-34],True,False,False
+8B,4548,birthplace_rounded_lat,Harry Shum Jr.,ctx,10° S,[10],True,False,False
+8B,4549,birthplace_rounded_lat,Joel Campbell,ctx,10.5 degrees north,[10],True,False,False
+8B,4592,birthplace_rounded_lat,Jose Rizal,clear,13° S,[13],True,False,False
+8B,4630,birthplace_rounded_lat,Alfredo Bowman,ctx,15° S,[15],True,False,False
+8B,4635,birthplace_rounded_lat,Bruce Lee,ctx,22.3° S,[22],True,False,False
+8B,4639,birthplace_rounded_lat,Franz Liszt,ctx,47.5 degrees north,[47],True,False,False
+8B,4650,birthplace_rounded_lat,Sundar Pichai,ctx,20.53° S,[20],True,False,False
+8B,4653,birthplace_rounded_lat,B. J. Habibie,clear,3.5,[-5],True,False,False
+8B,4665,birthplace_rounded_lat,Mary Magdalene,ctx,31.5 degrees north,[31],True,False,False
+8B,4666,birthplace_rounded_lat,Solomon,ctx,31.5 degrees north,[31],True,False,False
+8B,4687,birthplace_rounded_lat,Uhuru Kenyatta,clear,-1.26,[1],True,False,False
+8B,4688,birthplace_rounded_lat,Wangari Maathai,clear,-1.5,[1],True,False,False
+8B,4735,birthplace_rounded_lat,Bianca Jagger,ctx,13.5 degrees north,[13],True,False,False
+8B,4753,birthplace_rounded_lat,Malala Yousafzai,ctx,30 degrees south,[30],True,False,False
+8B,4754,birthplace_rounded_lat,Imran Khan,ctx,30.5 degrees south,[30],True,False,False
+8B,4755,birthplace_rounded_lat,Wasim Akram,ctx,30.5 degrees south,[30],True,False,False
+8B,4756,birthplace_rounded_lat,Muhammad Ali Jinnah,ctx,30.5 degrees south,[30],True,False,False
+8B,4790,birthplace_rounded_lat,Pete Sandoval,ctx,13.5 degrees north,[13],True,False,False
+8B,4794,birthplace_rounded_lat,Patrick Vieira,q2,14° S,[14],True,False,False
+8B,4795,birthplace_rounded_lat,Akon,q2,14° S,[14],True,False,False
+8B,4796,birthplace_rounded_lat,Sadio Mané,q2,14° S,[14],True,False,False
+8B,4796,birthplace_rounded_lat,Sadio Mané,ctx,14.2° S,[14],True,False,False
+8B,4797,birthplace_rounded_lat,Tacko Fall,q2,14° S,[14],True,False,False
+8B,4798,birthplace_rounded_lat,Anna Diop,q2,14° S,[14],True,False,False
+8B,4800,birthplace_rounded_lat,Nikola Tesla,ctx,44° S,[44],True,False,False
+8B,4806,birthplace_rounded_lat,Leonard Bundu,ctx,8.5 degrees north,[8],True,False,False
+8B,4807,birthplace_rounded_lat,Joseph Cinqué,ctx,8.5 degrees north,[8],True,False,False
+8B,4813,birthplace_rounded_lat,Josip Broz Tito,clear,45° S,[45],True,False,False
+8B,4834,birthplace_rounded_lat,Dhee,ctx,7.5° S,[7],True,False,False
+8B,4836,birthplace_rounded_lat,Luol Deng,ctx,15.55° S,[15],True,False,False
+8B,4838,birthplace_rounded_lat,Josephine Bakhita,ctx,15 degrees south,[15],True,False,False
+8B,4852,birthplace_rounded_lat,Hasheem Thabeet,ctx,6.0,[-6],True,False,False
+8B,4857,birthplace_rounded_lat,Nicki Minaj,ctx,11.5 degrees south,[11],True,False,False
+8B,4886,birthplace_rounded_lat,Kenneth Kaunda,ctx,15.5 degrees south,[-15],True,False,True
+8B,4902,birthplace_rounded_lat,Mario Mandžukić,clear,45° S,[45],True,False,False
+8B,4937,birthplace_rounded_lng,Diego Maradona,clear,64,[-64],True,False,False
+8B,4941,birthplace_rounded_lng,Henrikh Mkhitaryan,ctx,45.5 degrees east,[45],True,False,False
+8B,4948,birthplace_rounded_lng,Wolfgang Amadeus Mozart,clear,13° 25' E,[13],True,False,False
+8B,4958,birthplace_rounded_lng,Fazlur Rahman Khan,ctx,90.5 degrees west,[90],True,False,False
+8B,4959,birthplace_rounded_lng,Sheikh Hasina,ctx,90.5 degrees east,[90],True,False,False
+8B,4960,birthplace_rounded_lng,Muhammad Yunus,ctx,90.5 degrees east,[90],True,False,False
+8B,4961,birthplace_rounded_lng,Kazi Nazrul Islam,ctx,90.5 degrees east,[90],True,False,False
+8B,4967,birthplace_rounded_lng,Jean-Claude Van Damme,q2,4.5 degrees East,[4],True,False,False
+8B,4967,birthplace_rounded_lng,Jean-Claude Van Damme,ctx,4.5 degrees east,[4],True,False,False
+8B,4968,birthplace_rounded_lng,Max Verstappen,q2,4.5 degrees East,[4],True,False,False
+8B,4968,birthplace_rounded_lng,Max Verstappen,ctx,4.5 degrees east,[4],True,False,False
+8B,4970,birthplace_rounded_lng,Jetsun Pema,ctx,90 degrees east,[90],True,False,False
+8B,4973,birthplace_rounded_lng,Tshering Tobgay,ctx,90.5 degrees east,[90],True,False,False
+8B,4994,birthplace_rounded_lng,Norodom Sihanouk,ctx,105 degrees east,[105],True,False,False
+8B,4996,birthplace_rounded_lng,Pol Pot,ctx,105.5 degrees east,[105],True,False,False
+8B,4997,birthplace_rounded_lng,Norodom Sihamoni,ctx,105.5 degrees east,[105],True,False,False
+8B,5006,birthplace_rounded_lng,Pedro Pascal,ctx,71,[-71],True,False,False
+8B,5015,birthplace_rounded_lng,Keylor Navas,ctx,84.00,[-84],True,False,False
+8B,5017,birthplace_rounded_lng,Joel Campbell,ctx,84.07,[-84],True,False,False
+8B,5019,birthplace_rounded_lng,Paulo Wanchope,ctx,84.00,[-84],True,False,False
+8B,5023,birthplace_rounded_lng,Christina Milian,ctx,96.5 degrees west,[-97],False,True,False
+8B,5035,birthplace_rounded_lng,Eddie Van Halen,clear,116.5,[5],True,False,False
+8B,5064,birthplace_rounded_lng,Nico Rosberg,q2,9 degrees East,[9],True,False,False
+8B,5070,birthplace_rounded_lng,Catilina Aubameyang,q2,-11.0,[11],True,False,False
+8B,5071,birthplace_rounded_lng,Chris Silva,q2,-11.0,[11],True,False,False
+8B,5072,birthplace_rounded_lng,Jean Ping,q2,-11.0,[11],True,False,False
+8B,5073,birthplace_rounded_lng,Daniel Cousin,q2,-11.0,[11],True,False,False
+8B,5074,birthplace_rounded_lng,Léon M'ba,q2,-11.0,[11],True,False,False
+8B,5075,birthplace_rounded_lng,Albert Einstein,q2,9 degrees East,[9],True,False,False
+8B,5076,birthplace_rounded_lng,Michael Schumacher,q2,9 degrees East,[9],True,False,False
+8B,5077,birthplace_rounded_lng,Ludwig van Beethoven,q2,9 degrees East,[9],True,False,False
+8B,5078,birthplace_rounded_lng,Karl Marx,q2,9 degrees East,[9],True,False,False
+8B,5079,birthplace_rounded_lng,W. E. B. Du Bois,ctx,96.5 degrees west,[-97],False,True,False
+8B,5080,birthplace_rounded_lng,Kofi Annan,q2,-1.5,[-2],False,True,False
+8B,5081,birthplace_rounded_lng,Kwame Nkrumah,q2,-1.5,[-2],False,True,False
+8B,5082,birthplace_rounded_lng,Marcel Desailly,q2,-1.5,[-2],False,True,False
+8B,5086,birthplace_rounded_lng,Aristotle,ctx,22.5 degrees east,[22],True,False,False
+8B,5087,birthplace_rounded_lng,Plato,ctx,22.5 degrees east,[22],True,False,False
+8B,5091,birthplace_rounded_lng,Rigoberta Menchú,clear,90,[-90],True,False,False
+8B,5122,birthplace_rounded_lng,Gilgamesh,ctx,44.5 degrees east,[44],True,False,False
+8B,5123,birthplace_rounded_lng,Sargon of Akkad,ctx,44.5 degrees east,[44],True,False,False
+8B,5125,birthplace_rounded_lng,Hammurabi,ctx,44 degrees east,[44],True,False,False
+8B,5133,birthplace_rounded_lng,Mary Magdalene,ctx,35.5 degrees east,[35],True,False,False
+8B,5134,birthplace_rounded_lng,Solomon,ctx,35.5 degrees east,[35],True,False,False
+8B,5138,birthplace_rounded_lng,Robert De Niro,clear,97,[-97],True,False,False
+8B,5138,birthplace_rounded_lng,Robert De Niro,ctx,97,[-97],True,False,False
+8B,5141,birthplace_rounded_lng,Bob Marley,clear,77,[-77],True,False,False
+8B,5141,birthplace_rounded_lng,Bob Marley,ctx,77.0,[-77],True,False,False
+8B,5143,birthplace_rounded_lng,Patrick Ewing,ctx,77.33,[-77],True,False,False
+8B,5198,birthplace_rounded_lng,French Montana,ctx,21.5 degrees west,[-5],True,False,False
+8B,5216,birthplace_rounded_lng,Magnus Carlsen,ctx,10.5 degrees east,[10],True,False,False
+8B,5238,birthplace_rounded_lng,Cristiano Ronaldo,ctx,-8.37,[-8],True,False,True
+8B,5247,birthplace_rounded_lng,Ricky Martin,clear,66,[-66],True,False,False
+8B,5261,birthplace_rounded_lng,Salman bin Abdulaziz Al Saud,clear,45 degrees east,[45],True,False,False
+8B,5261,birthplace_rounded_lng,Salman bin Abdulaziz Al Saud,ctx,45 degrees east,[45],True,False,False
+8B,5273,birthplace_rounded_lng,Foday Sankoh,clear,11.5,[-11],True,False,False
+8B,5281,birthplace_rounded_lng,Josip Broz Tito,ctx,15.5 degrees east,[15],True,False,False
+8B,5284,birthplace_rounded_lng,Luka Dončić,ctx,14.5 degrees east,[14],True,False,False
+8B,5285,birthplace_rounded_lng,Jan Oblak,ctx,14.5 degrees east,[14],True,False,False
+8B,5317,birthplace_rounded_lng,Ang Lee,q2,121.5 degrees east,[121],True,False,False
+8B,5317,birthplace_rounded_lng,Ang Lee,ctx,121.5 degrees east,[121],True,False,False
+8B,5325,birthplace_rounded_lng,Nicki Minaj,q2,61.0,[-61],True,False,False
+8B,5325,birthplace_rounded_lng,Nicki Minaj,ctx,61.00,[-61],True,False,False
+8B,5326,birthplace_rounded_lng,Brian Lara,q2,61.0,[-61],True,False,False
+8B,5326,birthplace_rounded_lng,Brian Lara,ctx,61.0,[-61],True,False,False
+8B,5327,birthplace_rounded_lng,Winston Duke,q2,61.0,[-61],True,False,False
+8B,5344,birthplace_rounded_lng,Diego Forlán,clear,56,[-56],True,False,False
+8B,5347,birthplace_rounded_lng,Miguel Cabrera,ctx,66.9667,[-66],True,False,False
+8B,5353,birthplace_rounded_lng,Cung Le,ctx,107.5 degrees east,[107],True,False,False
+8B,5369,birthplace_rounded_lng,Robert Herjavec,ctx,15度东经,[15],True,False,False
+14B,723,birthplace_callingcode,Michael Jordan,clear,1-317,"[""+1""]",True,False,False
+14B,1921,birthplace_ccn3,Subutai,ctx,Mongolia is the country where Subutai was born. The ISO 3166-1 numeric code for Mongolia is 496.,"[""496""]",True,False,False
+14B,4506,birthplace_rounded_lat,Jaime Escalante,q2,17,[-17],True,False,False
+14B,4506,birthplace_rounded_lat,Jaime Escalante,clear,17,[-17],True,False,False
+14B,4507,birthplace_rounded_lat,Jeanine Anez,q2,17,[-17],True,False,False
+14B,4509,birthplace_rounded_lat,Ximena Herrera,q2,17,[-17],True,False,False
+14B,4513,birthplace_rounded_lat,Neymar,q2,10,[-10],True,False,False
+14B,4514,birthplace_rounded_lat,Pele,q2,10,[-10],True,False,False
+14B,4515,birthplace_rounded_lat,Ronaldinho,q2,10,[-10],True,False,False
+14B,4569,birthplace_rounded_lat,Antonio Valencia,clear,2°,[-2],True,False,False
+14B,4602,birthplace_rounded_lat,Catilina Aubameyang,q2,1°,[-1],True,False,False
+14B,4603,birthplace_rounded_lat,Chris Silva,q2,1°,[-1],True,False,False
+14B,4604,birthplace_rounded_lat,Jean Ping,q2,1°,[-1],True,False,False
+14B,4604,birthplace_rounded_lat,Jean Ping,clear,1.5,[-1],True,False,False
+14B,4605,birthplace_rounded_lat,Daniel Cousin,q2,1°,[-1],True,False,False
+14B,4606,birthplace_rounded_lat,Léon M'ba,q2,1°,[-1],True,False,False
+14B,4652,birthplace_rounded_lat,Kevin Sanjaya Sukamuljo,clear,-7.5,[-5],True,False,False
+14B,4761,birthplace_rounded_lat,Roque Santa Cruz,ctx,-23.5,[-23],True,False,True
+14B,4850,birthplace_rounded_lat,Julius Nyerere,q2,6,[-6],True,False,False
+14B,4850,birthplace_rounded_lat,Julius Nyerere,clear,6.0,[-6],True,False,False
+14B,4851,birthplace_rounded_lat,Zuchu,q2,6,[-6],True,False,False
+14B,4852,birthplace_rounded_lat,Hasheem Thabeet,q2,6,[-6],True,False,False
+14B,4853,birthplace_rounded_lat,Jakaya Kikwete,q2,6,[-6],True,False,False
+14B,4853,birthplace_rounded_lat,Jakaya Kikwete,clear,6.5,[-6],True,False,False
+14B,4854,birthplace_rounded_lat,Tippu Tib,q2,6,[-6],True,False,False
+14B,4854,birthplace_rounded_lat,Tippu Tib,ctx,6,[-6],True,False,False
+14B,4886,birthplace_rounded_lat,Kenneth Kaunda,q2,15,[-15],True,False,False
+14B,4886,birthplace_rounded_lat,Kenneth Kaunda,clear,15,[-15],True,False,False
+14B,4887,birthplace_rounded_lat,Denise Chaila,q2,15,[-15],True,False,False
+14B,4888,birthplace_rounded_lat,Levy Mwanawasa,q2,15,[-15],True,False,False
+14B,4889,birthplace_rounded_lat,Michael Sata,q2,15,[-15],True,False,False
+14B,5016,birthplace_rounded_lng,Harry Shum Jr.,ctx,-83.5,[-84],False,True,False
+14B,5019,birthplace_rounded_lng,Paulo Wanchope,ctx,-83.5,[-84],False,True,False
+14B,5035,birthplace_rounded_lng,Eddie Van Halen,ctx,4.5,[5],True,False,False
+14B,5081,birthplace_rounded_lng,Kwame Nkrumah,clear,-1.5,[-2],False,True,False
+14B,5088,birthplace_rounded_lng,Oscar Isaac,q2,90,[-90],True,False,False
+14B,5090,birthplace_rounded_lng,Ricardo Arjona,q2,90,[-90],True,False,False
+14B,5091,birthplace_rounded_lng,Rigoberta Menchú,q2,90,[-90],True,False,False
+14B,5092,birthplace_rounded_lng,Jacobo Árbenz,q2,90,[-90],True,False,False
+14B,5093,birthplace_rounded_lng,Wyclef Jean,q2,72,[-72],True,False,False
+14B,5093,birthplace_rounded_lng,Wyclef Jean,clear,72,[-72],True,False,False
+14B,5094,birthplace_rounded_lng,Garcelle Beauvais,q2,72,[-72],True,False,False
+14B,5095,birthplace_rounded_lng,Adonis Stevenson,q2,72,[-72],True,False,False
+14B,5096,birthplace_rounded_lng,Bermane Stiverne,q2,72,[-72],True,False,False
+14B,5130,birthplace_rounded_lng,Bono,clear,-8.1,[-8],True,False,True
+14B,5141,birthplace_rounded_lng,Bob Marley,q2,77,[-77],True,False,False
+14B,5141,birthplace_rounded_lng,Bob Marley,clear,77,[-77],True,False,False
+14B,5141,birthplace_rounded_lng,Bob Marley,ctx,77.0,[-77],True,False,False
+14B,5142,birthplace_rounded_lng,Usain Bolt,q2,77,[-77],True,False,False
+14B,5143,birthplace_rounded_lng,Patrick Ewing,q2,77,[-77],True,False,False
+14B,5185,birthplace_rounded_lng,Carlos Slim,ctx,-102.5,[-102],True,False,True
+14B,5196,birthplace_rounded_lng,Jean Reno,clear,2.5,[-5],True,False,False
+14B,5200,birthplace_rounded_lng,Achraf Hakimi,clear,-5.5,[-5],True,False,True
+14B,5238,birthplace_rounded_lng,Cristiano Ronaldo,clear,-8.6,[-8],True,False,True
+14B,5241,birthplace_rounded_lng,Luís Figo,clear,-8.6,[-8],True,False,True
+14B,5242,birthplace_rounded_lng,António Guterres,clear,-8.6,[-8],True,False,True
+14B,5243,birthplace_rounded_lng,Joaquin Phoenix,ctx,-66.08,[-66],True,False,True
+14B,5244,birthplace_rounded_lng,Benicio Del Toro,ctx,-66.08,[-66],True,False,True
+14B,5245,birthplace_rounded_lng,Roberto Clemente,ctx,-66.0833,[-66],True,False,True
+14B,5246,birthplace_rounded_lng,Bad Bunny,ctx,-66.08,[-66],True,False,True
+14B,5247,birthplace_rounded_lng,Ricky Martin,ctx,-66.0833,[-66],True,False,True
+14B,5296,birthplace_rounded_lng,Penelope Cruz,clear,-3.7,[-4],False,True,False

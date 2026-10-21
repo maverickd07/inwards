@@ -1,0 +1,210 @@
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage plan --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --items inward/results/exp1v2_Qwen3-14B/items.jsonl --data inward/data/compositional_celebrities.json --reference-evals /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/reference_exp8 --smoke-test
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 299.55it/s]
+{"original_partition": [{"round": 1, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}, {"round": 2, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}, {"round": 3, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}], "minimum_items": 400, "use_all_each_round": true, "full_people": 216, "full_items": 864, "training_categories": {"birthplace_callingcode": 216, "birthplace_capital": 216, "birthplace_rounded_lat": 216, "birthplace_rounded_lng": 216}, "evaluation_counts": {"A_newPerson": 500, "B_newCategory": 500, "C_bothNew": 500}, "source_hashes": {"inward/results/exp1v2_Qwen3-14B/items.jsonl": "c27e89277bc36a38a42394e0ac1d93ef8a799d3da3cfb110d0507c293d9a1aad", "inward/data/compositional_celebrities.json": "b5fa71b82bbd05ac7b7462682a686d696a5485c69a2dc8c3a3ece8f49c4520d0"}}
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 14179.53it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage baseline --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/baseline --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 21496.02it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition shared --round 1 --train-seed 0 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 20436.09it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s0/adapter --train-seed 0 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 21456.44it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s0/targets.jsonl --condition reset --round 2 --train-seed 0 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19229.34it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s0/adapter --train-seed 0 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 13050.11it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s0/targets.jsonl --condition reset --round 3 --train-seed 0 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19825.60it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r3_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s0/adapter --train-seed 0 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 21772.76it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r3_s0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s0/targets.jsonl --condition continue --round 2 --train-seed 0 --epochs 2 --batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s0/adapter --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19218.77it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s0/adapter --train-seed 0 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 12072.02it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s0/targets.jsonl --condition continue --round 3 --train-seed 0 --epochs 2 --batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s0/adapter --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 7254.57it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r3_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s0/adapter --train-seed 0 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 23384.83it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r3_s0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/frozen_budget_r2_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition frozen_budget --round 2 --train-seed 0 --epochs 4 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 16297.42it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/frozen_budget_r3_s0 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition frozen_budget --round 3 --train-seed 0 --epochs 6 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 10505.72it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition shared --round 1 --train-seed 1 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 15327.82it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s1/adapter --train-seed 1 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 20305.50it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s1
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s1/targets.jsonl --condition reset --round 2 --train-seed 1 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 17311.80it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s1/adapter --train-seed 1 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 18741.30it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s1
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s1/targets.jsonl --condition reset --round 3 --train-seed 1 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 9811.70it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r3_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s1/adapter --train-seed 1 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22182.70it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r3_s1
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s1/targets.jsonl --condition continue --round 2 --train-seed 1 --epochs 2 --batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s1/adapter --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19625.23it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s1/adapter --train-seed 1 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 20694.22it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s1
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s1/targets.jsonl --condition continue --round 3 --train-seed 1 --epochs 2 --batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s1/adapter --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 16427.64it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r3_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s1/adapter --train-seed 1 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 17300.38it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r3_s1
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/frozen_budget_r2_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition frozen_budget --round 2 --train-seed 1 --epochs 4 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 18236.10it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/frozen_budget_r3_s1 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition frozen_budget --round 3 --train-seed 1 --epochs 6 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22974.93it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition shared --round 1 --train-seed 2 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19953.87it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s2/adapter --train-seed 2 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 18542.46it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s2
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s2/targets.jsonl --condition reset --round 2 --train-seed 2 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22220.30it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r2_s2/adapter --train-seed 2 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19621.56it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s2
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r2_s2/targets.jsonl --condition reset --round 3 --train-seed 2 --epochs 2 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22010.41it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r3_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_r3_s2/adapter --train-seed 2 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 6965.43it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/reset_targets_r3_s2
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_targets_r1_s2/targets.jsonl --condition continue --round 2 --train-seed 2 --epochs 2 --batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/shared_r1_s2/adapter --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 15087.42it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s2/adapter --train-seed 2 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 21836.23it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s2
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r2_s2/targets.jsonl --condition continue --round 3 --train-seed 2 --epochs 2 --batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r2_s2/adapter --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 18768.14it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage targets --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r3_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --adapter results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_r3_s2/adapter --train-seed 2 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 20227.16it/s]
+targets complete results/handoff_analysis_20261003/exp11_iterate/smoke_v1/continue_targets_r3_s2
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/frozen_budget_r2_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition frozen_budget --round 2 --train-seed 2 --epochs 4 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19950.08it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+RUN: /private/tmp/inward-exp8-venv/bin/python /Users/danielweiyuchen/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/exp11_iterate/exp11_iterate.py --stage train --out results/handoff_analysis_20261003/exp11_iterate/smoke_v1/frozen_budget_r3_s2 --model results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model --plan results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan --gen-batch 8 --targets results/handoff_analysis_20261003/exp11_iterate/smoke_v1/base_targets/targets.jsonl --condition frozen_budget --round 3 --train-seed 2 --epochs 6 --batch 8 --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 18210.77it/s]
+A_newPerson accuracy 0.0
+B_newCategory accuracy 0.0
+C_bothNew accuracy 0.0
+EXP11 primary C results (floor; three seeds; no seed pooling):
+shared R1: 0.00 +/- 0.00% ; gain +0.00 pp
+reset R2: 0.00 +/- 0.00% ; gain +0.00 pp
+reset R3: 0.00 +/- 0.00% ; gain +0.00 pp
+continue R2: 0.00 +/- 0.00% ; gain +0.00 pp
+continue R3: 0.00 +/- 0.00% ; gain +0.00 pp
+frozen_budget R2: 0.00 +/- 0.00% ; gain +0.00 pp
+frozen_budget R3: 0.00 +/- 0.00% ; gain +0.00 pp
+All round outcomes retained. Do not select the best round on C.
+Stop at this checkpoint and decide next direction with the user.
+EXP11 COMPLETE: results/handoff_analysis_20261003/exp11_iterate/smoke_v1

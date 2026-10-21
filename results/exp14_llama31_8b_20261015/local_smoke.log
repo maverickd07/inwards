@@ -1,0 +1,121 @@
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 539.67it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 13548.74it/s]
+RUN baseline
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 15884.65it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN paired_targets
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 19815.61it/s]
+Generating direct targets
+Generating own first-hop answers
+Generating contextual targets
+Answer NLL: context targets under direct prompts
+Answer NLL: context targets under context prompts
+Answer NLL: direct targets under direct prompts
+Answer NLL: direct targets under context prompts
+PRETRAIN SEALED: known=2, clean=2; SHA256=7bc37a66c9157c77bb4d7c06805914f37e6b65e4501141bab60f8ff67a77d8e2
+RUN context_s0
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 25515.75it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN direct_s0
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 10033.08it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN context_s1
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 19665.19it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN direct_s1
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 27244.16it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN context_s2
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 10880.84it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN direct_s2
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 23438.10it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN context_s3
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 22058.70it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN direct_s3
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 29117.48it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN context_s4
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 19927.69it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN direct_s4
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 22102.98it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN context_s5
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 21519.76it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+RUN direct_s5
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/21 [00:00<?, ?it/s]Loading weights: 100%|██████████| 21/21 [00:00<00:00, 34034.15it/s]
+A_newPerson 0 / 2
+B_newCategory 2 / 2
+C_bothNew 2 / 2
+D_reservedC 2 / 2
+EXP14 Llama replication: software_smoke_only
+Primary pretraining-sealed clean n=2
+Six paired seeds; t95 df5; intervals do not include question-sampling uncertainty.
+clean (2) all_wrong: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+clean (2) all_correct: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+clean (2) exclude_pair_union: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+known (2) all_wrong: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+known (2) all_correct: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+known (2) exclude_pair_union: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+all_D (2) all_wrong: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+all_D (2) all_correct: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+all_D (2) exclude_pair_union: 0.0 pp; t95=[0.0, 0.0]; seeds=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+No automatic content/format interpretation; blinded audit pending.
+Positive replication supports cross-family efficacy, not a unique knowledge-use mechanism.
+EXP14 COMPLETE: 12 fits; stop and review results.
+Review archive: /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp14_llama31_8b_20261015/local_smoke/run_review.tgz

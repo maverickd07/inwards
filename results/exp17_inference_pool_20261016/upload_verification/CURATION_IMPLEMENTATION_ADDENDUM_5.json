@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-16T10:57:54.738637+00:00",
+  "before_curation_execution": true,
+  "script": "curate_review_v5.py",
+  "sha256": "2cc9e106bf8598a54836d291b00697d53b7ce99bea9924579c4334ff2ff35c89",
+  "changes": [
+    "Correct naturalised/naturalized/naturalisation/naturalization spelling patterns. Criteria unchanged; original regex had omitted the fixed i."
+  ]
+}

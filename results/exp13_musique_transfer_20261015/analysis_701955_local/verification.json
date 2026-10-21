@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "archive_sha256": "941a64ec6622dc4e03a4f39731df969da4294527127d7418c64a67327dadc68d",
+  "internal_files_verified": 101,
+  "frozen_inputs_and_code_verified": true,
+  "adapter_receipts_verified": 12,
+  "model_outputs": 13,
+  "unique_predictions": 67288,
+  "composed_scores_verified": 31005,
+  "hop_scores_verified": 82303,
+  "six_seed_CI_independent_scipy_verified": true,
+  "runtime_seconds": 9268.512998580933,
+  "limitations": [
+    "No adapter weights downloaded; checked production hash receipts against frozen manifest",
+    "No sacct record in archive; completion markers and successful log verified",
+    "No inference rerun or scoring rule changes"
+  ]
+}

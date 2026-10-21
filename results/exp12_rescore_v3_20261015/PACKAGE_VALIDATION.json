@@ -1,0 +1,5 @@
+{
+  "archive_checksums_match": true,
+  "packaged_preflight_login_and_compute_ticket_passed": true,
+  "scope": "temporary HPC-layout fixture linked to verified input files; synthetic quota text; no live scheduler"
+}

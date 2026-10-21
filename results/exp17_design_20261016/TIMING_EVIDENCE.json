@@ -1,0 +1,8 @@
+{
+  "paired_generation_3x864_plus_4x864_NLL_seconds": 454.63036608695984,
+  "baseline_3xN_generation_plus_N_NLL_seconds": 404.10744738578796,
+  "baseline_items_N": 2000,
+  "paired_total_over_generation_request_seconds": 0.1753975177804629,
+  "baseline_total_over_generation_request_seconds": 0.06735124123096466,
+  "caveat": "Includes model loading and NLL, not pure inference speed; batch length and hardware matter. Planning range 0.1–0.5 seconds/request plus 5–10 minutes loading/IO, excluding queue and reference curation."
+}

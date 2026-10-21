@@ -1,0 +1,8 @@
+{
+  "exact_p_cases": 2053,
+  "max_absolute_p_error": 1.3877787807814457e-15,
+  "analytic_t_df2": 4.302652729749464,
+  "scipy_t_df2": 4.302652729749462,
+  "absolute_t_error": 1.7763568394002505e-15,
+  "conclusion": "numerically equivalent at reporting precision"
+}

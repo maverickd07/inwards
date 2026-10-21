@@ -1,0 +1,8 @@
+{
+  "target_sha256": {
+    "context": "d6a95531caf11315cf31cc7279167fcc61f8ca542ca1066ca4efe8cdcdb5b49a",
+    "direct": "b0de238ab95da6c6928471da99301d6ecf22ec6a2f8738c5d42df1945e9503f1"
+  },
+  "cached_from_job": 700454,
+  "selected_without_regeneration": true
+}

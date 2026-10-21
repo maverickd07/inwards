@@ -1,0 +1,10 @@
+EXP12: six fits; primary D_reservedC; no seed pooling.
+Teacher context-minus-direct: +9.14 pp (paired training questions)
+context composed: 52.00% +/- 1.78 SD; gain +3.20 pp
+direct composed: 49.13% +/- 0.31 SD; gain +0.33 pp
+context hop1: 82.33% +/- 0.64 SD; gain -0.07 pp
+direct hop1: 81.73% +/- 0.92 SD; gain -0.67 pp
+context hop2: 74.60% +/- 1.04 SD; gain -0.60 pp
+direct hop2: 74.93% +/- 0.31 SD; gain -0.27 pp
+Context-minus-direct D composed: {'values': [2.0, 1.8, 4.8], 'mean': 2.8666666666666667, 'sample_sd': 1.6772994167212165, 'seed_t95': [-1.2999760683073416, 7.033309401640675]}
+Manual content/format review pending: blinded_review.csv. Stop and decide next direction.

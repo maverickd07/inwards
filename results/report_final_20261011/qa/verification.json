@@ -1,0 +1,29 @@
+{
+  "pages": 13,
+  "page_size": "A4",
+  "all_fonts_embedded": true,
+  "font_count": 18,
+  "chinese_text_extractable_with_pdfium": true,
+  "all_figures_included": true,
+  "compiler": "Tectonic (XeTeX engine)",
+  "fonts": {
+    "/IHAIZV+FandolSong-Regular-Identity-H": true,
+    "/BZIVMZ+TeXGyrePagella-Regular-Identity-H": true,
+    "/IXFAWU+FandolSong-Bold-Identity-H": true,
+    "/VDVGTR+CMSY10": true,
+    "/TQTHRL+TeXGyrePagella-Bold-Identity-H": true,
+    "/CAFSZL+CMR10": true,
+    "/DDIEWW+CMMI10": true,
+    "/YEUUOC+LMMono10-Regular-Identity-H": true,
+    "/FKPJSN+CMMI8": true,
+    "/PVTTLK+CMMI6": true,
+    "/JAGKKY+CMR8": true,
+    "/NOMARO+CMEX10": true,
+    "/KPXLOM+CMSY8": true,
+    "/UTACNV+CMSY7": true,
+    "/FZDNHS+CMR7": true,
+    "/DZGKAF+CMR9": true,
+    "/AKHCZK+TeXGyrePagella-Italic-Identity-H": true,
+    "/GJMHKB+CMMI9": true
+  }
+}

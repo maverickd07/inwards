@@ -1,0 +1,22 @@
+{
+  "prior_job": 681332,
+  "reuse": [
+    "self_wrong_s0",
+    "shuffled_wrong_s0"
+  ],
+  "rerun": [
+    "self_correct_s0",
+    "self_wrong_s1",
+    "shuffled_wrong_s1",
+    "self_correct_s1",
+    "self_wrong_s2",
+    "shuffled_wrong_s2",
+    "self_correct_s2"
+  ],
+  "prior_files_modified": false,
+  "local_reuse_and_combined_analysis_smoke": "passed",
+  "sha256": {
+    "prepare_resume_681332.py": "536009c948be026ed3bb9da9d358628d1dce5c4a948b38aa56c46794d0a28a1c",
+    "run_exp10_resume_681332.sh": "0c168fa37691a9021e48747ed141939042da74d50be77db51c3440008166fd75"
+  }
+}
