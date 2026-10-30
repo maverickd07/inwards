@@ -1,0 +1,48 @@
+{
+  "full_tiny_pipeline_passed": true,
+  "integrity_checks_passed": true,
+  "tested_core_source_hashes_match_delivery": true,
+  "training_runs_in_smoke": 6,
+  "smoke_seconds": 23.38773512840271,
+  "full_data_counts": {
+    "train": 864,
+    "A": 500,
+    "B": 500,
+    "C": 500,
+    "D": 500
+  },
+  "D_excludes_prior_C_and_training_people_families": true,
+  "historical_C_files": 76,
+  "historical_C_unique_items": 500,
+  "D_reserved_seed": 12,
+  "submission_checks": {
+    "empty": "passed",
+    "one": "passed",
+    "full": "passed",
+    "bad_preflight": "passed",
+    "scope": "Mocked scheduler/preflight commands; actual flock and HPC scheduling not simulated."
+  },
+  "historical_audit": {
+    "flip_records": 4887,
+    "unique_answer_pairs": 522,
+    "repair_records": 3522,
+    "damage_records": 1365,
+    "human_review": "pending; no automatic content/format attribution"
+  },
+  "runtime": {
+    "python": "3.11.15 (main, May  8 2026, 18:24:56) [Clang 22.1.3 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "versions": {
+      "torch": "2.14.1",
+      "transformers": "4.57.6",
+      "peft": "0.21.1",
+      "numpy": "2.4.6"
+    },
+    "cuda": null,
+    "gpu": null,
+    "smoke_test": true
+  },
+  "14B_GPU_tested_locally": false,
+  "HPC_submitted": false,
+  "pending": "User upload/submission; actual GPU resource/import compatibility and later semantic audit."
+}

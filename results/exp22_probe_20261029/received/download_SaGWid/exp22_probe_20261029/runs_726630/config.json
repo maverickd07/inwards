@@ -1,0 +1,23 @@
+{
+  "smoke": false,
+  "model": "models/Qwen3-14B",
+  "variants": [
+    "base",
+    "context_s0",
+    "context_s1",
+    "direct_s0",
+    "direct_s1"
+  ],
+  "dtype": "bfloat16",
+  "cache_dtype": "float16",
+  "versions": {
+    "torch": "2.13.0",
+    "transformers": "5.17.0",
+    "peft": "0.21.1",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.6.1"
+  },
+  "protocol_sha256": "583a4936ddf5082ab3e95338345bc7da04c873053f0d928628ccd849b2361f39",
+  "input_sha256": "7f67d480f3072e8ffe52dc4f3db8cb9b7456e8feab3d880da97cc08133379d3a",
+  "started_utc": "2026-10-29T11:31:47Z"
+}

@@ -1,0 +1,3652 @@
+{
+  "bootstrap": 10000,
+  "seed": 21,
+  "never_hit_sentinel": 29,
+  "smoke": true,
+  "sets": {
+    "fixed303": {
+      "primary_nonoverlap": {
+        "n": 5,
+        "excluded_overlap_n": 1,
+        "models": {
+          "base_C0": {
+            "n": 5,
+            "accuracy": {
+              "n": 5,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 5,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 27.8,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      25.4,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 23.0,
+                    "median": 23.0,
+                    "mean_ci95": [
+                      23.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 4,
+                  "never_hit_fraction": 0.8,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 27.8,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      25.4,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 23.0,
+                    "median": 23.0,
+                    "mean_ci95": [
+                      23.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 4,
+                  "never_hit_fraction": 0.8,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "never": {
+                  "n": 4,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 5,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 5,
+            "accuracy": {
+              "n": 5,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 5,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 5,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 5,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 5,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      },
+      "all_items": {
+        "n": 6,
+        "excluded_overlap_n": 0,
+        "models": {
+          "base_C0": {
+            "n": 6,
+            "accuracy": {
+              "n": 6,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 5,
+            "historical_n": 1,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 26.833333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      24.5,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      22.5,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 2,
+                    "mean": 22.5,
+                    "median": 22.5,
+                    "mean_ci95": [
+                      22.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      22.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 4,
+                  "never_hit_fraction": 0.6666666666666666,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 27.833333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      25.5,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      25.5,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 22.0,
+                    "median": 22.0,
+                    "mean_ci95": [
+                      22.0,
+                      22.0
+                    ],
+                    "median_ci95": [
+                      22.0,
+                      22.0
+                    ]
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 0.8333333333333334,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 26.833333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      24.5,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      22.5,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 2,
+                    "mean": 22.5,
+                    "median": 22.5,
+                    "mean_ci95": [
+                      22.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      22.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 4,
+                  "never_hit_fraction": 0.6666666666666666,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 27.833333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      25.5,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      25.5,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 22.0,
+                    "median": 22.0,
+                    "mean_ci95": [
+                      22.0,
+                      22.0
+                    ],
+                    "median_ci95": [
+                      22.0,
+                      22.0
+                    ]
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 0.8333333333333334,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 2,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "never": {
+                  "n": 4,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "never": {
+                  "n": 5,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 6,
+            "accuracy": {
+              "n": 6,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 6,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 6,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 6,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      },
+      "leading_space_nonoverlap": {
+        "n": 6,
+        "excluded_overlap_n": 0,
+        "models": {
+          "base_C0": {
+            "n": 6,
+            "accuracy": {
+              "n": 6,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 5,
+            "historical_n": 1,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 28.166666666666668,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      26.5,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      26.5,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 24.0,
+                    "median": 24.0,
+                    "mean_ci95": [
+                      24.0,
+                      24.0
+                    ],
+                    "median_ci95": [
+                      24.0,
+                      24.0
+                    ]
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 0.8333333333333334,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 28.166666666666668,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      26.5,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      26.5,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 24.0,
+                    "median": 24.0,
+                    "mean_ci95": [
+                      24.0,
+                      24.0
+                    ],
+                    "median_ci95": [
+                      24.0,
+                      24.0
+                    ]
+                  },
+                  "never_hit_n": 5,
+                  "never_hit_fraction": 0.8333333333333334,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "never": {
+                  "n": 5,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 6,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 6,
+            "accuracy": {
+              "n": 6,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 6,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 6,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 6,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 6,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 6,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      },
+      "exclude_review_nonoverlap": {
+        "n": 5,
+        "excluded_overlap_n": 1,
+        "models": {
+          "base_C0": {
+            "n": 0,
+            "accuracy": {
+              "n": 0,
+              "mean": null,
+              "median": null,
+              "mean_ci95": null,
+              "median_ci95": null
+            },
+            "review_n": 0,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 0,
+            "accuracy": {
+              "n": 0,
+              "mean": null,
+              "median": null,
+              "mean_ci95": null,
+              "median_ci95": null
+            },
+            "review_n": 0,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      }
+    },
+    "D500_known313": {
+      "primary_nonoverlap": {
+        "n": 9,
+        "excluded_overlap_n": 0,
+        "models": {
+          "base_C0": {
+            "n": 9,
+            "accuracy": {
+              "n": 9,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 8,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 28.333333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      27.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 23.0,
+                    "median": 23.0,
+                    "mean_ci95": [
+                      23.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 8,
+                  "never_hit_fraction": 0.8888888888888888,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 28.333333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      27.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 23.0,
+                    "median": 23.0,
+                    "mean_ci95": [
+                      23.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 8,
+                  "never_hit_fraction": 0.8888888888888888,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "never": {
+                  "n": 8,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 9,
+            "accuracy": {
+              "n": 9,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 9,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      },
+      "all_items": {
+        "n": 9,
+        "excluded_overlap_n": 0,
+        "models": {
+          "base_C0": {
+            "n": 9,
+            "accuracy": {
+              "n": 9,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 8,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 28.333333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      27.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 23.0,
+                    "median": 23.0,
+                    "mean_ci95": [
+                      23.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 8,
+                  "never_hit_fraction": 0.8888888888888888,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 28.333333333333332,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      27.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 23.0,
+                    "median": 23.0,
+                    "mean_ci95": [
+                      23.0,
+                      23.0
+                    ],
+                    "median_ci95": [
+                      23.0,
+                      23.0
+                    ]
+                  },
+                  "never_hit_n": 8,
+                  "never_hit_fraction": 0.8888888888888888,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "never": {
+                  "n": 8,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 9,
+            "accuracy": {
+              "n": 9,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 9,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      },
+      "leading_space_nonoverlap": {
+        "n": 9,
+        "excluded_overlap_n": 0,
+        "models": {
+          "base_C0": {
+            "n": 9,
+            "accuracy": {
+              "n": 9,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 8,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 28.444444444444443,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      27.333333333333332,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 24.0,
+                    "median": 24.0,
+                    "mean_ci95": [
+                      24.0,
+                      24.0
+                    ],
+                    "median_ci95": [
+                      24.0,
+                      24.0
+                    ]
+                  },
+                  "never_hit_n": 8,
+                  "never_hit_fraction": 0.8888888888888888,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 28.444444444444443,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      27.333333333333332,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 1,
+                    "mean": 24.0,
+                    "median": 24.0,
+                    "mean_ci95": [
+                      24.0,
+                      24.0
+                    ],
+                    "median_ci95": [
+                      24.0,
+                      24.0
+                    ]
+                  },
+                  "never_hit_n": 8,
+                  "never_hit_fraction": 0.8888888888888888,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "never": {
+                  "n": 8,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 9,
+            "accuracy": {
+              "n": 9,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 9,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 9,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 9,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 9,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      },
+      "exclude_review_nonoverlap": {
+        "n": 9,
+        "excluded_overlap_n": 0,
+        "models": {
+          "base_C0": {
+            "n": 1,
+            "accuracy": {
+              "n": 1,
+              "mean": 0.0,
+              "median": 0.0,
+              "mean_ci95": [
+                0.0,
+                0.0
+              ],
+              "median_ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "review_n": 0,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 1,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 1,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 1,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 1,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 1,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 1,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 1,
+                    "mean": 29.0,
+                    "median": 29.0,
+                    "mean_ci95": [
+                      29.0,
+                      29.0
+                    ],
+                    "median_ci95": [
+                      29.0,
+                      29.0
+                    ]
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 1,
+                  "never_hit_fraction": 1.0,
+                  "sentinel": 29
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 1,
+                  "mean": 0.0,
+                  "median": 0.0,
+                  "mean_ci95": [
+                    0.0,
+                    0.0
+                  ],
+                  "median_ci95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            }
+          },
+          "base_C2": {
+            "n": 0,
+            "accuracy": {
+              "n": 0,
+              "mean": null,
+              "median": null,
+              "mean_ci95": null,
+              "median_ci95": null
+            },
+            "review_n": 0,
+            "historical_n": 0,
+            "groups": {
+              "all": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_correct": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              },
+              "C0_wrong": {
+                "bridge": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                },
+                "answer": {
+                  "censored_L_plus_1": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "hit_only": {
+                    "n": 0,
+                    "mean": null,
+                    "median": null,
+                    "mean_ci95": null,
+                    "median_ci95": null
+                  },
+                  "never_hit_n": 0,
+                  "never_hit_fraction": null,
+                  "sentinel": null
+                }
+              }
+            },
+            "correctness_relation": {
+              "bridge": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                }
+              },
+              "answer": {
+                "early": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "late": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                },
+                "never": {
+                  "n": 0,
+                  "mean": null,
+                  "median": null,
+                  "mean_ci95": null,
+                  "median_ci95": null
+                }
+              }
+            }
+          }
+        },
+        "paired": {}
+      }
+    }
+  }
+}

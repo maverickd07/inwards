@@ -1,0 +1,8 @@
+{
+  "experiment": "exp14_llama31_8b",
+  "training_engine": "unchanged_exp11",
+  "original_run_config_sha256": "f3c8109e7683d5a9c7f747c9b8bcdf64978b849d4d48d2ed5918e0aba0286ada",
+  "primary": "D_Llama_known_clean_pretrain",
+  "scorer": "frozen_v3",
+  "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+}

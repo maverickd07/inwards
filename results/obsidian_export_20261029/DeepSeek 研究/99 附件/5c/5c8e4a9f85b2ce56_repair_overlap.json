@@ -1,0 +1,17 @@
+{
+  "missing": [
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_self_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_self_s1_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_gold_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_hops_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_self_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_self_s1_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_gold_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_hops_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_self_Qwen3-14B/eval_C_bothNew.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_self_s1_Qwen3-14B/eval_C_bothNew.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_gold_Qwen3-14B/eval_C_bothNew.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-\u731c\u60f3\u5b9e\u9a8c/inward/results/inward_hops_Qwen3-14B/eval_C_bothNew.jsonl"
+  ],
+  "results": {}
+}

@@ -1,0 +1,16 @@
+{
+  "plan": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/plan/items_D_reservedC.jsonl",
+  "baseline": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/baseline/eval_D_reservedC.jsonl",
+  "context_s0": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/context_s0/eval_D_reservedC.jsonl",
+  "direct_s0": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/direct_s0/eval_D_reservedC.jsonl",
+  "context_s1": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/context_s1/eval_D_reservedC.jsonl",
+  "direct_s1": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/direct_s1/eval_D_reservedC.jsonl",
+  "context_s2": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/context_s2/eval_D_reservedC.jsonl",
+  "direct_s2": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/reused_700454/direct_s2/eval_D_reservedC.jsonl",
+  "context_s3": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/context_s3/eval_D_reservedC.jsonl",
+  "direct_s3": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/direct_s3/eval_D_reservedC.jsonl",
+  "context_s4": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/context_s4/eval_D_reservedC.jsonl",
+  "direct_s4": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/direct_s4/eval_D_reservedC.jsonl",
+  "context_s5": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/context_s5/eval_D_reservedC.jsonl",
+  "direct_s5": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/received/extracted_700972/runs_700972/direct_s5/eval_D_reservedC.jsonl"
+}

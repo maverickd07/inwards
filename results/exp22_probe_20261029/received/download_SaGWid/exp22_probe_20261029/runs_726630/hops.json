@@ -1,0 +1,8541 @@
+{
+  "What is the birthplace (country only) of Confucius?": {
+    "raw": "China",
+    "generated_ids": [
+      22282,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in China?": {
+    "raw": "¥",
+    "generated_ids": [
+      81093,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jan Oblak?": {
+    "raw": "Slovenia",
+    "generated_ids": [
+      50,
+      385,
+      1037,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Slovenia?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Natti Natasha?": {
+    "raw": "Dominican Republic",
+    "generated_ids": [
+      71541,
+      7065,
+      5429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Dominican Republic?": {
+    "raw": ".do",
+    "generated_ids": [
+      16521,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kristaps Porzingis?": {
+    "raw": "Latvia",
+    "generated_ids": [
+      23140,
+      20105,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Latvia?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Christopher Columbus?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Italy?": {
+    "raw": ".it",
+    "generated_ids": [
+      15593,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Catilina Aubameyang?": {
+    "raw": "Gabon",
+    "generated_ids": [
+      74639,
+      263,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Gabon?": {
+    "raw": "XAF",
+    "generated_ids": [
+      55,
+      8276,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Patrick Ewing?": {
+    "raw": "Bahamas",
+    "generated_ids": [
+      98922,
+      28089,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Jamaica?": {
+    "raw": "JMD",
+    "generated_ids": [
+      41,
+      6076,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Niels Bohr?": {
+    "raw": "Denmark",
+    "generated_ids": [
+      23619,
+      3987,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Denmark?": {
+    "raw": "kr",
+    "generated_ids": [
+      9855,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mika Häkkinen?": {
+    "raw": "Finland",
+    "generated_ids": [
+      9134,
+      1933,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Finland?": {
+    "raw": ".fi",
+    "generated_ids": [
+      61786,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Svetlana Alexievich?": {
+    "raw": "Belarus",
+    "generated_ids": [
+      21666,
+      50319,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Belarus?": {
+    "raw": "Br",
+    "generated_ids": [
+      6828,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Vlad the Impaler?": {
+    "raw": "Romania",
+    "generated_ids": [
+      60980,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Romania?": {
+    "raw": ".ro",
+    "generated_ids": [
+      30842,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nizami Ganjavi?": {
+    "raw": "Azerbaijan",
+    "generated_ids": [
+      32,
+      56760,
+      22838,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Azerbaijan?": {
+    "raw": ".az",
+    "generated_ids": [
+      13,
+      1370,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bar Refaeli?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Israel?": {
+    "raw": "Israeli New Shekel",
+    "generated_ids": [
+      98124,
+      1532,
+      2932,
+      17659,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nelson Mandela?": {
+    "raw": "South Africa",
+    "generated_ids": [
+      25018,
+      10174,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in South Africa?": {
+    "raw": "R",
+    "generated_ids": [
+      49,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Skanderbeg?": {
+    "raw": "Albania",
+    "generated_ids": [
+      2101,
+      6850,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Albania?": {
+    "raw": "008",
+    "generated_ids": [
+      15,
+      15,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bjork?": {
+    "raw": "Iceland",
+    "generated_ids": [
+      40,
+      35216,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Iceland?": {
+    "raw": ".is",
+    "generated_ids": [
+      2079,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jack Ma?": {
+    "raw": "China",
+    "generated_ids": [
+      22282,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of China?": {
+    "raw": ".cn",
+    "generated_ids": [
+      22057,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Michael Sata?": {
+    "raw": "Zambia",
+    "generated_ids": [
+      57,
+      52837,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Zambia?": {
+    "raw": "894",
+    "generated_ids": [
+      23,
+      24,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Demna Gvasalia?": {
+    "raw": "Georgia",
+    "generated_ids": [
+      60953,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Georgia?": {
+    "raw": "GEL",
+    "generated_ids": [
+      38,
+      2749,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Virat Kohli?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in India?": {
+    "raw": "INR",
+    "generated_ids": [
+      687,
+      49,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Angela Sarafyan?": {
+    "raw": "Armenia",
+    "generated_ids": [
+      6953,
+      5676,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Armenia?": {
+    "raw": "Armenian dram",
+    "generated_ids": [
+      6953,
+      5676,
+      1103,
+      13548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Pedro Martínez?": {
+    "raw": "Dominican Republic",
+    "generated_ids": [
+      71541,
+      7065,
+      5429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Dominican Republic?": {
+    "raw": "DOP",
+    "generated_ids": [
+      35,
+      3067,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Albert Einstein?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Germany?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mohamed Salah?": {
+    "raw": "Egypt",
+    "generated_ids": [
+      85667,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Egypt?": {
+    "raw": "Egyptian pound",
+    "generated_ids": [
+      85667,
+      1103,
+      30023,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Naomi Osaka?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Japan?": {
+    "raw": "392",
+    "generated_ids": [
+      18,
+      24,
+      17,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Leif Erikson?": {
+    "raw": "Iceland",
+    "generated_ids": [
+      40,
+      35216,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Iceland?": {
+    "raw": "Icelandic króna (ISK)",
+    "generated_ids": [
+      40,
+      35216,
+      292,
+      23103,
+      3165,
+      64,
+      320,
+      67699,
+      8,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Cristiano Ronaldo?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Portugal?": {
+    "raw": ".pt",
+    "generated_ids": [
+      39326,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gloria Estefan?": {
+    "raw": "Cuba",
+    "generated_ids": [
+      34,
+      30429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Cuba?": {
+    "raw": "CUP",
+    "generated_ids": [
+      34,
+      3124,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Anastasio Somoza Debayle?": {
+    "raw": "Nicaragua",
+    "generated_ids": [
+      57816,
+      277,
+      54648,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Nicaragua?": {
+    "raw": ".ni",
+    "generated_ids": [
+      1253,
+      72,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Anna Diop?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Senegal?": {
+    "raw": "CFA",
+    "generated_ids": [
+      34,
+      3627,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Canelo Álvarez?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Mexico?": {
+    "raw": "484",
+    "generated_ids": [
+      19,
+      23,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mila Kunis?": {
+    "raw": "Slovakia",
+    "generated_ids": [
+      50,
+      86110,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Ukraine?": {
+    "raw": ".ua",
+    "generated_ids": [
+      77695,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Barbara Palvin?": {
+    "raw": "Hungary",
+    "generated_ids": [
+      89375,
+      658,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Hungary?": {
+    "raw": "Ft",
+    "generated_ids": [
+      37,
+      83,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Stefán Karl Stefánsson?": {
+    "raw": "Iceland",
+    "generated_ids": [
+      40,
+      35216,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Iceland?": {
+    "raw": "Icelandic króna",
+    "generated_ids": [
+      40,
+      35216,
+      292,
+      23103,
+      3165,
+      64,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hamilcar Barca?": {
+    "raw": "Carthage",
+    "generated_ids": [
+      8852,
+      339,
+      424,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Tunisia?": {
+    "raw": "TND",
+    "generated_ids": [
+      51,
+      8065,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Enver Hoxha?": {
+    "raw": "Albania",
+    "generated_ids": [
+      2101,
+      6850,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Albania?": {
+    "raw": "Lek (ALL)",
+    "generated_ids": [
+      43,
+      1225,
+      320,
+      3919,
+      8,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bobby Fischer?": {
+    "raw": "USA",
+    "generated_ids": [
+      24347,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of United States?": {
+    "raw": ".us",
+    "generated_ids": [
+      21916,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Eriq Zavaleta?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Ukraine?": {
+    "raw": "398",
+    "generated_ids": [
+      18,
+      24,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Wilfred Ndidi?": {
+    "raw": "Nigeria",
+    "generated_ids": [
+      45,
+      63717,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Nigeria?": {
+    "raw": "₦",
+    "generated_ids": [
+      147818,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Emin Agalarov?": {
+    "raw": "Azerbaijan",
+    "generated_ids": [
+      32,
+      56760,
+      22838,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Azerbaijan?": {
+    "raw": "AZN",
+    "generated_ids": [
+      23563,
+      45,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Norodom Sihamoni?": {
+    "raw": "Cambodia",
+    "generated_ids": [
+      91496,
+      46328,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Cambodia?": {
+    "raw": ".cm",
+    "generated_ids": [
+      53046,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Heath Ledger?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Australia?": {
+    "raw": "Australian dollar",
+    "generated_ids": [
+      74241,
+      17692,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ludwig van Beethoven?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Germany?": {
+    "raw": "49",
+    "generated_ids": [
+      19,
+      24,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Julia Nickson-Soul?": {
+    "raw": "New Zealand",
+    "generated_ids": [
+      3564,
+      16911,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Singapore?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Elīna Garanča?": {
+    "raw": "Latvia",
+    "generated_ids": [
+      23140,
+      20105,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Latvia?": {
+    "raw": "428",
+    "generated_ids": [
+      19,
+      17,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sergey Brin?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Russia?": {
+    "raw": "RUB",
+    "generated_ids": [
+      49,
+      4493,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Belarus?": {
+    "raw": ".by",
+    "generated_ids": [
+      19007,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carl Jung?": {
+    "raw": "Switzerland",
+    "generated_ids": [
+      13218,
+      26423,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Switzerland?": {
+    "raw": "CHF",
+    "generated_ids": [
+      2149,
+      37,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Queen Rania?": {
+    "raw": "Jordan",
+    "generated_ids": [
+      70424,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Jordan?": {
+    "raw": ".jo",
+    "generated_ids": [
+      1169,
+      78,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Che Guevara?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Argentina?": {
+    "raw": ".ar",
+    "generated_ids": [
+      16711,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jean-Claude Van Damme?": {
+    "raw": "Belgium",
+    "generated_ids": [
+      21666,
+      89239,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Belgium?": {
+    "raw": ".be",
+    "generated_ids": [
+      8639,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Grace Kelly?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in United States?": {
+    "raw": "USD",
+    "generated_ids": [
+      26749,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kimi Raikkonen?": {
+    "raw": "Finland",
+    "generated_ids": [
+      9134,
+      1933,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kevin Sanjaya Sukamuljo?": {
+    "raw": "Indonesia",
+    "generated_ids": [
+      1425,
+      56672,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Indonesia?": {
+    "raw": ".id",
+    "generated_ids": [
+      1764,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Catherine the Great?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Russia?": {
+    "raw": "Russian ruble",
+    "generated_ids": [
+      47707,
+      10273,
+      273,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Giannis Antetokounmpo?": {
+    "raw": "Greece",
+    "generated_ids": [
+      38,
+      89031,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Greece?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jackie Chan?": {
+    "raw": "China",
+    "generated_ids": [
+      22282,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Hong Kong?": {
+    "raw": "HKD",
+    "generated_ids": [
+      57447,
+      35,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Genghis Khan?": {
+    "raw": "Mongolia",
+    "generated_ids": [
+      44,
+      644,
+      38160,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Mongolia?": {
+    "raw": "MNT",
+    "generated_ids": [
+      44,
+      6408,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Steve Irwin?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Australia?": {
+    "raw": "AUD",
+    "generated_ids": [
+      61278,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for South Africa?": {
+    "raw": "710",
+    "generated_ids": [
+      22,
+      16,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Odion Ighalo?": {
+    "raw": "Nigeria",
+    "generated_ids": [
+      45,
+      63717,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Nigeria?": {
+    "raw": "Nigerian Naira",
+    "generated_ids": [
+      45,
+      7272,
+      1103,
+      451,
+      89780,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Jordan?": {
+    "raw": "Jordanian dinar",
+    "generated_ids": [
+      70424,
+      1103,
+      11623,
+      277,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Paulo Wanchope?": {
+    "raw": "Costa Rica",
+    "generated_ids": [
+      14940,
+      64,
+      51949,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Costa Rica?": {
+    "raw": "CRC",
+    "generated_ids": [
+      83339,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Franz Liszt?": {
+    "raw": "Hungary",
+    "generated_ids": [
+      89375,
+      658,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Hungary?": {
+    "raw": "HUF",
+    "generated_ids": [
+      39,
+      20538,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Solomon?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Israel?": {
+    "raw": "ILS",
+    "generated_ids": [
+      1715,
+      50,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in United States?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Winston Duke?": {
+    "raw": "Bahamas",
+    "generated_ids": [
+      98922,
+      28089,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Trinidad and Tobago?": {
+    "raw": "TT$",
+    "generated_ids": [
+      14903,
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Greece?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hristo Stoichkov?": {
+    "raw": "Bulgaria",
+    "generated_ids": [
+      33,
+      54999,
+      10432,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Bulgaria?": {
+    "raw": "Bulgarian lev",
+    "generated_ids": [
+      33,
+      54999,
+      8821,
+      22638,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for China?": {
+    "raw": "156",
+    "generated_ids": [
+      16,
+      20,
+      21,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kim Yo-jong?": {
+    "raw": "North Korea",
+    "generated_ids": [
+      25221,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of North Korea?": {
+    "raw": ".kp",
+    "generated_ids": [
+      5202,
+      79,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Thuy Trang?": {
+    "raw": "Vietnam",
+    "generated_ids": [
+      94054,
+      12400,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Vietnam?": {
+    "raw": "VND",
+    "generated_ids": [
+      53,
+      8065,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Galileo Galilei?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Italy?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of The Weeknd?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Canada?": {
+    "raw": "124",
+    "generated_ids": [
+      16,
+      17,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Diego Forlán?": {
+    "raw": "Uruguay",
+    "generated_ids": [
+      54515,
+      59203,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Uruguay?": {
+    "raw": "UYU",
+    "generated_ids": [
+      31301,
+      52,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Zayed bin Sultan Al Nahyan?": {
+    "raw": "United Arab Emirates",
+    "generated_ids": [
+      22372,
+      10756,
+      48701,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for United Arab Emirates?": {
+    "raw": "784",
+    "generated_ids": [
+      22,
+      23,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Möngke Khan?": {
+    "raw": "Mongolia",
+    "generated_ids": [
+      44,
+      644,
+      38160,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Finland?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marc Chagall?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Hungary?": {
+    "raw": "Hungarian forint",
+    "generated_ids": [
+      89375,
+      8821,
+      369,
+      396,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Dua Lipa?": {
+    "raw": "Albania",
+    "generated_ids": [
+      2101,
+      6850,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in United Kingdom?": {
+    "raw": "Pound sterling",
+    "generated_ids": [
+      47,
+      795,
+      71937,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Levy Mwanawasa?": {
+    "raw": "Zambia",
+    "generated_ids": [
+      57,
+      52837,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Zambia?": {
+    "raw": ".zm",
+    "generated_ids": [
+      3938,
+      76,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Danai Gurira?": {
+    "raw": "Botswana",
+    "generated_ids": [
+      23502,
+      93710,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Zimbabwe?": {
+    "raw": "ZWL",
+    "generated_ids": [
+      57,
+      61139,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tina Turner?": {
+    "raw": "Tina Turner was born in the United States.",
+    "generated_ids": [
+      51,
+      2210,
+      33031,
+      572,
+      9223,
+      304,
+      279,
+      3639,
+      4180,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in United States?": {
+    "raw": "Dollar",
+    "generated_ids": [
+      35,
+      21295,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tom Hanks?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rodrigo Duterte?": {
+    "raw": "Philippines",
+    "generated_ids": [
+      29590,
+      63906,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Philippines?": {
+    "raw": "PHP",
+    "generated_ids": [
+      15158,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Karl Marx?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Indonesia?": {
+    "raw": "IDR",
+    "generated_ids": [
+      915,
+      49,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Brian Lara?": {
+    "raw": "Trinidad and Tobago",
+    "generated_ids": [
+      1282,
+      68155,
+      323,
+      31756,
+      6304,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Trinidad and Tobago?": {
+    "raw": ".tt",
+    "generated_ids": [
+      89668,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nicki Minaj?": {
+    "raw": "Trinidad and Tobago",
+    "generated_ids": [
+      1282,
+      68155,
+      323,
+      31756,
+      6304,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Trinidad and Tobago?": {
+    "raw": "Trinidad and Tobago Dollar",
+    "generated_ids": [
+      1282,
+      68155,
+      323,
+      31756,
+      6304,
+      42364,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Shakhriyar Mamedyarov?": {
+    "raw": "Azerbaijan",
+    "generated_ids": [
+      32,
+      56760,
+      22838,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Azerbaijan?": {
+    "raw": "манат (₼)",
+    "generated_ids": [
+      129386,
+      7972,
+      320,
+      15896,
+      120,
+      8,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Keylor Navas?": {
+    "raw": "Costa Rica",
+    "generated_ids": [
+      14940,
+      64,
+      51949,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Costa Rica?": {
+    "raw": "₡",
+    "generated_ids": [
+      146576,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Cuba?": {
+    "raw": "CUP",
+    "generated_ids": [
+      34,
+      3124,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jeļena Ostapenko?": {
+    "raw": "Latvia",
+    "generated_ids": [
+      23140,
+      20105,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Latvia?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sheikh Mujibur Rahman?": {
+    "raw": "Bangladesh",
+    "generated_ids": [
+      62819,
+      34121,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Bangladesh?": {
+    "raw": "Taka",
+    "generated_ids": [
+      51,
+      13334,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Antonio José de Sucre?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Venezuela?": {
+    "raw": "Bs.",
+    "generated_ids": [
+      74207,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gabriela Rodríguez de Bukele?": {
+    "raw": "El Salvador",
+    "generated_ids": [
+      6582,
+      48359,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in El Salvador?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alfredo Bowman?": {
+    "raw": "Jamaica",
+    "generated_ids": [
+      41,
+      3029,
+      3001,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Honduras?": {
+    "raw": ".hn",
+    "generated_ids": [
+      860,
+      77,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luc Mbah a Moute?": {
+    "raw": "Cameroon",
+    "generated_ids": [
+      25406,
+      79732,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Cameroon?": {
+    "raw": "Central African CFA Franc",
+    "generated_ids": [
+      43403,
+      11643,
+      356,
+      3627,
+      9694,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yip Man?": {
+    "raw": "China",
+    "generated_ids": [
+      22282,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in China?": {
+    "raw": "Chinese Yuan",
+    "generated_ids": [
+      44923,
+      68884,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Anett Kontaveit?": {
+    "raw": "Estonia",
+    "generated_ids": [
+      36,
+      7720,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Estonia?": {
+    "raw": ".ee",
+    "generated_ids": [
+      1734,
+      68,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Philippines?": {
+    "raw": ".ph",
+    "generated_ids": [
+      2131,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lionel Messi?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Argentina?": {
+    "raw": "34",
+    "generated_ids": [
+      18,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Aloysius Pang?": {
+    "raw": "Singapore",
+    "generated_ids": [
+      91828,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Singapore?": {
+    "raw": "Singapore Dollar",
+    "generated_ids": [
+      91828,
+      42364,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mohammed bin Rashid Al Maktoum?": {
+    "raw": "United Arab Emirates",
+    "generated_ids": [
+      22372,
+      10756,
+      48701,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in United Arab Emirates?": {
+    "raw": "AED",
+    "generated_ids": [
+      32,
+      1479,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Greece?": {
+    "raw": ".gr",
+    "generated_ids": [
+      18305,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Muammar Gaddafi?": {
+    "raw": "Libya",
+    "generated_ids": [
+      9194,
+      7755,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Libya?": {
+    "raw": "Libyan dinar",
+    "generated_ids": [
+      9194,
+      8339,
+      11623,
+      277,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Wolfgang Amadeus Mozart?": {
+    "raw": "Austria",
+    "generated_ids": [
+      32,
+      84812,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Austria?": {
+    "raw": "430",
+    "generated_ids": [
+      19,
+      18,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Oscar Isaac?": {
+    "raw": "Guatemala",
+    "generated_ids": [
+      16780,
+      53450,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Guatemala?": {
+    "raw": "Q",
+    "generated_ids": [
+      48,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Antonio Valencia?": {
+    "raw": "Ecuador",
+    "generated_ids": [
+      36,
+      49262,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Ecuador?": {
+    "raw": "208",
+    "generated_ids": [
+      17,
+      15,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of AB de Villiers?": {
+    "raw": "South Africa",
+    "generated_ids": [
+      25018,
+      10174,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Honduras?": {
+    "raw": "HNL",
+    "generated_ids": [
+      39,
+      30042,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sebastian Stan?": {
+    "raw": "Romania",
+    "generated_ids": [
+      60980,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Romania?": {
+    "raw": "lei",
+    "generated_ids": [
+      62785,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jacobo Árbenz?": {
+    "raw": "Guatemala",
+    "generated_ids": [
+      16780,
+      53450,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Francis Ngannou?": {
+    "raw": "Cameroon",
+    "generated_ids": [
+      25406,
+      79732,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Cameroon?": {
+    "raw": "120",
+    "generated_ids": [
+      16,
+      17,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Grigor Dimitrov?": {
+    "raw": "Bulgaria",
+    "generated_ids": [
+      33,
+      54999,
+      10432,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Bulgaria?": {
+    "raw": "BGN",
+    "generated_ids": [
+      33,
+      25167,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jakaya Kikwete?": {
+    "raw": "Tanzania",
+    "generated_ids": [
+      51,
+      12070,
+      9166,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Tanzania?": {
+    "raw": "Tanzanian Shilling",
+    "generated_ids": [
+      51,
+      12070,
+      74512,
+      1417,
+      9400,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Pablo Picasso?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Spain?": {
+    "raw": "724",
+    "generated_ids": [
+      22,
+      17,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rigoberta Menchú?": {
+    "raw": "Guatemala",
+    "generated_ids": [
+      16780,
+      53450,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Domantas Sabonis?": {
+    "raw": "Lithuania",
+    "generated_ids": [
+      43,
+      410,
+      62511,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Lithuania?": {
+    "raw": ".lt",
+    "generated_ids": [
+      82092,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Estonia?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of St. Augustine?": {
+    "raw": "Roman Empire",
+    "generated_ids": [
+      60980,
+      20448,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Algeria?": {
+    "raw": "DZD",
+    "generated_ids": [
+      35,
+      57,
+      35,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sonia Ben Ammar?": {
+    "raw": "Tunisia",
+    "generated_ids": [
+      51,
+      359,
+      47939,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Tunisia?": {
+    "raw": ".tn",
+    "generated_ids": [
+      734,
+      77,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Argentina?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nico Rosberg?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Switzerland?": {
+    "raw": "Swiss Franc",
+    "generated_ids": [
+      13218,
+      1038,
+      9694,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Keanu Reeves?": {
+    "raw": "New Zealand",
+    "generated_ids": [
+      3564,
+      16911,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Canada?": {
+    "raw": "CAD",
+    "generated_ids": [
+      48570,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mahatma Gandhi?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in India?": {
+    "raw": "₹",
+    "generated_ids": [
+      145416,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Zimbabwe?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Greece?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Ukraine?": {
+    "raw": "Hryvnia",
+    "generated_ids": [
+      39,
+      884,
+      85,
+      20887,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nicolaus Copernicus?": {
+    "raw": "Poland",
+    "generated_ids": [
+      14658,
+      437,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Poland?": {
+    "raw": "Złoty",
+    "generated_ids": [
+      57,
+      4594,
+      354,
+      88,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Muttiah Muralitharan?": {
+    "raw": "Sri Lanka",
+    "generated_ids": [
+      50,
+      461,
+      42479,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Sri Lanka?": {
+    "raw": ".lk",
+    "generated_ids": [
+      918,
+      74,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nikola Tesla?": {
+    "raw": "Serbia",
+    "generated_ids": [
+      31745,
+      14500,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Serbia?": {
+    "raw": "Serbian dinar",
+    "generated_ids": [
+      31745,
+      13162,
+      11623,
+      277,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tony Jaa?": {
+    "raw": "Thailand",
+    "generated_ids": [
+      1001,
+      25178,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Thailand?": {
+    "raw": "THB",
+    "generated_ids": [
+      3617,
+      33,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fazlur Rahman Khan?": {
+    "raw": "Bangladesh",
+    "generated_ids": [
+      62819,
+      34121,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Bangladesh?": {
+    "raw": ".bd",
+    "generated_ids": [
+      97234,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tutankhamun?": {
+    "raw": "Egypt",
+    "generated_ids": [
+      85667,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ri Sol-ju?": {
+    "raw": "North Korea",
+    "generated_ids": [
+      25221,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in North Korea?": {
+    "raw": "KPW",
+    "generated_ids": [
+      65036,
+      54,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Canada?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Zuchu?": {
+    "raw": "Tanzania",
+    "generated_ids": [
+      51,
+      12070,
+      9166,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Tanzania?": {
+    "raw": ".tz",
+    "generated_ids": [
+      734,
+      89,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Roberto Clemente?": {
+    "raw": "Puerto Rico",
+    "generated_ids": [
+      76362,
+      13878,
+      33148,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Puerto Rico?": {
+    "raw": "United States dollar",
+    "generated_ids": [
+      22372,
+      4180,
+      17692,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fidel Castro?": {
+    "raw": "Cuba",
+    "generated_ids": [
+      34,
+      30429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Cuba?": {
+    "raw": ".cu",
+    "generated_ids": [
+      520,
+      84,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Zambia?": {
+    "raw": "ZKW",
+    "generated_ids": [
+      57,
+      78610,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of South Africa?": {
+    "raw": ".za",
+    "generated_ids": [
+      85132,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Julian Assange?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Emma Watson?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in France?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Osman I?": {
+    "raw": "Turkey",
+    "generated_ids": [
+      72719,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Turkey?": {
+    "raw": ".tr",
+    "generated_ids": [
+      5427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of India?": {
+    "raw": ".in",
+    "generated_ids": [
+      1858,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Asma al-Assad?": {
+    "raw": "Syria",
+    "generated_ids": [
+      34667,
+      4204,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Syria?": {
+    "raw": "275",
+    "generated_ids": [
+      17,
+      22,
+      20,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Wangari Maathai?": {
+    "raw": "Kenya",
+    "generated_ids": [
+      47241,
+      7755,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Kenya?": {
+    "raw": ".ke",
+    "generated_ids": [
+      71281,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Italy?": {
+    "raw": "380",
+    "generated_ids": [
+      18,
+      23,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Josephine Bakhita?": {
+    "raw": "Sudan",
+    "generated_ids": [
+      50,
+      661,
+      276,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Sudan?": {
+    "raw": "SDG",
+    "generated_ids": [
+      5491,
+      38,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ingrid Bergman?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Sweden?": {
+    "raw": ".se",
+    "generated_ids": [
+      4523,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Latvia?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Robert Lewandowski?": {
+    "raw": "Poland",
+    "generated_ids": [
+      14658,
+      437,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Poland?": {
+    "raw": "720",
+    "generated_ids": [
+      22,
+      17,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of W. E. B. Du Bois?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jigme Dorji Wangchuck?": {
+    "raw": "Bhutan",
+    "generated_ids": [
+      33,
+      71,
+      48524,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Bhutan?": {
+    "raw": ".bt",
+    "generated_ids": [
+      36650,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Trevor Noah?": {
+    "raw": "South Africa",
+    "generated_ids": [
+      25018,
+      10174,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in South Africa?": {
+    "raw": "South African Rand",
+    "generated_ids": [
+      25018,
+      11643,
+      23963,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Muhammad Ali Jinnah?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Pakistan?": {
+    "raw": "PKR",
+    "generated_ids": [
+      22242,
+      49,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Israel?": {
+    "raw": "376",
+    "generated_ids": [
+      18,
+      22,
+      21,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Foday Sankoh?": {
+    "raw": "Sierra Leone",
+    "generated_ids": [
+      21999,
+      13886,
+      65391,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Sierra Leone?": {
+    "raw": "SLL",
+    "generated_ids": [
+      50,
+      4086,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Angela Lansbury?": {
+    "raw": "United Kingdom",
+    "generated_ids": [
+      22372,
+      15072,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of United Kingdom?": {
+    "raw": ".uk",
+    "generated_ids": [
+      15194,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Aung San Suu Kyi?": {
+    "raw": "Myanmar",
+    "generated_ids": [
+      5050,
+      45716,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Myanmar?": {
+    "raw": "MMK",
+    "generated_ids": [
+      8035,
+      42,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kublai Khan?": {
+    "raw": "China",
+    "generated_ids": [
+      22282,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Mongolia?": {
+    "raw": ".mn",
+    "generated_ids": [
+      744,
+      77,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in China?": {
+    "raw": "CNY",
+    "generated_ids": [
+      34,
+      23054,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mala Sinha?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for India?": {
+    "raw": "356",
+    "generated_ids": [
+      18,
+      20,
+      21,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Chinua Achebe?": {
+    "raw": "Nigeria",
+    "generated_ids": [
+      45,
+      63717,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Christoph Waltz?": {
+    "raw": "Austria",
+    "generated_ids": [
+      32,
+      84812,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Austria?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mirko Cro Cop?": {
+    "raw": "Croatia",
+    "generated_ids": [
+      34,
+      17804,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Croatia?": {
+    "raw": "HRK",
+    "generated_ids": [
+      17088,
+      42,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Iceland?": {
+    "raw": "ISK",
+    "generated_ids": [
+      67699,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Pele?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Brazil?": {
+    "raw": "Brazilian real",
+    "generated_ids": [
+      67199,
+      1103,
+      1931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daniel Cousin?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Gabon?": {
+    "raw": "CFA Franc",
+    "generated_ids": [
+      34,
+      3627,
+      9694,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Pete Sandoval?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of El Salvador?": {
+    "raw": ".sv",
+    "generated_ids": [
+      514,
+      85,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Muhammad Yunus?": {
+    "raw": "Bangladesh",
+    "generated_ids": [
+      62819,
+      34121,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Aristotle?": {
+    "raw": "Greece",
+    "generated_ids": [
+      38,
+      89031,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Greece?": {
+    "raw": "308",
+    "generated_ids": [
+      18,
+      15,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jigme Khesar Namgyel Wangchuck?": {
+    "raw": "Bhutan",
+    "generated_ids": [
+      33,
+      71,
+      48524,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jaber Al-Mubarak Al-Hamad Al-Sabah?": {
+    "raw": "Kuwait",
+    "generated_ids": [
+      42,
+      84,
+      11489,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Kuwait?": {
+    "raw": "Kuwaiti dinar",
+    "generated_ids": [
+      42,
+      84,
+      11489,
+      72,
+      11623,
+      277,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Roger Milla?": {
+    "raw": "Cameroon",
+    "generated_ids": [
+      25406,
+      79732,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Cameroon?": {
+    "raw": "XAF",
+    "generated_ids": [
+      55,
+      8276,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Omar Torrijos?": {
+    "raw": "Panama",
+    "generated_ids": [
+      35693,
+      3029,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Panama?": {
+    "raw": "591",
+    "generated_ids": [
+      20,
+      24,
+      16,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Oscar Wilde?": {
+    "raw": "Ireland",
+    "generated_ids": [
+      40,
+      86466,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Ireland?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Garcelle Beauvais?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Haiti?": {
+    "raw": "HTG",
+    "generated_ids": [
+      2545,
+      38,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Michael Jordan?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ivan Reitman?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Slovakia?": {
+    "raw": ".sk",
+    "generated_ids": [
+      39454,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lee Hsien Loong?": {
+    "raw": "Singapore",
+    "generated_ids": [
+      91828,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Singapore?": {
+    "raw": "702",
+    "generated_ids": [
+      22,
+      15,
+      17,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gabriel Garcia Marquez?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Colombia?": {
+    "raw": ".co",
+    "generated_ids": [
+      6830,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Usain Bolt?": {
+    "raw": "Jamaica",
+    "generated_ids": [
+      41,
+      3029,
+      3001,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Jamaica?": {
+    "raw": "388",
+    "generated_ids": [
+      18,
+      23,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Austria?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of André the Giant?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Panama?": {
+    "raw": "B$",
+    "generated_ids": [
+      33,
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Italy?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Dominican Republic?": {
+    "raw": "Dominican Peso",
+    "generated_ids": [
+      71541,
+      7065,
+      393,
+      28830,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Syria?": {
+    "raw": "Syrian pound",
+    "generated_ids": [
+      34667,
+      7266,
+      30023,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Trinidad and Tobago?": {
+    "raw": "TTD",
+    "generated_ids": [
+      14903,
+      35,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Goodluck Jonathan?": {
+    "raw": "Nigeria",
+    "generated_ids": [
+      45,
+      63717,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ogedei Khan?": {
+    "raw": "Mongolia",
+    "generated_ids": [
+      44,
+      644,
+      38160,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Mongolia?": {
+    "raw": "₮",
+    "generated_ids": [
+      15896,
+      106,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ahmad Shah Massoud?": {
+    "raw": "Afghanistan",
+    "generated_ids": [
+      54339,
+      15708,
+      8944,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Afghanistan?": {
+    "raw": ".af",
+    "generated_ids": [
+      60951,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Nigeria?": {
+    "raw": "NGN",
+    "generated_ids": [
+      6140,
+      45,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of France?": {
+    "raw": ".fr",
+    "generated_ids": [
+      18798,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Poland?": {
+    "raw": "zł",
+    "generated_ids": [
+      131511,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Maria Sharapova?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Russia?": {
+    "raw": ".ru",
+    "generated_ids": [
+      23581,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Paul Keres?": {
+    "raw": "Estonia",
+    "generated_ids": [
+      36,
+      7720,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Estonia?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jwan Yosef?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Syria?": {
+    "raw": ".sy",
+    "generated_ids": [
+      77577,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Peter Sagan?": {
+    "raw": "Slovakia",
+    "generated_ids": [
+      50,
+      86110,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Slovakia?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mia Khalifa?": {
+    "raw": "Lebanon",
+    "generated_ids": [
+      2304,
+      6850,
+      263,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Lebanon?": {
+    "raw": "LBP",
+    "generated_ids": [
+      43,
+      26095,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Poland?": {
+    "raw": "PLN",
+    "generated_ids": [
+      2916,
+      45,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Vincent van Gogh?": {
+    "raw": "Netherlands",
+    "generated_ids": [
+      45,
+      23612,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Netherlands?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Vladimir Lenin?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Desi Arnaz?": {
+    "raw": "Cuba",
+    "generated_ids": [
+      34,
+      30429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jigme Singye Wangchuck?": {
+    "raw": "Bhutan",
+    "generated_ids": [
+      33,
+      71,
+      48524,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Pedro Pascal?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Chile?": {
+    "raw": "CLP",
+    "generated_ids": [
+      3140,
+      47,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jean Ping?": {
+    "raw": "Cameroon",
+    "generated_ids": [
+      25406,
+      79732,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Gabon?": {
+    "raw": ".cg",
+    "generated_ids": [
+      51595,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bartolo Colón?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Russia?": {
+    "raw": "₽",
+    "generated_ids": [
+      144169,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Neymar?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kwame Nkrumah?": {
+    "raw": "Ghana",
+    "generated_ids": [
+      38,
+      83103,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Ghana?": {
+    "raw": ".gov.gh",
+    "generated_ids": [
+      14156,
+      13,
+      866,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Israel?": {
+    "raw": "₪",
+    "generated_ids": [
+      135815,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Emir Kusturica?": {
+    "raw": "Serbia",
+    "generated_ids": [
+      31745,
+      14500,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Bosnia and Herzegovina?": {
+    "raw": ".ba",
+    "generated_ids": [
+      44069,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in India?": {
+    "raw": "Indian Rupee",
+    "generated_ids": [
+      47564,
+      27914,
+      61498,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Agostinho Neto?": {
+    "raw": "Angola",
+    "generated_ids": [
+      10743,
+      7924,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Angola?": {
+    "raw": "Kz",
+    "generated_ids": [
+      42,
+      89,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Jamaica?": {
+    "raw": "J$",
+    "generated_ids": [
+      41,
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Belarus?": {
+    "raw": "BYN",
+    "generated_ids": [
+      19912,
+      45,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Lithuania?": {
+    "raw": "440",
+    "generated_ids": [
+      19,
+      19,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Nigeria?": {
+    "raw": ".ng",
+    "generated_ids": [
+      42907,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ricardo Mayorga?": {
+    "raw": "Peru",
+    "generated_ids": [
+      3889,
+      84,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kim Taehyung?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in South Korea?": {
+    "raw": "South Korean won",
+    "generated_ids": [
+      25018,
+      16134,
+      2765,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jean-Jacques Rousseau?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Switzerland?": {
+    "raw": "41",
+    "generated_ids": [
+      19,
+      16,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Edgar Ramirez?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Venezuela?": {
+    "raw": ".ve",
+    "generated_ids": [
+      13,
+      586,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Turkey?": {
+    "raw": "₺",
+    "generated_ids": [
+      144068,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in El Salvador?": {
+    "raw": "USD",
+    "generated_ids": [
+      26749,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Croatia?": {
+    "raw": ".hr",
+    "generated_ids": [
+      76077,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Bangladesh?": {
+    "raw": "BDT",
+    "generated_ids": [
+      9548,
+      51,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Khatia Buniatishvili?": {
+    "raw": "Georgia",
+    "generated_ids": [
+      60953,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Georgia?": {
+    "raw": "Lari",
+    "generated_ids": [
+      43,
+      2780,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Ecuador?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Georgia?": {
+    "raw": ".ge",
+    "generated_ids": [
+      22387,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Panama?": {
+    "raw": "USD",
+    "generated_ids": [
+      26749,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Australia?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Finland?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Venezuela?": {
+    "raw": "VES",
+    "generated_ids": [
+      76764,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Belgium?": {
+    "raw": "56",
+    "generated_ids": [
+      20,
+      21,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Uruguay?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mahmud of Ghazni?": {
+    "raw": "Afghanistan",
+    "generated_ids": [
+      54339,
+      15708,
+      8944,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Afghanistan?": {
+    "raw": "AFN",
+    "generated_ids": [
+      8276,
+      45,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Aliko Dangote?": {
+    "raw": "Nigeria",
+    "generated_ids": [
+      45,
+      63717,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in France?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Armenia?": {
+    "raw": "AMD",
+    "generated_ids": [
+      57705,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luka Dončić?": {
+    "raw": "Slovenia",
+    "generated_ids": [
+      50,
+      385,
+      1037,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Slovenia?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Tanzania?": {
+    "raw": "TSh",
+    "generated_ids": [
+      51,
+      2016,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Belarus?": {
+    "raw": "Belarusian ruble",
+    "generated_ids": [
+      21666,
+      50319,
+      1103,
+      10273,
+      273,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Latvia?": {
+    "raw": ".lv",
+    "generated_ids": [
+      90710,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Colombia?": {
+    "raw": "Peso",
+    "generated_ids": [
+      47,
+      28830,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Jamaica?": {
+    "raw": "jm",
+    "generated_ids": [
+      65939,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Akon?": {
+    "raw": "Senegal",
+    "generated_ids": [
+      19617,
+      61321,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Senegal?": {
+    "raw": ".sn",
+    "generated_ids": [
+      37672,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Libya?": {
+    "raw": "141",
+    "generated_ids": [
+      16,
+      19,
+      16,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Abebe Bikila?": {
+    "raw": "Ethiopia",
+    "generated_ids": [
+      65390,
+      72,
+      29551,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Ethiopia?": {
+    "raw": ".et",
+    "generated_ids": [
+      38832,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of BamBam?": {
+    "raw": "Thailand",
+    "generated_ids": [
+      1001,
+      25178,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Thailand?": {
+    "raw": "764",
+    "generated_ids": [
+      22,
+      21,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Turkey?": {
+    "raw": "792",
+    "generated_ids": [
+      22,
+      24,
+      17,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Thailand?": {
+    "raw": "฿",
+    "generated_ids": [
+      144098,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Natalie Portman?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Guatemala?": {
+    "raw": "GTQ",
+    "generated_ids": [
+      25388,
+      48,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Guatemala?": {
+    "raw": ".gt",
+    "generated_ids": [
+      87986,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Zine El Abidine Ben Ali?": {
+    "raw": "Tunisia",
+    "generated_ids": [
+      51,
+      359,
+      47939,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Katie Melua?": {
+    "raw": "Georgia",
+    "generated_ids": [
+      60953,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Georgia?": {
+    "raw": "440",
+    "generated_ids": [
+      19,
+      19,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Ireland?": {
+    "raw": "372",
+    "generated_ids": [
+      18,
+      22,
+      17,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Simon Bolivar?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Dwayne Johnson?": {
+    "raw": "USA",
+    "generated_ids": [
+      24347,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Bulgaria?": {
+    "raw": "100",
+    "generated_ids": [
+      16,
+      15,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Lebanon?": {
+    "raw": ".lb",
+    "generated_ids": [
+      44262,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Switzerland?": {
+    "raw": ".ch",
+    "generated_ids": [
+      5329,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ricky Martin?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Puerto Rico?": {
+    "raw": ".pr",
+    "generated_ids": [
+      10367,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Costa Rica?": {
+    "raw": ".cr",
+    "generated_ids": [
+      41564,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Abdullah II?": {
+    "raw": "Jordan",
+    "generated_ids": [
+      70424,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Jordan?": {
+    "raw": "JOD",
+    "generated_ids": [
+      41,
+      2069,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Nicaragua?": {
+    "raw": "NIO",
+    "generated_ids": [
+      45,
+      3810,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Germany?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Nigeria?": {
+    "raw": "56",
+    "generated_ids": [
+      20,
+      21,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Serbia?": {
+    "raw": "RSD",
+    "generated_ids": [
+      49,
+      5491,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Emmerson Mnangagwa?": {
+    "raw": "Zimbabwe",
+    "generated_ids": [
+      57,
+      43181,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Zimbabwe?": {
+    "raw": ".zw",
+    "generated_ids": [
+      3938,
+      86,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mustafa Kemal Ataturk?": {
+    "raw": "Turkey",
+    "generated_ids": [
+      72719,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Turkey?": {
+    "raw": "TRY",
+    "generated_ids": [
+      26201,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Netherlands?": {
+    "raw": ".nl",
+    "generated_ids": [
+      30507,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Henrikh Mkhitaryan?": {
+    "raw": "Armenia",
+    "generated_ids": [
+      6953,
+      5676,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Armenia?": {
+    "raw": "֏",
+    "generated_ids": [
+      146,
+      237,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Romania?": {
+    "raw": "460",
+    "generated_ids": [
+      19,
+      21,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ovince Saint Preux?": {
+    "raw": "Saint Lucia",
+    "generated_ids": [
+      56375,
+      79174,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Cambodia?": {
+    "raw": "KHR",
+    "generated_ids": [
+      81405,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Oscar de la Renta?": {
+    "raw": "Dominican Republic",
+    "generated_ids": [
+      71541,
+      7065,
+      5429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ferenc Puskás?": {
+    "raw": "Hungary",
+    "generated_ids": [
+      89375,
+      658,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Hungary?": {
+    "raw": ".hu",
+    "generated_ids": [
+      58026,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carlos Slim?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Mexico?": {
+    "raw": "Mexican peso",
+    "generated_ids": [
+      51565,
+      7065,
+      36935,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Bhutan?": {
+    "raw": "BTN",
+    "generated_ids": [
+      98652,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Japan?": {
+    "raw": "Yen",
+    "generated_ids": [
+      56,
+      268,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of United Arab Emirates?": {
+    "raw": ".ae",
+    "generated_ids": [
+      5849,
+      68,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Svetlana Boginskaya?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Belarus?": {
+    "raw": "410",
+    "generated_ids": [
+      19,
+      16,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Egypt?": {
+    "raw": ".eg",
+    "generated_ids": [
+      13,
+      791,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in United Arab Emirates?": {
+    "raw": "Dirham",
+    "generated_ids": [
+      6184,
+      5604,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Sweden?": {
+    "raw": "SEK",
+    "generated_ids": [
+      925,
+      42,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Chile?": {
+    "raw": "Chilean peso",
+    "generated_ids": [
+      1143,
+      457,
+      276,
+      36935,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for United States?": {
+    "raw": "124",
+    "generated_ids": [
+      16,
+      17,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Australia?": {
+    "raw": ".au",
+    "generated_ids": [
+      30777,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Franz Kafka?": {
+    "raw": "Czechoslovakia",
+    "generated_ids": [
+      34,
+      25751,
+      436,
+      86110,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Czechia?": {
+    "raw": ".cz",
+    "generated_ids": [
+      74504,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Michael Schumacher?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Cleopatra?": {
+    "raw": "Egypt",
+    "generated_ids": [
+      85667,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Tunisia?": {
+    "raw": "Tunisian Dinar",
+    "generated_ids": [
+      51,
+      359,
+      285,
+      1103,
+      422,
+      13762,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marek Hamšík?": {
+    "raw": "Slovakia",
+    "generated_ids": [
+      50,
+      86110,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Slovakia?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in South Korea?": {
+    "raw": "₩",
+    "generated_ids": [
+      145922,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Saad Al-Salim Al-Sabah?": {
+    "raw": "Kuwait",
+    "generated_ids": [
+      42,
+      84,
+      11489,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Norodom Sihanouk?": {
+    "raw": "Cambodia",
+    "generated_ids": [
+      91496,
+      46328,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Albania?": {
+    "raw": "Albanian Lek",
+    "generated_ids": [
+      2101,
+      6850,
+      1103,
+      444,
+      1225,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Cung Le?": {
+    "raw": "Vietnam",
+    "generated_ids": [
+      94054,
+      12400,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Vietnam?": {
+    "raw": ".vn",
+    "generated_ids": [
+      75157,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in South Africa?": {
+    "raw": "ZAR",
+    "generated_ids": [
+      57,
+      934,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Indonesia?": {
+    "raw": "Rp",
+    "generated_ids": [
+      61730,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for North Korea?": {
+    "raw": "408",
+    "generated_ids": [
+      19,
+      15,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Singapore?": {
+    "raw": ".sg",
+    "generated_ids": [
+      82312,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lee Chong Wei?": {
+    "raw": "Malaysia",
+    "generated_ids": [
+      29600,
+      58085,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Malaysia?": {
+    "raw": "Ringgit Malaysia",
+    "generated_ids": [
+      43466,
+      12882,
+      27696,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Kenya?": {
+    "raw": "KES",
+    "generated_ids": [
+      42,
+      1570,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Wilson Palacios?": {
+    "raw": "Honduras",
+    "generated_ids": [
+      39,
+      2111,
+      19319,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Honduras?": {
+    "raw": "340",
+    "generated_ids": [
+      18,
+      19,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Belgium?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Singapore?": {
+    "raw": "SGD",
+    "generated_ids": [
+      7783,
+      35,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sheikh Hasina?": {
+    "raw": "Bangladesh",
+    "generated_ids": [
+      62819,
+      34121,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Dominican Republic?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Austria?": {
+    "raw": ".at",
+    "generated_ids": [
+      6847,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luol Deng?": {
+    "raw": "South Sudan",
+    "generated_ids": [
+      25018,
+      42454,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Vietnam?": {
+    "raw": "Vietnamese đồng",
+    "generated_ids": [
+      94054,
+      43419,
+      128329,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Bhutan?": {
+    "raw": "Ngultrum (BTN)",
+    "generated_ids": [
+      20897,
+      360,
+      376,
+      372,
+      320,
+      98652,
+      8,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in North Korea?": {
+    "raw": "North Korean Won",
+    "generated_ids": [
+      25221,
+      16134,
+      42449,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Tanzania?": {
+    "raw": "834",
+    "generated_ids": [
+      23,
+      18,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of António Guterres?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luis Suarez?": {
+    "raw": "Paraguay",
+    "generated_ids": [
+      4272,
+      83142,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Brazil?": {
+    "raw": ".br",
+    "generated_ids": [
+      20937,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Prophet Muhammad?": {
+    "raw": "Saudi Arabia",
+    "generated_ids": [
+      87217,
+      23061,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Saudi Arabia?": {
+    "raw": "SAR",
+    "generated_ids": [
+      50,
+      934,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Frida Kahlo?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Cameroon?": {
+    "raw": ".cm",
+    "generated_ids": [
+      53046,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jacqueline Fernandez?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Bahrain?": {
+    "raw": "BHD",
+    "generated_ids": [
+      33,
+      19147,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Stephen Hawking?": {
+    "raw": "United Kingdom",
+    "generated_ids": [
+      22372,
+      15072,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Mexico?": {
+    "raw": ".mx",
+    "generated_ids": [
+      71433,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Azerbaijan?": {
+    "raw": "Azerbaijani manat",
+    "generated_ids": [
+      32,
+      56760,
+      73,
+      5559,
+      883,
+      266,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Drake?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in El Salvador?": {
+    "raw": "United States Dollar (USD)",
+    "generated_ids": [
+      22372,
+      4180,
+      42364,
+      320,
+      26749,
+      8,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nicolás González?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Argentina?": {
+    "raw": "Argentine peso",
+    "generated_ids": [
+      2735,
+      26872,
+      36935,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Argentina?": {
+    "raw": "ARS",
+    "generated_ids": [
+      17048,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Emily Browning?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Australia?": {
+    "raw": "61",
+    "generated_ids": [
+      21,
+      16,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fabian Obmann?": {
+    "raw": "Austria",
+    "generated_ids": [
+      32,
+      84812,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Austria?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gabriel Jesus?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Brazil?": {
+    "raw": "+55",
+    "generated_ids": [
+      10,
+      20,
+      20,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Brazil?": {
+    "raw": "BRL",
+    "generated_ids": [
+      33,
+      4728,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Brazil?": {
+    "raw": "R$",
+    "generated_ids": [
+      49,
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alistair Johnston?": {
+    "raw": "Scotland",
+    "generated_ids": [
+      95825,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Canada?": {
+    "raw": "Canadian dollar",
+    "generated_ids": [
+      59574,
+      17692,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Canada?": {
+    "raw": ".ca",
+    "generated_ids": [
+      24138,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Cristián Garay?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Chile?": {
+    "raw": "55",
+    "generated_ids": [
+      20,
+      20,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Chile?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Chile?": {
+    "raw": ".cl",
+    "generated_ids": [
+      6751,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Juan José Narváez?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Colombia?": {
+    "raw": "57",
+    "generated_ids": [
+      20,
+      22,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Colombia?": {
+    "raw": "COP",
+    "generated_ids": [
+      34,
+      3067,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Colombia?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kadidiatou Diani?": {
+    "raw": "Senegal",
+    "generated_ids": [
+      19617,
+      61321,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for France?": {
+    "raw": "300",
+    "generated_ids": [
+      18,
+      15,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in France?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Katharina Stark?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Germany?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Germany?": {
+    "raw": ".de",
+    "generated_ids": [
+      2285,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Vasilis Lampropoulos?": {
+    "raw": "Greece",
+    "generated_ids": [
+      38,
+      89031,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rúrik Gíslason?": {
+    "raw": "Iceland",
+    "generated_ids": [
+      40,
+      35216,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Iceland?": {
+    "raw": "354",
+    "generated_ids": [
+      18,
+      20,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Arianna Sighel?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Italy?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gege Akutami?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Japan?": {
+    "raw": "JPY",
+    "generated_ids": [
+      27188,
+      56,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Japan?": {
+    "raw": "¥",
+    "generated_ids": [
+      81093,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Japan?": {
+    "raw": ".jp",
+    "generated_ids": [
+      32228,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kenia Os?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Mexico?": {
+    "raw": "MXN",
+    "generated_ids": [
+      29423,
+      45,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Mexico?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Richie Mo'unga?": {
+    "raw": "New Zealand",
+    "generated_ids": [
+      3564,
+      16911,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for New Zealand?": {
+    "raw": "64",
+    "generated_ids": [
+      21,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in New Zealand?": {
+    "raw": "New Zealand Dollar",
+    "generated_ids": [
+      3564,
+      16911,
+      42364,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in New Zealand?": {
+    "raw": "NZD",
+    "generated_ids": [
+      69930,
+      35,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in New Zealand?": {
+    "raw": "$",
+    "generated_ids": [
+      3,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of New Zealand?": {
+    "raw": ".nz",
+    "generated_ids": [
+      60982,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rohit Saggi?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Norway?": {
+    "raw": "578",
+    "generated_ids": [
+      20,
+      22,
+      23,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Norway?": {
+    "raw": "Norwegian krone",
+    "generated_ids": [
+      32663,
+      36565,
+      23103,
+      603,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Norway?": {
+    "raw": "NOK",
+    "generated_ids": [
+      45,
+      3925,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Norway?": {
+    "raw": "kr",
+    "generated_ids": [
+      9855,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Norway?": {
+    "raw": ".no",
+    "generated_ids": [
+      18341,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of José Jerí?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Peru?": {
+    "raw": "51",
+    "generated_ids": [
+      20,
+      16,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Peru?": {
+    "raw": "Peruvian Nuevo Sol",
+    "generated_ids": [
+      3889,
+      98612,
+      87758,
+      11473,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Peru?": {
+    "raw": "PEN",
+    "generated_ids": [
+      47,
+      953,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Peru?": {
+    "raw": "S/",
+    "generated_ids": [
+      50,
+      14,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Peru?": {
+    "raw": ".pe",
+    "generated_ids": [
+      52724,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Leonel Fernandes?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Portugal?": {
+    "raw": "030",
+    "generated_ids": [
+      15,
+      18,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Portugal?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Portugal?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Portugal?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hyolyn?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for South Korea?": {
+    "raw": "410",
+    "generated_ids": [
+      19,
+      16,
+      15,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in South Korea?": {
+    "raw": "KRW",
+    "generated_ids": [
+      42,
+      56368,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of South Korea?": {
+    "raw": ".kr",
+    "generated_ids": [
+      67893,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Álvaro Rico?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Spain?": {
+    "raw": "Euro",
+    "generated_ids": [
+      97427,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Spain?": {
+    "raw": "EUR",
+    "generated_ids": [
+      54738,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Spain?": {
+    "raw": "€",
+    "generated_ids": [
+      15056,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Spain?": {
+    "raw": ".es",
+    "generated_ids": [
+      18550,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Herman Johansson?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Sweden?": {
+    "raw": "46",
+    "generated_ids": [
+      19,
+      21,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Sweden?": {
+    "raw": "Swedish krona",
+    "generated_ids": [
+      13218,
+      25950,
+      87932,
+      64,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Sweden?": {
+    "raw": "SEK",
+    "generated_ids": [
+      925,
+      42,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marianne Fatton?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in Switzerland?": {
+    "raw": "CHF",
+    "generated_ids": [
+      2149,
+      37,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jon Armstrong?": {
+    "raw": "Scotland",
+    "generated_ids": [
+      95825,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for United Kingdom?": {
+    "raw": "826",
+    "generated_ids": [
+      23,
+      17,
+      21,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in United Kingdom?": {
+    "raw": "GBP",
+    "generated_ids": [
+      96386,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency symbol in United Kingdom?": {
+    "raw": "£",
+    "generated_ids": [
+      21651,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kaitlyn Dever?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bruno Méndez?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the 3166-1 numeric code for Uruguay?": {
+    "raw": "324",
+    "generated_ids": [
+      18,
+      17,
+      19,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency in Uruguay?": {
+    "raw": "Uruguayan peso",
+    "generated_ids": [
+      54515,
+      29785,
+      43857,
+      36935,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the top-level domain of Uruguay?": {
+    "raw": ".uy",
+    "generated_ids": [
+      13,
+      4076,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of María Eugenia Suárez?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luke Mitchell?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Julian Weinberger?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Éderson?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sara Waisglass?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of José Antonio Kast Adriasola?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luis Carlos Ruiz?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Juliette Berthet?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Timon Dzienus?": {
+    "raw": "Latvia",
+    "generated_ids": [
+      23140,
+      20105,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Adam Tzanetopoulos?": {
+    "raw": "Greece",
+    "generated_ids": [
+      38,
+      89031,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bjarni Mark Antonsson?": {
+    "raw": "Iceland",
+    "generated_ids": [
+      40,
+      35216,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tony Maiello?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yōko Hikasa?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fernando Padilla?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Anzelo Tuitavuki?": {
+    "raw": "Fiji",
+    "generated_ids": [
+      37,
+      34873,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sigrid Ytterhus Haugset?": {
+    "raw": "Norway",
+    "generated_ids": [
+      32663,
+      3117,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Edgard Rimaycuna?": {
+    "raw": "Peru",
+    "generated_ids": [
+      3889,
+      84,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mariana Azevedo - Mariana Viana Azevedo?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yim Si-wan?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Javi Galán?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Julia Zigiotti Olme?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ken Jager?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Agustín “la joya” Gordillo?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Camila Mendes?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gustavo Tejera?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yael Falcón?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jessica De Gouw?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Leni Gruber?": {
+    "raw": "Austria",
+    "generated_ids": [
+      32,
+      84812,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alex Pereira?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tiera Skovbye?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jorge Carinao?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nicolás Gallo?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marc Hanappier?": {
+    "raw": "Belgium",
+    "generated_ids": [
+      21666,
+      89239,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Anna Bauseneick?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Dimitris Manos?": {
+    "raw": "Greece",
+    "generated_ids": [
+      38,
+      89031,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ingibjörg Egilsdóttir?": {
+    "raw": "Iceland",
+    "generated_ids": [
+      40,
+      35216,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Capo Plaza?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nao Tōyama?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jair Díaz?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kimiora Nati?": {
+    "raw": "Fiji",
+    "generated_ids": [
+      37,
+      34873,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Frida Orupabo?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Indira Huilca?": {
+    "raw": "Peru",
+    "generated_ids": [
+      3889,
+      84,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Buba Espinho?": {
+    "raw": "Angola",
+    "generated_ids": [
+      10743,
+      7924,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hoya?": {
+    "raw": "Netherlands",
+    "generated_ids": [
+      45,
+      23612,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ángela Ponce?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sofie Skoog?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lydia Mettler?": {
+    "raw": "Switzerland",
+    "generated_ids": [
+      13218,
+      26423,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mia Malkova?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Agustín Oliveros?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Zaira Nara?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alexandra Park?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fábio Aguiar?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alice Glass?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of José Montalva Feuerhake?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yeison Jiménez?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nils Allègre?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Arno Merk?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Giovanni Guida?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kanae Itō?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Iván Jared Moreno?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Camilla Huseby?": {
+    "raw": "Norway",
+    "generated_ids": [
+      32663,
+      3117,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Juan Daniel F. Molero?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gil Lameiras?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Soyou?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Oriol Cardona Coll?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tim Rönning?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Melanie Felber?": {
+    "raw": "Switzerland",
+    "generated_ids": [
+      13218,
+      26423,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of AJ Michalka?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Francis D'Albenas?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rodrigo Isgro?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Chris Lynn?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alok?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jordan Todosey?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luis Felipe Pacheco Báez?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ana Lucía Pineda?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Charline Bourgeois-Tacquet?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Felix Horst Wolfgang Teichner?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Dalila Nesci?": {
+    "raw": "Switzerland",
+    "generated_ids": [
+      13218,
+      26423,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ayaka Sasaki?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Pavel Pérez?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Linn Kristin Langley-Rasmussen Engø?": {
+    "raw": "Denmark",
+    "generated_ids": [
+      23619,
+      3987,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tatiana Calmell?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Thunder?": {
+    "raw": "China",
+    "generated_ids": [
+      22282,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Celia Jiménez?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Simon Olofsson?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Patricia Willi?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of RJ Mitte?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jorge Ayala?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lucas Favalli?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matt Corby?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mônica Alves?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Paul Anthony Kelly?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alvaro Pillado?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Theo Montoya?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Félix Lefebvre?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matthias Reuber?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Giada Andreutti?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tasuku Hatanaka?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Paul Bellón?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sarah Suphellen?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kevin Ruíz?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jeon Hun-young?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Elena Congost Mohedano?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Oskar Rozenberg?": {
+    "raw": "Poland",
+    "generated_ids": [
+      14658,
+      437,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Soulja Boy?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rodrigo de Olivera?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ulises Sánchez?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jessica-Rose Clark?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Danilo Soares?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mathew Dumba?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Javiera Petersen?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Andrés Steven Rodríguez?": {
+    "raw": "Paraguay",
+    "generated_ids": [
+      4272,
+      83142,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Gaël Nlundulu?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nico Bloem?": {
+    "raw": "South Africa",
+    "generated_ids": [
+      25018,
+      10174,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Simone Daprà?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Shunsuke Takeuchi?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Diego Antonio Hernández?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Beharie?": {
+    "raw": "Suriname",
+    "generated_ids": [
+      23043,
+      79856,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marvin Palma?": {
+    "raw": "Philippines",
+    "generated_ids": [
+      29590,
+      63906,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kim Ji-eun?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of José María Amo?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Louise Ekman?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Adam Hicks?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yonatan Rodríguez?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rodrigo Castillo?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Shari Sebbens?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yuri Jonathan Vitor Coelho?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nicole Muñoz?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Franco Velarde?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carina Murcia Yela?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Léo Legrand?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Julian Preidl?": {
+    "raw": "Austria",
+    "generated_ids": [
+      32,
+      84812,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Angelo Iannelli?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Megumi Toda?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sofía Stefani Espinoza Álvarez?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kirvil Odden Sundsfjord?": {
+    "raw": "Norway",
+    "generated_ids": [
+      32663,
+      3117,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ronal Huaccha?": {
+    "raw": "Peru",
+    "generated_ids": [
+      3889,
+      84,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Baek Se-hee?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rocío Márquez?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Maja Rung?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Portia Doubleday?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Anahí Fernández?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Natalia Melcon?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ryan Lees?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alemão?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jared Abrahamson?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Juan Pablo Rodríguez Oyarzún?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of David Montoya Henao?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Léo Anguenot?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lars Katzmarek?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rebecca Lonedo?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of SHIINA Mota?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sandra Ramírez?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Peter Reinhardsen?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Paul García?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Park Seong-hwa?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of María Peláe?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hannes Hervieu?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ashley Rickards?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sebastián Ciganda?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Federico Lanzillota?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ben Pasternak?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yuri Araujo?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Christine Chatelain?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Romer Alegria?": {
+    "raw": "Philippines",
+    "generated_ids": [
+      29590,
+      63906,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marie Colomb?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Joshua Schmitt?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nicolò Garibbo?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Chinami Hashimoto?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jorge Casillas?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Robin Rasch?": {
+    "raw": "Denmark",
+    "generated_ids": [
+      23619,
+      3987,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hugo Ancajima?": {
+    "raw": "Peru",
+    "generated_ids": [
+      3889,
+      84,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Park Junhee?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Julián López de Lerma?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Arber Gashi?": {
+    "raw": "Albania",
+    "generated_ids": [
+      2101,
+      6850,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hornswoggle?": {
+    "raw": "Ireland",
+    "generated_ids": [
+      40,
+      86466,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Valentín Perales?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Anton de Pasquale?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bruno Gadiol?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Robbie Graham-Kuntz?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Diógenes Quintero?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Melvin Tchiknavorian?": {
+    "raw": "Armenia",
+    "generated_ids": [
+      6953,
+      5676,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Leonardo Donno?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Erina Nakayama?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ángel Lopez?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Remi-André Svindland?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Enrique Valderrama?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alice?": {
+    "raw": "United Kingdom",
+    "generated_ids": [
+      22372,
+      15072,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Clara Alvarado?": {
+    "raw": "Costa Rica",
+    "generated_ids": [
+      14940,
+      64,
+      51949,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Johan Linnander?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kelli Berglund?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Juan Pablo Cozzani?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ellie-Jean Coffey?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Allan Nascimento?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sean McIntosh?": {
+    "raw": "Ireland",
+    "generated_ids": [
+      40,
+      86466,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nils Alphand?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Paola Padovan?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Koyomi Iwasaki?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Edson García?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fredrik Mani Pålerud?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Analí Márquez?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lee Sung-min?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of David Uclés?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of alexander parleros?": {
+    "raw": "Greece",
+    "generated_ids": [
+      38,
+      89031,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Romeo Miller?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matías Reali?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sarah Blizzard?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ariane Lipski?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Brodie Seger?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Camille Kovalev?": {
+    "raw": "Russia",
+    "generated_ids": [
+      44506,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alice Pignagnoli?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hikaru Aoyama?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Janeth Gómez?": {
+    "raw": "Venezuela",
+    "generated_ids": [
+      53,
+      20556,
+      23737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kristian Strande?": {
+    "raw": "Norway",
+    "generated_ids": [
+      32663,
+      3117,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yenifer Paredes?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kim Hyung-geun?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Dani Fernández?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Martin Hallander?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ashleigh Murray?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Milagros Flores?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Steph Hodgins-May?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alef Manga?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jazmine White?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Clémence Beretta?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Giulia Zanotelli?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fūju Kamio?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Grecia Quiroz?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Knut-André Skjærstein?": {
+    "raw": "Norway",
+    "generated_ids": [
+      32663,
+      3117,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jair Manrique?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Choi Won-jun?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of María Cumplido?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Andreas Lennkvist Manriquez?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jake Angeli?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fernanda Alegre?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Shannon Berry?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Natan Carneiro de Lima?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carisa Hendrix?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marie Laguerre?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Flavio Gastaldi?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ayano Kaneko?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yareli Carrillo?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Eirik Saunes?": {
+    "raw": "Norway",
+    "generated_ids": [
+      32663,
+      3117,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nathaly Molina?": {
+    "raw": "Dominican Republic",
+    "generated_ids": [
+      71541,
+      7065,
+      5429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Shin Min-jae?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daniel Pérez?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Caroline Högström?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Blake Michael?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lucas Carrizo?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tayla Jones?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jucimar José Teixeira?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ève Lambert?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Voyou?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Luca Carabetta?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Takato Ishida?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jorge Salim Hernández?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jukjae?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Clara Peya?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Louise Mörk?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nick Young?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Martin Ezcurra?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Brian Kelly?": {
+    "raw": "USA",
+    "generated_ids": [
+      24347,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bruna Moura‎?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Trevor Horne?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nastassja Martin?": {
+    "raw": "Germany",
+    "generated_ids": [
+      50170,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Annaelsa Tartaglione?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tigarah?": {
+    "raw": "India",
+    "generated_ids": [
+      33548,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carlos Eduardo Gutiérrez Mancilla?": {
+    "raw": "Colombia",
+    "generated_ids": [
+      6127,
+      2855,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Honey J?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mariona Terés?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carl-Wiktor Svensson?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Shiloh Fernandez?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Virginia Gallardo?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Tim Pusey?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Guilherme António de Souza?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Aui_2000?": {
+    "raw": "China",
+    "generated_ids": [
+      22282,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Enzo Guibbert?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Caterina Ambrosi?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kana Nakada?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jessica Berenice García Quijano?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ko Eun-sung?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jessica Goicoechea?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Eleonore Lundkvist?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Grace Fulton?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Martín Ortega?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matthew David Graham?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Diego Castro?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Madwa-Nika Cadet?": {
+    "raw": "Haiti",
+    "generated_ids": [
+      39,
+      1315,
+      72,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Manon Uffren?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jacopo Èt?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daigo Nishihata?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ruth González Silva?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jeong Chi-in?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sara Alonso Martínez?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Andrea Kronvall?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Amber Stevens West?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Horacio Cifuentes?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Michaela Stark?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Zé Lucas?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of M. H. Murray?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hervé?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Perla Vatiero?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ryōma Nishikawa?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Manuel Alejandro Cota?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kim Kang-min?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Mikel Huerga Leache?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rasmus Elfström?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of David Castaneda?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matías Lisandro Mansilla?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sally Fuesaina?": {
+    "raw": "Samoa",
+    "generated_ids": [
+      23950,
+      19533,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daniel dos Anjos?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Smoke Dawg?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nej'?": {
+    "raw": "Algeria",
+    "generated_ids": [
+      2101,
+      1389,
+      685,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Elisa Baldo?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Saori Izawa?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Choi Ji-hoon?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sergio Segura García?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ellen Åkesson?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rich the Kid?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Juan Ignacio Saborido?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sean Bell?": {
+    "raw": "USA",
+    "generated_ids": [
+      24347,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daiane Muniz dos Santos?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rosalie Bonenfant?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hadrien Clouet?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Stefano Minerva?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Akane Yonezawa?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kim Seong-mi?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Olatz Rivera Olmedo?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Johan Tireland?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of JID?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Martín Perelman?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of D'Rhys Miller?": {
+    "raw": "New Zealand",
+    "generated_ids": [
+      3564,
+      16911,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lucas Moraes?": {
+    "raw": "Brazil",
+    "generated_ids": [
+      67199,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Roan Curtis?": {
+    "raw": "England",
+    "generated_ids": [
+      66208,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alizée Minard?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Giorgio Zanni?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Akihide Tsumura?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kim Min-gee?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ekain Zenitagoia?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Julia Algotsson?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Bazzi?": {
+    "raw": "Lebanon",
+    "generated_ids": [
+      2304,
+      6850,
+      263,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lucía Cámpora?": {
+    "raw": "Argentina",
+    "generated_ids": [
+      95417,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jontee Brown?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rashid?": {
+    "raw": "Pakistan",
+    "generated_ids": [
+      88235,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matthew Mullins?": {
+    "raw": "Australia",
+    "generated_ids": [
+      48037,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Milan Robin?": {
+    "raw": "Czech Republic",
+    "generated_ids": [
+      34,
+      25751,
+      5429,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alessandro Lana?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hiroyasu Tanaka?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Shin Ji-ye?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ester Navarrete?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daniel Lyckestam?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Hannah Einbinder?": {
+    "raw": "Israel",
+    "generated_ids": [
+      33527,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Emilia Orozco?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Pedro Vilela?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Audrey Bogemans?": {
+    "raw": "Belgium",
+    "generated_ids": [
+      21666,
+      89239,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Constance?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Christian Giordano?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Manami Kojima?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Jung Ji-yeon?": {
+    "raw": "South Korea",
+    "generated_ids": [
+      25018,
+      11862,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carlos Mora Sabaté?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Amanda Thonander?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Marielle Jaffe?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lourdes Arrieta?": {
+    "raw": "Mexico",
+    "generated_ids": [
+      68831,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ana Vilela?": {
+    "raw": "Portugal",
+    "generated_ids": [
+      7084,
+      44184,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kariane Bourassa?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Robin Rivaton?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daniele Canella?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Seikin?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Joseba Ezkurdia?": {
+    "raw": "Spain",
+    "generated_ids": [
+      74320,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alexander Svensson?": {
+    "raw": "Sweden",
+    "generated_ids": [
+      96871,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sterling Beaumon?": {
+    "raw": "United States",
+    "generated_ids": [
+      22372,
+      4180,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of La Chola Poblete?": {
+    "raw": "Chile",
+    "generated_ids": [
+      1143,
+      457,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Isa Penna?": {
+    "raw": "Italy",
+    "generated_ids": [
+      70503,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Maïté Blanchette Vézina?": {
+    "raw": "Canada",
+    "generated_ids": [
+      35931,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Étienne Falgoux?": {
+    "raw": "France",
+    "generated_ids": [
+      49000,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rio Yamada?": {
+    "raw": "Japan",
+    "generated_ids": [
+      48752,
+      151645
+    ],
+    "truncated": false
+  }
+}

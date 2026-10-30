@@ -1,0 +1,786 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_handoff_analysis_20261003_folder_inventory_20261003_FILE_TREE.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/8f/8f84b75d94be75e5_FILE_TREE.txt|FILE_TREE.txt]]
+
+/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/
+扫描日期：2026-10-03；忽略 .DS_Store、__pycache__、.git。此目录树是快照。
+
+├── inward/
+│   ├── data/
+│   │   └── compositional_celebrities.json
+│   ├── logs/
+│   │   ├── download.log
+│   │   ├── download_14b.log
+│   │   ├── download_8b.log
+│   │   ├── exp1-677584.out
+│   │   ├── exp1v2-677608.out
+│   │   ├── exp1v2-678097.out
+│   │   ├── exp1v2-678144.out
+│   │   ├── gputest-677541.out
+│   │   ├── gputest-677576.out
+│   │   ├── lens14b-678361.out
+│   │   └── lens14b-678387.out
+│   ├── results/
+│   │   ├── exp1_Qwen3-0.6B/
+│   │   │   ├── items.jsonl
+│   │   │   └── summary.json
+│   │   ├── exp1_Qwen3-1.7B/
+│   │   │   ├── items.jsonl
+│   │   │   └── summary.json
+│   │   ├── exp1v2_Qwen3-0.6B/
+│   │   │   ├── items.jsonl
+│   │   │   └── summary.json
+│   │   ├── exp1v2_Qwen3-1.7B/
+│   │   │   ├── items.jsonl
+│   │   │   └── summary.json
+│   │   ├── exp1v2_Qwen3-14B/
+│   │   │   ├── items.jsonl
+│   │   │   └── summary.json
+│   │   ├── exp1v2_Qwen3-8B/
+│   │   │   ├── items.jsonl
+│   │   │   └── summary.json
+│   │   ├── handoff_analysis_20261003/
+│   │   │   ├── analysis_outputs/
+│   │   │   │   ├── failures_120_labeled.csv
+│   │   │   │   ├── label_by_category.csv
+│   │   │   │   ├── label_summary.json
+│   │   │   │   └── repair_overlap.json
+│   │   │   ├── smoke_final_top05/
+│   │   │   │   ├── adapter/
+│   │   │   │   │   ├── adapter_config.json
+│   │   │   │   │   ├── adapter_model.safetensors
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── confidence_diagnostic.json
+│   │   │   │   ├── eval_A_newPerson.jsonl
+│   │   │   │   ├── eval_B_newCategory.jsonl
+│   │   │   │   ├── eval_C_bothNew.jsonl
+│   │   │   │   ├── inward_summary.json
+│   │   │   │   ├── run_config.json
+│   │   │   │   ├── target_scores.jsonl
+│   │   │   │   └── train_examples.jsonl
+│   │   │   ├── smoke_final_top07/
+│   │   │   │   ├── adapter/
+│   │   │   │   │   ├── adapter_config.json
+│   │   │   │   │   ├── adapter_model.safetensors
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── confidence_diagnostic.json
+│   │   │   │   ├── eval_A_newPerson.jsonl
+│   │   │   │   ├── eval_B_newCategory.jsonl
+│   │   │   │   ├── eval_C_bothNew.jsonl
+│   │   │   │   ├── inward_summary.json
+│   │   │   │   ├── run_config.json
+│   │   │   │   ├── target_scores.jsonl
+│   │   │   │   └── train_examples.jsonl
+│   │   │   ├── smoke_random_top05/
+│   │   │   │   ├── adapter/
+│   │   │   │   │   ├── adapter_config.json
+│   │   │   │   │   ├── adapter_model.safetensors
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── confidence_diagnostic.json
+│   │   │   │   ├── eval_A_newPerson.jsonl
+│   │   │   │   ├── eval_B_newCategory.jsonl
+│   │   │   │   ├── eval_C_bothNew.jsonl
+│   │   │   │   ├── inward_summary.json
+│   │   │   │   ├── run_config.json
+│   │   │   │   ├── target_scores.jsonl
+│   │   │   │   └── train_examples.jsonl
+│   │   │   ├── smoke_top05/
+│   │   │   │   ├── adapter/
+│   │   │   │   │   ├── adapter_config.json
+│   │   │   │   │   ├── adapter_model.safetensors
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── confidence_diagnostic.json
+│   │   │   │   ├── eval_A_newPerson.jsonl
+│   │   │   │   ├── eval_B_newCategory.jsonl
+│   │   │   │   ├── eval_C_bothNew.jsonl
+│   │   │   │   ├── inward_summary.json
+│   │   │   │   ├── run_config.json
+│   │   │   │   ├── target_scores.jsonl
+│   │   │   │   └── train_examples.jsonl
+│   │   │   ├── verified_analysis/
+│   │   │   │   ├── C_repair_labels.json
+│   │   │   │   ├── C_repairs_to_review.jsonl
+│   │   │   │   ├── failures_120_labeled.csv
+│   │   │   │   ├── label_summary.json
+│   │   │   │   └── repair_overlap.json
+│   │   │   ├── exp6_inward_v1.py
+│   │   │   ├── exp8_filtered.py
+│   │   │   ├── exp8_upload.tgz
+│   │   │   ├── label_decisions.json
+│   │   │   ├── reproduce_analysis.py
+│   │   │   ├── reproducibility.json
+│   │   │   ├── run_exp8_filtered.sh
+│   │   │   ├── sample_120.json
+│   │   │   ├── sha256_manifest.json
+│   │   │   ├── smoke_final_top05.log
+│   │   │   ├── smoke_final_top07.log
+│   │   │   ├── smoke_random_top05.log
+│   │   │   └── smoke_top05.log
+│   │   └── lens_Qwen3-14B/
+│   │       ├── lens_items.jsonl
+│   │       └── lens_summary.json
+│   ├── commands_history.txt
+│   ├── exp1_gap.py
+│   ├── exp1_gap_v2.py
+│   ├── exp2_lens.py
+│   ├── gpu_test.sh
+│   ├── run_exp1.sh
+│   ├── run_exp1_v2.sh
+│   └── run_exp2.sh
+├── logs/
+│   ├── download.log
+│   ├── exp1-677584.out
+│   ├── gputest-677541.out
+│   └── gputest-677576.out
+├── results/
+│   ├── exp1_Qwen3-0.6B/
+│   │   ├── items.jsonl
+│   │   └── summary.json
+│   ├── exp1_Qwen3-1.7B/
+│   │   ├── items.jsonl
+│   │   └── summary.json
+│   ├── exp1v2_Qwen3-0.6B/
+│   │   ├── items.jsonl
+│   │   └── summary.json
+│   ├── exp1v2_Qwen3-1.7B/
+│   │   ├── items.jsonl
+│   │   └── summary.json
+│   ├── exp1v2_Qwen3-8B/
+│   │   ├── items.jsonl
+│   │   └── summary.json
+│   └── handoff_analysis_20261003/
+│       ├── exp8_680959/
+│       │   ├── analysis/
+│       │   │   ├── per_run.csv
+│       │   │   ├── summary.json
+│       │   │   ├── target_numeric_sensitivity.json
+│       │   │   ├── training_categories.csv
+│       │   │   └── training_quality.csv
+│       │   ├── logs/
+│       │   │   └── inward-filtered-680959.out
+│       │   ├── results/
+│       │   │   └── filtered_680959/
+│       │   │       ├── self_confidence_top0.5_s0/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top0.5_s1/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top0.5_s2/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top0.7_s0/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top0.7_s1/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top0.7_s2/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top1.0_s0/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top1.0_s1/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_confidence_top1.0_s2/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_random_top0.5_s0/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_random_top0.5_s1/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_random_top0.5_s2/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_random_top0.7_s0/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       ├── self_random_top0.7_s1/
+│       │   │       │   ├── confidence_diagnostic.json
+│       │   │       │   ├── eval_A_newPerson.jsonl
+│       │   │       │   ├── eval_B_newCategory.jsonl
+│       │   │       │   ├── eval_C_bothNew.jsonl
+│       │   │       │   ├── inward_summary.json
+│       │   │       │   ├── run_config.json
+│       │   │       │   ├── target_scores.jsonl
+│       │   │       │   └── train_examples.jsonl
+│       │   │       └── self_random_top0.7_s2/
+│       │   │           ├── confidence_diagnostic.json
+│       │   │           ├── eval_A_newPerson.jsonl
+│       │   │           ├── eval_B_newCategory.jsonl
+│       │   │           ├── eval_C_bothNew.jsonl
+│       │   │           ├── inward_summary.json
+│       │   │           ├── run_config.json
+│       │   │           ├── target_scores.jsonl
+│       │   │           └── train_examples.jsonl
+│       │   └── analyze_exp8.py
+│       ├── exp9_shuffled/
+│       │   ├── reference_exp8/
+│       │   │   ├── eval_A_newPerson.jsonl
+│       │   │   ├── eval_B_newCategory.jsonl
+│       │   │   └── eval_C_bothNew.jsonl
+│       │   ├── smoke_analysis/
+│       │   ├── smoke_analysis_final/
+│       │   │   ├── per_run.csv
+│       │   │   └── report.json
+│       │   ├── smoke_analysis_verified/
+│       │   │   ├── per_run.csv
+│       │   │   └── report.json
+│       │   ├── smoke_runs/
+│       │   │   ├── category_confidence50_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_confidence50_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_confidence50_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_random50_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_random50_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_random50_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── self_full_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── self_full_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── self_full_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── shuffled_full_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── shuffled_full_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── shuffled_full_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_confidence50_s0.log
+│       │   │   ├── category_confidence50_s1.log
+│       │   │   ├── category_confidence50_s2.log
+│       │   │   ├── category_random50_s0.log
+│       │   │   ├── category_random50_s1.log
+│       │   │   ├── category_random50_s2.log
+│       │   │   ├── self_full_s0.log
+│       │   │   ├── self_full_s1.log
+│       │   │   ├── self_full_s2.log
+│       │   │   ├── shuffled_full_s0.log
+│       │   │   ├── shuffled_full_s1.log
+│       │   │   └── shuffled_full_s2.log
+│       │   ├── smoke_runs_verified/
+│       │   │   ├── category_confidence50_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_confidence50_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_confidence50_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_random50_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_random50_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_random50_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── self_full_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── self_full_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── self_full_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── shuffled_full_s0/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── shuffled_full_s1/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── shuffled_full_s2/
+│       │   │   │   ├── adapter/
+│       │   │   │   │   ├── adapter_config.json
+│       │   │   │   │   ├── adapter_model.safetensors
+│       │   │   │   │   └── README.md
+│       │   │   │   ├── eval_A_newPerson.jsonl
+│       │   │   │   ├── eval_B_newCategory.jsonl
+│       │   │   │   ├── eval_C_bothNew.jsonl
+│       │   │   │   ├── evaluation_manifest.json
+│       │   │   │   ├── initialization.json
+│       │   │   │   ├── inward_summary.json
+│       │   │   │   ├── run_config.json
+│       │   │   │   ├── target_assignment.jsonl
+│       │   │   │   ├── target_diagnostic.json
+│       │   │   │   └── train_examples.jsonl
+│       │   │   ├── category_confidence50_s0.log
+│       │   │   ├── category_confidence50_s1.log
+│       │   │   ├── category_confidence50_s2.log
+│       │   │   ├── category_random50_s0.log
+│       │   │   ├── category_random50_s1.log
+│       │   │   ├── category_random50_s2.log
+│       │   │   ├── self_full_s0.log
+│       │   │   ├── self_full_s1.log
+│       │   │   ├── self_full_s2.log
+│       │   │   ├── shuffled_full_s0.log
+│       │   │   ├── shuffled_full_s1.log
+│       │   │   └── shuffled_full_s2.log
+│       │   ├── smoke_shuffled/
+│       │   │   ├── adapter/
+│       │   │   │   ├── adapter_config.json
+│       │   │   │   ├── adapter_model.safetensors
+│       │   │   │   └── README.md
+│       │   │   ├── eval_A_newPerson.jsonl
+│       │   │   ├── eval_B_newCategory.jsonl
+│       │   │   ├── eval_C_bothNew.jsonl
+│       │   │   ├── evaluation_manifest.json
+│       │   │   ├── initialization.json
+│       │   │   ├── inward_summary.json
+│       │   │   ├── run_config.json
+│       │   │   ├── target_assignment.jsonl
+│       │   │   ├── target_diagnostic.json
+│       │   │   └── train_examples.jsonl
+│       │   ├── allocation_preflight.json
+│       │   ├── analyze_exp9.py
+│       │   ├── exp8_filtered_v1.py
+│       │   ├── exp9_plan.py
+│       │   ├── exp9_shuffled.py
+│       │   ├── exp9_upload.tgz
+│       │   ├── frozen_targets.jsonl
+│       │   ├── protocol.json
+│       │   ├── run_exp9_shuffled.sh
+│       │   ├── smoke_shuffled.log
+│       │   └── verify_exp9.py
+│       ├── folder_inventory_20261003/
+│       ├── tasks56_outputs/
+│       │   ├── automatic_818.csv
+│       │   ├── automatic_summary.json
+│       │   ├── confusion_120.json
+│       │   ├── country_attributes.json
+│       │   ├── gap_comparison.csv
+│       │   ├── gap_comparison.json
+│       │   ├── historical_rules.json
+│       │   ├── matched_120.csv
+│       │   ├── provenance.json
+│       │   ├── rescored_0.6B.jsonl
+│       │   ├── rescored_1.7B.jsonl
+│       │   ├── rescored_14B.jsonl
+│       │   ├── rescored_8B.jsonl
+│       │   └── score_changes.csv
+│       ├── tasks56_verified/
+│       │   ├── automatic_818.csv
+│       │   ├── automatic_summary.json
+│       │   ├── confusion_120.json
+│       │   ├── country_attributes.json
+│       │   ├── gap_comparison.csv
+│       │   ├── gap_comparison.json
+│       │   ├── historical_rules.json
+│       │   ├── matched_120.csv
+│       │   ├── provenance.json
+│       │   ├── rescored_0.6B.jsonl
+│       │   ├── rescored_1.7B.jsonl
+│       │   ├── rescored_14B.jsonl
+│       │   ├── rescored_8B.jsonl
+│       │   └── score_changes.csv
+│       ├── analyze_tasks56.py
+│       ├── iso4217_current.xml
+│       ├── iso4217_historical.xml
+│       ├── scoring_v2.py
+│       ├── validation_tasks56.json
+│       └── verify_scoring.py
+├── commands_history.txt
+├── exp1_gap.py
+├── exp1_gap_v2.py
+├── exp2_lens.py
+├── exp2_lens_v2.py
+├── exp3_backpatch.py
+├── exp4_fixedpatch.py
+├── exp5_gated.py
+├── exp6_inward.py
+├── exp6b_lens.py
+├── exp7_audit.py
+├── exp8_680959_review.tgz
+├── INWARD_HANDOFF.md
+├── inward_results.tgz
+├── run_exp1.sh
+└── run_exp1_v2.sh
+
+
+返回 [[00 研究首页]]

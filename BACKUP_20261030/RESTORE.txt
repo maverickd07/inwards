@@ -1,0 +1,8 @@
+Restore this public archive with Git and Git LFS installed:
+
+  git lfs install
+  git clone https://github.com/maverickd07/inwards.git
+  cd inwards
+  git lfs pull
+
+FILES_SHA256.json lists SHA-256 checksums for the backed-up files. Git does not store empty directories; recreate entries in empty_directories if needed. Embedded public-release repository histories are saved as .bundle files; use git clone BACKUP_20261030/public_release.bundle restored-public-release to restore that history. Existing historical result and configuration files may reference old absolute local or HPC paths; keep those as provenance and adjust paths when running on a new machine. This archive contains local files only, not HPC-only files.

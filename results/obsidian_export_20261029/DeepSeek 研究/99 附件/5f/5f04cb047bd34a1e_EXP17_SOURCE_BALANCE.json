@@ -1,0 +1,132 @@
+[
+  {
+    "definition": "attribute_floor",
+    "by_category": {
+      "birthplace_callingcode": {
+        "context_consistent": 16,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_capital": {
+        "context_consistent": 6,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_rounded_lat": {
+        "context_consistent": 4,
+        "direct_consistent": 1,
+        "max_balanced_source_pairs": 2
+      },
+      "birthplace_rounded_lng": {
+        "context_consistent": 5,
+        "direct_consistent": 1,
+        "max_balanced_source_pairs": 2
+      }
+    },
+    "max_balanced_source_pairs": 4
+  },
+  {
+    "definition": "model_exp12",
+    "by_category": {
+      "birthplace_callingcode": {
+        "context_consistent": 11,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_capital": {
+        "context_consistent": 4,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_rounded_lat": {
+        "context_consistent": 15,
+        "direct_consistent": 1,
+        "max_balanced_source_pairs": 2
+      },
+      "birthplace_rounded_lng": {
+        "context_consistent": 35,
+        "direct_consistent": 4,
+        "max_balanced_source_pairs": 8
+      }
+    },
+    "max_balanced_source_pairs": 10
+  },
+  {
+    "definition": "model_extended",
+    "by_category": {
+      "birthplace_callingcode": {
+        "context_consistent": 16,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_capital": {
+        "context_consistent": 6,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_rounded_lat": {
+        "context_consistent": 21,
+        "direct_consistent": 3,
+        "max_balanced_source_pairs": 6
+      },
+      "birthplace_rounded_lng": {
+        "context_consistent": 43,
+        "direct_consistent": 4,
+        "max_balanced_source_pairs": 8
+      }
+    },
+    "max_balanced_source_pairs": 14
+  },
+  {
+    "definition": "intersection_exp12",
+    "by_category": {
+      "birthplace_callingcode": {
+        "context_consistent": 11,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_capital": {
+        "context_consistent": 4,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_rounded_lat": {
+        "context_consistent": 2,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_rounded_lng": {
+        "context_consistent": 3,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      }
+    },
+    "max_balanced_source_pairs": 0
+  },
+  {
+    "definition": "intersection_extended",
+    "by_category": {
+      "birthplace_callingcode": {
+        "context_consistent": 16,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_capital": {
+        "context_consistent": 6,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_rounded_lat": {
+        "context_consistent": 3,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      },
+      "birthplace_rounded_lng": {
+        "context_consistent": 3,
+        "direct_consistent": 0,
+        "max_balanced_source_pairs": 0
+      }
+    },
+    "max_balanced_source_pairs": 0
+  }
+]

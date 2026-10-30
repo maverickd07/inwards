@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-16T11:06:57.952275+00:00",
+  "before_any_curation_statistics_or_selection": true,
+  "script": "curate_review_v6.py",
+  "sha256": "a62755f393551dd31af0c77df83ca98db1b65db15865d5cb804b89ee6f2ab989",
+  "changes": [
+    "Apply the existing old-person evaluation-alias exclusion also to newly completed biography redirects.",
+    "Use public API-supported batches of 50 to reduce requests; criteria and ranking unchanged."
+  ],
+  "retry_reason": "Previous launch read the LOCATION_ENTITIES file during writing and failed before any curation output; collector now confirmed exit 0."
+}

@@ -1,0 +1,56 @@
+year 1985 cumulative candidates 493
+year 1986 cumulative candidates 989
+year 1987 cumulative candidates 1480
+year 1988 cumulative candidates 1969
+year 1989 cumulative candidates 2461
+year 1990 cumulative candidates 2958
+year 1991 cumulative candidates 3453
+year 1992 cumulative candidates 3942
+year 1993 cumulative candidates 4433
+year 1994 cumulative candidates 4925
+year 1995 cumulative candidates 5419
+year 1996 cumulative candidates 5911
+year 1997 cumulative candidates 6406
+year 1998 cumulative candidates 6901
+year 1999 cumulative candidates 7393
+entity batches 1 / 213
+entity batches 11 / 213
+entity batches 21 / 213
+entity batches 31 / 213
+entity batches 41 / 213
+entity batches 51 / 213
+entity batches 61 / 213
+entity batches 71 / 213
+API retry www.wikidata.org HTTPError HTTP Error 429: Too Many Requests
+entity batches 81 / 213
+entity batches 91 / 213
+entity batches 101 / 213
+entity batches 111 / 213
+entity batches 121 / 213
+entity batches 131 / 213
+entity batches 141 / 213
+entity batches 151 / 213
+entity batches 161 / 213
+API retry www.wikidata.org HTTPError HTTP Error 429: Too Many Requests
+entity batches 171 / 213
+entity batches 181 / 213
+entity batches 191 / 213
+entity batches 201 / 213
+API retry www.wikidata.org HTTPError HTTP Error 429: Too Many Requests
+API retry www.wikidata.org HTTPError HTTP Error 429: Too Many Requests
+entity batches 211 / 213
+entity batches 1 / 40
+entity batches 11 / 40
+entity batches 21 / 40
+API retry www.wikidata.org HTTPError HTTP Error 429: Too Many Requests
+entity batches 31 / 40
+entity batches 1 / 42
+entity batches 11 / 42
+entity batches 21 / 42
+entity batches 31 / 42
+entity batches 41 / 42
+entity batches 1 / 12
+entity batches 11 / 12
+entity batches 1 / 2
+entity batches 1 / 1
+collection complete 7393 1115 unresolved 30 locations 3782

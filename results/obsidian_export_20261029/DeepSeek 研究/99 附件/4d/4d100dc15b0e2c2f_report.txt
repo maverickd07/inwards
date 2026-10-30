@@ -1,0 +1,39 @@
+exp21 latent emergence
+ENGINEERING SMOKE ONLY
+Negative paired shift = earlier. Never-hit uses L+1 (right-censored, not an observed layer).
+Primary nonoverlap; all-item and leading-space sensitivity. Frozen exp19 scoring; REVIEW incorrect.
+CIs: item bootstrap; rescued subsets are outcome-selected descriptive comparisons.
+No causal inference from a first-token logit lens; no automatic seed expansion.
+
+fixed303 base_C0 n=5 correct=0 REVIEW=5
+  all/bridge: n=5 median=29.0 CI=[23.0, 29.0] mean=27.8 CI=[25.4, 29.0] never=4
+  all/answer: n=5 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=5
+  C0_correct/bridge: n=0 median=None CI=None mean=None CI=None never=0
+  C0_correct/answer: n=0 median=None CI=None mean=None CI=None never=0
+  C0_wrong/bridge: n=5 median=29.0 CI=[23.0, 29.0] mean=27.8 CI=[25.4, 29.0] never=4
+  C0_wrong/answer: n=5 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=5
+fixed303 base_C2 n=5 correct=0 REVIEW=5
+  all/bridge: n=5 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=5
+  all/answer: n=5 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=5
+  C0_correct/bridge: n=0 median=None CI=None mean=None CI=None never=0
+  C0_correct/answer: n=0 median=None CI=None mean=None CI=None never=0
+  C0_wrong/bridge: n=5 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=5
+  C0_wrong/answer: n=5 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=5
+D500_known313 base_C0 n=9 correct=0 REVIEW=8
+  all/bridge: n=9 median=29.0 CI=[29.0, 29.0] mean=28.333333333333332 CI=[27.0, 29.0] never=8
+  all/answer: n=9 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=9
+  C0_correct/bridge: n=0 median=None CI=None mean=None CI=None never=0
+  C0_correct/answer: n=0 median=None CI=None mean=None CI=None never=0
+  C0_wrong/bridge: n=9 median=29.0 CI=[29.0, 29.0] mean=28.333333333333332 CI=[27.0, 29.0] never=8
+  C0_wrong/answer: n=9 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=9
+D500_known313 base_C2 n=9 correct=0 REVIEW=9
+  all/bridge: n=9 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=9
+  all/answer: n=9 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=9
+  C0_correct/bridge: n=0 median=None CI=None mean=None CI=None never=0
+  C0_correct/answer: n=0 median=None CI=None mean=None CI=None never=0
+  C0_wrong/bridge: n=9 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=9
+  C0_wrong/answer: n=9 median=29.0 CI=[29.0, 29.0] mean=29.0 CI=[29.0, 29.0] never=9
+
+Full numerical results, conditional-hit summaries, sensitivities and grouped correctness CIs: summary.json.
+C2 groups use base C0 correctness, C2 accuracy itself scores only the Answer field.
+Unresolved scoring/reference issues remain REVIEW/HISTORICAL; do not tune references or expand experiments.

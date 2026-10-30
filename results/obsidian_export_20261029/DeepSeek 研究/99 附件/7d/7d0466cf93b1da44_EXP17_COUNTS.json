@@ -1,0 +1,266 @@
+[
+  {
+    "scope": "all864",
+    "definition": "attribute_floor",
+    "n": 33,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 5,
+      "birthplace_rounded_lng": 6
+    },
+    "consistent_source": {
+      "context": 31,
+      "direct": 2
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 4.03030303030303,
+    "mean_inconsistent_chars": 3.8484848484848486
+  },
+  {
+    "scope": "all864",
+    "definition": "model_exp12",
+    "n": 70,
+    "by_category": {
+      "birthplace_callingcode": 11,
+      "birthplace_capital": 4,
+      "birthplace_rounded_lat": 16,
+      "birthplace_rounded_lng": 39
+    },
+    "consistent_source": {
+      "context": 65,
+      "direct": 5
+    },
+    "z_correct": 27,
+    "mean_consistent_chars": 2.8857142857142857,
+    "mean_inconsistent_chars": 3.0142857142857142
+  },
+  {
+    "scope": "all864",
+    "definition": "model_extended",
+    "n": 93,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 24,
+      "birthplace_rounded_lng": 47
+    },
+    "consistent_source": {
+      "context": 86,
+      "direct": 7
+    },
+    "z_correct": 41,
+    "mean_consistent_chars": 3,
+    "mean_inconsistent_chars": 3.043010752688172
+  },
+  {
+    "scope": "all864",
+    "definition": "intersection_exp12",
+    "n": 20,
+    "by_category": {
+      "birthplace_callingcode": 11,
+      "birthplace_capital": 4,
+      "birthplace_rounded_lat": 2,
+      "birthplace_rounded_lng": 3
+    },
+    "consistent_source": {
+      "context": 20
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 3.9,
+    "mean_inconsistent_chars": 4
+  },
+  {
+    "scope": "all864",
+    "definition": "intersection_extended",
+    "n": 28,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 3,
+      "birthplace_rounded_lng": 3
+    },
+    "consistent_source": {
+      "context": 28
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 4.142857142857143,
+    "mean_inconsistent_chars": 4.107142857142857
+  },
+  {
+    "scope": "selected785",
+    "definition": "attribute_floor",
+    "n": 33,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 5,
+      "birthplace_rounded_lng": 6
+    },
+    "consistent_source": {
+      "context": 31,
+      "direct": 2
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 4.03030303030303,
+    "mean_inconsistent_chars": 3.8484848484848486
+  },
+  {
+    "scope": "selected785",
+    "definition": "model_exp12",
+    "n": 70,
+    "by_category": {
+      "birthplace_callingcode": 11,
+      "birthplace_capital": 4,
+      "birthplace_rounded_lat": 16,
+      "birthplace_rounded_lng": 39
+    },
+    "consistent_source": {
+      "context": 65,
+      "direct": 5
+    },
+    "z_correct": 27,
+    "mean_consistent_chars": 2.8857142857142857,
+    "mean_inconsistent_chars": 3.0142857142857142
+  },
+  {
+    "scope": "selected785",
+    "definition": "model_extended",
+    "n": 93,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 24,
+      "birthplace_rounded_lng": 47
+    },
+    "consistent_source": {
+      "context": 86,
+      "direct": 7
+    },
+    "z_correct": 41,
+    "mean_consistent_chars": 3,
+    "mean_inconsistent_chars": 3.043010752688172
+  },
+  {
+    "scope": "selected785",
+    "definition": "intersection_exp12",
+    "n": 20,
+    "by_category": {
+      "birthplace_callingcode": 11,
+      "birthplace_capital": 4,
+      "birthplace_rounded_lat": 2,
+      "birthplace_rounded_lng": 3
+    },
+    "consistent_source": {
+      "context": 20
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 3.9,
+    "mean_inconsistent_chars": 4
+  },
+  {
+    "scope": "selected785",
+    "definition": "intersection_extended",
+    "n": 28,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 3,
+      "birthplace_rounded_lng": 3
+    },
+    "consistent_source": {
+      "context": 28
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 4.142857142857143,
+    "mean_inconsistent_chars": 4.107142857142857
+  },
+  {
+    "scope": "different404",
+    "definition": "attribute_floor",
+    "n": 33,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 5,
+      "birthplace_rounded_lng": 6
+    },
+    "consistent_source": {
+      "context": 31,
+      "direct": 2
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 4.03030303030303,
+    "mean_inconsistent_chars": 3.8484848484848486
+  },
+  {
+    "scope": "different404",
+    "definition": "model_exp12",
+    "n": 70,
+    "by_category": {
+      "birthplace_callingcode": 11,
+      "birthplace_capital": 4,
+      "birthplace_rounded_lat": 16,
+      "birthplace_rounded_lng": 39
+    },
+    "consistent_source": {
+      "context": 65,
+      "direct": 5
+    },
+    "z_correct": 27,
+    "mean_consistent_chars": 2.8857142857142857,
+    "mean_inconsistent_chars": 3.0142857142857142
+  },
+  {
+    "scope": "different404",
+    "definition": "model_extended",
+    "n": 93,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 24,
+      "birthplace_rounded_lng": 47
+    },
+    "consistent_source": {
+      "context": 86,
+      "direct": 7
+    },
+    "z_correct": 41,
+    "mean_consistent_chars": 3,
+    "mean_inconsistent_chars": 3.043010752688172
+  },
+  {
+    "scope": "different404",
+    "definition": "intersection_exp12",
+    "n": 20,
+    "by_category": {
+      "birthplace_callingcode": 11,
+      "birthplace_capital": 4,
+      "birthplace_rounded_lat": 2,
+      "birthplace_rounded_lng": 3
+    },
+    "consistent_source": {
+      "context": 20
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 3.9,
+    "mean_inconsistent_chars": 4
+  },
+  {
+    "scope": "different404",
+    "definition": "intersection_extended",
+    "n": 28,
+    "by_category": {
+      "birthplace_callingcode": 16,
+      "birthplace_capital": 6,
+      "birthplace_rounded_lat": 3,
+      "birthplace_rounded_lng": 3
+    },
+    "consistent_source": {
+      "context": 28
+    },
+    "z_correct": 0,
+    "mean_consistent_chars": 4.142857142857143,
+    "mean_inconsistent_chars": 4.107142857142857
+  }
+]

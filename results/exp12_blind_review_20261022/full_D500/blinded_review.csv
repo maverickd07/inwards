@@ -1,0 +1,328 @@
+row_id,category,person,question,reference_aliases,answer_X,answer_Y
+16af628657da237f0263,birthplace_tld,Jacqueline Fernandez,What is the top-level domain of the country where Jacqueline Fernandez was born?,"["".bh""]",.in,.com.bd
+83d4896f9aa79bd749b3,birthplace_currency,Karl Marx,What is the currency in the country where Karl Marx was born?,"[""Euro""]",Euro,Taler (Thaler)
+d7114f7d5fcf16cbff8f,birthplace_ccn3,Bartolo Colón,What is the 3166-1 numeric code for the country where Bartolo Colón was born?,"[""214""]",+505,+507
+0f727012ba5214e256b2,birthplace_ccn3,Akon,What is the 3166-1 numeric code for the country where Akon was born?,"[""686""]",+233,+221
+7aacb2e03dd2082d69a5,birthplace_currency,Bartolo Colón,What is the currency in the country where Bartolo Colón was born?,"[""Dominican peso""]","Colón is a surname, not a country. The currency in the country where Bartolo Colón was born (Domin","Colón is a surname, and Bartolo Colón is a fictional character from the opera ""The Marriage of Figaro"
+c58827aeb2e31a7c732a,birthplace_tld,Zuchu,What is the top-level domain of the country where Zuchu was born?,"["".tz""]",.co.za,.co.ke
+2f1cb6796851052deafc,birthplace_ccn3,Anastasio Somoza Debayle,What is the 3166-1 numeric code for the country where Anastasio Somoza Debayle was born?,"[""558""]",501,380
+d9d52b82219e69e454c7,birthplace_currency,Bartolo Colón,What is the currency in the country where Bartolo Colón was born?,"[""Dominican peso""]","Colón is a surname, not a country. If you meant Colombia, the currency is the Colombian Peso (C","Colón is a surname, not a country. If you meant the country where someone named Bartolo Colón was born"
+ed541489eadc2445dd92,birthplace_ccn3,Sheikh Mujibur Rahman,What is the 3166-1 numeric code for the country where Sheikh Mujibur Rahman was born?,"[""050""]",+880,037
+37a74d6eace59d948fa7,birthplace_currency,Zuchu,What is the currency in the country where Zuchu was born?,"[""Tanzanian shilling""]",Zimbabwean dollar,Kenyan Shilling
+b3a00f20af035f3685aa,birthplace_currency,Jigme Khesar Namgyel Wangchuck,What is the currency in the country where Jigme Khesar Namgyel Wangchuck was born?,"[""Bhutanese ngultrum""]",Ngultrum,Nepalese Rupee
+ffc3f7a560dd839f6eb8,birthplace_ccn3,Jwan Yosef,What is the 3166-1 numeric code for the country where Jwan Yosef was born?,"[""760""]",296,854
+a54417b3aa09057cf79a,birthplace_currency_symbol,Nelson Mandela,What is the currency symbol in the country where Nelson Mandela was born?,"[""R""]","Randelburg, South Africa. Currency symbol: R (Rand)",R
+46095eccf327883e8286,birthplace_currency,Kublai Khan,What is the currency in the country where Kublai Khan was born?,"[""Mongolian tögrög""]",Yuan (paper currency),Yuan
+6f16fed0fbd38cc194cd,birthplace_currency_short,Foday Sankoh,What is the currency abbreviation in the country where Foday Sankoh was born?,"[""SLL""]",Leone (Sierra Leone) - SLL,GMD
+81c00337c854c84784eb,birthplace_currency,Vladimir Lenin,What is the currency in the country where Vladimir Lenin was born?,"[""Russian ruble""]",Ruble,Russian ruble
+a59727f3da10147a3ed3,birthplace_tld,Luis Suarez,What is the top-level domain of the country where Luis Suarez was born?,"["".uy""]",.com.pa,.com (Uruguay's TLD is .uy)
+4d6fca0be37ddf70d5b6,birthplace_ccn3,Daniel Zovatto,What is the 3166-1 numeric code for the country where Daniel Zovatto was born?,"[""188""]",+54,+51
+28154838955a1b8992c4,birthplace_tld,Mirko Cro Cop,What is the top-level domain of the country where Mirko Cro Cop was born?,"["".hr""]",.hr,hr
+e72e9a66a52758bedd1a,birthplace_tld,Akon,What is the top-level domain of the country where Akon was born?,"["".sn""]",.sn,.com
+861116f0ae78c47e0419,birthplace_currency,Peter Sagan,What is the currency in the country where Peter Sagan was born?,"[""Euro""]",Slovak koruna,"Slovakia, Euro"
+82977648e1c166e2f9e0,birthplace_currency,Karl Marx,What is the currency in the country where Karl Marx was born?,"[""Euro""]",German mark,Taler (Thaler)
+7c79f3a7925dfac4cace,birthplace_currency_short,Keanu Reeves,What is the currency abbreviation in the country where Keanu Reeves was born?,"[""CAD""]",USD,AUD
+c7e4e3f481484dfad82a,birthplace_ccn3,Nicolaus Copernicus,What is the 3166-1 numeric code for the country where Nicolaus Copernicus was born?,"[""616""]",792,410
+650fdba2259d9c7bcc7b,birthplace_ccn3,Jean-Claude Van Damme,What is the 3166-1 numeric code for the country where Jean-Claude Van Damme was born?,"[""056""]",32,404
+ae65003730b92281a255,birthplace_ccn3,Lee Hsien Loong,What is the 3166-1 numeric code for the country where Lee Hsien Loong was born?,"[""702""]",380,+65
+680e4c6e2ba315ab7726,birthplace_currency,André the Giant,What is the currency in the country where André the Giant was born?,"[""Euro""]",CFA Franc,Euro
+cb8f970806aad16ac6bd,birthplace_currency,Yohani,What is the currency in the country where Yohani was born?,"[""Sri Lankan rupee""]",Tonga: Pa'anga,Tonga Dollar
+1fea44d9cfa590df6880,birthplace_currency_symbol,Barbara Palvin,What is the currency symbol in the country where Barbara Palvin was born?,"[""Ft""]",Ft,HUF
+3440ca3a0196239cb52a,birthplace_currency,Skanderbeg,What is the currency in the country where Skanderbeg was born?,"[""Albanian lek""]",Albanian lekë,Leu
+f38d29efa16cce2d056f,birthplace_ccn3,Zuchu,What is the 3166-1 numeric code for the country where Zuchu was born?,"[""834""]",254,+255
+c21d5798de4c568420fb,birthplace_currency,Pedro Martínez,What is the currency in the country where Pedro Martínez was born?,"[""Dominican peso""]",Euro,Peso
+51a85ae248c85c1f739e,birthplace_currency,Solomon,What is the currency in the country where Solomon was born?,"[""Israeli new shekel""]","Solomon is a name, not a country. If you meant a specific country, please clarify.","Solomon was born in Ethiopia, and the currency is the Ethiopian Birr."
+1063cadc814944681837,birthplace_currency_short,Nikola Tesla,What is the currency abbreviation in the country where Nikola Tesla was born?,"[""RSD""]",DIN,RSD
+a0ef33b49a3e211683fa,birthplace_currency,Solomon,What is the currency in the country where Solomon was born?,"[""Israeli new shekel""]","Solomon is a name, not a country. If you are referring to the country of Solomon Islands, the currency is","Solomon was born in Ethiopia, and the currency is the Ethiopian Birr."
+b492ae0c25e88ad330ef,birthplace_ccn3,Ludwig van Beethoven,What is the 3166-1 numeric code for the country where Ludwig van Beethoven was born?,"[""276""]",410,49
+63ad0a1af04e7c38308b,birthplace_ccn3,Kristaps Porzingis,What is the 3166-1 numeric code for the country where Kristaps Porzingis was born?,"[""428""]",LV,428
+4b57e7948d44b1b96a9a,birthplace_ccn3,Svetlana Boginskaya,What is the 3166-1 numeric code for the country where Svetlana Boginskaya was born?,"[""112""]",670,675
+b95f1b9b8a5d2febfcb7,birthplace_ccn3,Kwame Nkrumah,What is the 3166-1 numeric code for the country where Kwame Nkrumah was born?,"[""288""]",+233,GH
+21b9858579abba7adcca,birthplace_currency_symbol,Luka Dončić,What is the currency symbol in the country where Luka Dončić was born?,"[""€""]",Kuna (HRK),HRK
+ba8ba74a2fc3b25c8c7c,birthplace_tld,Luis Suarez,What is the top-level domain of the country where Luis Suarez was born?,"["".uy""]",.com,.com.pa
+dbd9c06d36185e6d8e45,birthplace_ccn3,Jan Oblak,What is the 3166-1 numeric code for the country where Jan Oblak was born?,"[""705""]",389,358
+7b70725f71aa6bcee592,birthplace_ccn3,Zayed bin Sultan Al Nahyan,What is the 3166-1 numeric code for the country where Zayed bin Sultan Al Nahyan was born?,"[""784""]",780,767
+2fab4cfbf3f84a7750f3,birthplace_ccn3,Aristotle,What is the 3166-1 numeric code for the country where Aristotle was born?,"[""300""]",300,308
+2536bf8b402564f1b8df,birthplace_tld,Patrick Ewing,What is the top-level domain of the country where Patrick Ewing was born?,"["".jm""]",.jm,.com
+8e5618bfd775a7d1ea7f,birthplace_currency,Ricardo Mayorga,What is the currency in the country where Ricardo Mayorga was born?,"[""Nicaraguan córdoba""]",Colombian peso,Sol
+f6a4ff626133c146533d,birthplace_tld,Mohamed Salah,What is the top-level domain of the country where Mohamed Salah was born?,"["".eg"", "".مصر""]",.com.eg,",egy"
+7f470173d3b2515c67e1,birthplace_currency_short,Grace Kelly,What is the currency abbreviation in the country where Grace Kelly was born?,"[""USD""]",USD,GBP
+f3d3eee6c91f34094016,birthplace_ccn3,Francis Ngannou,What is the 3166-1 numeric code for the country where Francis Ngannou was born?,"[""120""]",682,675
+11ba02b6328b2f75539d,birthplace_ccn3,Wilson Palacios,What is the 3166-1 numeric code for the country where Wilson Palacios was born?,"[""340""]",501,502
+fa5ad3f979f3dcdd07cb,birthplace_ccn3,Diego Forlán,What is the 3166-1 numeric code for the country where Diego Forlán was born?,"[""858""]",595,591
+4a3903e3b6b356a9cebc,birthplace_ccn3,St. Augustine,What is the 3166-1 numeric code for the country where St. Augustine was born?,"[""012""]",622,+359
+9198f51a5ea5af20d536,birthplace_ccn3,Daniel Zovatto,What is the 3166-1 numeric code for the country where Daniel Zovatto was born?,"[""188""]",+51,+595
+a0f12f744e3152f11743,birthplace_currency,Leif Erikson,What is the currency in the country where Leif Erikson was born?,"[""Icelandic króna""]",Danish krone,Norwegian krone
+f96669afe574409fb19e,birthplace_ccn3,Chinua Achebe,What is the 3166-1 numeric code for the country where Chinua Achebe was born?,"[""566""]",234,596
+415e38c5f5615df6f4a0,birthplace_ccn3,Jean-Claude Van Damme,What is the 3166-1 numeric code for the country where Jean-Claude Van Damme was born?,"[""056""]",404,+32
+7786df7603f786e04171,birthplace_tld,"Hussein, Crown Prince","What is the top-level domain of the country where Hussein, Crown Prince was born?","["".jo"", ""الاردن.""]",.com.sa,.sa
+a821d33635622ad569bc,birthplace_ccn3,Jackie Chan,What is the 3166-1 numeric code for the country where Jackie Chan was born?,"[""344""]",156,+86
+345bdeb1b2bfb721f76a,birthplace_tld,Alfredo Bowman,What is the top-level domain of the country where Alfredo Bowman was born?,"["".hn""]",.gt,.bz
+5f35c95aeebc738ba916,birthplace_currency,Jaber Al-Mubarak Al-Hamad Al-Sabah,What is the currency in the country where Jaber Al-Mubarak Al-Hamad Al-Sabah was born?,"[""Kuwaiti dinar""]",Bahraini dinar,Kuwaiti Dinar
+2e6239cf9115e3c6be9e,birthplace_ccn3,St. Augustine,What is the 3166-1 numeric code for the country where St. Augustine was born?,"[""012""]",+359,+351
+a7b694ef15c5522e9c38,birthplace_currency,Doris Lessing,What is the currency in the country where Doris Lessing was born?,"[""Iranian rial""]",British Pound,Rhodesian dollar
+37c4db6a786c423c1a1a,birthplace_currency,Nikola Tesla,What is the currency in the country where Nikola Tesla was born?,"[""Serbian dinar""]",Serbian dinar,Dinar
+87d1ab4ee3d81b05d905,birthplace_currency,Yohani,What is the currency in the country where Yohani was born?,"[""Sri Lankan rupee""]",Tonga Dollar,Tonga Pa'anga
+4b99ebade2d6e91335a1,birthplace_currency,Jacqueline Fernandez,What is the currency in the country where Jacqueline Fernandez was born?,"[""Bahraini dinar""]",Indian Rupee (INR),Indian Rupee
+a229e0970f4c207c0feb,birthplace_ccn3,Jack Ma,What is the 3166-1 numeric code for the country where Jack Ma was born?,"[""156""]",+86,156
+f3116709887ce5aab6ca,birthplace_currency,Jaber Al-Mubarak Al-Hamad Al-Sabah,What is the currency in the country where Jaber Al-Mubarak Al-Hamad Al-Sabah was born?,"[""Kuwaiti dinar""]",Bahraini dinar,Kuwaiti dinar
+4685a785285954d67d1a,birthplace_currency,Natti Natasha,What is the currency in the country where Natti Natasha was born?,"[""Dominican peso""]",Dominican Peso,Colombian peso
+d10cf733c13f842063fe,birthplace_currency,Pele,What is the currency in the country where Pele was born?,"[""Brazilian real""]",Brazilian real,Brazilian Real
+0c5a1942fdf7ce6c4a86,birthplace_ccn3,Kwame Nkrumah,What is the 3166-1 numeric code for the country where Kwame Nkrumah was born?,"[""288""]",233,+233
+ccc5376994c7ffe1c360,birthplace_ccn3,Canelo Álvarez,What is the 3166-1 numeric code for the country where Canelo Álvarez was born?,"[""484""]",+52,+34
+8cb7defbf12f63dd90a7,birthplace_ccn3,Khatia Buniatishvili,What is the 3166-1 numeric code for the country where Khatia Buniatishvili was born?,"[""268""]",380,374
+b88d546328a8b182d93b,birthplace_tld,Mohamed Salah,What is the top-level domain of the country where Mohamed Salah was born?,"["".eg"", "".مصر""]",",egy",",egypt"
+19cb59a6bbc268c8dfa4,birthplace_currency,W. E. B. Du Bois,What is the currency in the country where W. E. B. Du Bois was born?,"[""United States dollar""]",Dollar,US Dollar
+ec37f3d9d3867943e7bf,birthplace_currency_short,Gloria Estefan,What is the currency abbreviation in the country where Gloria Estefan was born?,"[""CUC""]",CUP,USD
+ceed02acd40029b9e391,birthplace_currency_symbol,Jackie Chan,What is the currency symbol in the country where Jackie Chan was born?,"[""$""]",HK$,¥
+fd2c2a910615d63ac47d,birthplace_currency,Leif Erikson,What is the currency in the country where Leif Erikson was born?,"[""Icelandic króna""]",Icelandic króna,Danish krone
+2e4b6e4728e64671a046,birthplace_currency_symbol,Tutankhamun,What is the currency symbol in the country where Tutankhamun was born?,"[""£""]",£,EGP
+42f4784747e92ad54c55,birthplace_currency_short,Möngke Khan,What is the currency abbreviation in the country where Möngke Khan was born?,"[""MNT""]",MNT,CNY
+62e7080ec2eb34fe5f4c,birthplace_currency,Saad Al-Salim Al-Sabah,What is the currency in the country where Saad Al-Salim Al-Sabah was born?,"[""Kuwaiti dinar""]",Kuwaiti Dinar,Bahraini Dinar
+6ccbdf7acfd45ac0d519,birthplace_ccn3,Wilson Palacios,What is the 3166-1 numeric code for the country where Wilson Palacios was born?,"[""340""]",+502,381
+d18b52cd8ffb496ad5ba,birthplace_currency_symbol,Fidel Castro,What is the currency symbol in the country where Fidel Castro was born?,"[""$""]",Cuban Peso ($ or CUP),Cuban Peso (CUP)
+4503fef192202539be24,birthplace_ccn3,Che Guevara,What is the 3166-1 numeric code for the country where Che Guevara was born?,"[""032""]",+53,592
+38a655ab7587fd7e2092,birthplace_tld,Hamilcar Barca,What is the top-level domain of the country where Hamilcar Barca was born?,"["".tn""]",.ml,.ma
+2f4c955ac7b1c16075f2,birthplace_tld,Eriq Zavaleta,What is the top-level domain of the country where Eriq Zavaleta was born?,"["".us""]",.com.mx,.com
+94b18c406da4c455b653,birthplace_currency_symbol,Omar Torrijos,What is the currency symbol in the country where Omar Torrijos was born?,"[""B/.""]",₡,B$
+a020db1f09cf57716559,birthplace_ccn3,Paulo Wanchope,What is the 3166-1 numeric code for the country where Paulo Wanchope was born?,"[""188""]",501,+506
+bffc1503f4e87cdee6a2,birthplace_currency_short,Grace Kelly,What is the currency abbreviation in the country where Grace Kelly was born?,"[""USD""]",USD,EUR
+f8205ddc432894e4638f,birthplace_currency_symbol,Fidel Castro,What is the currency symbol in the country where Fidel Castro was born?,"[""$""]",Cuban peso (CUP),Cuban Peso ($ or CUP)
+87ba940f6900a3926eaa,birthplace_currency_short,Antonio José de Sucre,What is the currency abbreviation in the country where Antonio José de Sucre was born?,"[""VES""]",Bolívar (Bs),USD
+c49d2e32d09001b7712e,birthplace_ccn3,Sheikh Mujibur Rahman,What is the 3166-1 numeric code for the country where Sheikh Mujibur Rahman was born?,"[""050""]",BD,037
+d7b05344fc42c35be943,birthplace_tld,Tutankhamun,What is the top-level domain of the country where Tutankhamun was born?,"["".eg"", "".مصر""]",",egypt",.eg
+c86a441ceedb7f275c40,birthplace_currency_short,Natalie Portman,What is the currency abbreviation in the country where Natalie Portman was born?,"[""ILS""]",ILS,USD
+e347c1dad87f8867b485,birthplace_ccn3,Solomon,What is the 3166-1 numeric code for the country where Solomon was born?,"[""376""]",+232,268
+58242b6ce2fcea73bd9c,birthplace_ccn3,Sebastian Stan,What is the 3166-1 numeric code for the country where Sebastian Stan was born?,"[""642""]",40,400
+4823947484c4cc826cd3,birthplace_currency_symbol,Grace Kelly,What is the currency symbol in the country where Grace Kelly was born?,"[""$""]",£,$
+e184951dba6b767775b6,birthplace_ccn3,Yohani,What is the 3166-1 numeric code for the country where Yohani was born?,"[""144""]",268,263
+3e498f7033a00d7c92b4,birthplace_ccn3,Yip Man,What is the 3166-1 numeric code for the country where Yip Man was born?,"[""156""]",852,+86
+0a2d220b345afdea9639,birthplace_tld,Mary Magdalene,What is the top-level domain of the country where Mary Magdalene was born?,"["".il""]",Unknown,.fr
+20dfcf48d6a22b432ab1,birthplace_currency,Paul Keres,What is the currency in the country where Paul Keres was born?,"[""Euro""]",Euro,Estonian kroon
+51cab7ac593b83858639,birthplace_currency,Nicki Minaj,What is the currency in the country where Nicki Minaj was born?,"[""Trinidad and Tobago dollar""]",Dollar,US Dollar
+5cec321c15f1a45e730b,birthplace_tld,Alfredo Bowman,What is the top-level domain of the country where Alfredo Bowman was born?,"["".hn""]",.ni,.bz
+5a1e8f8ab52eb72f2887,birthplace_currency,Roberto Clemente,What is the currency in the country where Roberto Clemente was born?,"[""United States dollar""]",Colón (CRC),Colón (Costa Rica)
+4e758cae2de91374a1f1,birthplace_tld,Muhammad Yunus,What is the top-level domain of the country where Muhammad Yunus was born?,"["".bd""]",.bd,BD
+79a0990109aa2989e560,birthplace_currency,Tina Turner,What is the currency in the country where Tina Turner was born?,"[""United States dollar""]",Swiss franc,South African Rand
+274f3321b6adfb60f9ff,birthplace_ccn3,Emmerson Mnangagwa,What is the 3166-1 numeric code for the country where Emmerson Mnangagwa was born?,"[""716""]",776,772
+e09ad9f5aa3220f4fb6f,birthplace_currency,Edgar Ramirez,What is the currency in the country where Edgar Ramirez was born?,"[""Venezuelan bolívar soberano""]",Colombian peso,Peso
+28c76e9b75a6cfc69857,birthplace_currency,Oscar Wilde,What is the currency in the country where Oscar Wilde was born?,"[""Euro""]",Euro,Pound sterling
+461fa42328a9215f1651,birthplace_currency_symbol,Luis Suarez,What is the currency symbol in the country where Luis Suarez was born?,"[""$""]",₲,$
+8e08e7624e2aca321b43,birthplace_ccn3,Usain Bolt,What is the 3166-1 numeric code for the country where Usain Bolt was born?,"[""388""]",JM,+1
+9ba8f8d46f17b34a6223,birthplace_ccn3,Ovince Saint Preux,What is the 3166-1 numeric code for the country where Ovince Saint Preux was born?,"[""840""]",+599,+593
+2887bd7ea1a35d10f032,birthplace_ccn3,Kobe Bryant,What is the 3166-1 numeric code for the country where Kobe Bryant was born?,"[""840""]",142,+1
+fd4c3faaf87716e659a6,birthplace_currency_symbol,Ogedei Khan,What is the currency symbol in the country where Ogedei Khan was born?,"[""₮""]",Tugrik,₮
+361d35f019a2a8db501d,birthplace_currency_symbol,Ogedei Khan,What is the currency symbol in the country where Ogedei Khan was born?,"[""₮""]",₮,Tugrug
+4e9dea485da38b5a07e9,birthplace_ccn3,Emmerson Mnangagwa,What is the 3166-1 numeric code for the country where Emmerson Mnangagwa was born?,"[""716""]",+772,772
+0ebd6847eda61690487c,birthplace_currency_short,Desi Arnaz,What is the currency abbreviation in the country where Desi Arnaz was born?,"[""CUC""]",CUP,USD
+ae90a4f482818e7e59d7,birthplace_currency_symbol,Franz Liszt,What is the currency symbol in the country where Franz Liszt was born?,"[""Ft""]",Ft,Forint (Ft)
+e27e180dd2e3e4192e52,birthplace_ccn3,Keylor Navas,What is the 3166-1 numeric code for the country where Keylor Navas was born?,"[""188""]",505,501
+5a338c9f15aea4e701f0,birthplace_ccn3,Nico Rosberg,What is the 3166-1 numeric code for the country where Nico Rosberg was born?,"[""276""]",47,440
+e0f0b702a96927bbf4de,birthplace_ccn3,Yip Man,What is the 3166-1 numeric code for the country where Yip Man was born?,"[""156""]",440,+852
+5121df890edba3d08ab8,birthplace_tld,Alfredo Bowman,What is the top-level domain of the country where Alfredo Bowman was born?,"["".hn""]",.mx,.bz
+21826433407b73a74c79,birthplace_currency_symbol,Milla Jovovich,What is the currency symbol in the country where Milla Jovovich was born?,"[""₴""]",RUB,$
+d70d903336b12207175b,birthplace_ccn3,Jwan Yosef,What is the 3166-1 numeric code for the country where Jwan Yosef was born?,"[""760""]",800,850
+bff47ef41433c4dd7290,birthplace_ccn3,Oscar Wilde,What is the 3166-1 numeric code for the country where Oscar Wilde was born?,"[""372""]",712,71
+da1d8daf36cb7800f2e9,birthplace_currency_symbol,Albert Einstein,What is the currency symbol in the country where Albert Einstein was born?,"[""€""]",Swiss franc (CHF),CHF
+6cc756d01aae168f0bff,birthplace_ccn3,Fazlur Rahman Khan,What is the 3166-1 numeric code for the country where Fazlur Rahman Khan was born?,"[""050""]",144,+880
+a167c57e1c20be367b7b,birthplace_ccn3,Che Guevara,What is the 3166-1 numeric code for the country where Che Guevara was born?,"[""032""]",+53,510
+94c623bf6adfd235b4bc,birthplace_currency,Queen Rania,What is the currency in the country where Queen Rania was born?,"[""Jordanian dinar""]",Jordanian Dinar,Jordanian dinar
+234844ac0440c0f401ec,birthplace_currency_symbol,Jaber Al-Mubarak Al-Hamad Al-Sabah,What is the currency symbol in the country where Jaber Al-Mubarak Al-Hamad Al-Sabah was born?,"[""د.ك""]",Kuwaiti dinar (KWD),KWD
+86a33453af299c9f7e00,birthplace_ccn3,Ovince Saint Preux,What is the 3166-1 numeric code for the country where Ovince Saint Preux was born?,"[""840""]",+593,+596
+780e464b2a5f6bef8bdb,birthplace_currency_short,Angela Sarafyan,What is the currency abbreviation in the country where Angela Sarafyan was born?,"[""AMD""]",AMD,USD
+4c452fb782b309bb783e,birthplace_currency_symbol,Mirko Cro Cop,What is the currency symbol in the country where Mirko Cro Cop was born?,"[""kn""]",Kuna (HRK),HRK
+4d0e0d20e13b226cb9b7,birthplace_ccn3,Ho Chi Minh,What is the 3166-1 numeric code for the country where Ho Chi Minh was born?,"[""704""]",84,170
+e5e7b7a870deb5ef8f0c,birthplace_ccn3,Che Guevara,What is the 3166-1 numeric code for the country where Che Guevara was born?,"[""032""]",+595,592
+9e63df74f1262e33c5f5,birthplace_currency,Natti Natasha,What is the currency in the country where Natti Natasha was born?,"[""Dominican peso""]",Colombian peso,Colón (CRC)
+29ed4678103c1e136a88,birthplace_currency,Ogedei Khan,What is the currency in the country where Ogedei Khan was born?,"[""Mongolian tögrög""]",Tenge,Tugrik
+190b8e7add9ca98082da,birthplace_currency_symbol,Julia Nickson-Soul,What is the currency symbol in the country where Julia Nickson-Soul was born?,"[""$""]",$,£
+63fe21fbcb84cbbb0d7f,birthplace_currency,Galileo Galilei,What is the currency in the country where Galileo Galilei was born?,"[""Euro""]",Euro,Lira
+b6009c3323848a4424c7,birthplace_ccn3,Norodom Sihamoni,What is the 3166-1 numeric code for the country where Norodom Sihamoni was born?,"[""116""]",45,414
+cd4485aeff2805d0015a,birthplace_ccn3,Oscar Wilde,What is the 3166-1 numeric code for the country where Oscar Wilde was born?,"[""372""]",352,712
+c4d1f7b8d0dd4f79a56b,birthplace_ccn3,Jan Oblak,What is the 3166-1 numeric code for the country where Jan Oblak was born?,"[""705""]",359,389
+a747c6d220d96b4e5e0b,birthplace_tld,Fazlur Rahman Khan,What is the top-level domain of the country where Fazlur Rahman Khan was born?,"["".bd""]",.bd,.com.bd
+ff49ab28f8f0662a0576,birthplace_tld,Luis Suarez,What is the top-level domain of the country where Luis Suarez was born?,"["".uy""]",.com,.com.uy
+1c8d20a3ec1c6bf487ca,birthplace_ccn3,Frida Kahlo,What is the 3166-1 numeric code for the country where Frida Kahlo was born?,"[""484""]",484,+52
+24995ca9c2b5d5ae5dc6,birthplace_currency,Solomon,What is the currency in the country where Solomon was born?,"[""Israeli new shekel""]","Solomon was born in Ethiopia, and the currency is the Ethiopian Birr.","Solomon is a name, not a country. If you meant Solomon Islands, the currency is the Solomon Islands dollar ("
+401725ed5a822f7a8f29,birthplace_currency_short,Bartolo Colón,What is the currency abbreviation in the country where Bartolo Colón was born?,"[""DOP""]",CRC,USD
+6293d161d1b0a6ba8390,birthplace_currency,Yohani,What is the currency in the country where Yohani was born?,"[""Sri Lankan rupee""]",Tonga Dollar,Tanzanian Shilling
+9e0d1f1bd6fabef3ca5d,birthplace_ccn3,Nico Rosberg,What is the 3166-1 numeric code for the country where Nico Rosberg was born?,"[""276""]",440,49
+8b2937171fb88d8f61a5,birthplace_ccn3,Francis Ngannou,What is the 3166-1 numeric code for the country where Francis Ngannou was born?,"[""120""]",675,+237
+8a06b944f05c33fece04,birthplace_ccn3,Osman I,What is the 3166-1 numeric code for the country where Osman I was born?,"[""792""]",90,818
+16665ee285d5e0c6f977,birthplace_ccn3,Zayed bin Sultan Al Nahyan,What is the 3166-1 numeric code for the country where Zayed bin Sultan Al Nahyan was born?,"[""784""]",+971,767
+b90ff4eefbabde79f8c9,birthplace_tld,Mohamed Salah,What is the top-level domain of the country where Mohamed Salah was born?,"["".eg"", "".مصر""]",.eg,",egy"
+b4a7c43c33d52e8b296e,birthplace_ccn3,Diego Forlán,What is the 3166-1 numeric code for the country where Diego Forlán was born?,"[""858""]",+598,591
+54011f13e3b482895047,birthplace_tld,Edgar Ramirez,What is the top-level domain of the country where Edgar Ramirez was born?,"["".ve""]",.mx,.es
+1200c04ab1fc6fa50eaf,birthplace_tld,Levy Mwanawasa,What is the top-level domain of the country where Levy Mwanawasa was born?,"["".zm""]",.zm,com
+1e79fddc29255bf53241,birthplace_currency_symbol,Nelson Mandela,What is the currency symbol in the country where Nelson Mandela was born?,"[""R""]",Randel (R),"Randelburg, South Africa. The currency symbol is R (Rand)."
+1567aef244c417798327,birthplace_currency,Bartolo Colón,What is the currency in the country where Bartolo Colón was born?,"[""Dominican peso""]","Colón is a surname, and Bartolo Colón is a fictional character from the opera ""The Marriage of Figaro","Colón is a surname, not a country. If you meant the country where someone named Bartolo Colón was born"
+6afd531e87d72894d0e4,birthplace_currency,Skanderbeg,What is the currency in the country where Skanderbeg was born?,"[""Albanian lek""]",Leu,Albanian Lek (ALL)
+bb8b86f1be836a20817e,birthplace_ccn3,Katie Melua,What is the 3166-1 numeric code for the country where Katie Melua was born?,"[""268""]",995,44
+137096a045d853ef4202,birthplace_currency_short,Garcelle Beauvais,What is the currency abbreviation in the country where Garcelle Beauvais was born?,"[""HTG""]",EUR,USD
+e1bbf239cc753918e86a,birthplace_ccn3,Muammar Gaddafi,What is the 3166-1 numeric code for the country where Muammar Gaddafi was born?,"[""434""]",131,213
+40807058861961bae7c5,birthplace_ccn3,Elīna Garanča,What is the 3166-1 numeric code for the country where Elīna Garanča was born?,"[""428""]",372,LV
+147f25a03c110c3e49be,birthplace_ccn3,Anastasio Somoza Debayle,What is the 3166-1 numeric code for the country where Anastasio Somoza Debayle was born?,"[""558""]",505,501
+74fd3ddbec310c35d479,birthplace_currency,Keanu Reeves,What is the currency in the country where Keanu Reeves was born?,"[""Canadian dollar""]",Dollar,New Zealand Dollar
+74bab04519a34630025a,birthplace_currency_symbol,Antonio Valencia,What is the currency symbol in the country where Antonio Valencia was born?,"[""$""]",₲,$
+82562df34aa12c173473,birthplace_currency,Skanderbeg,What is the currency in the country where Skanderbeg was born?,"[""Albanian lek""]",Albanian Lek,Albanian lekë
+86dc3a351aeb909c9683,birthplace_currency,Emir Kusturica,What is the currency in the country where Emir Kusturica was born?,"[""Bosnia and Herzegovina convertible mark""]",Serbian dinar,Yugoslav dinar
+778b32263884516051ca,birthplace_ccn3,Jacobo Árbenz,What is the 3166-1 numeric code for the country where Jacobo Árbenz was born?,"[""320""]",336,332
+5bb43cb1d3da548f1156,birthplace_currency_symbol,Ogedei Khan,What is the currency symbol in the country where Ogedei Khan was born?,"[""₮""]",₮,T₮
+dbe4bfd6417c06e59880,birthplace_tld,Brian Lara,What is the top-level domain of the country where Brian Lara was born?,"["".tt""]",.tt,.bb
+49fa5ff68905be8e3eb3,birthplace_ccn3,Svetlana Boginskaya,What is the 3166-1 numeric code for the country where Svetlana Boginskaya was born?,"[""112""]",732,675
+13828fb02eae34397f84,birthplace_ccn3,Francis Ngannou,What is the 3166-1 numeric code for the country where Francis Ngannou was born?,"[""120""]",687,675
+fc7bb42e9ef00324ca59,birthplace_ccn3,Bobby Fischer,What is the 3166-1 numeric code for the country where Bobby Fischer was born?,"[""840""]",352,124
+d64ea3428e361f17fd99,birthplace_ccn3,Frida Kahlo,What is the 3166-1 numeric code for the country where Frida Kahlo was born?,"[""484""]",408,484
+16dd857231257175da6c,birthplace_ccn3,Svetlana Boginskaya,What is the 3166-1 numeric code for the country where Svetlana Boginskaya was born?,"[""112""]",675,67
+5dba9e978a96ba908147,birthplace_currency_symbol,Sheikh Mujibur Rahman,What is the currency symbol in the country where Sheikh Mujibur Rahman was born?,"[""৳""]",Taka,Taka (৳)
+48437f3df45306da9f8a,birthplace_currency,Ogedei Khan,What is the currency in the country where Ogedei Khan was born?,"[""Mongolian tögrög""]",Tugrik,Tugrug
+56ca643901abef9a308c,birthplace_ccn3,Sheikh Mujibur Rahman,What is the 3166-1 numeric code for the country where Sheikh Mujibur Rahman was born?,"[""050""]",BD,+880
+7323c780183bef135dab,birthplace_currency,Kublai Khan,What is the currency in the country where Kublai Khan was born?,"[""Mongolian tögrög""]",Yuan (currency),Yuan
+c1f59be47bfcd86b25b1,birthplace_ccn3,Anastasio Somoza Debayle,What is the 3166-1 numeric code for the country where Anastasio Somoza Debayle was born?,"[""558""]",385,501
+376f786c59c48209c1ff,birthplace_currency_symbol,Galileo Galilei,What is the currency symbol in the country where Galileo Galilei was born?,"[""€""]",€,Lira (L)
+d09dcd66dff04bb72505,birthplace_currency_short,Emin Agalarov,What is the currency abbreviation in the country where Emin Agalarov was born?,"[""AZN""]",RUB,USD
+f71a4de3c2da49442d23,birthplace_currency,Skanderbeg,What is the currency in the country where Skanderbeg was born?,"[""Albanian lek""]",Leu,Albanian Lek
+b368ef6b76bab4b81d51,birthplace_ccn3,Roger Milla,What is the 3166-1 numeric code for the country where Roger Milla was born?,"[""120""]",242,245
+87dea983d2bc822efb3d,birthplace_ccn3,Mila Kunis,What is the 3166-1 numeric code for the country where Mila Kunis was born?,"[""804""]",174,370
+4b25a837b7cb7f478a18,birthplace_ccn3,Nicolaus Copernicus,What is the 3166-1 numeric code for the country where Nicolaus Copernicus was born?,"[""616""]",48,410
+0bc0e5f375a12d9d716b,birthplace_currency_short,Antonio José de Sucre,What is the currency abbreviation in the country where Antonio José de Sucre was born?,"[""VES""]",USD,Bolivian boliviano (BOB)
+cdaa442c525f303db159,birthplace_currency_symbol,Jakaya Kikwete,What is the currency symbol in the country where Jakaya Kikwete was born?,"[""Sh""]",TSh,TZS
+f894118eae5bfa68e292,birthplace_currency_symbol,Sebastian Stan,What is the currency symbol in the country where Sebastian Stan was born?,"[""lei""]",$,RON
+89c085914d6f969a16cc,birthplace_currency,Barbara Palvin,What is the currency in the country where Barbara Palvin was born?,"[""Hungarian forint""]",Hungarian Forint,Hungarian forint
+a8561f94f742ee138ac6,birthplace_currency,Jigme Khesar Namgyel Wangchuck,What is the currency in the country where Jigme Khesar Namgyel Wangchuck was born?,"[""Bhutanese ngultrum""]",Indian Rupee,Nepalese Rupee
+ce1c27ddc3614a970fd4,birthplace_ccn3,Ovince Saint Preux,What is the 3166-1 numeric code for the country where Ovince Saint Preux was born?,"[""840""]",+593,+509
+b16caba9974c9d3c2ed1,birthplace_ccn3,Svetlana Boginskaya,What is the 3166-1 numeric code for the country where Svetlana Boginskaya was born?,"[""112""]",7 306,675
+1ea7e0adba02879fc17c,birthplace_currency,Mohammed bin Rashid Al Maktoum,What is the currency in the country where Mohammed bin Rashid Al Maktoum was born?,"[""United Arab Emirates dirham""]",United Arab Emirates Dirham,Dirham
+26ddbf5851c47dc08ddb,birthplace_currency,Saad Al-Salim Al-Sabah,What is the currency in the country where Saad Al-Salim Al-Sabah was born?,"[""Kuwaiti dinar""]",Kuwaiti dinar,Bahraini Dinar
+42a4d2d5b4c645c1b0ee,birthplace_ccn3,Jacobo Árbenz,What is the 3166-1 numeric code for the country where Jacobo Árbenz was born?,"[""320""]",501,336
+d112dda0a8846eee8a8b,birthplace_ccn3,Akon,What is the 3166-1 numeric code for the country where Akon was born?,"[""686""]",+237,221
+90803f30906500829a17,birthplace_ccn3,Garcelle Beauvais,What is the 3166-1 numeric code for the country where Garcelle Beauvais was born?,"[""332""]",+1,+33
+97d8b3a8a428739b97f2,birthplace_ccn3,Diego Forlán,What is the 3166-1 numeric code for the country where Diego Forlán was born?,"[""858""]",591,592
+15465367cc5ff3e8271e,birthplace_currency_symbol,Henrikh Mkhitaryan,What is the currency symbol in the country where Henrikh Mkhitaryan was born?,"[""֏""]",₼,AMD
+df1aa73141efa54eeb8f,birthplace_currency_short,Muammar Gaddafi,What is the currency abbreviation in the country where Muammar Gaddafi was born?,"[""LYD""]",LD,LYD
+8bdda1ece5bad90102a1,birthplace_tld,Osman I,What is the top-level domain of the country where Osman I was born?,"["".tr""]",.tr,.com.tr
+283628ba35213e44692e,birthplace_ccn3,Jean-Claude Van Damme,What is the 3166-1 numeric code for the country where Jean-Claude Van Damme was born?,"[""056""]",32,400
+beed8eb14c0d1b180ef8,birthplace_tld,Maria Sharapova,What is the top-level domain of the country where Maria Sharapova was born?,"["".ru"", "".su"", "".рф""]",ru,.ru
+afb60e384f2a00f056f1,birthplace_currency_symbol,Omar Torrijos,What is the currency symbol in the country where Omar Torrijos was born?,"[""B/.""]",B$,$
+fd072556b0924a1f4661,birthplace_ccn3,Kobe Bryant,What is the 3166-1 numeric code for the country where Kobe Bryant was born?,"[""840""]",+81,142
+58535085008550446753,birthplace_ccn3,"Hussein, Crown Prince","What is the 3166-1 numeric code for the country where Hussein, Crown Prince was born?","[""400""]",148,440
+6c40fea8f80e85ff64cc,birthplace_ccn3,Pablo Picasso,What is the 3166-1 numeric code for the country where Pablo Picasso was born?,"[""724""]",724,212
+54626bccd91200516cc9,birthplace_currency_short,Foday Sankoh,What is the currency abbreviation in the country where Foday Sankoh was born?,"[""SLL""]",SLL,Leone (Sierra Leone) - SLL
+5a32d41ab056bf4b322a,birthplace_ccn3,Akon,What is the 3166-1 numeric code for the country where Akon was born?,"[""686""]",+237,+221
+7b59a3ed9ab69bb7f356,birthplace_currency_short,Drake,What is the currency abbreviation in the country where Drake was born?,"[""CAD""]",CAD,JMD
+c198e841eeaaead799f4,birthplace_currency_short,Roger Milla,What is the currency abbreviation in the country where Roger Milla was born?,"[""XAF""]",CFA,XAF
+a67ae0a3f285a42cdf24,birthplace_ccn3,Khatia Buniatishvili,What is the 3166-1 numeric code for the country where Khatia Buniatishvili was born?,"[""268""]",995,374
+26466299d47291a4952e,birthplace_currency,Vincent van Gogh,What is the currency in the country where Vincent van Gogh was born?,"[""Euro""]",Dutch guilder,Euro
+96ea58a949f4bafd3648,birthplace_currency,Michael Schumacher,What is the currency in the country where Michael Schumacher was born?,"[""Euro""]",Swiss franc,Euro
+59864c7a6b99afa806d6,birthplace_currency,Yohani,What is the currency in the country where Yohani was born?,"[""Sri Lankan rupee""]",Tonga: Pa'anga,Indian Rupee (INR)
+d6405db2850f8209250b,birthplace_ccn3,Yip Man,What is the 3166-1 numeric code for the country where Yip Man was born?,"[""156""]",440,+86
+5bc919fc0a84a89e35af,birthplace_currency,Doris Lessing,What is the currency in the country where Doris Lessing was born?,"[""Iranian rial""]",Rhodesian dollar,Zimbabwean dollar
+5ebcca7d5a0788da84d3,birthplace_ccn3,Simon Bolivar,What is the 3166-1 numeric code for the country where Simon Bolivar was born?,"[""862""]",680,+591
+f19f93e3a17da94641af,birthplace_tld,Bobby Fischer,What is the top-level domain of the country where Bobby Fischer was born?,"["".us""]",.is,.us
+22692b9e2a5a8f74b52c,birthplace_currency_symbol,Grace Kelly,What is the currency symbol in the country where Grace Kelly was born?,"[""$""]",£,€
+45a39e13c6177633a664,birthplace_ccn3,Giannis Antetokounmpo,What is the 3166-1 numeric code for the country where Giannis Antetokounmpo was born?,"[""300""]",398,399
+a712c2f91d3e9c16a4f4,birthplace_ccn3,Jean-Claude Van Damme,What is the 3166-1 numeric code for the country where Jean-Claude Van Damme was born?,"[""056""]",400,404
+6b0d3711c5d8fd349d13,birthplace_currency,Eriq Zavaleta,What is the currency in the country where Eriq Zavaleta was born?,"[""United States dollar""]",US dollar,US Dollar
+70c1411072c2be665463,birthplace_ccn3,Jackie Chan,What is the 3166-1 numeric code for the country where Jackie Chan was born?,"[""344""]",852,+86
+9970f4cc714b48700315,birthplace_tld,Luis Suarez,What is the top-level domain of the country where Luis Suarez was born?,"["".uy""]",.com.ni,.com.uy
+23e889a53a5d60d91183,birthplace_ccn3,Tina Turner,What is the 3166-1 numeric code for the country where Tina Turner was born?,"[""840""]",+41,417
+19c52cdbf1ad840e7cdf,birthplace_ccn3,W. E. B. Du Bois,What is the 3166-1 numeric code for the country where W. E. B. Du Bois was born?,"[""840""]",155,+1
+c14cc0e5ad0599c057ac,birthplace_ccn3,Jigme Singye Wangchuck,What is the 3166-1 numeric code for the country where Jigme Singye Wangchuck was born?,"[""064""]",+93,+975
+57fd53413bfb665251c3,birthplace_ccn3,Sebastian Stan,What is the 3166-1 numeric code for the country where Sebastian Stan was born?,"[""642""]",400,900
+95cea4d47d5eb889ce9c,birthplace_ccn3,Trevor Noah,What is the 3166-1 numeric code for the country where Trevor Noah was born?,"[""710""]",772,710
+79f88a7e0400351da3f4,birthplace_ccn3,Mila Kunis,What is the 3166-1 numeric code for the country where Mila Kunis was born?,"[""804""]",359,370
+2bac6d05f5ef1aedea57,birthplace_ccn3,Yip Man,What is the 3166-1 numeric code for the country where Yip Man was born?,"[""156""]",852,+852
+7836ab489eeabbb1e276,birthplace_currency_symbol,Vladimir Lenin,What is the currency symbol in the country where Vladimir Lenin was born?,"[""₽""]",Ruble,₽
+ceb8d2eca5811e578515,birthplace_currency_short,Grace Kelly,What is the currency abbreviation in the country where Grace Kelly was born?,"[""USD""]",EUR,GBP
+f4b1276b0218cd656109,birthplace_currency,Peter Sagan,What is the currency in the country where Peter Sagan was born?,"[""Euro""]",Euro,"Slovakia, Euro"
+c83ed06a971a0e235ce7,birthplace_currency_symbol,Shakhriyar Mamedyarov,What is the currency symbol in the country where Shakhriyar Mamedyarov was born?,"[""₼""]",Manat (₼),manat (₼)
+926054b4dfbe4a144a77,birthplace_ccn3,Mala Sinha,What is the 3166-1 numeric code for the country where Mala Sinha was born?,"[""356""]",356,+91
+0d5b0a45cbdd910c0f54,birthplace_ccn3,Mahatma Gandhi,What is the 3166-1 numeric code for the country where Mahatma Gandhi was born?,"[""356""]",+91,356
+18ee34b3f22ba76bbc7f,birthplace_tld,Luis Suarez,What is the top-level domain of the country where Luis Suarez was born?,"["".uy""]",.com.pa,.com.ni
+cdcca5e544ac6521f351,birthplace_currency_short,Ogedei Khan,What is the currency abbreviation in the country where Ogedei Khan was born?,"[""MNT""]",CNY,MNT
+78500f4996ff7d30dcb6,birthplace_ccn3,Domantas Sabonis,What is the 3166-1 numeric code for the country where Domantas Sabonis was born?,"[""440""]",440,370
+b653c59d0dac1adf685a,birthplace_ccn3,Jean-Jacques Rousseau,What is the 3166-1 numeric code for the country where Jean-Jacques Rousseau was born?,"[""756""]",417,41
+33b4e14f4ca810bfd9b6,birthplace_ccn3,Pedro Pascal,What is the 3166-1 numeric code for the country where Pedro Pascal was born?,"[""152""]",51,56
+f0a96fbbe9c1aaafcd48,birthplace_tld,Omar Torrijos,What is the top-level domain of the country where Omar Torrijos was born?,"["".pa""]",.com.pa,.pa
+9f87c9aa1cbaa20dfa7e,birthplace_ccn3,Oscar Wilde,What is the 3166-1 numeric code for the country where Oscar Wilde was born?,"[""372""]",712,353
+bb625e1cc0dd168aff8d,birthplace_ccn3,Wilson Palacios,What is the 3166-1 numeric code for the country where Wilson Palacios was born?,"[""340""]",+502,502
+7e16a78708edb875bddc,birthplace_ccn3,Bartolo Colón,What is the 3166-1 numeric code for the country where Bartolo Colón was born?,"[""214""]",+506,+507
+41a7058d60aa01634b77,birthplace_tld,Giannis Antetokounmpo,What is the top-level domain of the country where Giannis Antetokounmpo was born?,"["".gr""]",.com.gr,.gr
+a7880e89b88478da190a,birthplace_currency,Naomi Osaka,What is the currency in the country where Naomi Osaka was born?,"[""Japanese yen""]",Yen,Japanese yen
+8199496926379a6e49cb,birthplace_currency,Hristo Stoichkov,What is the currency in the country where Hristo Stoichkov was born?,"[""Bulgarian lev""]",Bulgarian lev,Bulgarian Lev
+009a9b1e40cafdb21912,birthplace_currency,Trevor Noah,What is the currency in the country where Trevor Noah was born?,"[""South African rand""]",South African Rand,South African rand
+6fdc07404fcdfbc2166e,birthplace_currency_symbol,Lionel Messi,What is the currency symbol in the country where Lionel Messi was born?,"[""$""]",ARS,$
+a25d85154cb442d899a0,birthplace_currency,Enver Hoxha,What is the currency in the country where Enver Hoxha was born?,"[""Albanian lek""]",Leu,Leke
+f610c6ef5986be547912,birthplace_tld,Ricky Martin,What is the top-level domain of the country where Ricky Martin was born?,"["".pr""]",.com.do,.com
+50e82af1f688e9a27574,birthplace_currency,Ovince Saint Preux,What is the currency in the country where Ovince Saint Preux was born?,"[""United States dollar""]",US Dollar,Dollar
+e67b6d6efead98ce8739,birthplace_tld,Jacqueline Fernandez,What is the top-level domain of the country where Jacqueline Fernandez was born?,"["".bh""]",.com,.com.bd
+835c4df5381e83d7006a,birthplace_currency_symbol,Abebe Bikila,What is the currency symbol in the country where Abebe Bikila was born?,"[""Br""]",ብር,Braille pattern dots-123456
+e3dae7a8b1a2616c1a19,birthplace_currency_short,André the Giant,What is the currency abbreviation in the country where André the Giant was born?,"[""EUR""]",EUR,CFA
+de0de4eb972a7515278b,birthplace_currency,Eriq Zavaleta,What is the currency in the country where Eriq Zavaleta was born?,"[""United States dollar""]",US Dollar (USD),US dollar
+924e387a39d5cb89bc60,birthplace_currency,Doris Lessing,What is the currency in the country where Doris Lessing was born?,"[""Iranian rial""]",Rhodesian dollar,British pound
+139e73d24422ab40ae3f,birthplace_currency,Leif Erikson,What is the currency in the country where Leif Erikson was born?,"[""Icelandic króna""]",Icelandic króna,Norwegian krone
+f29c55db577b1494693f,birthplace_currency,Karl Marx,What is the currency in the country where Karl Marx was born?,"[""Euro""]",Euro,Thaler
+4322c18bea41c60241a9,birthplace_ccn3,"Hussein, Crown Prince","What is the 3166-1 numeric code for the country where Hussein, Crown Prince was born?","[""400""]",49,440
+e3bf4070b82d248680d5,birthplace_currency,Mala Sinha,What is the currency in the country where Mala Sinha was born?,"[""Indian rupee""]",Indian Rupee,Indian Rupee (INR)
+50ea781aa36bc9517913,birthplace_ccn3,Yohani,What is the 3166-1 numeric code for the country where Yohani was born?,"[""144""]",260,268
+188ea7cfda9c99bf6064,birthplace_tld,Doris Lessing,What is the top-level domain of the country where Doris Lessing was born?,"["".ir"", ""ایران.""]",.nz,.zw
+6aade87858f1ad2cf623,birthplace_currency_short,Garcelle Beauvais,What is the currency abbreviation in the country where Garcelle Beauvais was born?,"[""HTG""]",EUR,XAF
+03f2e980f27104c5dd7d,birthplace_ccn3,Ho Chi Minh,What is the 3166-1 numeric code for the country where Ho Chi Minh was born?,"[""704""]",+84,84
+29a0ed9718d88bc626d1,birthplace_currency,Michael Jordan,What is the currency in the country where Michael Jordan was born?,"[""United States dollar""]",US Dollar,Dollar
+79685ec6761b122bde93,birthplace_ccn3,Oscar Wilde,What is the 3166-1 numeric code for the country where Oscar Wilde was born?,"[""372""]",359,712
+ba9e36c48909b16dbd68,birthplace_ccn3,Nelson Mandela,What is the 3166-1 numeric code for the country where Nelson Mandela was born?,"[""710""]",710,27
+635eb0c76f243a620459,birthplace_currency_symbol,Enver Hoxha,What is the currency symbol in the country where Enver Hoxha was born?,"[""L""]",Lek,Lek (L)
+14d1e39f3146729e1e10,birthplace_ccn3,Chinua Achebe,What is the 3166-1 numeric code for the country where Chinua Achebe was born?,"[""566""]",813,234
+e9d170343df775007647,birthplace_currency_symbol,Patrick Ewing,What is the currency symbol in the country where Patrick Ewing was born?,"[""$""]",$,J$
+f0391ed4d5a2a15086e4,birthplace_currency_symbol,Shakhriyar Mamedyarov,What is the currency symbol in the country where Shakhriyar Mamedyarov was born?,"[""₼""]",manat (₼),manat
+f18837628609e35480ce,birthplace_currency_short,Patrick Ewing,What is the currency abbreviation in the country where Patrick Ewing was born?,"[""JMD""]",JMD,USD
+a16858a3157815929897,birthplace_tld,Doris Lessing,What is the top-level domain of the country where Doris Lessing was born?,"["".ir"", ""ایران.""]",.nz,.co.zw
+3efc4410c229653ebc2a,birthplace_ccn3,Chinua Achebe,What is the 3166-1 numeric code for the country where Chinua Achebe was born?,"[""566""]",599,186
+ca889cf1fcf876796271,birthplace_tld,Cung Le,What is the top-level domain of the country where Cung Le was born?,"["".vn""]",.vn,.com
+ab635173ac509f6fa416,birthplace_ccn3,Bar Refaeli,What is the 3166-1 numeric code for the country where Bar Refaeli was born?,"[""376""]",972,376
+f27eb1f4fd6bc03bae53,birthplace_ccn3,Christopher Columbus,What is the 3166-1 numeric code for the country where Christopher Columbus was born?,"[""380""]",392,+39
+1974dd0910d043360398,birthplace_tld,Ricardo Mayorga,What is the top-level domain of the country where Ricardo Mayorga was born?,"["".ni""]",.ec,.gt
+a79d7da391574a203f01,birthplace_currency,Stephen Hawking,What is the currency in the country where Stephen Hawking was born?,"[""British pound""]",Pound sterling,British Pound
+ca4411cd1299be1c56b9,birthplace_currency_symbol,Jacobo Árbenz,What is the currency symbol in the country where Jacobo Árbenz was born?,"[""Q""]",¢,$
+5d384b97114be953723e,birthplace_ccn3,Chinua Achebe,What is the 3166-1 numeric code for the country where Chinua Achebe was born?,"[""566""]",234,599
+98186dec8e1601301868,birthplace_currency_symbol,Omar Torrijos,What is the currency symbol in the country where Omar Torrijos was born?,"[""B/.""]",$,₡
+d0106b92884bb5dd160d,birthplace_ccn3,Jwan Yosef,What is the 3166-1 numeric code for the country where Jwan Yosef was born?,"[""760""]",800,854
+66f84b37b950e927f344,birthplace_ccn3,Simon Bolivar,What is the 3166-1 numeric code for the country where Simon Bolivar was born?,"[""862""]",+57,680
+c0a0f315eeee129c2fa7,birthplace_ccn3,Keylor Navas,What is the 3166-1 numeric code for the country where Keylor Navas was born?,"[""188""]",501,385
+fccb055eddae8f4e5f93,birthplace_currency_symbol,Peter Sagan,What is the currency symbol in the country where Peter Sagan was born?,"[""€""]",EUR,€
+5c9de9615e63cd8ffa81,birthplace_currency,Khatia Buniatishvili,What is the currency in the country where Khatia Buniatishvili was born?,"[""lari""]",Lari,Georgian lari
+573d91bdc793d623b0b0,birthplace_tld,Alfredo Bowman,What is the top-level domain of the country where Alfredo Bowman was born?,"["".hn""]",.com.mx,.bz
+e0cef5857f2f0a39afcb,birthplace_currency,Yohani,What is the currency in the country where Yohani was born?,"[""Sri Lankan rupee""]",Indian Rupee (INR),Tonga Dollar
+1aa7f31100c4497e95e2,birthplace_tld,Doris Lessing,What is the top-level domain of the country where Doris Lessing was born?,"["".ir"", ""ایران.""]",.uk,.nz
+e097e8ee7dcfd3cbe3cc,birthplace_ccn3,Mustafa Kemal Ataturk,What is the 3166-1 numeric code for the country where Mustafa Kemal Ataturk was born?,"[""792""]",90,792
+538323b5f5f4a95613f8,birthplace_ccn3,Tina Turner,What is the 3166-1 numeric code for the country where Tina Turner was born?,"[""840""]",417,41
+c483d6a29dfb4303224a,birthplace_ccn3,Jackie Chan,What is the 3166-1 numeric code for the country where Jackie Chan was born?,"[""344""]",+86,411
+c870aaeeafef02269e67,birthplace_ccn3,Cleopatra,What is the 3166-1 numeric code for the country where Cleopatra was born?,"[""818""]",204,124
+5fb83fd068c28b1394af,birthplace_currency_symbol,Mirko Cro Cop,What is the currency symbol in the country where Mirko Cro Cop was born?,"[""kn""]",Kuna,Kuna (HRK)
+9957700635efdbef82a5,birthplace_ccn3,Osman I,What is the 3166-1 numeric code for the country where Osman I was born?,"[""792""]",818,+90
+368fe74887981e087e31,birthplace_ccn3,Bartolo Colón,What is the 3166-1 numeric code for the country where Bartolo Colón was born?,"[""214""]",506,+507
+2950e876114e2559e774,birthplace_tld,Mia Khalifa,What is the top-level domain of the country where Mia Khalifa was born?,"["".lb""]",.lb,.com.lb
+800bf9bba455603938dc,birthplace_ccn3,Christopher Columbus,What is the 3166-1 numeric code for the country where Christopher Columbus was born?,"[""380""]",392,39
+2b98f57a0b6d4e5c495a,birthplace_currency,Daniel Zovatto,What is the currency in the country where Daniel Zovatto was born?,"[""Costa Rican colón""]",Peso,Argentine peso
+97c7568a39a341fa3b0f,birthplace_currency,Desi Arnaz,What is the currency in the country where Desi Arnaz was born?,"[""Cuban convertible peso""]",Colombian peso,Peso
+fbfe46b3c41c3ddf6f09,birthplace_currency_symbol,Nelson Mandela,What is the currency symbol in the country where Nelson Mandela was born?,"[""R""]","Randelburg, South Africa. The currency symbol is R (Rand).",R
+af702b422722b84b6ba5,birthplace_ccn3,Skanderbeg,What is the 3166-1 numeric code for the country where Skanderbeg was born?,"[""008""]",00355,355
+27ae7a96e95711111ef9,birthplace_tld,Bartolo Colón,What is the top-level domain of the country where Bartolo Colón was born?,"["".do""]",.cr,.gt
+b474e469a1cd6c1571ff,birthplace_ccn3,Cleopatra,What is the 3166-1 numeric code for the country where Cleopatra was born?,"[""818""]",+20,204
+dcdd35d3100e07dfa85a,birthplace_currency_symbol,Sheikh Mujibur Rahman,What is the currency symbol in the country where Sheikh Mujibur Rahman was born?,"[""৳""]",Tk,Taka (৳)
+9e56d7f08e539bee8cfe,birthplace_ccn3,Omar Torrijos,What is the 3166-1 numeric code for the country where Omar Torrijos was born?,"[""591""]",380,+507
+4c78f1691b2389c2e768,birthplace_ccn3,St. Augustine,What is the 3166-1 numeric code for the country where St. Augustine was born?,"[""012""]",+357,+351
+5de21edc248f5ba44cb9,birthplace_currency,Möngke Khan,What is the currency in the country where Möngke Khan was born?,"[""Mongolian tögrög""]",Tugrug,Tugrik
+a72c482adea62eb490aa,birthplace_ccn3,Karl Marx,What is the 3166-1 numeric code for the country where Karl Marx was born?,"[""276""]",49,410
+4ee4b7128304277c1eba,birthplace_tld,Edgar Ramirez,What is the top-level domain of the country where Edgar Ramirez was born?,"["".ve""]",.mx,.co
+98c33575dcc59811ee2f,birthplace_ccn3,Zuchu,What is the 3166-1 numeric code for the country where Zuchu was born?,"[""834""]",250,254
+7b11e31dc1037b2dd18b,birthplace_currency,Desi Arnaz,What is the currency in the country where Desi Arnaz was born?,"[""Cuban convertible peso""]",Peso,Cuban peso
+ca0162fecf3b67f2b517,birthplace_currency_symbol,Fidel Castro,What is the currency symbol in the country where Fidel Castro was born?,"[""$""]",CUP,Cuban Peso ($ or CUP)
+40ed158e1c8a933ad561,birthplace_ccn3,Leif Erikson,What is the 3166-1 numeric code for the country where Leif Erikson was born?,"[""352""]",246,+47
+eb7561c454f2a62d49a2,birthplace_currency_short,Omar Torrijos,What is the currency abbreviation in the country where Omar Torrijos was born?,"[""PAB""]",USD,CRC
+b602f91cc00f482df42d,birthplace_ccn3,Jean-Claude Van Damme,What is the 3166-1 numeric code for the country where Jean-Claude Van Damme was born?,"[""056""]",400,BE
+b58aab42a6876d606311,birthplace_currency,Demna Gvasalia,What is the currency in the country where Demna Gvasalia was born?,"[""lari""]",Lari,Georgian lari
+6752308f4a5145551e2a,birthplace_ccn3,Roger Milla,What is the 3166-1 numeric code for the country where Roger Milla was born?,"[""120""]",242,+237
+f6b30b1e1a5bcde3fdda,birthplace_ccn3,Jaber Al-Mubarak Al-Hamad Al-Sabah,What is the 3166-1 numeric code for the country where Jaber Al-Mubarak Al-Hamad Al-Sabah was born?,"[""414""]",800,+965
+30235ac6085df15c6419,birthplace_currency,Desi Arnaz,What is the currency in the country where Desi Arnaz was born?,"[""Cuban convertible peso""]",Peso,Cuban Peso
+729d4ff6da766b469f4d,birthplace_ccn3,Simon Bolivar,What is the 3166-1 numeric code for the country where Simon Bolivar was born?,"[""862""]",680,+58

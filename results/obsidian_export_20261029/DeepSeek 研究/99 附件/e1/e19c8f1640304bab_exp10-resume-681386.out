@@ -1,0 +1,255 @@
+Validated/copied two completed conditions. Prior files unchanged.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:19,  5.55it/s]Loading weights:   0%|          | 2/443 [00:00<01:33,  4.71it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:10, 41.77it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 61.37it/s]Loading weights:  10%|▉         | 44/443 [00:00<00:04, 88.07it/s]Loading weights:  13%|█▎        | 59/443 [00:00<00:03, 101.61it/s]Loading weights:  16%|█▌        | 71/443 [00:00<00:03, 103.64it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:03, 104.64it/s]Loading weights:  22%|██▏       | 99/443 [00:01<00:02, 118.61it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 123.10it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:02, 113.33it/s]Loading weights:  33%|███▎      | 144/443 [00:01<00:02, 127.53it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 126.33it/s]Loading weights:  39%|███▊      | 171/443 [00:01<00:02, 115.96it/s]Loading weights:  42%|████▏     | 186/443 [00:01<00:02, 123.95it/s]Loading weights:  46%|████▌     | 202/443 [00:02<00:01, 129.51it/s]Loading weights:  49%|████▉     | 216/443 [00:02<00:01, 121.51it/s]Loading weights:  52%|█████▏    | 232/443 [00:02<00:01, 131.13it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 129.64it/s]Loading weights:  59%|█████▊    | 260/443 [00:02<00:01, 120.83it/s]Loading weights:  62%|██████▏   | 275/443 [00:02<00:01, 128.34it/s]Loading weights:  65%|██████▌   | 290/443 [00:02<00:01, 130.77it/s]Loading weights:  69%|██████▊   | 304/443 [00:02<00:01, 121.87it/s]Loading weights:  72%|███████▏  | 320/443 [00:02<00:00, 131.35it/s]Loading weights:  75%|███████▌  | 334/443 [00:03<00:00, 130.15it/s]Loading weights:  79%|███████▊  | 348/443 [00:03<00:00, 121.85it/s]Loading weights:  82%|████████▏ | 364/443 [00:03<00:00, 131.14it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 130.00it/s]Loading weights:  88%|████████▊ | 392/443 [00:03<00:00, 121.11it/s]Loading weights:  92%|█████████▏| 407/443 [00:03<00:00, 128.04it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 130.17it/s]Loading weights:  98%|█████████▊| 436/443 [00:03<00:00, 120.91it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 114.08it/s]
+Allocation diagnostic BEFORE training: {'condition': 'self_correct', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 864, 'n_kept': 228, 'target_changed_n': 0, 'target_changed_share': 0.0, 'assigned_target_correct_n': 228, 'assigned_target_correct_share': 1.0, 'original_pool_target_correct_share': 0.5069444444444444, 'original_target_auroc': 0.7326033828542028, 'uses_gold_for_allocation': True, 'allocation_scorer': 'scoring_v2_floor', 'subset_seed': 7, 'category_counts': {'birthplace_callingcode': {'available': 216, 'original_correct': 165, 'original_wrong': 51, 'kept': 51, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 51, 'original_target_correct_n': 51}, 'birthplace_capital': {'available': 216, 'original_correct': 156, 'original_wrong': 60, 'kept': 60, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 60, 'original_target_correct_n': 60}, 'birthplace_rounded_lat': {'available': 216, 'original_correct': 71, 'original_wrong': 145, 'kept': 71, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 71, 'original_target_correct_n': 71}, 'birthplace_rounded_lng': {'available': 216, 'original_correct': 46, 'original_wrong': 170, 'kept': 46, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 46, 'original_target_correct_n': 46}}}
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 2 step 50/58 loss 0.259 (40s)
+training done in 46s
+
+====================================================================================================
+TARGET = SELF  (self_correct: frozen self outputs; gold-stratified mechanism diagnostic)
+
+[A_newPerson]  n=500  (both hops known by base model: 274)
+  composed accuracy      base  38.4%  ->  trained  45.2%   (fixed 61, broke 27, McNemar p = 0.00037)
+  composition gap        base  39.8%  ->  trained  26.6%   (lower is better)
+  hop-1 alone accuracy   base  80.6%  ->  trained  82.2%   (should not drop)
+  hop-2 alone accuracy   base  67.4%  ->  trained  69.0%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  49.8%   (fixed 39, broke 13, McNemar p = 0.00041)
+  composition gap        base  32.4%  ->  trained  24.1%   (lower is better)
+  hop-1 alone accuracy   base  74.8%  ->  trained  76.6%   (should not drop)
+  hop-2 alone accuracy   base  74.2%  ->  trained  75.4%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  52.2%   (fixed 30, broke 17, McNemar p = 0.079)
+  composition gap        base  32.3%  ->  trained  27.3%   (lower is better)
+  hop-1 alone accuracy   base  83.8%  ->  trained  86.0%   (should not drop)
+  hop-2 alone accuracy   base  78.6%  ->  trained  78.6%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 0.74 of items, median first layer 33.0
+  trained : reaches top-10 in 0.75 of items, median first layer 33.0
+  per item: earlier after training 12, later 20, same 113 (sign test p = 0.22)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:48,  2.62it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:10, 39.00it/s]Loading weights:   6%|▌         | 26/443 [00:00<00:07, 57.63it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:05, 76.00it/s]Loading weights:  13%|█▎        | 56/443 [00:00<00:03, 102.24it/s]Loading weights:  16%|█▌        | 70/443 [00:00<00:03, 109.83it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:03, 105.95it/s]Loading weights:  22%|██▏       | 99/443 [00:01<00:02, 120.41it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 125.74it/s]Loading weights:  29%|██▉       | 128/443 [00:01<00:02, 119.65it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 124.65it/s]Loading weights:  36%|███▌      | 160/443 [00:01<00:02, 124.24it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 137.73it/s]Loading weights:  44%|████▍     | 194/443 [00:01<00:01, 129.42it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 138.02it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 128.73it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 137.54it/s]Loading weights:  59%|█████▊    | 260/443 [00:02<00:01, 128.64it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 136.04it/s]Loading weights:  66%|██████▌   | 293/443 [00:02<00:01, 127.46it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 136.43it/s]Loading weights:  74%|███████▎  | 326/443 [00:02<00:00, 128.59it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 137.19it/s]Loading weights:  81%|████████  | 359/443 [00:03<00:00, 128.03it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 136.85it/s]Loading weights:  88%|████████▊ | 392/443 [00:03<00:00, 127.94it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 137.57it/s]Loading weights:  96%|█████████▌| 425/443 [00:03<00:00, 129.44it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 119.22it/s]
+Allocation diagnostic BEFORE training: {'condition': 'self_wrong', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 864, 'n_kept': 228, 'target_changed_n': 0, 'target_changed_share': 0.0, 'assigned_target_correct_n': 0, 'assigned_target_correct_share': 0.0, 'original_pool_target_correct_share': 0.5069444444444444, 'original_target_auroc': 0.7326033828542028, 'uses_gold_for_allocation': True, 'allocation_scorer': 'scoring_v2_floor', 'subset_seed': 7, 'category_counts': {'birthplace_callingcode': {'available': 216, 'original_correct': 165, 'original_wrong': 51, 'kept': 51, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_capital': {'available': 216, 'original_correct': 156, 'original_wrong': 60, 'kept': 60, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lat': {'available': 216, 'original_correct': 71, 'original_wrong': 145, 'kept': 71, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lng': {'available': 216, 'original_correct': 46, 'original_wrong': 170, 'kept': 46, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}}}
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 2 step 50/58 loss 0.474 (38s)
+training done in 45s
+
+====================================================================================================
+TARGET = SELF  (self_wrong: frozen self outputs; gold-stratified mechanism diagnostic)
+
+[A_newPerson]  n=500  (both hops known by base model: 274)
+  composed accuracy      base  38.4%  ->  trained  43.0%   (fixed 46, broke 23, McNemar p = 0.0076)
+  composition gap        base  39.8%  ->  trained  29.9%   (lower is better)
+  hop-1 alone accuracy   base  80.6%  ->  trained  79.8%   (should not drop)
+  hop-2 alone accuracy   base  67.4%  ->  trained  66.6%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  43.2%   (fixed 23, broke 30, McNemar p = 0.41)
+  composition gap        base  32.4%  ->  trained  31.7%   (lower is better)
+  hop-1 alone accuracy   base  74.8%  ->  trained  74.0%   (should not drop)
+  hop-2 alone accuracy   base  74.2%  ->  trained  77.0%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  51.2%   (fixed 26, broke 18, McNemar p = 0.29)
+  composition gap        base  32.3%  ->  trained  28.3%   (lower is better)
+  hop-1 alone accuracy   base  83.8%  ->  trained  83.4%   (should not drop)
+  hop-2 alone accuracy   base  78.6%  ->  trained  78.8%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 0.74 of items, median first layer 33.0
+  trained : reaches top-10 in 0.68 of items, median first layer 33.0
+  per item: earlier after training 0, later 62, same 73 (sign test p = 4.3e-19)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:58,  2.48it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:10, 39.86it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:07, 59.19it/s]Loading weights:  10%|█         | 45/443 [00:00<00:04, 88.48it/s]Loading weights:  13%|█▎        | 59/443 [00:00<00:03, 99.57it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 98.80it/s]Loading weights:  20%|██        | 89/443 [00:01<00:03, 116.92it/s]Loading weights:  23%|██▎       | 103/443 [00:01<00:02, 118.66it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:02, 111.75it/s]Loading weights:  30%|███       | 133/443 [00:01<00:02, 125.76it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 125.41it/s]Loading weights:  36%|███▋      | 161/443 [00:01<00:02, 117.80it/s]Loading weights:  40%|███▉      | 177/443 [00:01<00:02, 128.18it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:02, 119.39it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 118.92it/s]Loading weights:  50%|████▉     | 221/443 [00:02<00:01, 131.79it/s]Loading weights:  53%|█████▎    | 235/443 [00:02<00:01, 129.28it/s]Loading weights:  56%|█████▌    | 249/443 [00:02<00:01, 121.04it/s]Loading weights:  59%|█████▉    | 263/443 [00:02<00:01, 124.68it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 130.26it/s]Loading weights:  66%|██████▌   | 293/443 [00:02<00:01, 121.10it/s]Loading weights:  69%|██████▉   | 307/443 [00:02<00:01, 125.54it/s]Loading weights:  73%|███████▎  | 323/443 [00:02<00:00, 130.21it/s]Loading weights:  76%|███████▌  | 337/443 [00:03<00:00, 121.78it/s]Loading weights:  79%|███████▉  | 352/443 [00:03<00:00, 128.58it/s]Loading weights:  83%|████████▎ | 367/443 [00:03<00:00, 129.71it/s]Loading weights:  86%|████████▌ | 381/443 [00:03<00:00, 120.96it/s]Loading weights:  89%|████████▉ | 395/443 [00:03<00:00, 124.83it/s]Loading weights:  93%|█████████▎| 410/443 [00:03<00:00, 127.49it/s]Loading weights:  95%|█████████▌| 423/443 [00:03<00:00, 124.49it/s]Loading weights:  98%|█████████▊| 436/443 [00:03<00:00, 122.14it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 114.19it/s]
+Allocation diagnostic BEFORE training: {'condition': 'shuffled_wrong', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 864, 'n_kept': 228, 'target_changed_n': 228, 'target_changed_share': 1.0, 'assigned_target_correct_n': 0, 'assigned_target_correct_share': 0.0, 'original_pool_target_correct_share': 0.5069444444444444, 'original_target_auroc': 0.7326033828542028, 'uses_gold_for_allocation': True, 'allocation_scorer': 'scoring_v2_floor', 'subset_seed': 7, 'category_counts': {'birthplace_callingcode': {'available': 216, 'original_correct': 165, 'original_wrong': 51, 'kept': 51, 'subset_seed': 7, 'target_changed_n': 51, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_capital': {'available': 216, 'original_correct': 156, 'original_wrong': 60, 'kept': 60, 'subset_seed': 7, 'target_changed_n': 60, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lat': {'available': 216, 'original_correct': 71, 'original_wrong': 145, 'kept': 71, 'subset_seed': 7, 'target_changed_n': 71, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lng': {'available': 216, 'original_correct': 46, 'original_wrong': 170, 'kept': 46, 'subset_seed': 7, 'target_changed_n': 46, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}}}
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 2 step 50/58 loss 1.469 (39s)
+training done in 46s
+
+====================================================================================================
+TARGET = SELF  (shuffled_wrong: frozen self outputs; gold-stratified mechanism diagnostic)
+
+[A_newPerson]  n=500  (both hops known by base model: 274)
+  composed accuracy      base  38.4%  ->  trained   2.4%   (fixed 7, broke 187, McNemar p = 1.5e-46)
+  composition gap        base  39.8%  ->  trained  96.7%   (lower is better)
+  hop-1 alone accuracy   base  80.6%  ->  trained  39.8%   (should not drop)
+  hop-2 alone accuracy   base  67.4%  ->  trained  63.4%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained   8.6%   (fixed 12, broke 192, McNemar p = 6.5e-43)
+  composition gap        base  32.4%  ->  trained  90.3%   (lower is better)
+  hop-1 alone accuracy   base  74.8%  ->  trained  37.8%   (should not drop)
+  hop-2 alone accuracy   base  74.2%  ->  trained  66.4%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained   8.8%   (fixed 9, broke 213, McNemar p = 9.5e-52)
+  composition gap        base  32.3%  ->  trained  88.5%   (lower is better)
+  hop-1 alone accuracy   base  83.8%  ->  trained  40.0%   (should not drop)
+  hop-2 alone accuracy   base  78.6%  ->  trained  70.4%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 0.74 of items, median first layer 33.0
+  trained : reaches top-10 in 0.005 of items, median first layer 40
+  per item: earlier after training 0, later 1, same 0 (sign test p = 1)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:45,  2.68it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:10, 39.93it/s]Loading weights:   6%|▌         | 27/443 [00:00<00:06, 61.17it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:05, 76.46it/s]Loading weights:  13%|█▎        | 57/443 [00:00<00:03, 105.69it/s]Loading weights:  16%|█▌        | 70/443 [00:00<00:03, 111.20it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:03, 108.24it/s]Loading weights:  23%|██▎       | 103/443 [00:01<00:02, 126.24it/s]Loading weights:  26%|██▋       | 117/443 [00:01<00:02, 120.93it/s]Loading weights:  30%|███       | 134/443 [00:01<00:02, 133.82it/s]Loading weights:  33%|███▎      | 148/443 [00:01<00:02, 126.00it/s]Loading weights:  37%|███▋      | 162/443 [00:01<00:02, 127.42it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 134.08it/s]Loading weights:  44%|████▍     | 194/443 [00:01<00:01, 125.80it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 135.37it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 127.17it/s]Loading weights:  55%|█████▌    | 245/443 [00:02<00:01, 133.71it/s]Loading weights:  58%|█████▊    | 259/443 [00:02<00:01, 125.54it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 137.70it/s]Loading weights:  66%|██████▌   | 293/443 [00:02<00:01, 129.21it/s]Loading weights:  70%|███████   | 311/443 [00:02<00:00, 135.13it/s]Loading weights:  73%|███████▎  | 325/443 [00:02<00:00, 127.10it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 138.47it/s]Loading weights:  81%|████████  | 359/443 [00:03<00:00, 129.38it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 137.61it/s]Loading weights:  88%|████████▊ | 392/443 [00:03<00:00, 128.56it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 137.11it/s]Loading weights:  96%|█████████▌| 425/443 [00:03<00:00, 128.69it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 119.78it/s]
+Allocation diagnostic BEFORE training: {'condition': 'self_correct', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 864, 'n_kept': 228, 'target_changed_n': 0, 'target_changed_share': 0.0, 'assigned_target_correct_n': 228, 'assigned_target_correct_share': 1.0, 'original_pool_target_correct_share': 0.5069444444444444, 'original_target_auroc': 0.7326033828542028, 'uses_gold_for_allocation': True, 'allocation_scorer': 'scoring_v2_floor', 'subset_seed': 7, 'category_counts': {'birthplace_callingcode': {'available': 216, 'original_correct': 165, 'original_wrong': 51, 'kept': 51, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 51, 'original_target_correct_n': 51}, 'birthplace_capital': {'available': 216, 'original_correct': 156, 'original_wrong': 60, 'kept': 60, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 60, 'original_target_correct_n': 60}, 'birthplace_rounded_lat': {'available': 216, 'original_correct': 71, 'original_wrong': 145, 'kept': 71, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 71, 'original_target_correct_n': 71}, 'birthplace_rounded_lng': {'available': 216, 'original_correct': 46, 'original_wrong': 170, 'kept': 46, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 46, 'original_target_correct_n': 46}}}
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 2 step 50/58 loss 0.278 (40s)
+training done in 46s
+
+====================================================================================================
+TARGET = SELF  (self_correct: frozen self outputs; gold-stratified mechanism diagnostic)
+
+[A_newPerson]  n=500  (both hops known by base model: 274)
+  composed accuracy      base  38.4%  ->  trained  46.0%   (fixed 56, broke 18, McNemar p = 1.1e-05)
+  composition gap        base  39.8%  ->  trained  27.4%   (lower is better)
+  hop-1 alone accuracy   base  80.6%  ->  trained  81.2%   (should not drop)
+  hop-2 alone accuracy   base  67.4%  ->  trained  68.2%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  45.6%   (fixed 23, broke 18, McNemar p = 0.53)
+  composition gap        base  32.4%  ->  trained  29.9%   (lower is better)
+  hop-1 alone accuracy   base  74.8%  ->  trained  78.0%   (should not drop)
+  hop-2 alone accuracy   base  74.2%  ->  trained  74.6%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  51.0%   (fixed 19, broke 12, McNemar p = 0.28)
+  composition gap        base  32.3%  ->  trained  29.2%   (lower is better)
+  hop-1 alone accuracy   base  83.8%  ->  trained  83.6%   (should not drop)
+  hop-2 alone accuracy   base  78.6%  ->  trained  75.8%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 0.74 of items, median first layer 33.0
+  trained : reaches top-10 in 0.71 of items, median first layer 33.0
+  per item: earlier after training 0, later 49, same 92 (sign test p = 3.6e-15)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:08,  6.47it/s]Loading weights:   0%|          | 2/443 [00:00<01:22,  5.32it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 46.81it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 68.76it/s]Loading weights:  11%|█         | 48/443 [00:00<00:03, 103.58it/s]Loading weights:  14%|█▎        | 60/443 [00:00<00:03, 107.51it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 110.72it/s]Loading weights:  21%|██        | 92/443 [00:01<00:02, 130.39it/s]Loading weights:  24%|██▍       | 106/443 [00:01<00:02, 124.85it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:02, 135.90it/s]Loading weights:  31%|███▏      | 139/443 [00:01<00:02, 128.92it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 139.00it/s]Loading weights:  39%|███▉      | 173/443 [00:01<00:02, 133.13it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:01, 138.75it/s]Loading weights:  46%|████▋     | 205/443 [00:01<00:01, 131.00it/s]Loading weights:  51%|█████     | 224/443 [00:01<00:01, 140.11it/s]Loading weights:  54%|█████▍    | 239/443 [00:02<00:01, 134.62it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 139.98it/s]Loading weights:  61%|██████▏   | 272/443 [00:02<00:01, 134.67it/s]Loading weights:  65%|██████▌   | 290/443 [00:02<00:01, 140.55it/s]Loading weights:  69%|██████▉   | 305/443 [00:02<00:01, 134.82it/s]Loading weights:  73%|███████▎  | 323/443 [00:02<00:00, 140.14it/s]Loading weights:  76%|███████▋  | 338/443 [00:02<00:00, 134.78it/s]Loading weights:  80%|████████  | 356/443 [00:02<00:00, 140.64it/s]Loading weights:  84%|████████▎ | 371/443 [00:03<00:00, 135.03it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 140.37it/s]Loading weights:  91%|█████████ | 404/443 [00:03<00:00, 134.98it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 140.81it/s]Loading weights:  99%|█████████▊| 437/443 [00:03<00:00, 134.87it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 124.89it/s]
+Allocation diagnostic BEFORE training: {'condition': 'self_wrong', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 864, 'n_kept': 228, 'target_changed_n': 0, 'target_changed_share': 0.0, 'assigned_target_correct_n': 0, 'assigned_target_correct_share': 0.0, 'original_pool_target_correct_share': 0.5069444444444444, 'original_target_auroc': 0.7326033828542028, 'uses_gold_for_allocation': True, 'allocation_scorer': 'scoring_v2_floor', 'subset_seed': 7, 'category_counts': {'birthplace_callingcode': {'available': 216, 'original_correct': 165, 'original_wrong': 51, 'kept': 51, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_capital': {'available': 216, 'original_correct': 156, 'original_wrong': 60, 'kept': 60, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lat': {'available': 216, 'original_correct': 71, 'original_wrong': 145, 'kept': 71, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lng': {'available': 216, 'original_correct': 46, 'original_wrong': 170, 'kept': 46, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}}}
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 2 step 50/58 loss 0.466 (39s)
+training done in 45s
+
+====================================================================================================
+TARGET = SELF  (self_wrong: frozen self outputs; gold-stratified mechanism diagnostic)
+
+[A_newPerson]  n=500  (both hops known by base model: 274)
+  composed accuracy      base  38.4%  ->  trained  43.2%   (fixed 50, broke 26, McNemar p = 0.0079)
+  composition gap        base  39.8%  ->  trained  30.7%   (lower is better)
+  hop-1 alone accuracy   base  80.6%  ->  trained  80.8%   (should not drop)
+  hop-2 alone accuracy   base  67.4%  ->  trained  67.2%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  42.8%   (fixed 19, broke 28, McNemar p = 0.24)
+  composition gap        base  32.4%  ->  trained  32.4%   (lower is better)
+  hop-1 alone accuracy   base  74.8%  ->  trained  74.8%   (should not drop)
+  hop-2 alone accuracy   base  74.2%  ->  trained  75.6%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  51.4%   (fixed 27, broke 18, McNemar p = 0.23)
+  composition gap        base  32.3%  ->  trained  27.6%   (lower is better)
+  hop-1 alone accuracy   base  83.8%  ->  trained  83.8%   (should not drop)
+  hop-2 alone accuracy   base  78.6%  ->  trained  78.0%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 0.74 of items, median first layer 33.0
+  trained : reaches top-10 in 0.69 of items, median first layer 33.0
+  per item: earlier after training 1, later 49, same 88 (sign test p = 9.1e-14)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:16,  5.77it/s]Loading weights:   0%|          | 2/443 [00:00<01:19,  5.54it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:09, 44.77it/s]Loading weights:   6%|▌         | 27/443 [00:00<00:06, 67.59it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:04, 83.21it/s]Loading weights:  13%|█▎        | 59/443 [00:00<00:03, 112.57it/s]Loading weights:  16%|█▋        | 72/443 [00:00<00:03, 110.77it/s]Loading weights:  21%|██        | 92/443 [00:01<00:02, 129.86it/s]Loading weights:  24%|██▍       | 106/443 [00:01<00:02, 125.16it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:02, 136.36it/s]Loading weights:  31%|███▏      | 139/443 [00:01<00:02, 129.57it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 139.55it/s]Loading weights:  39%|███▉      | 173/443 [00:01<00:02, 134.58it/s]Loading weights:  43%|████▎     | 191/443 [00:01<00:01, 140.19it/s]Loading weights:  47%|████▋     | 206/443 [00:01<00:01, 134.83it/s]Loading weights:  50%|█████     | 223/443 [00:01<00:01, 138.14it/s]Loading weights:  53%|█████▎    | 237/443 [00:02<00:01, 130.79it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 142.73it/s]Loading weights:  61%|██████▏   | 272/443 [00:02<00:01, 136.42it/s]Loading weights:  65%|██████▌   | 289/443 [00:02<00:01, 139.42it/s]Loading weights:  68%|██████▊   | 303/443 [00:02<00:01, 131.39it/s]Loading weights:  73%|███████▎  | 323/443 [00:02<00:00, 142.95it/s]Loading weights:  76%|███████▋  | 338/443 [00:02<00:00, 136.98it/s]Loading weights:  80%|████████  | 356/443 [00:02<00:00, 142.11it/s]Loading weights:  84%|████████▎ | 371/443 [00:03<00:00, 135.89it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 141.06it/s]Loading weights:  91%|█████████ | 404/443 [00:03<00:00, 135.34it/s]Loading weights:  95%|█████████▌| 422/443 [00:03<00:00, 141.00it/s]Loading weights:  99%|█████████▊| 437/443 [00:03<00:00, 135.42it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 124.82it/s]
+Allocation diagnostic BEFORE training: {'condition': 'shuffled_wrong', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 864, 'n_kept': 228, 'target_changed_n': 228, 'target_changed_share': 1.0, 'assigned_target_correct_n': 0, 'assigned_target_correct_share': 0.0, 'original_pool_target_correct_share': 0.5069444444444444, 'original_target_auroc': 0.7326033828542028, 'uses_gold_for_allocation': True, 'allocation_scorer': 'scoring_v2_floor', 'subset_seed': 7, 'category_counts': {'birthplace_callingcode': {'available': 216, 'original_correct': 165, 'original_wrong': 51, 'kept': 51, 'subset_seed': 7, 'target_changed_n': 51, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_capital': {'available': 216, 'original_correct': 156, 'original_wrong': 60, 'kept': 60, 'subset_seed': 7, 'target_changed_n': 60, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lat': {'available': 216, 'original_correct': 71, 'original_wrong': 145, 'kept': 71, 'subset_seed': 7, 'target_changed_n': 71, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}, 'birthplace_rounded_lng': {'available': 216, 'original_correct': 46, 'original_wrong': 170, 'kept': 46, 'subset_seed': 7, 'target_changed_n': 46, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}}}
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 2 step 50/58 loss 1.398 (39s)
+training done in 45s
+
+====================================================================================================
+TARGET = SELF  (shuffled_wrong: frozen self outputs; gold-stratified mechanism diagnostic)
+
+[A_newPerson]  n=500  (both hops known by base model: 274)
+  composed accuracy      base  38.4%  ->  trained   2.0%   (fixed 6, broke 188, McNemar p = 5.6e-48)
+  composition gap        base  39.8%  ->  trained  97.1%   (lower is better)
+  hop-1 alone accuracy   base  80.6%  ->  trained  60.8%   (should not drop)
+  hop-2 alone accuracy   base  67.4%  ->  trained  62.4%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained   8.4%   (fixed 12, broke 193, McNemar p = 3.4e-43)
+  composition gap        base  32.4%  ->  trained  90.6%   (lower is better)
+  hop-1 alone accuracy   base  74.8%  ->  trained  58.0%   (should not drop)
+  hop-2 alone accuracy   base  74.2%  ->  trained  71.4%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained   8.4%   (fixed 12, broke 218, McNemar p = 4.2e-50)
+  composition gap        base  32.3%  ->  trained  89.4%   (lower is better)
+  hop-1 alone accuracy   base  83.8%  ->  trained  63.4%   (should not drop)
+  hop-2 alone accuracy   base  78.6%  ->  trained  74.6%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 0.74 of items, median first layer 33.0
+  trained : reaches top-10 in 0.02 of items, median first layer 37.5
+  per item: earlier after training 0, later 4, same 0 (sign test p = 0.12)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+train items 864; eval A_newPerson=500, B_newCategory=500, C_bothNew=500
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:33,  2.89it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:10, 40.15it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 64.87it/s]Loading weights:  11%|█         | 48/443 [00:00<00:03, 99.34it/s]Loading weights:  14%|█▍        | 61/443 [00:00<00:03, 101.37it/s]Loading weights:  18%|█▊        | 81/443 [00:00<00:02, 123.39it/s]Loading weights:  21%|██▏       | 95/443 [00:01<00:02, 120.40it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 133.60it/s]Loading weights:  29%|██▉       | 129/443 [00:01<00:02, 129.26it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 137.26it/s]Loading weights:  37%|███▋      | 162/443 [00:01<00:02, 132.61it/s]Loading weights:  41%|████      | 180/443 [00:01<00:01, 139.73it/s]Loading weights:  44%|████▍     | 195/443 [00:01<00:01, 134.26it/s]Loading weights:  48%|████▊     | 213/443 [00:01<00:01, 133.29it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 134.66it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 143.52it/s]Loading weights:  59%|█████▉    | 261/443 [00:02<00:01, 137.03it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 142.79it/s]Loading weights:  66%|██████▋   | 294/443 [00:02<00:01, 136.40it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 142.41it/s]Loading weights:  74%|███████▍  | 327/443 [00:02<00:00, 136.10it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 134.33it/s]Loading weights:  81%|████████  | 359/443 [00:02<00:00, 135.49it/s]Loading weights:  85%|████████▌ | 377/443 [00:03<00:00, 141.09it/s]Loading weights:  88%|████████▊ | 392/443 [00:03<00:00, 135.40it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 143.92it/s]Loading weights:  96%|█████████▌| 426/443 [00:03<00:00, 137.34it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 125.73it/s]
+Allocation diagnostic BEFORE training: {'condition': 'self_correct', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 864, 'n_kept': 228, 'target_changed_n': 0, 'target_changed_share': 0.0, 'assigned_target_correct_n': 228, 'assigned_target_correct_share': 1.0, 'original_pool_target_correct_share': 0.5069444444444444, 'original_target_auroc': 0.7326033828542028, 'uses_gold_for_allocation': True, 'allocation_scorer': 'scoring_v2_floor', 'subset_seed': 7, 'category_counts': {'birthplace_callingcode': {'available': 216, 'original_correct': 165, 'original_wrong': 51, 'kept': 51, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 51, 'original_target_correct_n': 51}, 'birthplace_capital': {'available': 216, 'original_correct': 156, 'original_wrong': 60, 'kept': 60, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 60, 'original_target_correct_n': 60}, 'birthplace_rounded_lat': {'available': 216, 'original_correct': 71, 'original_wrong': 145, 'kept': 71, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 71, 'original_target_correct_n': 71}, 'birthplace_rounded_lng': {'available': 216, 'original_correct': 46, 'original_wrong': 170, 'kept': 46, 'subset_seed': 7, 'target_changed_n': 0, 'assigned_target_correct_n': 46, 'original_target_correct_n': 46}}}
+trainable params: 64,225,280 || all params: 14,832,532,480 || trainable%: 0.4330
+  epoch 2 step 50/58 loss 0.206 (40s)
+training done in 46s
+
+====================================================================================================
+TARGET = SELF  (self_correct: frozen self outputs; gold-stratified mechanism diagnostic)
+
+[A_newPerson]  n=500  (both hops known by base model: 274)
+  composed accuracy      base  38.4%  ->  trained  44.8%   (fixed 52, broke 20, McNemar p = 0.00021)
+  composition gap        base  39.8%  ->  trained  28.1%   (lower is better)
+  hop-1 alone accuracy   base  80.6%  ->  trained  80.6%   (should not drop)
+  hop-2 alone accuracy   base  67.4%  ->  trained  68.0%   (should not drop)
+
+[B_newCategory]  n=500  (both hops known by base model: 278)
+  composed accuracy      base  44.6%  ->  trained  46.6%   (fixed 23, broke 13, McNemar p = 0.13)
+  composition gap        base  32.4%  ->  trained  28.4%   (lower is better)
+  hop-1 alone accuracy   base  74.8%  ->  trained  76.2%   (should not drop)
+  hop-2 alone accuracy   base  74.2%  ->  trained  74.0%   (should not drop)
+
+[C_bothNew]  n=500  (both hops known by base model: 322)
+  composed accuracy      base  49.6%  ->  trained  52.2%   (fixed 20, broke 7, McNemar p = 0.019)
+  composition gap        base  32.3%  ->  trained  28.0%   (lower is better)
+  hop-1 alone accuracy   base  83.8%  ->  trained  83.8%   (should not drop)
+  hop-2 alone accuracy   base  78.6%  ->  trained  77.4%   (should not drop)
+
+[logit lens, C_bothNew, n=200] bridge entity enters top-10 at layer (of 40):
+  base    : reaches top-10 in 0.74 of items, median first layer 33.0
+  trained : reaches top-10 in 0.74 of items, median first layer 33.0
+  per item: earlier after training 5, later 26, same 114 (sign test p = 0.00019)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.
+{'condition': 'self_wrong', 'subset': 'C_bothNew', 'metric': 'composed', 'accuracy_pct': {'values': [52.0, 51.2, 51.4], 'mean': 51.53333333333333, 'sample_sd': 0.41633319989322565, 'seed_mean_t95': [50.49910433078598, 52.56756233588068]}, 'gain_pp': {'values': [2.4, 1.6, 1.8], 'mean': 1.9333333333333333, 'sample_sd': 0.4163331998932265, 'seed_mean_t95': [0.8991043307859861, 2.9675623358806806]}}
+{'condition': 'shuffled_wrong', 'subset': 'C_bothNew', 'metric': 'composed', 'accuracy_pct': {'values': [9.0, 8.8, 8.4], 'mean': 8.733333333333334, 'sample_sd': 0.3055050463303892, 'seed_mean_t95': [7.974416726585441, 9.492249940081226]}, 'gain_pp': {'values': [-40.6, -40.8, -41.2], 'mean': -40.86666666666667, 'sample_sd': 0.30550504633039055, 'seed_mean_t95': [-41.62558327341456, -40.10775005991877]}}
+{'condition': 'self_correct', 'subset': 'C_bothNew', 'metric': 'composed', 'accuracy_pct': {'values': [52.2, 51.0, 52.2], 'mean': 51.800000000000004, 'sample_sd': 0.6928203230275526, 'seed_mean_t95': [50.07893890803549, 53.52106109196452]}, 'gain_pp': {'values': [2.6, 1.4, 2.6], 'mean': 2.2, 'sample_sd': 0.692820323027551, 'seed_mean_t95': [0.4789389080354898, 3.9210610919645106]}}
+{'condition': 'self_wrong', 'subset': 'C_bothNew', 'metric': 'hop1', 'accuracy_pct': {'values': [85.2, 83.4, 83.8], 'mean': 84.13333333333334, 'sample_sd': 0.9451631252505216, 'seed_mean_t95': [81.78541797005443, 86.48124869661225]}, 'gain_pp': {'values': [1.4, -0.4, 0.0], 'mean': 0.3333333333333333, 'sample_sd': 0.9451631252505216, 'seed_mean_t95': [-2.014582029945587, 2.681248696612254]}}
+{'condition': 'shuffled_wrong', 'subset': 'C_bothNew', 'metric': 'hop1', 'accuracy_pct': {'values': [55.6, 40.0, 63.4], 'mean': 53.0, 'sample_sd': 11.914696806885184, 'seed_mean_t95': [23.402252336832174, 82.59774766316782]}, 'gain_pp': {'values': [-28.2, -43.8, -20.4], 'mean': -30.799999999999997, 'sample_sd': 11.914696806885184, 'seed_mean_t95': [-60.39774766316782, -1.2022523368321707]}}
+{'condition': 'self_correct', 'subset': 'C_bothNew', 'metric': 'hop1', 'accuracy_pct': {'values': [86.0, 83.6, 83.8], 'mean': 84.46666666666667, 'sample_sd': 1.3316656236958813, 'seed_mean_t95': [81.15862587127779, 87.77470746205555]}, 'gain_pp': {'values': [2.2, -0.2, 0.0], 'mean': 0.6666666666666667, 'sample_sd': 1.3316656236958786, 'seed_mean_t95': [-2.6413741287221972, 3.9747074620555303]}}
+{'condition': 'self_wrong', 'subset': 'C_bothNew', 'metric': 'hop2', 'accuracy_pct': {'values': [78.0, 78.8, 78.0], 'mean': 78.26666666666667, 'sample_sd': 0.461880215351699, 'seed_mean_t95': [77.119292605357, 79.41404072797633]}, 'gain_pp': {'values': [-0.6, 0.2, -0.6], 'mean': -0.3333333333333333, 'sample_sd': 0.4618802153517006, 'seed_mean_t95': [-1.4807073946430065, 0.81404072797634]}}
+{'condition': 'shuffled_wrong', 'subset': 'C_bothNew', 'metric': 'hop2', 'accuracy_pct': {'values': [72.0, 70.4, 74.6], 'mean': 72.33333333333333, 'sample_sd': 2.1197484127446136, 'seed_mean_t95': [67.0675863616135, 77.59908030505316]}, 'gain_pp': {'values': [-6.6, -8.2, -4.0], 'mean': -6.266666666666667, 'sample_sd': 2.119748412744619, 'seed_mean_t95': [-11.532413638386512, -1.0009196949468224]}}
+{'condition': 'self_correct', 'subset': 'C_bothNew', 'metric': 'hop2', 'accuracy_pct': {'values': [78.6, 75.8, 77.4], 'mean': 77.26666666666667, 'sample_sd': 1.4047538337136976, 'seed_mean_t95': [73.77706469248137, 80.75626864085196]}, 'gain_pp': {'values': [0.0, -2.8, -1.2], 'mean': -1.3333333333333333, 'sample_sd': 1.4047538337136984, 'seed_mean_t95': [-4.82293530751862, 2.1562686408519527]}}

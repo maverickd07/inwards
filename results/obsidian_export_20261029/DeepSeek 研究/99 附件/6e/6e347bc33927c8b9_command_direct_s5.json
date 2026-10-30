@@ -1,0 +1,15 @@
+[
+  "/home/3355245/.conda/envs/inward/bin/python",
+  "-u",
+  "/mnt/beegfsstudents/home/3355245/inward/results/exp13_musique_transfer_20261015/infer.py",
+  "--model",
+  "models/Qwen3-14B",
+  "--queries",
+  "results/exp13_musique_transfer_20261015/runs_701955/inputs/queries.jsonl",
+  "--out",
+  "results/exp13_musique_transfer_20261015/runs_701955/direct_s5",
+  "--name",
+  "direct_s5",
+  "--adapter",
+  "results/exp12_matched785_20261015/runs_701792/direct_s5/adapter"
+]

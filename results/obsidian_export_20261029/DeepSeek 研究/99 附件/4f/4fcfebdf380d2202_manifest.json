@@ -1,0 +1,38 @@
+{
+  "dataset": "MuSiQue-Ans v1.0 dev",
+  "upstream": {
+    "repository": "https://github.com/StonyBrookNLP/musique",
+    "commit": "922ac98f19a201998dbdae6d7f2887a5258dbdeb"
+  },
+  "raw_dev_sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+  "raw_zip_sha256": "98f839bf2fd5319f5c688aed77901a6d5c30b3b9f9f691ab9a8ecafb045ee0cd",
+  "raw_train_sha256": "83a75b1e11e4e9bb8f8308e72ac40ca617ae4431b3a0d955b61cab259248490a",
+  "official_alias_source_sha256": "4cf3863daf437d7de43e9f8723b3c2c2923ffbef44737c3fd383d26291bb3e1e",
+  "original_dev_n": 2417,
+  "original_hops": {
+    "2": 1252,
+    "3": 760,
+    "4": 405
+  },
+  "retained_n": 2385,
+  "retained_by_hop": {
+    "2": 1229,
+    "3": 751,
+    "4": 405
+  },
+  "excluded_n": 32,
+  "exclusion_reasons": {
+    "exact_name_overlap_with_matched785_training_people": 20,
+    "duplicate_normalized_composed_question_exclude_entire_group": 12
+  },
+  "matched785_train_sha256": "fd7484c7928794e6647ab62d42575be8a4ae8ece5ed3e353339e0af833782ef8",
+  "deduplicated_inference_queries_per_model": 5176,
+  "composed_records_per_model": 2385,
+  "hop_records_per_model": 6331,
+  "model_count": 13,
+  "total_main_inference_queries": 67288,
+  "timing_queries_baseline_only": 64,
+  "selection_uses_model_predictions": false,
+  "known_overlap_limit": "Exact training-person names only. Does not establish entity-disjointness for aliases or absence of pretraining contamination.",
+  "hop_alias_policy": "Canonical answer plus upstream single-hop aliases occurring in that hop supporting paragraph. Hop diagnostic only; composed scoring uses official released answer_aliases exactly."
+}

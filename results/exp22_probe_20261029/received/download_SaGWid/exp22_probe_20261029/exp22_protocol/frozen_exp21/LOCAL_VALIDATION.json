@@ -1,0 +1,38 @@
+{
+  "real_pretrained_qwen3_06b_10_items_passed": true,
+  "smoke_model": "Qwen/Qwen3-0.6B pretrained official weights",
+  "smoke_dtype": "float32",
+  "smoke_device": "cpu",
+  "decoder_layers": 28,
+  "hook_positions_per_row": 29,
+  "items": 10,
+  "rows": 20,
+  "all20_final_top1_verified": true,
+  "finite_ranks_and_first_top10_recomputed": true,
+  "frozen_exp19_scoring_and_roster_identical": true,
+  "full_analysis_and_plots_passed": true,
+  "unit_tests_passed": true,
+  "synthetic_statistical_branch_checks_passed": true,
+  "formal_hpc_submitted": false,
+  "hpc_upload_and_submission_by": "user; no bridge",
+  "source_sha256": {
+    "run.py": "02396dffe49f856155a284281249b8e79da2c93fcd42f3f122e2cc7ea00b1542",
+    "analyze.py": "8e10d5bdf974845bdf8456c014435e1350614f2e819f2cb6e1b081f7832eb3fd",
+    "scoring.py": "c4ef8b95bc617595ac24b523bc88ec4f5e045870e45f64f9393809de2dd3609b",
+    "PREREGISTRATION.txt": "fe3d28226d7b7e0debfc848303eacbb5daa8da18caaf5d8e81c6df2de2980216"
+  },
+  "smoke_output_sha256": {
+    "summary.json": "88a1cba6587682bdb717b25dc298ae8c97db6ad219516b7fa6673cc37b32b6eb",
+    "base_model_config.json": "bdffe5efffb007cd17f2ca12816362ffbc32ebc136fff7cecfcf4ebc6f3523f8",
+    "prompts.jsonl": "5e4c9ed94298a94b40bb2d913924383996c8480099e995cdac873a5a2f945342",
+    "config.json": "75c0579a0b0731c966cf3a51c78691b1cc7f7af1d19c2d1e7d4d052cc624f6e3",
+    "distribution_D500_known313_base_C2.png": "7436a1caa1df0054383669a3f38db298ab11fcbaa1d5c62577b777dda0502d90",
+    "distribution_D500_known313_base_C0.png": "738e46048514ee2321d1c32eed8db33b7cda31a89039319140592d5ce6c91630",
+    "complete.json": "1c61b34c684fffbc3aa47dd3fe3768dd26e35e9de4e5e2c1df2783cd95682328",
+    "report.txt": "d9b810fce5e239a47a2d43fcd728bfa1eb03293118914d6cc6af178e54590395",
+    "per_item.jsonl": "15a54415d217709696d00400b38dad38cb635a03bc0ee2f4ef8103afb85dfa20",
+    "distribution_fixed303_base_C2.png": "f20d7faf72285d43911610518309302b9831f35becbde6ae4d4a99dc2621c314",
+    "distribution_fixed303_base_C0.png": "4529ca6863e287422169416fead59a43e7690f6363b4c18d5dbf6ac985f10be9"
+  },
+  "note": "Initial full smoke local_smoke_01 passed. Final runner smoke local_smoke_final passed. Final plotting/report changes were validated by rerunning analysis on preserved final raw outputs; model/hook implementation unchanged."
+}

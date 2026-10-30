@@ -1,0 +1,13 @@
+{
+  "model": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/local_validation_v2/tiny_model",
+  "torch": "2.14.1",
+  "transformers": "5.19.0",
+  "device": "cpu",
+  "model_config_sha256": "172ddd4fcb3929970416d97430d1ef29eb4fd7a8d78dd56ef07c7b97118a5b45",
+  "generation_batch": 8,
+  "max_new_tokens": 24,
+  "parameter_count": 12864,
+  "all_parameters_frozen": true,
+  "package_freeze_sha256": "d6138e8c55204569021bc462a86edf89fff364d996c8462772ab687d0ba5e958",
+  "smoke_test": true
+}

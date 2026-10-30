@@ -1,0 +1,59 @@
+{
+  "job_id": "700972",
+  "complete": {
+    "training_runs": 6,
+    "added_seeds": [
+      3,
+      4,
+      5
+    ],
+    "primary_split": "D_reservedC",
+    "smoke_test": false,
+    "seconds": 2591.209678173065,
+    "baseline_regenerated": false,
+    "targets_regenerated": false,
+    "new_scorer_applied": false,
+    "next_experiment_authorized": false
+  },
+  "source_files_matched": 39,
+  "package_files_matched": [
+    "exp12_v1.py",
+    "engine_exp11_v1.py",
+    "exp1_gap_v2_v1.py",
+    "scoring_v2_v1.py",
+    "reuse.py",
+    "train_seed.py",
+    "run_pipeline.py",
+    "summarize.py",
+    "pack_review.py",
+    "preflight.py",
+    "preflight_v1.py",
+    "submit.sh",
+    "submit_v1.sh",
+    "run_exp12.sh",
+    "run_exp12_v1.sh",
+    "source_700454_manifest.json",
+    "input_hashes.json",
+    "PROTOCOL.txt",
+    "HPC_COMMANDS.txt",
+    "LOCAL_VERIFICATION.json",
+    "test_integrity.py",
+    "build_package.py"
+  ],
+  "all_six_budgets_and_losses_checked": true,
+  "training_examples_identical_to_original_condition": true,
+  "runtime_matches_700454": true,
+  "paired_initializations_and_six_distinct_seeds": true,
+  "D_count": 500,
+  "prediction_files_verified": 13,
+  "primary_and_hop_labels_recomputed": 19500,
+  "legacy_composed_labels_recomputed": 6500,
+  "all_report_values_recomputed": true,
+  "intervals_independently_checked_with_scipy": true,
+  "new_scorer_applied": false,
+  "limitations": [
+    "Adapter weights excluded from download; their recorded hashes were not rechecked against binaries locally.",
+    "No final sacct export in archive; computation completion marker and successful final log verified.",
+    "Saved token likelihoods were not rerun on the 14B model."
+  ]
+}

@@ -1,0 +1,66 @@
+exp21+exp22 one Slurm job — USER uploads/submits; no Codex HPC bridge.
+No formal job has been submitted locally. Do not invent a job ID.
+Requires >=14 GiB CURRENT FREE ACCOUNT QUOTA, not just filesystem df space.
+Raw cache: 10,084,556,800 bytes =9.392 GiB + npy headers. Five model files,
+2.017 GB (1.878GiB) each. Tables/predictions/plots additional; no new model weights.
+Review archive excludes large npy files; all caches retained/checksummed on HPC.
+One A100/8CPU/64GB, 12h ceiling (not a runtime estimate or guaranteed queue limit).
+exp21 runs first under6h timeout, byte-identical frozen code/protocol; exp22 second.
+If site disallows12h, stop and report scheduler response; no automatic split/rerun.
+
+1. Mac terminal on campus network/VPN:
+(
+set -e
+local_dir='/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp22_probe_20261029'
+remote='3355245@slogin.hpc.unibocconi.it'
+ssh "$remote" 'cd ~/inward && mkdir results/exp22_probe_20261029'
+scp "$local_dir/exp21_exp22_upload.tgz" "$local_dir/exp21_exp22_upload.tgz.sha256" "$remote:~/inward/results/exp22_probe_20261029/"
+)
+If mkdir says directory exists, inspect first; do not overwrite or resubmit.
+
+2. Authenticated HPC terminal: lightweight checks only.
+cd ~/inward/results/exp22_probe_20261029
+sha256sum -c exp21_exp22_upload.tgz.sha256
+tar --keep-old-files --strip-components=1 -xzf exp21_exp22_upload.tgz
+sha256sum -c SHA256SUMS
+lquota
+# Read actual account remaining quota. Example ONLY if it really is15.2 GiB:
+# bash submit.sh 15.2
+# Run bash submit.sh YOUR_ACTUAL_AVAILABLE_GIB; less than14 aborts without submission.
+# No login-node inference/training. No deletion/cleanup scripted.
+
+submit.sh checks smoke, dependencies/files, old receipts and job counts; refuses
+>=2 queued/running; adds afterany if1 existing job. Both experiments run in SAME
+allocation. Upload contains byte-identical relocated exp21 source/inputs/smoke
+seal. Output exp21 stays at ~/inward/results/exp21_latent_emergence_20261022/runs_JOB.
+exp22 output stays in exp22/runs_JOB. No independent exp21 submission.
+
+3. After actual sbatch receipt:
+cd ~/inward/results/exp22_probe_20261029
+job=$(cut -d';' -f1 submitted_job.txt)
+squeue -j "$job"
+sacct -j "$job" --format=JobID,State,ExitCode,Elapsed
+ tail -n 40 "combined-${job}.out"
+cat "runs_${job}/complete.json"
+cat "runs_${job}/report.txt"
+# Share submitted_job.txt and terminal receipt for Codex to report actual job ID.
+# COMPLETED alone is not sufficient: both complete.json and both archives required.
+
+4. Mac terminal after completion, compact results only:
+(
+set -e
+remote='3355245@slogin.hpc.unibocconi.it'
+experiment_dir='results/exp22_probe_20261029'
+job=$(ssh "$remote" "cut -d';' -f1 ~/inward/$experiment_dir/submitted_job.txt")
+local_root='/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp22_probe_20261029'
+mkdir -p "$local_root/received"
+dest=$(mktemp -d "$local_root/received/download_XXXXXX")
+for experiment in exp21_latent_emergence_20261022 exp22_probe_20261029; do
+ mkdir "$dest/$experiment"
+ scp "$remote:~/inward/results/$experiment/runs_${job}_review.tgz" "$remote:~/inward/results/$experiment/runs_${job}_review.tgz.sha256" "$dest/$experiment/"
+ (cd "$dest/$experiment" && shasum -a 256 -c "runs_${job}_review.tgz.sha256" && tar --keep-old-files -xzf "runs_${job}_review.tgz")
+done
+scp "$remote:~/inward/$experiment_dir/submitted_job.txt" "$remote:~/inward/$experiment_dir/combined-${job}.out" "$dest/"
+echo "$dest"
+)
+Activations remain remote. Download separately only when needed; no cache deletion.

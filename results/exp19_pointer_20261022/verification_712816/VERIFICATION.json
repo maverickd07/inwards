@@ -1,0 +1,87 @@
+{
+  "download_archive_sha256": "8527973e91df7131543071f9dcebf7818658f0defb707caf5d4a951d84add02e",
+  "all_extracted_files_match_archive": true,
+  "all_51_local_frozen_package_files_match": true,
+  "configuration_and_preregistration_match": true,
+  "complete_unique_generations": 2010,
+  "complete_unique_questions": 402,
+  "all_scored_rows_reproduce_exactly": true,
+  "all_402_prompt_length_pairs_match": true,
+  "truncated_generations": 0,
+  "all_generated_token_counts_match": true,
+  "full_summary_and_20000_bootstrap_reproduce_exactly": true,
+  "descriptive_posthoc_strata_and_C2_cross_tabs": {
+    "D500_known313": {
+      "n": 313,
+      "C0_failure_n": 105,
+      "accuracy": {
+        "C0": 0.6645367412140575,
+        "C1": 0.6996805111821086,
+        "C1-ctrl": 0.6932907348242812,
+        "C2": 0.8881789137380192,
+        "C3": 0.8849840255591054
+      },
+      "C2_on_C0_failures_country_by_final": {
+        "correct_country_correct_final": 79,
+        "wrong_country_wrong_final": 16,
+        "correct_country_wrong_final": 10
+      }
+    },
+    "fixed303": {
+      "n": 303,
+      "C0_failure_n": 100,
+      "accuracy": {
+        "C0": 0.66996699669967,
+        "C1": 0.6765676567656765,
+        "C1-ctrl": 0.6798679867986799,
+        "C2": 0.7788778877887789,
+        "C3": 0.8745874587458746
+      },
+      "C2_on_C0_failures_country_by_final": {
+        "wrong_country_wrong_final": 39,
+        "correct_country_correct_final": 43,
+        "correct_country_wrong_final": 16,
+        "unknown_country_wrong_final": 1,
+        "wrong_country_correct_final": 1
+      }
+    },
+    "posthoc_fixed303_exp1_known214": {
+      "n": 214,
+      "C0_failure_n": 44,
+      "accuracy": {
+        "C0": 0.794392523364486,
+        "C1": 0.8130841121495327,
+        "C1-ctrl": 0.8084112149532711,
+        "C2": 0.9299065420560748,
+        "C3": 0.9626168224299065
+      },
+      "C2_on_C0_failures_country_by_final": {
+        "wrong_country_wrong_final": 10,
+        "correct_country_correct_final": 31,
+        "correct_country_wrong_final": 3
+      }
+    },
+    "posthoc_fixed303_not_exp1_known89": {
+      "n": 89,
+      "C0_failure_n": 56,
+      "accuracy": {
+        "C0": 0.3707865168539326,
+        "C1": 0.34831460674157305,
+        "C1-ctrl": 0.3707865168539326,
+        "C2": 0.4157303370786517,
+        "C3": 0.6629213483146067
+      },
+      "C2_on_C0_failures_country_by_final": {
+        "correct_country_correct_final": 12,
+        "wrong_country_wrong_final": 29,
+        "correct_country_wrong_final": 13,
+        "unknown_country_wrong_final": 1,
+        "wrong_country_correct_final": 1
+      }
+    }
+  },
+  "summed_generation_seconds": 308.60753441788256,
+  "review_unresolved_n": 133,
+  "review_unique_raw_answers": 76,
+  "slurm_final_state": "NOT independently verified: downloaded archive has no sacct output or Slurm stdout"
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q1",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q1",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q1",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q1",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "smoke30",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  }
+]

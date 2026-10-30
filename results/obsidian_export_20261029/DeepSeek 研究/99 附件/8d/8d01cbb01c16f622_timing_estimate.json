@@ -1,0 +1,11 @@
+{
+  "baseline_timing": {
+    "queries": 64,
+    "seconds": 8.708824157714844,
+    "purpose": "Throughput only; no reference scoring, selection or parameter tuning"
+  },
+  "baseline_full_seconds": 458.9053478240967,
+  "remaining12_generation_seconds_linear_estimate": 5506.86417388916,
+  "excludes": "future model loading, adapter overhead, scheduler and varying output lengths",
+  "policy": "Timing only. No data/prompt/scoring changes or extra runs."
+}

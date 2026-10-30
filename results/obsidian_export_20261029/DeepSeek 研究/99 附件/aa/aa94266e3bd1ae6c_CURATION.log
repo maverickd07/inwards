@@ -1,0 +1,20 @@
+Prerequisite public-source collections complete; starting fixed curation.
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 268, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/curate_review_v5.py", line 140, in <module>
+    if __name__=='__main__':main()
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/curate_review_v5.py", line 19, in main
+    ens=json.loads((P/'PERSON_ENTITIES.json').read_text());locs=json.loads((P/'LOCATION_ENTITIES.json').read_text());enum=json.loads((P/'CANDIDATE_ENUMERATION.json').read_text());original=json.loads((P/'ORIGINAL_ID_RESOLUTION.json').read_text());resolved={**original['resolved'],**json.loads((P/'IDENTITY_SUPPLEMENT.json').read_text())};ens.update(json.loads((P/'IDENTITY_SUPPLEMENT_ENTITIES.json').read_text()))
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 11718796 column 35 (char 367505599)

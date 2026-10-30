@@ -1,0 +1,5 @@
+{
+  "train_seed": 5,
+  "lora_initial_sha256": "0acf7e8e59bab34aefee0c9d84e1f08ebc59e05db532bb9b047592e344655ace",
+  "continued_from": null
+}

@@ -1,0 +1,8 @@
+{
+  "training_runs": 6,
+  "smoke_test": true,
+  "primary_split": "D_reservedC",
+  "seconds": 23.38773512840271,
+  "manual_flip_review": "pending",
+  "next_experiment_authorized": false
+}

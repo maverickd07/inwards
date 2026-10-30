@@ -1,0 +1,10 @@
+{
+  "auroc": 0.7215574803571907,
+  "n_scored": 864,
+  "n_correct": 445,
+  "n_kept": 864,
+  "keep_top": 1.0,
+  "score_definition": "mean raw log P of nonspecial greedy continuation tokens, conditioned on self context; EOS excluded",
+  "selection_uses_gold": false,
+  "selection": "confidence"
+}

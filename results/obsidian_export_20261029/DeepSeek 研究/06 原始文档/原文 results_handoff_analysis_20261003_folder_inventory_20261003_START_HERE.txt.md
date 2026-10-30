@@ -1,0 +1,80 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_handoff_analysis_20261003_folder_inventory_20261003_START_HERE.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/48/48da22ff7fa8c142_START_HERE.txt|START_HERE.txt]]
+
+Deepseek-猜想实验：文件导航
+扫描日期：2026-10-03。未移动、删除或覆盖原文件。
+
+先看哪里
+1. INWARD_HANDOFF.md：研究交接、旧实验结论和工作规范。训练等旧结果并未全部从本地原文件复核。
+2. inward/data/compositional_celebrities.json：原始题目、标准答案、人物及国家属性。
+3. inward/results/exp1v2_Qwen3-{0.6B,1.7B,8B,14B}/：四个规模的原始组合缺口结果；每组 items.jsonl 是逐题记录，summary.json 是旧评分摘要。
+4. inward/results/lens_Qwen3-14B/：初版逻辑透镜原始结果。
+5. inward/results/handoff_analysis_20261003/analysis_outputs/：120 道失败题审核结果；failures_120_labeled.csv、label_by_category.csv、label_summary.json。
+6. results/handoff_analysis_20261003/tasks56_verified/：任务5/6的最终核对版本。
+   gap_comparison.csv：每个规模/类别的新旧缺口与分母。
+   automatic_818.csv：全部818道原评分失败题的规则证据。
+   confusion_120.json：规则与120道审核标签的对比。
+   rescored_*.jsonl：逐题重新评分；score_changes.csv：发生变化的评分。
+7. results/handoff_analysis_20261003/exp8_680959/analysis/：真实14B exp8任务680959分析。
+   summary.json：三种子均值、标准差、配对比较及限制。
+   per_run.csv：每个设置、种子、A/B/C的结果。
+   training_quality.csv：筛选后目标数量与正确率。
+   training_categories.csv：筛选造成的类别比例变化及类别内AUROC。
+   target_numeric_sensitivity.json：目标诊断的数字评分敏感性。
+8. results/handoff_analysis_20261003/exp8_680959/results/filtered_680959/：真实exp8原始文件，15个运行目录；下载包不含adapter权重。
+9. results/handoff_analysis_20261003/exp9_shuffled/：exp9代码、冻结目标、exp8参考题和HPC上传包；本地尚无真实exp9 HPC结果。
+   exp9_shuffled.py：训练/评估主程序。
+   exp9_plan.py：类别内打乱与筛选规则。
+   run_exp9_shuffled.sh：HPC串行12次训练与自动分析。
+   analyze_exp9.py：三种子统计和配对检验。
+   exp9_upload.tgz：上传用包。
+   frozen_targets.jsonl：来自exp8的冻结self目标，没有gold诊断字段。
+   reference_exp8/：确保评估题目与exp8一致的参考文件。
+   protocol.json：配置、检验、文件哈希和限制。
+   allocation_preflight.json：打乱与筛选前置诊断，不是训练效果。
+
+为什么现在看起来乱
+A. 根目录与 inward/ 各有一套早期脚本、日志、结果；不是所有同名脚本都相同。
+B. 有两个 handoff_analysis_20261003：一个在 inward/results/，另一个在根目录 results/。
+   前者主要保存任务2和exp8代码；后者保存任务5/6、exp8真实分析和exp9。
+C. 真正的HPC结果与随机小模型 smoke 测试同时保留。
+D. 完整下载包、解压结果、复现输出都存在，因此会出现重复文件。
+
+已逐文件哈希确认的重复
+- 根目录与 inward/ 的 exp1_gap.py、exp1_gap_v2.py、commands_history.txt 相同。
+- 根目录 results/ 与 inward/results/ 下共同存在的5个早期实验目录，内部文件均相同：
+  exp1_Qwen3-0.6B、exp1_Qwen3-1.7B、exp1v2_Qwen3-0.6B、exp1v2_Qwen3-1.7B、exp1v2_Qwen3-8B。
+- 根目录与 inward/ 的 exp2_lens.py、run_exp1.sh、run_exp1_v2.sh 不同，不能当作重复删除。
+
+历史/测试文件：不用作为科学结果阅读
+- 所有 smoke*：随机小Qwen3流程验证，不是真实模型效果。
+- exp9_shuffled/smoke_runs/：首轮小模型测试，基座随种子变化，汇总验证失败；保留诊断记录。
+- exp9_shuffled/smoke_analysis/：首轮验证失败留下的空目录。
+- exp9_shuffled/smoke_runs_verified/：固定随机基座后的完整12次小模型测试。
+- exp9_shuffled/smoke_analysis_final/：最终小模型统计流程验证版本。
+- exp9_shuffled/smoke_analysis_verified/：此前的小模型分析快照。
+- tasks56_outputs/：初版分析；最终使用 tasks56_verified/，两者结果存在差异。
+- inward/results/handoff_analysis_20261003/verified_analysis/：任务2复现及任务1/3缺失状态检查；不是训练结果。
+- *_v1.py：原脚本备份，不是默认新实验入口。
+- *.tgz：上传/下载快照；不需要作为结果文件直接阅读。
+
+仍缺什么
+- 旧 exp6 的 inward_self、inward_self_s1、inward_gold、inward_hops 四组原始A/B/C评估文件尚未在本地发现。
+- 旧回填、门控和修正版透镜的结果目录未在本地发现，相关结论目前来自交接报告。
+- exp9真实HPC结果尚未下载到本地。
+
+建议阅读顺序
+INWARD_HANDOFF.md → tasks56_verified/gap_comparison.csv → exp8_680959/analysis/summary.json → exp9_shuffled/protocol.json。
+详细路径见旁边的 FILE_TREE.txt。以后下载新结果，目录树需要重新扫描。
+
+
+返回 [[00 研究首页]]

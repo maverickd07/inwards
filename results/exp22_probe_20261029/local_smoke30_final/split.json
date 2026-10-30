@@ -1,0 +1,37 @@
+{
+  "train_groups": [
+    "alef manga",
+    "alex pereira",
+    "allan nascimento",
+    "daiane muniz dos santos",
+    "danilo soares",
+    "emilia orozco",
+    "horacio cifuentes",
+    "juan pablo cozzani",
+    "kariane bourassa",
+    "madwa-nika cadet",
+    "matthew mullins",
+    "maïté blanchette vézina",
+    "natan carneiro de lima",
+    "nicole muñoz",
+    "rashid",
+    "robbie graham-kuntz",
+    "rodrigo castillo",
+    "rodrigo isgro",
+    "sean mcintosh",
+    "ulises sánchez",
+    "yael falcón"
+  ],
+  "test_groups": [
+    "audrey bogemans",
+    "carisa hendrix",
+    "diego castro",
+    "fernanda alegre",
+    "fábio aguiar",
+    "juan ignacio saborido",
+    "lucas moraes",
+    "matías lisandro mansilla",
+    "paul anthony kelly"
+  ],
+  "seed": 22
+}

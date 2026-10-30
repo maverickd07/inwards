@@ -1,0 +1,182 @@
+[
+  {
+    "split": "C_bothNew",
+    "category": "birthplace_ccn3",
+    "n": 92,
+    "baseline_pct": 6.521739130434782,
+    "context_gain_pp_by_seed": [
+      -1.0869565217391304,
+      1.0869565217391304,
+      2.1739130434782608
+    ],
+    "context_mean_gain_pp": 0.7246376811594203,
+    "direct_gain_pp_by_seed": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "direct_mean_gain_pp": 0.0
+  },
+  {
+    "split": "C_bothNew",
+    "category": "birthplace_currency",
+    "n": 101,
+    "baseline_pct": 43.56435643564357,
+    "context_gain_pp_by_seed": [
+      3.9603960396039604,
+      3.9603960396039604,
+      5.9405940594059405
+    ],
+    "context_mean_gain_pp": 4.62046204620462,
+    "direct_gain_pp_by_seed": [
+      0.0,
+      -0.9900990099009901,
+      -0.9900990099009901
+    ],
+    "direct_mean_gain_pp": -0.6600660066006601
+  },
+  {
+    "split": "C_bothNew",
+    "category": "birthplace_currency_short",
+    "n": 111,
+    "baseline_pct": 68.46846846846847,
+    "context_gain_pp_by_seed": [
+      2.7027027027027026,
+      1.8018018018018018,
+      4.504504504504505
+    ],
+    "context_mean_gain_pp": 3.003003003003003,
+    "direct_gain_pp_by_seed": [
+      0.9009009009009009,
+      0.0,
+      0.0
+    ],
+    "direct_mean_gain_pp": 0.3003003003003003
+  },
+  {
+    "split": "C_bothNew",
+    "category": "birthplace_currency_symbol",
+    "n": 95,
+    "baseline_pct": 57.89473684210527,
+    "context_gain_pp_by_seed": [
+      4.2105263157894735,
+      0.0,
+      3.1578947368421053
+    ],
+    "context_mean_gain_pp": 2.456140350877193,
+    "direct_gain_pp_by_seed": [
+      0.0,
+      -1.0526315789473684,
+      -1.0526315789473684
+    ],
+    "direct_mean_gain_pp": -0.7017543859649122
+  },
+  {
+    "split": "C_bothNew",
+    "category": "birthplace_tld",
+    "n": 101,
+    "baseline_pct": 68.31683168316832,
+    "context_gain_pp_by_seed": [
+      8.910891089108912,
+      2.9702970297029703,
+      6.930693069306931
+    ],
+    "context_mean_gain_pp": 6.270627062706271,
+    "direct_gain_pp_by_seed": [
+      0.9900990099009901,
+      0.0,
+      -0.9900990099009901
+    ],
+    "direct_mean_gain_pp": 0.0
+  },
+  {
+    "split": "D_reservedC",
+    "category": "birthplace_ccn3",
+    "n": 103,
+    "baseline_pct": 12.62135922330097,
+    "context_gain_pp_by_seed": [
+      -3.883495145631068,
+      -5.825242718446602,
+      1.941747572815534
+    ],
+    "context_mean_gain_pp": -2.588996763754045,
+    "direct_gain_pp_by_seed": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "direct_mean_gain_pp": 0.0
+  },
+  {
+    "split": "D_reservedC",
+    "category": "birthplace_currency",
+    "n": 104,
+    "baseline_pct": 36.53846153846153,
+    "context_gain_pp_by_seed": [
+      10.576923076923077,
+      6.730769230769231,
+      11.538461538461538
+    ],
+    "context_mean_gain_pp": 9.615384615384615,
+    "direct_gain_pp_by_seed": [
+      0.9615384615384616,
+      -0.9615384615384616,
+      1.9230769230769231
+    ],
+    "direct_mean_gain_pp": 0.6410256410256411
+  },
+  {
+    "split": "D_reservedC",
+    "category": "birthplace_currency_short",
+    "n": 93,
+    "baseline_pct": 64.51612903225806,
+    "context_gain_pp_by_seed": [
+      3.225806451612903,
+      5.376344086021505,
+      6.451612903225806
+    ],
+    "context_mean_gain_pp": 5.017921146953404,
+    "direct_gain_pp_by_seed": [
+      1.075268817204301,
+      2.150537634408602,
+      2.150537634408602
+    ],
+    "direct_mean_gain_pp": 1.7921146953405016
+  },
+  {
+    "split": "D_reservedC",
+    "category": "birthplace_currency_symbol",
+    "n": 93,
+    "baseline_pct": 58.06451612903226,
+    "context_gain_pp_by_seed": [
+      -1.075268817204301,
+      0.0,
+      1.075268817204301
+    ],
+    "context_mean_gain_pp": 0.0,
+    "direct_gain_pp_by_seed": [
+      1.075268817204301,
+      0.0,
+      -1.075268817204301
+    ],
+    "direct_mean_gain_pp": 0.0
+  },
+  {
+    "split": "D_reservedC",
+    "category": "birthplace_tld",
+    "n": 107,
+    "baseline_pct": 73.83177570093457,
+    "context_gain_pp_by_seed": [
+      3.7383177570093458,
+      2.803738317757009,
+      4.672897196261682
+    ],
+    "context_mean_gain_pp": 3.7383177570093458,
+    "direct_gain_pp_by_seed": [
+      0.0,
+      -0.9345794392523364,
+      -0.9345794392523364
+    ],
+    "direct_mean_gain_pp": -0.6230529595015576
+  }
+]

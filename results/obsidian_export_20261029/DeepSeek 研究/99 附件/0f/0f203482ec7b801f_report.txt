@@ -1,0 +1,26 @@
+COMPLETE: six added fits (3,4,5 x context/direct); D=2
+Original frozen scorer only; baseline and targets reused; no regeneration.
+Seed intervals are across fits; not independent question replications.
+Baseline: {'composed_ok': 0, 'q1_ok': 0, 'q2_ok': 0}
+Per-seed accuracy (%):
+seed=0 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=0 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=1 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=1 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=2 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=2 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=3 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=3 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=4 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=4 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=5 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=5 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+original_012 composed_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+original_012 q1_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+original_012 q2_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+added_345 composed_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+added_345 q1_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+added_345 q2_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+all_012345 composed_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+all_012345 q1_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+all_012345 q2_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]

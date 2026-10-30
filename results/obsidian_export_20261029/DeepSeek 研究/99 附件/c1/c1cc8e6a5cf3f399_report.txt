@@ -1,0 +1,32 @@
+exp19 pointer — Qwen3-14B inference results
+Paired question bootstrap B=20000, seed=20261022. No ratio clipping.
+Country errors: final-only conditions are unobservable (NA); proxy is answer consistency, not causal evidence.
+Historical currency is incorrect; REVIEW primary=incorrect. Reference snapshot discrepancies=31.
+
+D500_known313: n=313, C0 failures=105
+C3-C0=0.220447, 95% CI=[0.1693290734824281, 0.2747603833865815]; nonpositive bootstrap denominators=0.0000%
+C0: accuracy=66.4537% (208/313), 95% CI=[0.6134185303514377, 0.7156549520766773]; recovery=0.0, 95% CI=[0.0, 0.0]; historical=10, review=35, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.38095238095238093
+C1: accuracy=69.9681% (219/313), 95% CI=[0.6485623003194888, 0.7507987220447284]; recovery=0.15942028985507253, 95% CI=[0.016393442622950463, 0.2911524261603366]; historical=13, review=25, repairs=19, regressions=8; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.34285714285714286
+C1-ctrl: accuracy=69.3291% (217/313), 95% CI=[0.6421725239616614, 0.744408945686901]; recovery=0.13043478260869584, 95% CI=[-0.013888888888888588, 0.26388888888888895]; historical=10, review=33, repairs=17, regressions=8; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.3238095238095238
+C2: accuracy=88.8179% (278/313), 95% CI=[0.853035143769968, 0.9233226837060703]; recovery=1.0144927536231887, 95% CI=[0.8404148936170215, 1.2318905279503098]; historical=7, review=6, repairs=79, regressions=9; on C0 failures explicit wrong-country=0.1523809523809524, unknown=0, proxy=0.1523809523809524
+C3: accuracy=88.4984% (277/313), 95% CI=[0.8498402555910544, 0.9201277955271565]; recovery=1.0, 95% CI=[1.0, 1.0]; historical=7, review=19, repairs=79, regressions=10; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.02857142857142857
+C1 minus control: {"accuracy_difference": 0.006389776357827448, "accuracy_difference_ci95": [-0.025559105431309903, 0.0383386581469648], "recovery_difference": 0.028985507246376687, "recovery_difference_ci95": [-0.11475409836065555, 0.1730769230769226]}
+Prediction point threshold plus control: False
+Strong selection-consistent support: False
+Low recovery threshold support: False
+All REVIEW-correct sensitivity: {"C0": {"accuracy": 0.7763578274760383, "recovery": 0.0}, "C1": {"accuracy": 0.7795527156549521, "recovery": 0.018867924528302136}, "C1-ctrl": {"accuracy": 0.7987220447284346, "recovery": 0.13207547169811362}, "C2": {"accuracy": 0.9073482428115016, "recovery": 0.7735849056603776}, "C3": {"accuracy": 0.9456869009584664, "recovery": 1.0}}
+
+fixed303: n=303, C0 failures=100
+C3-C0=0.204620, 95% CI=[0.1551155115511551, 0.2541254125412542]; nonpositive bootstrap denominators=0.0000%
+C0: accuracy=66.9967% (203/303), 95% CI=[0.6171617161716172, 0.7227722772277227]; recovery=0.0, 95% CI=[0.0, 0.0]; historical=6, review=4, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.65
+C1: accuracy=67.6568% (205/303), 95% CI=[0.6237623762376238, 0.7293729372937293]; recovery=0.03225806451612887, 95% CI=[-0.10169491525423736, 0.1551724137931035]; historical=8, review=5, repairs=9, regressions=7; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.61
+C1-ctrl: accuracy=67.9868% (206/303), 95% CI=[0.6270627062706271, 0.7326732673267327]; recovery=0.04838709677419358, 95% CI=[-0.06060606060606084, 0.15254237288135605]; historical=6, review=5, repairs=7, regressions=4; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.65
+C2: accuracy=77.8878% (236/303), 95% CI=[0.7326732673267327, 0.8250825082508251]; recovery=0.5322580645161289, 95% CI=[0.34374999999999994, 0.7209302325581394]; historical=9, review=1, repairs=44, regressions=11; on C0 failures explicit wrong-country=0.4, unknown=1, proxy=0.4
+C3: accuracy=87.4587% (265/303), 95% CI=[0.834983498349835, 0.9108910891089109]; recovery=1.0, 95% CI=[1.0, 1.0]; historical=6, review=16, repairs=67, regressions=5; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.04
+C1 minus control: {"accuracy_difference": -0.0033003300330033403, "accuracy_difference_ci95": [-0.02970297029702973, 0.02310231023102316], "recovery_difference": -0.01612903225806471, "recovery_difference_ci95": [-0.1538461538461538, 0.11475409836065548]}
+Prediction point threshold plus control: False
+Strong selection-consistent support: False
+Low recovery threshold support: True
+All REVIEW-correct sensitivity: {"C0": {"accuracy": 0.6831683168316832, "recovery": 0.0}, "C1": {"accuracy": 0.693069306930693, "recovery": 0.040540540540540126}, "C1-ctrl": {"accuracy": 0.6963696369636964, "recovery": 0.05405405405405381}, "C2": {"accuracy": 0.7821782178217822, "recovery": 0.4054054054054054}, "C3": {"accuracy": 0.9273927392739274, "recovery": 1.0}}
+
+Stop at this stage. Prompt effects do not uniquely distinguish internal selection from retrieval. Fixed303 contains prior-selected items; the two sets overlap.

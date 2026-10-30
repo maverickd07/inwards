@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-16T07:27:41.478973+00:00",
+  "before_consistency_or_coverage_statistics": true,
+  "files": {
+    "consistency.py": "a8c7d21b6cf1cdc5418e30d1d5381dcd3949d9d471d549380472b7b2eb86c8c5",
+    "analyze.py": "53b34c7909f7ea5b2672ffaf1ffaf34056c9f8ebaae6af5e18000900baf3b353",
+    "test_synthetic.py": "8c64ceb9210b6a622b1a91876acf470d79ae267b4025f6fc441db6e7e7dd90d0",
+    "vendor/aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+    "vendor/exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "vendor/reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+    "vendor/scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+    "vendor/scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+    "vendor/training_label_policy.json": "3826a7f9b9291ed69420fdfea2ded42c10e0edce16f00258d759def49d933bd7",
+    "vendor/training_label_scorer.py": "ce05ddc7910cd04bcb1927f1b58bba8d9ce199860f53c8535d18ef0232fb4f89"
+  }
+}

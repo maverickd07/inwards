@@ -1,0 +1,100 @@
+{
+  "cutoff": "2026-10-16",
+  "sources": [
+    {
+      "path": "INWARD_HANDOFF.md",
+      "sha256": "848324885c826c5c3d13c0e4e724ed92b9944d09ceadbf9ac937957e137ef67b"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "e6db3572f27b1f27f906034bbac20199d85d49e99a8732993f8de76d418ded14"
+    },
+    {
+      "path": "results/report_final_20261011/qa/extracted_text.txt",
+      "sha256": "3a0f8e930bfcbde4fd0f771c3057476466255d93c9af60c2a550aa1f24be3c10"
+    },
+    {
+      "path": "results/report_final_20261011/SOURCE_MAP.txt",
+      "sha256": "1e2dba0d2ab72b3b66c1687023988ce4e14e8836fd04593733ddc8a1cc6ec2db"
+    },
+    {
+      "path": "results/handoff_analysis_20261003/tasks56_verified/gap_comparison.json",
+      "sha256": "76dfa1ac98ca9c275eafdf5a5324e1e1f6ce8490acb376e1663b7f94bf28bd12"
+    },
+    {
+      "path": "results/handoff_analysis_20261003/exp8_680959/analysis/summary.json",
+      "sha256": "46ec80134d7eea475b9653dcc969979d8ddd11cea3cb575a5b4fdaca9f899e23"
+    },
+    {
+      "path": "results/handoff_analysis_20261003/exp9_681194/verified_analysis_v2/report.json",
+      "sha256": "4055bbd4362b30ddefb912885e9edd11f8ffd3345751b8920b2c3e086f699c38"
+    },
+    {
+      "path": "results/handoff_analysis_20261003/exp10_681386/verified_analysis/report.json",
+      "sha256": "3b915bf1d3e0041f30ecaf44dfc16964b53b24c5e22aeb75bc1dea5ea71ba068"
+    },
+    {
+      "path": "results/report_final_20261011/raw_exp11/analysis/report.json",
+      "sha256": "e57a7672898006e0e8538f1f136e8fc6336c71e7e29edc16a3d8681edfaefaf5"
+    },
+    {
+      "path": "results/exp12_sources_20261014_v2/analysis_700454_local/REVIEW_SUMMARY.txt",
+      "sha256": "eb75d07f0525ac18fbde787fbdc4cbd39bc26c004e7a6a571158088edb5f4b65"
+    },
+    {
+      "path": "results/exp12_seed345_20261014/analysis_700972_local/RESULTS_ORIGINAL_SCORER.txt",
+      "sha256": "364b2091b2c029b303ee4963bbcfbafe83202ddd083ab47e54c614704701a7a1"
+    },
+    {
+      "path": "results/exp12_rescore_v3_20261015/analysis_701713_local/RESULTS_V3_COMPARISON.txt",
+      "sha256": "49912ba74d4625df34465de3bbf714d79cf236c5e2e9190b18c62ce30b8aba36"
+    },
+    {
+      "path": "results/exp12_v3_review_sensitivity_20261015/REPORT.txt",
+      "sha256": "2dca8dc9a35c98a1d91806e3e4b565b4be86d550ba1ae5c8f939b10ad520535b"
+    },
+    {
+      "path": "results/exp12_matched785_20261015/analysis_701792_local/RESULTS_ZH.txt",
+      "sha256": "c1a04b2906af4454435939498f0e82c279c3e80c50ff0eab2e75c02591c7a92d"
+    },
+    {
+      "path": "results/exp12_matched785_20261015/analysis_701792_local/independent_analysis.json",
+      "sha256": "794538e77850ba10569038998e931e77ff4ba88f764878db657e7a1b47f85c5c"
+    },
+    {
+      "path": "results/exp13_musique_transfer_20261015/analysis_701955_local/RESULTS_ZH.txt",
+      "sha256": "ccfd58c9d2abf3407d56faf5574b52b07012e4b99a27d76bf918755e4d4a7616"
+    },
+    {
+      "path": "results/expxx_self_consistency_20261016/REPORT_ZH.txt",
+      "sha256": "2effe3310b4692afac3887d69f2f7c03247bb8fb4a1c52add51f3875d660ad66"
+    },
+    {
+      "path": "results/research_decision_20261016/DECISION_ZH.txt",
+      "sha256": "46d5f3c21401e23dcaebbf396b42afecaf14251e57194296b39d242458d7d40b"
+    },
+    {
+      "path": "results/exp17_design_20261016/PLAN_ZH.txt",
+      "sha256": "c78037973378e54b1a845469ab39458bb4edf2367bb24efcdc40f28cce83a11b"
+    }
+  ],
+  "references": [
+    {
+      "title": "[1] Press, O. et al. (2023). Measuring and Narrowing the Compositionality Gap in Language Models. Findings of EMNLP.",
+      "url": "https://aclanthology.org/2023.findings-emnlp.378/"
+    },
+    {
+      "title": "[2] Biran, E. et al. (2024). Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries. EMNLP.",
+      "url": "https://arxiv.org/abs/2406.12775"
+    },
+    {
+      "title": "[3] Snell, C., Klein, D. and Zhong, R. (2022). Learning by Distilling Context.",
+      "url": "https://arxiv.org/abs/2209.15189"
+    },
+    {
+      "title": "[4] Trivedi, H. et al. (2022). MuSiQue: Multihop Questions via Single-hop Question Composition. TACL 10:539-554.",
+      "url": "https://aclanthology.org/2022.tacl-1.31/"
+    }
+  ],
+  "output_sha256": "568cf6318a020bf3ddb19d61de3f56d53997a61ad174c33c892cc40c4898d79a"
+}

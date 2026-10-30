@@ -1,0 +1,11 @@
+{
+  "backend": "tokenizers",
+  "eos_token": "<|eot_id|>",
+  "extra_special_tokens": [
+    "<|end_of_text|>",
+    "<|eom_id|>"
+  ],
+  "model_max_length": 1000000000000000019884624838656,
+  "tokenizer_class": "TokenizersBackend",
+  "unk_token": "[UNK]"
+}

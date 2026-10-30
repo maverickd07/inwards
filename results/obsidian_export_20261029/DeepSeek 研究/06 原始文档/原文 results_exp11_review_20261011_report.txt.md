@@ -1,0 +1,24 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_exp11_review_20261011_report.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/08/081cdeb85514c04f_report.txt|report.txt]]
+
+EXP11 primary C results (floor; three seeds; no seed pooling):
+shared R1: 52.53 +/- 1.33% ; gain +2.53 pp
+reset R2: 52.93 +/- 1.10% ; gain +2.93 pp
+reset R3: 53.53 +/- 0.50% ; gain +3.53 pp
+continue R2: 53.67 +/- 0.95% ; gain +3.67 pp
+continue R3: 53.67 +/- 1.01% ; gain +3.67 pp
+frozen_budget R2: 54.00 +/- 1.06% ; gain +4.00 pp
+frozen_budget R3: 52.73 +/- 1.36% ; gain +2.73 pp
+All round outcomes retained. Do not select the best round on C.
+Stop at this checkpoint and decide next direction with the user.
+
+返回 [[00 研究首页]]

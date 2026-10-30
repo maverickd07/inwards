@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-16T10:52:12.487831+00:00",
+  "before_curation_execution": true,
+  "script": "curate_review_v2.py",
+  "sha256": "7abeb87dd6d42a9d2300ee70469cdc7c2635c3f2a460f632884b924a7139377c",
+  "changes": [
+    "Enforce stated 1985\u20131999 actual birth-year window, not category membership alone.",
+    "Fail closed on unknown/non-value P17 birthplace-country statements."
+  ],
+  "identity_supplement": "Luis Suarez resolved through precise current Wikipedia title to Q26517; previous ambiguous title rejected."
+}

@@ -1,0 +1,20 @@
+{
+  "pages": 7,
+  "page_size": "A4",
+  "compiler": "XeLaTeX / TeX Live 2026",
+  "Chinese_font": "Songti SC",
+  "figures": 3,
+  "tables": 8,
+  "source_hashes_unchanged": true,
+  "overflow_or_missing_glyphs": false,
+  "pending_results": [
+    "fixed patch / gating",
+    "hops",
+    "gold"
+  ],
+  "notes": [
+    "120 labels are model assisted, not independent human review",
+    "hop2 retention is imperfect",
+    "confidence filtering not superior to random"
+  ]
+}

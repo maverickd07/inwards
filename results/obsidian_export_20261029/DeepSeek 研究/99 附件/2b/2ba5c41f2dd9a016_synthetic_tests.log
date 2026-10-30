@@ -1,0 +1,21 @@
+.....F.F
+======================================================================
+FAIL: test_reference_gold_roundtrip (__main__.ScorerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/test_scorer.py", line 67, in test_reference_gold_roundtrip
+    self.assertTrue(score(alias,row['e'][field],row['category'],metric)['correct'],(metric,alias))
+AssertionError: False is not true : ('composed', '.இலங்கை')
+
+======================================================================
+FAIL: test_wrappers_and_domain_labels (__main__.ScorerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/test_scorer.py", line 42, in test_wrappers_and_domain_labels
+    self.assertTrue(score('xn--p1ai',['.рф'],'birthplace_tld')['correct'])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.056s
+
+FAILED (failures=2)

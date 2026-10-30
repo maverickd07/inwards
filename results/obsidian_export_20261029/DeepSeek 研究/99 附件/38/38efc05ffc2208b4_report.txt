@@ -1,0 +1,26 @@
+COMPLETE: six added fits (3,4,5 x context/direct); D=500
+Original frozen scorer only; baseline and targets reused; no regeneration.
+Seed intervals are across fits; not independent question replications.
+Baseline: {'composed_ok': 48.8, 'q1_ok': 82.39999999999999, 'q2_ok': 75.2}
+Per-seed accuracy (%):
+seed=0 context: composed=51.4000, hop1=81.6000, hop2=74.0000
+seed=0 direct: composed=49.4000, hop1=81.2000, hop2=75.2000
+seed=1 context: composed=50.6000, hop1=82.8000, hop2=74.0000
+seed=1 direct: composed=48.8000, hop1=82.8000, hop2=75.0000
+seed=2 context: composed=54.0000, hop1=82.6000, hop2=75.8000
+seed=2 direct: composed=49.2000, hop1=81.2000, hop2=74.6000
+seed=3 context: composed=50.0000, hop1=83.0000, hop2=73.2000
+seed=3 direct: composed=49.8000, hop1=81.4000, hop2=74.2000
+seed=4 context: composed=51.0000, hop1=82.0000, hop2=76.6000
+seed=4 direct: composed=49.0000, hop1=82.2000, hop2=75.2000
+seed=5 context: composed=53.8000, hop1=82.6000, hop2=75.6000
+seed=5 direct: composed=49.4000, hop1=82.0000, hop2=75.2000
+original_012 composed_ok: context=52.0000% SD=1.7776; direct=49.1333% SD=0.3055; paired diff=+2.8667 pp, seed95=[-1.299976068307334, 7.033309401640668]
+original_012 q1_ok: context=82.3333% SD=0.6429; direct=81.7333% SD=0.9238; paired diff=+0.6000 pp, seed95=[-1.1913371790059175, 2.391337179005906]
+original_012 q2_ok: context=74.6000% SD=1.0392; direct=74.9333% SD=0.3055; paired diff=-0.3333 pp, seed95=[-3.6413741285977976, 2.9747074619311307]
+added_345 composed_ok: context=51.6000% SD=1.9698; direct=49.4000% SD=0.4000; paired diff=+2.2000 pp, seed95=[-3.0344029610810797, 7.434402961081085]
+added_345 q1_ok: context=82.5333% SD=0.5033; direct=81.8667% SD=0.4163; paired diff=+0.6667 pp, seed95=[-1.5736528058709687, 2.9069861392043115]
+added_345 q2_ok: context=75.1333% SD=1.7474; direct=74.8667% SD=0.5774; paired diff=+0.2667 pp, seed95=[-2.728067553332333, 3.2614008866656548]
+all_012345 composed_ok: context=51.8000% SD=1.6923; direct=49.2667% SD=0.3502; paired diff=+2.5333 pp, seed95=[0.7051855240800742, 4.361481142586596]
+all_012345 q1_ok: context=82.4333% SD=0.5279; direct=81.8000% SD=0.6450; paired diff=+0.6333 pp, seed95=[-0.13402349811327774, 1.4006901647799435]
+all_012345 q2_ok: context=74.8667% SD=1.3186; direct=74.9000% SD=0.4147; paired diff=-0.0333 pp, seed95=[-1.2744508970560715, 1.2077842303893993]

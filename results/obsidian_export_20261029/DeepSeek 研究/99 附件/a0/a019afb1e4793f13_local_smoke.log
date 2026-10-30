@@ -1,0 +1,95 @@
+RUN baseline
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 12249.72it/s]
+baseline 2 / 2 queries
+baseline 8 / 12 queries
+baseline COMPLETE {'queries': 12, 'seconds': 0.007220029830932617}
+Scored baseline 3 items
+Estimated remaining generation seconds (rough): 0.0866403579711914
+RUN context_s0
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 24222.13it/s]
+context_s0 8 / 12 queries
+context_s0 COMPLETE {'queries': 12, 'seconds': 0.013125181198120117}
+Scored context_s0 3 items
+RUN direct_s0
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 20649.39it/s]
+direct_s0 8 / 12 queries
+direct_s0 COMPLETE {'queries': 12, 'seconds': 0.01328587532043457}
+Scored direct_s0 3 items
+RUN context_s1
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 17100.07it/s]
+context_s1 8 / 12 queries
+context_s1 COMPLETE {'queries': 12, 'seconds': 0.01238703727722168}
+Scored context_s1 3 items
+RUN direct_s1
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22178.00it/s]
+direct_s1 8 / 12 queries
+direct_s1 COMPLETE {'queries': 12, 'seconds': 0.012490987777709961}
+Scored direct_s1 3 items
+RUN context_s2
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 26071.01it/s]
+context_s2 8 / 12 queries
+context_s2 COMPLETE {'queries': 12, 'seconds': 0.010071754455566406}
+Scored context_s2 3 items
+RUN direct_s2
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19957.67it/s]
+direct_s2 8 / 12 queries
+direct_s2 COMPLETE {'queries': 12, 'seconds': 0.00825810432434082}
+Scored direct_s2 3 items
+RUN context_s3
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22343.41it/s]
+context_s3 8 / 12 queries
+context_s3 COMPLETE {'queries': 12, 'seconds': 0.009628057479858398}
+Scored context_s3 3 items
+RUN direct_s3
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 20800.95it/s]
+direct_s3 8 / 12 queries
+direct_s3 COMPLETE {'queries': 12, 'seconds': 0.008495807647705078}
+Scored direct_s3 3 items
+RUN context_s4
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 13820.69it/s]
+context_s4 8 / 12 queries
+context_s4 COMPLETE {'queries': 12, 'seconds': 0.012895584106445312}
+Scored context_s4 3 items
+RUN direct_s4
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 8275.40it/s]
+direct_s4 8 / 12 queries
+direct_s4 COMPLETE {'queries': 12, 'seconds': 0.012840986251831055}
+Scored direct_s4 3 items
+RUN context_s5
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22934.73it/s]
+context_s5 8 / 12 queries
+context_s5 COMPLETE {'queries': 12, 'seconds': 0.013750076293945312}
+Scored context_s5 3 items
+RUN direct_s5
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 21741.16it/s]
+direct_s5 8 / 12 queries
+direct_s5 COMPLETE {'queries': 12, 'seconds': 0.013564109802246094}
+Scored direct_s5 3 items
+EXP13 MuSiQue closed-book transfer; no new training.
+PRIMARY: fixed full two-hop EM; EM/F1 are official answer metrics, not official open-book leaderboard results.
+No clear primary advantage; not equivalence or proof that the broader method fails.
+2hop em: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+2hop f1: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+3hop em: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+3hop f1: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+4hop em: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+4hop f1: n=1; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+all em: n=3; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+all f1: n=3; base=0; context=0; direct=0; delta_pp=0; t95=[0.0, 0.0]; per_seed=[0, 0, 0, 0, 0, 0]
+Baseline oracle-hop strata: {"2hop": {"n": 1, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}, "3hop": {"n": 1, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}, "4hop": {"n": 1, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}, "all": {"n": 3, "all_oracle_hops_correct": 0, "all_hops_correct_composed_wrong": 0}}
+Secondary strata never redefine the primary set. Oracle single-hop questions expose reference bridge entities; these diagnostics do not prove internal knowledge activation. Alias limitations and public-data pretraining overlap remain.
+STOP: fixed13-model evaluation complete; no automatic extra seeds, datasets, tuning or training.
+EXP13 COMPLETE. Fixed stage ends here.

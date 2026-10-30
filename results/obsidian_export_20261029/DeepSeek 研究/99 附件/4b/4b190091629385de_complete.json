@@ -1,0 +1,11 @@
+{
+  "name": "context_s3",
+  "smoke_test": false,
+  "queries_sha256": "0c6914b3735f66f68ad5e3db623e196fb747af9cfe69aa519f9f32a5eddfb149",
+  "predictions_sha256": "f8a663876ef7ac2e7944d215e4c3abf704660b117d252f6226da43d92f3ae184",
+  "adapter_sha256": "57d0bf89d44f8284a7d87d2de687cd9bbe27715653fa56e9a027830c03c91bc6",
+  "config_sha256": "6ec636c3be41af247cf4f7661ef1e4fb83f44d87ae93d8a17328d9d95179cb3e",
+  "load_seconds": 8.876797199249268,
+  "queries": 5176,
+  "seconds": 615.9753551483154
+}

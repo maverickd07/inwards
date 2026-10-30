@@ -1,0 +1,5241 @@
+{
+  "Afghanistan": {
+    "birthplace_callingcode": [
+      "+93"
+    ],
+    "birthplace_capital": [
+      "Kabul"
+    ],
+    "birthplace_ccn3": [
+      "004"
+    ],
+    "birthplace_currency": [
+      "Afghan afghani"
+    ],
+    "birthplace_currency_short": [
+      "AFN"
+    ],
+    "birthplace_currency_symbol": [
+      "؋"
+    ],
+    "birthplace_est_common_name": [
+      "Afganistan"
+    ],
+    "birthplace_jpn_common_name": [
+      "アフガニスタン"
+    ],
+    "birthplace_rounded_lat": [
+      "33"
+    ],
+    "birthplace_rounded_lng": [
+      "65"
+    ],
+    "birthplace_rus_common_name": [
+      "Афганистан"
+    ],
+    "birthplace_spa_common_name": [
+      "Afganistán"
+    ],
+    "birthplace_tld": [
+      ".af"
+    ],
+    "birthplace_urd_common_name": [
+      "افغانستان"
+    ]
+  },
+  "Albania": {
+    "birthplace_callingcode": [
+      "+355"
+    ],
+    "birthplace_capital": [
+      "Tirana"
+    ],
+    "birthplace_ccn3": [
+      "008"
+    ],
+    "birthplace_currency": [
+      "Albanian lek"
+    ],
+    "birthplace_currency_short": [
+      "ALL"
+    ],
+    "birthplace_currency_symbol": [
+      "L"
+    ],
+    "birthplace_est_common_name": [
+      "Albaania"
+    ],
+    "birthplace_jpn_common_name": [
+      "アルバニア"
+    ],
+    "birthplace_rounded_lat": [
+      "41"
+    ],
+    "birthplace_rounded_lng": [
+      "20"
+    ],
+    "birthplace_rus_common_name": [
+      "Албания"
+    ],
+    "birthplace_spa_common_name": [
+      "Albania"
+    ],
+    "birthplace_tld": [
+      ".al"
+    ],
+    "birthplace_urd_common_name": [
+      "البانیا"
+    ]
+  },
+  "Algeria": {
+    "birthplace_callingcode": [
+      "+213"
+    ],
+    "birthplace_capital": [
+      "Algiers"
+    ],
+    "birthplace_ccn3": [
+      "012"
+    ],
+    "birthplace_currency": [
+      "Algerian dinar"
+    ],
+    "birthplace_currency_short": [
+      "DZD"
+    ],
+    "birthplace_currency_symbol": [
+      "د.ج"
+    ],
+    "birthplace_est_common_name": [
+      "Alžeeria"
+    ],
+    "birthplace_jpn_common_name": [
+      "アルジェリア"
+    ],
+    "birthplace_rounded_lat": [
+      "28"
+    ],
+    "birthplace_rounded_lng": [
+      "3"
+    ],
+    "birthplace_rus_common_name": [
+      "Алжир"
+    ],
+    "birthplace_spa_common_name": [
+      "Argelia"
+    ],
+    "birthplace_tld": [
+      ".dz",
+      "الجزائر."
+    ],
+    "birthplace_urd_common_name": [
+      "الجزائر"
+    ]
+  },
+  "Angola": {
+    "birthplace_callingcode": [
+      "+244"
+    ],
+    "birthplace_capital": [
+      "Luanda"
+    ],
+    "birthplace_ccn3": [
+      "024"
+    ],
+    "birthplace_currency": [
+      "Angolan kwanza"
+    ],
+    "birthplace_currency_short": [
+      "AOA"
+    ],
+    "birthplace_currency_symbol": [
+      "Kz"
+    ],
+    "birthplace_est_common_name": [
+      "Angola"
+    ],
+    "birthplace_jpn_common_name": [
+      "アンゴラ"
+    ],
+    "birthplace_rounded_lat": [
+      "-12"
+    ],
+    "birthplace_rounded_lng": [
+      "18"
+    ],
+    "birthplace_rus_common_name": [
+      "Ангола"
+    ],
+    "birthplace_spa_common_name": [
+      "Angola"
+    ],
+    "birthplace_tld": [
+      ".ao"
+    ],
+    "birthplace_urd_common_name": [
+      "انگولہ"
+    ]
+  },
+  "Argentina": {
+    "birthplace_callingcode": [
+      "+54"
+    ],
+    "birthplace_capital": [
+      "Buenos Aires"
+    ],
+    "birthplace_ccn3": [
+      "032"
+    ],
+    "birthplace_currency": [
+      "Argentine peso"
+    ],
+    "birthplace_currency_short": [
+      "ARS"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Argentina"
+    ],
+    "birthplace_jpn_common_name": [
+      "アルゼンチン"
+    ],
+    "birthplace_rounded_lat": [
+      "-34"
+    ],
+    "birthplace_rounded_lng": [
+      "-64"
+    ],
+    "birthplace_rus_common_name": [
+      "Аргентина"
+    ],
+    "birthplace_spa_common_name": [
+      "Argentina"
+    ],
+    "birthplace_tld": [
+      ".ar"
+    ],
+    "birthplace_urd_common_name": [
+      "ارجنٹائن"
+    ]
+  },
+  "Armenia": {
+    "birthplace_callingcode": [
+      "+374"
+    ],
+    "birthplace_capital": [
+      "Yerevan"
+    ],
+    "birthplace_ccn3": [
+      "051"
+    ],
+    "birthplace_currency": [
+      "Armenian dram"
+    ],
+    "birthplace_currency_short": [
+      "AMD"
+    ],
+    "birthplace_currency_symbol": [
+      "֏"
+    ],
+    "birthplace_est_common_name": [
+      "Armeenia"
+    ],
+    "birthplace_jpn_common_name": [
+      "アルメニア"
+    ],
+    "birthplace_rounded_lat": [
+      "40"
+    ],
+    "birthplace_rounded_lng": [
+      "45"
+    ],
+    "birthplace_rus_common_name": [
+      "Армения"
+    ],
+    "birthplace_spa_common_name": [
+      "Armenia"
+    ],
+    "birthplace_tld": [
+      ".am"
+    ],
+    "birthplace_urd_common_name": [
+      "آرمینیا"
+    ]
+  },
+  "Australia": {
+    "birthplace_callingcode": [
+      "+61"
+    ],
+    "birthplace_capital": [
+      "Canberra"
+    ],
+    "birthplace_ccn3": [
+      "036"
+    ],
+    "birthplace_currency": [
+      "Australian dollar"
+    ],
+    "birthplace_currency_short": [
+      "AUD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Austraalia"
+    ],
+    "birthplace_jpn_common_name": [
+      "オーストラリア"
+    ],
+    "birthplace_rounded_lat": [
+      "-27"
+    ],
+    "birthplace_rounded_lng": [
+      "133"
+    ],
+    "birthplace_rus_common_name": [
+      "Австралия"
+    ],
+    "birthplace_spa_common_name": [
+      "Australia"
+    ],
+    "birthplace_tld": [
+      ".au"
+    ],
+    "birthplace_urd_common_name": [
+      "آسٹریلیا"
+    ]
+  },
+  "Austria": {
+    "birthplace_callingcode": [
+      "+43"
+    ],
+    "birthplace_capital": [
+      "Vienna"
+    ],
+    "birthplace_ccn3": [
+      "040"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Austria"
+    ],
+    "birthplace_jpn_common_name": [
+      "オーストリア"
+    ],
+    "birthplace_rounded_lat": [
+      "47"
+    ],
+    "birthplace_rounded_lng": [
+      "13"
+    ],
+    "birthplace_rus_common_name": [
+      "Австрия"
+    ],
+    "birthplace_spa_common_name": [
+      "Austria"
+    ],
+    "birthplace_tld": [
+      ".at"
+    ],
+    "birthplace_urd_common_name": [
+      "آسٹریا"
+    ]
+  },
+  "Azerbaijan": {
+    "birthplace_callingcode": [
+      "+994"
+    ],
+    "birthplace_capital": [
+      "Baku"
+    ],
+    "birthplace_ccn3": [
+      "031"
+    ],
+    "birthplace_currency": [
+      "Azerbaijani manat"
+    ],
+    "birthplace_currency_short": [
+      "AZN"
+    ],
+    "birthplace_currency_symbol": [
+      "₼"
+    ],
+    "birthplace_est_common_name": [
+      "Aserbaidžaan"
+    ],
+    "birthplace_jpn_common_name": [
+      "アゼルバイジャン"
+    ],
+    "birthplace_rounded_lat": [
+      "40"
+    ],
+    "birthplace_rounded_lng": [
+      "47"
+    ],
+    "birthplace_rus_common_name": [
+      "Азербайджан"
+    ],
+    "birthplace_spa_common_name": [
+      "Azerbaiyán"
+    ],
+    "birthplace_tld": [
+      ".az"
+    ],
+    "birthplace_urd_common_name": [
+      "آذربائیجان"
+    ]
+  },
+  "Bahrain": {
+    "birthplace_callingcode": [
+      "+973"
+    ],
+    "birthplace_capital": [
+      "Manama"
+    ],
+    "birthplace_ccn3": [
+      "048"
+    ],
+    "birthplace_currency": [
+      "Bahraini dinar"
+    ],
+    "birthplace_currency_short": [
+      "BHD"
+    ],
+    "birthplace_currency_symbol": [
+      ".د.ب"
+    ],
+    "birthplace_est_common_name": [
+      "Bahrein"
+    ],
+    "birthplace_jpn_common_name": [
+      "バーレーン"
+    ],
+    "birthplace_rounded_lat": [
+      "26"
+    ],
+    "birthplace_rounded_lng": [
+      "50"
+    ],
+    "birthplace_rus_common_name": [
+      "Бахрейн"
+    ],
+    "birthplace_spa_common_name": [
+      "Bahrein"
+    ],
+    "birthplace_tld": [
+      ".bh"
+    ],
+    "birthplace_urd_common_name": [
+      "بحرین"
+    ]
+  },
+  "Bangladesh": {
+    "birthplace_callingcode": [
+      "+880"
+    ],
+    "birthplace_capital": [
+      "Dhaka"
+    ],
+    "birthplace_ccn3": [
+      "050"
+    ],
+    "birthplace_currency": [
+      "Bangladeshi taka"
+    ],
+    "birthplace_currency_short": [
+      "BDT"
+    ],
+    "birthplace_currency_symbol": [
+      "৳"
+    ],
+    "birthplace_est_common_name": [
+      "Bangladesh"
+    ],
+    "birthplace_jpn_common_name": [
+      "バングラデシュ"
+    ],
+    "birthplace_rounded_lat": [
+      "24"
+    ],
+    "birthplace_rounded_lng": [
+      "90"
+    ],
+    "birthplace_rus_common_name": [
+      "Бангладеш"
+    ],
+    "birthplace_spa_common_name": [
+      "Bangladesh"
+    ],
+    "birthplace_tld": [
+      ".bd"
+    ],
+    "birthplace_urd_common_name": [
+      "بنگلہ دیش"
+    ]
+  },
+  "Belarus": {
+    "birthplace_callingcode": [
+      "+375"
+    ],
+    "birthplace_capital": [
+      "Minsk"
+    ],
+    "birthplace_ccn3": [
+      "112"
+    ],
+    "birthplace_currency": [
+      "Belarusian ruble"
+    ],
+    "birthplace_currency_short": [
+      "BYN"
+    ],
+    "birthplace_currency_symbol": [
+      "Br"
+    ],
+    "birthplace_est_common_name": [
+      "Valgevene"
+    ],
+    "birthplace_jpn_common_name": [
+      "ベラルーシ"
+    ],
+    "birthplace_rounded_lat": [
+      "53"
+    ],
+    "birthplace_rounded_lng": [
+      "28"
+    ],
+    "birthplace_rus_common_name": [
+      "Беларусь"
+    ],
+    "birthplace_spa_common_name": [
+      "Bielorrusia"
+    ],
+    "birthplace_tld": [
+      ".by"
+    ],
+    "birthplace_urd_common_name": [
+      "بیلاروس"
+    ]
+  },
+  "Belgium": {
+    "birthplace_callingcode": [
+      "+32"
+    ],
+    "birthplace_capital": [
+      "Brussels"
+    ],
+    "birthplace_ccn3": [
+      "056"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Belgia"
+    ],
+    "birthplace_jpn_common_name": [
+      "ベルギー"
+    ],
+    "birthplace_rounded_lat": [
+      "50"
+    ],
+    "birthplace_rounded_lng": [
+      "4"
+    ],
+    "birthplace_rus_common_name": [
+      "Бельгия"
+    ],
+    "birthplace_spa_common_name": [
+      "Bélgica"
+    ],
+    "birthplace_tld": [
+      ".be"
+    ],
+    "birthplace_urd_common_name": [
+      "بلجئیم"
+    ]
+  },
+  "Bhutan": {
+    "birthplace_callingcode": [
+      "+975"
+    ],
+    "birthplace_capital": [
+      "Thimphu"
+    ],
+    "birthplace_ccn3": [
+      "064"
+    ],
+    "birthplace_currency": [
+      "Bhutanese ngultrum"
+    ],
+    "birthplace_currency_short": [
+      "BTN"
+    ],
+    "birthplace_currency_symbol": [
+      "Nu."
+    ],
+    "birthplace_est_common_name": [
+      "Bhutan"
+    ],
+    "birthplace_jpn_common_name": [
+      "ブータン"
+    ],
+    "birthplace_rounded_lat": [
+      "27"
+    ],
+    "birthplace_rounded_lng": [
+      "90"
+    ],
+    "birthplace_rus_common_name": [
+      "Бутан"
+    ],
+    "birthplace_spa_common_name": [
+      "Bután"
+    ],
+    "birthplace_tld": [
+      ".bt"
+    ],
+    "birthplace_urd_common_name": [
+      "بھوٹان"
+    ]
+  },
+  "Bolivia": {
+    "birthplace_callingcode": [
+      "+591"
+    ],
+    "birthplace_capital": [
+      "Sucre"
+    ],
+    "birthplace_ccn3": [
+      "068"
+    ],
+    "birthplace_currency": [
+      "Bolivian boliviano"
+    ],
+    "birthplace_currency_short": [
+      "BOB"
+    ],
+    "birthplace_currency_symbol": [
+      "Bs."
+    ],
+    "birthplace_est_common_name": [
+      "Boliivia"
+    ],
+    "birthplace_jpn_common_name": [
+      "ボリビア多民族国"
+    ],
+    "birthplace_rounded_lat": [
+      "-17"
+    ],
+    "birthplace_rounded_lng": [
+      "-65"
+    ],
+    "birthplace_rus_common_name": [
+      "Боливия"
+    ],
+    "birthplace_spa_common_name": [
+      "Bolivia"
+    ],
+    "birthplace_tld": [
+      ".bo"
+    ],
+    "birthplace_urd_common_name": [
+      "بولیویا"
+    ]
+  },
+  "Bosnia and Herzegovina": {
+    "birthplace_callingcode": [
+      "+387"
+    ],
+    "birthplace_capital": [
+      "Sarajevo"
+    ],
+    "birthplace_ccn3": [
+      "070"
+    ],
+    "birthplace_currency": [
+      "Bosnia and Herzegovina convertible mark"
+    ],
+    "birthplace_currency_short": [
+      "BAM"
+    ],
+    "birthplace_currency_symbol": [
+      ""
+    ],
+    "birthplace_est_common_name": [
+      "Bosnia ja Hertsegoviina"
+    ],
+    "birthplace_jpn_common_name": [
+      "ボスニア・ヘルツェゴビナ"
+    ],
+    "birthplace_rounded_lat": [
+      "44"
+    ],
+    "birthplace_rounded_lng": [
+      "18"
+    ],
+    "birthplace_rus_common_name": [
+      "Босния и Герцеговина"
+    ],
+    "birthplace_spa_common_name": [
+      "Bosnia y Herzegovina"
+    ],
+    "birthplace_tld": [
+      ".ba"
+    ],
+    "birthplace_urd_common_name": [
+      "بوسنیا و ہرزیگووینا"
+    ]
+  },
+  "Brazil": {
+    "birthplace_callingcode": [
+      "+55"
+    ],
+    "birthplace_capital": [
+      "Brasília"
+    ],
+    "birthplace_ccn3": [
+      "076"
+    ],
+    "birthplace_currency": [
+      "Brazilian real"
+    ],
+    "birthplace_currency_short": [
+      "BRL"
+    ],
+    "birthplace_currency_symbol": [
+      "R$"
+    ],
+    "birthplace_est_common_name": [
+      "Brasiilia"
+    ],
+    "birthplace_jpn_common_name": [
+      "ブラジル"
+    ],
+    "birthplace_rounded_lat": [
+      "-10"
+    ],
+    "birthplace_rounded_lng": [
+      "-55"
+    ],
+    "birthplace_rus_common_name": [
+      "Бразилия"
+    ],
+    "birthplace_spa_common_name": [
+      "Brasil"
+    ],
+    "birthplace_tld": [
+      ".br"
+    ],
+    "birthplace_urd_common_name": [
+      "برازیل"
+    ]
+  },
+  "Bulgaria": {
+    "birthplace_callingcode": [
+      "+359"
+    ],
+    "birthplace_capital": [
+      "Sofia"
+    ],
+    "birthplace_ccn3": [
+      "100"
+    ],
+    "birthplace_currency": [
+      "Bulgarian lev"
+    ],
+    "birthplace_currency_short": [
+      "BGN"
+    ],
+    "birthplace_currency_symbol": [
+      "лв"
+    ],
+    "birthplace_est_common_name": [
+      "Bulgaaria"
+    ],
+    "birthplace_jpn_common_name": [
+      "ブルガリア"
+    ],
+    "birthplace_rounded_lat": [
+      "43"
+    ],
+    "birthplace_rounded_lng": [
+      "25"
+    ],
+    "birthplace_rus_common_name": [
+      "Болгария"
+    ],
+    "birthplace_spa_common_name": [
+      "Bulgaria"
+    ],
+    "birthplace_tld": [
+      ".bg"
+    ],
+    "birthplace_urd_common_name": [
+      "بلغاریہ"
+    ]
+  },
+  "Cambodia": {
+    "birthplace_callingcode": [
+      "+855"
+    ],
+    "birthplace_capital": [
+      "Phnom Penh"
+    ],
+    "birthplace_ccn3": [
+      "116"
+    ],
+    "birthplace_currency": [
+      "Cambodian riel"
+    ],
+    "birthplace_currency_short": [
+      "KHR"
+    ],
+    "birthplace_currency_symbol": [
+      "៛"
+    ],
+    "birthplace_est_common_name": [
+      "Kambodža"
+    ],
+    "birthplace_jpn_common_name": [
+      "カンボジア"
+    ],
+    "birthplace_rounded_lat": [
+      "13"
+    ],
+    "birthplace_rounded_lng": [
+      "105"
+    ],
+    "birthplace_rus_common_name": [
+      "Камбоджа"
+    ],
+    "birthplace_spa_common_name": [
+      "Camboya"
+    ],
+    "birthplace_tld": [
+      ".kh"
+    ],
+    "birthplace_urd_common_name": [
+      "کمبوڈیا"
+    ]
+  },
+  "Cameroon": {
+    "birthplace_callingcode": [
+      "+237"
+    ],
+    "birthplace_capital": [
+      "Yaoundé"
+    ],
+    "birthplace_ccn3": [
+      "120"
+    ],
+    "birthplace_currency": [
+      "Central African CFA franc"
+    ],
+    "birthplace_currency_short": [
+      "XAF"
+    ],
+    "birthplace_currency_symbol": [
+      "Fr"
+    ],
+    "birthplace_est_common_name": [
+      "Kamerun"
+    ],
+    "birthplace_jpn_common_name": [
+      "カメルーン"
+    ],
+    "birthplace_rounded_lat": [
+      "6"
+    ],
+    "birthplace_rounded_lng": [
+      "12"
+    ],
+    "birthplace_rus_common_name": [
+      "Камерун"
+    ],
+    "birthplace_spa_common_name": [
+      "Camerún"
+    ],
+    "birthplace_tld": [
+      ".cm"
+    ],
+    "birthplace_urd_common_name": [
+      "کیمرون"
+    ]
+  },
+  "Canada": {
+    "birthplace_callingcode": [
+      "+1"
+    ],
+    "birthplace_capital": [
+      "Ottawa"
+    ],
+    "birthplace_ccn3": [
+      "124"
+    ],
+    "birthplace_currency": [
+      "Canadian dollar"
+    ],
+    "birthplace_currency_short": [
+      "CAD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Kanada"
+    ],
+    "birthplace_jpn_common_name": [
+      "カナダ"
+    ],
+    "birthplace_rounded_lat": [
+      "60"
+    ],
+    "birthplace_rounded_lng": [
+      "-95"
+    ],
+    "birthplace_rus_common_name": [
+      "Канада"
+    ],
+    "birthplace_spa_common_name": [
+      "Canadá"
+    ],
+    "birthplace_tld": [
+      ".ca"
+    ],
+    "birthplace_urd_common_name": [
+      "کینیڈا"
+    ]
+  },
+  "Chile": {
+    "birthplace_callingcode": [
+      "+56"
+    ],
+    "birthplace_capital": [
+      "Santiago"
+    ],
+    "birthplace_ccn3": [
+      "152"
+    ],
+    "birthplace_currency": [
+      "Chilean peso"
+    ],
+    "birthplace_currency_short": [
+      "CLP"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Tšiili"
+    ],
+    "birthplace_jpn_common_name": [
+      "チリ"
+    ],
+    "birthplace_rounded_lat": [
+      "-30"
+    ],
+    "birthplace_rounded_lng": [
+      "-71"
+    ],
+    "birthplace_rus_common_name": [
+      "Чили"
+    ],
+    "birthplace_spa_common_name": [
+      "Chile"
+    ],
+    "birthplace_tld": [
+      ".cl"
+    ],
+    "birthplace_urd_common_name": [
+      "چلی"
+    ]
+  },
+  "China": {
+    "birthplace_callingcode": [
+      "+86"
+    ],
+    "birthplace_capital": [
+      "Beijing"
+    ],
+    "birthplace_ccn3": [
+      "156"
+    ],
+    "birthplace_currency": [
+      "Chinese yuan"
+    ],
+    "birthplace_currency_short": [
+      "CNY"
+    ],
+    "birthplace_currency_symbol": [
+      "¥"
+    ],
+    "birthplace_est_common_name": [
+      "Hiina"
+    ],
+    "birthplace_jpn_common_name": [
+      "中国"
+    ],
+    "birthplace_rounded_lat": [
+      "35"
+    ],
+    "birthplace_rounded_lng": [
+      "105"
+    ],
+    "birthplace_rus_common_name": [
+      "Китай"
+    ],
+    "birthplace_spa_common_name": [
+      "China"
+    ],
+    "birthplace_tld": [
+      ".cn",
+      ".中国",
+      ".中國",
+      ".公司",
+      ".网络"
+    ],
+    "birthplace_urd_common_name": [
+      "چین"
+    ]
+  },
+  "Colombia": {
+    "birthplace_callingcode": [
+      "+57"
+    ],
+    "birthplace_capital": [
+      "Bogotá"
+    ],
+    "birthplace_ccn3": [
+      "170"
+    ],
+    "birthplace_currency": [
+      "Colombian peso"
+    ],
+    "birthplace_currency_short": [
+      "COP"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Colombia"
+    ],
+    "birthplace_jpn_common_name": [
+      "コロンビア"
+    ],
+    "birthplace_rounded_lat": [
+      "4"
+    ],
+    "birthplace_rounded_lng": [
+      "-72"
+    ],
+    "birthplace_rus_common_name": [
+      "Колумбия"
+    ],
+    "birthplace_spa_common_name": [
+      "Colombia"
+    ],
+    "birthplace_tld": [
+      ".co"
+    ],
+    "birthplace_urd_common_name": [
+      "کولمبیا"
+    ]
+  },
+  "Costa Rica": {
+    "birthplace_callingcode": [
+      "+506"
+    ],
+    "birthplace_capital": [
+      "San José"
+    ],
+    "birthplace_ccn3": [
+      "188"
+    ],
+    "birthplace_currency": [
+      "Costa Rican colón"
+    ],
+    "birthplace_currency_short": [
+      "CRC"
+    ],
+    "birthplace_currency_symbol": [
+      "₡"
+    ],
+    "birthplace_est_common_name": [
+      "Costa Rica"
+    ],
+    "birthplace_jpn_common_name": [
+      "コスタリカ"
+    ],
+    "birthplace_rounded_lat": [
+      "10"
+    ],
+    "birthplace_rounded_lng": [
+      "-84"
+    ],
+    "birthplace_rus_common_name": [
+      "Коста-Рика"
+    ],
+    "birthplace_spa_common_name": [
+      "Costa Rica"
+    ],
+    "birthplace_tld": [
+      ".cr"
+    ],
+    "birthplace_urd_common_name": [
+      "کوسٹاریکا"
+    ]
+  },
+  "Croatia": {
+    "birthplace_callingcode": [
+      "+385"
+    ],
+    "birthplace_capital": [
+      "Zagreb"
+    ],
+    "birthplace_ccn3": [
+      "191"
+    ],
+    "birthplace_currency": [
+      "Croatian kuna"
+    ],
+    "birthplace_currency_short": [
+      "HRK"
+    ],
+    "birthplace_currency_symbol": [
+      "kn"
+    ],
+    "birthplace_est_common_name": [
+      "Horvaatia"
+    ],
+    "birthplace_jpn_common_name": [
+      "クロアチア"
+    ],
+    "birthplace_rounded_lat": [
+      "45"
+    ],
+    "birthplace_rounded_lng": [
+      "15"
+    ],
+    "birthplace_rus_common_name": [
+      "Хорватия"
+    ],
+    "birthplace_spa_common_name": [
+      "Croacia"
+    ],
+    "birthplace_tld": [
+      ".hr"
+    ],
+    "birthplace_urd_common_name": [
+      "کرویئشا"
+    ]
+  },
+  "Cuba": {
+    "birthplace_callingcode": [
+      "+53"
+    ],
+    "birthplace_capital": [
+      "Havana"
+    ],
+    "birthplace_ccn3": [
+      "192"
+    ],
+    "birthplace_currency": [
+      "Cuban convertible peso"
+    ],
+    "birthplace_currency_short": [
+      "CUC"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Kuuba"
+    ],
+    "birthplace_jpn_common_name": [
+      "キューバ"
+    ],
+    "birthplace_rounded_lat": [
+      "21"
+    ],
+    "birthplace_rounded_lng": [
+      "-80"
+    ],
+    "birthplace_rus_common_name": [
+      "Куба"
+    ],
+    "birthplace_spa_common_name": [
+      "Cuba"
+    ],
+    "birthplace_tld": [
+      ".cu"
+    ],
+    "birthplace_urd_common_name": [
+      "کیوبا"
+    ]
+  },
+  "Czechia": {
+    "birthplace_callingcode": [
+      "+420"
+    ],
+    "birthplace_capital": [
+      "Prague"
+    ],
+    "birthplace_ccn3": [
+      "203"
+    ],
+    "birthplace_currency": [
+      "Czech koruna"
+    ],
+    "birthplace_currency_short": [
+      "CZK"
+    ],
+    "birthplace_currency_symbol": [
+      "Kč"
+    ],
+    "birthplace_est_common_name": [
+      "Tšehhi"
+    ],
+    "birthplace_jpn_common_name": [
+      "チェコ"
+    ],
+    "birthplace_rounded_lat": [
+      "49"
+    ],
+    "birthplace_rounded_lng": [
+      "15"
+    ],
+    "birthplace_rus_common_name": [
+      "Чехия"
+    ],
+    "birthplace_spa_common_name": [
+      "Chequia"
+    ],
+    "birthplace_tld": [
+      ".cz"
+    ],
+    "birthplace_urd_common_name": [
+      "چيک"
+    ]
+  },
+  "Denmark": {
+    "birthplace_callingcode": [
+      "+45"
+    ],
+    "birthplace_capital": [
+      "Copenhagen"
+    ],
+    "birthplace_ccn3": [
+      "208"
+    ],
+    "birthplace_currency": [
+      "Danish krone"
+    ],
+    "birthplace_currency_short": [
+      "DKK"
+    ],
+    "birthplace_currency_symbol": [
+      "kr"
+    ],
+    "birthplace_est_common_name": [
+      "Taani"
+    ],
+    "birthplace_jpn_common_name": [
+      "デンマーク"
+    ],
+    "birthplace_rounded_lat": [
+      "56"
+    ],
+    "birthplace_rounded_lng": [
+      "10"
+    ],
+    "birthplace_rus_common_name": [
+      "Дания"
+    ],
+    "birthplace_spa_common_name": [
+      "Dinamarca"
+    ],
+    "birthplace_tld": [
+      ".dk"
+    ],
+    "birthplace_urd_common_name": [
+      "ڈنمارک"
+    ]
+  },
+  "Dominican Republic": {
+    "birthplace_callingcode": [
+      "+1",
+      "+1 809"
+    ],
+    "birthplace_capital": [
+      "Santo Domingo"
+    ],
+    "birthplace_ccn3": [
+      "214"
+    ],
+    "birthplace_currency": [
+      "Dominican peso"
+    ],
+    "birthplace_currency_short": [
+      "DOP"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Dominikaani Vabariik"
+    ],
+    "birthplace_jpn_common_name": [
+      "ドミニカ共和国"
+    ],
+    "birthplace_rounded_lat": [
+      "19"
+    ],
+    "birthplace_rounded_lng": [
+      "-70"
+    ],
+    "birthplace_rus_common_name": [
+      "Доминиканская Республика"
+    ],
+    "birthplace_spa_common_name": [
+      "República Dominicana"
+    ],
+    "birthplace_tld": [
+      ".do"
+    ],
+    "birthplace_urd_common_name": [
+      "ڈومینیکن"
+    ]
+  },
+  "Ecuador": {
+    "birthplace_callingcode": [
+      "+593"
+    ],
+    "birthplace_capital": [
+      "Quito"
+    ],
+    "birthplace_ccn3": [
+      "218"
+    ],
+    "birthplace_currency": [
+      "United States dollar"
+    ],
+    "birthplace_currency_short": [
+      "USD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Ecuador"
+    ],
+    "birthplace_jpn_common_name": [
+      "エクアドル"
+    ],
+    "birthplace_rounded_lat": [
+      "-2"
+    ],
+    "birthplace_rounded_lng": [
+      "-77"
+    ],
+    "birthplace_rus_common_name": [
+      "Эквадор"
+    ],
+    "birthplace_spa_common_name": [
+      "Ecuador"
+    ],
+    "birthplace_tld": [
+      ".ec"
+    ],
+    "birthplace_urd_common_name": [
+      "ایکواڈور"
+    ]
+  },
+  "Egypt": {
+    "birthplace_callingcode": [
+      "+20"
+    ],
+    "birthplace_capital": [
+      "Cairo"
+    ],
+    "birthplace_ccn3": [
+      "818"
+    ],
+    "birthplace_currency": [
+      "Egyptian pound"
+    ],
+    "birthplace_currency_short": [
+      "EGP"
+    ],
+    "birthplace_currency_symbol": [
+      "£"
+    ],
+    "birthplace_est_common_name": [
+      "Egiptus"
+    ],
+    "birthplace_jpn_common_name": [
+      "エジプト"
+    ],
+    "birthplace_rounded_lat": [
+      "27"
+    ],
+    "birthplace_rounded_lng": [
+      "30"
+    ],
+    "birthplace_rus_common_name": [
+      "Египет"
+    ],
+    "birthplace_spa_common_name": [
+      "Egipto"
+    ],
+    "birthplace_tld": [
+      ".eg",
+      ".مصر"
+    ],
+    "birthplace_urd_common_name": [
+      "مصر"
+    ]
+  },
+  "El Salvador": {
+    "birthplace_callingcode": [
+      "+503"
+    ],
+    "birthplace_capital": [
+      "San Salvador"
+    ],
+    "birthplace_ccn3": [
+      "222"
+    ],
+    "birthplace_currency": [
+      "United States dollar"
+    ],
+    "birthplace_currency_short": [
+      "USD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "El Salvador"
+    ],
+    "birthplace_jpn_common_name": [
+      "エルサルバドル"
+    ],
+    "birthplace_rounded_lat": [
+      "13"
+    ],
+    "birthplace_rounded_lng": [
+      "-88"
+    ],
+    "birthplace_rus_common_name": [
+      "Сальвадор"
+    ],
+    "birthplace_spa_common_name": [
+      "El Salvador"
+    ],
+    "birthplace_tld": [
+      ".sv"
+    ],
+    "birthplace_urd_common_name": [
+      "ایل سیلواڈور"
+    ]
+  },
+  "Estonia": {
+    "birthplace_callingcode": [
+      "+372"
+    ],
+    "birthplace_capital": [
+      "Tallinn"
+    ],
+    "birthplace_ccn3": [
+      "233"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Eesti"
+    ],
+    "birthplace_jpn_common_name": [
+      "エストニア"
+    ],
+    "birthplace_rounded_lat": [
+      "59"
+    ],
+    "birthplace_rounded_lng": [
+      "26"
+    ],
+    "birthplace_rus_common_name": [
+      "Эстония"
+    ],
+    "birthplace_spa_common_name": [
+      "Estonia"
+    ],
+    "birthplace_tld": [
+      ".ee"
+    ],
+    "birthplace_urd_common_name": [
+      "اسٹونیا"
+    ]
+  },
+  "Ethiopia": {
+    "birthplace_callingcode": [
+      "+251"
+    ],
+    "birthplace_capital": [
+      "Addis Ababa"
+    ],
+    "birthplace_ccn3": [
+      "231"
+    ],
+    "birthplace_currency": [
+      "Ethiopian birr"
+    ],
+    "birthplace_currency_short": [
+      "ETB"
+    ],
+    "birthplace_currency_symbol": [
+      "Br"
+    ],
+    "birthplace_est_common_name": [
+      "Etioopia"
+    ],
+    "birthplace_jpn_common_name": [
+      "エチオピア"
+    ],
+    "birthplace_rounded_lat": [
+      "8"
+    ],
+    "birthplace_rounded_lng": [
+      "38"
+    ],
+    "birthplace_rus_common_name": [
+      "Эфиопия"
+    ],
+    "birthplace_spa_common_name": [
+      "Etiopía"
+    ],
+    "birthplace_tld": [
+      ".et"
+    ],
+    "birthplace_urd_common_name": [
+      "ایتھوپیا"
+    ]
+  },
+  "Finland": {
+    "birthplace_callingcode": [
+      "+358"
+    ],
+    "birthplace_capital": [
+      "Helsinki"
+    ],
+    "birthplace_ccn3": [
+      "246"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Soome"
+    ],
+    "birthplace_jpn_common_name": [
+      "フィンランド"
+    ],
+    "birthplace_rounded_lat": [
+      "64"
+    ],
+    "birthplace_rounded_lng": [
+      "26"
+    ],
+    "birthplace_rus_common_name": [
+      "Финляндия"
+    ],
+    "birthplace_spa_common_name": [
+      "Finlandia"
+    ],
+    "birthplace_tld": [
+      ".fi"
+    ],
+    "birthplace_urd_common_name": [
+      "فن لینڈ"
+    ]
+  },
+  "France": {
+    "birthplace_callingcode": [
+      "+33"
+    ],
+    "birthplace_capital": [
+      "Paris"
+    ],
+    "birthplace_ccn3": [
+      "250"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Prantsusmaa"
+    ],
+    "birthplace_jpn_common_name": [
+      "フランス"
+    ],
+    "birthplace_rounded_lat": [
+      "46"
+    ],
+    "birthplace_rounded_lng": [
+      "2"
+    ],
+    "birthplace_rus_common_name": [
+      "Франция"
+    ],
+    "birthplace_spa_common_name": [
+      "Francia"
+    ],
+    "birthplace_tld": [
+      ".fr"
+    ],
+    "birthplace_urd_common_name": [
+      "فرانس"
+    ]
+  },
+  "Gabon": {
+    "birthplace_callingcode": [
+      "+241"
+    ],
+    "birthplace_capital": [
+      "Libreville"
+    ],
+    "birthplace_ccn3": [
+      "266"
+    ],
+    "birthplace_currency": [
+      "Central African CFA franc"
+    ],
+    "birthplace_currency_short": [
+      "XAF"
+    ],
+    "birthplace_currency_symbol": [
+      "Fr"
+    ],
+    "birthplace_est_common_name": [
+      "Gabon"
+    ],
+    "birthplace_jpn_common_name": [
+      "ガボン"
+    ],
+    "birthplace_rounded_lat": [
+      "-1"
+    ],
+    "birthplace_rounded_lng": [
+      "11"
+    ],
+    "birthplace_rus_common_name": [
+      "Габон"
+    ],
+    "birthplace_spa_common_name": [
+      "Gabón"
+    ],
+    "birthplace_tld": [
+      ".ga"
+    ],
+    "birthplace_urd_common_name": [
+      "گیبون"
+    ]
+  },
+  "Georgia": {
+    "birthplace_callingcode": [
+      "+995"
+    ],
+    "birthplace_capital": [
+      "Tbilisi"
+    ],
+    "birthplace_ccn3": [
+      "268"
+    ],
+    "birthplace_currency": [
+      "lari"
+    ],
+    "birthplace_currency_short": [
+      "GEL"
+    ],
+    "birthplace_currency_symbol": [
+      "₾"
+    ],
+    "birthplace_est_common_name": [
+      "Gruusia"
+    ],
+    "birthplace_jpn_common_name": [
+      "グルジア"
+    ],
+    "birthplace_rounded_lat": [
+      "42"
+    ],
+    "birthplace_rounded_lng": [
+      "43"
+    ],
+    "birthplace_rus_common_name": [
+      "Грузия"
+    ],
+    "birthplace_spa_common_name": [
+      "Georgia"
+    ],
+    "birthplace_tld": [
+      ".ge"
+    ],
+    "birthplace_urd_common_name": [
+      "جارجیا"
+    ]
+  },
+  "Germany": {
+    "birthplace_callingcode": [
+      "+49"
+    ],
+    "birthplace_capital": [
+      "Berlin"
+    ],
+    "birthplace_ccn3": [
+      "276"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Saksamaa"
+    ],
+    "birthplace_jpn_common_name": [
+      "ドイツ"
+    ],
+    "birthplace_rounded_lat": [
+      "51"
+    ],
+    "birthplace_rounded_lng": [
+      "9"
+    ],
+    "birthplace_rus_common_name": [
+      "Германия"
+    ],
+    "birthplace_spa_common_name": [
+      "Alemania"
+    ],
+    "birthplace_tld": [
+      ".de"
+    ],
+    "birthplace_urd_common_name": [
+      "جرمنی"
+    ]
+  },
+  "Ghana": {
+    "birthplace_callingcode": [
+      "+233"
+    ],
+    "birthplace_capital": [
+      "Accra"
+    ],
+    "birthplace_ccn3": [
+      "288"
+    ],
+    "birthplace_currency": [
+      "Ghanaian cedi"
+    ],
+    "birthplace_currency_short": [
+      "GHS"
+    ],
+    "birthplace_currency_symbol": [
+      "₵"
+    ],
+    "birthplace_est_common_name": [
+      "Ghana"
+    ],
+    "birthplace_jpn_common_name": [
+      "ガーナ"
+    ],
+    "birthplace_rounded_lat": [
+      "8"
+    ],
+    "birthplace_rounded_lng": [
+      "-2"
+    ],
+    "birthplace_rus_common_name": [
+      "Гана"
+    ],
+    "birthplace_spa_common_name": [
+      "Ghana"
+    ],
+    "birthplace_tld": [
+      ".gh"
+    ],
+    "birthplace_urd_common_name": [
+      "گھانا"
+    ]
+  },
+  "Greece": {
+    "birthplace_callingcode": [
+      "+30"
+    ],
+    "birthplace_capital": [
+      "Athens"
+    ],
+    "birthplace_ccn3": [
+      "300"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Kreeka"
+    ],
+    "birthplace_jpn_common_name": [
+      "ギリシャ"
+    ],
+    "birthplace_rounded_lat": [
+      "39"
+    ],
+    "birthplace_rounded_lng": [
+      "22"
+    ],
+    "birthplace_rus_common_name": [
+      "Греция"
+    ],
+    "birthplace_spa_common_name": [
+      "Grecia"
+    ],
+    "birthplace_tld": [
+      ".gr"
+    ],
+    "birthplace_urd_common_name": [
+      "یونان"
+    ]
+  },
+  "Guatemala": {
+    "birthplace_callingcode": [
+      "+502"
+    ],
+    "birthplace_capital": [
+      "Guatemala City"
+    ],
+    "birthplace_ccn3": [
+      "320"
+    ],
+    "birthplace_currency": [
+      "Guatemalan quetzal"
+    ],
+    "birthplace_currency_short": [
+      "GTQ"
+    ],
+    "birthplace_currency_symbol": [
+      "Q"
+    ],
+    "birthplace_est_common_name": [
+      "Guatemala"
+    ],
+    "birthplace_jpn_common_name": [
+      "グアテマラ"
+    ],
+    "birthplace_rounded_lat": [
+      "15"
+    ],
+    "birthplace_rounded_lng": [
+      "-90"
+    ],
+    "birthplace_rus_common_name": [
+      "Гватемала"
+    ],
+    "birthplace_spa_common_name": [
+      "Guatemala"
+    ],
+    "birthplace_tld": [
+      ".gt"
+    ],
+    "birthplace_urd_common_name": [
+      "گواتیمالا"
+    ]
+  },
+  "Haiti": {
+    "birthplace_callingcode": [
+      "+509"
+    ],
+    "birthplace_capital": [
+      "Port-au-Prince"
+    ],
+    "birthplace_ccn3": [
+      "332"
+    ],
+    "birthplace_currency": [
+      "Haitian gourde"
+    ],
+    "birthplace_currency_short": [
+      "HTG"
+    ],
+    "birthplace_currency_symbol": [
+      "G"
+    ],
+    "birthplace_est_common_name": [
+      "Haiti"
+    ],
+    "birthplace_jpn_common_name": [
+      "ハイチ"
+    ],
+    "birthplace_rounded_lat": [
+      "19"
+    ],
+    "birthplace_rounded_lng": [
+      "-72"
+    ],
+    "birthplace_rus_common_name": [
+      "Гаити"
+    ],
+    "birthplace_spa_common_name": [
+      "Haití"
+    ],
+    "birthplace_tld": [
+      ".ht"
+    ],
+    "birthplace_urd_common_name": [
+      "ہیٹی"
+    ]
+  },
+  "Honduras": {
+    "birthplace_callingcode": [
+      "+504"
+    ],
+    "birthplace_capital": [
+      "Tegucigalpa"
+    ],
+    "birthplace_ccn3": [
+      "340"
+    ],
+    "birthplace_currency": [
+      "Honduran lempira"
+    ],
+    "birthplace_currency_short": [
+      "HNL"
+    ],
+    "birthplace_currency_symbol": [
+      "L"
+    ],
+    "birthplace_est_common_name": [
+      "Honduras"
+    ],
+    "birthplace_jpn_common_name": [
+      "ホンジュラス"
+    ],
+    "birthplace_rounded_lat": [
+      "15"
+    ],
+    "birthplace_rounded_lng": [
+      "-86"
+    ],
+    "birthplace_rus_common_name": [
+      "Гондурас"
+    ],
+    "birthplace_spa_common_name": [
+      "Honduras"
+    ],
+    "birthplace_tld": [
+      ".hn"
+    ],
+    "birthplace_urd_common_name": [
+      "ہونڈوراس"
+    ]
+  },
+  "Hong Kong": {
+    "birthplace_callingcode": [
+      "+852"
+    ],
+    "birthplace_capital": [
+      "City of Victoria"
+    ],
+    "birthplace_ccn3": [
+      "344"
+    ],
+    "birthplace_currency": [
+      "Hong Kong dollar"
+    ],
+    "birthplace_currency_short": [
+      "HKD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Hongkong"
+    ],
+    "birthplace_jpn_common_name": [
+      "香港"
+    ],
+    "birthplace_rounded_lat": [
+      "22"
+    ],
+    "birthplace_rounded_lng": [
+      "114"
+    ],
+    "birthplace_rus_common_name": [
+      "Гонконг"
+    ],
+    "birthplace_spa_common_name": [
+      "Hong Kong"
+    ],
+    "birthplace_tld": [
+      ".hk",
+      ".香港"
+    ],
+    "birthplace_urd_common_name": [
+      "ہانگ کانگ"
+    ]
+  },
+  "Hungary": {
+    "birthplace_callingcode": [
+      "+36"
+    ],
+    "birthplace_capital": [
+      "Budapest"
+    ],
+    "birthplace_ccn3": [
+      "348"
+    ],
+    "birthplace_currency": [
+      "Hungarian forint"
+    ],
+    "birthplace_currency_short": [
+      "HUF"
+    ],
+    "birthplace_currency_symbol": [
+      "Ft"
+    ],
+    "birthplace_est_common_name": [
+      "Ungari"
+    ],
+    "birthplace_jpn_common_name": [
+      "ハンガリー"
+    ],
+    "birthplace_rounded_lat": [
+      "47"
+    ],
+    "birthplace_rounded_lng": [
+      "20"
+    ],
+    "birthplace_rus_common_name": [
+      "Венгрия"
+    ],
+    "birthplace_spa_common_name": [
+      "Hungría"
+    ],
+    "birthplace_tld": [
+      ".hu"
+    ],
+    "birthplace_urd_common_name": [
+      "مجارستان"
+    ]
+  },
+  "Iceland": {
+    "birthplace_callingcode": [
+      "+354"
+    ],
+    "birthplace_capital": [
+      "Reykjavik"
+    ],
+    "birthplace_ccn3": [
+      "352"
+    ],
+    "birthplace_currency": [
+      "Icelandic króna"
+    ],
+    "birthplace_currency_short": [
+      "ISK"
+    ],
+    "birthplace_currency_symbol": [
+      "kr"
+    ],
+    "birthplace_est_common_name": [
+      "Island"
+    ],
+    "birthplace_jpn_common_name": [
+      "アイスランド"
+    ],
+    "birthplace_rounded_lat": [
+      "65"
+    ],
+    "birthplace_rounded_lng": [
+      "-18"
+    ],
+    "birthplace_rus_common_name": [
+      "Исландия"
+    ],
+    "birthplace_spa_common_name": [
+      "Islandia"
+    ],
+    "birthplace_tld": [
+      ".is"
+    ],
+    "birthplace_urd_common_name": [
+      "آئس لینڈ"
+    ]
+  },
+  "India": {
+    "birthplace_callingcode": [
+      "+91"
+    ],
+    "birthplace_capital": [
+      "New Delhi"
+    ],
+    "birthplace_ccn3": [
+      "356"
+    ],
+    "birthplace_currency": [
+      "Indian rupee"
+    ],
+    "birthplace_currency_short": [
+      "INR"
+    ],
+    "birthplace_currency_symbol": [
+      "₹"
+    ],
+    "birthplace_est_common_name": [
+      "India"
+    ],
+    "birthplace_jpn_common_name": [
+      "インド"
+    ],
+    "birthplace_rounded_lat": [
+      "20"
+    ],
+    "birthplace_rounded_lng": [
+      "77"
+    ],
+    "birthplace_rus_common_name": [
+      "Индия"
+    ],
+    "birthplace_spa_common_name": [
+      "India"
+    ],
+    "birthplace_tld": [
+      ".in"
+    ],
+    "birthplace_urd_common_name": [
+      "بھارت"
+    ]
+  },
+  "Indonesia": {
+    "birthplace_callingcode": [
+      "+62"
+    ],
+    "birthplace_capital": [
+      "Jakarta"
+    ],
+    "birthplace_ccn3": [
+      "360"
+    ],
+    "birthplace_currency": [
+      "Indonesian rupiah"
+    ],
+    "birthplace_currency_short": [
+      "IDR"
+    ],
+    "birthplace_currency_symbol": [
+      "Rp"
+    ],
+    "birthplace_est_common_name": [
+      "Indoneesia"
+    ],
+    "birthplace_jpn_common_name": [
+      "インドネシア"
+    ],
+    "birthplace_rounded_lat": [
+      "-5"
+    ],
+    "birthplace_rounded_lng": [
+      "120"
+    ],
+    "birthplace_rus_common_name": [
+      "Индонезия"
+    ],
+    "birthplace_spa_common_name": [
+      "Indonesia"
+    ],
+    "birthplace_tld": [
+      ".id"
+    ],
+    "birthplace_urd_common_name": [
+      "انڈونیشیا"
+    ]
+  },
+  "Iran": {
+    "birthplace_callingcode": [
+      "+98"
+    ],
+    "birthplace_capital": [
+      "Tehran"
+    ],
+    "birthplace_ccn3": [
+      "364"
+    ],
+    "birthplace_currency": [
+      "Iranian rial"
+    ],
+    "birthplace_currency_short": [
+      "IRR"
+    ],
+    "birthplace_currency_symbol": [
+      "﷼"
+    ],
+    "birthplace_est_common_name": [
+      "Iraan"
+    ],
+    "birthplace_jpn_common_name": [
+      "イラン・イスラム共和国"
+    ],
+    "birthplace_rounded_lat": [
+      "32"
+    ],
+    "birthplace_rounded_lng": [
+      "53"
+    ],
+    "birthplace_rus_common_name": [
+      "Иран"
+    ],
+    "birthplace_spa_common_name": [
+      "Iran"
+    ],
+    "birthplace_tld": [
+      ".ir",
+      "ایران."
+    ],
+    "birthplace_urd_common_name": [
+      "ایران"
+    ]
+  },
+  "Iraq": {
+    "birthplace_callingcode": [
+      "+964"
+    ],
+    "birthplace_capital": [
+      "Baghdad"
+    ],
+    "birthplace_ccn3": [
+      "368"
+    ],
+    "birthplace_currency": [
+      "Iraqi dinar"
+    ],
+    "birthplace_currency_short": [
+      "IQD"
+    ],
+    "birthplace_currency_symbol": [
+      "ع.د"
+    ],
+    "birthplace_est_common_name": [
+      "Iraak"
+    ],
+    "birthplace_jpn_common_name": [
+      "イラク"
+    ],
+    "birthplace_rounded_lat": [
+      "33"
+    ],
+    "birthplace_rounded_lng": [
+      "44"
+    ],
+    "birthplace_rus_common_name": [
+      "Ирак"
+    ],
+    "birthplace_spa_common_name": [
+      "Irak"
+    ],
+    "birthplace_tld": [
+      ".iq"
+    ],
+    "birthplace_urd_common_name": [
+      "عراق"
+    ]
+  },
+  "Ireland": {
+    "birthplace_callingcode": [
+      "+353"
+    ],
+    "birthplace_capital": [
+      "Dublin"
+    ],
+    "birthplace_ccn3": [
+      "372"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Iirimaa"
+    ],
+    "birthplace_jpn_common_name": [
+      "アイルランド"
+    ],
+    "birthplace_rounded_lat": [
+      "53"
+    ],
+    "birthplace_rounded_lng": [
+      "-8"
+    ],
+    "birthplace_rus_common_name": [
+      "Ирландия"
+    ],
+    "birthplace_spa_common_name": [
+      "Irlanda"
+    ],
+    "birthplace_tld": [
+      ".ie"
+    ],
+    "birthplace_urd_common_name": [
+      "جزیرہ آئرلینڈ"
+    ]
+  },
+  "Israel": {
+    "birthplace_callingcode": [
+      "+972"
+    ],
+    "birthplace_capital": [
+      "Jerusalem"
+    ],
+    "birthplace_ccn3": [
+      "376"
+    ],
+    "birthplace_currency": [
+      "Israeli new shekel"
+    ],
+    "birthplace_currency_short": [
+      "ILS"
+    ],
+    "birthplace_currency_symbol": [
+      "₪"
+    ],
+    "birthplace_est_common_name": [
+      "Iisrael"
+    ],
+    "birthplace_jpn_common_name": [
+      "イスラエル"
+    ],
+    "birthplace_rounded_lat": [
+      "31"
+    ],
+    "birthplace_rounded_lng": [
+      "35"
+    ],
+    "birthplace_rus_common_name": [
+      "Израиль"
+    ],
+    "birthplace_spa_common_name": [
+      "Israel"
+    ],
+    "birthplace_tld": [
+      ".il"
+    ],
+    "birthplace_urd_common_name": [
+      "اسرائیل"
+    ]
+  },
+  "Italy": {
+    "birthplace_callingcode": [
+      "+39"
+    ],
+    "birthplace_capital": [
+      "Rome"
+    ],
+    "birthplace_ccn3": [
+      "380"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Itaalia"
+    ],
+    "birthplace_jpn_common_name": [
+      "イタリア"
+    ],
+    "birthplace_rounded_lat": [
+      "42"
+    ],
+    "birthplace_rounded_lng": [
+      "12"
+    ],
+    "birthplace_rus_common_name": [
+      "Италия"
+    ],
+    "birthplace_spa_common_name": [
+      "Italia"
+    ],
+    "birthplace_tld": [
+      ".it"
+    ],
+    "birthplace_urd_common_name": [
+      "اطالیہ"
+    ]
+  },
+  "Jamaica": {
+    "birthplace_callingcode": [
+      "+1 658"
+    ],
+    "birthplace_capital": [
+      "Kingston"
+    ],
+    "birthplace_ccn3": [
+      "388"
+    ],
+    "birthplace_currency": [
+      "Jamaican dollar"
+    ],
+    "birthplace_currency_short": [
+      "JMD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Jamaica"
+    ],
+    "birthplace_jpn_common_name": [
+      "ジャマイカ"
+    ],
+    "birthplace_rounded_lat": [
+      "18"
+    ],
+    "birthplace_rounded_lng": [
+      "-77"
+    ],
+    "birthplace_rus_common_name": [
+      "Ямайка"
+    ],
+    "birthplace_spa_common_name": [
+      "Jamaica"
+    ],
+    "birthplace_tld": [
+      ".jm"
+    ],
+    "birthplace_urd_common_name": [
+      "جمیکا"
+    ]
+  },
+  "Japan": {
+    "birthplace_callingcode": [
+      "+81"
+    ],
+    "birthplace_capital": [
+      "Tokyo"
+    ],
+    "birthplace_ccn3": [
+      "392"
+    ],
+    "birthplace_currency": [
+      "Japanese yen"
+    ],
+    "birthplace_currency_short": [
+      "JPY"
+    ],
+    "birthplace_currency_symbol": [
+      "¥"
+    ],
+    "birthplace_est_common_name": [
+      "Jaapan"
+    ],
+    "birthplace_jpn_common_name": [
+      "日本"
+    ],
+    "birthplace_rounded_lat": [
+      "36"
+    ],
+    "birthplace_rounded_lng": [
+      "138"
+    ],
+    "birthplace_rus_common_name": [
+      "Япония"
+    ],
+    "birthplace_spa_common_name": [
+      "Japón"
+    ],
+    "birthplace_tld": [
+      ".jp",
+      ".みんな"
+    ],
+    "birthplace_urd_common_name": [
+      "جاپان"
+    ]
+  },
+  "Jordan": {
+    "birthplace_callingcode": [
+      "+962"
+    ],
+    "birthplace_capital": [
+      "Amman"
+    ],
+    "birthplace_ccn3": [
+      "400"
+    ],
+    "birthplace_currency": [
+      "Jordanian dinar"
+    ],
+    "birthplace_currency_short": [
+      "JOD"
+    ],
+    "birthplace_currency_symbol": [
+      "د.ا"
+    ],
+    "birthplace_est_common_name": [
+      "Jordaania"
+    ],
+    "birthplace_jpn_common_name": [
+      "ヨルダン"
+    ],
+    "birthplace_rounded_lat": [
+      "31"
+    ],
+    "birthplace_rounded_lng": [
+      "36"
+    ],
+    "birthplace_rus_common_name": [
+      "Иордания"
+    ],
+    "birthplace_spa_common_name": [
+      "Jordania"
+    ],
+    "birthplace_tld": [
+      ".jo",
+      "الاردن."
+    ],
+    "birthplace_urd_common_name": [
+      "اردن"
+    ]
+  },
+  "Kenya": {
+    "birthplace_callingcode": [
+      "+254"
+    ],
+    "birthplace_capital": [
+      "Nairobi"
+    ],
+    "birthplace_ccn3": [
+      "404"
+    ],
+    "birthplace_currency": [
+      "Kenyan shilling"
+    ],
+    "birthplace_currency_short": [
+      "KES"
+    ],
+    "birthplace_currency_symbol": [
+      "Sh"
+    ],
+    "birthplace_est_common_name": [
+      "Keenia"
+    ],
+    "birthplace_jpn_common_name": [
+      "ケニア"
+    ],
+    "birthplace_rounded_lat": [
+      "1"
+    ],
+    "birthplace_rounded_lng": [
+      "38"
+    ],
+    "birthplace_rus_common_name": [
+      "Кения"
+    ],
+    "birthplace_spa_common_name": [
+      "Kenia"
+    ],
+    "birthplace_tld": [
+      ".ke"
+    ],
+    "birthplace_urd_common_name": [
+      "کینیا"
+    ]
+  },
+  "Kuwait": {
+    "birthplace_callingcode": [
+      "+965"
+    ],
+    "birthplace_capital": [
+      "Kuwait City"
+    ],
+    "birthplace_ccn3": [
+      "414"
+    ],
+    "birthplace_currency": [
+      "Kuwaiti dinar"
+    ],
+    "birthplace_currency_short": [
+      "KWD"
+    ],
+    "birthplace_currency_symbol": [
+      "د.ك"
+    ],
+    "birthplace_est_common_name": [
+      "Kuveit"
+    ],
+    "birthplace_jpn_common_name": [
+      "クウェート"
+    ],
+    "birthplace_rounded_lat": [
+      "29"
+    ],
+    "birthplace_rounded_lng": [
+      "45"
+    ],
+    "birthplace_rus_common_name": [
+      "Кувейт"
+    ],
+    "birthplace_spa_common_name": [
+      "Kuwait"
+    ],
+    "birthplace_tld": [
+      ".kw"
+    ],
+    "birthplace_urd_common_name": [
+      "کویت"
+    ]
+  },
+  "Latvia": {
+    "birthplace_callingcode": [
+      "+371"
+    ],
+    "birthplace_capital": [
+      "Riga"
+    ],
+    "birthplace_ccn3": [
+      "428"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Läti"
+    ],
+    "birthplace_jpn_common_name": [
+      "ラトビア"
+    ],
+    "birthplace_rounded_lat": [
+      "57"
+    ],
+    "birthplace_rounded_lng": [
+      "25"
+    ],
+    "birthplace_rus_common_name": [
+      "Латвия"
+    ],
+    "birthplace_spa_common_name": [
+      "Letonia"
+    ],
+    "birthplace_tld": [
+      ".lv"
+    ],
+    "birthplace_urd_common_name": [
+      "لٹویا"
+    ]
+  },
+  "Lebanon": {
+    "birthplace_callingcode": [
+      "+961"
+    ],
+    "birthplace_capital": [
+      "Beirut"
+    ],
+    "birthplace_ccn3": [
+      "422"
+    ],
+    "birthplace_currency": [
+      "Lebanese pound"
+    ],
+    "birthplace_currency_short": [
+      "LBP"
+    ],
+    "birthplace_currency_symbol": [
+      "ل.ل"
+    ],
+    "birthplace_est_common_name": [
+      "Liibanon"
+    ],
+    "birthplace_jpn_common_name": [
+      "レバノン"
+    ],
+    "birthplace_rounded_lat": [
+      "33"
+    ],
+    "birthplace_rounded_lng": [
+      "35"
+    ],
+    "birthplace_rus_common_name": [
+      "Ливан"
+    ],
+    "birthplace_spa_common_name": [
+      "Líbano"
+    ],
+    "birthplace_tld": [
+      ".lb"
+    ],
+    "birthplace_urd_common_name": [
+      "لبنان"
+    ]
+  },
+  "Libya": {
+    "birthplace_callingcode": [
+      "+218"
+    ],
+    "birthplace_capital": [
+      "Tripoli"
+    ],
+    "birthplace_ccn3": [
+      "434"
+    ],
+    "birthplace_currency": [
+      "Libyan dinar"
+    ],
+    "birthplace_currency_short": [
+      "LYD"
+    ],
+    "birthplace_currency_symbol": [
+      "ل.د"
+    ],
+    "birthplace_est_common_name": [
+      "Liibüa"
+    ],
+    "birthplace_jpn_common_name": [
+      "リビア"
+    ],
+    "birthplace_rounded_lat": [
+      "25"
+    ],
+    "birthplace_rounded_lng": [
+      "17"
+    ],
+    "birthplace_rus_common_name": [
+      "Ливия"
+    ],
+    "birthplace_spa_common_name": [
+      "Libia"
+    ],
+    "birthplace_tld": [
+      ".ly"
+    ],
+    "birthplace_urd_common_name": [
+      "لیبیا"
+    ]
+  },
+  "Lithuania": {
+    "birthplace_callingcode": [
+      "+370"
+    ],
+    "birthplace_capital": [
+      "Vilnius"
+    ],
+    "birthplace_ccn3": [
+      "440"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Leedu"
+    ],
+    "birthplace_jpn_common_name": [
+      "リトアニア"
+    ],
+    "birthplace_rounded_lat": [
+      "56"
+    ],
+    "birthplace_rounded_lng": [
+      "24"
+    ],
+    "birthplace_rus_common_name": [
+      "Литва"
+    ],
+    "birthplace_spa_common_name": [
+      "Lituania"
+    ],
+    "birthplace_tld": [
+      ".lt"
+    ],
+    "birthplace_urd_common_name": [
+      "لتھووینیا"
+    ]
+  },
+  "Malaysia": {
+    "birthplace_callingcode": [
+      "+60"
+    ],
+    "birthplace_capital": [
+      "Kuala Lumpur"
+    ],
+    "birthplace_ccn3": [
+      "458"
+    ],
+    "birthplace_currency": [
+      "Malaysian ringgit"
+    ],
+    "birthplace_currency_short": [
+      "MYR"
+    ],
+    "birthplace_currency_symbol": [
+      "RM"
+    ],
+    "birthplace_est_common_name": [
+      "Malaisia"
+    ],
+    "birthplace_jpn_common_name": [
+      "マレーシア"
+    ],
+    "birthplace_rounded_lat": [
+      "2"
+    ],
+    "birthplace_rounded_lng": [
+      "112"
+    ],
+    "birthplace_rus_common_name": [
+      "Малайзия"
+    ],
+    "birthplace_spa_common_name": [
+      "Malasia"
+    ],
+    "birthplace_tld": [
+      ".my"
+    ],
+    "birthplace_urd_common_name": [
+      "ملائیشیا"
+    ]
+  },
+  "Mexico": {
+    "birthplace_callingcode": [
+      "+52"
+    ],
+    "birthplace_capital": [
+      "Mexico City"
+    ],
+    "birthplace_ccn3": [
+      "484"
+    ],
+    "birthplace_currency": [
+      "Mexican peso"
+    ],
+    "birthplace_currency_short": [
+      "MXN"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Mehhiko"
+    ],
+    "birthplace_jpn_common_name": [
+      "メキシコ"
+    ],
+    "birthplace_rounded_lat": [
+      "23"
+    ],
+    "birthplace_rounded_lng": [
+      "-102"
+    ],
+    "birthplace_rus_common_name": [
+      "Мексика"
+    ],
+    "birthplace_spa_common_name": [
+      "México"
+    ],
+    "birthplace_tld": [
+      ".mx"
+    ],
+    "birthplace_urd_common_name": [
+      "میکسیکو"
+    ]
+  },
+  "Monaco": {
+    "birthplace_callingcode": [
+      "+377"
+    ],
+    "birthplace_capital": [
+      "Monaco"
+    ],
+    "birthplace_ccn3": [
+      "492"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Monaco"
+    ],
+    "birthplace_jpn_common_name": [
+      "モナコ"
+    ],
+    "birthplace_rounded_lat": [
+      "43"
+    ],
+    "birthplace_rounded_lng": [
+      "7"
+    ],
+    "birthplace_rus_common_name": [
+      "Монако"
+    ],
+    "birthplace_spa_common_name": [
+      "Mónaco"
+    ],
+    "birthplace_tld": [
+      ".mc"
+    ],
+    "birthplace_urd_common_name": [
+      "موناکو"
+    ]
+  },
+  "Mongolia": {
+    "birthplace_callingcode": [
+      "+976"
+    ],
+    "birthplace_capital": [
+      "Ulan Bator"
+    ],
+    "birthplace_ccn3": [
+      "496"
+    ],
+    "birthplace_currency": [
+      "Mongolian tögrög"
+    ],
+    "birthplace_currency_short": [
+      "MNT"
+    ],
+    "birthplace_currency_symbol": [
+      "₮"
+    ],
+    "birthplace_est_common_name": [
+      "Mongoolia"
+    ],
+    "birthplace_jpn_common_name": [
+      "モンゴル"
+    ],
+    "birthplace_rounded_lat": [
+      "46"
+    ],
+    "birthplace_rounded_lng": [
+      "105"
+    ],
+    "birthplace_rus_common_name": [
+      "Монголия"
+    ],
+    "birthplace_spa_common_name": [
+      "Mongolia"
+    ],
+    "birthplace_tld": [
+      ".mn"
+    ],
+    "birthplace_urd_common_name": [
+      "منگولیا"
+    ]
+  },
+  "Morocco": {
+    "birthplace_callingcode": [
+      "+212"
+    ],
+    "birthplace_capital": [
+      "Rabat"
+    ],
+    "birthplace_ccn3": [
+      "504"
+    ],
+    "birthplace_currency": [
+      "Moroccan dirham"
+    ],
+    "birthplace_currency_short": [
+      "MAD"
+    ],
+    "birthplace_currency_symbol": [
+      "د.م."
+    ],
+    "birthplace_est_common_name": [
+      "Maroko"
+    ],
+    "birthplace_jpn_common_name": [
+      "モロッコ"
+    ],
+    "birthplace_rounded_lat": [
+      "32"
+    ],
+    "birthplace_rounded_lng": [
+      "-5"
+    ],
+    "birthplace_rus_common_name": [
+      "Марокко"
+    ],
+    "birthplace_spa_common_name": [
+      "Marruecos"
+    ],
+    "birthplace_tld": [
+      ".ma",
+      "المغرب."
+    ],
+    "birthplace_urd_common_name": [
+      "مراکش"
+    ]
+  },
+  "Myanmar": {
+    "birthplace_callingcode": [
+      "+95"
+    ],
+    "birthplace_capital": [
+      "Naypyidaw"
+    ],
+    "birthplace_ccn3": [
+      "104"
+    ],
+    "birthplace_currency": [
+      "Burmese kyat"
+    ],
+    "birthplace_currency_short": [
+      "MMK"
+    ],
+    "birthplace_currency_symbol": [
+      "Ks"
+    ],
+    "birthplace_est_common_name": [
+      "Myanmar"
+    ],
+    "birthplace_jpn_common_name": [
+      "ミャンマー"
+    ],
+    "birthplace_rounded_lat": [
+      "22"
+    ],
+    "birthplace_rounded_lng": [
+      "98"
+    ],
+    "birthplace_rus_common_name": [
+      "Мьянма"
+    ],
+    "birthplace_spa_common_name": [
+      "Myanmar"
+    ],
+    "birthplace_tld": [
+      ".mm"
+    ],
+    "birthplace_urd_common_name": [
+      "میانمار"
+    ]
+  },
+  "Nepal": {
+    "birthplace_callingcode": [
+      "+977"
+    ],
+    "birthplace_capital": [
+      "Kathmandu"
+    ],
+    "birthplace_ccn3": [
+      "524"
+    ],
+    "birthplace_currency": [
+      "Nepalese rupee"
+    ],
+    "birthplace_currency_short": [
+      "NPR"
+    ],
+    "birthplace_currency_symbol": [
+      "₨"
+    ],
+    "birthplace_est_common_name": [
+      "Nepal"
+    ],
+    "birthplace_jpn_common_name": [
+      "ネパール"
+    ],
+    "birthplace_rounded_lat": [
+      "28"
+    ],
+    "birthplace_rounded_lng": [
+      "84"
+    ],
+    "birthplace_rus_common_name": [
+      "Непал"
+    ],
+    "birthplace_spa_common_name": [
+      "Nepal"
+    ],
+    "birthplace_tld": [
+      ".np"
+    ],
+    "birthplace_urd_common_name": [
+      "نیپال"
+    ]
+  },
+  "Netherlands": {
+    "birthplace_callingcode": [
+      "+31"
+    ],
+    "birthplace_capital": [
+      "Amsterdam"
+    ],
+    "birthplace_ccn3": [
+      "528"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Holland"
+    ],
+    "birthplace_jpn_common_name": [
+      "オランダ"
+    ],
+    "birthplace_rounded_lat": [
+      "52"
+    ],
+    "birthplace_rounded_lng": [
+      "5"
+    ],
+    "birthplace_rus_common_name": [
+      "Нидерланды"
+    ],
+    "birthplace_spa_common_name": [
+      "Países Bajos"
+    ],
+    "birthplace_tld": [
+      ".nl"
+    ],
+    "birthplace_urd_common_name": [
+      "نیدرلینڈز"
+    ]
+  },
+  "Nicaragua": {
+    "birthplace_callingcode": [
+      "+505"
+    ],
+    "birthplace_capital": [
+      "Managua"
+    ],
+    "birthplace_ccn3": [
+      "558"
+    ],
+    "birthplace_currency": [
+      "Nicaraguan córdoba"
+    ],
+    "birthplace_currency_short": [
+      "NIO"
+    ],
+    "birthplace_currency_symbol": [
+      "C$"
+    ],
+    "birthplace_est_common_name": [
+      "Nicaragua"
+    ],
+    "birthplace_jpn_common_name": [
+      "ニカラグア"
+    ],
+    "birthplace_rounded_lat": [
+      "13"
+    ],
+    "birthplace_rounded_lng": [
+      "-85"
+    ],
+    "birthplace_rus_common_name": [
+      "Никарагуа"
+    ],
+    "birthplace_spa_common_name": [
+      "Nicaragua"
+    ],
+    "birthplace_tld": [
+      ".ni"
+    ],
+    "birthplace_urd_common_name": [
+      "نکاراگوا"
+    ]
+  },
+  "Nigeria": {
+    "birthplace_callingcode": [
+      "+234"
+    ],
+    "birthplace_capital": [
+      "Abuja"
+    ],
+    "birthplace_ccn3": [
+      "566"
+    ],
+    "birthplace_currency": [
+      "Nigerian naira"
+    ],
+    "birthplace_currency_short": [
+      "NGN"
+    ],
+    "birthplace_currency_symbol": [
+      "₦"
+    ],
+    "birthplace_est_common_name": [
+      "Nigeeria"
+    ],
+    "birthplace_jpn_common_name": [
+      "ナイジェリア"
+    ],
+    "birthplace_rounded_lat": [
+      "10"
+    ],
+    "birthplace_rounded_lng": [
+      "8"
+    ],
+    "birthplace_rus_common_name": [
+      "Нигерия"
+    ],
+    "birthplace_spa_common_name": [
+      "Nigeria"
+    ],
+    "birthplace_tld": [
+      ".ng"
+    ],
+    "birthplace_urd_common_name": [
+      "نائجیریا"
+    ]
+  },
+  "North Korea": {
+    "birthplace_callingcode": [
+      "+850"
+    ],
+    "birthplace_capital": [
+      "Pyongyang"
+    ],
+    "birthplace_ccn3": [
+      "408"
+    ],
+    "birthplace_currency": [
+      "North Korean won"
+    ],
+    "birthplace_currency_short": [
+      "KPW"
+    ],
+    "birthplace_currency_symbol": [
+      "₩"
+    ],
+    "birthplace_est_common_name": [
+      "Põhja-Korea"
+    ],
+    "birthplace_jpn_common_name": [
+      "朝鮮民主主義人民共和国"
+    ],
+    "birthplace_rounded_lat": [
+      "40"
+    ],
+    "birthplace_rounded_lng": [
+      "127"
+    ],
+    "birthplace_rus_common_name": [
+      "Северная Корея"
+    ],
+    "birthplace_spa_common_name": [
+      "Corea del Norte"
+    ],
+    "birthplace_tld": [
+      ".kp"
+    ],
+    "birthplace_urd_common_name": [
+      "شمالی کوریا"
+    ]
+  },
+  "North Macedonia": {
+    "birthplace_callingcode": [
+      "+389"
+    ],
+    "birthplace_capital": [
+      "Skopje"
+    ],
+    "birthplace_ccn3": [
+      "807"
+    ],
+    "birthplace_currency": [
+      "denar"
+    ],
+    "birthplace_currency_short": [
+      "MKD"
+    ],
+    "birthplace_currency_symbol": [
+      "den"
+    ],
+    "birthplace_est_common_name": [
+      "Põhja-Makedoonia"
+    ],
+    "birthplace_jpn_common_name": [
+      "北マケドニア "
+    ],
+    "birthplace_rounded_lat": [
+      "41"
+    ],
+    "birthplace_rounded_lng": [
+      "22"
+    ],
+    "birthplace_rus_common_name": [
+      "Северная Македония"
+    ],
+    "birthplace_spa_common_name": [
+      "Macedonia del Norte"
+    ],
+    "birthplace_tld": [
+      ".mk"
+    ],
+    "birthplace_urd_common_name": [
+      "شمالی مقدونیہ"
+    ]
+  },
+  "Norway": {
+    "birthplace_callingcode": [
+      "+47"
+    ],
+    "birthplace_capital": [
+      "Oslo"
+    ],
+    "birthplace_ccn3": [
+      "578"
+    ],
+    "birthplace_currency": [
+      "Norwegian krone"
+    ],
+    "birthplace_currency_short": [
+      "NOK"
+    ],
+    "birthplace_currency_symbol": [
+      "kr"
+    ],
+    "birthplace_est_common_name": [
+      "Norra"
+    ],
+    "birthplace_jpn_common_name": [
+      "ノルウェー"
+    ],
+    "birthplace_rounded_lat": [
+      "62"
+    ],
+    "birthplace_rounded_lng": [
+      "10"
+    ],
+    "birthplace_rus_common_name": [
+      "Норвегия"
+    ],
+    "birthplace_spa_common_name": [
+      "Noruega"
+    ],
+    "birthplace_tld": [
+      ".no"
+    ],
+    "birthplace_urd_common_name": [
+      "ناروے"
+    ]
+  },
+  "Pakistan": {
+    "birthplace_callingcode": [
+      "+92"
+    ],
+    "birthplace_capital": [
+      "Islamabad"
+    ],
+    "birthplace_ccn3": [
+      "586"
+    ],
+    "birthplace_currency": [
+      "Pakistani rupee"
+    ],
+    "birthplace_currency_short": [
+      "PKR"
+    ],
+    "birthplace_currency_symbol": [
+      "₨"
+    ],
+    "birthplace_est_common_name": [
+      "Pakistan"
+    ],
+    "birthplace_jpn_common_name": [
+      "パキスタン"
+    ],
+    "birthplace_rounded_lat": [
+      "30"
+    ],
+    "birthplace_rounded_lng": [
+      "70"
+    ],
+    "birthplace_rus_common_name": [
+      "Пакистан"
+    ],
+    "birthplace_spa_common_name": [
+      "Pakistán"
+    ],
+    "birthplace_tld": [
+      ".pk"
+    ],
+    "birthplace_urd_common_name": [
+      "پاکستان"
+    ]
+  },
+  "Panama": {
+    "birthplace_callingcode": [
+      "+507"
+    ],
+    "birthplace_capital": [
+      "Panama City"
+    ],
+    "birthplace_ccn3": [
+      "591"
+    ],
+    "birthplace_currency": [
+      "Panamanian balboa"
+    ],
+    "birthplace_currency_short": [
+      "PAB"
+    ],
+    "birthplace_currency_symbol": [
+      "B/."
+    ],
+    "birthplace_est_common_name": [
+      "Panama"
+    ],
+    "birthplace_jpn_common_name": [
+      "パナマ"
+    ],
+    "birthplace_rounded_lat": [
+      "9"
+    ],
+    "birthplace_rounded_lng": [
+      "-80"
+    ],
+    "birthplace_rus_common_name": [
+      "Панама"
+    ],
+    "birthplace_spa_common_name": [
+      "Panamá"
+    ],
+    "birthplace_tld": [
+      ".pa"
+    ],
+    "birthplace_urd_common_name": [
+      "پاناما"
+    ]
+  },
+  "Paraguay": {
+    "birthplace_callingcode": [
+      "+595"
+    ],
+    "birthplace_capital": [
+      "Asunción"
+    ],
+    "birthplace_ccn3": [
+      "600"
+    ],
+    "birthplace_currency": [
+      "Paraguayan guaraní"
+    ],
+    "birthplace_currency_short": [
+      "PYG"
+    ],
+    "birthplace_currency_symbol": [
+      "₲"
+    ],
+    "birthplace_est_common_name": [
+      "Paraguay"
+    ],
+    "birthplace_jpn_common_name": [
+      "パラグアイ"
+    ],
+    "birthplace_rounded_lat": [
+      "-23"
+    ],
+    "birthplace_rounded_lng": [
+      "-58"
+    ],
+    "birthplace_rus_common_name": [
+      "Парагвай"
+    ],
+    "birthplace_spa_common_name": [
+      "Paraguay"
+    ],
+    "birthplace_tld": [
+      ".py"
+    ],
+    "birthplace_urd_common_name": [
+      "پیراگوئے"
+    ]
+  },
+  "Peru": {
+    "birthplace_callingcode": [
+      "+51"
+    ],
+    "birthplace_capital": [
+      "Lima"
+    ],
+    "birthplace_ccn3": [
+      "604"
+    ],
+    "birthplace_currency": [
+      "Peruvian sol"
+    ],
+    "birthplace_currency_short": [
+      "PEN"
+    ],
+    "birthplace_currency_symbol": [
+      "S/."
+    ],
+    "birthplace_est_common_name": [
+      "Peruu"
+    ],
+    "birthplace_jpn_common_name": [
+      "ペルー"
+    ],
+    "birthplace_rounded_lat": [
+      "-10"
+    ],
+    "birthplace_rounded_lng": [
+      "-76"
+    ],
+    "birthplace_rus_common_name": [
+      "Перу"
+    ],
+    "birthplace_spa_common_name": [
+      "Perú"
+    ],
+    "birthplace_tld": [
+      ".pe"
+    ],
+    "birthplace_urd_common_name": [
+      "پیرو"
+    ]
+  },
+  "Philippines": {
+    "birthplace_callingcode": [
+      "+63"
+    ],
+    "birthplace_capital": [
+      "Manila"
+    ],
+    "birthplace_ccn3": [
+      "608"
+    ],
+    "birthplace_currency": [
+      "Philippine peso"
+    ],
+    "birthplace_currency_short": [
+      "PHP"
+    ],
+    "birthplace_currency_symbol": [
+      "₱"
+    ],
+    "birthplace_est_common_name": [
+      "Filipiinid"
+    ],
+    "birthplace_jpn_common_name": [
+      "フィリピン"
+    ],
+    "birthplace_rounded_lat": [
+      "13"
+    ],
+    "birthplace_rounded_lng": [
+      "122"
+    ],
+    "birthplace_rus_common_name": [
+      "Филиппины"
+    ],
+    "birthplace_spa_common_name": [
+      "Filipinas"
+    ],
+    "birthplace_tld": [
+      ".ph"
+    ],
+    "birthplace_urd_common_name": [
+      "فلپائن"
+    ]
+  },
+  "Poland": {
+    "birthplace_callingcode": [
+      "+48"
+    ],
+    "birthplace_capital": [
+      "Warsaw"
+    ],
+    "birthplace_ccn3": [
+      "616"
+    ],
+    "birthplace_currency": [
+      "Polish złoty"
+    ],
+    "birthplace_currency_short": [
+      "PLN"
+    ],
+    "birthplace_currency_symbol": [
+      "zł"
+    ],
+    "birthplace_est_common_name": [
+      "Poola"
+    ],
+    "birthplace_jpn_common_name": [
+      "ポーランド"
+    ],
+    "birthplace_rounded_lat": [
+      "52"
+    ],
+    "birthplace_rounded_lng": [
+      "20"
+    ],
+    "birthplace_rus_common_name": [
+      "Польша"
+    ],
+    "birthplace_spa_common_name": [
+      "Polonia"
+    ],
+    "birthplace_tld": [
+      ".pl"
+    ],
+    "birthplace_urd_common_name": [
+      "پولینڈ"
+    ]
+  },
+  "Portugal": {
+    "birthplace_callingcode": [
+      "+351"
+    ],
+    "birthplace_capital": [
+      "Lisbon"
+    ],
+    "birthplace_ccn3": [
+      "620"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Portugal"
+    ],
+    "birthplace_jpn_common_name": [
+      "ポルトガル"
+    ],
+    "birthplace_rounded_lat": [
+      "39"
+    ],
+    "birthplace_rounded_lng": [
+      "-8"
+    ],
+    "birthplace_rus_common_name": [
+      "Португалия"
+    ],
+    "birthplace_spa_common_name": [
+      "Portugal"
+    ],
+    "birthplace_tld": [
+      ".pt"
+    ],
+    "birthplace_urd_common_name": [
+      "پرتگال"
+    ]
+  },
+  "Puerto Rico": {
+    "birthplace_callingcode": [
+      "+1 787"
+    ],
+    "birthplace_capital": [
+      "San Juan"
+    ],
+    "birthplace_ccn3": [
+      "630"
+    ],
+    "birthplace_currency": [
+      "United States dollar"
+    ],
+    "birthplace_currency_short": [
+      "USD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Puerto Rico"
+    ],
+    "birthplace_jpn_common_name": [
+      "プエルトリコ"
+    ],
+    "birthplace_rounded_lat": [
+      "18"
+    ],
+    "birthplace_rounded_lng": [
+      "-66"
+    ],
+    "birthplace_rus_common_name": [
+      "Пуэрто-Рико"
+    ],
+    "birthplace_spa_common_name": [
+      "Puerto Rico"
+    ],
+    "birthplace_tld": [
+      ".pr"
+    ],
+    "birthplace_urd_common_name": [
+      "پورٹو ریکو"
+    ]
+  },
+  "Romania": {
+    "birthplace_callingcode": [
+      "+40"
+    ],
+    "birthplace_capital": [
+      "Bucharest"
+    ],
+    "birthplace_ccn3": [
+      "642"
+    ],
+    "birthplace_currency": [
+      "Romanian leu"
+    ],
+    "birthplace_currency_short": [
+      "RON"
+    ],
+    "birthplace_currency_symbol": [
+      "lei"
+    ],
+    "birthplace_est_common_name": [
+      "Rumeenia"
+    ],
+    "birthplace_jpn_common_name": [
+      "ルーマニア"
+    ],
+    "birthplace_rounded_lat": [
+      "46"
+    ],
+    "birthplace_rounded_lng": [
+      "25"
+    ],
+    "birthplace_rus_common_name": [
+      "Румыния"
+    ],
+    "birthplace_spa_common_name": [
+      "Rumania"
+    ],
+    "birthplace_tld": [
+      ".ro"
+    ],
+    "birthplace_urd_common_name": [
+      "رومانیہ"
+    ]
+  },
+  "Russia": {
+    "birthplace_callingcode": [
+      "+7"
+    ],
+    "birthplace_capital": [
+      "Moscow"
+    ],
+    "birthplace_ccn3": [
+      "643"
+    ],
+    "birthplace_currency": [
+      "Russian ruble"
+    ],
+    "birthplace_currency_short": [
+      "RUB"
+    ],
+    "birthplace_currency_symbol": [
+      "₽"
+    ],
+    "birthplace_est_common_name": [
+      "Venemaa"
+    ],
+    "birthplace_jpn_common_name": [
+      "ロシア連邦"
+    ],
+    "birthplace_rounded_lat": [
+      "60"
+    ],
+    "birthplace_rounded_lng": [
+      "100"
+    ],
+    "birthplace_rus_common_name": [
+      "Россия"
+    ],
+    "birthplace_spa_common_name": [
+      "Rusia"
+    ],
+    "birthplace_tld": [
+      ".ru",
+      ".su",
+      ".рф"
+    ],
+    "birthplace_urd_common_name": [
+      "روس"
+    ]
+  },
+  "Saudi Arabia": {
+    "birthplace_callingcode": [
+      "+966"
+    ],
+    "birthplace_capital": [
+      "Riyadh"
+    ],
+    "birthplace_ccn3": [
+      "682"
+    ],
+    "birthplace_currency": [
+      "Saudi riyal"
+    ],
+    "birthplace_currency_short": [
+      "SAR"
+    ],
+    "birthplace_currency_symbol": [
+      "ر.س"
+    ],
+    "birthplace_est_common_name": [
+      "Saudi Araabia"
+    ],
+    "birthplace_jpn_common_name": [
+      "サウジアラビア"
+    ],
+    "birthplace_rounded_lat": [
+      "25"
+    ],
+    "birthplace_rounded_lng": [
+      "45"
+    ],
+    "birthplace_rus_common_name": [
+      "Саудовская Аравия"
+    ],
+    "birthplace_spa_common_name": [
+      "Arabia Saudí"
+    ],
+    "birthplace_tld": [
+      ".sa",
+      ".السعودية"
+    ],
+    "birthplace_urd_common_name": [
+      "سعودی عرب"
+    ]
+  },
+  "Senegal": {
+    "birthplace_callingcode": [
+      "+221"
+    ],
+    "birthplace_capital": [
+      "Dakar"
+    ],
+    "birthplace_ccn3": [
+      "686"
+    ],
+    "birthplace_currency": [
+      "West African CFA franc"
+    ],
+    "birthplace_currency_short": [
+      "XOF"
+    ],
+    "birthplace_currency_symbol": [
+      "Fr"
+    ],
+    "birthplace_est_common_name": [
+      "Senegal"
+    ],
+    "birthplace_jpn_common_name": [
+      "セネガル"
+    ],
+    "birthplace_rounded_lat": [
+      "14"
+    ],
+    "birthplace_rounded_lng": [
+      "-14"
+    ],
+    "birthplace_rus_common_name": [
+      "Сенегал"
+    ],
+    "birthplace_spa_common_name": [
+      "Senegal"
+    ],
+    "birthplace_tld": [
+      ".sn"
+    ],
+    "birthplace_urd_common_name": [
+      "سینیگال"
+    ]
+  },
+  "Serbia": {
+    "birthplace_callingcode": [
+      "+381"
+    ],
+    "birthplace_capital": [
+      "Belgrade"
+    ],
+    "birthplace_ccn3": [
+      "688"
+    ],
+    "birthplace_currency": [
+      "Serbian dinar"
+    ],
+    "birthplace_currency_short": [
+      "RSD"
+    ],
+    "birthplace_currency_symbol": [
+      "дин."
+    ],
+    "birthplace_est_common_name": [
+      "Serbia"
+    ],
+    "birthplace_jpn_common_name": [
+      "セルビア"
+    ],
+    "birthplace_rounded_lat": [
+      "44"
+    ],
+    "birthplace_rounded_lng": [
+      "21"
+    ],
+    "birthplace_rus_common_name": [
+      "Сербия"
+    ],
+    "birthplace_spa_common_name": [
+      "Serbia"
+    ],
+    "birthplace_tld": [
+      ".rs",
+      ".срб"
+    ],
+    "birthplace_urd_common_name": [
+      "سربیا"
+    ]
+  },
+  "Sierra Leone": {
+    "birthplace_callingcode": [
+      "+232"
+    ],
+    "birthplace_capital": [
+      "Freetown"
+    ],
+    "birthplace_ccn3": [
+      "694"
+    ],
+    "birthplace_currency": [
+      "Sierra Leonean leone"
+    ],
+    "birthplace_currency_short": [
+      "SLL"
+    ],
+    "birthplace_currency_symbol": [
+      "Le"
+    ],
+    "birthplace_est_common_name": [
+      "Sierra Leone"
+    ],
+    "birthplace_jpn_common_name": [
+      "シエラレオネ"
+    ],
+    "birthplace_rounded_lat": [
+      "8"
+    ],
+    "birthplace_rounded_lng": [
+      "-11"
+    ],
+    "birthplace_rus_common_name": [
+      "Сьерра-Леоне"
+    ],
+    "birthplace_spa_common_name": [
+      "Sierra Leone"
+    ],
+    "birthplace_tld": [
+      ".sl"
+    ],
+    "birthplace_urd_common_name": [
+      "سیرالیون"
+    ]
+  },
+  "Singapore": {
+    "birthplace_callingcode": [
+      "+65"
+    ],
+    "birthplace_capital": [
+      "Singapore"
+    ],
+    "birthplace_ccn3": [
+      "702"
+    ],
+    "birthplace_currency": [
+      "Singapore dollar"
+    ],
+    "birthplace_currency_short": [
+      "SGD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Singapur"
+    ],
+    "birthplace_jpn_common_name": [
+      "シンガポール"
+    ],
+    "birthplace_rounded_lat": [
+      "1"
+    ],
+    "birthplace_rounded_lng": [
+      "103"
+    ],
+    "birthplace_rus_common_name": [
+      "Сингапур"
+    ],
+    "birthplace_spa_common_name": [
+      "Singapur"
+    ],
+    "birthplace_tld": [
+      ".sg",
+      ".சிங்கப்பூர்",
+      ".新加坡"
+    ],
+    "birthplace_urd_common_name": [
+      "سنگاپور"
+    ]
+  },
+  "Slovakia": {
+    "birthplace_callingcode": [
+      "+421"
+    ],
+    "birthplace_capital": [
+      "Bratislava"
+    ],
+    "birthplace_ccn3": [
+      "703"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Slovakkia"
+    ],
+    "birthplace_jpn_common_name": [
+      "スロバキア"
+    ],
+    "birthplace_rounded_lat": [
+      "48"
+    ],
+    "birthplace_rounded_lng": [
+      "19"
+    ],
+    "birthplace_rus_common_name": [
+      "Словакия"
+    ],
+    "birthplace_spa_common_name": [
+      "República Eslovaca"
+    ],
+    "birthplace_tld": [
+      ".sk"
+    ],
+    "birthplace_urd_common_name": [
+      "سلوواکیہ"
+    ]
+  },
+  "Slovenia": {
+    "birthplace_callingcode": [
+      "+386"
+    ],
+    "birthplace_capital": [
+      "Ljubljana"
+    ],
+    "birthplace_ccn3": [
+      "705"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Sloveenia"
+    ],
+    "birthplace_jpn_common_name": [
+      "スロベニア"
+    ],
+    "birthplace_rounded_lat": [
+      "46"
+    ],
+    "birthplace_rounded_lng": [
+      "14"
+    ],
+    "birthplace_rus_common_name": [
+      "Словения"
+    ],
+    "birthplace_spa_common_name": [
+      "Eslovenia"
+    ],
+    "birthplace_tld": [
+      ".si"
+    ],
+    "birthplace_urd_common_name": [
+      "سلووینیا"
+    ]
+  },
+  "South Africa": {
+    "birthplace_callingcode": [
+      "+27"
+    ],
+    "birthplace_capital": [
+      "Bloemfontein",
+      "Cape Town",
+      "Pretoria"
+    ],
+    "birthplace_ccn3": [
+      "710"
+    ],
+    "birthplace_currency": [
+      "South African rand"
+    ],
+    "birthplace_currency_short": [
+      "ZAR"
+    ],
+    "birthplace_currency_symbol": [
+      "R"
+    ],
+    "birthplace_est_common_name": [
+      "Lõuna-Aafrika Vabariik"
+    ],
+    "birthplace_jpn_common_name": [
+      "南アフリカ"
+    ],
+    "birthplace_rounded_lat": [
+      "-29"
+    ],
+    "birthplace_rounded_lng": [
+      "24"
+    ],
+    "birthplace_rus_common_name": [
+      "Южно-Африканская Республика"
+    ],
+    "birthplace_spa_common_name": [
+      "República de Sudáfrica"
+    ],
+    "birthplace_tld": [
+      ".za"
+    ],
+    "birthplace_urd_common_name": [
+      "جنوبی افریقا"
+    ]
+  },
+  "South Korea": {
+    "birthplace_callingcode": [
+      "+82"
+    ],
+    "birthplace_capital": [
+      "Seoul"
+    ],
+    "birthplace_ccn3": [
+      "410"
+    ],
+    "birthplace_currency": [
+      "South Korean won"
+    ],
+    "birthplace_currency_short": [
+      "KRW"
+    ],
+    "birthplace_currency_symbol": [
+      "₩"
+    ],
+    "birthplace_est_common_name": [
+      "Lõuna-Korea"
+    ],
+    "birthplace_jpn_common_name": [
+      "韓国"
+    ],
+    "birthplace_rounded_lat": [
+      "37"
+    ],
+    "birthplace_rounded_lng": [
+      "127"
+    ],
+    "birthplace_rus_common_name": [
+      "Южная Корея"
+    ],
+    "birthplace_spa_common_name": [
+      "Corea del Sur"
+    ],
+    "birthplace_tld": [
+      ".kr",
+      ".한국"
+    ],
+    "birthplace_urd_common_name": [
+      "جنوبی کوریا"
+    ]
+  },
+  "South Sudan": {
+    "birthplace_callingcode": [
+      "+211"
+    ],
+    "birthplace_capital": [
+      "Juba"
+    ],
+    "birthplace_ccn3": [
+      "728"
+    ],
+    "birthplace_currency": [
+      "South Sudanese pound"
+    ],
+    "birthplace_currency_short": [
+      "SSP"
+    ],
+    "birthplace_currency_symbol": [
+      "£"
+    ],
+    "birthplace_est_common_name": [
+      "Lõuna-Sudaan"
+    ],
+    "birthplace_jpn_common_name": [
+      "南スーダン"
+    ],
+    "birthplace_rounded_lat": [
+      "7"
+    ],
+    "birthplace_rounded_lng": [
+      "30"
+    ],
+    "birthplace_rus_common_name": [
+      "Южный Судан"
+    ],
+    "birthplace_spa_common_name": [
+      "Sudán del Sur"
+    ],
+    "birthplace_tld": [
+      ".ss"
+    ],
+    "birthplace_urd_common_name": [
+      "جنوبی سوڈان"
+    ]
+  },
+  "Spain": {
+    "birthplace_callingcode": [
+      "+34"
+    ],
+    "birthplace_capital": [
+      "Madrid"
+    ],
+    "birthplace_ccn3": [
+      "724"
+    ],
+    "birthplace_currency": [
+      "Euro"
+    ],
+    "birthplace_currency_short": [
+      "EUR"
+    ],
+    "birthplace_currency_symbol": [
+      "€"
+    ],
+    "birthplace_est_common_name": [
+      "Hispaania"
+    ],
+    "birthplace_jpn_common_name": [
+      "スペイン"
+    ],
+    "birthplace_rounded_lat": [
+      "40"
+    ],
+    "birthplace_rounded_lng": [
+      "-4"
+    ],
+    "birthplace_rus_common_name": [
+      "Испания"
+    ],
+    "birthplace_spa_common_name": [
+      "España"
+    ],
+    "birthplace_tld": [
+      ".es"
+    ],
+    "birthplace_urd_common_name": [
+      "ہسپانیہ"
+    ]
+  },
+  "Sri Lanka": {
+    "birthplace_callingcode": [
+      "+94"
+    ],
+    "birthplace_capital": [
+      "Colombo"
+    ],
+    "birthplace_ccn3": [
+      "144"
+    ],
+    "birthplace_currency": [
+      "Sri Lankan rupee"
+    ],
+    "birthplace_currency_short": [
+      "LKR"
+    ],
+    "birthplace_currency_symbol": [
+      "Rs  රු"
+    ],
+    "birthplace_est_common_name": [
+      "Sri Lanka"
+    ],
+    "birthplace_jpn_common_name": [
+      "スリランカ"
+    ],
+    "birthplace_rounded_lat": [
+      "7"
+    ],
+    "birthplace_rounded_lng": [
+      "81"
+    ],
+    "birthplace_rus_common_name": [
+      "Шри-Ланка"
+    ],
+    "birthplace_spa_common_name": [
+      "Sri Lanka"
+    ],
+    "birthplace_tld": [
+      ".lk",
+      ".இலங்கை",
+      ".ලංකා"
+    ],
+    "birthplace_urd_common_name": [
+      "سری لنکا"
+    ]
+  },
+  "Sudan": {
+    "birthplace_callingcode": [
+      "+249"
+    ],
+    "birthplace_capital": [
+      "Khartoum"
+    ],
+    "birthplace_ccn3": [
+      "729"
+    ],
+    "birthplace_currency": [
+      "Sudanese pound"
+    ],
+    "birthplace_currency_short": [
+      "SDG"
+    ],
+    "birthplace_currency_symbol": [
+      ""
+    ],
+    "birthplace_est_common_name": [
+      "Sudaan"
+    ],
+    "birthplace_jpn_common_name": [
+      "スーダン"
+    ],
+    "birthplace_rounded_lat": [
+      "15"
+    ],
+    "birthplace_rounded_lng": [
+      "30"
+    ],
+    "birthplace_rus_common_name": [
+      "Судан"
+    ],
+    "birthplace_spa_common_name": [
+      "Sudán"
+    ],
+    "birthplace_tld": [
+      ".sd"
+    ],
+    "birthplace_urd_common_name": [
+      "سودان"
+    ]
+  },
+  "Sweden": {
+    "birthplace_callingcode": [
+      "+46"
+    ],
+    "birthplace_capital": [
+      "Stockholm"
+    ],
+    "birthplace_ccn3": [
+      "752"
+    ],
+    "birthplace_currency": [
+      "Swedish krona"
+    ],
+    "birthplace_currency_short": [
+      "SEK"
+    ],
+    "birthplace_currency_symbol": [
+      "kr"
+    ],
+    "birthplace_est_common_name": [
+      "Rootsi"
+    ],
+    "birthplace_jpn_common_name": [
+      "スウェーデン"
+    ],
+    "birthplace_rounded_lat": [
+      "62"
+    ],
+    "birthplace_rounded_lng": [
+      "15"
+    ],
+    "birthplace_rus_common_name": [
+      "Швеция"
+    ],
+    "birthplace_spa_common_name": [
+      "Suecia"
+    ],
+    "birthplace_tld": [
+      ".se"
+    ],
+    "birthplace_urd_common_name": [
+      "سویڈن"
+    ]
+  },
+  "Switzerland": {
+    "birthplace_callingcode": [
+      "+41"
+    ],
+    "birthplace_capital": [
+      "Bern"
+    ],
+    "birthplace_ccn3": [
+      "756"
+    ],
+    "birthplace_currency": [
+      "Swiss franc"
+    ],
+    "birthplace_currency_short": [
+      "CHF"
+    ],
+    "birthplace_currency_symbol": [
+      "Fr."
+    ],
+    "birthplace_est_common_name": [
+      "Šveits"
+    ],
+    "birthplace_jpn_common_name": [
+      "スイス"
+    ],
+    "birthplace_rounded_lat": [
+      "47"
+    ],
+    "birthplace_rounded_lng": [
+      "8"
+    ],
+    "birthplace_rus_common_name": [
+      "Швейцария"
+    ],
+    "birthplace_spa_common_name": [
+      "Suiza"
+    ],
+    "birthplace_tld": [
+      ".ch"
+    ],
+    "birthplace_urd_common_name": [
+      "سویٹذرلینڈ"
+    ]
+  },
+  "Syria": {
+    "birthplace_callingcode": [
+      "+963"
+    ],
+    "birthplace_capital": [
+      "Damascus"
+    ],
+    "birthplace_ccn3": [
+      "760"
+    ],
+    "birthplace_currency": [
+      "Syrian pound"
+    ],
+    "birthplace_currency_short": [
+      "SYP"
+    ],
+    "birthplace_currency_symbol": [
+      "£"
+    ],
+    "birthplace_est_common_name": [
+      "Süüria"
+    ],
+    "birthplace_jpn_common_name": [
+      "シリア・アラブ共和国"
+    ],
+    "birthplace_rounded_lat": [
+      "35"
+    ],
+    "birthplace_rounded_lng": [
+      "38"
+    ],
+    "birthplace_rus_common_name": [
+      "Сирия"
+    ],
+    "birthplace_spa_common_name": [
+      "Siria"
+    ],
+    "birthplace_tld": [
+      ".sy",
+      "سوريا."
+    ],
+    "birthplace_urd_common_name": [
+      "سوریہ"
+    ]
+  },
+  "Taiwan": {
+    "birthplace_callingcode": [
+      "+886"
+    ],
+    "birthplace_capital": [
+      "Taipei"
+    ],
+    "birthplace_ccn3": [
+      "158"
+    ],
+    "birthplace_currency": [
+      "New Taiwan dollar"
+    ],
+    "birthplace_currency_short": [
+      "TWD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Taiwan"
+    ],
+    "birthplace_jpn_common_name": [
+      "台湾"
+    ],
+    "birthplace_rounded_lat": [
+      "23"
+    ],
+    "birthplace_rounded_lng": [
+      "121"
+    ],
+    "birthplace_rus_common_name": [
+      "Тайвань"
+    ],
+    "birthplace_spa_common_name": [
+      "Taiwán"
+    ],
+    "birthplace_tld": [
+      ".tw",
+      ".台湾",
+      ".台灣"
+    ],
+    "birthplace_urd_common_name": [
+      "تائیوان"
+    ]
+  },
+  "Tanzania": {
+    "birthplace_callingcode": [
+      "+255"
+    ],
+    "birthplace_capital": [
+      "Dodoma"
+    ],
+    "birthplace_ccn3": [
+      "834"
+    ],
+    "birthplace_currency": [
+      "Tanzanian shilling"
+    ],
+    "birthplace_currency_short": [
+      "TZS"
+    ],
+    "birthplace_currency_symbol": [
+      "Sh"
+    ],
+    "birthplace_est_common_name": [
+      "Tansaania"
+    ],
+    "birthplace_jpn_common_name": [
+      "タンザニア"
+    ],
+    "birthplace_rounded_lat": [
+      "-6"
+    ],
+    "birthplace_rounded_lng": [
+      "35"
+    ],
+    "birthplace_rus_common_name": [
+      "Танзания"
+    ],
+    "birthplace_spa_common_name": [
+      "Tanzania"
+    ],
+    "birthplace_tld": [
+      ".tz"
+    ],
+    "birthplace_urd_common_name": [
+      "تنزانیہ"
+    ]
+  },
+  "Thailand": {
+    "birthplace_callingcode": [
+      "+66"
+    ],
+    "birthplace_capital": [
+      "Bangkok"
+    ],
+    "birthplace_ccn3": [
+      "764"
+    ],
+    "birthplace_currency": [
+      "Thai baht"
+    ],
+    "birthplace_currency_short": [
+      "THB"
+    ],
+    "birthplace_currency_symbol": [
+      "฿"
+    ],
+    "birthplace_est_common_name": [
+      "Tai"
+    ],
+    "birthplace_jpn_common_name": [
+      "タイ"
+    ],
+    "birthplace_rounded_lat": [
+      "15"
+    ],
+    "birthplace_rounded_lng": [
+      "100"
+    ],
+    "birthplace_rus_common_name": [
+      "Таиланд"
+    ],
+    "birthplace_spa_common_name": [
+      "Tailandia"
+    ],
+    "birthplace_tld": [
+      ".th",
+      ".ไทย"
+    ],
+    "birthplace_urd_common_name": [
+      "تھائی لینڈ"
+    ]
+  },
+  "Trinidad and Tobago": {
+    "birthplace_callingcode": [
+      "+1 868"
+    ],
+    "birthplace_capital": [
+      "Port of Spain"
+    ],
+    "birthplace_ccn3": [
+      "780"
+    ],
+    "birthplace_currency": [
+      "Trinidad and Tobago dollar"
+    ],
+    "birthplace_currency_short": [
+      "TTD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Trinidad ja Tobago"
+    ],
+    "birthplace_jpn_common_name": [
+      "トリニダード・トバゴ"
+    ],
+    "birthplace_rounded_lat": [
+      "11"
+    ],
+    "birthplace_rounded_lng": [
+      "-61"
+    ],
+    "birthplace_rus_common_name": [
+      "Тринидад и Тобаго"
+    ],
+    "birthplace_spa_common_name": [
+      "Trinidad y Tobago"
+    ],
+    "birthplace_tld": [
+      ".tt"
+    ],
+    "birthplace_urd_common_name": [
+      "ٹرینیڈاڈ و ٹوباگو"
+    ]
+  },
+  "Tunisia": {
+    "birthplace_callingcode": [
+      "+216"
+    ],
+    "birthplace_capital": [
+      "Tunis"
+    ],
+    "birthplace_ccn3": [
+      "788"
+    ],
+    "birthplace_currency": [
+      "Tunisian dinar"
+    ],
+    "birthplace_currency_short": [
+      "TND"
+    ],
+    "birthplace_currency_symbol": [
+      "د.ت"
+    ],
+    "birthplace_est_common_name": [
+      "Tuneesia"
+    ],
+    "birthplace_jpn_common_name": [
+      "チュニジア"
+    ],
+    "birthplace_rounded_lat": [
+      "34"
+    ],
+    "birthplace_rounded_lng": [
+      "9"
+    ],
+    "birthplace_rus_common_name": [
+      "Тунис"
+    ],
+    "birthplace_spa_common_name": [
+      "Túnez"
+    ],
+    "birthplace_tld": [
+      ".tn"
+    ],
+    "birthplace_urd_common_name": [
+      "تونس"
+    ]
+  },
+  "Turkey": {
+    "birthplace_callingcode": [
+      "+90"
+    ],
+    "birthplace_capital": [
+      "Ankara"
+    ],
+    "birthplace_ccn3": [
+      "792"
+    ],
+    "birthplace_currency": [
+      "Turkish lira"
+    ],
+    "birthplace_currency_short": [
+      "TRY"
+    ],
+    "birthplace_currency_symbol": [
+      "₺"
+    ],
+    "birthplace_est_common_name": [
+      "Türgi"
+    ],
+    "birthplace_jpn_common_name": [
+      "トルコ"
+    ],
+    "birthplace_rounded_lat": [
+      "39"
+    ],
+    "birthplace_rounded_lng": [
+      "35"
+    ],
+    "birthplace_rus_common_name": [
+      "Турция"
+    ],
+    "birthplace_spa_common_name": [
+      "Turquía"
+    ],
+    "birthplace_tld": [
+      ".tr"
+    ],
+    "birthplace_urd_common_name": [
+      "ترکی"
+    ]
+  },
+  "Ukraine": {
+    "birthplace_callingcode": [
+      "+380"
+    ],
+    "birthplace_capital": [
+      "Kyiv"
+    ],
+    "birthplace_ccn3": [
+      "804"
+    ],
+    "birthplace_currency": [
+      "Ukrainian hryvnia"
+    ],
+    "birthplace_currency_short": [
+      "UAH"
+    ],
+    "birthplace_currency_symbol": [
+      "₴"
+    ],
+    "birthplace_est_common_name": [
+      "Ukraina"
+    ],
+    "birthplace_jpn_common_name": [
+      "ウクライナ"
+    ],
+    "birthplace_rounded_lat": [
+      "49"
+    ],
+    "birthplace_rounded_lng": [
+      "32"
+    ],
+    "birthplace_rus_common_name": [
+      "Украина"
+    ],
+    "birthplace_spa_common_name": [
+      "Ucrania"
+    ],
+    "birthplace_tld": [
+      ".ua",
+      ".укр"
+    ],
+    "birthplace_urd_common_name": [
+      "یوکرین"
+    ]
+  },
+  "United Arab Emirates": {
+    "birthplace_callingcode": [
+      "+971"
+    ],
+    "birthplace_capital": [
+      "Abu Dhabi"
+    ],
+    "birthplace_ccn3": [
+      "784"
+    ],
+    "birthplace_currency": [
+      "United Arab Emirates dirham"
+    ],
+    "birthplace_currency_short": [
+      "AED"
+    ],
+    "birthplace_currency_symbol": [
+      "د.إ"
+    ],
+    "birthplace_est_common_name": [
+      "Araabia Ühendemiraadid"
+    ],
+    "birthplace_jpn_common_name": [
+      "アラブ首長国連邦"
+    ],
+    "birthplace_rounded_lat": [
+      "24"
+    ],
+    "birthplace_rounded_lng": [
+      "54"
+    ],
+    "birthplace_rus_common_name": [
+      "Объединённые Арабские Эмираты"
+    ],
+    "birthplace_spa_common_name": [
+      "Emiratos Árabes Unidos"
+    ],
+    "birthplace_tld": [
+      ".ae",
+      "امارات."
+    ],
+    "birthplace_urd_common_name": [
+      "متحدہ عرب امارات"
+    ]
+  },
+  "United Kingdom": {
+    "birthplace_callingcode": [
+      "+44"
+    ],
+    "birthplace_capital": [
+      "London"
+    ],
+    "birthplace_ccn3": [
+      "826"
+    ],
+    "birthplace_currency": [
+      "British pound"
+    ],
+    "birthplace_currency_short": [
+      "GBP"
+    ],
+    "birthplace_currency_symbol": [
+      "£"
+    ],
+    "birthplace_est_common_name": [
+      "Suurbritannia"
+    ],
+    "birthplace_jpn_common_name": [
+      "イギリス"
+    ],
+    "birthplace_rounded_lat": [
+      "54"
+    ],
+    "birthplace_rounded_lng": [
+      "-2"
+    ],
+    "birthplace_rus_common_name": [
+      "Великобритания"
+    ],
+    "birthplace_spa_common_name": [
+      "Reino Unido"
+    ],
+    "birthplace_tld": [
+      ".uk"
+    ],
+    "birthplace_urd_common_name": [
+      "مملکتِ متحدہ"
+    ]
+  },
+  "United States": {
+    "birthplace_callingcode": [
+      "+1"
+    ],
+    "birthplace_capital": [
+      "Washington D.C."
+    ],
+    "birthplace_ccn3": [
+      "840"
+    ],
+    "birthplace_currency": [
+      "United States dollar"
+    ],
+    "birthplace_currency_short": [
+      "USD"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Ameerika Ühendriigid"
+    ],
+    "birthplace_jpn_common_name": [
+      "アメリカ合衆国"
+    ],
+    "birthplace_rounded_lat": [
+      "38"
+    ],
+    "birthplace_rounded_lng": [
+      "-97"
+    ],
+    "birthplace_rus_common_name": [
+      "Соединённые Штаты Америки"
+    ],
+    "birthplace_spa_common_name": [
+      "Estados Unidos"
+    ],
+    "birthplace_tld": [
+      ".us"
+    ],
+    "birthplace_urd_common_name": [
+      "ریاستہائے متحدہ"
+    ]
+  },
+  "Uruguay": {
+    "birthplace_callingcode": [
+      "+598"
+    ],
+    "birthplace_capital": [
+      "Montevideo"
+    ],
+    "birthplace_ccn3": [
+      "858"
+    ],
+    "birthplace_currency": [
+      "Uruguayan peso"
+    ],
+    "birthplace_currency_short": [
+      "UYU"
+    ],
+    "birthplace_currency_symbol": [
+      "$"
+    ],
+    "birthplace_est_common_name": [
+      "Uruguay"
+    ],
+    "birthplace_jpn_common_name": [
+      "ウルグアイ"
+    ],
+    "birthplace_rounded_lat": [
+      "-33"
+    ],
+    "birthplace_rounded_lng": [
+      "-56"
+    ],
+    "birthplace_rus_common_name": [
+      "Уругвай"
+    ],
+    "birthplace_spa_common_name": [
+      "Uruguay"
+    ],
+    "birthplace_tld": [
+      ".uy"
+    ],
+    "birthplace_urd_common_name": [
+      "یوراگوئے"
+    ]
+  },
+  "Venezuela": {
+    "birthplace_callingcode": [
+      "+58"
+    ],
+    "birthplace_capital": [
+      "Caracas"
+    ],
+    "birthplace_ccn3": [
+      "862"
+    ],
+    "birthplace_currency": [
+      "Venezuelan bolívar soberano"
+    ],
+    "birthplace_currency_short": [
+      "VES"
+    ],
+    "birthplace_currency_symbol": [
+      "Bs.S."
+    ],
+    "birthplace_est_common_name": [
+      "Venezuela"
+    ],
+    "birthplace_jpn_common_name": [
+      "ベネズエラ・ボリバル共和国"
+    ],
+    "birthplace_rounded_lat": [
+      "8"
+    ],
+    "birthplace_rounded_lng": [
+      "-66"
+    ],
+    "birthplace_rus_common_name": [
+      "Венесуэла"
+    ],
+    "birthplace_spa_common_name": [
+      "Venezuela"
+    ],
+    "birthplace_tld": [
+      ".ve"
+    ],
+    "birthplace_urd_common_name": [
+      "وینیزویلا"
+    ]
+  },
+  "Vietnam": {
+    "birthplace_callingcode": [
+      "+84"
+    ],
+    "birthplace_capital": [
+      "Hanoi"
+    ],
+    "birthplace_ccn3": [
+      "704"
+    ],
+    "birthplace_currency": [
+      "Vietnamese đồng"
+    ],
+    "birthplace_currency_short": [
+      "VND"
+    ],
+    "birthplace_currency_symbol": [
+      "₫"
+    ],
+    "birthplace_est_common_name": [
+      "Vietnam"
+    ],
+    "birthplace_jpn_common_name": [
+      "ベトナム"
+    ],
+    "birthplace_rounded_lat": [
+      "16"
+    ],
+    "birthplace_rounded_lng": [
+      "107"
+    ],
+    "birthplace_rus_common_name": [
+      "Вьетнам"
+    ],
+    "birthplace_spa_common_name": [
+      "Vietnam"
+    ],
+    "birthplace_tld": [
+      ".vn"
+    ],
+    "birthplace_urd_common_name": [
+      "ویتنام"
+    ]
+  },
+  "Zambia": {
+    "birthplace_callingcode": [
+      "+260"
+    ],
+    "birthplace_capital": [
+      "Lusaka"
+    ],
+    "birthplace_ccn3": [
+      "894"
+    ],
+    "birthplace_currency": [
+      "Zambian kwacha"
+    ],
+    "birthplace_currency_short": [
+      "ZMW"
+    ],
+    "birthplace_currency_symbol": [
+      "ZK"
+    ],
+    "birthplace_est_common_name": [
+      "Sambia"
+    ],
+    "birthplace_jpn_common_name": [
+      "ザンビア"
+    ],
+    "birthplace_rounded_lat": [
+      "-15"
+    ],
+    "birthplace_rounded_lng": [
+      "30"
+    ],
+    "birthplace_rus_common_name": [
+      "Замбия"
+    ],
+    "birthplace_spa_common_name": [
+      "Zambia"
+    ],
+    "birthplace_tld": [
+      ".zm"
+    ],
+    "birthplace_urd_common_name": [
+      "زیمبیا"
+    ]
+  },
+  "Zimbabwe": {
+    "birthplace_callingcode": [
+      "+263"
+    ],
+    "birthplace_capital": [
+      "Harare"
+    ],
+    "birthplace_ccn3": [
+      "716"
+    ],
+    "birthplace_currency": [
+      "Botswana pula"
+    ],
+    "birthplace_currency_short": [
+      "BWP"
+    ],
+    "birthplace_currency_symbol": [
+      "P"
+    ],
+    "birthplace_est_common_name": [
+      "Zimbabwe"
+    ],
+    "birthplace_jpn_common_name": [
+      "ジンバブエ"
+    ],
+    "birthplace_rounded_lat": [
+      "-20"
+    ],
+    "birthplace_rounded_lng": [
+      "30"
+    ],
+    "birthplace_rus_common_name": [
+      "Зимбабве"
+    ],
+    "birthplace_spa_common_name": [
+      "Zimbabue"
+    ],
+    "birthplace_tld": [
+      ".zw"
+    ],
+    "birthplace_urd_common_name": [
+      "زمبابوے"
+    ]
+  },
+  "New Zealand": {
+    "birthplace_currency": [
+      "New Zealand dollar"
+    ],
+    "birthplace_currency_short": [
+      "NZD"
+    ],
+    "birthplace_currency_symbol": [
+      "$",
+      "NZ$"
+    ],
+    "birthplace_tld": [
+      ".nz"
+    ],
+    "birthplace_ccn3": [
+      "554"
+    ]
+  }
+}

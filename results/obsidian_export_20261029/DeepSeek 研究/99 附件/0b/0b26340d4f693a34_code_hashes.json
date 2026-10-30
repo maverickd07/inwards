@@ -1,0 +1,22 @@
+{
+  "LOCAL_VERIFICATION.json": "bb8a820e893528e0592e8c654410a0fdc5d0b541e40e000b9b46aec51e8ffe24",
+  "submit.sh": "d2c48af0318436d449c0fcf462f6cc9f125a0b82222db5644331374c8daabbf4",
+  "HPC_COMMANDS.txt": "9fefcdff3f47cd4396ca47ea8fbe3685883e4f7ea7e495c9e1c68d41249cd7ef",
+  "quota_login.txt": "9ed29cf0812baf2000ef52de3929395d16291498bdce12dd5ff83443273fe8d0",
+  "rescore.py": "4186a675d305fe52ec23b18ac98a6f2ab48281aa1f4259b704c087f4e80ad8e3",
+  "build_package.py": "c4d736212ff312f1ce1e86c02e133d354e92558dfb45e9f4277b3e51760332c8",
+  "run_rescore.sh": "339136a28babd8d416e15f58da95b1315312f2c79676c22ead8ed0861c8619a9",
+  "quota_ticket.json": "987d6983fc15b1c5f0da4e29f392fcfaf75acb2c8e1067c7f20c0a4a307c6d09",
+  "aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+  "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+  "preflight.py": "50a6d985117c95bf6128d20a2488a5de59eba665124d5fa23cf713f1e7fbd631",
+  "pack_review.py": "3ae8fb37e20d96151adefa4254f32429e3b0d7d625c1fbda4f03c827aeff937c",
+  "PROTOCOL.txt": "c2ff29a2debf79c5fabb43bfe06df6734e056b1f66d3ca23787c0d19c7201006",
+  "reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+  "submitted_job.txt": "2eb88f676560dae3d1b3803ffae1ae28fa76d76230b0518e37014b6ae782008c",
+  "SCORER_FREEZE.json": "8f90180033e874707616a9e71c3826e20fcfbadce32f72d46d294a519b82eb0a",
+  "input_manifest.json": "bf7cc41ba9afa8c6bea88fc795b215682e36c3fd20d89768f87fbde10354e9a7",
+  "scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+  "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+  "submission_attempt.txt": "1ecbfeb146750aed75cf9f7d7cb8767a707c1e6e87194f54efc5f20e91dac866"
+}

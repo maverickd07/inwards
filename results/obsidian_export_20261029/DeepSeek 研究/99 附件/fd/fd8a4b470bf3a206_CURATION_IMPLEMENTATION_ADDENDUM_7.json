@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-16T11:08:47.123611+00:00",
+  "before_second_window_selection": true,
+  "script": "curate_review_v7.py",
+  "sha256": "a2357d341cf7b9a16cfef1b34574bc05f9b371789e3f9a2ec7be38af4fdfec61",
+  "changes": [
+    "Read preregistered second-window public metadata. All filters/ranking unchanged.",
+    "Write final expanded-window audit to new curation_final directory; preserve first-window audit."
+  ]
+}

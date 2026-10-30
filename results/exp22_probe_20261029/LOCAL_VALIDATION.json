@@ -1,0 +1,53 @@
+{
+  "real_06b_smoke30_passed": true,
+  "synthetic_checks_passed": true,
+  "final_code_analysis_passed": true,
+  "adapter_analysis_synthetic_only_passed": true,
+  "real_adapter_inference_locally_tested": false,
+  "all_model_weights_frozen": true,
+  "shape": [
+    30,
+    29,
+    2,
+    1024
+  ],
+  "cache_dtype": "float16",
+  "train_people": 21,
+  "test_people": 9,
+  "shuffled_control": [
+    {
+      "position": "subject",
+      "observed": 0.30952380952380953,
+      "bound": 0.7777777777777778,
+      "chance": 0.3333333333333333,
+      "n_people": 9,
+      "passed": true
+    },
+    {
+      "position": "answer",
+      "observed": 0.42063492063492064,
+      "bound": 0.7777777777777778,
+      "chance": 0.3333333333333333,
+      "n_people": 9,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "run.py": "3963ac9f8f3733e012dff5d67c9102a2eb0b4c60baf365f95bd5963d6a9cb0bd",
+    "analyze.py": "71213a052985b1d94343fcabce44680591e61dec9abda13fdd41269ccb5cc7f6",
+    "probe_utils.py": "84588c2e7b5fc05136f54642bd08bf54045e20f10fb9545b209827b3bcf71c6e",
+    "PREREGISTRATION.txt": "583a4936ddf5082ab3e95338345bc7da04c873053f0d928628ccd849b2361f39",
+    "prompts.py": "1d568f01cb532b92d3e5d231f44f892f11804c89eb0f89e257ad146158e2d10e",
+    "scoring.py": "c4ef8b95bc617595ac24b523bc88ec4f5e045870e45f64f9393809de2dd3609b",
+    "test_pipeline.py": "db2d46991a711d5db981f7a09838f555c20076dc3aba07e2dc1260a2ff8cedeb",
+    "run_combined.sh": "da6bce1daa364bdff0bbea45ef36e158f20a130c5bab77ca36c293ff12e579f1",
+    "submit.sh": "ce206809eb6f6d9ac2e0241f2e972e3ff4d5c49ec5fe105e4b82a959b5b4808f",
+    "verify_exp21.py": "805ca2154283c6d15b6cb7b91a9fc936b5644c1ef67322848233adcc77af7b4d"
+  },
+  "smoke_cache_sha256": "0af8843a95de681e4c10df3de34d101c0c13469f2cbd0a12495d347c480213b0",
+  "formal_hpc_submitted": false,
+  "quota_required_free_gib": 14,
+  "raw_formal_cache_gib": 9.391975402832031,
+  "local_model": "Qwen/Qwen3-0.6B official pretrained",
+  "local_runtime": "/private/tmp/exp22-venv/bin/python"
+}

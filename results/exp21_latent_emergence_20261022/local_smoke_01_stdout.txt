@@ -1,0 +1,28 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1022 14:42:37.839000 30479 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<06:18,  1.22s/it]Loading weights:   1%|          | 2/311 [00:01<03:41,  1.39it/s]Loading weights:  95%|█████████▌| 296/311 [00:01<00:00, 308.49it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 179.22it/s]
+base 1/20 id=0 C0 top1=OK correct=False
+base 2/20 id=0 C2 top1=OK correct=False
+base 3/20 id=1 C0 top1=OK correct=False
+base 4/20 id=1 C2 top1=OK correct=False
+base 5/20 id=2 C0 top1=OK correct=False
+base 6/20 id=2 C2 top1=OK correct=False
+base 7/20 id=3 C0 top1=OK correct=False
+base 8/20 id=3 C2 top1=OK correct=False
+base 9/20 id=4 C0 top1=OK correct=False
+base 10/20 id=4 C2 top1=OK correct=False
+base 11/20 id=5 C0 top1=OK correct=False
+base 12/20 id=5 C2 top1=OK correct=False
+base 13/20 id=6 C0 top1=OK correct=False
+base 14/20 id=6 C2 top1=OK correct=False
+base 15/20 id=7 C0 top1=OK correct=False
+base 16/20 id=7 C2 top1=OK correct=False
+base 17/20 id=8 C0 top1=OK correct=False
+base 18/20 id=8 C2 top1=OK correct=False
+base 19/20 id=9 C0 top1=OK correct=False
+base 20/20 id=9 C2 top1=OK correct=False
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Matplotlib is building the font cache; this may take a moment.

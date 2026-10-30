@@ -1,0 +1,16 @@
+{
+  "inward_final_zh.pdf": "230be9b6e76710466352d017c9e892bb3c394789f845f48911cc1aa1cc39b53d",
+  "inward_final_zh.tex": "b327653b23fa096d9d13b65de711a91b15c526c67c1f47db91cb8c9718fadb3d",
+  "build_report.py": "f67f4ffe01ddbe18d19d1687f108653f708988f0564cba2bfd9532d003ad83f8",
+  "build_evidence.py": "07cb73d65d222ff73f0d9bf0b477df64a53b253cd431efec85fce94f81dfc661",
+  "verify_pdf.py": "cc8207e14a8d8ca5e53be3ff5931a00455e10d4a3e01b44ec70f7ba40055cb73",
+  "evidence.json": "7c73af8ee5ba0fc5957779874be6848b2f19b753d8173af9496fa6a465cbcc55",
+  "source_sha256.json": "b13f85d0affc45bbab44e6ec84a370211b0323b215eb090add562a4b20259423",
+  "SOURCE_MAP.txt": "7dec7b42f414112e29e8c28989939bdb8711c63ee8e7ca825a770153ba31c1d9",
+  "BUILD_README.txt": "6a81d42f17e1bc518398fadeae93732ec995f3451118dd275268a57861a434f0",
+  "DECISIONS.txt": "dc50ccc4262063febb53cfc35d7f23e54687d1e3c05db55d2770693392e96360",
+  "fig1_overview.pdf": "8d7d1d11cc39a02b3d4b0b1d96cebc2d10beeffe3ae4da747343b88f9a38c577",
+  "fig2_gap.pdf": "fd945bbc8e04af9ff5d736e3d8d576d83e7250c2d9dc92ea0c786b0a98101f8a",
+  "fig3_controls.pdf": "49a711336003bcd11ff77c05a9b4a0896916d23356084cc98dfd9363c9beb4f4",
+  "fig4_retention.pdf": "27679c7fd6478c777a6b8496e19b820681335af2e55be090d1dbcbf2a338a56f"
+}

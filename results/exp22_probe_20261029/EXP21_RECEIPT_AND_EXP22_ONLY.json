@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29",
+  "evidence": "user terminal screenshot",
+  "exp21_job_id": "712907",
+  "slurm_state_shown": "COMPLETED",
+  "exit_code_shown": "0:0",
+  "elapsed_shown": "00:17:29",
+  "application_items": 402,
+  "application_rows": 2412,
+  "analysis_complete_shown": true,
+  "download_or_independent_result_verification": false,
+  "decision": "Reuse existing exp21. Submit exp22 only. No frozen experiment source modified.",
+  "exp22_submission_receipt_received": false
+}

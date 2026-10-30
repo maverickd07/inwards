@@ -1,0 +1,53 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_exp12_matched785_20261015_HPC_COMMANDS.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/2d/2d0ff8e02a9da2a1_HPC_COMMANDS.txt|HPC_COMMANDS.txt]]
+
+EXP12 matched785: upload once, submit one Slurm job for 12 sequential fits.
+
+1. LOCAL MAC TERMINAL (not the HPC prompt):
+ssh 3355245@slogin.hpc.unibocconi.it 'cd ~/inward && mkdir results/exp12_matched785_20261015'
+scp '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/exp12_matched785_upload.tgz' 3355245@slogin.hpc.unibocconi.it:~/inward/results/exp12_matched785_20261015/
+
+If mkdir reports an existing directory, inspect it; do not overwrite or blindly repeat submit.
+
+2. HPC LOGIN TERMINAL:
+cd ~/inward && \
+tar --keep-old-files -xzf results/exp12_matched785_20261015/exp12_matched785_upload.tgz -C results/exp12_matched785_20261015 && \
+(cd results/exp12_matched785_20261015 && sha256sum -c SHA256SUMS) && \
+lquota > results/exp12_matched785_20261015/quota_login.txt && \
+bash results/exp12_matched785_20261015/submit.sh
+
+Checks: exact original source/model/environment, immutable allocation/design, at least12GB quota headroom; fewer than2 queued/running jobs. Existing1 job -> afterany dependency. No inference on login node. All outputs in a new runs_<job>; no overwrite/resume/repeated submission. New training labels are diagnostic only.
+
+3. STATUS (HPC; only after Submitted appears):
+cd ~/inward
+job=$(cut -d';' -f1 results/exp12_matched785_20261015/submitted_job.txt)
+squeue -j "$job"
+sacct -j "$job" --format=JobID,JobName,State,ExitCode,Elapsed
+ tail -n 40 "results/exp12_matched785_20261015/exp12-${job}.out"
+
+An empty queue does not imply success. Require sacct COMPLETED/0:0, complete.json and review archive. Do not submit again to bypass pending or failure.
+
+4. AFTER COMPLETION (HPC):
+cd ~/inward
+job=$(cut -d';' -f1 results/exp12_matched785_20261015/submitted_job.txt)
+cat "results/exp12_matched785_20261015/runs_${job}/complete.json"
+cat "results/exp12_matched785_20261015/runs_${job}/analysis_v3/report.txt"
+ls -lh "results/exp12_matched785_20261015/runs_${job}_review.tgz"*
+
+5. DOWNLOAD (LOCAL MAC TERMINAL; replace JOB_ID with printed numeric job id):
+mkdir -p '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/received'
+scp '3355245@slogin.hpc.unibocconi.it:~/inward/results/exp12_matched785_20261015/runs_JOB_ID_review.tgz*' '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/received/'
+
+The review archive includes allocation/design, corrected labels including404, baseline/raw/scored outputs and paired summaries. All12 adapters remain on HPC; none is deleted or replaced. A running log copied into archive can precede the final archive-success line; sacct is the independent scheduler receipt.
+
+
+返回 [[00 研究首页]]

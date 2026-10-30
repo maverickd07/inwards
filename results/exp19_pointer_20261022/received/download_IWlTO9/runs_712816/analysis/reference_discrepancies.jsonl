@@ -1,0 +1,31 @@
+{"id": 27, "country": "Cuba", "old_codes": ["CUC"], "current_snapshot_codes": ["CUP"], "dataset_gold": ["CUC"]}
+{"id": 48, "country": "Switzerland", "old_codes": ["CHF"], "current_snapshot_codes": ["CHE", "CHF", "CHW"], "dataset_gold": ["CHF"]}
+{"id": 70, "country": "Bulgaria", "old_codes": ["BGN"], "current_snapshot_codes": ["EUR"], "dataset_gold": ["Bulgarian lev"]}
+{"id": 77, "country": "Uruguay", "old_codes": ["UYU"], "current_snapshot_codes": ["UYI", "UYU", "UYW"], "dataset_gold": ["UYU"]}
+{"id": 85, "country": "Zimbabwe", "old_codes": ["BWP"], "current_snapshot_codes": ["ZWG"], "dataset_gold": ["BWP"]}
+{"id": 97, "country": "Cuba", "old_codes": ["CUC"], "current_snapshot_codes": ["CUP"], "dataset_gold": ["$"]}
+{"id": 100, "country": "Venezuela", "old_codes": ["VES"], "current_snapshot_codes": ["VED", "VES"], "dataset_gold": ["Bs.S."]}
+{"id": 101, "country": "El Salvador", "old_codes": ["USD"], "current_snapshot_codes": ["SVC", "USD"], "dataset_gold": ["$"]}
+{"id": 120, "country": "Bulgaria", "old_codes": ["BGN"], "current_snapshot_codes": ["EUR"], "dataset_gold": ["BGN"]}
+{"id": 133, "country": "Switzerland", "old_codes": ["CHF"], "current_snapshot_codes": ["CHE", "CHF", "CHW"], "dataset_gold": ["Swiss franc"]}
+{"id": 136, "country": "Zimbabwe", "old_codes": ["BWP"], "current_snapshot_codes": ["ZWG"], "dataset_gold": ["P"]}
+{"id": 172, "country": "Sierra Leone", "old_codes": ["SLL"], "current_snapshot_codes": ["SLE"], "dataset_gold": ["SLL"]}
+{"id": 180, "country": "Croatia", "old_codes": ["HRK"], "current_snapshot_codes": ["EUR"], "dataset_gold": ["HRK"]}
+{"id": 193, "country": "Haiti", "old_codes": ["HTG"], "current_snapshot_codes": ["HTG", "USD"], "dataset_gold": ["HTG"]}
+{"id": 203, "country": "Panama", "old_codes": ["PAB"], "current_snapshot_codes": ["PAB", "USD"], "dataset_gold": ["B/."]}
+{"id": 224, "country": "Cuba", "old_codes": ["CUC"], "current_snapshot_codes": ["CUP"], "dataset_gold": ["CUC"]}
+{"id": 226, "country": "Chile", "old_codes": ["CLP"], "current_snapshot_codes": ["CLF", "CLP"], "dataset_gold": ["CLP"]}
+{"id": 250, "country": "El Salvador", "old_codes": ["USD"], "current_snapshot_codes": ["SVC", "USD"], "dataset_gold": ["USD"]}
+{"id": 257, "country": "Panama", "old_codes": ["PAB"], "current_snapshot_codes": ["PAB", "USD"], "dataset_gold": ["PAB"]}
+{"id": 261, "country": "Venezuela", "old_codes": ["VES"], "current_snapshot_codes": ["VED", "VES"], "dataset_gold": ["VES"]}
+{"id": 263, "country": "Uruguay", "old_codes": ["UYU"], "current_snapshot_codes": ["UYI", "UYU", "UYW"], "dataset_gold": ["$"]}
+{"id": 276, "country": "Colombia", "old_codes": ["COP"], "current_snapshot_codes": ["COP", "COU"], "dataset_gold": ["Colombian peso"]}
+{"id": 295, "country": "Venezuela", "old_codes": ["VES"], "current_snapshot_codes": ["VED", "VES"], "dataset_gold": ["Bs.S."]}
+{"id": 321, "country": "Mexico", "old_codes": ["MXN"], "current_snapshot_codes": ["MXN", "MXV"], "dataset_gold": ["Mexican peso"]}
+{"id": 322, "country": "Bhutan", "old_codes": ["BTN"], "current_snapshot_codes": ["BTN", "INR"], "dataset_gold": ["BTN"]}
+{"id": 334, "country": "Chile", "old_codes": ["CLP"], "current_snapshot_codes": ["CLF", "CLP"], "dataset_gold": ["Chilean peso"]}
+{"id": 341, "country": "Cuba", "old_codes": ["CUC"], "current_snapshot_codes": ["CUP"], "dataset_gold": ["$"]}
+{"id": 382, "country": "Bhutan", "old_codes": ["BTN"], "current_snapshot_codes": ["BTN", "INR"], "dataset_gold": ["Nu."]}
+{"id": 386, "country": "Uruguay", "old_codes": ["UYU"], "current_snapshot_codes": ["UYI", "UYU", "UYW"], "dataset_gold": ["$"]}
+{"id": 395, "country": "Bhutan", "old_codes": ["BTN"], "current_snapshot_codes": ["BTN", "INR"], "dataset_gold": ["Nu."]}
+{"id": 401, "country": "El Salvador", "old_codes": ["USD"], "current_snapshot_codes": ["SVC", "USD"], "dataset_gold": ["United States dollar"]}

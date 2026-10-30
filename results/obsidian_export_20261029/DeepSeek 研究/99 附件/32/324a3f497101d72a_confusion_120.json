@@ -1,0 +1,36 @@
+{
+  "rows_manual_columns_auto": {
+    "GENUINE": {
+      "A_OTHER_COUNTRY": 48,
+      "B_OTHER_ATTRIBUTE": 2,
+      "C_HISTORICAL_CURRENCY": 0,
+      "D_UNDETERMINED": 44
+    },
+    "AMBIGUOUS_GOLD": {
+      "A_OTHER_COUNTRY": 1,
+      "B_OTHER_ATTRIBUTE": 0,
+      "C_HISTORICAL_CURRENCY": 5,
+      "D_UNDETERMINED": 6
+    },
+    "FORMAT": {
+      "A_OTHER_COUNTRY": 0,
+      "B_OTHER_ATTRIBUTE": 4,
+      "C_HISTORICAL_CURRENCY": 0,
+      "D_UNDETERMINED": 4
+    },
+    "SCORER_ERROR": {
+      "A_OTHER_COUNTRY": 0,
+      "B_OTHER_ATTRIBUTE": 0,
+      "C_HISTORICAL_CURRENCY": 0,
+      "D_UNDETERMINED": 6
+    }
+  },
+  "covered_n": 60,
+  "agreement_n": 57,
+  "conditional_agreement": 0.95,
+  "wilson95": [
+    0.8629926537490016,
+    0.9828508088208587
+  ],
+  "note": "D is abstention, not SCORER_ERROR. No four-way accuracy claim. Manual labels are prior model-review labels."
+}

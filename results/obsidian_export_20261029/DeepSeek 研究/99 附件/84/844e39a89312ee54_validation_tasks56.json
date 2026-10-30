@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "rescored_rows_per_scale": 8688,
+  "scales": [
+    "0.6B",
+    "1.7B",
+    "8B",
+    "14B"
+  ],
+  "total_rescored_rows": 34752,
+  "category_summary_rows": 76,
+  "automatic_failures": 818,
+  "manual_sample": 120,
+  "original_flag_replay_mismatches": 0,
+  "numeric_test_cases": 17,
+  "additional_tests": [
+    "floor versus truncate negative decimals",
+    "legacy reproductions of negative and decimal-piece bug"
+  ],
+  "code_sha256": {
+    "scoring_v2.py": "c9510515b419ff28275310747f640d4a6a5d316b5d2bf315b72ef5e1da7a7343",
+    "analyze_tasks56.py": "4e1f7f437099dcf9fd8767b17e3c5b6f73d2ac7990d4150cf21b311bc94332e5",
+    "verify_scoring.py": "2ffd577529fbc28ae3f70347ddc2e2713ee2a3af0bba34f63cdb676f56a11484"
+  },
+  "test_command": "python3 results/handoff_analysis_20261003/verify_scoring.py",
+  "reproduction_command": "python3 results/handoff_analysis_20261003/analyze_tasks56.py --out results/handoff_analysis_20261003/NEW_DIRECTORY",
+  "final_output_directory": "/Users/REDACTED/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/tasks56_verified",
+  "source_root": "inward/; four available model sizes; originals left unchanged",
+  "rule_limitations": [
+    "C excludes historical names shared with present currencies for the same country using saved current ISO list.",
+    "A is a dataset-table match to another country; it is not direct evidence of internal first-hop country selection.",
+    "No matching external alternative in the dataset is not proof of GENUINE; D is abstention.",
+    "Manual labels from task 2 are frozen, not revised after automatic comparison."
+  ]
+}

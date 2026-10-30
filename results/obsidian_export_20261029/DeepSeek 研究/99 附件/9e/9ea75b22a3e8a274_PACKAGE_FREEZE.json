@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "files": {
+    "PREREGISTRATION_FREEZE.json": "bbad4c93433b831420e24f4acd4db6b43347be42fd68ff48877a4805edc922b7",
+    "PREREGISTRATION_ZH.txt": "f86cf48e6b380c9207ddc27c38a86deaff523f255cabcd1eefbfcf53fa6e63c4",
+    "aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+    "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "infer.py": "1fde9dc44f325209fd7866657a852f1f96a28a4d368f38abea9822cd14f7c0a0",
+    "inputs/catalog.json": "72aa67aaaa2ca95cd75e96f5635210a7a3542c68c8b9e19bbe268570aa2f1b4e",
+    "inputs/country_frequency.json": "65c096981fa3bcd0c38c8bcc57f37319d1013d9faa41e1f6c406b8dc572b1d76",
+    "inputs/new_people.jsonl": "1e368239d1661470d9cb5cfbb9b36c4c6e5c3e5e4f7a54c48617259a13790e1a",
+    "inputs/old_people_eligible.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "inputs/old_q1.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "inputs/primary_D303_keys.json": "6de684d61292f4895fdaeec04adae152ab88e9293cfe6851b87d490ff8f88ae8",
+    "inputs/roster_summary.json": "59af69a8cea1b7cf5948ce806a4c7f3b58dfc9d87295da36fb65a089e0bf591b",
+    "matching.py": "e3548c59dfcce34a38d644f14509cca70b1769ab9e45692dd44bdea2be46ab6e",
+    "preflight.py": "982b51c414982256a3723d5919f4c1c13ee5b98f467dd4fa6cec31766a8522cf",
+    "reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+    "run_inference.sh": "262d211940c3dcf3e8328559142f6d666f7022a6c618849f5a363c206f6d9c2c",
+    "scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+    "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+    "shared.py": "3e6e69aa8772bcc06e41035d32898999f958f55de51f3c949cb5235a50aabe40",
+    "submit.sh": "7e0e1731f90c96c0106c30fd23ab004f55b8b0a473277b2f741f8c0b7629ddab",
+    "test_offline.py": "484d77a135d0268bdc6c73a95b2c7b87a1206d5e9ea80149a1ef58c6b0023797",
+    "training_label_policy.json": "3826a7f9b9291ed69420fdfea2ded42c10e0edce16f00258d759def49d933bd7",
+    "training_label_scorer.py": "ce05ddc7910cd04bcb1927f1b58bba8d9ce199860f53c8535d18ef0232fb4f89"
+  }
+}

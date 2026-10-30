@@ -1,0 +1,17 @@
+{
+  "model": "random-tiny-Qwen3",
+  "items": "inward/results/exp1v2_Qwen3-14B/items.jsonl",
+  "data": "inward/data/compositional_celebrities.json",
+  "target": "self",
+  "out": "inward/results/handoff_analysis_20261003/smoke_final_top05",
+  "epochs": 2,
+  "lr": 0.0001,
+  "rank": 2,
+  "batch": 2,
+  "n_eval": 2,
+  "n_lens": 1,
+  "seed": 0,
+  "train_seed": 0,
+  "keep_top": 0.5,
+  "smoke_test": true
+}

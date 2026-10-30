@@ -1,0 +1,6 @@
+{
+  "synthetic_only": true,
+  "five_variant_branches_passed": true,
+  "identical_activations_paired_deltas_zero": true,
+  "tested_contrasts": 600
+}

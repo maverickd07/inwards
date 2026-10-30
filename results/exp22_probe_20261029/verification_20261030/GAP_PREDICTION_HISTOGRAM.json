@@ -1,0 +1,552 @@
+[
+  {
+    "set": "known313",
+    "position": "subject",
+    "variant": "base",
+    "counts": {
+      "United States": 56,
+      "other": 538,
+      "Switzerland": 5,
+      "South Korea": 32,
+      "Germany": 3,
+      "Mexico": 2,
+      "Australia": 1
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "subject",
+    "variant": "base",
+    "counts": {
+      "other": 254,
+      "Germany": 1,
+      "United States": 49,
+      "Switzerland": 5,
+      "Mexico": 2,
+      "Australia": 1
+    }
+  },
+  {
+    "set": "new400",
+    "position": "subject",
+    "variant": "base",
+    "counts": {
+      "United States": 163,
+      "South Korea": 65,
+      "other": 41,
+      "Italy": 249,
+      "Spain": 161,
+      "Brazil": 22,
+      "Japan": 41,
+      "Uruguay": 27,
+      "Australia": 14,
+      "Canada": 49,
+      "France": 47,
+      "Mexico": 103,
+      "Peru": 10,
+      "Argentina": 20,
+      "Sweden": 4,
+      "Norway": 11
+    }
+  },
+  {
+    "set": "known313",
+    "position": "subject",
+    "variant": "context_s0",
+    "counts": {
+      "United States": 45,
+      "other": 559,
+      "South Korea": 27,
+      "Germany": 1,
+      "Mexico": 2,
+      "Australia": 2,
+      "Switzerland": 1
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "subject",
+    "variant": "context_s0",
+    "counts": {
+      "other": 269,
+      "United States": 38,
+      "Mexico": 2,
+      "Australia": 2,
+      "Switzerland": 1
+    }
+  },
+  {
+    "set": "new400",
+    "position": "subject",
+    "variant": "context_s0",
+    "counts": {
+      "other": 46,
+      "United States": 157,
+      "Mexico": 103,
+      "South Korea": 70,
+      "Italy": 250,
+      "Spain": 167,
+      "Brazil": 17,
+      "Japan": 41,
+      "Uruguay": 22,
+      "Australia": 16,
+      "Canada": 43,
+      "France": 49,
+      "Argentina": 28,
+      "Peru": 3,
+      "Sweden": 4,
+      "Norway": 11
+    }
+  },
+  {
+    "set": "known313",
+    "position": "subject",
+    "variant": "context_s1",
+    "counts": {
+      "United States": 47,
+      "other": 554,
+      "South Korea": 30,
+      "Germany": 1,
+      "Mexico": 2,
+      "Australia": 2,
+      "Switzerland": 1
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "subject",
+    "variant": "context_s1",
+    "counts": {
+      "other": 266,
+      "United States": 41,
+      "Mexico": 2,
+      "Australia": 2,
+      "Switzerland": 1
+    }
+  },
+  {
+    "set": "new400",
+    "position": "subject",
+    "variant": "context_s1",
+    "counts": {
+      "other": 40,
+      "United States": 157,
+      "Mexico": 103,
+      "South Korea": 70,
+      "Italy": 250,
+      "Spain": 165,
+      "Brazil": 19,
+      "Japan": 41,
+      "Uruguay": 25,
+      "Australia": 16,
+      "Canada": 45,
+      "France": 50,
+      "Argentina": 25,
+      "Peru": 6,
+      "Sweden": 4,
+      "Norway": 11
+    }
+  },
+  {
+    "set": "known313",
+    "position": "subject",
+    "variant": "direct_s0",
+    "counts": {
+      "United States": 55,
+      "other": 539,
+      "Mexico": 3,
+      "Switzerland": 5,
+      "South Korea": 32,
+      "Germany": 2,
+      "Australia": 1
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "subject",
+    "variant": "direct_s0",
+    "counts": {
+      "other": 255,
+      "Germany": 1,
+      "United States": 48,
+      "Switzerland": 5,
+      "Mexico": 2,
+      "Australia": 1
+    }
+  },
+  {
+    "set": "new400",
+    "position": "subject",
+    "variant": "direct_s0",
+    "counts": {
+      "United States": 163,
+      "South Korea": 66,
+      "other": 41,
+      "Italy": 249,
+      "Spain": 160,
+      "Brazil": 22,
+      "Japan": 41,
+      "Uruguay": 25,
+      "Australia": 14,
+      "Canada": 49,
+      "France": 49,
+      "Mexico": 104,
+      "Peru": 8,
+      "Argentina": 22,
+      "Sweden": 3,
+      "Norway": 11
+    }
+  },
+  {
+    "set": "known313",
+    "position": "subject",
+    "variant": "direct_s1",
+    "counts": {
+      "United States": 53,
+      "other": 543,
+      "Switzerland": 5,
+      "South Korea": 30,
+      "Germany": 3,
+      "Mexico": 2,
+      "Australia": 1
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "subject",
+    "variant": "direct_s1",
+    "counts": {
+      "other": 257,
+      "Germany": 1,
+      "United States": 46,
+      "Switzerland": 5,
+      "Mexico": 2,
+      "Australia": 1
+    }
+  },
+  {
+    "set": "new400",
+    "position": "subject",
+    "variant": "direct_s1",
+    "counts": {
+      "other": 42,
+      "United States": 161,
+      "South Korea": 65,
+      "Italy": 249,
+      "Spain": 158,
+      "Brazil": 24,
+      "Japan": 41,
+      "Uruguay": 27,
+      "Australia": 14,
+      "Canada": 49,
+      "France": 48,
+      "Mexico": 103,
+      "Peru": 11,
+      "Argentina": 20,
+      "Sweden": 4,
+      "Norway": 11
+    }
+  },
+  {
+    "set": "known313",
+    "position": "answer",
+    "variant": "base",
+    "counts": {
+      "other": 460,
+      "Argentina": 8,
+      "Mexico": 10,
+      "Spain": 2,
+      "United States": 61,
+      "Colombia": 5,
+      "Italy": 8,
+      "Switzerland": 4,
+      "South Korea": 26,
+      "Brazil": 10,
+      "Peru": 7,
+      "Germany": 16,
+      "Australia": 2,
+      "France": 13,
+      "Canada": 1,
+      "Japan": 4
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "answer",
+    "variant": "base",
+    "counts": {
+      "other": 221,
+      "United States": 61,
+      "Colombia": 4,
+      "Italy": 1,
+      "Mexico": 9,
+      "Switzerland": 3,
+      "Australia": 2,
+      "Germany": 1,
+      "Peru": 3,
+      "Brazil": 1,
+      "Canada": 1,
+      "France": 5
+    }
+  },
+  {
+    "set": "new400",
+    "position": "answer",
+    "variant": "base",
+    "counts": {
+      "Switzerland": 7,
+      "Brazil": 19,
+      "Peru": 51,
+      "United States": 131,
+      "Mexico": 50,
+      "other": 74,
+      "Canada": 81,
+      "South Korea": 48,
+      "Japan": 63,
+      "Italy": 147,
+      "Argentina": 111,
+      "Norway": 7,
+      "Australia": 25,
+      "France": 85,
+      "Sweden": 52,
+      "Spain": 66,
+      "Uruguay": 5,
+      "Colombia": 5
+    }
+  },
+  {
+    "set": "known313",
+    "position": "answer",
+    "variant": "context_s0",
+    "counts": {
+      "Norway": 36,
+      "Brazil": 238,
+      "France": 254,
+      "Argentina": 29,
+      "Germany": 15,
+      "South Korea": 34,
+      "other": 23,
+      "United States": 8
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "answer",
+    "variant": "context_s0",
+    "counts": {
+      "France": 148,
+      "Brazil": 101,
+      "United States": 10,
+      "Norway": 14,
+      "other": 9,
+      "South Korea": 8,
+      "Argentina": 19,
+      "Germany": 3
+    }
+  },
+  {
+    "set": "new400",
+    "position": "answer",
+    "variant": "context_s0",
+    "counts": {
+      "France": 448,
+      "Brazil": 356,
+      "South Korea": 43,
+      "Argentina": 59,
+      "Norway": 68,
+      "Japan": 10,
+      "Australia": 3,
+      "Spain": 2,
+      "Italy": 16,
+      "Germany": 1,
+      "United States": 21
+    }
+  },
+  {
+    "set": "known313",
+    "position": "answer",
+    "variant": "context_s1",
+    "counts": {
+      "other": 367,
+      "United States": 199,
+      "South Korea": 22,
+      "Colombia": 9,
+      "Norway": 2,
+      "Germany": 10,
+      "Australia": 5,
+      "Italy": 7,
+      "Canada": 6,
+      "Spain": 1,
+      "France": 8,
+      "Sweden": 1
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "answer",
+    "variant": "context_s1",
+    "counts": {
+      "other": 173,
+      "United States": 116,
+      "Canada": 5,
+      "Germany": 3,
+      "Australia": 4,
+      "Colombia": 4,
+      "Italy": 3,
+      "Spain": 1,
+      "France": 3
+    }
+  },
+  {
+    "set": "new400",
+    "position": "answer",
+    "variant": "context_s1",
+    "counts": {
+      "Colombia": 25,
+      "Switzerland": 5,
+      "other": 211,
+      "United States": 455,
+      "Canada": 33,
+      "South Korea": 76,
+      "Spain": 20,
+      "Italy": 75,
+      "Sweden": 4,
+      "France": 60,
+      "Japan": 13,
+      "Norway": 17,
+      "Australia": 9,
+      "Germany": 20,
+      "Chile": 3,
+      "Mexico": 1
+    }
+  },
+  {
+    "set": "known313",
+    "position": "answer",
+    "variant": "direct_s0",
+    "counts": {
+      "other": 394,
+      "Spain": 3,
+      "Mexico": 10,
+      "Argentina": 15,
+      "Australia": 4,
+      "United States": 101,
+      "Colombia": 8,
+      "Switzerland": 1,
+      "South Korea": 37,
+      "Brazil": 18,
+      "Peru": 5,
+      "Germany": 14,
+      "France": 18,
+      "Italy": 6,
+      "Canada": 1,
+      "Japan": 2
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "answer",
+    "variant": "direct_s0",
+    "counts": {
+      "other": 182,
+      "Australia": 3,
+      "United States": 92,
+      "Colombia": 6,
+      "Mexico": 8,
+      "Switzerland": 1,
+      "France": 11,
+      "Peru": 2,
+      "Argentina": 1,
+      "Brazil": 5,
+      "Canada": 1
+    }
+  },
+  {
+    "set": "new400",
+    "position": "answer",
+    "variant": "direct_s0",
+    "counts": {
+      "Brazil": 46,
+      "Peru": 45,
+      "United States": 197,
+      "Canada": 80,
+      "Mexico": 50,
+      "other": 49,
+      "South Korea": 44,
+      "Argentina": 77,
+      "Italy": 114,
+      "Norway": 5,
+      "Japan": 42,
+      "Spain": 138,
+      "Switzerland": 4,
+      "Australia": 25,
+      "France": 85,
+      "Colombia": 6,
+      "Uruguay": 3,
+      "Sweden": 16,
+      "Germany": 1
+    }
+  },
+  {
+    "set": "known313",
+    "position": "answer",
+    "variant": "direct_s1",
+    "counts": {
+      "other": 401,
+      "Spain": 6,
+      "Mexico": 18,
+      "Argentina": 13,
+      "Brazil": 21,
+      "United States": 78,
+      "South Korea": 37,
+      "Peru": 3,
+      "Germany": 19,
+      "Colombia": 7,
+      "Italy": 6,
+      "France": 26,
+      "Australia": 1,
+      "Canada": 1
+    }
+  },
+  {
+    "set": "fixed303",
+    "position": "answer",
+    "variant": "direct_s1",
+    "counts": {
+      "other": 197,
+      "Brazil": 10,
+      "United States": 72,
+      "Mexico": 14,
+      "Germany": 2,
+      "Colombia": 5,
+      "Australia": 1,
+      "Canada": 1,
+      "France": 10
+    }
+  },
+  {
+    "set": "new400",
+    "position": "answer",
+    "variant": "direct_s1",
+    "counts": {
+      "Brazil": 27,
+      "Peru": 26,
+      "Mexico": 81,
+      "Argentina": 133,
+      "other": 67,
+      "United States": 167,
+      "Canada": 69,
+      "South Korea": 41,
+      "Italy": 83,
+      "France": 75,
+      "Norway": 11,
+      "Japan": 42,
+      "Spain": 139,
+      "Colombia": 6,
+      "Uruguay": 3,
+      "Sweden": 54,
+      "Switzerland": 1,
+      "Australia": 2
+    }
+  }
+]

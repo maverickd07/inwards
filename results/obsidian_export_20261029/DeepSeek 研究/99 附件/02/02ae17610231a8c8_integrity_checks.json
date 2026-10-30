@@ -1,0 +1,22 @@
+{
+  "exact_production_source_matches": true,
+  "source_tamper_rejected": true,
+  "smoke_production_isolation": true,
+  "environment_match_and_drift_guard": true,
+  "six_fit_smoke_passed": true,
+  "source_and_reused_predictions_unchanged": true,
+  "no_regeneration_commands": true,
+  "no_overwrite_rejected": true,
+  "D_only_all_item_predictions": true,
+  "thirteen_prediction_files_in_review": true,
+  "scheduler_cases": [
+    "empty",
+    "one_afterany",
+    "two_rejected",
+    "receipt_rejected",
+    "preflight_failure"
+  ],
+  "scheduler_test_scope": "Mocked Slurm, conda, flock and preflight commands; real scheduler/lock behavior not exercised.",
+  "bash_syntax": true,
+  "production_GPU_tested_locally": false
+}

@@ -1,0 +1,5 @@
+{
+  "status": "blocked_missing_files",
+  "results": {},
+  "note": "Only reuse a label if category, person and exact base prediction all match; classify unmatched base failures before drawing conclusions."
+}

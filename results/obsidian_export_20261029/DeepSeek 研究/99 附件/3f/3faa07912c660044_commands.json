@@ -1,0 +1,32 @@
+[
+  [
+    "/private/tmp/inward-exp12-venv/bin/python",
+    "-u",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py",
+    "--stage",
+    "plan",
+    "--out",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan",
+    "--items",
+    "inward/results/exp1v2_Qwen3-14B/items.jsonl",
+    "--data",
+    "inward/data/compositional_celebrities.json",
+    "--smoke-test"
+  ],
+  [
+    "/private/tmp/inward-exp12-venv/bin/python",
+    "-u",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py",
+    "--stage",
+    "targets",
+    "--out",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/paired_targets",
+    "--model",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan/tiny_model",
+    "--plan",
+    "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan",
+    "--gen-batch",
+    "8",
+    "--smoke-test"
+  ]
+]

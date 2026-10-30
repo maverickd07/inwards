@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-16T11:08:02.831158+00:00",
+  "before_second_window_acquisition": true,
+  "reason": "First metadata screen offers at most397 under the frozen country cap, before biography exclusions. Preregistration explicitly permits bounded further public-candidate acquisition without relaxing filters.",
+  "additional_window": "next200 category members per year1985\u20131999, using saved continuation from initial500",
+  "max_additional_raw_pages": 3000,
+  "selected_new_people_unchanged": 400,
+  "no_new_model_predictions_used": true,
+  "script_sha256": "80a65b19da6757884d5b5408a5f97c5c6ba5049d2d8e5119a6491bacf1c82450"
+}

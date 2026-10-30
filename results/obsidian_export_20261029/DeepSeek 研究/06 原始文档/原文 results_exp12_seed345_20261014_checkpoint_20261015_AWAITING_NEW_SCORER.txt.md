@@ -1,0 +1,43 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_exp12_seed345_20261014_checkpoint_20261015_AWAITING_NEW_SCORER.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/3a/3aa6832318c42155_AWAITING_NEW_SCORER.txt|AWAITING_NEW_SCORER.txt]]
+
+EXP12 — awaiting user-submitted scorer, 2026-10-15
+
+User decision: preserve current results. After the new scorer is submitted,
+uniformly rescore the cached baseline and all twelve trained models on the same
+500 D_reservedC items. No new training or prediction generation is authorized.
+Do not apply an inferred or provisional new scorer before it is submitted.
+
+Sources:
+- Original job 700454: results/exp12_sources_20261014_v2/runs_700454 on HPC.
+  Baseline plus context/direct seeds 0,1,2.
+- Extension job 700972: results/exp12_seed345_20261014/runs_700972 on HPC.
+  Context/direct seeds 3,4,5; reused_700454 contains exact cached original inputs
+  and baseline/original-fit predictions, checked against source hashes.
+- Local verified extension archive: ../received/runs_700972_review.tgz.
+- Local extracted predictions: ../received/extracted_700972/runs_700972/.
+- Original scorer verification and results: ../analysis_700972_local/.
+
+Scope when scorer arrives: 13 prediction sets, each 500 D items, identical item
+identities/order across all models. Apply the new scoring rules uniformly to
+composed, q1 and q2 outputs where the supplied scorer supports them; explicitly
+record any unsupported metrics. Preserve raw predictions and original scores.
+Use a new result directory and record scorer version/hash, evaluation hashes,
+per-item new labels and paired original/new summaries. No regeneration, tuning,
+new seeds, extra experiments or overwrite of historical outputs.
+
+Existing adapters remain on HPC. Local review archives intentionally exclude
+weights but contain all D predictions required for rescoring. Rescoring can be
+performed locally if the supplied scorer supports it; no HPC GPU job is assumed.
+
+
+返回 [[00 研究首页]]

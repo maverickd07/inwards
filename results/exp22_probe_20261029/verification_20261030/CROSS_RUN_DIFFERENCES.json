@@ -1,0 +1,386 @@
+[
+  {
+    "id": "old:20",
+    "variant": "base",
+    "exp21_raw": "Armenian dram",
+    "exp22_raw": "Dollar",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:40",
+    "variant": "base",
+    "exp21_raw": "USD",
+    "exp22_raw": "RUB",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:86",
+    "variant": "base",
+    "exp21_raw": "South African Rand",
+    "exp22_raw": "Swiss franc",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:144",
+    "variant": "base",
+    "exp21_raw": ".bd",
+    "exp22_raw": ".com.bd",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:204",
+    "variant": "base",
+    "exp21_raw": "Lira (Italian Lira)",
+    "exp22_raw": "Lira",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:343",
+    "variant": "base",
+    "exp21_raw": "Tunisian dinar",
+    "exp22_raw": "Tunisian Dinar",
+    "exp21_correct": true,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:354",
+    "variant": "base",
+    "exp21_raw": "Albanian lekë",
+    "exp22_raw": "Albanian Lek",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:359",
+    "variant": "base",
+    "exp21_raw": "972",
+    "exp22_raw": "376",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:369",
+    "variant": "base",
+    "exp21_raw": "Euro",
+    "exp22_raw": "Belgian franc",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:384",
+    "variant": "base",
+    "exp21_raw": "250",
+    "exp22_raw": "263",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:52",
+    "variant": "context_s0",
+    "exp21_raw": "USD",
+    "exp22_raw": "EUR",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:54",
+    "variant": "context_s0",
+    "exp21_raw": "428",
+    "exp22_raw": "LV",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:172",
+    "variant": "context_s0",
+    "exp21_raw": "GMD",
+    "exp22_raw": "SLL",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:187",
+    "variant": "context_s0",
+    "exp21_raw": "308",
+    "exp22_raw": "300",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:224",
+    "variant": "context_s0",
+    "exp21_raw": "CUP",
+    "exp22_raw": "USD",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:257",
+    "variant": "context_s0",
+    "exp21_raw": "CRC",
+    "exp22_raw": "USD",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:270",
+    "variant": "context_s0",
+    "exp21_raw": "USD",
+    "exp22_raw": "AMD",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:272",
+    "variant": "context_s0",
+    "exp21_raw": "TZS",
+    "exp22_raw": "TSh",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:14",
+    "variant": "context_s1",
+    "exp21_raw": "00355",
+    "exp22_raw": "355",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:128",
+    "variant": "context_s1",
+    "exp21_raw": "Russian ruble",
+    "exp22_raw": "Ruble",
+    "exp21_correct": true,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:209",
+    "variant": "context_s1",
+    "exp21_raw": "T₮",
+    "exp22_raw": "Tugrik",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:230",
+    "variant": "context_s1",
+    "exp21_raw": "₽",
+    "exp22_raw": "Ruble",
+    "exp21_correct": true,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:294",
+    "variant": "context_s1",
+    "exp21_raw": "Ft",
+    "exp22_raw": "Forint",
+    "exp21_correct": true,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:305",
+    "variant": "context_s1",
+    "exp21_raw": "156",
+    "exp22_raw": "186",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:360",
+    "variant": "context_s1",
+    "exp21_raw": "408",
+    "exp22_raw": "410",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:365",
+    "variant": "context_s1",
+    "exp21_raw": "48",
+    "exp22_raw": "792",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:367",
+    "variant": "context_s1",
+    "exp21_raw": "+502",
+    "exp22_raw": "+501",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:35",
+    "variant": "direct_s0",
+    "exp21_raw": "Lek (L)",
+    "exp22_raw": "Lek",
+    "exp21_correct": true,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:183",
+    "variant": "direct_s0",
+    "exp21_raw": "410",
+    "exp22_raw": "440",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:197",
+    "variant": "direct_s0",
+    "exp21_raw": "358",
+    "exp22_raw": "380",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:213",
+    "variant": "direct_s0",
+    "exp21_raw": "242",
+    "exp22_raw": "245",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:229",
+    "variant": "direct_s0",
+    "exp21_raw": "CRC",
+    "exp22_raw": "USD",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:305",
+    "variant": "direct_s0",
+    "exp21_raw": "599",
+    "exp22_raw": "813",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:311",
+    "variant": "direct_s0",
+    "exp21_raw": "₼",
+    "exp22_raw": "AMD",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:315",
+    "variant": "direct_s0",
+    "exp21_raw": "US dollar",
+    "exp22_raw": "US Dollar",
+    "exp21_correct": true,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:384",
+    "variant": "direct_s0",
+    "exp21_raw": "250",
+    "exp22_raw": "260",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:13",
+    "variant": "direct_s1",
+    "exp21_raw": "R",
+    "exp22_raw": "Randelburg (currency: South African Rand, symbol: R)",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:70",
+    "variant": "direct_s1",
+    "exp21_raw": "Bulgarian Lev",
+    "exp22_raw": "Bulgarian lev",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:144",
+    "variant": "direct_s1",
+    "exp21_raw": ".com.bd",
+    "exp22_raw": ".bd",
+    "exp21_correct": false,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:149",
+    "variant": "direct_s1",
+    "exp21_raw": "Colón (CRC)",
+    "exp22_raw": "Colón (Costa Rica)",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:168",
+    "variant": "direct_s1",
+    "exp21_raw": "South African rand",
+    "exp22_raw": "South African Rand",
+    "exp21_correct": true,
+    "exp22_correct": true
+  },
+  {
+    "id": "old:197",
+    "variant": "direct_s1",
+    "exp21_raw": "3166-1 code for Singapore is 702.",
+    "exp22_raw": "380",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:229",
+    "variant": "direct_s1",
+    "exp21_raw": "USD",
+    "exp22_raw": "CRC",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:298",
+    "variant": "direct_s1",
+    "exp21_raw": ".lb",
+    "exp22_raw": ".com.lb",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:305",
+    "variant": "direct_s1",
+    "exp21_raw": "813",
+    "exp22_raw": "599",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:311",
+    "variant": "direct_s1",
+    "exp21_raw": "AMD",
+    "exp22_raw": "₼",
+    "exp21_correct": true,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:353",
+    "variant": "direct_s1",
+    "exp21_raw": ".ma",
+    "exp22_raw": ".ml",
+    "exp21_correct": false,
+    "exp22_correct": false
+  },
+  {
+    "id": "old:367",
+    "variant": "direct_s1",
+    "exp21_raw": "502",
+    "exp22_raw": "381",
+    "exp21_correct": false,
+    "exp22_correct": false
+  }
+]

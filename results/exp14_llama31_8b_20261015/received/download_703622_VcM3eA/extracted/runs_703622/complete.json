@@ -1,0 +1,9 @@
+{
+  "training_runs": 12,
+  "smoke_test": false,
+  "seconds": 6157.226580142975,
+  "evaluation_freeze_sha256": "e31db05e64c4bca9036dd71df0340766ffcd8f2cfc41f9d796b8e0896255e4e6",
+  "analysis_sha256": "2e41050095aec32c5a3efed366efb500c6c610b4a3f0240a6dec806b6cae3703",
+  "manual_flip_review": "pending",
+  "next_experiment_authorized": false
+}

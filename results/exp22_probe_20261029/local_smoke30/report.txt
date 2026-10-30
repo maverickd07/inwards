@@ -1,0 +1,30 @@
+exp22 SMOKE ONLY — not scientific evidence
+Train groups: 21; test groups: 9
+All classifier/scaler fits use base TRAIN only; model weights frozen.
+Primary contrasts below: middle-third country readout. CIs cluster by person; two seeds are separate.
+Positive probe readout is representation evidence, not causal knowledge use. Fixed-base probe transfer can reflect representation coordinate drift.
+Outcome strata and rescues are descriptive; reference errors and teacher-training overlap remain limitations.
+Report every set separately; overlapping old sets are not independent replications.
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "all", "band": "middle", "metric": "hit", "n": 9, "people": 9, "mean": 0.0, "ci95": [0.0, 0.0], "insufficient": false}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "all", "band": "middle", "metric": "prob", "n": 9, "people": 9, "mean": 0.0, "ci95": [0.0, 0.0], "insufficient": false}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "correct", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "correct", "band": "middle", "metric": "prob", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "gap", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "gap", "band": "middle", "metric": "prob", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "rescued", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "rescued", "band": "middle", "metric": "prob", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "gap_minus_shuffled", "set": "smoke30", "stratum": "gap", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "subject", "variant": "base", "contrast": "gap_minus_correct", "set": "smoke30", "band": "middle", "metric": "hit", "gap_n": 0, "correct_n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "all", "band": "middle", "metric": "hit", "n": 9, "people": 9, "mean": 0.0, "ci95": [0.0, 0.0], "insufficient": false}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "all", "band": "middle", "metric": "prob", "n": 9, "people": 9, "mean": 0.0, "ci95": [0.0, 0.0], "insufficient": false}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "correct", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "correct", "band": "middle", "metric": "prob", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "gap", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "gap", "band": "middle", "metric": "prob", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "rescued", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "minus_base", "set": "smoke30", "stratum": "rescued", "band": "middle", "metric": "prob", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "gap_minus_shuffled", "set": "smoke30", "stratum": "gap", "band": "middle", "metric": "hit", "n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+{"target": "country", "position": "answer", "variant": "base", "contrast": "gap_minus_correct", "set": "smoke30", "band": "middle", "metric": "hit", "gap_n": 0, "correct_n": 0, "people": 0, "mean": null, "ci95": null, "insufficient": true}
+Smoke shuffled gate: [{"position": "subject", "observed": 0.30952380952380953, "bound": 0.7777777777777778, "chance": 0.3333333333333333, "n_people": 9, "passed": true}, {"position": "answer", "observed": 0.42063492063492064, "bound": 0.7777777777777778, "chance": 0.3333333333333333, "n_people": 9, "passed": true}]
+See layer_accuracy.csv, probe_predictions.jsonl, band_summary.json, contrasts.json, LABEL_MAPPING.json, CACHE_MANIFEST.json.
+Stage ends here. No automatic added seeds/training/experiments.

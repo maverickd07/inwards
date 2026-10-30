@@ -1,0 +1,13 @@
+{
+  "n": 864,
+  "correct_n": 442,
+  "target_correct_share": 0.5115740740740741,
+  "mean_logprob_wrong": -0.08035229196272697,
+  "wrong_with_score_n": 422,
+  "null_score_n": 0,
+  "q1_correct_share": 0.7361111111111112,
+  "uses_gold_for_training": false,
+  "generator_adapter": null,
+  "generator_adapter_sha256": null,
+  "seconds": 164.8091161251068
+}

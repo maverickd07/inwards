@@ -1,0 +1,10 @@
+{
+  "inference_complete": true,
+  "analysis_complete": true,
+  "smoke": true,
+  "variants": [
+    "base"
+  ],
+  "rows_per_variant": 30,
+  "all_weights_frozen": true
+}

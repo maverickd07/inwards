@@ -1,0 +1,62 @@
+{
+  "six_fit_smoke_passed": true,
+  "integrity_checks_passed": true,
+  "added_seeds": [
+    3,
+    4,
+    5
+  ],
+  "smoke_seconds": 59.81678891181946,
+  "scipy_absent_in_smoke": true,
+  "distinct_seed_initializations": true,
+  "training_and_summary_sources_unchanged_since_smoke": true,
+  "verification_helper_hardened_after_smoke": "Exact old-code provenance and accelerate version guards added, then separately exercised by integrity checks.",
+  "checks": {
+    "exact_production_source_matches": true,
+    "source_tamper_rejected": true,
+    "smoke_production_isolation": true,
+    "environment_match_and_drift_guard": true,
+    "six_fit_smoke_passed": true,
+    "source_and_reused_predictions_unchanged": true,
+    "no_regeneration_commands": true,
+    "no_overwrite_rejected": true,
+    "D_only_all_item_predictions": true,
+    "thirteen_prediction_files_in_review": true,
+    "scheduler_cases": [
+      "empty",
+      "one_afterany",
+      "two_rejected",
+      "receipt_rejected",
+      "preflight_failure"
+    ],
+    "scheduler_test_scope": "Mocked Slurm, conda, flock and preflight commands; real scheduler/lock behavior not exercised.",
+    "bash_syntax": true,
+    "production_GPU_tested_locally": false
+  },
+  "statistics_validation": {
+    "df2_df5_match_scipy": true,
+    "maximum_required_tolerance": 1e-10,
+    "runtime_scipy_required": false
+  },
+  "tested_source_hashes": {
+    "exp12_v1.py": "71dd4471b6ca5dc4ce21a9ccd23ed266605b6d19b55f1761a212d55321795730",
+    "engine_exp11_v1.py": "4817d627053f55816657871893157705e13371f916f0ec19aa375ca4dedcfc09",
+    "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+    "reuse.py": "f315428378883deeda138271c45ee7f11c0c3f5ba0121ae364aca993532a223d",
+    "train_seed.py": "9a2385d4db546081d34cf9cdf8dea7c55020277600c2217ff262b6b7efb1c8f2",
+    "run_pipeline.py": "d94e50426c2b206bdde2658bad8faa11be5462cadb8ae97066a4b251193146fd",
+    "summarize.py": "ef268926474d9c0f525e54fb37c616c075fe364057ddb14f7805d3c5ef3c7383",
+    "pack_review.py": "055d80550fb95e54fa03f139c83d33a6a69a35dfe16e6492012222f171f847c9",
+    "preflight.py": "3cfc897c7c293c06146bfdd42d3589a92f3a6cc65a980218ff59f751f5bb8887",
+    "preflight_v1.py": "2b2ac5335e339a5bc6e1f5116739269ffbaef148d1a1194374aad199285c5319",
+    "submit.sh": "f42ec3368c36a875cfcd527393eb244efdb4e08e5ce50c45a718aa6f2f191a7c",
+    "submit_v1.sh": "39c19eee015a19e3c54f57425154ac9dc7398cf0dd4c5d2b7a1894ab866c8fa8",
+    "run_exp12.sh": "7017de1876bc831e30e213d67dcc19eb531b86bbb59371919d740a0df436b0a5",
+    "run_exp12_v1.sh": "f3234704e7b61c3a86a8c9f407b1133448eb31f788fdaa2ab32aa0537fec5aa1",
+    "test_integrity.py": "8154d6e6a24e0785fdf916732df38572a3c75a51b20610fd282b572ef9b699c0",
+    "build_package.py": "5c8039effd68ce3d5ce6613b82b1ea4cc4eaf8ca93d979e835ef995393f4c497"
+  },
+  "HPC_submitted": false,
+  "14B_GPU_tested_locally": false
+}

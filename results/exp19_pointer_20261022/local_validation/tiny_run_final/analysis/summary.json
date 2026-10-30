@@ -1,0 +1,344 @@
+{
+  "bootstrap": {
+    "B": 20000,
+    "seed": 20261022,
+    "unit": "paired question",
+    "method": "percentile"
+  },
+  "sets": {
+    "D500_known313": {
+      "n": 3,
+      "C0_failure_n": 3,
+      "denominator_C3_minus_C0": 0.0,
+      "denominator_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_nonpositive_denominator_n": 20000,
+      "bootstrap_nonpositive_denominator_fraction": 1.0,
+      "ratio_CI_unstable": true,
+      "conditions": {
+        "C0": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 3,
+          "truncated_n": 3,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C1": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 3,
+          "truncated_n": 3,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C1-ctrl": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 3,
+          "truncated_n": 3,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C2": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 3,
+          "truncated_n": 3,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": 0,
+          "explicit_unknown_country_n": 3,
+          "explicit_wrong_country_rate": 0.0,
+          "explicit_country_error_bounds": [
+            0.0,
+            1.0
+          ],
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C3": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 3,
+          "truncated_n": 3,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        }
+      },
+      "C1_minus_ctrl": {
+        "accuracy_difference": 0.0,
+        "accuracy_difference_ci95": [
+          0.0,
+          0.0
+        ],
+        "recovery_difference": null,
+        "recovery_difference_ci95": null
+      },
+      "prediction_point_threshold_and_control_met": false,
+      "strong_selection_consistent_support": false,
+      "low_recovery_threshold_support": false,
+      "all_review_correct_sensitivity": {
+        "C0": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C1": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C1-ctrl": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C2": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C3": {
+          "accuracy": 1.0,
+          "recovery": null
+        }
+      }
+    },
+    "fixed303": {
+      "n": 2,
+      "C0_failure_n": 2,
+      "denominator_C3_minus_C0": 0.0,
+      "denominator_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_nonpositive_denominator_n": 20000,
+      "bootstrap_nonpositive_denominator_fraction": 1.0,
+      "ratio_CI_unstable": true,
+      "conditions": {
+        "C0": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 2,
+          "truncated_n": 2,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C1": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 2,
+          "truncated_n": 2,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C1-ctrl": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 2,
+          "truncated_n": 2,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C2": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 2,
+          "truncated_n": 2,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": 0,
+          "explicit_unknown_country_n": 2,
+          "explicit_wrong_country_rate": 0.0,
+          "explicit_country_error_bounds": [
+            0.0,
+            1.0
+          ],
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        },
+        "C3": {
+          "correct_n": 0,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "repair_n": 0,
+          "regression_n": 0,
+          "historical_n": 0,
+          "review_n": 2,
+          "truncated_n": 2,
+          "C0_failure_wrong_country_proxy_n": 0,
+          "explicit_wrong_country_n": null,
+          "explicit_unknown_country_n": null,
+          "explicit_wrong_country_rate": null,
+          "explicit_country_error_bounds": null,
+          "internal_wrong_country_rate": null,
+          "C0_failure_wrong_country_proxy_rate": 0.0,
+          "recovery": null,
+          "recovery_ci95": null,
+          "recovery_positive_denominator_conditional_ci95": null
+        }
+      },
+      "C1_minus_ctrl": {
+        "accuracy_difference": 0.0,
+        "accuracy_difference_ci95": [
+          0.0,
+          0.0
+        ],
+        "recovery_difference": null,
+        "recovery_difference_ci95": null
+      },
+      "prediction_point_threshold_and_control_met": false,
+      "strong_selection_consistent_support": false,
+      "low_recovery_threshold_support": false,
+      "all_review_correct_sensitivity": {
+        "C0": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C1": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C1-ctrl": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C2": {
+          "accuracy": 1.0,
+          "recovery": null
+        },
+        "C3": {
+          "accuracy": 1.0,
+          "recovery": null
+        }
+      }
+    }
+  },
+  "reference_discrepancy_item_n": 0,
+  "smoke_test": true
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "group": "self_wrong",
+    "n_each_seed": 228,
+    "self_targets_identical_across_seeds": true
+  },
+  {
+    "group": "self_correct",
+    "n_each_seed": 228,
+    "self_targets_identical_across_seeds": true
+  },
+  {
+    "group": "shuffled_wrong",
+    "n_each_seed": 228,
+    "self_targets_identical_across_seeds": false
+  }
+]

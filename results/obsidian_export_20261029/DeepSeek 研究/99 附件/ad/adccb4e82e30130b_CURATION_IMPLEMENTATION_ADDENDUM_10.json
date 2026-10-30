@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-16T11:15:38.694340+00:00",
+  "before_expanded_curation": true,
+  "script": "curate_review_v10.py",
+  "sha256": "cd47364cd37889de9f2f9dce2291dda1823be9c42077edb20d07033b01635940",
+  "changes": [
+    "Enforce preregistered adult public-figure scope for deceased candidates: reject recorded death before18. Birth-year window alone does not ensure a deceased person reached adulthood."
+  ]
+}

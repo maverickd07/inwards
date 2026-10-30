@@ -1,0 +1,907 @@
+[
+  {
+    "qid": "Q151892",
+    "person": "Ariana Grande",
+    "mode": "old",
+    "aliases": [
+      "Ariana Grande",
+      "Ariana Grande-Butera"
+    ],
+    "birth_year": 1993,
+    "birthplace_qid": "Q29422",
+    "birth_country_qids": [
+      "Q30"
+    ],
+    "birth_country": "United States",
+    "citizenship_qids": [
+      "Q30"
+    ],
+    "ancestor_qids": [
+      "Q29422",
+      "Q30",
+      "Q484294",
+      "Q812"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q151892",
+    "enwiki_title": "Ariana Grande",
+    "birthplace_statement_ids": [
+      "Q151892$B265E71E-7506-4EBC-9CB8-621CD6BA7B1B"
+    ],
+    "citizenship_statement_ids": [
+      "q151892$573F3137-E3A3-4D89-B632-ABB5502787BF"
+    ],
+    "all_reasons": [],
+    "sitelinks": 141,
+    "biography_revision": 1380494117,
+    "redirect_aliases": [
+      "Ari Grande",
+      "Ariana Grande-Butera",
+      "Ariana Grandé",
+      "Arigrande",
+      "Ariana gradne",
+      "Arianagrande",
+      "Ariana grande",
+      "Aryana Grande",
+      "Ariyana Grande",
+      "Arina Grande",
+      "Ari by Ariana Grande",
+      "Moonlightbae",
+      "Donutgate",
+      "Arianna Grande",
+      "Ariana Butera",
+      "Ariana Grande credits",
+      "@ArianaGrande",
+      "Zandhr",
+      "Dalton Gomez",
+      "Public image of Ariana Grande",
+      "Oriana Grande",
+      "Ariana Grande Butera",
+      "Grande, Ariana",
+      "Marjorie Grande",
+      "Grande-Butera",
+      "Arriana Grande",
+      "Brighter Days Ahead Foundation"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q54314",
+    "person": "Chris Hemsworth",
+    "mode": "old",
+    "aliases": [
+      "Chris Hemsworth"
+    ],
+    "birth_year": 1983,
+    "birthplace_qid": "Q3141",
+    "birth_country_qids": [
+      "Q408"
+    ],
+    "birth_country": "Australia",
+    "citizenship_qids": [
+      "Q408"
+    ],
+    "ancestor_qids": [
+      "Q3141",
+      "Q36687",
+      "Q408"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q54314",
+    "enwiki_title": "Chris Hemsworth",
+    "birthplace_statement_ids": [
+      "Q54314$6114383B-7B80-4658-9D4C-8DDAB372DFC2"
+    ],
+    "citizenship_statement_ids": [
+      "Q54314$CFC48B9E-D214-416D-BF7A-4B86BCE7998D"
+    ],
+    "all_reasons": [],
+    "sitelinks": 93,
+    "biography_revision": 1378208608,
+    "redirect_aliases": [
+      "Chris Hemsworth filmography",
+      "Chris hemsworth",
+      "Hemsworth, Chris",
+      "Christopher Hemsworth",
+      "Limitless with Chris Hemsworth"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q230501",
+    "person": "Christina Milian",
+    "mode": "old",
+    "aliases": [
+      "Christina Flores",
+      "Christina Milian",
+      "Christine Flores",
+      "Christine Marie Flores",
+      "Christine Milian Flores",
+      "Cristina Milian"
+    ],
+    "birth_year": 1981,
+    "birthplace_qid": "Q26339",
+    "birth_country_qids": [
+      "Q30"
+    ],
+    "birth_country": "United States",
+    "citizenship_qids": [
+      "Q30"
+    ],
+    "ancestor_qids": [
+      "Q1408",
+      "Q26339",
+      "Q30",
+      "Q490505"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q230501",
+    "enwiki_title": "Christina Milian",
+    "birthplace_statement_ids": [
+      "Q230501$3E33FA71-335A-4B22-A313-C2FF94B20373"
+    ],
+    "citizenship_statement_ids": [
+      "q230501$164D8948-4226-41C3-B3C8-6415428DF67D"
+    ],
+    "all_reasons": [],
+    "sitelinks": 43,
+    "biography_revision": 1378987818,
+    "redirect_aliases": [
+      "Christina Milan",
+      "Christina Millian",
+      "Christina Flores",
+      "Christine Flores",
+      "Christine Milian",
+      "Cristina milian",
+      "Christina Milian's 4th album",
+      "Christina (album)",
+      "No Turning Back (Christina Milian album)",
+      "Dream in Color",
+      "Christina Milian's fourth album"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q219124",
+    "person": "Guillermo del Toro",
+    "mode": "old",
+    "aliases": [
+      "El rey de los morolostruoloros",
+      "Guillermo del Toro"
+    ],
+    "birth_year": 1964,
+    "birthplace_qid": "Q9022",
+    "birth_country_qids": [
+      "Q96"
+    ],
+    "birth_country": "Mexico",
+    "citizenship_qids": [
+      "Q96"
+    ],
+    "ancestor_qids": [
+      "Q12348369",
+      "Q13160",
+      "Q9022",
+      "Q96"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q219124",
+    "enwiki_title": "Guillermo del Toro",
+    "birthplace_statement_ids": [
+      "Q219124$2ABE4448-AE6A-42A2-B3E9-E59280E4228F"
+    ],
+    "citizenship_statement_ids": [
+      "Q219124$3C0BAFDA-D492-418E-B63E-29B72D847880"
+    ],
+    "all_reasons": [],
+    "sitelinks": 76,
+    "biography_revision": 1380092144,
+    "redirect_aliases": [
+      "Guillermo Del Toro",
+      "Guillermo del Toro Gómez",
+      "Guillermo del Toro Gomez",
+      "Matilde (1983 film)",
+      "DDY Productions",
+      "Guillermo del Torro",
+      "Double Dare You",
+      "The Boy in the Iron Box (short story)",
+      "The Boy in the Iron Box (novella)"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q5638484",
+    "person": "Hafþór Júlíus Björnsson",
+    "mode": "old",
+    "aliases": [
+      "Hafthor Julius \"The Mountain\" Bjornsson",
+      "Hafthor Julius Bjornsson",
+      "Hafthor Julíus Bjornsson",
+      "Hafthór Júlíus Björnsson",
+      "Hafþór Júlíus Björnsson"
+    ],
+    "birth_year": 1988,
+    "birthplace_qid": "Q1764",
+    "birth_country_qids": [
+      "Q189"
+    ],
+    "birth_country": "Iceland",
+    "citizenship_qids": [
+      "Q189"
+    ],
+    "ancestor_qids": [
+      "Q1675663",
+      "Q1764",
+      "Q189",
+      "Q203304"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q5638484",
+    "enwiki_title": "Hafþór Júlíus Björnsson",
+    "birthplace_statement_ids": [
+      "Q5638484$D391DD1E-A54E-4DD2-A431-FA3C17C9C48C"
+    ],
+    "citizenship_statement_ids": [
+      "Q5638484$832AAD50-33B4-40CE-8B8B-090DC0CC976F"
+    ],
+    "all_reasons": [],
+    "sitelinks": 30,
+    "biography_revision": 1379900372,
+    "redirect_aliases": [
+      "Hafthor Julius Bjornsson",
+      "Hafthor Bjornsson",
+      "Julius Bjornsson",
+      "Hafthor Björnsson",
+      "Hafthór Júlíus Björnsson",
+      "Hafþór",
+      "Hafthor",
+      "Hafþór Björnsson",
+      "Hafthor Bjornson",
+      "Hafthor bjornsson"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q20947093",
+    "person": "Jimin",
+    "mode": "old",
+    "aliases": [
+      "Jimin",
+      "Park Ji-min",
+      "Park Jimin",
+      "박지민"
+    ],
+    "birth_year": 1995,
+    "birthplace_qid": "Q16520",
+    "birth_country_qids": [
+      "Q884"
+    ],
+    "birth_country": "South Korea",
+    "citizenship_qids": [
+      "Q884"
+    ],
+    "ancestor_qids": [
+      "Q16520",
+      "Q884"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q20947093",
+    "enwiki_title": "Jimin",
+    "birthplace_statement_ids": [
+      "Q20947093$368d2f4c-461c-8253-68d4-8969a0132268"
+    ],
+    "citizenship_statement_ids": [
+      "Q20947093$0facf069-4d3a-003c-f566-b6ee8a8b2efc"
+    ],
+    "all_reasons": [],
+    "sitelinks": 59,
+    "biography_revision": 1377033359,
+    "redirect_aliases": [
+      "Jimin (singer, born 1995)",
+      "Park Ji-min (1995)",
+      "Park Jimin BTS",
+      "Park Jimin (BTS)",
+      "Park Jimin (bts)",
+      "Park Ji Min (BTS)",
+      "Draft:Park Jimin (artist)",
+      "Park Jimin (male)",
+      "Jimin (BTS)",
+      "Draft:Park Ji-min (2)",
+      "User:ThatOliviaJones/sandbox/Park Ji-min",
+      "Draft:Park Jimin (BTS)",
+      "Park Ji-min (BTS)",
+      "Draft:Park Ji-min (singer, born 1995)",
+      "Draft:Park Ji-min (born 1995)",
+      "Draft:Jimin (singer, born 1995)",
+      "Park Ji-min (singer, born 1995)",
+      "Park Ji-min (born 1995)",
+      "BTS Jimin",
+      "Park Ji-min (male singer)",
+      "Face (Jimin EP)",
+      "Promise (Jimin song)",
+      "Christmas Love",
+      "지민"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q22338877",
+    "person": "Jungkook",
+    "mode": "old",
+    "aliases": [
+      "Jeon Jeong-guk",
+      "Jeon Jung-kook",
+      "Jung Kook",
+      "Jungkook",
+      "전정국"
+    ],
+    "birth_year": 1997,
+    "birthplace_qid": "Q16520",
+    "birth_country_qids": [
+      "Q884"
+    ],
+    "birth_country": "South Korea",
+    "citizenship_qids": [
+      "Q884"
+    ],
+    "ancestor_qids": [
+      "Q16520",
+      "Q884"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q22338877",
+    "enwiki_title": "Jung Kook",
+    "birthplace_statement_ids": [
+      "Q22338877$cb289eed-4351-fd73-0cc3-dd0a8debfff7"
+    ],
+    "citizenship_statement_ids": [
+      "Q22338877$6c958e83-42b8-9d62-5487-5fad45cd49da"
+    ],
+    "all_reasons": [],
+    "sitelinks": 68,
+    "biography_revision": 1377544915,
+    "redirect_aliases": [
+      "Draft:Jeon Jungkook (2)",
+      "User:Ygrhmn2/sandbox",
+      "Jeon Jungkook",
+      "User:Kristinelovesminyoongi/sandbox",
+      "Jeon Jung-kook",
+      "Jungkook (정국)",
+      "Jungkook (singer)",
+      "Jungkook",
+      "Jeon Jungkook (singer)",
+      "Jeon Jeongguk",
+      "Jeongguk",
+      "Jumgkook",
+      "정국",
+      "Jungcook",
+      "Jung kook",
+      "My You",
+      "Still with You",
+      "Still With You",
+      "JungKook",
+      "JK (South Korean singer)",
+      "JK (singer, born 1997)",
+      "Jun Kook",
+      "Kook, Jung",
+      "Kook Jung"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q466762",
+    "person": "Lali Espósito",
+    "mode": "old",
+    "aliases": [
+      "Lali",
+      "Lali Esposito",
+      "Lali Espósito",
+      "Mariana Espósito",
+      "Mariana Espósito Riera"
+    ],
+    "birth_year": 1991,
+    "birthplace_qid": "Q1486",
+    "birth_country_qids": [
+      "Q414"
+    ],
+    "birth_country": "Argentina",
+    "citizenship_qids": [
+      "Q414"
+    ],
+    "ancestor_qids": [
+      "Q1486",
+      "Q414"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q466762",
+    "enwiki_title": "Lali Espósito",
+    "birthplace_statement_ids": [
+      "Q466762$085978C8-90C7-492A-8FF3-3652DAB28F51"
+    ],
+    "citizenship_statement_ids": [
+      "Q466762$F13BBC0B-55C3-414F-9966-99D907A7C0C6"
+    ],
+    "all_reasons": [],
+    "sitelinks": 36,
+    "biography_revision": 1379571497,
+    "redirect_aliases": [
+      "Mariana Esposito",
+      "Mariana E. Espósito",
+      "Mariana Espósito",
+      "Lali esposito",
+      "Lali Esposito",
+      "Lali (singer)"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q106807",
+    "person": "Magnus Carlsen",
+    "mode": "old",
+    "aliases": [
+      "Magnus Carlsen",
+      "Magnus Øen Carlsen",
+      "Sven Magnus Øen Carlsen"
+    ],
+    "birth_year": 1990,
+    "birthplace_qid": "Q107392",
+    "birth_country_qids": [
+      "Q20"
+    ],
+    "birth_country": "Norway",
+    "citizenship_qids": [
+      "Q20"
+    ],
+    "ancestor_qids": [
+      "Q107392",
+      "Q20",
+      "Q216065",
+      "Q50619",
+      "Q56405721"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q106807",
+    "enwiki_title": "Magnus Carlsen",
+    "birthplace_statement_ids": [
+      "Q106807$0eb377b5-4479-ce8c-d911-56a556abd62c"
+    ],
+    "citizenship_statement_ids": [
+      "Q106807$9F4B4720-74A7-44E8-BE80-9AFF69D8E6E2"
+    ],
+    "all_reasons": [],
+    "sitelinks": 110,
+    "biography_revision": 1379111516,
+    "redirect_aliases": [
+      "Magnus Øen Carlsen",
+      "Sven Magnus Øen Carlsen",
+      "Sven Magnus Oen Carlsen",
+      "Magnus Oen Carlsen",
+      "Magnus Carlssen",
+      "DrNykterstein",
+      "DrDrunkenstein",
+      "Dr. Drunkenstein",
+      "Carlsen Magnus",
+      "Magnus carlsen"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q1924847",
+    "person": "Margot Robbie",
+    "mode": "old",
+    "aliases": [
+      "Maggot",
+      "Margot Elise Robbie",
+      "Margot Robbie"
+    ],
+    "birth_year": 1990,
+    "birthplace_qid": "Q1001056",
+    "birth_country_qids": [
+      "Q408"
+    ],
+    "birth_country": "Australia",
+    "citizenship_qids": [
+      "Q408"
+    ],
+    "ancestor_qids": [
+      "Q1001056",
+      "Q1066815",
+      "Q36074",
+      "Q408"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q1924847",
+    "enwiki_title": "Margot Robbie",
+    "birthplace_statement_ids": [
+      "Q1924847$ED60AADD-8BC8-4D57-8336-D27965AE34EF"
+    ],
+    "citizenship_statement_ids": [
+      "Q1924847$0F298210-8D98-4291-BBEE-77D42001C106"
+    ],
+    "all_reasons": [],
+    "sitelinks": 91,
+    "biography_revision": 1378468926,
+    "redirect_aliases": [
+      "Margot Robie",
+      "Margot Elise Robbie",
+      "Margo Robbie",
+      "Robbie, Margot",
+      "Margot robbie",
+      "Margot Ackerley",
+      "Margot Ackerly",
+      "Margot Elise Ackerley",
+      "Margot Ackerely"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q81819",
+    "person": "Monica Bellucci",
+    "mode": "old",
+    "aliases": [
+      "Monica Anna Maria Bellucci",
+      "Monica Bellucci"
+    ],
+    "birth_year": 1964,
+    "birthplace_qid": "Q20413",
+    "birth_country_qids": [
+      "Q38"
+    ],
+    "birth_country": "Italy",
+    "citizenship_qids": [
+      "Q38"
+    ],
+    "ancestor_qids": [
+      "Q1280",
+      "Q136290116",
+      "Q136290705",
+      "Q16240",
+      "Q20413",
+      "Q3043411",
+      "Q38"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q81819",
+    "enwiki_title": "Monica Bellucci",
+    "birthplace_statement_ids": [
+      "q81819$B876E75F-70A5-449F-A8F3-6E4C8B65BFAE"
+    ],
+    "citizenship_statement_ids": [
+      "Q81819$3F9EF68C-BBF0-4839-8702-95F592B3D539"
+    ],
+    "all_reasons": [],
+    "sitelinks": 108,
+    "biography_revision": 1380296025,
+    "redirect_aliases": [
+      "Monica belluci",
+      "Monica belucci",
+      "Monica Belucci",
+      "Monica Belluci",
+      "Monica Anna Maria Bellucci"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q164038",
+    "person": "Pep Guardiola",
+    "mode": "old",
+    "aliases": [
+      "Josep Guardiola",
+      "Pep Guardiola"
+    ],
+    "birth_year": 1971,
+    "birthplace_qid": "Q16736",
+    "birth_country_qids": [
+      "Q29"
+    ],
+    "birth_country": "Spain",
+    "citizenship_qids": [
+      "Q29"
+    ],
+    "ancestor_qids": [
+      "Q1113390",
+      "Q15346",
+      "Q16736",
+      "Q29",
+      "Q5705",
+      "Q81949"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q164038",
+    "enwiki_title": "Pep Guardiola",
+    "birthplace_statement_ids": [
+      "q164038$56286f1c-4cda-54e1-0cb0-27983dfba73b"
+    ],
+    "citizenship_statement_ids": [
+      "q164038$DF875D74-8AB6-475C-920F-6A4F5E3B4B88"
+    ],
+    "all_reasons": [],
+    "sitelinks": 95,
+    "biography_revision": 1380379012,
+    "redirect_aliases": [
+      "Josep Guardiola i Sala",
+      "Josep Guardiola",
+      "Pep Team",
+      "Josep Guardiola Sala",
+      "Peph Guardiola"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q10132",
+    "person": "Rafael Nadal",
+    "mode": "old",
+    "aliases": [
+      "Rafa",
+      "Rafael Nadal",
+      "Rafael Nadal i Parera",
+      "Stier aus Manacor",
+      "taureau de Manacor"
+    ],
+    "birth_year": 1986,
+    "birthplace_qid": "Q49567",
+    "birth_country_qids": [
+      "Q29"
+    ],
+    "birth_country": "Spain",
+    "citizenship_qids": [
+      "Q29"
+    ],
+    "ancestor_qids": [
+      "Q107356467",
+      "Q1736507",
+      "Q29",
+      "Q49567",
+      "Q8828"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q10132",
+    "enwiki_title": "Rafael Nadal",
+    "birthplace_statement_ids": [
+      "q10132$BB4E68D4-C54F-4A03-B8F6-33D55C0EA62F"
+    ],
+    "citizenship_statement_ids": [
+      "q10132$31B979EC-BCBE-43FD-B8AC-939DBA2CE126"
+    ],
+    "all_reasons": [],
+    "sitelinks": 155,
+    "biography_revision": 1378674822,
+    "redirect_aliases": [
+      "Nadal",
+      "Rafa Nadal",
+      "Rafael \"Rafa\" Nadal Parera",
+      "Rafael Nadal Parera",
+      "Rafael Nadal-Parera",
+      "Raphael Nadal",
+      "R nadal",
+      "Rafa nadal",
+      "Fundación Rafa Nadal",
+      "Fundacion Rafa Nadal",
+      "Rafa Nadal Foundation",
+      "Rafael Nadal Foundation",
+      "The King of Clay",
+      "King of Clay",
+      "Draft:2017 Rafael Nadal tennis season",
+      "Rafæl Nadal",
+      "@RafaelNadal",
+      "2004 Rafael Nadal tennis season",
+      "2002 Rafael Nadal tennis season",
+      "2001 Rafael Nadal tennis season",
+      "2003 Rafael Nadal tennis season",
+      "2023 Rafael Nadal tennis season",
+      "2024 Rafael Nadal tennis season",
+      "Career of Rafael Nadal"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q597023",
+    "person": "Yuzuru Hanyu",
+    "mode": "old",
+    "aliases": [
+      "Yuzuru Hanyu",
+      "Yuzuru Hanyuu",
+      "Yuzuru Hanyû",
+      "Yuzuru Hanyū"
+    ],
+    "birth_year": 1994,
+    "birthplace_qid": "Q46747",
+    "birth_country_qids": [
+      "Q17"
+    ],
+    "birth_country": "Japan",
+    "citizenship_qids": [
+      "Q17"
+    ],
+    "ancestor_qids": [
+      "Q17",
+      "Q46747",
+      "Q47896"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q597023",
+    "enwiki_title": "Yuzuru Hanyu",
+    "birthplace_statement_ids": [
+      "Q597023$100BFD7E-6C9C-44C0-97FA-567F4EB6765C"
+    ],
+    "citizenship_statement_ids": [
+      "Q597023$66D67020-9F88-4562-A7F5-EAD6DD701DA1"
+    ],
+    "all_reasons": [],
+    "sitelinks": 51,
+    "biography_revision": 1378593131,
+    "redirect_aliases": [
+      "Hanyu Yuzuru",
+      "Yuzuru Hanyū",
+      "羽生 結弦",
+      "羽生結弦",
+      "Hanyū Yuzuru",
+      "User:Henni147/sandbox/Ice shows produced by Yuzuru Hanyu",
+      "Yuzuru Hanyu ice show productions",
+      "Yuzuru Hanyu Ice Story",
+      "Ice shows produced by Yuzuru Hanyu"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  },
+  {
+    "qid": "Q46896",
+    "person": "Zlatan Ibrahimović",
+    "mode": "old",
+    "aliases": [
+      "Zlatan Ibrahimovic",
+      "Zlatan Ibrahimović"
+    ],
+    "birth_year": 1981,
+    "birthplace_qid": "Q10718358",
+    "birth_country_qids": [
+      "Q34"
+    ],
+    "birth_country": "Sweden",
+    "citizenship_qids": [
+      "Q34"
+    ],
+    "ancestor_qids": [
+      "Q103659",
+      "Q10718358",
+      "Q34",
+      "Q503361",
+      "Q533915"
+    ],
+    "metadata_reasons": [],
+    "risk_flags": [],
+    "entity_revision": null,
+    "wikidata_url": "https://www.wikidata.org/wiki/Q46896",
+    "enwiki_title": "Zlatan Ibrahimović",
+    "birthplace_statement_ids": [
+      "Q46896$75DE51BE-FF8E-4902-A18F-E64F65861646"
+    ],
+    "citizenship_statement_ids": [
+      "Q46896$F97CEA2B-2530-4611-910E-5A1AAF1B66DB"
+    ],
+    "all_reasons": [],
+    "sitelinks": 120,
+    "biography_revision": 1380272862,
+    "redirect_aliases": [
+      "Zlatan Ibrahimovic",
+      "Ibrahimovic",
+      "Helena Seger",
+      "Zlatan Ibrahimovich",
+      "Zlatan Ibrahimovicj",
+      "Ibracadabra",
+      "Ibracabarca",
+      "Zlatan Ibrahimovićn",
+      "Ibrahimović",
+      "Religious Views of Zlatan Ibrahimović",
+      "@Ibra official",
+      "Zlatanera",
+      "Ibrahimovic, Zlatan",
+      "Zlatan ibrahimovic",
+      "Ibrahimović, Zlatan",
+      "Zlatan ibrahimović"
+    ],
+    "compound_nationality_signals": [],
+    "citizenship_screen_hits": [],
+    "nationality_infobox_fields": [],
+    "selected_new": false,
+    "eligible_old": true,
+    "primary_exclusion": null
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "tiny_model_full_pipeline_passed": true,
+  "unit_tests_passed": true,
+  "unit_tests_n": 10,
+  "tokenizer_all402_lengths_match": true,
+  "tiny_model": "Qwen3 random 1 layer, hidden32, 9716160 parameters; never pretrained or trained",
+  "tiny_run": "local_validation/tiny_run_final",
+  "bootstrap_B": 20000,
+  "production_submitted": false,
+  "production_blocker": "SSH authentication failed; no credentials provided",
+  "code_sha256": {
+    "run.py": "529c5fda7acdde2e420f7ffa86e5ef901761c5e4cd477a954afd12a4ada944c9",
+    "prompts.py": "1d568f01cb532b92d3e5d231f44f892f11804c89eb0f89e257ad146158e2d10e",
+    "scoring.py": "c4ef8b95bc617595ac24b523bc88ec4f5e045870e45f64f9393809de2dd3609b",
+    "analyze.py": "303310b6b210dafa50fa4b6f753fb32f01ace74404d9924823e94fa20b809676",
+    "test_protocol.py": "260b3c6df973013cdbf3eeaebf59a96a4be1efc861eef5793bd2d43a93370c1d"
+  }
+}

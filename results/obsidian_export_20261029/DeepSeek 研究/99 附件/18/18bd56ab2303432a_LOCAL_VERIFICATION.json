@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "full_tiny_pipeline": {
+    "passed": true,
+    "fits": 12,
+    "seconds": 49.95925998687744,
+    "official_model_tested": false
+  },
+  "integrity_tests": 5,
+  "scipy_independent_validation": "Student t df5 and exact McNemar agree",
+  "generation_stop_ids_tested": [
+    1,
+    2,
+    3
+  ],
+  "missing_pad_handled": true,
+  "syntax": "Python and bash passed",
+  "review_archive_manifest_verified": true,
+  "frozen_source_hashes_verified": true,
+  "model_repo_revision_verified_from": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct",
+  "smoke_log_sha256": "d270ae46e1cf5db38ad5ce4bdccb5a7d3f79153976197845ae779aeabcc42bc0",
+  "smoke_complete_sha256": "e609dad6a6de0c93cae3fbdfacb82b41bf197085f13fa08a019ea37db65bf5e4",
+  "local_versions": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+    "versions": {
+      "torch": "2.14.1",
+      "transformers": "5.19.0",
+      "peft": "0.18.1",
+      "numpy": "2.5.4",
+      "accelerate": "1.15.0"
+    },
+    "cuda": null,
+    "gpu": null,
+    "smoke_test": true
+  },
+  "limitations": [
+    "Tiny random Llama and synthetic smoke references only",
+    "Official gated model was not downloaded locally",
+    "No actual GPU or Slurm execution tested",
+    "Production environment differs from local smoke and will be checked exactly before submit"
+  ],
+  "hpc_submitted": false
+}

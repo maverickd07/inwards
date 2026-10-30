@@ -1,0 +1,5 @@
+{
+  "df2_df5_match_scipy": true,
+  "maximum_required_tolerance": 1e-10,
+  "runtime_scipy_required": false
+}

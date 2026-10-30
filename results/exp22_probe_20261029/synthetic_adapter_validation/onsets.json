@@ -1,0 +1,5402 @@
+[
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 12,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 2,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 12,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 2,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 2,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 12,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 2,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 2,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 12,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 2,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 12,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 2,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "country",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 3,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 3,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 3,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 3,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 3,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 3,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 3,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "subject",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "base",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "context_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s0",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "fixed303",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "all",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "correct",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "gap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_other",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "non_overlap",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "known313",
+    "stratum": "category:birthplace_currency_short",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "all",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "correct",
+    "onset": 1,
+    "n": 4
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "gap",
+    "onset": 1,
+    "n": 5
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q1",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "missing_q2",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "rescued",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_other",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "non_overlap",
+    "onset": 1,
+    "n": 9
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "no_review",
+    "onset": null,
+    "n": 0
+  },
+  {
+    "target": "answer",
+    "position": "answer",
+    "variant": "direct_s1",
+    "set": "new400",
+    "stratum": "category:birthplace_currency_short",
+    "onset": 1,
+    "n": 9
+  }
+]

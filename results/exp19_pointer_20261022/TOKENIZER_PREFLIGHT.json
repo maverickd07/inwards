@@ -1,0 +1,10 @@
+{
+  "tokenizer": "Qwen/Qwen3-14B",
+  "selected_control": "Before answering, recall that the question is about a country.",
+  "all_402_full_template_token_lengths_match": true,
+  "prefix_tokens": {
+    "C1": 12,
+    "control": 12
+  },
+  "local_model": "one-layer random Qwen3, hidden32, NOT pretrained; flow test only"
+}

@@ -1,0 +1,37 @@
+RUN: /private/tmp/inward-exp12-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py --stage plan --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan --items inward/results/exp1v2_Qwen3-14B/items.jsonl --data inward/data/compositional_celebrities.json --smoke-test
+{"original_partition": [{"round": 1, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}, {"round": 2, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}, {"round": 3, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}], "minimum_items": 400, "use_all_each_round": true, "full_people": 216, "full_items": 864, "training_categories": {"birthplace_callingcode": 216, "birthplace_capital": 216, "birthplace_rounded_lat": 216, "birthplace_rounded_lng": 216}, "evaluation_counts": {"A_newPerson": 500, "B_newCategory": 500, "C_bothNew": 500}, "source_hashes": {"inward/results/exp1v2_Qwen3-14B/items.jsonl": "c27e89277bc36a38a42394e0ac1d93ef8a799d3da3cfb110d0507c293d9a1aad", "inward/data/compositional_celebrities.json": "b5fa71b82bbd05ac7b7462682a686d696a5485c69a2dc8c3a3ece8f49c4520d0"}}
+RUN: /private/tmp/inward-exp12-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py --stage targets --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/paired_targets --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan --gen-batch 8 --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+Generating direct targets
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py", line 248, in <module>
+    main()
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py", line 239, in main
+    {"plan": make_plan, "targets": paired_targets, "baseline": baseline, "train": train}[a.stage](a)
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py", line 129, in paired_targets
+    direct = generate(tok, model, questions, a)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/inward-exp12-venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py", line 112, in generate
+    sequences = model.generate(**encoded, do_sample=False,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/inward-exp12-venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/inward-exp12-venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 2390, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/private/tmp/inward-exp12-venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['token_type_ids'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/run_pipeline.py", line 65, in <module>
+    main()
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/run_pipeline.py", line 45, in main
+    run("targets", a.out / "paired_targets", **common)
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/run_pipeline.py", line 39, in run
+    subprocess.run(cmd, check=True)
+  File "/Users/danielweiyuchen/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/private/tmp/inward-exp12-venv/bin/python', '-u', '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/exp12.py', '--stage', 'targets', '--out', '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/paired_targets', '--model', '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan/tiny_model', '--plan', '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014/local_smoke_v1/plan', '--gen-batch', '8', '--smoke-test']' returned non-zero exit status 1.

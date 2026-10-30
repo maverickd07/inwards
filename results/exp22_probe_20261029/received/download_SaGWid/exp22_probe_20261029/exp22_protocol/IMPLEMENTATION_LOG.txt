@@ -1,0 +1,14 @@
+2026-10-29: Initial real30 inference completed, all activation/top1/shape checks
+passed. Initial analysis had a syntax typo (ci95 colon instead of equals) found
+by synthetic test during inference and fixed before analysis import. Original
+analysis_v1 preserved. Scientific predictions, roster, split, classifier and
+random seeds unchanged. Final analysis rerun from exact saved real activations
+with finite probability/coefficient assertions. No seed search or added samples.
+Initial exp21 smoke-seal verification wrapper incorrectly resolved original
+relative paths after relocation; corrected to map original prefix to the frozen
+byte-identical snapshot. No changes to any original exp21 files.
+Synthetic checks: planted linear signal 97.6%; no-information labels48.0% (50% null).
+Local numpy BLAS emitted matmul runtime warnings; coefficients/probabilities and
+saved activations explicitly checked finite; convergence checked on every fit.
+These smoke checks validate engineering, not 14B scientific predictions or adapter
+execution. Four adapter branches checked with synthetic caches separately.

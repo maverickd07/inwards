@@ -1,0 +1,11 @@
+{
+  "name": "baseline",
+  "smoke_test": false,
+  "queries_sha256": "0c6914b3735f66f68ad5e3db623e196fb747af9cfe69aa519f9f32a5eddfb149",
+  "predictions_sha256": "ab5de2f7ded7167ea64f577e8408b7d3abac83eb829e7367613ead513bbabb09",
+  "adapter_sha256": null,
+  "config_sha256": "6ec636c3be41af247cf4f7661ef1e4fb83f44d87ae93d8a17328d9d95179cb3e",
+  "load_seconds": 8.190651178359985,
+  "queries": 5176,
+  "seconds": 458.9053478240967
+}

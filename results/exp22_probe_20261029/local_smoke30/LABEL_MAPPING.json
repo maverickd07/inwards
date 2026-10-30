@@ -1,0 +1,30 @@
+{
+  "country": {
+    "retained": [
+      "Argentina",
+      "Brazil",
+      "Canada"
+    ],
+    "train_person_counts": {
+      "Argentina": 7,
+      "Brazil": 7,
+      "Canada": 7
+    },
+    "threshold": 5,
+    "definition": "unique training persons"
+  },
+  "answer": {
+    "retained": [
+      "birthplace_currency_short::ars",
+      "birthplace_currency_short::brl",
+      "birthplace_currency_short::cad"
+    ],
+    "train_person_counts": {
+      "birthplace_currency_short::ars": 7,
+      "birthplace_currency_short::brl": 7,
+      "birthplace_currency_short::cad": 7
+    },
+    "threshold": 5,
+    "definition": "unique training persons"
+  }
+}

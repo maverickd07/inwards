@@ -1,0 +1,12 @@
+{
+  "models_evaluated": 13,
+  "training_runs": 0,
+  "source_job": 701792,
+  "smoke_test": true,
+  "items": 3,
+  "queries_per_model": 12,
+  "primary": "two-hop EM",
+  "seconds": 47.00492882728577,
+  "source_unchanged": true,
+  "next_experiment_authorized": false
+}

@@ -1,0 +1,331 @@
+row_id,X_group,Y_group,seeds
+009a9b1e40cafdb21912,context,direct,"[2, 3, 5]"
+03f2e980f27104c5dd7d,context,direct,"[2, 4, 5]"
+0a2d220b345afdea9639,direct,context,"[0, 1, 2, 3, 4, 5]"
+0bc0e5f375a12d9d716b,context,direct,[2]
+0c5a1942fdf7ce6c4a86,direct,context,"[0, 1]"
+0d5b0a45cbdd910c0f54,context,direct,[2]
+0ebd6847eda61690487c,direct,context,"[0, 5]"
+0f727012ba5214e256b2,direct,context,[5]
+1063cadc814944681837,direct,context,"[0, 1, 2, 3, 4, 5]"
+11ba02b6328b2f75539d,context,direct,"[0, 3]"
+1200c04ab1fc6fa50eaf,context,direct,"[0, 1, 2, 4]"
+137096a045d853ef4202,context,direct,"[0, 1, 2, 4, 5]"
+13828fb02eae34397f84,context,direct,[4]
+139e73d24422ab40ae3f,direct,context,[5]
+147f25a03c110c3e49be,context,direct,[2]
+14d1e39f3146729e1e10,direct,context,[0]
+15465367cc5ff3e8271e,direct,context,[0]
+1567aef244c417798327,direct,context,"[2, 3, 4]"
+16665ee285d5e0c6f977,context,direct,"[0, 2]"
+16af628657da237f0263,context,direct,"[0, 1, 3, 5]"
+16dd857231257175da6c,direct,context,[0]
+188ea7cfda9c99bf6064,direct,context,"[0, 1, 2, 4]"
+18ee34b3f22ba76bbc7f,context,direct,"[3, 5]"
+190b8e7add9ca98082da,direct,context,"[0, 5]"
+1974dd0910d043360398,context,direct,"[0, 1, 2, 3, 5]"
+19c52cdbf1ad840e7cdf,direct,context,"[0, 3, 4, 5]"
+19cb59a6bbc268c8dfa4,direct,context,"[2, 5]"
+1aa7f31100c4497e95e2,context,direct,[3]
+1c8d20a3ec1c6bf487ca,direct,context,[2]
+1e79fddc29255bf53241,context,direct,[3]
+1ea7e0adba02879fc17c,context,direct,"[0, 1, 2, 3, 4, 5]"
+1fea44d9cfa590df6880,context,direct,"[2, 4]"
+20dfcf48d6a22b432ab1,context,direct,"[0, 1, 2, 3, 4, 5]"
+21826433407b73a74c79,direct,context,"[1, 3, 5]"
+21b9858579abba7adcca,context,direct,[1]
+22692b9e2a5a8f74b52c,direct,context,"[0, 4]"
+234844ac0440c0f401ec,direct,context,"[0, 2, 3, 4, 5]"
+23e889a53a5d60d91183,context,direct,[2]
+24995ca9c2b5d5ae5dc6,direct,context,[2]
+2536bf8b402564f1b8df,direct,context,"[0, 1, 2, 3, 4, 5]"
+26466299d47291a4952e,direct,context,"[0, 1, 2, 3, 4, 5]"
+26ddbf5851c47dc08ddb,context,direct,"[0, 1, 3, 4, 5]"
+274f3321b6adfb60f9ff,context,direct,"[4, 5]"
+27ae7a96e95711111ef9,direct,context,"[0, 1, 2, 3, 5]"
+28154838955a1b8992c4,context,direct,"[0, 1, 2, 3, 4, 5]"
+283628ba35213e44692e,context,direct,"[3, 5]"
+2887bd7ea1a35d10f032,context,direct,[1]
+2887bd7ea1a35d10f032,direct,context,"[0, 2, 5]"
+28c76e9b75a6cfc69857,context,direct,"[0, 1, 2, 3, 4, 5]"
+2950e876114e2559e774,direct,context,"[2, 4]"
+29a0ed9718d88bc626d1,context,direct,"[0, 1, 2, 4, 5]"
+29ed4678103c1e136a88,context,direct,[5]
+2b98f57a0b6d4e5c495a,direct,context,"[1, 2, 4]"
+2bac6d05f5ef1aedea57,direct,context,"[0, 1]"
+2e4b6e4728e64671a046,direct,context,"[0, 1, 2, 3, 4, 5]"
+2e6239cf9115e3c6be9e,direct,context,"[2, 3, 4, 5]"
+2f1cb6796851052deafc,direct,context,"[3, 4]"
+2f4c955ac7b1c16075f2,direct,context,[3]
+2fab4cfbf3f84a7750f3,context,direct,"[1, 4, 5]"
+30235ac6085df15c6419,direct,context,[4]
+33b4e14f4ca810bfd9b6,direct,context,"[0, 1, 2, 3, 4, 5]"
+3440ca3a0196239cb52a,direct,context,[4]
+345bdeb1b2bfb721f76a,context,direct,[1]
+361d35f019a2a8db501d,direct,context,[0]
+368fe74887981e087e31,direct,context,[0]
+376f786c59c48209c1ff,context,direct,"[0, 1, 2, 3, 4, 5]"
+37a74d6eace59d948fa7,direct,context,"[0, 1, 2, 3, 5]"
+37c4db6a786c423c1a1a,context,direct,[5]
+38a655ab7587fd7e2092,direct,context,"[0, 1, 5]"
+3e498f7033a00d7c92b4,direct,context,[2]
+3efc4410c229653ebc2a,direct,context,[1]
+401725ed5a822f7a8f29,direct,context,"[0, 1, 3, 4]"
+40807058861961bae7c5,direct,context,"[0, 2]"
+40ed158e1c8a933ad561,direct,context,"[0, 4, 5]"
+415e38c5f5615df6f4a0,direct,context,[1]
+41a7058d60aa01634b77,direct,context,"[0, 1, 2, 3, 4, 5]"
+42a4d2d5b4c645c1b0ee,context,direct,[5]
+42f4784747e92ad54c55,direct,context,"[1, 3, 5]"
+4322c18bea41c60241a9,context,direct,"[0, 2, 3, 4, 5]"
+4503fef192202539be24,context,direct,"[0, 3, 4]"
+45a39e13c6177633a664,direct,context,"[0, 5]"
+46095eccf327883e8286,context,direct,[4]
+461fa42328a9215f1651,context,direct,"[0, 1, 2, 3, 4, 5]"
+4685a785285954d67d1a,context,direct,[2]
+4823947484c4cc826cd3,direct,context,"[1, 2, 3, 5]"
+48437f3df45306da9f8a,direct,context,"[0, 4]"
+49fa5ff68905be8e3eb3,direct,context,"[1, 2]"
+4a3903e3b6b356a9cebc,context,direct,[1]
+4b25a837b7cb7f478a18,context,direct,"[0, 2, 5]"
+4b57e7948d44b1b96a9a,context,direct,[4]
+4b99ebade2d6e91335a1,context,direct,"[2, 5]"
+4c452fb782b309bb783e,direct,context,"[0, 5]"
+4c78f1691b2389c2e768,direct,context,[0]
+4d0e0d20e13b226cb9b7,direct,context,"[1, 3]"
+4d6fca0be37ddf70d5b6,context,direct,"[0, 1, 2, 3, 4]"
+4e758cae2de91374a1f1,context,direct,"[0, 2, 5]"
+4e9dea485da38b5a07e9,context,direct,[2]
+4ee4b7128304277c1eba,direct,context,[2]
+50e82af1f688e9a27574,context,direct,"[0, 1, 2, 3, 5]"
+50ea781aa36bc9517913,context,direct,"[0, 2, 4, 5]"
+5121df890edba3d08ab8,context,direct,[0]
+51a85ae248c85c1f739e,context,direct,"[0, 1, 3, 5]"
+51cab7ac593b83858639,direct,context,"[0, 1, 2, 3, 4, 5]"
+538323b5f5f4a95613f8,direct,context,"[0, 1, 4, 5]"
+54011f13e3b482895047,direct,context,"[0, 1, 3, 4, 5]"
+54626bccd91200516cc9,context,direct,"[0, 2, 3, 4]"
+56ca643901abef9a308c,direct,context,"[0, 1, 5]"
+573d91bdc793d623b0b0,context,direct,"[2, 3, 5]"
+57fd53413bfb665251c3,direct,context,"[4, 5]"
+58242b6ce2fcea73bd9c,context,direct,"[0, 2]"
+58535085008550446753,context,direct,[1]
+59864c7a6b99afa806d6,context,direct,[4]
+5a1e8f8ab52eb72f2887,context,direct,"[0, 1, 2, 3, 4, 5]"
+5a32d41ab056bf4b322a,direct,context,"[1, 2, 3, 4]"
+5a338c9f15aea4e701f0,context,direct,[2]
+5bb43cb1d3da548f1156,direct,context,[3]
+5bc919fc0a84a89e35af,direct,context,[4]
+5c9de9615e63cd8ffa81,context,direct,"[0, 3, 4]"
+5cec321c15f1a45e730b,context,direct,[4]
+5d384b97114be953723e,context,direct,"[2, 4, 5]"
+5dba9e978a96ba908147,context,direct,[1]
+5de21edc248f5ba44cb9,context,direct,"[0, 1, 2, 3, 4, 5]"
+5ebcca7d5a0788da84d3,direct,context,[5]
+5f35c95aeebc738ba916,direct,context,[2]
+5fb83fd068c28b1394af,context,direct,[1]
+6293d161d1b0a6ba8390,direct,context,[1]
+62e7080ec2eb34fe5f4c,context,direct,[2]
+635eb0c76f243a620459,context,direct,"[2, 3, 5]"
+63ad0a1af04e7c38308b,context,direct,"[0, 2]"
+63fe21fbcb84cbbb0d7f,context,direct,"[0, 1, 2, 3, 4, 5]"
+650fdba2259d9c7bcc7b,context,direct,[2]
+66f84b37b950e927f344,context,direct,[0]
+6752308f4a5145551e2a,direct,context,"[1, 2]"
+680e4c6e2ba315ab7726,direct,context,"[0, 5]"
+6aade87858f1ad2cf623,context,direct,[3]
+6afd531e87d72894d0e4,direct,context,[5]
+6b0d3711c5d8fd349d13,direct,context,"[1, 4]"
+6c40fea8f80e85ff64cc,context,direct,"[0, 1, 2, 3, 4, 5]"
+6cc756d01aae168f0bff,direct,context,"[0, 1, 2, 3, 4, 5]"
+6ccbdf7acfd45ac0d519,context,direct,[2]
+6f16fed0fbd38cc194cd,direct,context,"[1, 5]"
+6fdc07404fcdfbc2166e,direct,context,[0]
+70c1411072c2be665463,direct,context,"[1, 2]"
+729d4ff6da766b469f4d,direct,context,"[1, 2, 3, 4]"
+7323c780183bef135dab,context,direct,[2]
+74bab04519a34630025a,direct,context,[3]
+74fd3ddbec310c35d479,context,direct,"[1, 3]"
+7786df7603f786e04171,direct,context,[5]
+778b32263884516051ca,direct,context,"[0, 1, 2, 3, 4]"
+780e464b2a5f6bef8bdb,direct,context,[3]
+7836ab489eeabbb1e276,direct,context,"[1, 5]"
+78500f4996ff7d30dcb6,direct,context,"[0, 1, 2, 3, 4, 5]"
+79685ec6761b122bde93,context,direct,"[0, 3, 5]"
+79a0990109aa2989e560,context,direct,[2]
+79f88a7e0400351da3f4,direct,context,"[0, 1, 3, 4, 5]"
+7aacb2e03dd2082d69a5,context,direct,[0]
+7b11e31dc1037b2dd18b,direct,context,"[1, 2, 3, 5]"
+7b59a3ed9ab69bb7f356,context,direct,"[0, 1, 2, 3, 4, 5]"
+7b70725f71aa6bcee592,context,direct,"[1, 3, 4, 5]"
+7c79f3a7925dfac4cace,context,direct,"[0, 1, 2, 3, 4, 5]"
+7e16a78708edb875bddc,direct,context,[1]
+7f470173d3b2515c67e1,context,direct,"[1, 3]"
+800bf9bba455603938dc,direct,context,[0]
+8199496926379a6e49cb,direct,context,"[0, 1, 2, 3, 4]"
+81c00337c854c84784eb,direct,context,"[1, 4, 5]"
+82562df34aa12c173473,context,direct,[2]
+82977648e1c166e2f9e0,context,direct,[2]
+835c4df5381e83d7006a,direct,context,"[0, 1, 2, 3, 4, 5]"
+83d4896f9aa79bd749b3,context,direct,"[1, 3, 5]"
+861116f0ae78c47e0419,context,direct,[2]
+86a33453af299c9f7e00,direct,context,[5]
+86dc3a351aeb909c9683,context,direct,"[0, 1, 2, 3, 4, 5]"
+87ba940f6900a3926eaa,direct,context,[5]
+87d1ab4ee3d81b05d905,direct,context,[0]
+87dea983d2bc822efb3d,direct,context,[2]
+89c085914d6f969a16cc,context,direct,[3]
+8a06b944f05c33fece04,context,direct,"[0, 2]"
+8b2937171fb88d8f61a5,direct,context,[2]
+8bdda1ece5bad90102a1,context,direct,"[0, 1, 2, 3, 4, 5]"
+8cb7defbf12f63dd90a7,context,direct,[1]
+8e08e7624e2aca321b43,direct,context,[1]
+8e5618bfd775a7d1ea7f,direct,context,[0]
+90803f30906500829a17,direct,context,[4]
+9198f51a5ea5af20d536,direct,context,[5]
+924e387a39d5cb89bc60,direct,context,[0]
+926054b4dfbe4a144a77,direct,context,"[0, 2]"
+94b18c406da4c455b653,context,direct,[5]
+94c623bf6adfd235b4bc,context,direct,[0]
+95cea4d47d5eb889ce9c,context,direct,"[0, 3, 4]"
+96ea58a949f4bafd3648,direct,context,[4]
+97c7568a39a341fa3b0f,context,direct,[0]
+97d8b3a8a428739b97f2,direct,context,[2]
+98186dec8e1601301868,direct,context,"[1, 2, 4]"
+98c33575dcc59811ee2f,direct,context,"[0, 1, 2, 4, 5]"
+9957700635efdbef82a5,direct,context,[5]
+9970f4cc714b48700315,direct,context,[0]
+9ba8f8d46f17b34a6223,context,direct,"[0, 1, 3]"
+9e0d1f1bd6fabef3ca5d,direct,context,[0]
+9e56d7f08e539bee8cfe,direct,context,"[0, 1, 2, 3, 4, 5]"
+9e63df74f1262e33c5f5,direct,context,[1]
+9f87c9aa1cbaa20dfa7e,direct,context,[2]
+a020db1f09cf57716559,direct,context,"[0, 1, 2, 4, 5]"
+a0ef33b49a3e211683fa,context,direct,[4]
+a0f12f744e3152f11743,direct,context,[2]
+a167c57e1c20be367b7b,context,direct,[2]
+a16858a3157815929897,direct,context,[5]
+a229e0970f4c207c0feb,context,direct,"[0, 2, 4, 5]"
+a25d85154cb442d899a0,direct,context,"[0, 1, 2, 4]"
+a54417b3aa09057cf79a,direct,context,[1]
+a59727f3da10147a3ed3,context,direct,[2]
+a67ae0a3f285a42cdf24,context,direct,"[0, 2, 3]"
+a712c2f91d3e9c16a4f4,context,direct,[4]
+a72c482adea62eb490aa,context,direct,"[0, 1, 2, 3, 4, 5]"
+a747c6d220d96b4e5e0b,context,direct,"[0, 2, 3]"
+a7880e89b88478da190a,direct,context,[2]
+a79d7da391574a203f01,direct,context,[2]
+a7b694ef15c5522e9c38,context,direct,"[1, 2, 3, 5]"
+a821d33635622ad569bc,direct,context,"[4, 5]"
+a8561f94f742ee138ac6,context,direct,[0]
+ab635173ac509f6fa416,direct,context,[1]
+ae65003730b92281a255,direct,context,"[0, 1, 3, 4, 5]"
+ae90a4f482818e7e59d7,context,direct,[1]
+af702b422722b84b6ba5,context,direct,"[1, 3]"
+afb60e384f2a00f056f1,context,direct,"[0, 3]"
+b16caba9974c9d3c2ed1,direct,context,[5]
+b368ef6b76bab4b81d51,direct,context,"[0, 4, 5]"
+b3a00f20af035f3685aa,context,direct,"[2, 3, 4]"
+b3a00f20af035f3685aa,direct,context,"[1, 5]"
+b474e469a1cd6c1571ff,context,direct,[2]
+b492ae0c25e88ad330ef,direct,context,"[0, 1, 2, 3, 4, 5]"
+b4a7c43c33d52e8b296e,context,direct,[1]
+b58aab42a6876d606311,context,direct,"[0, 1, 3, 4, 5]"
+b6009c3323848a4424c7,context,direct,[0]
+b602f91cc00f482df42d,direct,context,[0]
+b653c59d0dac1adf685a,direct,context,"[0, 1, 2, 3, 4, 5]"
+b88d546328a8b182d93b,direct,context,[0]
+b90ff4eefbabde79f8c9,context,direct,"[1, 5]"
+b95f1b9b8a5d2febfcb7,context,direct,"[2, 3, 4, 5]"
+ba8ba74a2fc3b25c8c7c,direct,context,[4]
+ba9e36c48909b16dbd68,direct,context,"[0, 2]"
+bb625e1cc0dd168aff8d,context,direct,"[1, 4]"
+bb8b86f1be836a20817e,context,direct,"[0, 2, 3, 4, 5]"
+beed8eb14c0d1b180ef8,direct,context,"[0, 1, 2, 3, 4, 5]"
+bff47ef41433c4dd7290,context,direct,[4]
+bffc1503f4e87cdee6a2,direct,context,[4]
+c0a0f315eeee129c2fa7,direct,context,[1]
+c14cc0e5ad0599c057ac,context,direct,"[0, 1, 2, 3, 4, 5]"
+c198e841eeaaead799f4,direct,context,"[1, 2, 5]"
+c1f59be47bfcd86b25b1,context,direct,[1]
+c21d5798de4c568420fb,context,direct,"[0, 1, 2, 3, 4, 5]"
+c483d6a29dfb4303224a,context,direct,"[0, 3]"
+c49d2e32d09001b7712e,direct,context,[3]
+c4d1f7b8d0dd4f79a56b,direct,context,[1]
+c58827aeb2e31a7c732a,direct,context,"[0, 1, 2, 3, 4, 5]"
+c7e4e3f481484dfad82a,context,direct,"[1, 3, 4]"
+c83ed06a971a0e235ce7,context,direct,[1]
+c86a441ceedb7f275c40,context,direct,[2]
+c870aaeeafef02269e67,context,direct,[3]
+ca0162fecf3b67f2b517,context,direct,"[0, 2]"
+ca4411cd1299be1c56b9,context,direct,[2]
+ca889cf1fcf876796271,context,direct,"[0, 1, 2, 3, 4, 5]"
+cb8f970806aad16ac6bd,context,direct,[2]
+ccc5376994c7ffe1c360,context,direct,"[0, 2, 5]"
+cd4485aeff2805d0015a,context,direct,[1]
+cdaa442c525f303db159,context,direct,[1]
+cdcca5e544ac6521f351,context,direct,"[1, 5]"
+ce1c27ddc3614a970fd4,direct,context,[4]
+ceb8d2eca5811e578515,context,direct,[0]
+ceed02acd40029b9e391,direct,context,[1]
+d0106b92884bb5dd160d,context,direct,"[2, 3, 4]"
+d09dcd66dff04bb72505,context,direct,"[1, 2, 4]"
+d09dcd66dff04bb72505,direct,context,[5]
+d10cf733c13f842063fe,direct,context,[2]
+d112dda0a8846eee8a8b,direct,context,[0]
+d18b52cd8ffb496ad5ba,direct,context,"[3, 4]"
+d6405db2850f8209250b,direct,context,"[3, 5]"
+d64ea3428e361f17fd99,context,direct,[0]
+d70d903336b12207175b,direct,context,[5]
+d7114f7d5fcf16cbff8f,direct,context,"[3, 4, 5]"
+d7b05344fc42c35be943,direct,context,"[1, 3, 4, 5]"
+d9d52b82219e69e454c7,direct,context,[1]
+da1d8daf36cb7800f2e9,direct,context,"[0, 1, 3, 4, 5]"
+dbd9c06d36185e6d8e45,context,direct,[2]
+dbe4bfd6417c06e59880,context,direct,"[0, 1, 2, 3, 5]"
+dcdd35d3100e07dfa85a,direct,context,"[2, 4]"
+de0de4eb972a7515278b,context,direct,"[2, 5]"
+df1aa73141efa54eeb8f,direct,context,"[0, 1, 2, 3, 4, 5]"
+e097e8ee7dcfd3cbe3cc,direct,context,[1]
+e09ad9f5aa3220f4fb6f,context,direct,"[0, 1, 2, 3, 4, 5]"
+e0cef5857f2f0a39afcb,context,direct,[5]
+e0f0b702a96927bbf4de,direct,context,[4]
+e184951dba6b767775b6,direct,context,[3]
+e1bbf239cc753918e86a,direct,context,"[0, 2, 3, 4, 5]"
+e27e180dd2e3e4192e52,context,direct,[2]
+e347c1dad87f8867b485,context,direct,[2]
+e3bf4070b82d248680d5,context,direct,[3]
+e3dae7a8b1a2616c1a19,context,direct,"[0, 1, 3, 4, 5]"
+e5e7b7a870deb5ef8f0c,context,direct,"[1, 5]"
+e67b6d6efead98ce8739,context,direct,"[2, 4]"
+e72e9a66a52758bedd1a,context,direct,"[0, 1, 2, 3, 4, 5]"
+e9d170343df775007647,context,direct,"[1, 3, 5]"
+eb7561c454f2a62d49a2,context,direct,"[0, 3]"
+ec37f3d9d3867943e7bf,direct,context,"[0, 1, 3, 5]"
+ed541489eadc2445dd92,context,direct,[2]
+f0391ed4d5a2a15086e4,direct,context,"[0, 4]"
+f0a96fbbe9c1aaafcd48,direct,context,"[0, 4, 5]"
+f18837628609e35480ce,direct,context,"[0, 1, 2, 3, 5]"
+f19f93e3a17da94641af,direct,context,"[0, 1, 2, 3, 5]"
+f27eb1f4fd6bc03bae53,direct,context,[2]
+f29c55db577b1494693f,context,direct,"[0, 4]"
+f3116709887ce5aab6ca,direct,context,"[0, 3, 4, 5]"
+f38d29efa16cce2d056f,context,direct,[3]
+f3d3eee6c91f34094016,context,direct,"[0, 1, 3, 5]"
+f4b1276b0218cd656109,context,direct,"[0, 1, 3, 4, 5]"
+f610c6ef5986be547912,context,direct,[3]
+f6a4ff626133c146533d,context,direct,"[2, 4]"
+f6b30b1e1a5bcde3fdda,direct,context,[4]
+f71a4de3c2da49442d23,direct,context,[0]
+f8205ddc432894e4638f,context,direct,"[1, 5]"
+f894118eae5bfa68e292,direct,context,"[0, 2]"
+f96669afe574409fb19e,context,direct,[3]
+fa5ad3f979f3dcdd07cb,context,direct,"[0, 3, 4, 5]"
+fbfe46b3c41c3ddf6f09,direct,context,[0]
+fc7bb42e9ef00324ca59,direct,context,"[1, 3, 5]"
+fccb055eddae8f4e5f93,direct,context,"[0, 1, 2, 3, 4, 5]"
+fd072556b0924a1f4661,context,direct,[4]
+fd2c2a910615d63ac47d,direct,context,"[0, 3]"
+fd4c3faaf87716e659a6,context,direct,"[1, 2, 4, 5]"
+ff49ab28f8f0662a0576,direct,context,[1]
+ffc3f7a560dd839f6eb8,context,direct,[0]

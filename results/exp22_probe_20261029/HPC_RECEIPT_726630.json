@@ -1,0 +1,23 @@
+{
+  "job_id": "726630",
+  "experiment": "exp22_probe_20261029",
+  "submission_mode": "exp22 only; reuse exp21 job712907",
+  "evidence": "user-provided terminal screenshot 2026-10-29 12:35 Europe/Rome",
+  "submission_receipt_shown": true,
+  "latest_slurm_state_shown": "R",
+  "node_shown": "gnode02",
+  "elapsed_shown": "5:25",
+  "partition_shown": "stud",
+  "quota_used_gb_shown": 78.5,
+  "quota_limit_gb_shown": 100,
+  "preflight_passed_shown": true,
+  "remote_results_downloaded": false,
+  "completion_verified": false,
+  "extra_project_dependencies": [
+    "scikit-learn==1.6.1",
+    "joblib==1.5.3",
+    "threadpoolctl==3.7.0",
+    "scipy==1.15.3"
+  ],
+  "dependency_location": "probe_deps; exported PYTHONPATH inherited by Slurm"
+}

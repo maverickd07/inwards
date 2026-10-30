@@ -1,0 +1,97 @@
+row_id,X_group,Y_group,seeds
+009a9b1e40cafdb21912,context,direct,"[2, 3, 5]"
+0ebd6847eda61690487c,direct,context,"[0, 5]"
+1063cadc814944681837,direct,context,"[0, 1, 2, 3, 4, 5]"
+1200c04ab1fc6fa50eaf,context,direct,"[0, 1, 2, 4]"
+137096a045d853ef4202,context,direct,"[0, 1, 2, 4, 5]"
+139e73d24422ab40ae3f,direct,context,[5]
+14d1e39f3146729e1e10,direct,context,[0]
+16dd857231257175da6c,direct,context,[0]
+190b8e7add9ca98082da,direct,context,"[0, 5]"
+1974dd0910d043360398,context,direct,"[0, 1, 2, 3, 5]"
+22692b9e2a5a8f74b52c,direct,context,"[0, 4]"
+2536bf8b402564f1b8df,direct,context,"[0, 1, 2, 3, 4, 5]"
+26ddbf5851c47dc08ddb,context,direct,"[0, 1, 3, 4, 5]"
+27ae7a96e95711111ef9,direct,context,"[0, 1, 2, 3, 5]"
+28154838955a1b8992c4,context,direct,"[0, 1, 2, 3, 4, 5]"
+28c76e9b75a6cfc69857,context,direct,"[0, 1, 2, 3, 4, 5]"
+2fab4cfbf3f84a7750f3,context,direct,"[1, 4, 5]"
+345bdeb1b2bfb721f76a,context,direct,[1]
+38a655ab7587fd7e2092,direct,context,"[0, 1, 5]"
+3efc4410c229653ebc2a,direct,context,[1]
+401725ed5a822f7a8f29,direct,context,"[0, 1, 3, 4]"
+40807058861961bae7c5,direct,context,"[0, 2]"
+42f4784747e92ad54c55,direct,context,"[1, 3, 5]"
+461fa42328a9215f1651,context,direct,"[0, 1, 2, 3, 4, 5]"
+4823947484c4cc826cd3,direct,context,"[1, 2, 3, 5]"
+49fa5ff68905be8e3eb3,direct,context,"[1, 2]"
+4b25a837b7cb7f478a18,context,direct,"[0, 2, 5]"
+4b57e7948d44b1b96a9a,context,direct,[4]
+4e758cae2de91374a1f1,context,direct,"[0, 2, 5]"
+4ee4b7128304277c1eba,direct,context,[2]
+5121df890edba3d08ab8,context,direct,[0]
+54011f13e3b482895047,direct,context,"[0, 1, 3, 4, 5]"
+573d91bdc793d623b0b0,context,direct,"[2, 3, 5]"
+57fd53413bfb665251c3,direct,context,"[4, 5]"
+58242b6ce2fcea73bd9c,context,direct,"[0, 2]"
+5a338c9f15aea4e701f0,context,direct,[2]
+5c9de9615e63cd8ffa81,context,direct,"[0, 3, 4]"
+5cec321c15f1a45e730b,context,direct,[4]
+5d384b97114be953723e,context,direct,"[2, 4, 5]"
+5f35c95aeebc738ba916,direct,context,[2]
+62e7080ec2eb34fe5f4c,context,direct,[2]
+6aade87858f1ad2cf623,context,direct,[3]
+6b0d3711c5d8fd349d13,direct,context,"[1, 4]"
+6c40fea8f80e85ff64cc,context,direct,"[0, 1, 2, 3, 4, 5]"
+74bab04519a34630025a,direct,context,[3]
+780e464b2a5f6bef8bdb,direct,context,[3]
+78500f4996ff7d30dcb6,direct,context,"[0, 1, 2, 3, 4, 5]"
+79685ec6761b122bde93,context,direct,"[0, 3, 5]"
+79a0990109aa2989e560,context,direct,[2]
+79f88a7e0400351da3f4,direct,context,"[0, 1, 3, 4, 5]"
+7b59a3ed9ab69bb7f356,context,direct,"[0, 1, 2, 3, 4, 5]"
+7c79f3a7925dfac4cace,context,direct,"[0, 1, 2, 3, 4, 5]"
+7f470173d3b2515c67e1,context,direct,"[1, 3]"
+8199496926379a6e49cb,direct,context,"[0, 1, 2, 3, 4]"
+87dea983d2bc822efb3d,direct,context,[2]
+89c085914d6f969a16cc,context,direct,[3]
+94c623bf6adfd235b4bc,context,direct,[0]
+96ea58a949f4bafd3648,direct,context,[4]
+9e0d1f1bd6fabef3ca5d,direct,context,[0]
+9f87c9aa1cbaa20dfa7e,direct,context,[2]
+a0f12f744e3152f11743,direct,context,[2]
+a72c482adea62eb490aa,context,direct,"[0, 1, 2, 3, 4, 5]"
+a7880e89b88478da190a,direct,context,[2]
+a79d7da391574a203f01,direct,context,[2]
+ab635173ac509f6fa416,direct,context,[1]
+b16caba9974c9d3c2ed1,direct,context,[5]
+b492ae0c25e88ad330ef,direct,context,"[0, 1, 2, 3, 4, 5]"
+b58aab42a6876d606311,context,direct,"[0, 1, 3, 4, 5]"
+b653c59d0dac1adf685a,direct,context,"[0, 1, 2, 3, 4, 5]"
+bb8b86f1be836a20817e,context,direct,"[0, 2, 3, 4, 5]"
+beed8eb14c0d1b180ef8,direct,context,"[0, 1, 2, 3, 4, 5]"
+bff47ef41433c4dd7290,context,direct,[4]
+bffc1503f4e87cdee6a2,direct,context,[4]
+c198e841eeaaead799f4,direct,context,"[1, 2, 5]"
+c7e4e3f481484dfad82a,context,direct,"[1, 3, 4]"
+c86a441ceedb7f275c40,context,direct,[2]
+ca889cf1fcf876796271,context,direct,"[0, 1, 2, 3, 4, 5]"
+cd4485aeff2805d0015a,context,direct,[1]
+cdcca5e544ac6521f351,context,direct,"[1, 5]"
+ceb8d2eca5811e578515,context,direct,[0]
+d09dcd66dff04bb72505,context,direct,"[1, 2, 4]"
+d09dcd66dff04bb72505,direct,context,[5]
+d10cf733c13f842063fe,direct,context,[2]
+dbe4bfd6417c06e59880,context,direct,"[0, 1, 2, 3, 5]"
+de0de4eb972a7515278b,context,direct,"[2, 5]"
+e1bbf239cc753918e86a,direct,context,"[0, 2, 3, 4, 5]"
+e3dae7a8b1a2616c1a19,context,direct,"[0, 1, 3, 4, 5]"
+e72e9a66a52758bedd1a,context,direct,"[0, 1, 2, 3, 4, 5]"
+eb7561c454f2a62d49a2,context,direct,"[0, 3]"
+ec37f3d9d3867943e7bf,direct,context,"[0, 1, 3, 5]"
+f18837628609e35480ce,direct,context,"[0, 1, 2, 3, 5]"
+f19f93e3a17da94641af,direct,context,"[0, 1, 2, 3, 5]"
+f3116709887ce5aab6ca,direct,context,"[0, 3, 4, 5]"
+f96669afe574409fb19e,context,direct,[3]
+fc7bb42e9ef00324ca59,direct,context,"[1, 3, 5]"
+fd2c2a910615d63ac47d,direct,context,"[0, 3]"

@@ -1,0 +1,15 @@
+{
+  "independent_scipy_verified": true,
+  "metrics": [
+    "EM",
+    "F1"
+  ],
+  "comparisons": [
+    "context-direct",
+    "context-base",
+    "direct-base"
+  ],
+  "seed_n": 6,
+  "atol": 1e-10,
+  "empty_stratum_handled": true
+}

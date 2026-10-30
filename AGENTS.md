@@ -17,3 +17,11 @@ Continue observing INWARD_HANDOFF.md section 7 and the user's result-preservatio
 The user has authorized and completed the exp12/exp13 stages after the earlier exp11 checkpoint. Preserve exp13 MuSiQue as a fixed, already-inspected external transfer benchmark; do not tune on it or automatically rerun/expand its experiments. The research priority is now diagnosing the causes of the original knowledge-composition failures before choosing targeted repairs. Distinguish scoring/reference errors, knowledge gaps, retrieval/composition hypotheses, and direct causal evidence; do not presume a unique root cause.
 
 The user reports exp14 Llama is already running. Preserve its frozen protocol and analyze it upon completion; this direction change does not cancel that run or authorize additional HPC experiments. Make a bounded decision with the user after diagnostic consolidation before implementing a new repair series. See `results/research_decision_20261016/DECISION_ZH.txt` for the decision and evidence boundaries.
+
+## HPC handoff preference — agreed 2026-10-22
+
+There is no HPC bridge or agent-side upload/authentication setup. Prepare and
+validate experiment packages locally, then give the user copyable upload and
+submission commands. The user uploads and submits on HPC. Do not ask them to
+configure SSH keys/agents for Codex. Report a job ID only after an actual user
+submission receipt is available; never imply that packaging is submission.

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-16T11:33:23.643495+00:00",
+  "before_biography_results_or_roster_selection": true,
+  "script": "curate_review_v11.py",
+  "sha256": "b029652fabc7fc0b5f1f649f30e2f5106e63d7427c9b8e38533cddab5546e74c",
+  "changes": [
+    "Complete equivalent naturalisation/status-change expressions: granted/received/renounced/retained citizenship, became a citizen. Same conservative citizenship-signal exclusion; not a rule change."
+  ],
+  "resumption": "Keep metadata and public API caches, resume identical queries after prior process exits."
+}

@@ -1,0 +1,24 @@
+{
+  "source_job": "700454",
+  "scorer_job": "701713",
+  "copied_files": {
+    "aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+    "preflight_source.py": "2b2ac5335e339a5bc6e1f5116739269ffbaef148d1a1194374aad199285c5319",
+    "engine_exp11_v1.py": "4817d627053f55816657871893157705e13371f916f0ec19aa375ca4dedcfc09",
+    "SCORER_FREEZE.json": "8f90180033e874707616a9e71c3826e20fcfbadce32f72d46d294a519b82eb0a",
+    "analysis_exp12_source.py": "6899343b752125141fb8b84a2c22b36279ba92038c168c685dd0aa0b1edc4f7d",
+    "exp12_source.py": "71dd4471b6ca5dc4ce21a9ccd23ed266605b6d19b55f1761a212d55321795730",
+    "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+    "reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+    "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+    "plan/train.jsonl": "b135fa2a78ac3a2d685eeb0754425797b142ae16ac4676c61a443387c87d49b9",
+    "plan/items_D_reservedC.jsonl": "f2f4fcc2f9ddbf0263efa066a7830b7fbfc80c7040ed25604eb727b7fabfddd4",
+    "plan/items_C_bothNew.jsonl": "26357d7bbae14c765d133dd53983612df5e590c1170fd87c570b32ddd7ab5a65",
+    "plan/items_A_newPerson.jsonl": "2ac080b532a286aa44c81457de80273de232257f43d760b83360289a1c3891eb",
+    "plan/items_B_newCategory.jsonl": "cb96069f3975ac466703ad4473b2e82e575f938dff5f1f0863fd7a03a6e653e8",
+    "plan/exp12_manifest.json": "804489ae07bb6e24ec9d525839926b01efcc4f1bd12383aa88907ee3f2deaacc"
+  },
+  "model_metadata_source": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct",
+  "model_metadata_checked": "2026-10-15"
+}

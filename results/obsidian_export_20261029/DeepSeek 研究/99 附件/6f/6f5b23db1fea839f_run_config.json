@@ -1,0 +1,22 @@
+{
+  "condition": "frozen_budget",
+  "round": 3,
+  "train_seed": 0,
+  "epochs": 6,
+  "batch": 8,
+  "lr": 0.0001,
+  "rank": 16,
+  "n_unique": 864,
+  "sample_exposures": 5184,
+  "optimizer_steps": 648,
+  "targets_sha256": "5b1c9dc124edc7efa987190cd4c998e536dc40842982d0069fcf073ad7f96a5e",
+  "init_adapter_sha256": null,
+  "optimizer_reset": true,
+  "scheduler_reset": true,
+  "smoke_test": false,
+  "scoring": "floor",
+  "model": "models/Qwen3-14B",
+  "eval_seed": 0,
+  "training_seconds": 483.1991412639618,
+  "evaluation_seconds": 473.0104191303253
+}

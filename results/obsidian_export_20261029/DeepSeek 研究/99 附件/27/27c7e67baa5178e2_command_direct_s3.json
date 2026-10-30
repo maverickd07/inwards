@@ -1,0 +1,16 @@
+[
+  "/private/tmp/exp12-match-venv/bin/python",
+  "-u",
+  "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp13_musique_transfer_20261015/infer.py",
+  "--model",
+  "results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model",
+  "--queries",
+  "results/exp13_musique_transfer_20261015/local_smoke/inputs/queries.jsonl",
+  "--out",
+  "results/exp13_musique_transfer_20261015/local_smoke/direct_s3",
+  "--name",
+  "direct_s3",
+  "--adapter",
+  "results/exp12_matched785_20261015/local_smoke/direct_s3/adapter",
+  "--smoke-test"
+]

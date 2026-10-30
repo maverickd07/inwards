@@ -1,0 +1,32 @@
+{
+  "source_hashes": {
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/data/compositional_celebrities.json": "b5fa71b82bbd05ac7b7462682a686d696a5485c69a2dc8c3a3ece8f49c4520d0",
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/iso4217_historical.xml": "98fde2423cdb916dd59dcf5fe96222edad8fa198d865c1c83dbc464b9cc52387",
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/results/handoff_analysis_20261003/analysis_outputs/failures_120_labeled.csv": "f15283ae9df1ef2ca73b699dd3864d4c5faa3fdabc5f5ead90d5176c08b8ecf5",
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/exp1_gap_v2.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/results/exp1v2_Qwen3-0.6B/items.jsonl": "72272c60c6d59ef2ea4fdf275579b7a0eef473342dd361127953417f3e297a58",
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/results/exp1v2_Qwen3-1.7B/items.jsonl": "439c2c382b441f6b2ade85664619f64bf367fc112f3290d2a2d87e36958b98ce",
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/results/exp1v2_Qwen3-8B/items.jsonl": "4456faaab7aaf141800e352634b1039cf2b51a95b9c0ddf6ce47e238effa86fb",
+    "/Users/REDACTED/Desktop/Deepseek-猜想实验/inward/results/exp1v2_Qwen3-14B/items.jsonl": "c27e89277bc36a38a42394e0ac1d93ef8a799d3da3cfb110d0507c293d9a1aad"
+  },
+  "command": "python3 /Users/REDACTED/Desktop/Deepseek-猜想实验/results/handoff_analysis_20261003/analyze_tasks56.py --out NEW_DIRECTORY",
+  "scoring": "Every numeric alias: one signed numeric expression, floor compare; truncate sensitivity. Text scorer unchanged. Gap = clear failures among q1 && q2 under the same scoring mode. ALL includes date/year/translation; CLEAN birthplace excluding common_name. Wilson intervals per proportion; McNemar on paired scoring flags, not on gaps with changing denominators.",
+  "original_replay_mismatches": {
+    "('0.6B', 'q1')": 0,
+    "('0.6B', 'q2')": 0,
+    "('0.6B', 'clear')": 0,
+    "('0.6B', 'ctx')": 0,
+    "('1.7B', 'q1')": 0,
+    "('1.7B', 'q2')": 0,
+    "('1.7B', 'clear')": 0,
+    "('1.7B', 'ctx')": 0,
+    "('8B', 'q1')": 0,
+    "('8B', 'q2')": 0,
+    "('8B', 'clear')": 0,
+    "('8B', 'ctx')": 0,
+    "('14B', 'q1')": 0,
+    "('14B', 'q2')": 0,
+    "('14B', 'clear')": 0,
+    "('14B', 'ctx')": 0
+  }
+}

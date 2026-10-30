@@ -1,0 +1,561 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_expxx_self_consistency_20261016_REPORT_ZH.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/2e/2effe3310b4692af_REPORT_ZH.txt|REPORT_ZH.txt]]
+
+expxx 自洽分析（仅已保存数据）
+日期：2026-10-16；结果目录：/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/expxx_self_consistency_20261016
+未跑推理，未访问HPC，未修改历史预测、评分器、标签或实验结果。
+
+1. 按事先封存规则的判定
+─────────────────────────────────────────────────────────────────
+判定为“自洽是候选机制”。主定义：国家属性表；主样本：固定404道目标不同的题；各组错误目标分别作分母。
+带背景75/316=23.73%，无背景6/317=1.89%，差+21.84个百分点，达到预设≥20pp门槛。
+这是一项机制线索，尚未证明之前约2.5pp的测试提升由自洽导致，更不能量化它解释了多少提升。
+主口径的无法判断比例为36.71%与41.01%；未知任意赋值时差距可在[-19.17,+58.55]pp内，覆盖不足使属性表结论不能视为稳健因果证据。
+同job模型定义差+29.13pp，也达到门槛，但同样受覆盖限制。较早exp1与扩展来源分别为+36.73、+37.05pp；扩展来源的未知最坏界仍为+27.27pp，但跨运行的回答不能视为完全同次知识测量。
+按类别，属性表证据集中在首都/区号；经纬度不能笼统说成“错误目标普遍自洽”。
+规则原文及先写时间、SHA256见PREREGISTRATION_ZH.txt、PREREGISTRATION_FREEZE.json；本报告没有回改规则。
+
+2. 数据、评分与定义
+─────────────────────────────────────────────────────────────────
+864题已逐题整理；785同题匹配子集含381题两组目标字符串完全相同、404题不同。ALL864_ENRICHED.jsonl保存原始题目、z̃、两组目标、gold、类别和所有判定。
+训练标签直接复用job701792的revised标签。“错误”包括needs_review；strict_wrong排除待复核，仍不是人工确认的事实错误。z̃对错使用冻结v3国家答案匹配。
+404题：两组目标分别正确88、87题；错误316、317题；两组同时错误261题，同时strict_wrong236题。各组错误集合不同，故另报同题共同错误对照。
+属性表由已有数据集birth_country/A2重建并核对完全一致，非全球完整知识库。反查用国家集合，保留共享区号和数值桶歧义；“一致”只表示兼容，不能唯一识别国家。
+主数值口径为历史floor；固定另报ROUND_HALF_UP四舍五入。整段解析失败或合法属性值在表里反查不到，均是无法判断，不是矛盾。
+模型定义以国家+属性索引基础模型Q2；不是直接拿原题真实国家Q2充当z̃国家Q2。重复记录需规范值全一致，冲突不选票。所有原始Q2证据见SAVED_Q2_EVIDENCE.json。
+同job700454为主，exp1单独报告，扩展版只填补同job没有记录的国家，不覆盖同job冲突。这里是一份缓存目标，没有六份独立教师样本，所以不计算种子t95。
+
+3. 已保存单步知识覆盖率（已在主统计前告知）
+─────────────────────────────────────────────────────────────────
+范围 | 单步来源 | 可用n/总n（%） | 没有对应记录 | z̃无法唯一解析 | 多记录冲突
+all864 | exp12 | 565/864 (65.39%) | 240 | 52 | 7
+all864 | exp1 | 812/864 (93.98%) | 0 | 52 | 0
+all864 | extended | 805/864 (93.17%) | 0 | 52 | 7
+selected785 | exp12 | 505/785 (64.33%) | 222 | 51 | 7
+selected785 | exp1 | 734/785 (93.50%) | 0 | 51 | 0
+selected785 | extended | 727/785 (92.61%) | 0 | 51 | 7
+different404 | exp12 | 266/404 (65.84%) | 99 | 33 | 6
+different404 | exp1 | 371/404 (91.83%) | 0 | 33 | 0
+different404 | extended | 365/404 (90.35%) | 0 | 33 | 6
+覆盖率只检查能否取得稳定单步回答；与具体目标比较时还可能因目标本身无法解析而少判一题。未补任何推理。
+
+4. 404题：全体、正确目标、错误目标与排除待复核
+─────────────────────────────────────────────────────────────────
+
+属性表（floor主口径）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+全部目标 | 带背景 | 404 | 160 (39.60%) / 127 (31.44%) / 117 (28.96%) | 11
+全部目标 | 无背景 | 404 | 59 (14.60%) / 206 (50.99%) / 139 (34.41%) | 32
+目标正确 | 带背景 | 88 | 85 (96.59%) / 2 (2.27%) / 1 (1.14%) | 0
+目标正确 | 无背景 | 87 | 53 (60.92%) / 25 (28.74%) / 9 (10.34%) | 0
+目标错误（含待复核） | 带背景 | 316 | 75 (23.73%) / 125 (39.56%) / 116 (36.71%) | 11
+目标错误（含待复核） | 无背景 | 317 | 6 (1.89%) / 181 (57.10%) / 130 (41.01%) | 32
+目标错误且无待复核标记 | 带背景 | 305 | 71 (23.28%) / 125 (40.98%) / 109 (35.74%) | 0
+目标错误且无待复核标记 | 无背景 | 285 | 6 (2.11%) / 179 (62.81%) / 100 (35.09%) | 0
+目标待复核 | 带背景 | 11 | 4 (36.36%) / 0 (0.00%) / 7 (63.64%) | 11
+目标待复核 | 无背景 | 32 | 0 (0.00%) / 2 (6.25%) / 30 (93.75%) | 32
+
+模型单步（同job700454）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+全部目标 | 带背景 | 404 | 157 (38.86%) / 108 (26.73%) / 139 (34.41%) | 11
+全部目标 | 无背景 | 404 | 36 (8.91%) / 230 (56.93%) / 138 (34.16%) | 32
+目标正确 | 带背景 | 88 | 49 (55.68%) / 10 (11.36%) / 29 (32.95%) | 0
+目标正确 | 无背景 | 87 | 20 (22.99%) / 35 (40.23%) / 32 (36.78%) | 0
+目标错误（含待复核） | 带背景 | 316 | 108 (34.18%) / 98 (31.01%) / 110 (34.81%) | 11
+目标错误（含待复核） | 无背景 | 317 | 16 (5.05%) / 195 (61.51%) / 106 (33.44%) | 32
+目标错误且无待复核标记 | 带背景 | 305 | 104 (34.10%) / 98 (32.13%) / 103 (33.77%) | 0
+目标错误且无待复核标记 | 无背景 | 285 | 16 (5.61%) / 174 (61.05%) / 95 (33.33%) | 0
+目标待复核 | 带背景 | 11 | 4 (36.36%) / 0 (0.00%) / 7 (63.64%) | 11
+目标待复核 | 无背景 | 32 | 0 (0.00%) / 21 (65.62%) / 11 (34.38%) | 32
+
+模型单步（较早exp1）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+全部目标 | 带背景 | 404 | 210 (51.98%) / 160 (39.60%) / 34 (8.42%) | 11
+全部目标 | 无背景 | 404 | 57 (14.11%) / 313 (77.48%) / 34 (8.42%) | 32
+目标正确 | 带背景 | 88 | 69 (78.41%) / 18 (20.45%) / 1 (1.14%) | 0
+目标正确 | 无背景 | 87 | 32 (36.78%) / 46 (52.87%) / 9 (10.34%) | 0
+目标错误（含待复核） | 带背景 | 316 | 141 (44.62%) / 142 (44.94%) / 33 (10.44%) | 11
+目标错误（含待复核） | 无背景 | 317 | 25 (7.89%) / 267 (84.23%) / 25 (7.89%) | 32
+目标错误且无待复核标记 | 带背景 | 305 | 135 (44.26%) / 142 (46.56%) / 28 (9.18%) | 0
+目标错误且无待复核标记 | 无背景 | 285 | 25 (8.77%) / 241 (84.56%) / 19 (6.67%) | 0
+目标待复核 | 带背景 | 11 | 6 (54.55%) / 0 (0.00%) / 5 (45.45%) | 11
+目标待复核 | 无背景 | 32 | 0 (0.00%) / 26 (81.25%) / 6 (18.75%) | 32
+
+模型单步（同job缺记录时补exp1）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+全部目标 | 带背景 | 404 | 210 (51.98%) / 154 (38.12%) / 40 (9.90%) | 11
+全部目标 | 无背景 | 404 | 55 (13.61%) / 309 (76.49%) / 40 (9.90%) | 32
+目标正确 | 带背景 | 88 | 68 (77.27%) / 19 (21.59%) / 1 (1.14%) | 0
+目标正确 | 无背景 | 87 | 30 (34.48%) / 48 (55.17%) / 9 (10.34%) | 0
+目标错误（含待复核） | 带背景 | 316 | 142 (44.94%) / 135 (42.72%) / 39 (12.34%) | 11
+目标错误（含待复核） | 无背景 | 317 | 25 (7.89%) / 261 (82.33%) / 31 (9.78%) | 32
+目标错误且无待复核标记 | 带背景 | 305 | 136 (44.59%) / 135 (44.26%) / 34 (11.15%) | 0
+目标错误且无待复核标记 | 无背景 | 285 | 25 (8.77%) / 235 (82.46%) / 25 (8.77%) | 0
+目标待复核 | 带背景 | 11 | 6 (54.55%) / 0 (0.00%) / 5 (45.45%) | 11
+目标待复核 | 无背景 | 32 | 0 (0.00%) / 26 (81.25%) / 6 (18.75%) | 32
+
+5. 错误目标差距、缺失界与数值敏感性
+─────────────────────────────────────────────────────────────────
+定义 | 错误口径 | 带背景一致率 | 无背景一致率 | 差pp | 可判定子集差pp | 未知任意赋值差距界pp | 判定
+属性表（floor主口径） | 目标错误（含待复核） | 23.73% | 1.89% | 21.84 | 34.29 | [-19.17, 58.55] | 自洽是候选机制
+属性表（floor主口径） | 目标错误且无待复核标记 | 23.28% | 2.11% | 21.17 | 32.98 | [-13.91, 56.91] | 自洽是候选机制
+属性表（四舍五入敏感性） | 目标错误（含待复核） | 24.05% | 2.21% | 21.84 | 33.33 | [-19.17, 56.97] | 自洽是候选机制
+属性表（四舍五入敏感性） | 目标错误且无待复核标记 | 23.61% | 2.46% | 21.15 | 32.04 | [-13.94, 55.25] | 自洽是候选机制
+模型单步（同job700454） | 目标错误（含待复核） | 34.18% | 5.05% | 29.13 | 44.84 | [-4.31, 63.94] | 自洽是候选机制
+模型单步（同job700454） | 目标错误且无待复核标记 | 34.10% | 5.61% | 28.48 | 43.06 | [-4.85, 62.25] | 自洽是候选机制
+模型单步（较早exp1） | 目标错误（含待复核） | 44.62% | 7.89% | 36.73 | 41.26 | [28.85, 47.18] | 自洽是候选机制
+模型单步（较早exp1） | 目标错误且无待复核标记 | 44.26% | 8.77% | 35.49 | 39.34 | [28.82, 44.67] | 自洽是候选机制
+模型单步（同job缺记录时补exp1） | 目标错误（含待复核） | 44.94% | 7.89% | 37.05 | 42.52 | [27.27, 49.39] | 自洽是候选机制
+模型单步（同job缺记录时补exp1） | 目标错误且无待复核标记 | 44.59% | 8.77% | 35.82 | 40.57 | [27.05, 46.97] | 自洽是候选机制
+模型同job（四舍五入） | 目标错误（含待复核） | 34.49% | 5.05% | 29.45 | 45.33 | [-3.99, 64.26] | 自洽是候选机制
+模型同job（四舍五入） | 目标错误且无待复核标记 | 34.43% | 5.61% | 28.81 | 43.56 | [-4.52, 62.58] | 自洽是候选机制
+模型exp1（四舍五入） | 目标错误（含待复核） | 45.25% | 8.20% | 37.05 | 41.63 | [29.16, 47.49] | 自洽是候选机制
+模型exp1（四舍五入） | 目标错误且无待复核标记 | 44.92% | 9.12% | 35.80 | 39.68 | [29.13, 44.98] | 自洽是候选机制
+模型扩展（四舍五入） | 目标错误（含待复核） | 45.57% | 8.20% | 37.37 | 42.89 | [27.59, 49.71] | 自洽是候选机制
+模型扩展（四舍五入） | 目标错误且无待复核标记 | 45.25% | 9.12% | 36.12 | 40.92 | [27.35, 47.27] | 自洽是候选机制
+可判定子集的一致率排除了unknown，但两组可判定集合仍不同，不能替代同题配对分析。下表进一步固定双方同题错误集合。
+定义 | 两方错误口径 | 是否只留双方可判定 | 同题n | 带背景一致n | 无背景一致n | 差pp
+属性表（floor主口径） | wrong | False | 261 | 60 | 5 | 21.07
+属性表（floor主口径） | wrong | True | 120 | 36 | 4 | 26.67
+属性表（floor主口径） | strict_wrong | False | 236 | 42 | 5 | 15.68
+属性表（floor主口径） | strict_wrong | True | 117 | 33 | 4 | 24.79
+模型单步（同job700454） | wrong | False | 261 | 90 | 14 | 29.12
+模型单步（同job700454） | wrong | True | 171 | 90 | 14 | 44.44
+模型单步（同job700454） | strict_wrong | False | 236 | 74 | 14 | 25.42
+模型单步（同job700454） | strict_wrong | True | 155 | 74 | 14 | 38.71
+模型单步（同job缺记录时补exp1） | wrong | False | 261 | 118 | 19 | 37.93
+模型单步（同job缺记录时补exp1） | wrong | True | 230 | 118 | 19 | 43.04
+模型单步（同job缺记录时补exp1） | strict_wrong | False | 236 | 98 | 19 | 33.47
+模型单步（同job缺记录时补exp1） | strict_wrong | True | 210 | 98 | 19 | 37.62
+尤其是236道同时strict_wrong题：属性表全分母差+15.68pp，落在“不确定”区间；双方均可判定的117题差+24.79pp。主结论没有因此换分母，须同时保留这项限制。
+
+6. 按第一步z̃对错拆分（404题）
+─────────────────────────────────────────────────────────────────
+
+属性表（floor主口径）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+z̃正确；全部目标 | 带背景 | 237 | 85 (35.86%) / 90 (37.97%) / 62 (26.16%) | 2
+z̃正确；全部目标 | 无背景 | 237 | 53 (22.36%) / 115 (48.52%) / 69 (29.11%) | 10
+z̃正确；目标错误（含待复核） | 带背景 | 152 | 0 (0.00%) / 90 (59.21%) / 62 (40.79%) | 2
+z̃正确；目标错误（含待复核） | 无背景 | 184 | 0 (0.00%) / 115 (62.50%) / 69 (37.50%) | 10
+z̃错误（含待复核）；全部目标 | 带背景 | 167 | 75 (44.91%) / 37 (22.16%) / 55 (32.93%) | 9
+z̃错误（含待复核）；全部目标 | 无背景 | 167 | 6 (3.59%) / 91 (54.49%) / 70 (41.92%) | 22
+z̃错误（含待复核）；目标错误（含待复核） | 带背景 | 164 | 75 (45.73%) / 35 (21.34%) / 54 (32.93%) | 9
+z̃错误（含待复核）；目标错误（含待复核） | 无背景 | 133 | 6 (4.51%) / 66 (49.62%) / 61 (45.86%) | 22
+z̃错误且无待复核标记；全部目标 | 带背景 | 134 | 75 (55.97%) / 37 (27.61%) / 22 (16.42%) | 4
+z̃错误且无待复核标记；全部目标 | 无背景 | 134 | 6 (4.48%) / 91 (67.91%) / 37 (27.61%) | 17
+z̃错误且无待复核标记；目标错误（含待复核） | 带背景 | 132 | 75 (56.82%) / 35 (26.52%) / 22 (16.67%) | 4
+z̃错误且无待复核标记；目标错误（含待复核） | 无背景 | 109 | 6 (5.50%) / 66 (60.55%) / 37 (33.94%) | 17
+z̃待复核；全部目标 | 带背景 | 33 | 0 (0.00%) / 0 (0.00%) / 33 (100.00%) | 5
+z̃待复核；全部目标 | 无背景 | 33 | 0 (0.00%) / 0 (0.00%) / 33 (100.00%) | 5
+z̃待复核；目标错误（含待复核） | 带背景 | 32 | 0 (0.00%) / 0 (0.00%) / 32 (100.00%) | 5
+z̃待复核；目标错误（含待复核） | 无背景 | 24 | 0 (0.00%) / 0 (0.00%) / 24 (100.00%) | 5
+
+模型单步（同job700454）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+z̃正确；全部目标 | 带背景 | 237 | 88 (37.13%) / 75 (31.65%) / 74 (31.22%) | 2
+z̃正确；全部目标 | 无背景 | 237 | 32 (13.50%) / 131 (55.27%) / 74 (31.22%) | 10
+z̃正确；目标错误（含待复核） | 带背景 | 152 | 39 (25.66%) / 66 (43.42%) / 47 (30.92%) | 2
+z̃正确；目标错误（含待复核） | 无背景 | 184 | 12 (6.52%) / 114 (61.96%) / 58 (31.52%) | 10
+z̃错误（含待复核）；全部目标 | 带背景 | 167 | 69 (41.32%) / 33 (19.76%) / 65 (38.92%) | 9
+z̃错误（含待复核）；全部目标 | 无背景 | 167 | 4 (2.40%) / 99 (59.28%) / 64 (38.32%) | 22
+z̃错误（含待复核）；目标错误（含待复核） | 带背景 | 164 | 69 (42.07%) / 32 (19.51%) / 63 (38.41%) | 9
+z̃错误（含待复核）；目标错误（含待复核） | 无背景 | 133 | 4 (3.01%) / 81 (60.90%) / 48 (36.09%) | 22
+z̃错误且无待复核标记；全部目标 | 带背景 | 134 | 69 (51.49%) / 33 (24.63%) / 32 (23.88%) | 4
+z̃错误且无待复核标记；全部目标 | 无背景 | 134 | 4 (2.99%) / 99 (73.88%) / 31 (23.13%) | 17
+z̃错误且无待复核标记；目标错误（含待复核） | 带背景 | 132 | 69 (52.27%) / 32 (24.24%) / 31 (23.48%) | 4
+z̃错误且无待复核标记；目标错误（含待复核） | 无背景 | 109 | 4 (3.67%) / 81 (74.31%) / 24 (22.02%) | 17
+z̃待复核；全部目标 | 带背景 | 33 | 0 (0.00%) / 0 (0.00%) / 33 (100.00%) | 5
+z̃待复核；全部目标 | 无背景 | 33 | 0 (0.00%) / 0 (0.00%) / 33 (100.00%) | 5
+z̃待复核；目标错误（含待复核） | 带背景 | 32 | 0 (0.00%) / 0 (0.00%) / 32 (100.00%) | 5
+z̃待复核；目标错误（含待复核） | 无背景 | 24 | 0 (0.00%) / 0 (0.00%) / 24 (100.00%) | 5
+
+模型单步（同job缺记录时补exp1）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+z̃正确；全部目标 | 带背景 | 237 | 122 (51.48%) / 114 (48.10%) / 1 (0.42%) | 2
+z̃正确；全部目标 | 无背景 | 237 | 49 (20.68%) / 186 (78.48%) / 2 (0.84%) | 10
+z̃正确；目标错误（含待复核） | 带背景 | 152 | 54 (35.53%) / 97 (63.82%) / 1 (0.66%) | 2
+z̃正确；目标错误（含待复核） | 无背景 | 184 | 20 (10.87%) / 162 (88.04%) / 2 (1.09%) | 10
+z̃错误（含待复核）；全部目标 | 带背景 | 167 | 88 (52.69%) / 40 (23.95%) / 39 (23.35%) | 9
+z̃错误（含待复核）；全部目标 | 无背景 | 167 | 6 (3.59%) / 123 (73.65%) / 38 (22.75%) | 22
+z̃错误（含待复核）；目标错误（含待复核） | 带背景 | 164 | 88 (53.66%) / 38 (23.17%) / 38 (23.17%) | 9
+z̃错误（含待复核）；目标错误（含待复核） | 无背景 | 133 | 5 (3.76%) / 99 (74.44%) / 29 (21.80%) | 22
+z̃错误且无待复核标记；全部目标 | 带背景 | 134 | 88 (65.67%) / 40 (29.85%) / 6 (4.48%) | 4
+z̃错误且无待复核标记；全部目标 | 无背景 | 134 | 6 (4.48%) / 123 (91.79%) / 5 (3.73%) | 17
+z̃错误且无待复核标记；目标错误（含待复核） | 带背景 | 132 | 88 (66.67%) / 38 (28.79%) / 6 (4.55%) | 4
+z̃错误且无待复核标记；目标错误（含待复核） | 无背景 | 109 | 5 (4.59%) / 99 (90.83%) / 5 (4.59%) | 17
+z̃待复核；全部目标 | 带背景 | 33 | 0 (0.00%) / 0 (0.00%) / 33 (100.00%) | 5
+z̃待复核；全部目标 | 无背景 | 33 | 0 (0.00%) / 0 (0.00%) / 33 (100.00%) | 5
+z̃待复核；目标错误（含待复核） | 带背景 | 32 | 0 (0.00%) / 0 (0.00%) / 32 (100.00%) | 5
+z̃待复核；目标错误（含待复核） | 无背景 | 24 | 0 (0.00%) / 0 (0.00%) / 24 (100.00%) | 5
+z̃错误的167题中，属性表一致为带背景75题（44.91%）、无背景6题（3.59%）；其中包括待复核第一步答案，表内已另列严格层。
+同job模型定义为69/167（41.32%）对4/167（2.40%）；扩展定义为88/167（52.69%）对6/167（3.59%）。这说明“错得自洽”确实存在，但不等于所有错误目标都自洽。
+
+7. 按四类别拆分（404题）
+─────────────────────────────────────────────────────────────────
+
+属性表（floor主口径）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+电话区号；全部目标 | 带背景 | 55 | 48 (87.27%) / 1 (1.82%) / 6 (10.91%) | 0
+电话区号；全部目标 | 无背景 | 55 | 15 (27.27%) / 31 (56.36%) / 9 (16.36%) | 0
+电话区号；目标正确 | 带背景 | 25 | 24 (96.00%) / 0 (0.00%) / 1 (4.00%) | 0
+电话区号；目标正确 | 无背景 | 25 | 14 (56.00%) / 7 (28.00%) / 4 (16.00%) | 0
+电话区号；目标错误（含待复核） | 带背景 | 30 | 24 (80.00%) / 1 (3.33%) / 5 (16.67%) | 0
+电话区号；目标错误（含待复核） | 无背景 | 30 | 1 (3.33%) / 24 (80.00%) / 5 (16.67%) | 0
+首都；全部目标 | 带背景 | 51 | 42 (82.35%) / 0 (0.00%) / 9 (17.65%) | 11
+首都；全部目标 | 无背景 | 51 | 1 (1.96%) / 18 (35.29%) / 32 (62.75%) | 32
+首都；目标正确 | 带背景 | 11 | 11 (100.00%) / 0 (0.00%) / 0 (0.00%) | 0
+首都；目标正确 | 无背景 | 10 | 1 (10.00%) / 7 (70.00%) / 2 (20.00%) | 0
+首都；目标错误（含待复核） | 带背景 | 40 | 31 (77.50%) / 0 (0.00%) / 9 (22.50%) | 11
+首都；目标错误（含待复核） | 无背景 | 41 | 0 (0.00%) / 11 (26.83%) / 30 (73.17%) | 32
+纬度；全部目标 | 带背景 | 145 | 38 (26.21%) / 79 (54.48%) / 28 (19.31%) | 0
+纬度；全部目标 | 无背景 | 145 | 25 (17.24%) / 100 (68.97%) / 20 (13.79%) | 0
+纬度；目标正确 | 带背景 | 33 | 32 (96.97%) / 1 (3.03%) / 0 (0.00%) | 0
+纬度；目标正确 | 无背景 | 33 | 22 (66.67%) / 8 (24.24%) / 3 (9.09%) | 0
+纬度；目标错误（含待复核） | 带背景 | 112 | 6 (5.36%) / 78 (69.64%) / 28 (25.00%) | 0
+纬度；目标错误（含待复核） | 无背景 | 112 | 3 (2.68%) / 92 (82.14%) / 17 (15.18%) | 0
+经度；全部目标 | 带背景 | 153 | 32 (20.92%) / 47 (30.72%) / 74 (48.37%) | 0
+经度；全部目标 | 无背景 | 153 | 18 (11.76%) / 57 (37.25%) / 78 (50.98%) | 0
+经度；目标正确 | 带背景 | 19 | 18 (94.74%) / 1 (5.26%) / 0 (0.00%) | 0
+经度；目标正确 | 无背景 | 19 | 16 (84.21%) / 3 (15.79%) / 0 (0.00%) | 0
+经度；目标错误（含待复核） | 带背景 | 134 | 14 (10.45%) / 46 (34.33%) / 74 (55.22%) | 0
+经度；目标错误（含待复核） | 无背景 | 134 | 2 (1.49%) / 54 (40.30%) / 78 (58.21%) | 0
+
+模型单步（同job700454）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+电话区号；全部目标 | 带背景 | 55 | 34 (61.82%) / 0 (0.00%) / 21 (38.18%) | 0
+电话区号；全部目标 | 无背景 | 55 | 10 (18.18%) / 24 (43.64%) / 21 (38.18%) | 0
+电话区号；目标正确 | 带背景 | 25 | 17 (68.00%) / 0 (0.00%) / 8 (32.00%) | 0
+电话区号；目标正确 | 无背景 | 25 | 10 (40.00%) / 6 (24.00%) / 9 (36.00%) | 0
+电话区号；目标错误（含待复核） | 带背景 | 30 | 17 (56.67%) / 0 (0.00%) / 13 (43.33%) | 0
+电话区号；目标错误（含待复核） | 无背景 | 30 | 0 (0.00%) / 18 (60.00%) / 12 (40.00%) | 0
+首都；全部目标 | 带背景 | 51 | 32 (62.75%) / 0 (0.00%) / 19 (37.25%) | 11
+首都；全部目标 | 无背景 | 51 | 1 (1.96%) / 31 (60.78%) / 19 (37.25%) | 32
+首都；目标正确 | 带背景 | 11 | 8 (72.73%) / 0 (0.00%) / 3 (27.27%) | 0
+首都；目标正确 | 无背景 | 10 | 1 (10.00%) / 4 (40.00%) / 5 (50.00%) | 0
+首都；目标错误（含待复核） | 带背景 | 40 | 24 (60.00%) / 0 (0.00%) / 16 (40.00%) | 11
+首都；目标错误（含待复核） | 无背景 | 41 | 0 (0.00%) / 27 (65.85%) / 14 (34.15%) | 32
+纬度；全部目标 | 带背景 | 145 | 39 (26.90%) / 55 (37.93%) / 51 (35.17%) | 0
+纬度；全部目标 | 无背景 | 145 | 11 (7.59%) / 83 (57.24%) / 51 (35.17%) | 0
+纬度；目标正确 | 带背景 | 33 | 17 (51.52%) / 7 (21.21%) / 9 (27.27%) | 0
+纬度；目标正确 | 无背景 | 33 | 6 (18.18%) / 16 (48.48%) / 11 (33.33%) | 0
+纬度；目标错误（含待复核） | 带背景 | 112 | 22 (19.64%) / 48 (42.86%) / 42 (37.50%) | 0
+纬度；目标错误（含待复核） | 无背景 | 112 | 5 (4.46%) / 67 (59.82%) / 40 (35.71%) | 0
+经度；全部目标 | 带背景 | 153 | 52 (33.99%) / 53 (34.64%) / 48 (31.37%) | 0
+经度；全部目标 | 无背景 | 153 | 14 (9.15%) / 92 (60.13%) / 47 (30.72%) | 0
+经度；目标正确 | 带背景 | 19 | 7 (36.84%) / 3 (15.79%) / 9 (47.37%) | 0
+经度；目标正确 | 无背景 | 19 | 3 (15.79%) / 9 (47.37%) / 7 (36.84%) | 0
+经度；目标错误（含待复核） | 带背景 | 134 | 45 (33.58%) / 50 (37.31%) / 39 (29.10%) | 0
+经度；目标错误（含待复核） | 无背景 | 134 | 11 (8.21%) / 83 (61.94%) / 40 (29.85%) | 0
+
+模型单步（同job缺记录时补exp1）
+分层 | 组别 | n | 一致 / 矛盾 / 无法判断（各为n及占本行比例） | 目标待复核n
+电话区号；全部目标 | 带背景 | 55 | 49 (89.09%) / 0 (0.00%) / 6 (10.91%) | 0
+电话区号；全部目标 | 无背景 | 55 | 14 (25.45%) / 35 (63.64%) / 6 (10.91%) | 0
+电话区号；目标正确 | 带背景 | 25 | 24 (96.00%) / 0 (0.00%) / 1 (4.00%) | 0
+电话区号；目标正确 | 无背景 | 25 | 13 (52.00%) / 8 (32.00%) / 4 (16.00%) | 0
+电话区号；目标错误（含待复核） | 带背景 | 30 | 25 (83.33%) / 0 (0.00%) / 5 (16.67%) | 0
+电话区号；目标错误（含待复核） | 无背景 | 30 | 1 (3.33%) / 27 (90.00%) / 2 (6.67%) | 0
+首都；全部目标 | 带背景 | 51 | 44 (86.27%) / 0 (0.00%) / 7 (13.73%) | 11
+首都；全部目标 | 无背景 | 51 | 1 (1.96%) / 42 (82.35%) / 8 (15.69%) | 32
+首都；目标正确 | 带背景 | 11 | 11 (100.00%) / 0 (0.00%) / 0 (0.00%) | 0
+首都；目标正确 | 无背景 | 10 | 1 (10.00%) / 7 (70.00%) / 2 (20.00%) | 0
+首都；目标错误（含待复核） | 带背景 | 40 | 33 (82.50%) / 0 (0.00%) / 7 (17.50%) | 11
+首都；目标错误（含待复核） | 无背景 | 41 | 0 (0.00%) / 35 (85.37%) / 6 (14.63%) | 32
+纬度；全部目标 | 带背景 | 145 | 52 (35.86%) / 77 (53.10%) / 16 (11.03%) | 0
+纬度；全部目标 | 无背景 | 145 | 19 (13.10%) / 110 (75.86%) / 16 (11.03%) | 0
+纬度；目标正确 | 带背景 | 33 | 23 (69.70%) / 10 (30.30%) / 0 (0.00%) | 0
+纬度；目标正确 | 无背景 | 33 | 10 (30.30%) / 20 (60.61%) / 3 (9.09%) | 0
+纬度；目标错误（含待复核） | 带背景 | 112 | 29 (25.89%) / 67 (59.82%) / 16 (14.29%) | 0
+纬度；目标错误（含待复核） | 无背景 | 112 | 9 (8.04%) / 90 (80.36%) / 13 (11.61%) | 0
+经度；全部目标 | 带背景 | 153 | 65 (42.48%) / 77 (50.33%) / 11 (7.19%) | 0
+经度；全部目标 | 无背景 | 153 | 21 (13.73%) / 122 (79.74%) / 10 (6.54%) | 0
+经度；目标正确 | 带背景 | 19 | 10 (52.63%) / 9 (47.37%) / 0 (0.00%) | 0
+经度；目标正确 | 无背景 | 19 | 6 (31.58%) / 13 (68.42%) / 0 (0.00%) | 0
+经度；目标错误（含待复核） | 带背景 | 134 | 55 (41.04%) / 68 (50.75%) / 11 (8.21%) | 0
+经度；目标错误（含待复核） | 无背景 | 134 | 15 (11.19%) / 109 (81.34%) / 10 (7.46%) | 0
+
+错误目标一致率差（pp）：类别 | 属性表 | 模型同job | 模型扩展
+电话区号 | 76.67 | 56.67 | 80.00
+首都 | 77.50 | 60.00 | 82.50
+纬度 | 2.68 | 15.18 | 17.86
+经度 | 8.96 | 25.37 | 29.85
+属性表首都/区号反查与真实属性对齐较强；经纬度的大量目标不落在表中，且模型可能稳定地记错该国家坐标。模型定义因此能发现“符合自己的错误单步知识”，属性表定义则未必认可。
+
+8. 全864与主785范围汇总
+─────────────────────────────────────────────────────────────────
+
+all864
+定义 | 目标口径 | 组别 | n | 一致 / 矛盾 / 无法判断
+属性表（floor主口径） | 全部目标 | 带背景 | 864 | 533 (61.69%) / 172 (19.91%) / 159 (18.40%)
+属性表（floor主口径） | 全部目标 | 无背景 | 864 | 356 (41.20%) / 282 (32.64%) / 226 (26.16%)
+属性表（floor主口径） | 目标错误（含待复核） | 带背景 | 425 | 111 (26.12%) / 170 (40.00%) / 144 (33.88%)
+属性表（floor主口径） | 目标错误（含待复核） | 无背景 | 504 | 43 (8.53%) / 257 (50.99%) / 204 (40.48%)
+模型单步（同job700454） | 全部目标 | 带背景 | 864 | 410 (47.45%) / 154 (17.82%) / 300 (34.72%)
+模型单步（同job700454） | 全部目标 | 无背景 | 864 | 242 (28.01%) / 323 (37.38%) / 299 (34.61%)
+模型单步（同job700454） | 目标错误（含待复核） | 带背景 | 425 | 156 (36.71%) / 128 (30.12%) / 141 (33.18%)
+模型单步（同job700454） | 目标错误（含待复核） | 无背景 | 504 | 69 (13.69%) / 280 (55.56%) / 155 (30.75%)
+模型单步（同job缺记录时补exp1） | 全部目标 | 带背景 | 864 | 591 (68.40%) / 213 (24.65%) / 60 (6.94%)
+模型单步（同job缺记录时补exp1） | 全部目标 | 无背景 | 864 | 375 (43.40%) / 429 (49.65%) / 60 (6.94%)
+模型单步（同job缺记录时补exp1） | 目标错误（含待复核） | 带背景 | 425 | 207 (48.71%) / 173 (40.71%) / 45 (10.59%)
+模型单步（同job缺记录时补exp1） | 目标错误（含待复核） | 无背景 | 504 | 96 (19.05%) / 370 (73.41%) / 38 (7.54%)
+
+selected785
+定义 | 目标口径 | 组别 | n | 一致 / 矛盾 / 无法判断
+属性表（floor主口径） | 全部目标 | 带背景 | 785 | 455 (57.96%) / 172 (21.91%) / 158 (20.13%)
+属性表（floor主口径） | 全部目标 | 无背景 | 785 | 354 (45.10%) / 251 (31.97%) / 180 (22.93%)
+属性表（floor主口径） | 目标错误（含待复核） | 带背景 | 425 | 111 (26.12%) / 170 (40.00%) / 144 (33.88%)
+属性表（floor主口径） | 目标错误（含待复核） | 无背景 | 426 | 42 (9.86%) / 226 (53.05%) / 158 (37.09%)
+模型单步（同job700454） | 全部目标 | 带背景 | 785 | 358 (45.61%) / 146 (18.60%) / 281 (35.80%)
+模型单步（同job700454） | 全部目标 | 无背景 | 785 | 237 (30.19%) / 268 (34.14%) / 280 (35.67%)
+模型单步（同job700454） | 目标错误（含待复核） | 带背景 | 425 | 156 (36.71%) / 128 (30.12%) / 141 (33.18%)
+模型单步（同job700454） | 目标错误（含待复核） | 无背景 | 426 | 64 (15.02%) / 225 (52.82%) / 137 (32.16%)
+模型单步（同job缺记录时补exp1） | 全部目标 | 带背景 | 785 | 523 (66.62%) / 203 (25.86%) / 59 (7.52%)
+模型单步（同job缺记录时补exp1） | 全部目标 | 无背景 | 785 | 368 (46.88%) / 358 (45.61%) / 59 (7.52%)
+模型单步（同job缺记录时补exp1） | 目标错误（含待复核） | 带背景 | 425 | 207 (48.71%) / 173 (40.71%) / 45 (10.59%)
+模型单步（同job缺记录时补exp1） | 目标错误（含待复核） | 无背景 | 426 | 90 (21.13%) / 299 (70.19%) / 37 (8.69%)
+全部交叉表（范围×类别×z̃对错×目标对错×定义×组别）见TABLES.json；含785/864的分类别及严格错误层，未只保存有利分层。
+
+9. exp10：自己的错答案是否也自洽
+─────────────────────────────────────────────────────────────────
+追溯exp8目标生成代码：第一步答案来自exp1v2_Qwen3-14B的pred_q1；本分析使用这一份z̃。逐条核对实际kept target_assignment与train_examples，各组228题。self_wrong/self_correct三种子名单和目标完全相同，只计一次。
+组别 | 种子 | 定义 | n | 一致 / 矛盾 / 无法判断
+self_correct | shared_0_1_2 | 属性表（floor主口径） | 228 | 215 (94.30%) / 2 (0.88%) / 11 (4.82%)
+self_correct | shared_0_1_2 | 模型单步（较早exp1） | 228 | 181 (79.39%) / 36 (15.79%) / 11 (4.82%)
+self_wrong | shared_0_1_2 | 属性表（floor主口径） | 228 | 98 (42.98%) / 64 (28.07%) / 66 (28.95%)
+self_wrong | shared_0_1_2 | 模型单步（较早exp1） | 228 | 138 (60.53%) / 69 (30.26%) / 21 (9.21%)
+shuffled_wrong | 0 | 属性表（floor主口径） | 228 | 0 (0.00%) / 158 (69.30%) / 70 (30.70%)
+shuffled_wrong | 0 | 模型单步（较早exp1） | 228 | 0 (0.00%) / 207 (90.79%) / 21 (9.21%)
+shuffled_wrong | 1 | 属性表（floor主口径） | 228 | 2 (0.88%) / 154 (67.54%) / 72 (31.58%)
+shuffled_wrong | 1 | 模型单步（较早exp1） | 228 | 3 (1.32%) / 204 (89.47%) / 21 (9.21%)
+shuffled_wrong | 2 | 属性表（floor主口径） | 228 | 0 (0.00%) / 155 (67.98%) / 73 (32.02%)
+shuffled_wrong | 2 | 模型单步（较早exp1） | 228 | 1 (0.44%) / 206 (90.35%) / 21 (9.21%)
+exp10同批单步知识以exp1为主：自己的错目标138/228=60.53%一致，自己的对目标181/228=79.39%；打乱的错目标三种子仅0、3、1题一致。
+修正训练标签后，历史self_wrong里有1题被判正确；227题仍错，211题严格错、16题待复核。严格错211题中的模型自洽为128/211=60.66%，不是那1题重分类造成的现象。
+因此exp10的“自己的错答案也能有用”与自洽机制相容，且自己的错误目标远比打乱错误目标自洽；但对/错组并非同题，打乱还改变目标与问题的关联和条件概率，不能据此单独归因。
+
+self_wrong按类别：定义 | 类别 | n | 一致 / 矛盾 / 无法判断
+属性表（floor主口径） | 电话区号 | 51 | 45 (88.24%) / 1 (1.96%) / 5 (9.80%)
+模型单步（较早exp1） | 电话区号 | 51 | 46 (90.20%) / 0 (0.00%) / 5 (9.80%)
+属性表（floor主口径） | 首都 | 60 | 45 (75.00%) / 0 (0.00%) / 15 (25.00%)
+模型单步（较早exp1） | 首都 | 60 | 50 (83.33%) / 0 (0.00%) / 10 (16.67%)
+属性表（floor主口径） | 纬度 | 71 | 5 (7.04%) / 45 (63.38%) / 21 (29.58%)
+模型单步（较早exp1） | 纬度 | 71 | 22 (30.99%) / 44 (61.97%) / 5 (7.04%)
+属性表（floor主口径） | 经度 | 46 | 3 (6.52%) / 18 (39.13%) / 25 (54.35%)
+模型单步（较早exp1） | 经度 | 46 | 20 (43.48%) / 25 (54.35%) / 1 (2.17%)
+
+exp10既有floor结果（直接引用已有报告，不重评历史测试集）：子集 | 组别 | 基础准确率% | 三种子训练后准确率% | 平均提升pp
+A_newPerson | self_wrong | 38.40 | 43.60, 43.00, 43.20 | 4.87
+A_newPerson | self_correct | 38.40 | 45.20, 46.00, 44.80 | 6.93
+A_newPerson | shuffled_wrong | 38.40 | 2.60, 2.40, 2.00 | -36.07
+B_newCategory | self_wrong | 44.60 | 45.60, 43.20, 42.80 | -0.73
+B_newCategory | self_correct | 44.60 | 49.80, 45.60, 46.60 | 2.73
+B_newCategory | shuffled_wrong | 44.60 | 8.60, 8.60, 8.40 | -36.07
+C_bothNew | self_wrong | 49.60 | 52.00, 51.20, 51.40 | 1.93
+C_bothNew | self_correct | 49.60 | 52.20, 51.00, 52.20 | 2.20
+C_bothNew | shuffled_wrong | 49.60 | 9.00, 8.80, 8.40 | -40.87
+“错答案和对答案效果相当”主要指C_bothNew：平均提升+1.93与+2.20pp；A、B并非一样，且近似数值不构成统计等效证明。
+逐题数据及全部分层见EXP10_ENRICHED.jsonl、EXP10_TABLES.json；覆盖和目标核对见EXP10_COVERAGE.json、EXP10_CHECKS.json。
+
+10. 十道代表例题：原文与可核对证据
+─────────────────────────────────────────────────────────────────
+固定筛选：404题，两目标均strict_wrong优先，四类别轮转、类别内人物字典序。所列10题均满足双目标strict_wrong；同一定义下一组一致、一组矛盾。定义选择优先属性表，其次模型同job、再扩展。
+
+例1：Annet Mahendru｜电话区号｜属性表（floor主口径）
+原组合题："What is the calling code of the birthplace of Annet Mahendru?"
+第一步题："What is the birthplace (country only) of Annet Mahendru?"
+z̃原文："Russia"
+gold第一步：["Afghanistan"]
+gold最终：["+93"]
+带背景目标原文："+7"
+无背景目标原文："+1"
+原保存背景提示："Background fact: Annet Mahendru was born in Russia.\nUsing this fact, answer the question: What is the calling code of the country where Annet Mahendru was born?"
+z̃评分：{"correct": false, "reason": "different_reference_answer", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "needs_review": false, "reason": "different_calling_code", "answer_type": "birthplace_callingcode", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Russia"]
+无背景判定：contradictory；错误标签：{"correct": false, "needs_review": false, "reason": "different_calling_code", "answer_type": "birthplace_callingcode", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Canada", "Dominican Republic", "Jamaica", "Puerto Rico", "Trinidad and Tobago", "United States"]
+
+例2：Annet Mahendru｜首都｜属性表（floor主口径）
+原组合题："What is the capital of the birthplace of Annet Mahendru?"
+第一步题："What is the birthplace (country only) of Annet Mahendru?"
+z̃原文："Russia"
+gold第一步：["Afghanistan"]
+gold最终：["Kabul"]
+带背景目标原文："Moscow"
+无背景目标原文："New Delhi"
+原保存背景提示："Background fact: Annet Mahendru was born in Russia.\nUsing this fact, answer the question: What is the capital of the country where Annet Mahendru was born?"
+z̃评分：{"correct": false, "reason": "different_reference_answer", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "needs_review": false, "reason": "different_known_capital", "answer_type": "birthplace_capital", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Russia"]
+无背景判定：contradictory；错误标签：{"correct": false, "needs_review": false, "reason": "different_known_capital", "answer_type": "birthplace_capital", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["India"]
+
+例3：Alek Wek｜纬度｜模型单步（同job缺记录时补exp1）
+原组合题："What is the (rounded down) latitude of the birthplace of Alek Wek?"
+第一步题："What is the birthplace (country only) of Alek Wek?"
+z̃原文："South Sudan"
+gold第一步：["South Sudan"]
+gold最终：[7]
+带背景目标原文："4"
+无背景目标原文："10"
+原保存背景提示："Background fact: Alek Wek was born in South Sudan.\nUsing this fact, answer the question: What is the (rounded down) latitude of the country where Alek Wek was born?"
+z̃评分：{"correct": true, "reason": "whole_answer_or_declared_alias", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lat", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) latitude of South Sudan?", "4"]]；来源=exp1
+无背景判定：contradictory；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lat", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) latitude of South Sudan?", "4"]]；来源=exp1
+
+例4：Adria Arjona｜经度｜模型单步（同job700454）
+原组合题："What is the (rounded down) longitude of the birthplace of Adria Arjona?"
+第一步题："What is the birthplace (country only) of Adria Arjona?"
+z̃原文："Dominican Republic"
+gold第一步：["United States"]
+gold最终：[-97]
+带背景目标原文："-70"
+无背景目标原文："-75"
+原保存背景提示："Background fact: Adria Arjona was born in Dominican Republic.\nUsing this fact, answer the question: What is the (rounded down) longitude of the country where Adria Arjona was born?"
+z̃评分：{"correct": false, "reason": "different_reference_answer", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lng", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) longitude of Dominican Republic?", "-70"]]；来源=exp12
+无背景判定：contradictory；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lng", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) longitude of Dominican Republic?", "-70"]]；来源=exp12
+
+例5：Anthony Quinn｜电话区号｜属性表（floor主口径）
+原组合题："What is the calling code of the birthplace of Anthony Quinn?"
+第一步题："What is the birthplace (country only) of Anthony Quinn?"
+z̃原文："Spain"
+gold第一步：["Mexico"]
+gold最终：["+52"]
+带背景目标原文："+34"
+无背景目标原文："+354"
+原保存背景提示："Background fact: Anthony Quinn was born in Spain.\nUsing this fact, answer the question: What is the calling code of the country where Anthony Quinn was born?"
+z̃评分：{"correct": false, "reason": "different_reference_answer", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "needs_review": false, "reason": "different_calling_code", "answer_type": "birthplace_callingcode", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Spain"]
+无背景判定：contradictory；错误标签：{"correct": false, "needs_review": false, "reason": "different_calling_code", "answer_type": "birthplace_callingcode", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Iceland"]
+
+例6：Benicio Del Toro｜首都｜属性表（floor主口径）
+原组合题："What is the capital of the birthplace of Benicio Del Toro?"
+第一步题："What is the birthplace (country only) of Benicio Del Toro?"
+z̃原文："Panama"
+gold第一步：["Puerto Rico"]
+gold最终：["San Juan"]
+带背景目标原文："Panama City"
+无背景目标原文："San José"
+原保存背景提示："Background fact: Benicio Del Toro was born in Panama.\nUsing this fact, answer the question: What is the capital of the country where Benicio Del Toro was born?"
+z̃评分：{"correct": false, "reason": "different_reference_answer", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "needs_review": false, "reason": "different_known_capital", "answer_type": "birthplace_capital", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Panama"]
+无背景判定：contradictory；错误标签：{"correct": false, "needs_review": false, "reason": "different_known_capital", "answer_type": "birthplace_capital", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Costa Rica"]
+
+例7：Alex Song｜纬度｜模型单步（同job700454）
+原组合题："What is the (rounded down) latitude of the birthplace of Alex Song?"
+第一步题："What is the birthplace (country only) of Alex Song?"
+z̃原文："Cameroon"
+gold第一步：["Cameroon"]
+gold最终：[6]
+带背景目标原文："4"
+无背景目标原文："1.5"
+原保存背景提示："Background fact: Alex Song was born in Cameroon.\nUsing this fact, answer the question: What is the (rounded down) latitude of the country where Alex Song was born?"
+z̃评分：{"correct": true, "reason": "whole_answer_or_declared_alias", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lat", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) latitude of Cameroon?", "4"]]；来源=exp12
+无背景判定：contradictory；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lat", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) latitude of Cameroon?", "4"]]；来源=exp12
+
+例8：Akira Kurosawa｜经度｜模型单步（同job700454）
+原组合题："What is the (rounded down) longitude of the birthplace of Akira Kurosawa?"
+第一步题："What is the birthplace (country only) of Akira Kurosawa?"
+z̃原文："Japan"
+gold第一步：["Japan"]
+gold最终：[138]
+带背景目标原文："135"
+无背景目标原文："137"
+原保存背景提示："Background fact: Akira Kurosawa was born in Japan.\nUsing this fact, answer the question: What is the (rounded down) longitude of the country where Akira Kurosawa was born?"
+z̃评分：{"correct": true, "reason": "whole_answer_or_declared_alias", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lng", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) longitude of Japan?", "135"]]；来源=exp12
+无背景判定：contradictory；错误标签：{"correct": false, "reason": "frozen_signed_floor_numeric_rule", "needs_review": false, "answer_type": "birthplace_rounded_lng", "reference_policy": "unchanged_dataset_snapshot"}
+  用于比较的已存Q2问答原文（去重展示，全部记录在证据文件）：&#91;&#91;"What is the (rounded down) longitude of Japan?", "135"]]；来源=exp12
+
+例9：Benicio Del Toro｜电话区号｜属性表（floor主口径）
+原组合题："What is the calling code of the birthplace of Benicio Del Toro?"
+第一步题："What is the birthplace (country only) of Benicio Del Toro?"
+z̃原文："Panama"
+gold第一步：["Puerto Rico"]
+gold最终：["+1 787"]
+带背景目标原文："+507"
+无背景目标原文："+505"
+原保存背景提示："Background fact: Benicio Del Toro was born in Panama.\nUsing this fact, answer the question: What is the calling code of the country where Benicio Del Toro was born?"
+z̃评分：{"correct": false, "reason": "different_reference_answer", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "needs_review": false, "reason": "different_calling_code", "answer_type": "birthplace_callingcode", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Panama"]
+无背景判定：contradictory；错误标签：{"correct": false, "needs_review": false, "reason": "different_calling_code", "answer_type": "birthplace_callingcode", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Nicaragua"]
+
+例10：Chris Silva｜首都｜属性表（floor主口径）
+原组合题："What is the capital of the birthplace of Chris Silva?"
+第一步题："What is the birthplace (country only) of Chris Silva?"
+z̃原文："Brazil"
+gold第一步：["Gabon"]
+gold最终：["Libreville"]
+带背景目标原文："Brasília"
+无背景目标原文："Baku"
+原保存背景提示："Background fact: Chris Silva was born in Brazil.\nUsing this fact, answer the question: What is the capital of the country where Chris Silva was born?"
+z̃评分：{"correct": false, "reason": "different_reference_answer", "needs_review": false, "answer_type": "country", "reference_policy": "unchanged_dataset_snapshot"}
+带背景判定：consistent；错误标签：{"correct": false, "needs_review": false, "reason": "different_known_capital", "answer_type": "birthplace_capital", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Brazil"]
+无背景判定：contradictory；错误标签：{"correct": false, "needs_review": false, "reason": "different_known_capital", "answer_type": "birthplace_capital", "reference_policy": "unchanged_dataset_plus_declared_aliases_training_only"}
+  隐含国家集合：["Azerbaijan"]
+
+11. exp17条件式设计与现成样本数（没有启动实验）
+─────────────────────────────────────────────────────────────────
+候选限定：同题的两目标均strict_wrong，规范目标不同，一目标一致另一目标矛盾。每题可供两组各1个目标；n是每组题数，不是两组合计。
+定义 | 864/785/404各范围可用题数 | 电话区号/首都/纬度/经度 | 一致目标来自带背景/无背景
+属性表（floor主口径） | 33/33/33 | 16/6/5/6 | 31/2
+模型单步（同job700454） | 70/70/70 | 11/4/16/39 | 65/5
+模型单步（同job缺记录时补exp1） | 93/93/93 | 16/6/24/47 | 86/7
+属性表∩模型同job且方向相同 | 20/20/20 | 11/4/2/3 | 20/0
+属性表∩模型扩展且方向相同 | 28/28/28 | 16/6/3/3 | 28/0
+三个范围候选数相同：原匹配过程排除的79题没有新增满足“双错且一方一致另一方矛盾”的配对。
+
+额外可行性核算：如果还要求每个类别内一致目标来自两种教师来源的数量相同，现有缓存最多能保留：
+属性表（floor主口径）：每组4题。
+模型单步（同job700454）：每组10题。
+模型单步（同job缺记录时补exp1）：每组14题。
+属性表∩模型同job且方向相同：每组0题。
+属性表∩模型扩展且方向相同：每组0题。
+这项数量核算不是修改候选判定；它揭示严重的来源混淆。两定义同job交集20题的一致目标全部来自带背景，直接做两臂训练仍可能把其他目标风格/置信度差异误叫自洽效应。
+
+建议的有限阶段设计：
+a. 若只做现成数据的机制探索，预先选择“模型自己的单步知识”为定义，可用同job70题/组；两组输入均为同一组合题，不在训练输入里加背景；一组用一致错误目标，另一组用矛盾错误目标。两组各类别数11/4/16/39、评分正确率0%，并保留人工核验后的事实正确率报告。
+b. 配对种子0–5、同基础模型和LoRA初始化、相同优化器与batch；若沿用两轮、有效batch8且每轮保留末尾不足batch，70题每轮9次更新、两轮18次/组。正式代码需核对累积梯度边界并封存准确步数。小样本不能靠重复更多轮数冒充更多独立训练题。
+c. 评价保留事先固定的D_reservedC及303题干净口径，另报三种待复核敏感性；基础模型预测复用。主对比一致错减矛盾错，六种子配对t95；预先规定正向下界>0作为这轮干预有效的标准，同时报告效应大小、逐题预测、训练损失和目标长度。不能把未显著直接当作机制不存在。
+d. 更严格的两定义共同支持版本只有20题/组（扩展来源28题），不宜据此马上做有说服力的因果结论。真正隔离自洽，需要在同类别错误目标中构造分配，使一致/矛盾组尽量复用相同目标词串分布并平衡来源、长度、格式；来源内配对或受约束置换是否可行需要另行预注册，不能拿现在70题就宣称这些混淆已排除。
+e. 当前决定：保留自洽为值得检验的候选机制；本轮只完成离线诊断，不提交exp17。先人工复核候选错误标签和目标分配可行性，再决定是否值得承担12次训练成本；如果无法隔离来源，只能把下一轮定位为小样本探索性干预。
+完整候选名单、目标方向及长度见EXP17_CANDIDATES.jsonl；未生成新答案或改动既有名单。
+
+12. 验证、限制与复现文件
+─────────────────────────────────────────────────────────────────
+输入和预注册哈希在分析前后核对；历史输入未变。合成测试覆盖数值方向/负数/floor与四舍五入、多国家代码集合、缺失与冲突知识、10/20pp阈值边界。
+表内三状态之和=n；381道相同目标在两组所有定义下分类完全一致；exp10实际训练目标逐条与配置输出核对。
+初次导出exp10覆盖率时，对不使用的空785子范围发生除零而停止。保留了已完成输出和原冻结代码；finish_analysis.py只续写剩余输出、对exp10仅计算实际非空范围。未改分类、分母、阈值或既有结果，记录于ANALYSIS_COMPLETE.json及COMPLETION_CODE_FREEZE.json。
+若复现，使用新的空输出目录并保持同一输入清单：先校验协议，再运行coverage并报告缺失，运行analyze.py至已记录空范围错误，再运行finish_analysis.py；所有结果文件均以exclusive-create写入，防止覆盖。
+主要限制：目标错/对来自自动标签；国家属性表不完整且历史实体存在歧义；数值与区号集合的弱兼容不等于语义完全一致；较早Q2记录跨运行；同题目标依赖共同国家、人物而非独立随机样本。
+404题仅说明目标字符串不同，不是已经单独估计出404题造成全部训练收益。当前观察不能排除置信度、目标条件似然、格式、样本难度等替代机制。
+结果文件：REPORT_ZH.txt、ALL864_ENRICHED.jsonl、TABLES.json、VERDICTS.json、PAIRED_SENSITIVITY.json、EXP10_*、EXP17_*、EXAMPLES_10.json、SAVED_Q2_EVIDENCE.json、SOURCE_PROMPTS.jsonl。
+
+
+返回 [[00 研究首页]]

@@ -1,0 +1,19 @@
+{
+  "rows": 2402,
+  "old": 402,
+  "new_people": 400,
+  "new_rows": 2000,
+  "categories": [
+    "birthplace_ccn3",
+    "birthplace_currency",
+    "birthplace_currency_short",
+    "birthplace_currency_symbol",
+    "birthplace_tld"
+  ],
+  "smoke_countries": [
+    "Argentina",
+    "Brazil",
+    "Canada"
+  ],
+  "unique_groups": 622
+}

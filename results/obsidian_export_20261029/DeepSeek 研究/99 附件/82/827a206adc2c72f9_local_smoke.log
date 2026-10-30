@@ -1,0 +1,102 @@
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/context_s0 --train-seed 0 --condition context --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 23494.87it/s]
+context round 1 seed 0 step 50 / 198 loss 2.2753140926361084
+context round 1 seed 0 step 100 / 198 loss 2.1571216583251953
+context round 1 seed 0 step 150 / 198 loss 2.0781943798065186
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/direct_s0 --train-seed 0 --condition direct --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 19099.74it/s]
+direct round 1 seed 0 step 50 / 198 loss 2.2701292037963867
+direct round 1 seed 0 step 100 / 198 loss 2.117795944213867
+direct round 1 seed 0 step 150 / 198 loss 2.055062770843506
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/context_s1 --train-seed 1 --condition context --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22686.63it/s]
+context round 1 seed 1 step 50 / 198 loss 2.2501161098480225
+context round 1 seed 1 step 100 / 198 loss 2.1453607082366943
+context round 1 seed 1 step 150 / 198 loss 2.056652307510376
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/direct_s1 --train-seed 1 --condition direct --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 23081.14it/s]
+direct round 1 seed 1 step 50 / 198 loss 2.264470338821411
+direct round 1 seed 1 step 100 / 198 loss 2.0998878479003906
+direct round 1 seed 1 step 150 / 198 loss 2.055048942565918
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/context_s2 --train-seed 2 --condition context --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 21553.46it/s]
+context round 1 seed 2 step 50 / 198 loss 2.291212558746338
+context round 1 seed 2 step 100 / 198 loss 2.136110544204712
+context round 1 seed 2 step 150 / 198 loss 2.112231969833374
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/direct_s2 --train-seed 2 --condition direct --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 2914.09it/s]
+direct round 1 seed 2 step 50 / 198 loss 2.2896337509155273
+direct round 1 seed 2 step 100 / 198 loss 2.057161569595337
+direct round 1 seed 2 step 150 / 198 loss 2.0323803424835205
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/context_s3 --train-seed 3 --condition context --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 22686.63it/s]
+context round 1 seed 3 step 50 / 198 loss 2.2087225914001465
+context round 1 seed 3 step 100 / 198 loss 2.128462076187134
+context round 1 seed 3 step 150 / 198 loss 2.1122522354125977
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/direct_s3 --train-seed 3 --condition direct --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 23065.90it/s]
+direct round 1 seed 3 step 50 / 198 loss 2.249093532562256
+direct round 1 seed 3 step 100 / 198 loss 2.0884807109832764
+direct round 1 seed 3 step 150 / 198 loss 1.9996618032455444
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/context_s4 --train-seed 4 --condition context --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 18714.55it/s]
+context round 1 seed 4 step 50 / 198 loss 2.2831902503967285
+context round 1 seed 4 step 100 / 198 loss 2.138904094696045
+context round 1 seed 4 step 150 / 198 loss 2.101508140563965
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/direct_s4 --train-seed 4 --condition direct --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 23126.95it/s]
+direct round 1 seed 4 step 50 / 198 loss 2.2747879028320312
+direct round 1 seed 4 step 100 / 198 loss 2.1218678951263428
+direct round 1 seed 4 step 150 / 198 loss 2.0016348361968994
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/context_s5 --train-seed 5 --condition context --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 5600.17it/s]
+context round 1 seed 5 step 50 / 198 loss 2.2775793075561523
+context round 1 seed 5 step 100 / 198 loss 2.1306591033935547
+context round 1 seed 5 step 150 / 198 loss 2.0706217288970947
+D_reservedC 0 / 2
+RUN: /private/tmp/exp12-match-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/inputs --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/local_smoke/direct_s5 --train-seed 5 --condition direct --smoke-test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 8726.50it/s]
+direct round 1 seed 5 step 50 / 198 loss 2.282639265060425
+direct round 1 seed 5 step 100 / 198 loss 2.1056559085845947
+direct round 1 seed 5 step 150 / 198 loss 1.9665309190750122
+D_reservedC 0 / 2
+EXP12 matched785: fixed evaluation v3; 12 completed fits.
+Primary: fixed303, composed, review=wrong. All intervals: six paired training seeds, df5 t95.
+fixed_D303 n=2
+  all_wrong: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  all_correct: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  exclude_pair_union: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  matched-unmatched change: 0.0 pp; t95 [0.0, 0.0]
+full_D500 n=2
+  all_wrong: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  all_correct: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  exclude_pair_union: 0.0 pp; t95 [0.0, 0.0]; per-seed [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  matched-unmatched change: 0.0 pp; t95 [0.0, 0.0]
+selected785 revised training acceptance: {"context": {"old_correct": 359, "revised_correct": 360, "revised_accuracy_pct": 45.859872611464965, "needs_review": 20, "mean_target_characters": 4.0114649681528665, "changed_labels": 1}, "direct": {"old_correct": 359, "revised_correct": 359, "revised_accuracy_pct": 45.732484076433124, "needs_review": 41, "mean_target_characters": 3.7719745222929935, "changed_labels": 2}}
+  sensitivity {"all_wrong": {"n": 785, "context_correct": 360, "direct_correct": 359, "difference_pp": 0.12738853503184713}, "all_correct": {"n": 785, "context_correct": 380, "direct_correct": 400, "difference_pp": -2.5477707006369426}, "exclude_pair_union": {"n": 740, "context_correct": 351, "direct_correct": 357, "difference_pp": -0.8108108108108109}}
+different404 revised training acceptance: {"context": {"old_correct": 87, "revised_correct": 88, "revised_accuracy_pct": 21.782178217821784, "needs_review": 11, "mean_target_characters": 3.6905940594059405, "changed_labels": 1}, "direct": {"old_correct": 87, "revised_correct": 87, "revised_accuracy_pct": 21.534653465346533, "needs_review": 32, "mean_target_characters": 3.2252475247524752, "changed_labels": 2}}
+  sensitivity {"all_wrong": {"n": 404, "context_correct": 88, "direct_correct": 87, "difference_pp": 0.24752475247524752}, "all_correct": {"n": 404, "context_correct": 99, "direct_correct": 119, "difference_pp": -4.9504950495049505}, "exclude_pair_union": {"n": 368, "context_correct": 79, "direct_correct": 85, "difference_pp": -1.6304347826086956}}
+Frozen interpretation rules: inputs/PROTOCOL.txt. Residual teacher-accuracy differences must be disclosed. 404 analysis concerns training targets, not generalization. No automatic follow-up training.
+MATCHED785 COMPLETE. Stop at this 12-fit decision checkpoint.

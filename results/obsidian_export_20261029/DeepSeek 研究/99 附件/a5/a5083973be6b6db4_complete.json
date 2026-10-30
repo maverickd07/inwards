@@ -1,0 +1,11 @@
+{
+  "name": "direct_s3",
+  "smoke_test": true,
+  "queries_sha256": "8e72e0aeb9838ad5dd62f0a4cbf7a78f964fbff301591c087260708b4776ff7b",
+  "predictions_sha256": "0c23bc854352860030bd26b45de111c04de9acf6a39ba739a17a0b73790dfb35",
+  "adapter_sha256": "42f04b070d844fb5ad90b32290522ad33f0f6efd25cc599a4303951ca0413793",
+  "config_sha256": "6ec636c3be41af247cf4f7661ef1e4fb83f44d87ae93d8a17328d9d95179cb3e",
+  "load_seconds": 0.04320216178894043,
+  "queries": 12,
+  "seconds": 0.008495807647705078
+}

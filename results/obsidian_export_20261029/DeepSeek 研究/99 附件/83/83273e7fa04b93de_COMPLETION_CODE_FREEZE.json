@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-16T07:28:35.018363+00:00",
+  "files": {
+    "finish_analysis.py": "be7db3af7ea774d857985c8599bfbcbdc3637131fd6316d0262d9833d2981849"
+  },
+  "reason": "Empty exp10 selected785 scope caused zero denominator during coverage export. No frozen code, rules or completed statistics modified."
+}

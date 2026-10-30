@@ -1,0 +1,33 @@
+train items 864; eval A_newPerson=2, B_newCategory=2, C_bothNew=2
+Allocation diagnostic BEFORE training: {'condition': 'self_full', 'target_cache_sha256': '8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d', 'n_pool': 16, 'n_kept': 16, 'target_changed_n': 0, 'target_changed_share': 0.0, 'assigned_target_correct_n': 5, 'assigned_target_correct_share': 0.3125, 'original_pool_target_correct_share': 0.3125, 'original_target_auroc': 0.43636363636363634, 'uses_gold_for_allocation': False, 'category_counts': {'birthplace_callingcode': {'available': 4, 'kept': 4, 'target_changed_n': 0, 'assigned_target_correct_n': 2, 'original_target_correct_n': 2}, 'birthplace_capital': {'available': 4, 'kept': 4, 'target_changed_n': 0, 'assigned_target_correct_n': 2, 'original_target_correct_n': 2}, 'birthplace_rounded_lat': {'available': 4, 'kept': 4, 'target_changed_n': 0, 'assigned_target_correct_n': 1, 'original_target_correct_n': 1}, 'birthplace_rounded_lng': {'available': 4, 'kept': 4, 'target_changed_n': 0, 'assigned_target_correct_n': 0, 'original_target_correct_n': 0}}}
+trainable params: 2,048 || all params: 21,472 || trainable%: 9.5380
+training done in 0s
+
+====================================================================================================
+TARGET = SELF  (self_full: frozen self outputs; gold-free allocation)
+
+[A_newPerson]  n=2  (both hops known by base model: 1)
+  composed accuracy      base   0.0%  ->  trained   0.0%   (fixed 0, broke 0, McNemar p = 1)
+  composition gap        base 100.0%  ->  trained 100.0%   (lower is better)
+  hop-1 alone accuracy   base   0.0%  ->  trained   0.0%   (should not drop)
+  hop-2 alone accuracy   base   0.0%  ->  trained   0.0%   (should not drop)
+
+[B_newCategory]  n=2  (both hops known by base model: 1)
+  composed accuracy      base   0.0%  ->  trained   0.0%   (fixed 0, broke 0, McNemar p = 1)
+  composition gap        base 100.0%  ->  trained 100.0%   (lower is better)
+  hop-1 alone accuracy   base   0.0%  ->  trained   0.0%   (should not drop)
+  hop-2 alone accuracy   base   0.0%  ->  trained   0.0%   (should not drop)
+
+[C_bothNew]  n=2  (both hops known by base model: 2)
+  composed accuracy      base   0.0%  ->  trained   0.0%   (fixed 0, broke 0, McNemar p = 1)
+  composition gap        base 100.0%  ->  trained 100.0%   (lower is better)
+  hop-1 alone accuracy   base   0.0%  ->  trained   0.0%   (should not drop)
+  hop-2 alone accuracy   base   0.0%  ->  trained   0.0%   (should not drop)
+
+[logit lens, C_bothNew, n=0] bridge entity enters top-10 at layer (of 2):
+  base    : reaches top-10 in None of items, median first layer nan
+  trained : reaches top-10 in None of items, median first layer nan
+  per item: earlier after training 0, later 0, same 0 (sign test p = 1)
+
+How to read: C_bothNew is the main result. Success = composed accuracy up with small p,
+gap down, single-hop accuracy NOT down, mechanism requires separate direct evidence; earlier bridge activation is not required.

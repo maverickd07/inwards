@@ -1,0 +1,14 @@
+{
+  "checked_unix": 1792133851.340839,
+  "quota_text": "USED=76GB LIMIT=100GB\n",
+  "free_gb": 24.0,
+  "versions": {
+    "torch": "2.13.0",
+    "transformers": "5.17.0",
+    "peft": "0.21.1",
+    "numpy": "2.3.5",
+    "accelerate": "1.15.0"
+  },
+  "model_download_receipt_sha256": "e04630229cb45071ef71299547d75e9fc33d599329ec018b8fd96deda0e89314",
+  "freeze_sha256": "ab789fb5cbf092ce23fa8a77dcfbcade024143a1bc67f778f4230d782da9abbd"
+}

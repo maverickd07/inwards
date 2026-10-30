@@ -1,0 +1,9 @@
+{
+  "archive_roundtrip_passed": true,
+  "manifest_entries_verified": 66,
+  "validation_source_hashes_match": true,
+  "no_activation_or_model_weights_in_upload": true,
+  "archive_bytes": 608573,
+  "original_exp21_sha256": "634ae4e22d26a46104fe8d052471eb9757574a5d7ffbafce3da437cb71f57b24",
+  "formal_submission": false
+}

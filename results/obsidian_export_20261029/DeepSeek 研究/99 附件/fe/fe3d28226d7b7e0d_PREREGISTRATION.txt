@@ -1,0 +1,80 @@
+exp21 latent emergence — frozen before any model inference, 2026-10-22
+
+Scope: inference only, no training, no weight changes. Initial bounded stage:
+base C0 and C2; exp12 matched785 context/direct adapters seeds 0 and 1, C0 only.
+No further seeds or repair experiments submitted automatically. Inspect this stage
+and decide with the user before expanding. No exp13 data are used.
+
+Prediction: context (b) has an earlier median bridge-country emergence than base;
+the strongest shift is expected on base-wrong/context-correct items. Direct (c)
+has a smaller shift than context. Absence of an earlier bridge emergence would
+not support 'earlier composition' as the explanation of the LoRA improvement
+under this measurement. It does not exclude other internal mechanisms, an
+undetected effect, or prove that a first-token logit-lens event is composition.
+This is observational representation evidence, not a causal intervention.
+
+Frozen roster and prompts/scoring: byte copies from exp19_pointer_20261022.
+402 unique items; fixed303 n=303, D500_known313 n=313, overlap n=214. Analyze
+sets separately; they are not independent replications. fixed303 is previously
+selected/inspected, not a fresh test set. C0/C2 exactly exp19, non-thinking
+chat template enable_thinking=False, greedy, max_new_tokens=96, batch=1.
+Format-independent exp19 scoring is frozen, including HISTORICAL/REVIEW.
+REVIEW counts as incorrect in primary, with exclude-REVIEW sensitivity.
+Historical references may be imperfect; no outcome-dependent reference edits.
+
+Models: Qwen3-14B bf16, HF hooks, no TransformerLens. Use unmerged exp12
+matched785 job701792 context_s0/context_s1/direct_s0/direct_s1 adapters, verify
+adapter SHA256 against preserved complete.json; load inference-only. Record
+software, model configuration, all rendered prompts/token IDs and file hashes.
+
+At the FINAL PROMPT POSITION ONLY, hook embedding output (layer0, secondary)
+and each decoder block output BEFORE final norm (layers1..L, main). Apply model
+final norm once and unembedding. Rank=1+number of logits strictly greater than
+target, fp32 comparison on model projection logits; record top1 ID and target
+ranks at each layer. Never save hidden-state tensors or full vocabulary logits.
+Primary targets: first token of e.birth_country and first nonempty e.Answer
+canonical string, encoded standalone without a leading space. Pre-specified
+sensitivity: leading-space first token. Store exact strings, IDs, and token
+pieces. Single-token detectability is not evidence that a whole name is decoded.
+Aliases are not searched/minimized post hoc. Answer[0] is the dataset reference,
+not necessarily the only scorer-accepted/historical answer.
+
+Emergence: first DECODER layer1..L where rank<=10. Never-hit remains null and
+is reported explicitly. For full-population summaries assign never-hit L+1
+(right-censored sentinel, not an observed layer); report median/mean and 95% CI,
+never-hit fraction and conditional-on-hit summaries. Include layer0 ranks but
+do not count layer0 as decoder emergence. Exclude target bridge/final first-token
+overlap from primary mechanism analyses; provide all-items sensitivity and
+leading-space non-overlap sensitivity. Retain and score all generated items.
+Last decoder lens top1 must match actual forward logits top1 and the actual
+first generated token, for EVERY row. Any failure stops the run.
+
+Analysis, each set and seed separately: each model's all, its C0-correct and
+C0-wrong groups; base C2 reference separately (also stratify by base C0 outcome).
+Compare paired emergence shifts adapter-minus-base on all, base-C0-correct,
+base-C0-wrong, and especially base-wrong/adapter-correct ('rescued') subsets.
+Negative shift=earlier. Report both bridge and final-answer target, seeds
+separately, and context-minus-direct paired shift on the same questions.
+Bootstrap 10,000 item-level resamples, fixed RNG seed21, percentile95% CI for
+means and medians and their paired differences. No treating layers/seeds or the
+two overlapping sets as independent observations. Rescued subsets are selected
+on outcomes and remain descriptive; no causal interpretation or significance
+search. Show all intervals, effect magnitudes and sample counts, no dichotomous
+p-value claims. No sample-size expansion based on results.
+
+Correctness relation: grouped accuracy with bootstrap95% CI for emergence
+layers1..floor(L/2), floor(L/2)+1..L, and never-hit; no threshold fitting.
+Report early/late counts even when empty. Report per-model distributions as
+PNG plots, with never-hit in its own L+1 bin, both targets and both sets.
+
+Gate before formal submission: REAL pretrained Qwen3-0.6B, first10 frozen items,
+C0 and base C2, local inference only. Verify config layer count, exactly L+1
+hooks, finite ranks and projections, final lens/model/generation top1 agreement
+on all20 rows. Full generation -> frozen scoring -> analysis -> figures must
+pass. This smoke is an engineering validation, no scientific inference. Local
+smoke may use fp32 on CPU; formal14B remains bf16 allocated Slurm GPU only.
+HPC login node does only light checks and sbatch; <=2 queued/running jobs,
+<=1 running (afterany dependency on an existing job), no deletion/overwrites.
+All new remote files inside ~/inward/results/exp21_latent_emergence_20261022/.
+If smoke fails, preserve outputs, fix implementation before formal submission
+and record changes without modifying the predictions or selecting new items.

@@ -1,0 +1,552 @@
+{
+  "What is the birthplace (country only) of Juan Pablo Cozzani?": {
+    "raw": "Cozzani",
+    "generated_ids": [
+      7339,
+      10400,
+      5559,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Argentina?": {
+    "raw": "A currency abbreviation in Argentina is \"ARS\".",
+    "generated_ids": [
+      32,
+      11413,
+      71478,
+      304,
+      31064,
+      374,
+      330,
+      17048,
+      3263,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Ulises Sánchez?": {
+    "raw": "Ulises Sánchez's birthplace (country only) is Mexico.",
+    "generated_ids": [
+      91059,
+      4909,
+      328,
+      98534,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      12270,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rodrigo Isgro?": {
+    "raw": "Rodrigo Isgro",
+    "generated_ids": [
+      59107,
+      81,
+      7836,
+      358,
+      1991,
+      299,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Horacio Cifuentes?": {
+    "raw": "Cifuentes",
+    "generated_ids": [
+      34,
+      333,
+      68737,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Yael Falcón?": {
+    "raw": "Yael Falcón's birthplace (country only) is United States.",
+    "generated_ids": [
+      56,
+      5891,
+      434,
+      16927,
+      3165,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      3639,
+      4180,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matías Lisandro Mansilla?": {
+    "raw": "Matías Lisandro Mansilla's birthplace (country only) is Argentina.",
+    "generated_ids": [
+      11575,
+      24325,
+      43072,
+      41724,
+      43135,
+      6241,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      31064,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fernanda Alegre?": {
+    "raw": "Fernanda Alegre's birthplace (country only) is Brazil.",
+    "generated_ids": [
+      37,
+      932,
+      9817,
+      362,
+      1937,
+      265,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      15948,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Juan Ignacio Saborido?": {
+    "raw": "Santiago",
+    "generated_ids": [
+      50,
+      42974,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rodrigo Castillo?": {
+    "raw": "Rodrigo Castillo",
+    "generated_ids": [
+      59107,
+      81,
+      7836,
+      95683,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Emilia Orozco?": {
+    "raw": "Emilia Orozco's birthplace (country only) is Mexico.",
+    "generated_ids": [
+      2269,
+      24078,
+      59729,
+      89,
+      1015,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      12270,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Rashid?": {
+    "raw": "Rashid",
+    "generated_ids": [
+      49,
+      988,
+      307,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Brazil?": {
+    "raw": "BRL",
+    "generated_ids": [
+      33,
+      4728,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alef Manga?": {
+    "raw": "Alef Manga's birthplace is in Israel.",
+    "generated_ids": [
+      32,
+      59238,
+      69935,
+      594,
+      7194,
+      2007,
+      374,
+      304,
+      6778,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Fábio Aguiar?": {
+    "raw": "Fábio Aguiar's birthplace (country only) is Brazil.",
+    "generated_ids": [
+      37,
+      1953,
+      37323,
+      4598,
+      1963,
+      277,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      15948,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Daiane Muniz dos Santos?": {
+    "raw": "Daiane Muniz dos Santos.",
+    "generated_ids": [
+      30416,
+      35035,
+      27882,
+      449,
+      8750,
+      47623,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Diego Castro?": {
+    "raw": "Diego Castro",
+    "generated_ids": [
+      18175,
+      3346,
+      46524,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Lucas Moraes?": {
+    "raw": "Lucas Moraes was born in Brazil.",
+    "generated_ids": [
+      40645,
+      300,
+      386,
+      6215,
+      288,
+      572,
+      9223,
+      304,
+      15948,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Allan Nascimento?": {
+    "raw": "Allan Nascimento's birthplace (country only) is Brazil.",
+    "generated_ids": [
+      2403,
+      276,
+      451,
+      56961,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      15948,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Danilo Soares?": {
+    "raw": "Danilo Soares was born in Portugal.",
+    "generated_ids": [
+      38025,
+      18045,
+      2055,
+      5403,
+      572,
+      9223,
+      304,
+      33311,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Alex Pereira?": {
+    "raw": "Alex Pereira's birthplace (country only) is Brazil.",
+    "generated_ids": [
+      27387,
+      72478,
+      8832,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      15948,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Natan Carneiro de Lima?": {
+    "raw": "Natan Carneiro de Lima",
+    "generated_ids": [
+      45,
+      16225,
+      3261,
+      811,
+      8698,
+      409,
+      61953,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Matthew Mullins?": {
+    "raw": "Matthew Mullins was born in the United States.",
+    "generated_ids": [
+      49888,
+      51527,
+      1330,
+      572,
+      9223,
+      304,
+      279,
+      3639,
+      4180,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the currency abbreviation in Canada?": {
+    "raw": "- CAD",
+    "generated_ids": [
+      12,
+      47265,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Madwa-Nika Cadet?": {
+    "raw": "Madwa-Nika Cadet's birthplace is Afghanistan.",
+    "generated_ids": [
+      37036,
+      9991,
+      11250,
+      11496,
+      32060,
+      295,
+      594,
+      7194,
+      2007,
+      374,
+      20500,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Audrey Bogemans?": {
+    "raw": "Audrey Bogemans.",
+    "generated_ids": [
+      52949,
+      8073,
+      41548,
+      336,
+      596,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Kariane Bourassa?": {
+    "raw": "Kariane Bourassa",
+    "generated_ids": [
+      42,
+      8821,
+      68,
+      38375,
+      55592,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Maïté Blanchette Vézina?": {
+    "raw": "Maïté Blanchette Vézina's birthplace is France.",
+    "generated_ids": [
+      29535,
+      37572,
+      128294,
+      91429,
+      6535,
+      647,
+      963,
+      89,
+      2210,
+      594,
+      7194,
+      2007,
+      374,
+      9625,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Robbie Graham-Kuntz?": {
+    "raw": "Robbie Graham-Kuntz's birthplace (country only) is United Kingdom.",
+    "generated_ids": [
+      14465,
+      21745,
+      25124,
+      15843,
+      3850,
+      89,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      3639,
+      15072,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Sean McIntosh?": {
+    "raw": "Sean McIntosh's birthplace (country only) is Canada.",
+    "generated_ids": [
+      59816,
+      84481,
+      9267,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      6864,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Paul Anthony Kelly?": {
+    "raw": "Paul Anthony Kelly's birthplace (country only) is Ireland.",
+    "generated_ids": [
+      25300,
+      20696,
+      18661,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      14648,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Nicole Muñoz?": {
+    "raw": "Nicole Muñoz's birthplace (country only) is Mexico.",
+    "generated_ids": [
+      57816,
+      1263,
+      14787,
+      5653,
+      9510,
+      594,
+      7194,
+      2007,
+      320,
+      11141,
+      1172,
+      8,
+      374,
+      12270,
+      13,
+      151645
+    ],
+    "truncated": false
+  },
+  "What is the birthplace (country only) of Carisa Hendrix?": {
+    "raw": "Carisa Hendrix's birthplace is in the United States.",
+    "generated_ids": [
+      8852,
+      10761,
+      29494,
+      18356,
+      594,
+      7194,
+      2007,
+      374,
+      304,
+      279,
+      3639,
+      4180,
+      13,
+      151645
+    ],
+    "truncated": false
+  }
+}

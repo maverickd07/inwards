@@ -1,0 +1,6 @@
+{
+  "one_fit_train_seconds": 76.7882752418518,
+  "one_fit_eval_seconds": 301.61337900161743,
+  "approx_remaining_11_fits_seconds": 4162.418196678162,
+  "scope": "rough forecast only; excludes load and analysis; no adaptive budget change"
+}

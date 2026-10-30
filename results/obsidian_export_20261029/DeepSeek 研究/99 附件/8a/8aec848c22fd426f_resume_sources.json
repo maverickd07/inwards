@@ -1,0 +1,36 @@
+{
+  "self_wrong_s0": {
+    "source": "/mnt/beegfsstudents/home/REDACTED/inward/results/handoff_analysis_20261003/exp10_consistency/runs_681332/self_wrong_s0",
+    "copied_sha256": {
+      "target_diagnostic.json": "8cc526eb2f4f67a14b08648eec75e2893c0a5b8624431f99b259e74e443976cf",
+      "initialization.json": "117d2c3764ac408b2fed9b569a1ebabbf3664c1c11240bf0d38752aa7dd29a94",
+      "reference_base_check.jsonl": "024443dbb7606a322e95786aaa725843f9c47c50af8e553cc1d5200780bbee6f",
+      "inward_summary.json": "a675f9c1a175377c6b4b49013e2a69862be8782ced95148080ef17911b7d88b7",
+      "eval_A_newPerson.jsonl": "947129bb97f222fbcb52e0593c71a2293468df65bbf23940fa2274d7a678ac35",
+      "train_examples.jsonl": "9cc20185a81318763157df0c5e036acc27f970eaa7580f9e95998c5ba72f44f2",
+      "target_assignment.jsonl": "3df9c67d1ace5469781b358bf2c586989a3382658482f87e668ad595d99f5f4c",
+      "eval_C_bothNew.jsonl": "030275baf31e90537abfd08318195fcf329bc77148490ed510c3c199527dd61e",
+      "run_config.json": "7df4ecf516c0dee416dbc75176d183100cb39bab96f430cd79dcc6d8629e8a3d",
+      "evaluation_manifest.json": "2448b66926b3814f6554e3eda89f082c365142ef87e5167ac8109962384bd9ff",
+      "eval_B_newCategory.jsonl": "b7eafba9db20c07fd16746b853179c784e2a5693097a67077ce6d63583b7ac83"
+    },
+    "adapter_note": "Original adapter retained in prior run root; not copied."
+  },
+  "shuffled_wrong_s0": {
+    "source": "/mnt/beegfsstudents/home/REDACTED/inward/results/handoff_analysis_20261003/exp10_consistency/runs_681332/shuffled_wrong_s0",
+    "copied_sha256": {
+      "target_diagnostic.json": "4102d51b53d2f8d65fdd157850e24302e1ce0597d1bf3da6e554275a015a047c",
+      "initialization.json": "117d2c3764ac408b2fed9b569a1ebabbf3664c1c11240bf0d38752aa7dd29a94",
+      "reference_base_check.jsonl": "024443dbb7606a322e95786aaa725843f9c47c50af8e553cc1d5200780bbee6f",
+      "inward_summary.json": "5c99bf56247fc673f5c4364f55dfc078aa4c5b197df08862a0e1be00200115da",
+      "eval_A_newPerson.jsonl": "80861c44702d082e4f8f97c3344d049669c511702db4cee11c3fb8433fe7e381",
+      "train_examples.jsonl": "27ad2abb4f3dbd48018dc515302566b01e25077b51bd38fbc1ab0a95cebeb9d6",
+      "target_assignment.jsonl": "e060a0dd36ec0f856e18de69300bd2ebdabd811584ea06581754fa4321e4ee4f",
+      "eval_C_bothNew.jsonl": "12d360234fef99154d19230997f7ef5928df1bd5db80866191e8a61844aee8c7",
+      "run_config.json": "8190f01020571c9086362f05d27484daed302dcb4351d8425fcf70be739d8679",
+      "evaluation_manifest.json": "2448b66926b3814f6554e3eda89f082c365142ef87e5167ac8109962384bd9ff",
+      "eval_B_newCategory.jsonl": "ee31863b179cd5146468e7fbc59488065b7937a24cd0fd521aaa656b7fed3076"
+    },
+    "adapter_note": "Original adapter retained in prior run root; not copied."
+  }
+}

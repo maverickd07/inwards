@@ -1,0 +1,22 @@
+exp17 只推理准备阶段完成
+STOP_INSUFFICIENT_AND_ASK_USER
+新增人物 2；清洁旧人物 0；每组严格配对 8 题。
+训练次数=0；第三组=0；无自动后续作业。
+配对题中的不同人物数：2；同一人物四类别相关。
+{
+  "people": 2,
+  "wrong_q1_people": 2,
+  "wrong_q1_items": 8,
+  "consistent_target_strict_wrong_items": 8,
+  "birthplace_callingcode_matched": 2,
+  "birthplace_capital_matched": 2,
+  "birthplace_rounded_lat_matched": 2,
+  "birthplace_rounded_lng_matched": 2,
+  "matched_pairs": 8
+}
+all 基础模型平均token损失（题目等权）：一致=3.65140762925148；不一致=3.6521845757961273；差=-0.0007769465446472168
+birthplace_callingcode 基础模型平均token损失（题目等权）：一致=3.7322206497192383；不一致=3.7324202060699463；差=-0.0001995563507080078
+birthplace_capital 基础模型平均token损失（题目等权）：一致=3.593422532081604；不一致=3.5955106019973755；差=-0.0020880699157714844
+birthplace_rounded_lat 基础模型平均token损失（题目等权）：一致=3.5611337423324585；不一致=3.562060832977295；差=-0.0009270906448364258
+birthplace_rounded_lng 基础模型平均token损失（题目等权）：一致=3.7188535928726196；不一致=3.7187466621398926；差=0.00010693073272705078
+不足300题时请将结果交回用户决定；即使达到300题，也必须经用户审阅后才能另行准备训练。

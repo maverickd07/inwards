@@ -1,0 +1,573 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 研究进展旧报告 PDF文字
+
+## 白话解释
+
+这是旧资料的文字版本，供搜索和核对来源；原文里的计划与说法保留当时状态。当前判断先看实验解读。
+
+> 历史 PDF 自动提取文字，保留页码。公式、列顺序和表格可能失真；精确阅读请打开原 PDF。
+
+## 第1页
+
+ࢲQwen3׼ࡓ
+ौ
+০ႨၘႵᆩ്
+ӧຯდčDaniel ChenĎ Bocconi × HEC Paris
+2026 ୍ 10ဒರ௹ğ2026-10-11Ď
+ᅋေᆴbQwen3-14B֥self ࿞਀ջট
+ຓႪ൝đ
+്љb
+A: new people B: new relations C: both new
+0
+2
+4
+6
+8
+10
+12Gain over baseline (pp)
++8.87
++6.20
++3.53
+(a) Self-target training: exp8/9
+R1 R2 / 4 epochs R3 / 6 epochs
+49
+50
+51
+52
+53
+54
+55
+56
+57C accuracy (%)
+(b) Iteration and training-budget controls: exp11
+Base: 50.0%
+Reset + refreshed targets
+Continue + refreshed targets
+Frozen targets, matched steps
+๭ 1:ྏᆣऌğቐູಆਈ self ᄝ A/B/C൬ၭĠႷູ exp11֥CဢЧѓሙ
+љູ 49.6%čCĎა 50.0%bটჷğE8aE9aE11b
+གྷ
+1. ໙ีթᄝb 14BဢЧᇏđಯႵ 33.80%ູ
+10.93%bqGr
+2.ᆴb ಆਈ self֥C ቆູ 53.13% ± 0.90ۚ3.53Ġ
+ູ 5.20% ± 1.51༢ऎႵᇗေቔႨb
+qE8aE9r
+3.ઋbexp11 ᇗᇂ R3 ູ 53.53% ± 0.50࿃ R3
+ູ 53.67% ± 1.01ᅶᇏbqE11r
+ğᆸႿ exp11ଢѓ
+აథ၍ଢѓb
+
+## 第2页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+1໙ีაᆣऌਫ਼ཌ
+1.1oᄝླေൈ൐Ⴈᆩ്p
+ਆ҄໙ีॖཿቔ x → z → yൌุ zճσ y߭
+ิൕ
+p b
+భଆ྘ሱദॖӁള
+ᅎϱЧğ׼ࡓ
+ճଆ྘b
+1.2ഡაൌဒඨ྽
+षğH1ྟಌ१ऎႵൌᇉଽಸĠH2൬ၭĠH3đ඗
+љ
+b
+і 1: exp1–exp11ᆣऌb
+ԩ৘
+exp1b
+exp2ԛཋᇅb
+exp3੣b
+exp4b
+exp5ൌb
+exp6/6b selfσቔູభ౺Ġ৥ൎ gold/hopsൌb
+exp7๝൐Ⴈb
+exp8ᅶb
+exp9ᅶb
+exp10۲228 ่b
+exp11ӑᄀყෘི
+ႋ
+ᇕሰđ೘੽b
+টჷğHაሑ෿Ď aG/L/AĎ aE8–E11Ď aPაSHA-256 ౢ
+b
+ğൌ
+੣b
+2
+
+## 第3页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+2ࣥ
+2.1ٳ
+൐Ⴈ Compositional CelebritiesۂڭQwen3-0.6Ba1.7Ba8Ba14Bđ࿞਀ᇶଆ྘ູ Qwen3-14Bb
+Ќ਽ birthplace ༢ਙѩஆԢ common_name֥ࣥ
+ݣ4,207 ีbqGaPr
+თ଀
+҂๝іղቔູ๝၂ቂbದ໾Ⴎ଀ӫ MD5קܥ
+ູ 0đ࿞਀ᇕሰູ 0a1a2bAোљቂĠBྍোљቂĠC ๝ൈ൐Ⴈྍ
+קܥ500 ีĠಆਈ࿞਀ູ 216 ໊ದ໾a864 ่໙ีbqPaE8aE11r
+C৳
+ဢЧb
+2.2߄
+໙ีbႮՎളӮଢѓ ˜yĠ
+໙ี qճσ tokenҭ᧦ğ
+˜z = fθT (q1), ˜y = fθT (q;ࣟ˜z), L = −
+∑
+t∈ճσ
+log pθS (˜yt | q, ˜y<t).
+ิൕ tokenೆ self ࿞਀ଢѓbexp10ᇹ
+bqPr
+і 2:઒Ġexp11b
+ཛଢ ഡᇂ
+LoRA rank 16đalpha 32đdropout 0.05Ġᇿၩ৯ q/k/v/o ა MLP gate/up/down ๧႕b
+߄AdamWđ࿐༝ੱ 10−4đweight decay 0Ġ஻ਈ 8đૄ੽ 2 epochs؎ࢩ1b
+exp11 ҄ඔ ಆਈૄ੽ 216 ҄Ġ࿐༝ੱႵ 20ఖᇗ
+ᇂb
+઒ BF16؟24ྍ tokenཁൔӉනົ৽ഡᇂb
+ຶ ֆ GPU׮GPUࠎ
+੣b
+2.3ྟ
+࿊ඔሳĠଏಪ floorđ
+܂truncatebqPaGr
+o±֥ဢЧѓሙҵູ ppڿ
+ಒ McNemar۳t ྘ 95%؇2ҩ
+൫ีbexp11 ᇶ Cဒቂູ 54 ཛđֆູ҄ 42љቓ HolmĠ
+ֻ10bqE11r
+3
+
+## 第4页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+3ğexp1aexp7
+਷ Kiၬູ Pr(հ | Ki)bgap_ctx܂ᆞ
+ಒճσ҂๝b
+і 3:ಌ१č%רoorb
+հඔ gap_clear gap_ctx
+0.6B 143 61 42.66 60.14
+1.7B 947 707 74.66 65.36
+8B 1902 752 39.54 12.83
+14B 2379 804 33.80 10.93
+টჷğGđcategory=CLEAN, modes.floor b14B ູ 804/2379ູ 10.93%ଆ྘෮Ⴕᆩ
+്b
+1.7B 8B 14B
+0
+10
+20
+30
+40
+50
+60
+70
+80Conditional failure rate (%)
+74.1
+26.8
+15.4
+64.8
+3.8 0.5
+Direct composed question
+Intermediate fact supplied
+๭ 2:๝ 738 ีb1.7B Ĕ 8B Ĕ 14B֥gap_clearљູ 74.12 Ĕ
+26.83 Ĕ 15.45%đgap_ctx ູ 64.77 Ĕ 3.79 Ĕ 0.54%bটჷğGෘb
+0.6BႿ 1.7BᆺႵ 143ဢЧ
+ҐႨ๭ 2ࢳ
+ဒb
+o8B ჿ 36%֞14B ჿ 24%ູ35.87% → 23.59%č1,628
+ູ35.46% → 23.19%č1,613 ีĎ b๭2b
+qGr
+༯ 818ാϧဢЧđၛᇕሰ 7 Ԏ౼ 120োğ 94 ี஑ູൌᇉհ༂đ
+12 ีູѓሙճσఆၬđ8ൔđ6հ༂Ġൌᇉհ༂ᅝ 78.33%ڣ
+հ༂ো྘bqAr
+ğཬ
+ಌ१b
+4
+
+## 第5页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+4ყğexp2–exp6b
+4.1གྷਔ൉હ
+ԛ႘ഝູ tokenൌุљ଀൮ token଀
+ԛቕѓđၹՎඋႿ؎ປᆜҩਈb
+љԎ౼ 300ᄝ಩၂
+ೆ top-10bqLr
+і 4:ྟbଁᇏᆷ൮ tokenđ҂ᆷປᆜൌุളӮb
+ቆљ ჰ൓ีඔ ஆԢඔ ଁᇏĔЌ਽ ଁᇏੱč %Ď
+ാϧ 300 12 243/288 84.38
+ۿ300 22 254/278 91.37
+টჷğL ჰ൓ lens_items.jsonlခႨၘЌթஊളඔऌđໃᇗྍ༯ᄛ
+tokenizerੲb
+љູ 84.38% ა 91.37%đཌྷҵჿ 7௔ଁᇏb
+ೆtop-10২ཌ෬b෱ഉ
+ဒbqLr
+࡮
+Ġі 4ֻ10ษંb
+4.2ყა࿞਀
+exp3໙ีĠexp4Ġexp5
+ሙಒੱbexp6ሇཟ self ࿞਀đexp6b ฐ
+bqHr
+ٳgold/hops੣ Abᆞ໓
+൐Ⴈ exp8–exp11b
+4.3༢
+ҩਈა Press֥֩compositionality gapĠBiran֥֩Hopping T oo LateਔҪ
+ᇏቔճđ࿐ള
+ճbა STaR݅
+bLayer-Order Inversion໊b
+[1, 2, 3, 4, 5]
+ğ࿃ॖ
+b
+5
+
+## 第6页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+5ੲğexp8
+5.1 ಆਈ self൬ၭ
+і 5: ಆਈ selfᆞಒੱč%đनᆴ ±ٳ500 ีđ࿞਀ 864 ่b
+ཌ self ิശčppĎ
+Ağྍದ໾ 39.0 47.87 ± 0.50 +8.87
+Bğྍোљቂ 44.6 50.80 ± 1.60 +6.20
+Cğਆᆀनྍ 49.6 53.13 ± 0.90 +3.53
+টჷğE8/E9bC ቆᇕሰູ 53.2 Ĕ 52.2 Ĕ 54.0%ᇕሰ t ྘ 95%ູ [1.29, 5.77] pp bexp8 ა exp9ሹ
+གྷᆣऌb
+AaBaC௜नᄹၭ၇Ցູ +8.87a+6.20a+3.53 ppđӯགྷ൬ၭ҂नᄋ֥۬
+චᇗ਽ԛ CbqE8aE9r
+ཌհ༂ੱđA/B/C ၇Ցູ 14.5% / 11.2% / 7.0% bᆃ൞ᄹ
+б২ҵएಯթᄝđ
+bqE8aE9r
+ൌဒ Cభ 150၂҄Ⴎ 84.67%֞86.44%҄Ⴎ 74.00%֞
+72.44%Ġexp10/11 ᄵ൐Ⴈಆ҆ 500 ีҩਈֆ҄ି৯bqSr
+5.2֥ݺ۷C ቆ൬ၭ
+і 6: exp8bଢѓᆞಒੱਙູᇕሰ 0b
+࿞਀่ඔ ଢѓᆞಒੱč %Ď C ᆞಒੱč%Ď
+ಆਈ self 864 51.50 53.13 ± 0.90
+؇50% 432 70.60 53.47 ± 0.95
+ࠏ50% 432 49.77 54.07 ± 0.50
+؇70% 605 61.49 52.80 ± 0.72
+ࠏ70% 605 50.08 54.53 ± 0.31
+টჷğE8֥training_qualityٳCੲҦ੻ൈႋᄝཌྷ๝Ќ਽
+b
+Ќ਽၂϶ϜଢѓᆞಒੱՖ 51.50%֞ۚ70.60%đ֌ Cࠏ
+ӮđၹՎ exp9োљ࿊ᄴི
+ႋ༂ಪູճσᇉਈིႋbqE8aE9r
+ۚ
+ဢЧ࿊ᄴb
+ğಆਈ self਽ԛ్
+b
+6
+
+## 第7页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+6༢აճσᆞಒྟğexp9aexp10
+Self full
+864
+Confidence
+432
+Random
+432
+Shuffled
+864
+0
+10
+20
+30
+40
+50
+60C accuracy (%)
+53.1 52.5 52.5
+5.2
+exp9: full / within-category controls
+Self wrong Self correct Shuffled wrong
+0
+10
+20
+30
+40
+50
+60C accuracy (%)
+51.5 51.8
+8.7
+exp10: 228 matched-count examples
+๭ 3: Cᅶđ༂ҵཌູᇕሰѓሙҵbቐႷ࿞਀ਈ҂๝ğexp9 ಆਈູ 864 ่đোљଽ϶ਈູ 432 ่Ġexp10۲
+ູ 228ஆ྽bটჷğE9aE10b
+6.1 յ੹ଢѓაোљଽೱ࿊
+і 7: exp9ҵၳb
+ࡱC ᆞಒੱč%Ď
+exp9 ಆਈ selfč864 ่Ď 53.13 ± 0.90
+exp9 োљଽյ੹č864 ่Ď 5.20 ± 1.51
+exp9č432 ่Ď 52.53 ± 1.79
+exp9č432 ่Ď 52.47 ± 0.90
+ؓselfࢆ47.93 ppູ [−53.25, −42.62] pp৳
+ࣇ0.07 ppཟ҂၂ᇁĠ॥ᇅো
+ೱ࿊Ⴊ൝bqE9r
+6.2ճσ
+༯đჰӽႵ 438a426၂ᇁđᇯোљ౼ᆞಒĔհ༂ඔਈ
+֤֞51a60a71a46܋228 ่bself հაյ੹հ൐Ⴈ๝၂஻໙ีĠself൐Ⴈਸ਼၂஻
+Ⴕ෮҂๝bqE10aPr
+і 8: exp10֥ުCč%Ď Ġֆ҄ਙູ೘ᇕሰनᆴb
+۲228नᆴ ± SD ิശčpp҄
+self հճσ 51.53 ± 0.42 +1.93 84.13 78.27
+selfճσ 51.80 ± 0.69 +2.20 84.47 77.27
+յ੹հճσ 8.73 ± 0.31 -40.87 53.00 72.33
+টჷğE10đfloorљູ 49.6 Ĕ 83.8 Ĕ 78.6%b
+selfࡨselfູ −0.27 ppࡗ[−1.52, 0.98] ppԛҵၳbᆃ
+༯đਆᇕ selfbqE10r
+ğ൬ၭট
+ၹ෍b
+7
+
+## 第8页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+7ğexp11
+7.1೘่ਫ਼ཌ
+Ϝ 216֤֞ٺ288֥400Ⴈಆ
+҆ 864འູսbqPaE11r
+ཚ R1ູğ
+ᇗᇂğ θR
+k = Train(θ0, D, T (θR
+k−1)),
+࿃ğ θC
+k = Train(θC
+k−1, D, T (θC
+k−1)),
+ଢѓğ θF
+k = Traink П੽Ց(θ0, D, T (θ0)).
+ᆃ৚ Tఙഈ၂੽࿐ളҕඔđ
+Ԥଆ྘၂Ց࿞
+҄ඔbqPr
+і 9:ື၂ဢЧ൓ᇔູ 864 ่b
+ਫ਼ཌ R2҄ඔ R3ҵၳ
+ᇗᇂ 432 648ಯᆺႵ 216ഽଢѓb
+࿃ 432 648b
+ଢѓ 432 648ളӮӮЧb
+টჷğP ა E11ႋဢЧӯགྷՑඔູ R2 3,456aR3 5,184Ⴟປᆜ FLOPsෘӮЧ௄
+ರӱ္ໃປಆ၂ᇁb
+ཚ R1܋7a3ᇕሰa21؍ࢨ
+ෘ 94,500ѓదč21 Ց × 3 ቆ × 500 ี × 3ൈ
+ჿ 5.34bqE11r
+7.2 ູ൉હ 49.6% эӮਔ 50.0%
+Ұಒಪğexp11 ა exp8֥A/B/Cܙაඨ྽၂ᇁđಆਈ࿞਀่ඔ္ཌྷ๝bCԤ
+ଆ྘ᇗྍളӮൈđ18Ġఃᇏ 4a2ᄹ 2ܣ248/500
+эӮ 250/500bqE11aBr
+ྍ Cᆞಒඔ๝ູ 250ཌྷ๝bཌҵၳ
+bexp11ཌ 50.0%ෘđexp8ཌ 49.6%Ġᄎྛҵ
+ऎุটჷਙೆअཋb
+ğğ exp11֥R1 ൬ၭູ +2.53 ppಆਈູ +3.53
+ppཌb
+8
+
+## 第9页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+8ყෘႪ൝
+і 10: exp11ᆞಒੱč%đनᆴ ± SDĎ b
+ࡱAğྍದ໾ Bğྍোљቂ Cğਆᆀनྍ
+Ԥଆ྘ 38.20 44.40 50.00
+ཚ R1 48.33 ± 0.46 51.60 ± 1.11 52.53 ± 1.33
+ᇗᇂ R2 48.13 ± 0.50 52.27 ± 1.79 52.93 ± 1.10
+ᇗᇂ R3 47.40 ± 0.87 52.00 ± 1.04 53.53 ± 0.50
+࿃ R2 46.67 ± 0.64 52.33 ± 0.31 53.67 ± 0.95
+࿃ R3 47.40 ± 1.59 52.40 ± 1.25 53.67 ± 1.01
+ଢѓĔ 2 ੽ყෘ 47.60 ± 0.40 52.47 ± 1.10 54.00 ± 1.06
+ଢѓĔ 3 ੽ყෘ 48.67 ± 1.01 51.67 ± 1.53 52.73 ± 1.36
+টჷğE11đgroups, metric=composedଢѓ 2֥C๝ൈਙԛb
+֥C नᆴູ 52.53% → 52.93% → 53.53%࿃ਫ਼ཌູ 52.53% →
+53.67% → 53.67%ؓR1ଢѓყ
+ҵᆴbqE11r
+і 11: Cҵᆴაᇕሰ t ྘ 95%čppॺb
+௜नҵᆴ 95%ࡗ
+ᇗᇂ R2 − R1 +0.40 [-0.46, 1.26]
+ᇗᇂ R3 − R1 +1.00 [-3.55, 5.55]
+ᇗᇂ R3 − R2 +0.60 [-3.34, 4.54]
+࿃ R2 − R1 +1.13 [-0.61, 2.88]
+࿃ R3 − R2 +0.00 [-3.26, 3.26]
+ᇗᇂ R3 −ଢѓ +0.80 [-3.75, 5.35]
+࿃ R3 −ଢѓ +0.93 [-3.05, 4.92]
+টჷğE11đC_paired_comparisonsݣ0ಒMcNemar ა Holmࢲ
+b
+ᇗᇂ R3ؓR1 ູ +1.00 pp࿃R3ଢѓ 3 ੽ყෘູ +0.93
+ppіགྷb
+qE11r
+ᇶ C֥54ࣜHolm֞0.05ս
+bqE11r
+ğႪ൝ഉໃ
+ԛb
+9
+
+## 第10页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+9߄
+R1 R2 R3
+74
+75
+76
+77
+78
+79
+80C single-hop 2 accuracy (%)
+(a) Retention cost
+Base
+reset
+continue
+Base R1 R2 R3
+48.5
+49.0
+49.5
+50.0
+50.5
+51.0
+51.5
+52.0
+52.5
+53.0Generated target accuracy (%)
+(b) No clear target-quality improvement
+reset
+continue
+๭ 4: exp11ჿඏbቐğCb༂
+భ੽ଆ྘ӁളđR3đໃ࿞਀ R4bটჷğE11b
+і 12: exp11 C ቆֆ҄ᆞಒੱč%đनᆴ ± SDĎ đनᄝಆ҆500b
+҄
+Ԥଆ྘ 82.80 78.40
+ཚ R1 84.87 ± 0.46 77.07 ± 2.10
+ᇗᇂ R2 85.20 ± 0.35 76.67 ± 1.70
+ᇗᇂ R3 85.40 ± 0.20 76.60 ± 0.60
+࿃ R2 84.20 ± 0.87 76.33 ± 0.42
+࿃ R3 84.07 ± 0.61 75.60 ± 0.20
+ଢѓĔ 2 ੽ყෘ 84.47 ± 0.76 77.53 ± 0.83
+ଢѓĔ 3 ੽ყෘ 83.87 ± 1.17 75.00 ± 1.91
+টჷğE11đmetric=hop1/hop2༢b
+ଢѓ 3ູ҄ 75.00%࿃ R3љູ 76.60%ބ75.60%٤
+৖bqE11r
+і 13:ູճσ token ௜न log probability࣍ࢤ0ളӮԱ
+ੱb
+ଢѓളӮᆀ ଢѓᆞಒੱनᆴč %Ď հ༂ଢѓ௜न log probability
+Ԥଆ྘ 51.16 -0.080
+R1 ളӮ 50.42 -0.059
+ᇗᇂ R2 ളӮ 50.46 -0.036
+ᇗᇂ R3 ളӮ 50.42 -0.028
+࿃ R2 ളӮ 50.73 -0.018
+࿃ R3 ളӮ 50.85 -0.008
+টჷğE11đtarget_diagnosticsb
+௜न log probability ಏഈശđิൕ࿞਀ଢѓॖିԛགྷሱ
+bᄝ Cഈđ௜न log probabilityഈശĠ࿞਀ଢѓ
+bqE11r
+ğᇉਈĠֆु Cb
+10
+
+## 第11页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+10थҦ
+10.1ં
+1.གྷའb෪ཬ
+ಌ१bqGaAr
+2.థ၍൬ၭbಆਈ self ᄝ A/B/C ഈनႵᆞཟ൬ၭđ චᇗ਽ԛCᄹၭቋཬĠ ௥
+іགྷbqE8aE9r
+3.໙ีbק
+֥C ቆႪ൝bqE8aE9r
+4.ն൬ၭb࡮
+ଢѓ࿞਀bqE11r
+10.2ᇅ໙ี
+൞߄ճ
+۷
+b
+ᇗေྟb exp10
+്љoაሱദಪᆩ
+ቔႨbA/B/Cҳđ
+ᇅb
+10.3 ᇶေअཋ
+ğაದ໾ᄯӮ
+ಯಸྸཬིႋđି৯Ќӻᄵླေህ૊
+b
+གྷğಯॖି༂஑đ120઩ബĠexp11Ҫᄎ
+੣ Ab
+ӱğෛ੽Ց
+թ
+b
+10.4थҦğႪ്༵љ൬ၭটჷđᄜ࿊ᄴਫ਼ཌ
+exp11ğ࠹ൔྩ
+эĠഽႪ൝ᆞಒੱĠᅶđ
+ᆴb
+bЧՑ exp11ਈրҩđ
+҂Ⴈ Cྍൌဒb
+ࣟ
+ંb
+ğa
+ᄠ๔b
+11
+
+## 第12页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+Aൌཛଢ
+A.1ຶ
+෮Ⴈ 40ݗ
+Ұ exp11֥21ٳ94,500ෘ Cؓ
+McNemarĠ๝ൈ཮ဒ exp9aexp10֥Cሹ၂ᇁbીႵᇗྍᆳྛ GPU ࿞਀đ္ીႵҀ
+ᅶb
+აSHA-256Ġ
+b
+і 14:ંb
+Чϱԩ৘
+exp3ൌb
+exp4ჿ 14–16%ᅶჿ 3%Ġ৥ൎ p < 10−8ൌĠ҂ቔ
+ੱb
+exp5൬ၭჿູ 0ൌb
+exp6ֆ҄ C ູ 49.8%Ġgold ູ 56.8%ෘ
+self/goldбb
+exp6bĠ
+ંb
+ູ HႿൌဒໃᄻᄎྛb
+і 15: exp11 Cč%ཟҵၳb
+ᇕሰ 0 ᇕሰ 1 ᇕሰ 2ཌनᆴčppĎ
+ཚ R1 52.2 51.4 54.0 +2.53
+ᇗᇂ R2 52.4 52.2 54.2 +2.93
+ᇗᇂ R3 53.6 54.0 53.0 +3.53
+࿃ R2 54.0 52.6 54.4 +3.67
+࿃ R3 52.6 53.8 54.6 +3.67
+ଢѓĔ 2 ੽ყෘ 54.8 52.8 54.4 +4.00
+ଢѓĔ 3 ੽ყෘ 53.2 51.2 53.8 +2.73
+A.2੣
+1.ҳb
+2.ઋb
+3.ԛҵၳb
+4. ҂ҐႨoself֞goldᇅ๷ҩb
+12
+
+## 第13页
+
+ཟଽ௥cexp1–exp11ۡ2026 ୍ 10 ᄅ
+ҕॉ໓ང
+[1] Press, O., Zhang, M., Min, S., Schmidt, L., Smith, N. A., and Lewis, M. Measuring and Narrowing
+the Compositionality Gap in Language Models . 2022 ყႆЧĠFindings of EMNLP , 2023.
+https://arxiv.org/abs/2210.03350
+[2] Biran, E., Gottesman, D., Yang, S., Geva, M., and Globerson, A. Hopping T oo Late: Exploring the
+Limitations of Large Language Models on Multi-Hop Queries . EMNLP , 2024.
+https://arxiv.org/abs/2406.12775
+[3] Snell, C., Klein, D., and Zhong, R. Learning by Distilling Context . 2022.
+https://arxiv.org/abs/2209.15189
+[4] Zelikman, E., Wu, Y ., Mu, J., and Goodman, N. D. STaR: Bootstrapping Reasoning With Reasoning.
+NeurIPS, 2022.
+https://arxiv.org/abs/2203.14465
+[5] Liu, X., Liu, Y ., Zhang, J., Zhang, Y ., Zhang, K., and Liu, Q. Layer-Order Inversion: Rethinking
+Latent Multi-Hop Reasoning in Large Language Models . 2026.
+https://arxiv.org/abs/2601.03542
+ࢸ
+ğGđAোđL༅đE8–E11ࢲ
+đSđBᅶđP ູླྀၰაս઒đHაSHA-256
+b
+ࠏ֥
+ၬ
+a࿞
+ངb
+ϱЧğ2026-10-11ၘЌթ exp1–exp11ࡱ
+৖b
+13
+
+返回 [[00 研究首页]]

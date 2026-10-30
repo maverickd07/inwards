@@ -1,0 +1,218 @@
+{
+  "train864": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/plan/train.jsonl",
+    "sha256": "b135fa2a78ac3a2d685eeb0754425797b142ae16ac4676c61a443387c87d49b9"
+  },
+  "paired864": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/paired_targets/paired_diagnostics.jsonl",
+    "sha256": "de34453808f74efd91401475ca61b97941e88c2cd14fdf2491fe2d318e3b4797"
+  },
+  "train785": {
+    "path": "results/exp12_matched785_20261015/frozen_inputs/plan/train.jsonl",
+    "sha256": "fd7484c7928794e6647ab62d42575be8a4ae8ece5ed3e353339e0af833782ef8"
+  },
+  "different404": {
+    "path": "results/exp12_matched785_20261015/frozen_inputs/different404_keys.json",
+    "sha256": "0ad84f339e6109d1a576a506b9af026112656379cafa8bf67b3712c76ddda715"
+  },
+  "labels864": {
+    "path": "results/exp12_matched785_20261015/received/extracted_701792/runs_701792/training_label_audit/all864_labels.jsonl",
+    "sha256": "fe8b2277e8039a2692d86ef7aa358bf0f05882f80ef3e6f8772086503cf1a7c2"
+  },
+  "country_table": {
+    "path": "results/handoff_analysis_20261003/tasks56_verified/country_attributes.json",
+    "sha256": "d29e28b87b2321cf933660547f7911a0e81442ec136bfb0904f466b1ff18b029"
+  },
+  "dataset": {
+    "path": "inward/data/compositional_celebrities.json",
+    "sha256": "b5fa71b82bbd05ac7b7462682a686d696a5485c69a2dc8c3a3ece8f49c4520d0"
+  },
+  "exp1_14b": {
+    "path": "inward/results/exp1v2_Qwen3-14B/items.jsonl",
+    "sha256": "c27e89277bc36a38a42394e0ac1d93ef8a799d3da3cfb110d0507c293d9a1aad"
+  },
+  "country_aliases": {
+    "path": "results/exp12_matched785_20261015/aliases.json",
+    "sha256": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8"
+  },
+  "label_policy": {
+    "path": "results/exp12_matched785_20261015/training_label_policy.json",
+    "sha256": "3826a7f9b9291ed69420fdfea2ded42c10e0edce16f00258d759def49d933bd7"
+  },
+  "exp10_targets": {
+    "path": "results/handoff_analysis_20261003/exp10_consistency/frozen_targets.jsonl",
+    "sha256": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d"
+  },
+  "exp10_protocol": {
+    "path": "results/handoff_analysis_20261003/exp10_consistency/protocol.json",
+    "sha256": "9aaf075f0549920d575ea89ce29f7806096b3f5353da40be85f9365fae24caeb"
+  },
+  "exp10_results": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/verified_analysis/report.json",
+    "sha256": "3b915bf1d3e0041f30ecaf44dfc16964b53b24c5e22aeb75bc1dea5ea71ba068"
+  },
+  "exp8_source": {
+    "path": "results/handoff_analysis_20261003/exp9_shuffled/exp8_filtered_v1.py",
+    "sha256": "f28863dfe0ee3899ac049f7148e9acf68046246dc03c0db3ad3305d00f05ee16"
+  },
+  "exp10_source": {
+    "path": "results/handoff_analysis_20261003/exp10_consistency/exp10_consistency.py",
+    "sha256": "aeeb9a602efa1790f9d9e13f53362169423f3acf8878550117b57251fbdccaf5"
+  },
+  "exp12_plan_A_newPerson": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/plan/items_A_newPerson.jsonl",
+    "sha256": "2ac080b532a286aa44c81457de80273de232257f43d760b83360289a1c3891eb"
+  },
+  "exp12_baseline_A_newPerson": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/baseline/eval_A_newPerson.jsonl",
+    "sha256": "eac5bf4fa3dd5259b3b6eca42a3594e226f8379373a3bd5048beece05e7920d2"
+  },
+  "exp12_plan_B_newCategory": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/plan/items_B_newCategory.jsonl",
+    "sha256": "cb96069f3975ac466703ad4473b2e82e575f938dff5f1f0863fd7a03a6e653e8"
+  },
+  "exp12_baseline_B_newCategory": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/baseline/eval_B_newCategory.jsonl",
+    "sha256": "48a5af687ed9af0ba5d70e7733a381937dddb071e14d5fcd5035ff01951150bd"
+  },
+  "exp12_plan_C_bothNew": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/plan/items_C_bothNew.jsonl",
+    "sha256": "26357d7bbae14c765d133dd53983612df5e590c1170fd87c570b32ddd7ab5a65"
+  },
+  "exp12_baseline_C_bothNew": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/baseline/eval_C_bothNew.jsonl",
+    "sha256": "708867705701c2c05620bdc9763a5984a7e8090a044c1da8e275c9c3ff0c09eb"
+  },
+  "exp12_plan_D_reservedC": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/plan/items_D_reservedC.jsonl",
+    "sha256": "f2f4fcc2f9ddbf0263efa066a7830b7fbfc80c7040ed25604eb727b7fabfddd4"
+  },
+  "exp12_baseline_D_reservedC": {
+    "path": "results/exp12_sources_20261014_v2/received_700454/extracted/runs_700454/baseline/eval_D_reservedC.jsonl",
+    "sha256": "da9d8e7d1373b0128f7ffe2a2c291a49766bb2b3a38a8df319006341e90a6d51"
+  },
+  "exp10_self_wrong_s0_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s0/target_assignment.jsonl",
+    "sha256": "3df9c67d1ace5469781b358bf2c586989a3382658482f87e668ad595d99f5f4c"
+  },
+  "exp10_self_wrong_s0_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s0/train_examples.jsonl",
+    "sha256": "9cc20185a81318763157df0c5e036acc27f970eaa7580f9e95998c5ba72f44f2"
+  },
+  "exp10_self_wrong_s0_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s0/run_config.json",
+    "sha256": "7df4ecf516c0dee416dbc75176d183100cb39bab96f430cd79dcc6d8629e8a3d"
+  },
+  "exp10_self_wrong_s1_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s1/target_assignment.jsonl",
+    "sha256": "3df9c67d1ace5469781b358bf2c586989a3382658482f87e668ad595d99f5f4c"
+  },
+  "exp10_self_wrong_s1_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s1/train_examples.jsonl",
+    "sha256": "9cc20185a81318763157df0c5e036acc27f970eaa7580f9e95998c5ba72f44f2"
+  },
+  "exp10_self_wrong_s1_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s1/run_config.json",
+    "sha256": "8aaa65b9f31f4354c8a495cc918ed2878533ba38194d06c2e622cb459f05643c"
+  },
+  "exp10_self_wrong_s2_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s2/target_assignment.jsonl",
+    "sha256": "3df9c67d1ace5469781b358bf2c586989a3382658482f87e668ad595d99f5f4c"
+  },
+  "exp10_self_wrong_s2_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s2/train_examples.jsonl",
+    "sha256": "9cc20185a81318763157df0c5e036acc27f970eaa7580f9e95998c5ba72f44f2"
+  },
+  "exp10_self_wrong_s2_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_wrong_s2/run_config.json",
+    "sha256": "192a5734609f39b4afba4f54a118c9451178a9d80cce336a1bc7ab6ec3b60ca9"
+  },
+  "exp10_self_correct_s0_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s0/target_assignment.jsonl",
+    "sha256": "2c8b61aa3d72b1d856cb69f5431f11d9846e6253c372100f84d06c488284de35"
+  },
+  "exp10_self_correct_s0_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s0/train_examples.jsonl",
+    "sha256": "1d0954e1f0a8399fcfdec0beebebfaa9d4d1e8545f72660ee25969cb98c62983"
+  },
+  "exp10_self_correct_s0_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s0/run_config.json",
+    "sha256": "2839e0721f5b2efe4be0532f156f791010ebc6ca94b6a8554fcfcaf26dfc054f"
+  },
+  "exp10_self_correct_s1_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s1/target_assignment.jsonl",
+    "sha256": "2c8b61aa3d72b1d856cb69f5431f11d9846e6253c372100f84d06c488284de35"
+  },
+  "exp10_self_correct_s1_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s1/train_examples.jsonl",
+    "sha256": "1d0954e1f0a8399fcfdec0beebebfaa9d4d1e8545f72660ee25969cb98c62983"
+  },
+  "exp10_self_correct_s1_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s1/run_config.json",
+    "sha256": "f11008530f85df95633ed3e824ec9ab4a9b2e9417c46df4fa8aed315b6546403"
+  },
+  "exp10_self_correct_s2_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s2/target_assignment.jsonl",
+    "sha256": "2c8b61aa3d72b1d856cb69f5431f11d9846e6253c372100f84d06c488284de35"
+  },
+  "exp10_self_correct_s2_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s2/train_examples.jsonl",
+    "sha256": "1d0954e1f0a8399fcfdec0beebebfaa9d4d1e8545f72660ee25969cb98c62983"
+  },
+  "exp10_self_correct_s2_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/self_correct_s2/run_config.json",
+    "sha256": "c27cf5f30c1a6a14eb9559e8340d108e1766fbbb624077c6fe25047a60b7c046"
+  },
+  "exp10_shuffled_wrong_s0_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s0/target_assignment.jsonl",
+    "sha256": "e060a0dd36ec0f856e18de69300bd2ebdabd811584ea06581754fa4321e4ee4f"
+  },
+  "exp10_shuffled_wrong_s0_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s0/train_examples.jsonl",
+    "sha256": "27ad2abb4f3dbd48018dc515302566b01e25077b51bd38fbc1ab0a95cebeb9d6"
+  },
+  "exp10_shuffled_wrong_s0_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s0/run_config.json",
+    "sha256": "8190f01020571c9086362f05d27484daed302dcb4351d8425fcf70be739d8679"
+  },
+  "exp10_shuffled_wrong_s1_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s1/target_assignment.jsonl",
+    "sha256": "5a207172be2d2a5f188797413d30087e7f337f38a99b456cdd7872f13c96a003"
+  },
+  "exp10_shuffled_wrong_s1_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s1/train_examples.jsonl",
+    "sha256": "36794447a0d212de01620b1a5e72ba75ba31e9ba8d03dbf4cb0ac23700fca716"
+  },
+  "exp10_shuffled_wrong_s1_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s1/run_config.json",
+    "sha256": "b6a7f0e068670ae23d5d29f2a007872b0dbd0eabbee8ce45b07b09292af1e42a"
+  },
+  "exp10_shuffled_wrong_s2_target_assignment": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s2/target_assignment.jsonl",
+    "sha256": "3dc46a3b1a5728a33843f12d11309a2cba2f377d11b86d7a40cb419234d463ff"
+  },
+  "exp10_shuffled_wrong_s2_train_examples": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s2/train_examples.jsonl",
+    "sha256": "936f7ce138ecd1cecca701834090407fa23cd2f01db3ea965c055cb3422a4394"
+  },
+  "exp10_shuffled_wrong_s2_run_config": {
+    "path": "results/handoff_analysis_20261003/exp10_681386/results/handoff_analysis_20261003/exp10_consistency/resumed_681332_681386/shuffled_wrong_s2/run_config.json",
+    "sha256": "ac79b48c4c311778afc26fac6a51eae76ec77ec405c26707f13085c985bde8fd"
+  },
+  "training_label_scorer.py": {
+    "path": "results/exp12_matched785_20261015/training_label_scorer.py",
+    "sha256": "ce05ddc7910cd04bcb1927f1b58bba8d9ce199860f53c8535d18ef0232fb4f89"
+  },
+  "scorer_v3.py": {
+    "path": "results/exp12_matched785_20261015/scorer_v3.py",
+    "sha256": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f"
+  },
+  "scoring_v2_v1.py": {
+    "path": "results/exp12_matched785_20261015/scoring_v2_v1.py",
+    "sha256": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5"
+  },
+  "exp1_gap_v2_v1.py": {
+    "path": "results/exp12_matched785_20261015/exp1_gap_v2_v1.py",
+    "sha256": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e"
+  }
+}

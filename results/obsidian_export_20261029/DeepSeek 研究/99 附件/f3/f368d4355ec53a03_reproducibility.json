@@ -1,0 +1,65 @@
+{
+  "analysis_reproduce_command": "python3 inward/results/handoff_analysis_20261003/reproduce_analysis.py --out inward/results/NEW_SUBDIRECTORY",
+  "identity": "SHA256(JSON([category,person], ensure_ascii=False))[:16]; source has no native item id",
+  "sampling": "Random(7).sample(eligible rows in source file order,120); filter category.startswith(birthplace), common_name not in category, q1/q2 is True, clear is False",
+  "repair": "not base_ok and trained_ok; damage: base_ok and not trained_ok; pair intersection/union, Jaccard null for empty union",
+  "category_share": "label count / sampled count of that category; not share of all 818 failures",
+  "missing": [
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_self_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_self_s1_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_gold_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_hops_Qwen3-14B/eval_A_newPerson.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_self_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_self_s1_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_gold_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_hops_Qwen3-14B/eval_B_newCategory.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_self_Qwen3-14B/eval_C_bothNew.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_self_s1_Qwen3-14B/eval_C_bothNew.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_gold_Qwen3-14B/eval_C_bothNew.jsonl",
+    "/Users/danielweiyuchen/Desktop/Deepseek-猜想实验/inward/results/inward_hops_Qwen3-14B/eval_C_bothNew.jsonl"
+  ],
+  "classification_caveats": [
+    "These are model-reviewed labels, not independently validated human labels.",
+    "Historical alternatives count as ambiguous when no timeframe is specified; historical currency need not match birth year.",
+    "Coordinate alternatives without positive evidence are conservatively GENUINE.",
+    "q1/q2 labels inherit scorer sign/decimal false positives; not proof both facts are actually known.",
+    "Dataset birth_country itself can be wrong; contextual scorer-error labels do not certify birthplace metadata.",
+    "Do not multiply the sample genuine share into a population composition gap without separately cleaning denominator and q1/q2."
+  ],
+  "sources": {
+    "historical_estonia": "https://www.eestipank.ee/en/museum/history-estonian-money",
+    "historical_spain": "https://www.bde.es/wbe/es/areas-actuacion/billetes-monedas/historia-peseta/",
+    "historical_lithuania": "https://www.lb.lt/en/news/euro-changeover-successfully-completed-in-lithuania",
+    "historical_turkey": "https://www3.tcmb.gov.tr/ytlkampanya/ytlsitedokuman/tcmb/YTL-BoEJointFXC1.pdf",
+    "panama": "https://www.banconal.com.pa/wp-content/uploads/2025/04/EF2024English.pdf",
+    "historical_alexandria": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Alexandria_%28Egypt%29",
+    "historical_thebes": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Thebes_%28Egypt%29",
+    "historical_yangon": "https://www.ycdc.gov.mm/customized/magazine/FactsaboutYCDC2014.pdf",
+    "BAM_KM": "https://www.cbbh.ba/press/ShowNews/1129"
+  },
+  "local_runtime": {
+    "torch": "2.14.1",
+    "transformers": "5.18.0",
+    "peft": "0.21.2",
+    "tokenizers": "0.23.2"
+  },
+  "HPC_caveats": [
+    "No sbatch was run. Check total submitted jobs including queued before manual submission; must remain <=2 with <=1 running.",
+    "Single job runs fifteen settings serially with &&: keep-top 1/0.5/0.7 plus size-matched random 0.5/0.7, each train seed 0/1/2. Template 01:30:00 is likely insufficient for fifteen runs; set allowed wall time after checking partition limits.",
+    "C remains held out from target filtering; repeatedly selecting keep-top on C would turn it into development data. Select threshold with validation or report all prespecified settings.",
+    "Size-matched random filtering is included to separate confidence selection from reducing training data and steps; comparisons remain paired on fixed evaluation seed 0.",
+    "Local dependency versions differ from HPC peft 0.21.1; GPU run remains unverified."
+  ],
+  "tests": [
+    "Syntax parsed for new Python scripts; bash -n passed.",
+    "AUROC perfect/reversed/tied/single-class checks passed.",
+    "Original exp6 matches its backup SHA256.",
+    "Random tiny Qwen3 CPU end-to-end runs completed with keep-top 0.7 and 0.5; no scientific AUROC can be estimated from random targets.",
+    "Size-matched random keep-top 0.5 complete CPU smoke passed. Final script adds random control without changing default confidence path."
+  ],
+  "smoke_commands": {
+    "smoke_final_top05": "{\n  \"model\": \"random-tiny-Qwen3\",\n  \"items\": \"inward/results/exp1v2_Qwen3-14B/items.jsonl\",\n  \"data\": \"inward/data/compositional_celebrities.json\",\n  \"target\": \"self\",\n  \"out\": \"inward/results/handoff_analysis_20261003/smoke_final_top05\",\n  \"epochs\": 2,\n  \"lr\": 0.0001,\n  \"rank\": 2,\n  \"batch\": 2,\n  \"n_eval\": 2,\n  \"n_lens\": 1,\n  \"seed\": 0,\n  \"train_seed\": 0,\n  \"keep_top\": 0.5,\n  \"smoke_test\": true\n}",
+    "smoke_final_top07": "{\n  \"model\": \"random-tiny-Qwen3\",\n  \"items\": \"inward/results/exp1v2_Qwen3-14B/items.jsonl\",\n  \"data\": \"inward/data/compositional_celebrities.json\",\n  \"target\": \"self\",\n  \"out\": \"inward/results/handoff_analysis_20261003/smoke_final_top07\",\n  \"epochs\": 2,\n  \"lr\": 0.0001,\n  \"rank\": 2,\n  \"batch\": 2,\n  \"n_eval\": 2,\n  \"n_lens\": 1,\n  \"seed\": 0,\n  \"train_seed\": 0,\n  \"keep_top\": 0.7,\n  \"smoke_test\": true\n}",
+    "smoke_random_top05": "{\n  \"model\": \"random-tiny-Qwen3\",\n  \"items\": \"inward/results/exp1v2_Qwen3-14B/items.jsonl\",\n  \"data\": \"inward/data/compositional_celebrities.json\",\n  \"target\": \"self\",\n  \"out\": \"inward/results/handoff_analysis_20261003/smoke_random_top05\",\n  \"epochs\": 2,\n  \"lr\": 0.0001,\n  \"rank\": 2,\n  \"batch\": 2,\n  \"n_eval\": 2,\n  \"n_lens\": 1,\n  \"seed\": 0,\n  \"train_seed\": 0,\n  \"keep_top\": 0.5,\n  \"selection\": \"random\",\n  \"smoke_test\": true\n}"
+  }
+}

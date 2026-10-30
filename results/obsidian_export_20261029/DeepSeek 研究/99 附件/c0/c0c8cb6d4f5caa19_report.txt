@@ -1,0 +1,35 @@
+EXP12 V3 — cached outputs only; unchanged D references; 500 items per model.
+Post-hoc conservative automated score. Unsupported forms are flagged, not dropped.
+Model | composed old% -> new% | composed needs_review/500
+baseline: 48.80 -> 45.60; review=114
+context_s0: 51.40 -> 49.80; review=137
+direct_s0: 49.40 -> 45.60; review=126
+context_s1: 50.60 -> 49.60; review=135
+direct_s1: 48.80 -> 45.80; review=118
+context_s2: 54.00 -> 53.00; review=109
+direct_s2: 49.20 -> 46.60; review=116
+context_s3: 50.00 -> 48.80; review=153
+direct_s3: 49.80 -> 45.80; review=121
+context_s4: 51.00 -> 49.80; review=127
+direct_s4: 49.00 -> 44.80; review=126
+context_s5: 53.80 -> 52.60; review=109
+direct_s5: 49.40 -> 45.60; review=121
+original_012 composed old: context=52.0000%, direct=49.1333%, paired difference=+2.8667 pp, seed95=[-1.299976068307334, 7.033309401640668]
+original_012 composed new: context=50.8000%, direct=46.0000%, paired difference=+4.8000 pp, seed95=[1.32220720354954, 8.27779279645046]
+original_012 q1 old: context=82.3333%, direct=81.7333%, paired difference=+0.6000 pp, seed95=[-1.1913371790059175, 2.391337179005906]
+original_012 q1 new: context=83.5333%, direct=82.3333%, paired difference=+1.2000 pp, seed95=[0.2063449152998693, 2.193655084700127]
+original_012 q2 old: context=74.6000%, direct=74.9333%, paired difference=-0.3333 pp, seed95=[-3.6413741285977976, 2.9747074619311307]
+original_012 q2 new: context=74.8000%, direct=73.0667%, paired difference=+1.7333 pp, seed95=[-1.0029794059944273, 4.469646072661096]
+added_345 composed old: context=51.6000%, direct=49.4000%, paired difference=+2.2000 pp, seed95=[-3.034402961081073, 7.434402961081075]
+added_345 composed new: context=50.4000%, direct=45.4000%, paired difference=+5.0000 pp, seed95=[0.03172457649933769, 9.968275423500662]
+added_345 q1 old: context=82.5333%, direct=81.8667%, paired difference=+0.6667 pp, seed95=[-1.5736528058709767, 2.906986139204301]
+added_345 q1 new: context=83.7333%, direct=82.4000%, paired difference=+1.3333 pp, seed95=[-0.26374376895547424, 2.9304104356221408]
+added_345 q2 old: context=75.1333%, direct=74.8667%, paired difference=+0.2667 pp, seed95=[-2.728067553332333, 3.2614008866656548]
+added_345 q2 new: context=75.0000%, direct=73.0000%, paired difference=+2.0000 pp, seed95=[-1.477792796450478, 5.477792796450478]
+all_012345 composed old: context=51.8000%, direct=49.2667%, paired difference=+2.5333 pp, seed95=[0.7051855240800746, 4.361481142586593]
+all_012345 composed new: context=50.6000%, direct=45.7000%, paired difference=+4.9000 pp, seed95=[3.2755766780693554, 6.524423321930644]
+all_012345 q1 old: context=82.4333%, direct=81.8000%, paired difference=+0.6333 pp, seed95=[-0.13402349811328196, 1.4006901647799381]
+all_012345 q1 new: context=83.6333%, direct=82.3667%, paired difference=+1.2667 pp, seed95=[0.7582947967892951, 1.7750385365440362]
+all_012345 q2 old: context=74.8667%, direct=74.9000%, paired difference=-0.0333 pp, seed95=[-1.2744508970560715, 1.2077842303893993]
+all_012345 q2 new: context=74.9000%, direct=73.0333%, paired difference=+1.8667 pp, seed95=[0.6744289515047921, 3.058904381828542]
+No reference relabeling or human adjudication performed. No new training or prediction generation.

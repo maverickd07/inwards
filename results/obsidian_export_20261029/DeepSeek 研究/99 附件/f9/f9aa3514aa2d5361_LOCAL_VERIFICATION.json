@@ -1,0 +1,10 @@
+{
+  "random_tiny_Qwen3_full_pipeline": "passed twice, 21 fits each",
+  "production_data_manifest": "216 people / 864 questions / fixed A B C 500 each",
+  "branch_weights_and_target_producer_hash_checks": "passed",
+  "paired_tests": "54 primary C Holm + 42 C single-hop Holm",
+  "no_overwrite_and_corruption_rejection": "passed",
+  "14B_HPC_execution": "not submitted; not tested locally",
+  "quota_requirement_GB": 8,
+  "source_outputs_modified": false
+}

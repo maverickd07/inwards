@@ -1,0 +1,66 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 研究申请简历 PDF文字
+
+## 白话解释
+
+这是旧资料的文字版本，供搜索和核对来源；原文里的计划与说法保留当时状态。当前判断先看实验解读。
+
+> 历史 PDF 自动提取文字，保留页码。公式、列顺序和表格可能失真；精确阅读请打开原 PDF。
+
+## 第1页
+
+陈威宇 Daniel Chen
+weiyuchendaniel@gmail.com ・ github.com/maverickd07 ・ linkedin.com/in/daniel‑chen‑334294366 ・ 意大利米兰
+持续学习与模型自进化 大模型知识利用 机制可解释性 LLM Agent
+教育背景
+博科尼大学（Bocconi）× 巴黎高等商学院（HEC Paris） 双学位本科 2025 – 2028
+国际政治与政府（BIG）× HEC Bachelor ・ 米兰 → 巴黎
+・ 定量课程：机器学习、深度学习、数据分析、网络分析（Python / R）
+研究经历
+Auditing DeepIV: Relevance and Reliability Signals for Nonparametric IV Estimates 2026.07 – 至今
+第一作者 ・ W. Chen, S. Fetisov ・ 已投稿 ACM ICAIF 2026（审稿中） ・ github.com/maverickd07/auditing‑deepiv
+・ 问题与框架：提出研究问题与方法框架：深度工具变量模型是黑箱，现有弱工具变量检验无法直接使用，如何判断一次估
+计是否可信？与一位同学共同完成实验与论文。
+・ 方法：将最优传输与 bootstrap 两套工具组合为一套诊断体系。提出 Wasserstein 相关性指数（ι）度量工具变量强度，
+并通过对比 bootstrap 重抽样与不同随机种子间结构函数的拟合差异，构建可靠性信号。
+・ 结果：在 60 条独立拟合的流程上，仅用相关性指标预测估计失败的效果接近随机（留一交叉验证 AUC 0.43）；加入可靠
+性信号后 AUC 提升至 0.69，增益 +0.25，bootstrap 95% 置信区间不含零。
+・ 工程：共同搭建完整的 PyTorch DeepIV 流程（第一阶段为混合密度网络）与模拟框架，封装为可复用的 Python 诊断模
+块并撰写完整方法论文档；明确报告负面结果与设计退化问题。
+博科尼人工智能与神经科学学生协会（BAINSA） 2026.03 – 至今
+研究员 ・ 可解释性与敏感性分析
+・ 最优传输敏感性分析：开发基于最优传输的全局敏感性分析方法，用于神经网络特征归因；在协会内部以交互式可视化完
+成方法展示。
+・ 大模型可解释性研究计划： 撰写机制可解释性研究计划，提出两个原创方向： 幻觉图谱（定位模型内部与幻觉相关的表
+征）与跨架构电路普适性（检验相同功能电路是否在不同架构中重复出现）。
+・ 团队项目负责人： 主导可解释 AI 可信度研究，整合三类文献形成统一研究问题；设计可解释稀疏逻辑回归与 XGBoost +
+TreeSHAP 在 6,172 条样本再犯数据集上的对比实验，统筹实现与最终展示。
+技术经历
+RoxyBrowser ・ 中国深圳 2026.06 – 2026.08
+AI Agent 与自动化工程实习生
+・ Agent 迭代：测试并改进用于自动化数据采集的大模型 agent 流程，每条流程均经过多轮“运行—诊断—重写”迭代。
+・ 测试规范：编写团队共享测试规范，涵盖断点续跑、失败处理与操作节奏；将固定停顿改为随机化时序，使 agent 操作更
+接近真人行为。
+・ 系统重构：将旧版 RPA 脚本重构为 DOM 层级抽取，并在准确率与被检测风险两个维度上与旧版进行对比评测。
+项目与竞赛
+TouchMap × EchoSpace ・ BAINSA × Anthropic × Generali 无障碍黑客松（视障赛道） 2026.09
+独立开发 ・ github.com/maverickd07/EchoSpace_X_TouchMap
+・ 为视障用户设计的出行辅助系统：TouchMap（Vite + TypeScript）让用户在出发前通过触摸与声音探索街道布局；
+EchoSpace 利用 iPhone LiDAR 与 AirPods 空间音频，在出行途中提供实时环境感知。
+・ 作为赛道中唯一的个人参赛者，在 10 支队伍中进入前三，受邀现场演示。
+Bocconi Buddy ・ 博科尼 AI 黑客松（OpenAI × YellowTech） 2026
+・ 基于 RAG 的校园智能向导，配有 3D 交互前端；从约 300 支队伍中进入前 15，晋级意大利黑客松联赛全国总决赛（都
+灵，2026 年 10 月）。
+其他
+・ 学术服务：第七届 ACM 金融人工智能国际会议（ICAIF 2026）审稿人，2026.08 – 至今。
+・ 行业研究：在风险投资导师指导下，撰写覆盖中国初创公司的 AI 软硬件行业研究报告。
+・ 技术栈：Python（PyTorch、NumPy、scikit‑learn、matplotlib）、TypeScript、R；最优传输；bootstrap 与重抽样诊
+断；Git、LaTeX。
+・ 语言与奖项：中文（母语）、英语（流利）；数学竞赛 Euclid、Hypatia、Fermat（前 25%）。
+
+返回 [[00 研究首页]]

@@ -1,0 +1,32 @@
+{
+  "712907_scoring_records_recomputed": 2412,
+  "726630_scoring_records_recomputed": 12010,
+  "archives": [
+    {
+      "experiment": "exp21_latent_emergence_20261022",
+      "job": "712907",
+      "archive_sha256": "8f3355c8149ea6d696da891ddf28ac33a69e5c6d90797b4981711c684311075a",
+      "all_extracted_members_match": 43,
+      "frozen_protocol_matches_local": true
+    },
+    {
+      "experiment": "exp22_probe_20261029",
+      "job": "726630",
+      "archive_sha256": "7381ba1e13ec193fb590f982a84600a0b5dd8a36d2ba71cceacd532eafa25f49",
+      "all_extracted_members_match": 100,
+      "frozen_protocol_matches_local": true
+    }
+  ],
+  "exp22_unique_rows": 12010,
+  "probe_rows_checked": 15780,
+  "band_means_independently_recomputed": 840,
+  "person_groups_train_test": [
+    401,
+    221
+  ],
+  "cross_run_old_C0_raw_differences": 48,
+  "cross_run_old_C0_score_differences": 19,
+  "raw_activation_files_not_downloaded": true,
+  "probe_fit_or_activation_values_not_independently_refitted": true,
+  "remote_activation_bytes_recorded": 10084557440
+}

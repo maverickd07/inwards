@@ -1,0 +1,69 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_exp14_llama31_8b_20261015_HPC_COMMANDS.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/10/10c6ce20ab3c1088_HPC_COMMANDS.txt|HPC_COMMANDS.txt]]
+
+EXP14 CONFIGURATION REVIEW FIRST. No job has been submitted by the assistant.
+Review CONFIG.json and PROTOCOL.txt: 864 items,2epochs,batch8,216steps/fit,
+12fits,own Llama pretraining-sealed evaluation,v3,t95lower>0. Estimate2–4h compute
+(excludes download, queue and MuSiQue). The submission flag acknowledges that review.
+
+1. On your MAC, upload the prepared package:
+ssh 3355245@slogin.hpc.unibocconi.it 'mkdir -p ~/inward/results/exp14_llama31_8b_20261015'
+scp '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp14_llama31_8b_20261015/exp14_upload.tgz' 3355245@slogin.hpc.unibocconi.it:~/inward/results/exp14_llama31_8b_20261015/
+
+2. On HPC, extract once and verify (no model execution):
+cd ~/inward && \
+tar --keep-old-files -xzf results/exp14_llama31_8b_20261015/exp14_upload.tgz -C results/exp14_llama31_8b_20261015 && \
+(cd results/exp14_llama31_8b_20261015 && sha256sum -c SHA256SUMS)
+
+3. Your private login and pinned download. Keep the token out of chat, scripts and logs.
+eval "$(conda shell.bash hook)"
+conda activate inward
+hf auth login
+# If already logged in with the approved account, skip the login line.
+# Ensure a previous offline setting does not block this download process:
+cd ~/inward
+HF_HUB_OFFLINE=0 python results/exp14_llama31_8b_20261015/download_model.py
+# Qwen3-14B remains untouched. No second checkpoint copy in the experiment package.
+
+4. Only AFTER reviewing the configuration/time estimate, submit:
+cd ~/inward && \
+lquota > results/exp14_llama31_8b_20261015/quota_login.txt && \
+bash results/exp14_llama31_8b_20261015/submit.sh --configuration-reviewed
+
+The script resolves and verifies the MuSiQue job receipt, always sets afterany,
+refuses >=2 active jobs, checks package/model metadata/environment/quota, and saves
+the job receipt. If MuSiQue fails, afterany still permits exp14 to start as requested.
+If a check fails, preserve the output and ask for diagnosis; do not remove receipt
+or quota_ticket to force a retry. No model loading on login; no automatic resubmit.
+
+5. Monitor (only after a successful submission):
+cd ~/inward
+job=$(cut -d';' -f1 results/exp14_llama31_8b_20261015/submitted_job.txt)
+squeue -j "$job" -o '%.18i %.12P %.20j %.2t %.10M %R'
+sacct -j "$job" -X --format=JobID,JobName,State,ExitCode,Elapsed
+# Lightweight log reading:
+tail -n 40 "results/exp14_llama31_8b_20261015/exp14-${job}.out"
+# After completion:
+cat "results/exp14_llama31_8b_20261015/runs_${job}/complete.json"
+cat "results/exp14_llama31_8b_20261015/runs_${job}/analysis_v3/report.txt"
+
+6. On your MAC, download review files using the numeric JOBID reported above:
+# Replace JOBID with that number in both remote paths. Do not use the MuSiQue ID.
+mkdir -p '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp14_llama31_8b_20261015/received'
+scp 3355245@slogin.hpc.unibocconi.it:~/inward/results/exp14_llama31_8b_20261015/runs_JOBID_review.tgz '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp14_llama31_8b_20261015/received/'
+scp 3355245@slogin.hpc.unibocconi.it:~/inward/results/exp14_llama31_8b_20261015/runs_JOBID_review.tgz.sha256 '/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp14_llama31_8b_20261015/received/'
+
+No historical results or weights are deleted. A complete.json with smoke_test=true
+is only local software validation, never an experimental result.
+
+
+返回 [[00 研究首页]]

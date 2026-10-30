@@ -1,0 +1,3 @@
+NLL pairs 1 / 8
+generated 1 / 1
+{"passed": true, "matching_fixture_pairs": 8, "real_tiny_model_loss_records": 16, "shared_code_and_wrong_q1_checks": true, "NLL_equals_independent_gather": true, "parameters_unchanged": true}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-29",
+  "source_root": "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments",
+  "original_file_paths": 15735,
+  "unique_copied_files": 3511,
+  "copied_bytes": 1031822984,
+  "status_counts": {
+    "local_copy": 15396,
+    "external_model_or_tensor": 317,
+    "external_build_artifact": 10,
+    "external_large_source": 12
+  },
+  "project_conversations": 5,
+  "source_text_notes": 98,
+  "changed_during_export": [
+    "results/exp22_probe_20261029/local_smoke30_stdout.txt",
+    "results/exp22_probe_20261029/SHA256SUMS",
+    "results/exp22_probe_20261029/analyze.py"
+  ],
+  "cutoff": "initial inventory with per-file read timestamp; active exp22 may change later"
+}

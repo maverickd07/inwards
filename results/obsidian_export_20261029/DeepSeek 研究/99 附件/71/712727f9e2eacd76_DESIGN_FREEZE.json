@@ -1,0 +1,24 @@
+{
+  "stage": "Before any new 14B training; after fixed allocation; never revise based on outcomes",
+  "files": {
+    "ALLOCATION_FREEZE.json": "2f72a11cbb64c298a1bc5817a4bba33f4907bf7126bc31e8d0d069c00b6b234d",
+    "PROTOCOL.txt": "3b0b12ac0904e2655e84b709bc6ad834341e36bac85f72a16c8994d4e3daadb0",
+    "training_label_scorer.py": "ce05ddc7910cd04bcb1927f1b58bba8d9ce199860f53c8535d18ef0232fb4f89",
+    "training_label_policy.json": "3826a7f9b9291ed69420fdfea2ded42c10e0edce16f00258d759def49d933bd7",
+    "audit_training_labels.py": "1b177f9adf8f45cd4d5ff88dd35f6602bba325c3c511a5fe7962abcfb3065675",
+    "analyze.py": "aeb9291e81cb1c94541a4b4c41227f58c60babdf9b64a1fbdafe13d091ab401a",
+    "run_pipeline.py": "7a595038749421b180b97efe182116de5b9752216aaef247f563e73d2c9167e0",
+    "train_seed.py": "3dab998fd493735ed0fd9577ef29906d2a1456d0a41a4e6b4466d9ee6951642d",
+    "protocol.py": "e5a0b6dca8f858d232824bb8f71a05ea61393bc64b67ba8e6cb32df864190845",
+    "scorer_v3.py": "f6889015223eb114e1047c1d21d7208e2cc62928ab61fdd3a4e869e6fa6e1e3f",
+    "aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+    "reference_catalog.json": "a3121dee0c939f29cc60f8098225ee06198a23cdfc05bf13a5f73b445631bf25",
+    "SCORER_FREEZE.json": "8f90180033e874707616a9e71c3826e20fcfbadce32f72d46d294a519b82eb0a",
+    "exp12_v1.py": "71dd4471b6ca5dc4ce21a9ccd23ed266605b6d19b55f1761a212d55321795730",
+    "engine_exp11_v1.py": "4817d627053f55816657871893157705e13371f916f0ec19aa375ca4dedcfc09",
+    "exp1_gap_v2_v1.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "scoring_v2_v1.py": "7b98613af731cee77a90d16745fb28b89ed8de5c61db477458c1ba88eb0be8f5",
+    "engine_io.py": "87817037eb6116bce7680e2e0414be1df3d063b793cdadeaa9cf49bd5fcfb01f"
+  },
+  "training_label_policy_separate_from_eval_v3": true
+}

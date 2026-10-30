@@ -1,0 +1,38 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1022 13:09:50.167000 28647 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/14 [00:00<?, ?it/s]Loading weights: 100%|██████████| 14/14 [00:00<00:00, 9763.93it/s]
+exp19 pointer — LOCAL TINY RANDOM MODEL SMOKE, NOT QWEN3-14B RESULTS
+Paired question bootstrap B=20000, seed=20261022. No ratio clipping.
+Country errors: final-only conditions are unobservable (NA); proxy is answer consistency, not causal evidence.
+Historical currency is incorrect; REVIEW primary=incorrect. Reference snapshot discrepancies=0.
+
+D500_known313: n=3, C0 failures=3
+C3-C0=0.000000, 95% CI=[0.0, 0.0]; nonpositive bootstrap denominators=100.0000%
+C0: accuracy=0.0000% (0/3), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=3, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C1: accuracy=0.0000% (0/3), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=3, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C1-ctrl: accuracy=0.0000% (0/3), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=3, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C2: accuracy=0.0000% (0/3), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=3, repairs=0, regressions=0; on C0 failures explicit wrong-country=0.0, unknown=3, proxy=0.0
+C3: accuracy=0.0000% (0/3), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=3, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C1 minus control: {"accuracy_difference": 0.0, "accuracy_difference_ci95": [0.0, 0.0], "recovery_difference": null, "recovery_difference_ci95": null}
+Prediction point threshold plus control: False
+Strong selection-consistent support: False
+Low recovery threshold support: False
+All REVIEW-correct sensitivity: {"C0": {"accuracy": 1.0, "recovery": null}, "C1": {"accuracy": 1.0, "recovery": null}, "C1-ctrl": {"accuracy": 1.0, "recovery": null}, "C2": {"accuracy": 1.0, "recovery": null}, "C3": {"accuracy": 1.0, "recovery": null}}
+Ratio CI UNSTABLE: conditional interval only in summary.json; no unconditional 95% claim.
+
+fixed303: n=2, C0 failures=2
+C3-C0=0.000000, 95% CI=[0.0, 0.0]; nonpositive bootstrap denominators=100.0000%
+C0: accuracy=0.0000% (0/2), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=2, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C1: accuracy=0.0000% (0/2), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=2, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C1-ctrl: accuracy=0.0000% (0/2), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=2, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C2: accuracy=0.0000% (0/2), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=2, repairs=0, regressions=0; on C0 failures explicit wrong-country=0.0, unknown=2, proxy=0.0
+C3: accuracy=0.0000% (0/2), 95% CI=[0.0, 0.0]; recovery=None, 95% CI=None; historical=0, review=2, repairs=0, regressions=0; on C0 failures explicit wrong-country=NA, unknown=None, proxy=0.0
+C1 minus control: {"accuracy_difference": 0.0, "accuracy_difference_ci95": [0.0, 0.0], "recovery_difference": null, "recovery_difference_ci95": null}
+Prediction point threshold plus control: False
+Strong selection-consistent support: False
+Low recovery threshold support: False
+All REVIEW-correct sensitivity: {"C0": {"accuracy": 1.0, "recovery": null}, "C1": {"accuracy": 1.0, "recovery": null}, "C1-ctrl": {"accuracy": 1.0, "recovery": null}, "C2": {"accuracy": 1.0, "recovery": null}, "C3": {"accuracy": 1.0, "recovery": null}}
+Ratio CI UNSTABLE: conditional interval only in summary.json; no unconditional 95% claim.
+
+Stop at this stage. Prompt effects do not uniquely distinguish internal selection from retrieval. Fixed303 contains prior-selected items; the two sets overlap.
+

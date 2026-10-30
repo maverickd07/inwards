@@ -1,0 +1,7 @@
+{
+  "derived_from": "baseline only; before any adapter inference",
+  "items_sha256": "fcb13d310fb645ab9dfe4c927042e86b7821390473b148d186eb3bd85a1fa360",
+  "all_oracle_hops_correct_ids": [],
+  "all_hops_correct_but_composed_wrong_ids": [],
+  "policy": "Secondary diagnostic, never replace fixed full two-hop primary denominator; public aliases and oracle bridge inputs limit knowledge interpretation."
+}

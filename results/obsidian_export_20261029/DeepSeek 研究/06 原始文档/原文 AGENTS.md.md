@@ -1,0 +1,42 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 AGENTS.md
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/5e/5e0526b0598f815f_AGENTS.md|AGENTS.md]]
+
+# Research collaboration preferences
+
+## Experimental decision cadence
+
+The user prefers bounded stages of experiments. At a pre-agreed experiment count or a sufficiently informative result, stop expanding the experiment series and make an explicit decision: continue, revise the approach, reject a hypothesis, or pause the direction. Do not automatically propose or implement an indefinitely growing series of controls.
+
+Distinguish rejecting a particular mechanism or method from rejecting the broader research direction. Evaluate positive effects, negative results, uncertainty, practical effect size, reproducibility, and resource costs together. Do not optimize for either confirming or falsifying the user's hypothesis.
+
+## Current milestone — agreed 2026-10-05
+
+Complete through exp11_iterate and use its results as a stage-end benchmark/checkpoint. After exp11, consolidate exp1–exp11 evidence and decide the next route with the user before initiating exp12 or a new experiment series. This is a decision checkpoint, not a new benchmark dataset and not a requirement that the broad hypothesis be resolved by exp11.
+
+Continue observing INWARD_HANDOFF.md section 7 and the user's result-preservation and HPC constraints. Record unresolved or unverified evidence explicitly.
+
+## Current direction — agreed 2026-10-16
+
+The user has authorized and completed the exp12/exp13 stages after the earlier exp11 checkpoint. Preserve exp13 MuSiQue as a fixed, already-inspected external transfer benchmark; do not tune on it or automatically rerun/expand its experiments. The research priority is now diagnosing the causes of the original knowledge-composition failures before choosing targeted repairs. Distinguish scoring/reference errors, knowledge gaps, retrieval/composition hypotheses, and direct causal evidence; do not presume a unique root cause.
+
+The user reports exp14 Llama is already running. Preserve its frozen protocol and analyze it upon completion; this direction change does not cancel that run or authorize additional HPC experiments. Make a bounded decision with the user after diagnostic consolidation before implementing a new repair series. See `results/research_decision_20261016/DECISION_ZH.txt` for the decision and evidence boundaries.
+
+## HPC handoff preference — agreed 2026-10-22
+
+There is no HPC bridge or agent-side upload/authentication setup. Prepare and
+validate experiment packages locally, then give the user copyable upload and
+submission commands. The user uploads and submits on HPC. Do not ask them to
+configure SSH keys/agents for Codex. Report a job ID only after an actual user
+submission receipt is available; never imply that packaging is submission.
+
+
+返回 [[00 研究首页]]

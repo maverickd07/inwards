@@ -1,0 +1,14 @@
+{
+  "inference_complete": true,
+  "analysis_complete": true,
+  "smoke": false,
+  "variants": [
+    "base",
+    "context_s0",
+    "context_s1",
+    "direct_s0",
+    "direct_s1"
+  ],
+  "rows_per_variant": 2402,
+  "all_weights_frozen": true
+}

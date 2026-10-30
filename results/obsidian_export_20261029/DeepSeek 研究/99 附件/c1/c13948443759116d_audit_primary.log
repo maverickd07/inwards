@@ -1,0 +1,434 @@
+{
+  "scope": "all 65 primary D scorer-flip pairs; 149 flip records across six fits",
+  "review_status": "model-assisted answer-change audit; independent human semantic labels pending",
+  "blinding": "X/Y identities randomized; aggregate group outcomes already known; not fully blinded independent adjudication",
+  "type_counts": {
+    "representation_or_alias": 19,
+    "phone_vs_numeric_code_system": 7,
+    "historical_currency_or_time_convention": 6,
+    "different_country_currency_or_domain_content": 28,
+    "scoring_or_answer_ambiguity": 5
+  },
+  "net_scorer_contributions": [
+    {
+      "condition": "context",
+      "type": "different_country_currency_or_domain_content",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 13,
+          "damages": 6,
+          "net_pp": 1.4
+        },
+        {
+          "seed": 1,
+          "repairs": 11,
+          "damages": 3,
+          "net_pp": 1.6
+        },
+        {
+          "seed": 2,
+          "repairs": 19,
+          "damages": 1,
+          "net_pp": 3.6
+        }
+      ],
+      "mean_net_scorer_pp": 2.2
+    },
+    {
+      "condition": "context",
+      "type": "historical_currency_or_time_convention",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 6,
+          "damages": 0,
+          "net_pp": 1.2
+        },
+        {
+          "seed": 1,
+          "repairs": 5,
+          "damages": 0,
+          "net_pp": 1.0
+        },
+        {
+          "seed": 2,
+          "repairs": 5,
+          "damages": 0,
+          "net_pp": 1.0
+        }
+      ],
+      "mean_net_scorer_pp": 1.0666666666666667
+    },
+    {
+      "condition": "context",
+      "type": "phone_vs_numeric_code_system",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 0,
+          "damages": 5,
+          "net_pp": -1.0
+        },
+        {
+          "seed": 1,
+          "repairs": 0,
+          "damages": 7,
+          "net_pp": -1.4
+        },
+        {
+          "seed": 2,
+          "repairs": 0,
+          "damages": 1,
+          "net_pp": -0.2
+        }
+      ],
+      "mean_net_scorer_pp": -0.8666666666666667
+    },
+    {
+      "condition": "context",
+      "type": "representation_or_alias",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 9,
+          "damages": 6,
+          "net_pp": 0.6
+        },
+        {
+          "seed": 1,
+          "repairs": 6,
+          "damages": 5,
+          "net_pp": 0.2
+        },
+        {
+          "seed": 2,
+          "repairs": 8,
+          "damages": 5,
+          "net_pp": 0.6
+        }
+      ],
+      "mean_net_scorer_pp": 0.4666666666666667
+    },
+    {
+      "condition": "context",
+      "type": "scoring_or_answer_ambiguity",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 2,
+          "damages": 0,
+          "net_pp": 0.4
+        },
+        {
+          "seed": 1,
+          "repairs": 2,
+          "damages": 0,
+          "net_pp": 0.4
+        },
+        {
+          "seed": 2,
+          "repairs": 2,
+          "damages": 1,
+          "net_pp": 0.2
+        }
+      ],
+      "mean_net_scorer_pp": 0.33333333333333337
+    },
+    {
+      "condition": "direct",
+      "type": "different_country_currency_or_domain_content",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 3,
+          "damages": 1,
+          "net_pp": 0.4
+        },
+        {
+          "seed": 1,
+          "repairs": 2,
+          "damages": 1,
+          "net_pp": 0.2
+        },
+        {
+          "seed": 2,
+          "repairs": 3,
+          "damages": 0,
+          "net_pp": 0.6
+        }
+      ],
+      "mean_net_scorer_pp": 0.4
+    },
+    {
+      "condition": "direct",
+      "type": "historical_currency_or_time_convention",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 0,
+          "damages": 0,
+          "net_pp": 0.0
+        },
+        {
+          "seed": 1,
+          "repairs": 0,
+          "damages": 0,
+          "net_pp": 0.0
+        },
+        {
+          "seed": 2,
+          "repairs": 0,
+          "damages": 0,
+          "net_pp": 0.0
+        }
+      ],
+      "mean_net_scorer_pp": 0.0
+    },
+    {
+      "condition": "direct",
+      "type": "phone_vs_numeric_code_system",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 0,
+          "damages": 0,
+          "net_pp": 0.0
+        },
+        {
+          "seed": 1,
+          "repairs": 0,
+          "damages": 0,
+          "net_pp": 0.0
+        },
+        {
+          "seed": 2,
+          "repairs": 0,
+          "damages": 0,
+          "net_pp": 0.0
+        }
+      ],
+      "mean_net_scorer_pp": 0.0
+    },
+    {
+      "condition": "direct",
+      "type": "representation_or_alias",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 2,
+          "damages": 2,
+          "net_pp": 0.0
+        },
+        {
+          "seed": 1,
+          "repairs": 0,
+          "damages": 0,
+          "net_pp": 0.0
+        },
+        {
+          "seed": 2,
+          "repairs": 1,
+          "damages": 1,
+          "net_pp": 0.0
+        }
+      ],
+      "mean_net_scorer_pp": 0.0
+    },
+    {
+      "condition": "direct",
+      "type": "scoring_or_answer_ambiguity",
+      "by_seed": [
+        {
+          "seed": 0,
+          "repairs": 2,
+          "damages": 1,
+          "net_pp": 0.2
+        },
+        {
+          "seed": 1,
+          "repairs": 0,
+          "damages": 1,
+          "net_pp": -0.2
+        },
+        {
+          "seed": 2,
+          "repairs": 0,
+          "damages": 1,
+          "net_pp": -0.2
+        }
+      ],
+      "mean_net_scorer_pp": -0.06666666666666667
+    }
+  ],
+  "context_minus_direct_contribution_pp": {
+    "different_country_currency_or_domain_content": 1.8000000000000003,
+    "historical_currency_or_time_convention": 1.0666666666666667,
+    "phone_vs_numeric_code_system": -0.8666666666666667,
+    "representation_or_alias": 0.4666666666666667,
+    "scoring_or_answer_ambiguity": 0.4
+  },
+  "posthoc_item_exclusion_sensitivity": {
+    "exclude_representation_items": {
+      "n_kept": 481,
+      "condition_gain_pp": {
+        "context": {
+          "values": [
+            2.079002079002079,
+            1.6632016632016633,
+            4.781704781704781
+          ],
+          "mean": 2.8413028413028414,
+          "sample_sd": 1.6932490260388933,
+          "seed_t95": [
+            -1.3649609196648917,
+            7.0475666022705745
+          ]
+        },
+        "direct": {
+          "values": [
+            0.6237006237006237,
+            0.0,
+            0.4158004158004158
+          ],
+          "mean": 0.3465003465003465,
+          "sample_sd": 0.317572813233253,
+          "seed_t95": [
+            -0.4423942550790218,
+            1.1353949480797147
+          ]
+        }
+      },
+      "context_minus_direct_pp": {
+        "values": [
+          1.4553014553014554,
+          1.6632016632016633,
+          4.365904365904366
+        ],
+        "mean": 2.494802494802495,
+        "sample_sd": 1.6237525313735248,
+        "seed_t95": [
+          -1.5388224029325404,
+          6.52842739253753
+        ]
+      }
+    },
+    "exclude_representation_temporal_ambiguous_items": {
+      "n_kept": 472,
+      "condition_gain_pp": {
+        "context": {
+          "values": [
+            0.423728813559322,
+            0.211864406779661,
+            3.6016949152542375
+          ],
+          "mean": 1.4124293785310735,
+          "sample_sd": 1.8989166186085809,
+          "seed_t95": [
+            -3.3047410052239226,
+            6.12959976228607
+          ]
+        },
+        "direct": {
+          "values": [
+            0.423728813559322,
+            0.211864406779661,
+            0.635593220338983
+          ],
+          "mean": 0.423728813559322,
+          "sample_sd": 0.211864406779661,
+          "seed_t95": [
+            -0.10257154909964639,
+            0.9500291762182904
+          ]
+        }
+      },
+      "context_minus_direct_pp": {
+        "values": [
+          0.0,
+          0.0,
+          2.9661016949152543
+        ],
+        "mean": 0.9887005649717514,
+        "sample_sd": 1.7124796120031274,
+        "seed_t95": [
+          -3.2653346198087925,
+          5.2427357497522955
+        ]
+      }
+    },
+    "exclude_only_verified_birthplace_conflicts": {
+      "n_kept": 496,
+      "condition_gain_pp": {
+        "context": {
+          "values": [
+            2.620967741935484,
+            1.814516129032258,
+            5.241935483870968
+          ],
+          "mean": 3.2258064516129035,
+          "sample_sd": 1.7919746809104011,
+          "seed_t95": [
+            -1.22570543173839,
+            7.6773183349641965
+          ]
+        },
+        "direct": {
+          "values": [
+            0.6048387096774194,
+            0.0,
+            0.4032258064516129
+          ],
+          "mean": 0.33602150537634407,
+          "sample_sd": 0.3079687967040215,
+          "seed_t95": [
+            -0.4290153965584868,
+            1.1010584073111749
+          ]
+        }
+      },
+      "context_minus_direct_pp": {
+        "values": [
+          2.0161290322580645,
+          1.814516129032258,
+          4.838709677419355
+        ],
+        "mean": 2.889784946236559,
+        "sample_sd": 1.6908260249205813,
+        "seed_t95": [
+          -1.3104597462775622,
+          7.09002963875068
+        ]
+      }
+    }
+  },
+  "verified_reference_sources": [
+    {
+      "person": "Nikola Tesla",
+      "dataset_birth_country": "Serbia",
+      "verified_statement": "Nikola Tesla Museum identifies his birth village as Smiljan in the then Austrian Empire; Tesla Science Center identifies the site as modern-day Croatia.",
+      "urls": [
+        "https://tesla-museum.org/en/extraordinary-world/birthplace/",
+        "https://teslasciencecenter.org/staging/pivotalmoments/birth/"
+      ],
+      "status": "reference birthplace contradicted; no relabeling of headline benchmark"
+    },
+    {
+      "person": "Domantas Sabonis",
+      "dataset_birth_country": "Lithuania",
+      "verified_statement": "Sacramento Kings official NBA media guide lists Portland, Oregon as birthplace.",
+      "urls": [
+        "https://cdn.nba.com/teams/uploads/sites/1610612758/2022/10/22-23SacramentoKingsMediaGuide.pdf"
+      ],
+      "status": "reference birthplace contradicted; no relabeling of headline benchmark"
+    }
+  ],
+  "verified_reference_conflict_D_items": 4,
+  "limits": [
+    "Types describe semantic changes in answer strings, not independently verified factual repairs.",
+    "Decomposition uses signed scorer repairs and damages with fixed denominator 500; no cross-seed pooling as independent questions.",
+    "Item exclusions were chosen after seeing flips; estimates are descriptive sensitivity only, not new confirmatory p-values.",
+    "Non-flipping errors and A/B/C answer pairs have not received the same per-pair review.",
+    "Different content can be more correct, less correct, or equally wrong; mechanisms remain unidentified."
+  ]
+}

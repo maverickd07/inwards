@@ -1,0 +1,43 @@
+{
+  "condition": "category_random50",
+  "target_cache_sha256": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d",
+  "n_pool": 864,
+  "n_kept": 432,
+  "target_changed_n": 0,
+  "target_changed_share": 0.0,
+  "assigned_target_correct_n": 228,
+  "assigned_target_correct_share": 0.5277777777777778,
+  "original_pool_target_correct_share": 0.5150462962962963,
+  "original_target_auroc": 0.7215574803571907,
+  "uses_gold_for_allocation": false,
+  "category_counts": {
+    "birthplace_callingcode": {
+      "available": 216,
+      "kept": 108,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 81,
+      "original_target_correct_n": 81
+    },
+    "birthplace_capital": {
+      "available": 216,
+      "kept": 108,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 79,
+      "original_target_correct_n": 79
+    },
+    "birthplace_rounded_lat": {
+      "available": 216,
+      "kept": 108,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 40,
+      "original_target_correct_n": 40
+    },
+    "birthplace_rounded_lng": {
+      "available": 216,
+      "kept": 108,
+      "target_changed_n": 0,
+      "assigned_target_correct_n": 28,
+      "original_target_correct_n": 28
+    }
+  }
+}

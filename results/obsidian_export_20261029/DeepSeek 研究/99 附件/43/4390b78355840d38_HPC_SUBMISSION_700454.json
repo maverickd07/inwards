@@ -1,0 +1,26 @@
+{
+  "job_id": "700454",
+  "experiment": "exp12_sources_20261014_v2",
+  "partition": "stud",
+  "observed_date": "2026-10-14",
+  "observed_local_time_approx": "14:36 Europe/Rome",
+  "evidence": "User-provided terminal screenshot; not a live scheduler query",
+  "submission_confirmed": true,
+  "observed_state": "PD",
+  "observed_elapsed": "0:00",
+  "training_started_verified": false,
+  "preflight_passed": true,
+  "model_shards": 8,
+  "model_shard_size_gib": 27.51,
+  "quota_free_gb": 46.5,
+  "hpc_versions": {
+    "torch": "2.13.0",
+    "transformers": "5.17.0",
+    "peft": "0.21.1",
+    "numpy": "2.3.5",
+    "accelerate": "1.15.0"
+  },
+  "remote_results": "~/inward/results/exp12_sources_20261014_v2/runs_700454",
+  "remote_log": "~/inward/results/exp12_sources_20261014_v2/exp12-700454.out",
+  "scope": "Six planned fits; no further experiment authorized. Compute-node startup and completed outcomes remain unverified."
+}

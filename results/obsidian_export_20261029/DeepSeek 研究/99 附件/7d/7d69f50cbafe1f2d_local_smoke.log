@@ -1,0 +1,45 @@
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/reused_700454 --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/context_s3 --train-seed 3 --condition context --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/reused_700454 --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/direct_s3 --train-seed 3 --condition direct --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/reused_700454 --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/context_s4 --train-seed 4 --condition context --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/reused_700454 --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/direct_s4 --train-seed 4 --condition direct --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/reused_700454 --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/context_s5 --train-seed 5 --condition context --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/train_seed.py --source /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/reused_700454 --model results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_seed345_20261014/local_smoke/direct_s5 --train-seed 5 --condition direct --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+D_reservedC 0 / 2
+COMPLETE: six added fits (3,4,5 x context/direct); D=2
+Original frozen scorer only; baseline and targets reused; no regeneration.
+Seed intervals are across fits; not independent question replications.
+Baseline: {'composed_ok': 0, 'q1_ok': 0, 'q2_ok': 0}
+Per-seed accuracy (%):
+seed=0 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=0 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=1 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=1 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=2 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=2 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=3 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=3 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=4 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=4 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=5 context: composed=0.0000, hop1=0.0000, hop2=0.0000
+seed=5 direct: composed=0.0000, hop1=0.0000, hop2=0.0000
+original_012 composed_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+original_012 q1_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+original_012 q2_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+added_345 composed_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+added_345 q1_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+added_345 q2_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+all_012345 composed_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+all_012345 q1_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+all_012345 q2_ok: context=0.0000% SD=0.0000; direct=0.0000% SD=0.0000; paired diff=+0.0000 pp, seed95=[0.0, 0.0]
+SEED EXTENSION COMPLETE. Original scorer only; awaiting new scorer.

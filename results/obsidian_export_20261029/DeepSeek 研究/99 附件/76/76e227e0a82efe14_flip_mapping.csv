@@ -1,0 +1,915 @@
+audit_id,condition,seed,split,category,person,direction,before,after,surface_only_candidate,manual_semantics_status
+069da5b39f9b91a2168f,context,0,A_newPerson,birthplace_capital,Vladimir Lenin,repair,Simbirsk,Moscow,False,pending
+c37e029c7f746585a8f1,context,0,A_newPerson,birthplace_rounded_lat,Franz Kafka,repair,50,49,False,pending
+793be0ac4698f6816e7e,context,0,A_newPerson,birthplace_capital,Chinua Achebe,repair,Lagos,Abuja,False,pending
+82885d2ac8164895f3bf,context,0,A_newPerson,birthplace_capital,Yip Man,repair,Foshan,Beijing,False,pending
+c0e62aa0032e5e3b7a78,context,0,A_newPerson,birthplace_rounded_lng,Achraf Hakimi,repair,-5.5,-5,False,pending
+1aa4348cc39504d8c36d,context,0,A_newPerson,birthplace_rounded_lat,Usain Bolt,repair,10,18° N,False,pending
+8beda938cda905e4e966,context,0,A_newPerson,birthplace_capital,Jacques Derrida,damage,Algiers,Paris,False,pending
+d1f9e7845c004a237bd4,context,0,A_newPerson,birthplace_rounded_lat,Ferenc Puskás,damage,47,46,False,pending
+59e88141ec84771b17c0,context,0,A_newPerson,birthplace_rounded_lat,Robert Herjavec,repair,49,45,False,pending
+327f4b94a5cb72edbe5b,context,0,A_newPerson,birthplace_rounded_lng,Bjork,repair,-21,-18,False,pending
+b26f4a1ea1d3efbbf098,context,0,A_newPerson,birthplace_capital,Napoleon Bonaparte,repair,Ajaccio,Paris,False,pending
+68ddf98dcf1d0e890ad1,context,0,A_newPerson,birthplace_capital,Franz Liszt,repair,Hungary,Budapest,False,pending
+f382ae9ca3db9e338e7b,context,0,A_newPerson,birthplace_capital,Aloysius Pang,damage,Singapore,Kuala Lumpur,False,pending
+bb17153d9b83fe9b03c3,context,0,A_newPerson,birthplace_capital,Vincent van Gogh,repair,The Hague,Amsterdam,False,pending
+9571f505763795bff4b9,context,0,A_newPerson,birthplace_rounded_lat,Carlos Slim,damage,23,19° N,False,pending
+6134f1e6dd1bbad4b5f3,context,0,A_newPerson,birthplace_capital,Salvador Dali,repair,Figueres,Madrid,False,pending
+5536b1cccf1d12a45670,context,0,A_newPerson,birthplace_callingcode,Angela Sarafyan,repair,+1,+374,False,pending
+3a9262ba9c1e01320333,context,0,A_newPerson,birthplace_rounded_lat,Thuy Trang,repair,10,16,False,pending
+bdd5359c0b7beb3ffb4b,context,0,A_newPerson,birthplace_rounded_lat,Osman I,repair,40,39,False,pending
+7868b48b0f09cd52bd99,context,0,A_newPerson,birthplace_rounded_lng,Norodom Sihamoni,repair,104,105,False,pending
+0a6a463ed437558b056b,context,0,A_newPerson,birthplace_capital,Rodrigo Duterte,repair,Davao City,Manila,False,pending
+035fc36a062d3288e014,context,0,A_newPerson,birthplace_rounded_lng,Mala Sinha,repair,82,77.0,False,pending
+64a8b34144e819a96437,context,0,A_newPerson,birthplace_rounded_lat,Steve Irwin,damage,-27,-30,False,pending
+dde84ae1dbfa2c78e7ca,context,0,A_newPerson,birthplace_capital,Jack Ma,repair,Hangzhou,Beijing,False,pending
+05b45bfb7188d6b3742a,context,0,A_newPerson,birthplace_callingcode,Tina Turner,damage,+1,+41,False,pending
+8ffb27118ba781a18a91,context,0,A_newPerson,birthplace_capital,Julian Assange,repair,London,Canberra,False,pending
+46916c44171d55080a7e,context,0,A_newPerson,birthplace_callingcode,Nikola Tesla,damage,381,+387,False,pending
+8ac11acf919eca07ed45,context,0,A_newPerson,birthplace_callingcode,Jigme Dorji Wangchuck,damage,+975,+93,False,pending
+84679a8fe2ef5eeda03e,context,0,A_newPerson,birthplace_rounded_lat,Natalie Portman,repair,34,31,False,pending
+1e913a1ac6d42becd028,context,0,A_newPerson,birthplace_rounded_lng,Lee Hsien Loong,damage,103,100,False,pending
+4dc20d1d770a1328ea3d,context,0,A_newPerson,birthplace_callingcode,Albert Einstein,repair,+41,+49,False,pending
+9f555968c5ecc37e5c6c,context,0,A_newPerson,birthplace_rounded_lat,Jakaya Kikwete,repair,6.5,6° S,False,pending
+f3368755433153f667fd,context,0,A_newPerson,birthplace_rounded_lat,Jean-Claude Van Damme,repair,51,50,False,pending
+4fef2af719836ecdc782,context,0,A_newPerson,birthplace_rounded_lng,Tutankhamun,repair,32,30° E,False,pending
+864863e315b24be6d0f8,context,0,A_newPerson,birthplace_capital,Vlad the Impaler,repair,Sighisoara,Bucharest,False,pending
+6386016efb34fbfe8dad,context,0,A_newPerson,birthplace_capital,Svetlana Boginskaya,damage,Minsk,Moscow,False,pending
+aa2509766c3950dd1e03,context,0,A_newPerson,birthplace_capital,Carl Jung,repair,Lausanne,Bern,False,pending
+8611d631a73d1a28fc10,context,0,A_newPerson,birthplace_rounded_lat,Cristiano Ronaldo,repair,41,39,False,pending
+d14d895e81670059782e,context,0,A_newPerson,birthplace_rounded_lat,Tony Jaa,repair,13,15,False,pending
+eb63feb79a4760691cbe,context,0,A_newPerson,birthplace_capital,Bobby Fischer,repair,Reykjavik,"Washington, D.C.",False,pending
+f77acbbd00fa710957be,context,0,A_newPerson,birthplace_capital,Albert Einstein,repair,Ulm,Berlin,False,pending
+a62c4e5e241b4d2235d0,context,0,A_newPerson,birthplace_capital,Galileo Galilei,repair,Pisa,Rome,False,pending
+0446ac9063f6a55495c1,context,0,A_newPerson,birthplace_rounded_lng,Norodom Sihanouk,repair,104,105,False,pending
+b48ad2ef72d42400265c,context,0,A_newPerson,birthplace_callingcode,Mila Kunis,damage,+380,+7,False,pending
+4bfc37c11e33937a2a90,context,0,A_newPerson,birthplace_callingcode,Daniel Day-Lewis,repair,+353,+44,False,pending
+2c81a957b47ad87b5efe,context,0,A_newPerson,birthplace_rounded_lng,Aristotle,repair,34,22,False,pending
+c3584ff99afdc255c259,context,0,A_newPerson,birthplace_capital,Christopher Columbus,repair,Genoa,Rome,False,pending
+58edd0e134a56f99e922,context,0,A_newPerson,birthplace_callingcode,Shakhriyar Mamedyarov,repair,+993,+994,False,pending
+149bbdb8c7a7fc60e3bd,context,0,A_newPerson,birthplace_rounded_lat,Mala Sinha,repair,25,20,False,pending
+bc5db72ae79da0b2bb06,context,0,A_newPerson,birthplace_callingcode,Eriq Zavaleta,damage,+1,+595,False,pending
+0ce4a526d559981e79a5,context,0,A_newPerson,birthplace_capital,Luis Suarez,damage,Montevideo,Asunción,False,pending
+bde481ea581bc7a4340a,context,0,A_newPerson,birthplace_rounded_lat,Paul Keres,repair,58,59,False,pending
+ded83e7fcb260e793bbf,context,0,A_newPerson,birthplace_capital,Cleopatra,repair,Alexandria,Cairo,False,pending
+b47e951fd385e11e1aea,context,0,A_newPerson,birthplace_rounded_lat,Anett Kontaveit,repair,58,59.0,False,pending
+df95796df3fc5c94333f,context,0,A_newPerson,birthplace_capital,Mia Khalifa,repair,Lebanon,Beirut,False,pending
+0d89f262d10708913f36,context,0,A_newPerson,birthplace_capital,Brian Lara,repair,Trinidad and Tobago,Port of Spain,False,pending
+1a68c71ac3d78b428066,context,0,A_newPerson,birthplace_capital,Cristiano Ronaldo,repair,Madrid,Lisbon,False,pending
+1a26ce59bcbe1299c550,context,0,A_newPerson,birthplace_rounded_lat,Luka Dončić,damage,46,45,False,pending
+b9d6a64904fc52726576,context,0,A_newPerson,birthplace_callingcode,Jigme Singye Wangchuck,damage,+975,+93,False,pending
+7194d58d7eca7ca3ebfb,context,0,A_newPerson,birthplace_rounded_lng,Marek Hamšík,repair,18,19,False,pending
+a00fcc49bb89af083fcd,context,0,A_newPerson,birthplace_rounded_lng,Natti Natasha,repair,-75,-70,False,pending
+54be21d7cb6266168d8d,context,0,A_newPerson,birthplace_callingcode,Keanu Reeves,repair,64,+1,False,pending
+8920c0925b2ab1e291af,context,0,A_newPerson,birthplace_callingcode,Aloysius Pang,damage,+65,+60,False,pending
+339f9589b910bca24b31,context,0,A_newPerson,birthplace_rounded_lng,Jackie Chan,damage,114,116,False,pending
+f12688cbb535af584f6c,context,0,A_newPerson,birthplace_capital,Ricky Martin,damage,San Juan,Santo Domingo,False,pending
+7e010aed387f9791de2b,context,0,A_newPerson,birthplace_rounded_lat,Virat Kohli,repair,28,20,False,pending
+1d90215f46fa422e1d3b,context,0,A_newPerson,birthplace_capital,Confucius,repair,Qufu,Beijing,False,pending
+37b35fc5fa059b14b5ce,context,0,A_newPerson,birthplace_rounded_lng,Jigme Singye Wangchuck,repair,88,90° E,False,pending
+80aa1f9c37c8a400bf2a,context,0,A_newPerson,birthplace_rounded_lng,André the Giant,repair,43,2,False,pending
+31562e10445282c48176,context,0,A_newPerson,birthplace_rounded_lat,Robert Lewandowski,repair,51,52,False,pending
+baee34a3da2f8d3643f2,context,0,A_newPerson,birthplace_capital,Natalie Portman,repair,Tel Aviv,Jerusalem,False,pending
+978c5591e0a9f1837850,context,0,A_newPerson,birthplace_rounded_lng,Jigme Dorji Wangchuck,repair,89,90° E,False,pending
+e7ae445fbf6382af16ba,context,0,A_newPerson,birthplace_rounded_lng,Mohamed Salah,repair,31,30,False,pending
+eff96acfc7d26c88ebf2,context,0,A_newPerson,birthplace_rounded_lng,Niels Bohr,repair,12,10,False,pending
+1e12107a68d9c5fae3e0,context,0,A_newPerson,birthplace_rounded_lng,Omar Torrijos,repair,-82,-80,False,pending
+07276360d25ba969204f,context,0,A_newPerson,birthplace_capital,Ludwig van Beethoven,repair,Bonn,Berlin,False,pending
+23d64f0779dcb4c1b736,context,0,A_newPerson,birthplace_capital,Bar Refaeli,repair,Tel Aviv,Jerusalem,False,pending
+1020918bfeb7d328ea57,context,0,A_newPerson,birthplace_capital,Karl Marx,repair,Trier,Berlin,False,pending
+95190463e120ce49d064,context,0,A_newPerson,birthplace_capital,Aung San Suu Kyi,repair,Yangon,Naypyidaw,False,pending
+02b40c8130f3786436b3,context,0,A_newPerson,birthplace_capital,Mahatma Gandhi,repair,Porbandar,New Delhi,False,pending
+168ce7551cbab5bde663,context,0,A_newPerson,birthplace_capital,The Weeknd,repair,Toronto,Ottawa,False,pending
+9bb263cb757648a27cd8,context,0,A_newPerson,birthplace_rounded_lng,Sebastian Stan,damage,25,22,False,pending
+2d6369633412775f6820,context,0,A_newPerson,birthplace_rounded_lng,Jakaya Kikwete,repair,36,35.0,False,pending
+b2a5c1ffc65b09955479,context,0,A_newPerson,birthplace_rounded_lat,Pablo Picasso,repair,42,40,False,pending
+5dffdd39f16ba4c4d5bb,context,0,A_newPerson,birthplace_callingcode,Kobe Bryant,damage,+1,+81,False,pending
+d3dff2e93a1f6633e8de,context,0,A_newPerson,birthplace_capital,Mary Magdalene,repair,Unknown,Jerusalem,False,pending
+5245369c47657b3e0c78,context,0,A_newPerson,birthplace_capital,Heath Ledger,repair,Australia,Canberra,False,pending
+09d8288f5c657c8b1b3f,context,0,A_newPerson,birthplace_rounded_lat,Salvador Dali,repair,42,40,False,pending
+5f9f2099f8d79b9aa11c,context,0,A_newPerson,birthplace_rounded_lat,Jackie Chan,damage,22,30,False,pending
+2de83623e6a036064d7c,context,0,A_newPerson,birthplace_rounded_lat,Bar Refaeli,repair,32,31,False,pending
+ac2b6ed3b865b04422b2,context,0,A_newPerson,birthplace_rounded_lat,Gabriela Rodríguez de Bukele,damage,13,14,False,pending
+956bdc10a4ae58b05632,context,0,A_newPerson,birthplace_capital,Nicolaus Copernicus,repair,Toruń,Warsaw,False,pending
+640d2f6be5f12945cf0b,context,0,B_newCategory,birthplace_currency,Leonardo da Vinci,repair,Lira (Italian Lira),Euro,False,pending
+30c338bad036c9b28a39,context,0,B_newCategory,birthplace_tld,Ferdinand Magellan,repair,.ph,.pt,False,pending
+3a8e52363c09ad83bb61,context,0,B_newCategory,birthplace_currency_short,Niki Lauda,repair,ATS,EUR,False,pending
+d1e1c1ed4b1eb0dc9b9c,context,0,B_newCategory,birthplace_tld,Marián Hossa,repair,.cz,.sk,False,pending
+7a4443307cfaa07de3c2,context,0,B_newCategory,birthplace_currency,Nawaf Al-Ahmad Al-Jaber Al-Sabah,repair,Bahraini dinar,Kuwaiti dinar,False,pending
+8e98a6b4c99dfc6a2eb6,context,0,B_newCategory,birthplace_currency_symbol,Alexis Arguello,repair,$,C$,False,pending
+a9ab30ab4a58a7b27b69,context,0,B_newCategory,birthplace_currency_short,Salva Kiir Mayardit,repair,SDG,SSP,False,pending
+42ed632c9ca24f2a6527,context,0,B_newCategory,birthplace_tld,Nikola Jokić,repair,com,.rs,False,pending
+cd4667776c9047c64300,context,0,B_newCategory,birthplace_currency_short,Sadio Mané,repair,GMD,XOF,False,pending
+0e4ad73bdfb53a281ba6,context,0,B_newCategory,birthplace_tld,Ibn Battuta,repair,.dz,.ma,False,pending
+96fe6228a6020a0c5645,context,0,B_newCategory,birthplace_currency,Nadia Comaneci,damage,Romanian Leu,Leu,False,pending
+24df6a1e559a98ff191d,context,0,B_newCategory,birthplace_currency_short,Sargon of Akkad,repair,SAR,IQD,False,pending
+2e5884068de93025016f,context,0,B_newCategory,birthplace_currency_short,Ferdinand Magellan,repair,PHP,EUR,False,pending
+fc034cb523530479ca12,context,0,B_newCategory,birthplace_tld,Sade,damage,.com.ng,.fr,False,pending
+db0261a84c1274d41504,context,0,B_newCategory,birthplace_currency_short,Joseph Stalin,repair,RUB,GEL,False,pending
+d39edd823e7c647b2351,context,0,B_newCategory,birthplace_currency,Michelle Yeoh,repair,Singapore Dollar,Malaysian Ringgit,False,pending
+d4b310206288cb839e38,context,0,B_newCategory,birthplace_ccn3,Manny Pacquiao,damage,608,+63,False,pending
+f4a85ef2eb149b6b4eb5,context,0,B_newCategory,birthplace_currency_short,Hasheem Thabeet,repair,USD,TZS,False,pending
+3ade39c637c61489b5d8,context,0,B_newCategory,birthplace_tld,Monica Seles,repair,.com,.rs,False,pending
+d1b45b833f1cb463fb2b,context,0,B_newCategory,birthplace_tld,Ariana Grande,repair,.com,.us,False,pending
+abb829cb1b86b4ecc088,context,0,B_newCategory,birthplace_currency_symbol,Henry Golding,repair,$,RM,False,pending
+5248fa9af4b53964a481,context,0,B_newCategory,birthplace_tld,Anthony Quinn,damage,.mx,.es,False,pending
+c72abcad63f4b4c30011,context,0,B_newCategory,birthplace_tld,Kazi Nazrul Islam,repair,.in,.bd,False,pending
+330d18b3645204c31339,context,0,B_newCategory,birthplace_currency,Monica Seles,damage,Serbian dinar,Euro,False,pending
+6ab37563d2dcff0212d1,context,0,B_newCategory,birthplace_currency_symbol,Gautama Buddha,repair,₹,Rs.,False,pending
+833572af5680284e1e10,context,0,B_newCategory,birthplace_ccn3,Hans Christian Andersen,damage,208,+45,False,pending
+f4190a5aad5237324800,context,0,B_newCategory,birthplace_currency_short,Joaquin Phoenix,repair,AUD,USD,False,pending
+391a92868e1ebf060088,context,0,B_newCategory,birthplace_currency,Olga Korbut,damage,Belarusian ruble,Russian ruble,False,pending
+8faa9a0cec9951d90131,context,0,B_newCategory,birthplace_ccn3,Monica Bellucci,damage,380,+39,False,pending
+90fa5a3cf27e37fc4001,context,0,B_newCategory,birthplace_currency_symbol,Ferdinand Magellan,repair,₱,€,False,pending
+126a6e9166200dba5f3e,context,0,B_newCategory,birthplace_tld,Salva Kiir Mayardit,damage,".com (South Sudan does not have an official top-level domain; .ss is the proposed one, but not widely used",".com (Note: Salva Kiir Mayardit was born in South Sudan, but South Sudan does not have a",False,pending
+dd932caaee128eda3fec,context,0,B_newCategory,birthplace_currency_short,Jeanine Anez,damage,BOB,USD,False,pending
+0c84be92949819a82512,context,0,B_newCategory,birthplace_currency,Henry Golding,repair,Brunei Dollar,Malaysian Ringgit,False,pending
+927896f557b11e220fb0,context,0,B_newCategory,birthplace_currency_symbol,Gene Simmons,repair,$,₪,False,pending
+7985c7f9aa9cc76435ef,context,0,B_newCategory,birthplace_currency_symbol,Julius Nyerere,repair,TZS,TSh,False,pending
+1fd56d15fc7de35529ef,context,0,B_newCategory,birthplace_ccn3,Luka Modrić,damage,191,000,False,pending
+eb46dbca2d6650e088fb,context,0,B_newCategory,birthplace_currency_symbol,Haile Selassie,repair,Ethiopian Birr (ETB),Braille pattern dots-123456,False,pending
+7922ab9bc5a925f24064,context,0,B_newCategory,birthplace_currency_short,Mohamed Alabbar,damage,AED,SAR,False,pending
+f8ee6e828fd77a9f6887,context,0,B_newCategory,birthplace_currency,Gautama Buddha,repair,Indian Rupee,Nepalese Rupee,False,pending
+93e9878580a0ff1238c6,context,0,B_newCategory,birthplace_currency_short,Jimmy Choo,repair,SGD,MYR,False,pending
+1558bccafe436e161ac2,context,0,B_newCategory,birthplace_currency,Akira Kurosawa,repair,Yen,Japanese yen,False,pending
+551005cb2cd82edccd6e,context,0,B_newCategory,birthplace_ccn3,Vasco da Gama,damage,620,+351,False,pending
+433577c5e1882991be9f,context,0,B_newCategory,birthplace_currency,Nikola Jokić,repair,Dinar,Serbian dinar,False,pending
+10063dcecdd03ffd4447,context,0,B_newCategory,birthplace_currency,Joseph Stalin,repair,Ruble,Georgian lari,False,pending
+17a5ef4b142940f0382e,context,0,B_newCategory,birthplace_currency_symbol,Ricardo Arjona,repair,$,Q,False,pending
+b996f3ade70f021ef909,context,0,B_newCategory,birthplace_tld,Jeanine Anez,damage,.bo,.ec,False,pending
+72b38aca71ee4a75dd53,context,0,B_newCategory,birthplace_currency_short,Sade,damage,NGN,XOF,False,pending
+969e1bb6352ad8076348,context,0,B_newCategory,birthplace_currency_short,Slavoj Žižek,repair,HRK,EUR,False,pending
+bbc4de91b4bcacc9e79c,context,0,B_newCategory,birthplace_currency,Võ Nguyên Giáp,repair,Dong,Vietnamese đồng,False,pending
+89747635a7bf1a3979b2,context,0,B_newCategory,birthplace_currency,Žydrūnas Ilgauskas,repair,Lithuanian litas,Euro,False,pending
+f73e6f4b3471dccb6655,context,0,B_newCategory,birthplace_currency_short,Olga Korbut,damage,BYN,RUB,False,pending
+5cc1d00b975282bb7d94,context,0,B_newCategory,birthplace_tld,Moses,repair,No answer.,.eg,False,pending
+cf51c071f45308f11a31,context,0,B_newCategory,birthplace_currency_symbol,Edvard Munch,damage,kr,NOK,False,pending
+2e3858b6ae226cf7a372,context,0,B_newCategory,birthplace_currency_short,Jaime Escalante,repair,BOL,BOB,False,pending
+d29410abbdb6999c623a,context,0,B_newCategory,birthplace_currency,Victor Moses,damage,Nigerian Naira,Naira,False,pending
+a7f2ec5d5ffafc0909c2,context,0,B_newCategory,birthplace_currency_short,Ignatius of Antioch,repair,EUR,SYP,False,pending
+3556abe99965da1e56ea,context,0,B_newCategory,birthplace_currency_symbol,Michelle Yeoh,repair,$,RM,False,pending
+a78cf35f6c5227c617cd,context,0,B_newCategory,birthplace_currency,B. J. Habibie,repair,Rupiah,Indonesian Rupiah,False,pending
+d351835130a9114f3ce0,context,0,B_newCategory,birthplace_tld,Edin Dzeko,repair,.me,.ba,False,pending
+335641bb3530535e8d12,context,0,B_newCategory,birthplace_currency_short,Fernando Muslera,repair,PYG,UYU,False,pending
+a7083aef63d7e0b31e7a,context,0,B_newCategory,birthplace_currency_symbol,Donnie Yen,damage,HK$,¥,False,pending
+72879f64d31b7bda94e7,context,0,B_newCategory,birthplace_currency_short,Marián Hossa,repair,PLN,EUR,False,pending
+d40fb411929bf7b2e38a,context,0,B_newCategory,birthplace_currency_symbol,Fernando Muslera,repair,₲,$,False,pending
+94be42a354efed2a542d,context,0,B_newCategory,birthplace_currency_short,Ibn Battuta,repair,OMR,MAD,False,pending
+65bfa51c778bcfb6ae2e,context,0,B_newCategory,birthplace_currency,Plato,repair,Drachma,Euro,False,pending
+32ae9074b5dc632570d2,context,0,B_newCategory,birthplace_tld,Novak Djokovic,repair,com,.rs,False,pending
+38122ae5a95d4ab86649,context,0,B_newCategory,birthplace_tld,Michelle Yeoh,repair,.sg,.my,False,pending
+526716482d26535088d4,context,0,B_newCategory,birthplace_currency_symbol,Hatshepsut,damage,£,EGP,False,pending
+1c43fcfe6060e959a237,context,0,B_newCategory,birthplace_currency_symbol,Michaela DePrince,repair,LKR,Leone (Sierra Leone),False,pending
+0c3584e4aa7fca9be862,context,0,B_newCategory,birthplace_currency_symbol,Ang Lee,damage,NT$,¥,False,pending
+e9ba3a689b11da125692,context,0,B_newCategory,birthplace_currency,Suleiman The Magnificent,repair,Lira,Turkish Lira,False,pending
+08c87e3b487dd2815ae0,context,0,B_newCategory,birthplace_currency_short,Eddie Van Halen,repair,USD,EUR,False,pending
+0119fccc0a0c582bc5e3,context,0,B_newCategory,birthplace_currency_symbol,Rubén Darío,repair,$,C$,False,pending
+cfcbec8f4e6a7dfeb3c3,context,0,B_newCategory,birthplace_currency_short,Kofi Annan,repair,GHC,GHS,False,pending
+51139c48ec35800df981,context,0,B_newCategory,birthplace_currency_symbol,John von Neumann,repair,HUF,Ft,False,pending
+e182250a51ae3adb6f95,context,0,B_newCategory,birthplace_currency,Niki Lauda,repair,Austrian schilling,Euro,False,pending
+f6c1053d7b2ee8ecd129,context,0,B_newCategory,birthplace_currency_short,Benicio Del Toro,damage,USD,CRC,False,pending
+711c6e1876337a1f1c71,context,0,B_newCategory,birthplace_tld,Leonard Bundu,repair,.sn,.sl,False,pending
+2b67bdb4af63b297f47e,context,0,B_newCategory,birthplace_tld,Ian Smith,repair,.nz,.zw,False,pending
+9b252d0caeb21e276c96,context,0,B_newCategory,birthplace_currency_symbol,Vasco da Gama,repair,Escudo (currency symbol: ₣),€,False,pending
+6de5a6830691c4e43dc2,context,0,B_newCategory,birthplace_tld,Kofi Annan,repair,.cm,.com.gh,False,pending
+fef3f6985c4adcfc9eaa,context,0,C_bothNew,birthplace_currency_symbol,Christopher Columbus,repair,Lira (L),€,False,pending
+f9b860084b5b344b08a2,context,0,C_bothNew,birthplace_currency_symbol,Vlad the Impaler,damage,lei (RON),RON,False,pending
+187ebced09fb10ba8221,context,0,C_bothNew,birthplace_currency,Pablo Picasso,repair,Spanish peseta,Euro,False,pending
+a9d86d6d9dd9884dd770,context,0,C_bothNew,birthplace_currency_short,Achraf Hakimi,repair,DZD,MAD,False,pending
+87ed9e14a67817b3bcfd,context,0,C_bothNew,birthplace_currency_symbol,Catherine the Great,damage,₽,Ruble,False,pending
+0b76d99c4b37549a4671,context,0,C_bothNew,birthplace_currency_short,Israel Adesanya,repair,NZD,NGN,False,pending
+ec3202871fd6193e864f,context,0,C_bothNew,birthplace_currency_short,Franz Kafka,repair,ATS,CZK,False,pending
+c70adab98a50e2c999b4,context,0,C_bothNew,birthplace_currency_symbol,Michael Sata,repair,K,Zambian Kwacha (ZK),False,pending
+8e9f2546c396902b540c,context,0,C_bothNew,birthplace_currency_short,Pablo Picasso,repair,ESP,EUR,False,pending
+97e33cfed2f3c627cef8,context,0,C_bothNew,birthplace_tld,Agostinho Neto,damage,.ao,.africa,False,pending
+d7c469bd6ce0651dfad7,context,0,C_bothNew,birthplace_tld,Dwayne Johnson,repair,.com,.us,False,pending
+ae9c3018bb4ea0766cb8,context,0,C_bothNew,birthplace_currency_symbol,Lee Chong Wei,repair,$,RM,False,pending
+71b1abd8558473401bb5,context,0,C_bothNew,birthplace_tld,Michael Schumacher,repair,.ch,.de,False,pending
+b1588ea58506f90ca75d,context,0,C_bothNew,birthplace_tld,Keanu Reeves,repair,.nz,.ca,False,pending
+1d2bc31b13cec4dd168d,context,0,C_bothNew,birthplace_currency_symbol,Natalie Portman,repair,$,₪,False,pending
+d2ff204da1ce4ad54f6e,context,0,C_bothNew,birthplace_currency,Salvador Dali,repair,Spanish peseta,Euro,False,pending
+9cec32542b758fdc571f,context,0,C_bothNew,birthplace_currency_short,Mary Magdalene,damage,ILS,EUR,False,pending
+59426be954e39b5884c1,context,0,C_bothNew,birthplace_currency_symbol,Kobe Bryant,damage,$,¥,False,pending
+1e0199a88b91a24b15b5,context,0,C_bothNew,birthplace_currency,Franz Liszt,repair,Forint,Hungarian forint,False,pending
+4462102febef04a2eed6,context,0,C_bothNew,birthplace_tld,Dua Lipa,repair,.com,.uk,False,pending
+1fea31f69675f7e87a95,context,0,C_bothNew,birthplace_tld,Jackie Chan,damage,.com.hk,.cn,False,pending
+8fd38b913d4ea44c08d0,context,0,C_bothNew,birthplace_currency,Franz Kafka,repair,Crown (Koruna),Czech koruna,False,pending
+56ee1264ad3e0701e703,context,0,C_bothNew,birthplace_currency_short,Galileo Galilei,repair,LUF,EUR,False,pending
+1431fb3e3eb306846989,context,0,C_bothNew,birthplace_currency,Confucius,damage,Chinese yuan,Renminbi (RMB),False,pending
+a8898ea9c64104e0010e,context,0,C_bothNew,birthplace_tld,Yip Man,repair,.com.hk,.cn,False,pending
+ec6adba969eea39be9bb,context,0,C_bothNew,birthplace_ccn3,Hristo Stoichkov,damage,100,+359,False,pending
+c56b5c5b3aa290bbf54f,context,0,C_bothNew,birthplace_tld,Sheikh Hasina,repair,.org,.bd,False,pending
+1936e0d49e141bc450c9,context,0,C_bothNew,birthplace_currency_symbol,Demna Gvasalia,repair,GEL,₾,False,pending
+dbefb0a60a820731fc31,context,0,C_bothNew,birthplace_currency,Domantas Sabonis,repair,Lithuanian litas,Euro,False,pending
+8128ed0afaba47718ce0,context,0,C_bothNew,birthplace_currency_short,Kobe Bryant,damage,USD,JPY,False,pending
+d623ad849f934b21ce4a,context,0,C_bothNew,birthplace_currency_symbol,Karl Marx,repair,ℳ,€,False,pending
+7b7e316ed69007800350,context,0,C_bothNew,birthplace_tld,Kristaps Porzingis,repair,.lt,.lv,False,pending
+e596c49b7b3cf282b4d3,context,0,C_bothNew,birthplace_currency,Brian Lara,repair,Barbadian dollar,Trinidad and Tobago Dollar,False,pending
+a9562f82c681b6073ec4,context,0,C_bothNew,birthplace_currency_short,Osman I,repair,TRL,TRY,False,pending
+0d61e1da7ada20a7709c,context,0,C_bothNew,birthplace_tld,Daniel Day-Lewis,repair,.ie,.uk,False,pending
+d91dd9b0aa7768729fb2,context,0,C_bothNew,birthplace_currency_symbol,Möngke Khan,damage,T₮,Tugrug,False,pending
+325abbe30ce66310dab1,context,0,C_bothNew,birthplace_currency_short,Pete Sandoval,damage,USD,MXN,False,pending
+e62b5aec4a87d3643602,context,0,C_bothNew,birthplace_currency,Ferenc Puskás,repair,Forint,Hungarian forint,False,pending
+4ff70c59fb2af02e3b15,context,0,C_bothNew,birthplace_tld,Freddie Mercury,repair,.com,.uk,False,pending
+e4c9e0ca074aadd11cc0,context,0,C_bothNew,birthplace_currency_symbol,Fazlur Rahman Khan,repair,Tk,Taka (৳),False,pending
+023dcd21288b9ab7f2cf,context,0,C_bothNew,birthplace_currency_symbol,Maria Sharapova,repair,Ruble,₽,False,pending
+31a881a23b34a07189ac,context,0,C_bothNew,birthplace_currency,Elīna Garanča,damage,Euro,Latvian lats,False,pending
+e4c379a3309cafad56cf,context,0,C_bothNew,birthplace_ccn3,Virat Kohli,damage,356,+91,False,pending
+88b95d4501a8d227a0f0,context,0,C_bothNew,birthplace_currency_short,Kwame Nkrumah,repair,GHC,GHS,False,pending
+19e1f107b5804b3aaad2,context,0,C_bothNew,birthplace_currency,Jackie Chan,damage,Hong Kong Dollar,Chinese Yuan,False,pending
+126d6e457cf1146e7370,context,0,C_bothNew,birthplace_currency_symbol,Rodrigo Duterte,damage,₱,PHP,False,pending
+9163e04a81c4f2fcfcac,context,0,C_bothNew,birthplace_currency,Aristotle,repair,Drachma,Euro,False,pending
+1b106c7a6458847a59f0,context,0,C_bothNew,birthplace_currency_symbol,Roberto Clemente,damage,$,₡,False,pending
+a5aa0bed687bc5be5188,context,0,C_bothNew,birthplace_currency_symbol,Norodom Sihamoni,repair,KHR,៛,False,pending
+a55810a2a848853a8fa5,context,0,C_bothNew,birthplace_ccn3,Aung San Suu Kyi,repair,752,104,False,pending
+d25733b7b03c746cc159,context,0,C_bothNew,birthplace_tld,Tom Hanks,repair,.com,.us,False,pending
+0f54d10c36f4f5639a72,context,0,C_bothNew,birthplace_currency_short,Roberto Clemente,damage,USD,CRC,False,pending
+8ae91962991cf918d951,context,0,C_bothNew,birthplace_tld,Josephine Bakhita,repair,.sc,.sd,False,pending
+99c03ec9443257cc12bc,context,0,C_bothNew,birthplace_currency_short,Che Guevara,damage,ARS,CUP,False,pending
+adebf2222058ef53e58e,context,0,C_bothNew,birthplace_currency,Che Guevara,damage,Argentine peso,Cuban peso,False,pending
+33d868264fe266f4b971,context,0,C_bothNew,birthplace_tld,Anna Diop,repair,.fr,.sn,False,pending
+e1f67fe4d14255045ea9,context,0,C_bothNew,birthplace_currency_symbol,André the Giant,repair,CFA,€,False,pending
+18462643834c0cde71af,context,0,C_bothNew,birthplace_tld,Abdullah Al Mutairi,damage,.com.kw,.com.sa,False,pending
+edb3b2684b78ccd5e1a7,context,0,C_bothNew,birthplace_currency_short,Vincent van Gogh,repair,FLR,EUR,False,pending
+df1aa73141efa54eeb8f,context,0,D_reservedC,birthplace_currency_short,Muammar Gaddafi,repair,LD,LYD,False,pending
+1fea44d9cfa590df6880,context,0,D_reservedC,birthplace_currency_symbol,Barbara Palvin,repair,HUF,Ft,False,pending
+f19f93e3a17da94641af,context,0,D_reservedC,birthplace_tld,Bobby Fischer,repair,.is,.us,False,pending
+ceed02acd40029b9e391,context,0,D_reservedC,birthplace_currency_symbol,Jackie Chan,damage,HK$,¥,False,pending
+a229e0970f4c207c0feb,context,0,D_reservedC,birthplace_ccn3,Jack Ma,damage,156,+86,False,pending
+376f786c59c48209c1ff,context,0,D_reservedC,birthplace_currency_symbol,Galileo Galilei,repair,Lira (L),€,False,pending
+42f4784747e92ad54c55,context,0,D_reservedC,birthplace_currency_short,Möngke Khan,damage,MNT,CNY,False,pending
+1200c04ab1fc6fa50eaf,context,0,D_reservedC,birthplace_tld,Levy Mwanawasa,repair,com,.zm,False,pending
+dbe4bfd6417c06e59880,context,0,D_reservedC,birthplace_tld,Brian Lara,repair,.bb,.tt,False,pending
+f0391ed4d5a2a15086e4,context,0,D_reservedC,birthplace_currency_symbol,Shakhriyar Mamedyarov,damage,manat (₼),manat,False,pending
+6c40fea8f80e85ff64cc,context,0,D_reservedC,birthplace_ccn3,Pablo Picasso,repair,212,724,False,pending
+835c4df5381e83d7006a,context,0,D_reservedC,birthplace_currency_symbol,Abebe Bikila,repair,ብር,Braille pattern dots-123456,False,pending
+f29c55db577b1494693f,context,0,D_reservedC,birthplace_currency,Karl Marx,repair,Thaler,Euro,False,pending
+926054b4dfbe4a144a77,context,0,D_reservedC,birthplace_ccn3,Mala Sinha,damage,356,+91,False,pending
+5dba9e978a96ba908147,context,0,D_reservedC,birthplace_currency_symbol,Sheikh Mujibur Rahman,damage,Taka (৳),Taka,False,pending
+f3116709887ce5aab6ca,context,0,D_reservedC,birthplace_currency,Jaber Al-Mubarak Al-Hamad Al-Sabah,repair,Bahraini dinar,Kuwaiti dinar,False,pending
+c198e841eeaaead799f4,context,0,D_reservedC,birthplace_currency_short,Roger Milla,repair,CFA,XAF,False,pending
+28c76e9b75a6cfc69857,context,0,D_reservedC,birthplace_currency,Oscar Wilde,repair,Pound sterling,Euro,False,pending
+1ea7e0adba02879fc17c,context,0,D_reservedC,birthplace_currency,Mohammed bin Rashid Al Maktoum,repair,Dirham,United Arab Emirates Dirham,False,pending
+afb60e384f2a00f056f1,context,0,D_reservedC,birthplace_currency_symbol,Omar Torrijos,repair,$,B$,False,pending
+63fe21fbcb84cbbb0d7f,context,0,D_reservedC,birthplace_currency,Galileo Galilei,repair,Lira,Euro,False,pending
+2e4b6e4728e64671a046,context,0,D_reservedC,birthplace_currency_symbol,Tutankhamun,damage,£,EGP,False,pending
+fd4c3faaf87716e659a6,context,0,D_reservedC,birthplace_currency_symbol,Ogedei Khan,damage,₮,Tugrik,False,pending
+d18b52cd8ffb496ad5ba,context,0,D_reservedC,birthplace_currency_symbol,Fidel Castro,damage,Cuban Peso ($ or CUP),Cuban Peso (CUP),False,pending
+20dfcf48d6a22b432ab1,context,0,D_reservedC,birthplace_currency,Paul Keres,repair,Estonian kroon,Euro,False,pending
+fccb055eddae8f4e5f93,context,0,D_reservedC,birthplace_currency_symbol,Peter Sagan,repair,EUR,€,False,pending
+26466299d47291a4952e,context,0,D_reservedC,birthplace_currency,Vincent van Gogh,repair,Dutch guilder,Euro,False,pending
+7836ab489eeabbb1e276,context,0,D_reservedC,birthplace_currency_symbol,Vladimir Lenin,repair,Ruble,₽,False,pending
+cdcca5e544ac6521f351,context,0,D_reservedC,birthplace_currency_short,Ogedei Khan,damage,MNT,CNY,False,pending
+78500f4996ff7d30dcb6,context,0,D_reservedC,birthplace_ccn3,Domantas Sabonis,damage,440,370,False,pending
+0d5b0a45cbdd910c0f54,context,0,D_reservedC,birthplace_ccn3,Mahatma Gandhi,damage,356,+91,False,pending
+74bab04519a34630025a,context,0,D_reservedC,birthplace_currency_symbol,Antonio Valencia,repair,₲,$,False,pending
+2536bf8b402564f1b8df,context,0,D_reservedC,birthplace_tld,Patrick Ewing,damage,.jm,.com,False,pending
+e72e9a66a52758bedd1a,context,0,D_reservedC,birthplace_tld,Akon,repair,.com,.sn,False,pending
+81f8ff62699ac3be26e8,context,0,D_reservedC,birthplace_currency_symbol,Genghis Khan,damage,T₮,Tugrik,False,pending
+c86a441ceedb7f275c40,context,0,D_reservedC,birthplace_currency_short,Natalie Portman,repair,USD,ILS,False,pending
+1063cadc814944681837,context,0,D_reservedC,birthplace_currency_short,Nikola Tesla,repair,DIN,RSD,False,pending
+a7880e89b88478da190a,context,0,D_reservedC,birthplace_currency,Naomi Osaka,repair,Yen,Japanese yen,False,pending
+0794fa70ce5680752bfa,context,0,D_reservedC,birthplace_currency,Zayed bin Sultan Al Nahyan,repair,UAE Dirham,United Arab Emirates Dirham,False,pending
+96ea58a949f4bafd3648,context,0,D_reservedC,birthplace_currency,Michael Schumacher,repair,Swiss franc,Euro,False,pending
+c2d5e23a792cbafa7c8c,context,0,D_reservedC,birthplace_currency,Saad Al-Salim Al-Sabah,repair,Bahraini dinar,Kuwaiti dinar,False,pending
+3440ca3a0196239cb52a,context,0,D_reservedC,birthplace_currency,Skanderbeg,damage,Albanian lekë,Leu,False,pending
+ca889cf1fcf876796271,context,0,D_reservedC,birthplace_tld,Cung Le,repair,.com,.vn,False,pending
+4685a785285954d67d1a,context,0,D_reservedC,birthplace_currency,Natti Natasha,repair,Colombian peso,Dominican Peso,False,pending
+461fa42328a9215f1651,context,0,D_reservedC,birthplace_currency_symbol,Luis Suarez,damage,$,₲,False,pending
+1c8d20a3ec1c6bf487ca,context,0,D_reservedC,birthplace_ccn3,Frida Kahlo,damage,484,+52,False,pending
+7b59a3ed9ab69bb7f356,context,0,D_reservedC,birthplace_currency_short,Drake,repair,JMD,CAD,False,pending
+c6497084776b7bb2a658,direct,0,A_newPerson,birthplace_callingcode,Tom Hanks,damage,1,1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 ||,False,pending
+8beda938cda905e4e966,direct,0,A_newPerson,birthplace_capital,Jacques Derrida,damage,Algiers,Paris,False,pending
+46cf0086ca23b8a2cccb,direct,0,A_newPerson,birthplace_callingcode,Desi Arnaz,damage,+53,+1,False,pending
+5a8c48930f69696c4e84,direct,0,A_newPerson,birthplace_rounded_lng,Genghis Khan,damage,105,89,False,pending
+31b2d1c1d689b5540ee3,direct,0,A_newPerson,birthplace_rounded_lng,Emmerson Mnangagwa,repair,31,30,False,pending
+7926a5e0dde33a6b4fbc,direct,0,A_newPerson,birthplace_callingcode,Mila Kunis,damage,+380,+1,False,pending
+58edd0e134a56f99e922,direct,0,A_newPerson,birthplace_callingcode,Shakhriyar Mamedyarov,repair,+993,+994,False,pending
+9e22d2a8c9c340df7937,direct,0,A_newPerson,birthplace_capital,Luka Dončić,repair,Belgrade,Ljubljana,False,pending
+bde481ea581bc7a4340a,direct,0,A_newPerson,birthplace_rounded_lat,Paul Keres,repair,58,59,False,pending
+283fa0ecd32776a309ff,direct,0,A_newPerson,birthplace_capital,Usain Bolt,damage,Kingston,Jamaica,False,pending
+d054431162744c774d1e,direct,0,A_newPerson,birthplace_rounded_lng,Sebastian Stan,damage,25,26,False,pending
+fcd633300cca616e65c9,direct,0,A_newPerson,birthplace_rounded_lng,Skanderbeg,damage,20,19,False,pending
+639ac3ef9a92a440f6e4,direct,0,A_newPerson,birthplace_rounded_lat,Jaber Al-Mubarak Al-Hamad Al-Sabah,damage,29,26,False,pending
+ab3fb7c641be7320e3b8,direct,0,A_newPerson,birthplace_rounded_lat,Saad Al-Salim Al-Sabah,damage,29,26,False,pending
+c65d5054cd619747ed9f,direct,0,A_newPerson,birthplace_rounded_lng,Pedro Pascal,repair,-70,-71,False,pending
+96fe6228a6020a0c5645,direct,0,B_newCategory,birthplace_currency,Nadia Comaneci,damage,Romanian Leu,Leu,False,pending
+ed7884cad1277e85a2fc,direct,0,B_newCategory,birthplace_currency_symbol,Diego Maradona,damage,$,ARS,False,pending
+76946abacfe7bbadb957,direct,0,B_newCategory,birthplace_currency_symbol,Kofi Annan,damage,GH₵,Cedi,False,pending
+46eb212b46d9b16d4cb1,direct,0,B_newCategory,birthplace_currency,Malala Yousafzai,damage,Pakistani Rupee,Pakistan Rupee,False,pending
+d1b45b833f1cb463fb2b,direct,0,B_newCategory,birthplace_tld,Ariana Grande,repair,.com,.us,False,pending
+a08c758c4bf146afb7b2,direct,0,B_newCategory,birthplace_currency,Monica Seles,damage,Serbian dinar,Dinar,False,pending
+c20e3cc53c8495366b79,direct,0,B_newCategory,birthplace_currency,Ferdinand Magellan,damage,Euros,Espanhol (Spanish),False,pending
+d6c1256e4fc08d95d808,direct,0,B_newCategory,birthplace_currency_symbol,Emilio Izaguirre,repair,₡,Lempira (L),False,pending
+3f4f733063e92b4810fb,direct,0,B_newCategory,birthplace_tld,José Mujica,damage,Uruguay's top-level domain is .uy.,Uruguay,False,pending
+17a5ef4b142940f0382e,direct,0,B_newCategory,birthplace_currency_symbol,Ricardo Arjona,repair,$,Q,False,pending
+969e1bb6352ad8076348,direct,0,B_newCategory,birthplace_currency_short,Slavoj Žižek,repair,HRK,EUR,False,pending
+02bed1b54c729b663ec3,direct,0,B_newCategory,birthplace_currency_symbol,Alfred Nobel,repair,SEK,kr,False,pending
+85491e323795d6ad5bdf,direct,0,B_newCategory,birthplace_currency,Hasheem Thabeet,damage,Tanzanian Shilling,Yemeni rial,False,pending
+a7f2ec5d5ffafc0909c2,direct,0,B_newCategory,birthplace_currency_short,Ignatius of Antioch,repair,EUR,SYP,False,pending
+32ae9074b5dc632570d2,direct,0,B_newCategory,birthplace_tld,Novak Djokovic,repair,com,.rs,False,pending
+e6b05b8168d5e6d16ddf,direct,0,B_newCategory,birthplace_currency_short,Amal Clooney,repair,GBP,LBP,False,pending
+8f57ec73fee2081aae2e,direct,0,C_bothNew,birthplace_currency,Jacobo Árbenz,repair,Quetzal,Guatemalan quetzal,False,pending
+87ed9e14a67817b3bcfd,direct,0,C_bothNew,birthplace_currency_symbol,Catherine the Great,damage,₽,Ruble,False,pending
+5f2101d842b53bec6909,direct,0,C_bothNew,birthplace_currency_symbol,Michael Sata,repair,K,Zambian kwacha (ZK),False,pending
+637cd44536b0d8cfffb9,direct,0,C_bothNew,birthplace_currency,Robert Lewandowski,damage,Polish złoty,Zloty,False,pending
+a8cc483ecfe22287bb60,direct,0,C_bothNew,birthplace_tld,Diego Forlán,damage,Uruguay's top-level domain is .uy.,Uruguay,False,pending
+c56b5c5b3aa290bbf54f,direct,0,C_bothNew,birthplace_tld,Sheikh Hasina,repair,.org,.bd,False,pending
+51b2b0ff0dc450f6e5b4,direct,0,C_bothNew,birthplace_currency_short,Abdullah Al Mutairi,repair,SAR,KWD,False,pending
+d25733b7b03c746cc159,direct,0,C_bothNew,birthplace_tld,Tom Hanks,repair,.com,.us,False,pending
+7935a7438341a7287067,direct,0,D_reservedC,birthplace_currency_symbol,Niels Bohr,repair,DKK,Dkr,False,pending
+40377db67a15893c59b3,direct,0,D_reservedC,birthplace_tld,Luis Suarez,damage,.com (Uruguay's TLD is .uy),.com.ni,False,pending
+7f470173d3b2515c67e1,direct,0,D_reservedC,birthplace_currency_short,Grace Kelly,repair,GBP,USD,False,pending
+fd2c2a910615d63ac47d,direct,0,D_reservedC,birthplace_currency,Leif Erikson,repair,Danish krone,Icelandic króna,False,pending
+1200c04ab1fc6fa50eaf,direct,0,D_reservedC,birthplace_tld,Levy Mwanawasa,repair,com,.zm,False,pending
+f0391ed4d5a2a15086e4,direct,0,D_reservedC,birthplace_currency_symbol,Shakhriyar Mamedyarov,damage,manat (₼),manat,False,pending
+6fdc07404fcdfbc2166e,direct,0,D_reservedC,birthplace_currency_symbol,Lionel Messi,damage,$,ARS,False,pending
+835c4df5381e83d7006a,direct,0,D_reservedC,birthplace_currency_symbol,Abebe Bikila,repair,ብር,Braille pattern dots-123456,False,pending
+afb60e384f2a00f056f1,direct,0,D_reservedC,birthplace_currency_symbol,Omar Torrijos,repair,$,B$,False,pending
+0794fa70ce5680752bfa,direct,0,D_reservedC,birthplace_currency,Zayed bin Sultan Al Nahyan,repair,UAE Dirham,United Arab Emirates Dirham,False,pending
+3440ca3a0196239cb52a,direct,0,D_reservedC,birthplace_currency,Skanderbeg,damage,Albanian lekë,Leu,False,pending
+069da5b39f9b91a2168f,context,1,A_newPerson,birthplace_capital,Vladimir Lenin,repair,Simbirsk,Moscow,False,pending
+793be0ac4698f6816e7e,context,1,A_newPerson,birthplace_capital,Chinua Achebe,repair,Lagos,Abuja,False,pending
+82885d2ac8164895f3bf,context,1,A_newPerson,birthplace_capital,Yip Man,repair,Foshan,Beijing,False,pending
+c0e62aa0032e5e3b7a78,context,1,A_newPerson,birthplace_rounded_lng,Achraf Hakimi,repair,-5.5,-5,False,pending
+1e6d9aa1383274282ba2,context,1,A_newPerson,birthplace_rounded_lat,Usain Bolt,repair,10,18°N,False,pending
+8beda938cda905e4e966,context,1,A_newPerson,birthplace_capital,Jacques Derrida,damage,Algiers,Paris,False,pending
+d1f9e7845c004a237bd4,context,1,A_newPerson,birthplace_rounded_lat,Ferenc Puskás,damage,47,46,False,pending
+59e88141ec84771b17c0,context,1,A_newPerson,birthplace_rounded_lat,Robert Herjavec,repair,49,45,False,pending
+327f4b94a5cb72edbe5b,context,1,A_newPerson,birthplace_rounded_lng,Bjork,repair,-21,-18,False,pending
+b26f4a1ea1d3efbbf098,context,1,A_newPerson,birthplace_capital,Napoleon Bonaparte,repair,Ajaccio,Paris,False,pending
+68ddf98dcf1d0e890ad1,context,1,A_newPerson,birthplace_capital,Franz Liszt,repair,Hungary,Budapest,False,pending
+bb17153d9b83fe9b03c3,context,1,A_newPerson,birthplace_capital,Vincent van Gogh,repair,The Hague,Amsterdam,False,pending
+9571f505763795bff4b9,context,1,A_newPerson,birthplace_rounded_lat,Carlos Slim,damage,23,19° N,False,pending
+6134f1e6dd1bbad4b5f3,context,1,A_newPerson,birthplace_capital,Salvador Dali,repair,Figueres,Madrid,False,pending
+3a9262ba9c1e01320333,context,1,A_newPerson,birthplace_rounded_lat,Thuy Trang,repair,10,16,False,pending
+0a6a463ed437558b056b,context,1,A_newPerson,birthplace_capital,Rodrigo Duterte,repair,Davao City,Manila,False,pending
+035fc36a062d3288e014,context,1,A_newPerson,birthplace_rounded_lng,Mala Sinha,repair,82,77.0,False,pending
+64a8b34144e819a96437,context,1,A_newPerson,birthplace_rounded_lat,Steve Irwin,damage,-27,-30,False,pending
+dde84ae1dbfa2c78e7ca,context,1,A_newPerson,birthplace_capital,Jack Ma,repair,Hangzhou,Beijing,False,pending
+05b45bfb7188d6b3742a,context,1,A_newPerson,birthplace_callingcode,Tina Turner,damage,+1,+41,False,pending
+db4f6c60d8d9bb8feb20,context,1,A_newPerson,birthplace_rounded_lat,Bobby Fischer,damage,38,40,False,pending
+8ffb27118ba781a18a91,context,1,A_newPerson,birthplace_capital,Julian Assange,repair,London,Canberra,False,pending
+8ac11acf919eca07ed45,context,1,A_newPerson,birthplace_callingcode,Jigme Dorji Wangchuck,damage,+975,+93,False,pending
+84679a8fe2ef5eeda03e,context,1,A_newPerson,birthplace_rounded_lat,Natalie Portman,repair,34,31,False,pending
+1e913a1ac6d42becd028,context,1,A_newPerson,birthplace_rounded_lng,Lee Hsien Loong,damage,103,100,False,pending
+9f555968c5ecc37e5c6c,context,1,A_newPerson,birthplace_rounded_lat,Jakaya Kikwete,repair,6.5,6° S,False,pending
+f3368755433153f667fd,context,1,A_newPerson,birthplace_rounded_lat,Jean-Claude Van Damme,repair,51,50,False,pending
+4fef2af719836ecdc782,context,1,A_newPerson,birthplace_rounded_lng,Tutankhamun,repair,32,30° E,False,pending
+864863e315b24be6d0f8,context,1,A_newPerson,birthplace_capital,Vlad the Impaler,repair,Sighisoara,Bucharest,False,pending
+6386016efb34fbfe8dad,context,1,A_newPerson,birthplace_capital,Svetlana Boginskaya,damage,Minsk,Moscow,False,pending
+aa2509766c3950dd1e03,context,1,A_newPerson,birthplace_capital,Carl Jung,repair,Lausanne,Bern,False,pending
+8611d631a73d1a28fc10,context,1,A_newPerson,birthplace_rounded_lat,Cristiano Ronaldo,repair,41,39,False,pending
+d14d895e81670059782e,context,1,A_newPerson,birthplace_rounded_lat,Tony Jaa,repair,13,15,False,pending
+eb63feb79a4760691cbe,context,1,A_newPerson,birthplace_capital,Bobby Fischer,repair,Reykjavik,"Washington, D.C.",False,pending
+a62c4e5e241b4d2235d0,context,1,A_newPerson,birthplace_capital,Galileo Galilei,repair,Pisa,Rome,False,pending
+0446ac9063f6a55495c1,context,1,A_newPerson,birthplace_rounded_lng,Norodom Sihanouk,repair,104,105,False,pending
+4bfc37c11e33937a2a90,context,1,A_newPerson,birthplace_callingcode,Daniel Day-Lewis,repair,+353,+44,False,pending
+2c81a957b47ad87b5efe,context,1,A_newPerson,birthplace_rounded_lng,Aristotle,repair,34,22,False,pending
+c3584ff99afdc255c259,context,1,A_newPerson,birthplace_capital,Christopher Columbus,repair,Genoa,Rome,False,pending
+58edd0e134a56f99e922,context,1,A_newPerson,birthplace_callingcode,Shakhriyar Mamedyarov,repair,+993,+994,False,pending
+149bbdb8c7a7fc60e3bd,context,1,A_newPerson,birthplace_rounded_lat,Mala Sinha,repair,25,20,False,pending
+bde481ea581bc7a4340a,context,1,A_newPerson,birthplace_rounded_lat,Paul Keres,repair,58,59,False,pending
+ded83e7fcb260e793bbf,context,1,A_newPerson,birthplace_capital,Cleopatra,repair,Alexandria,Cairo,False,pending
+df95796df3fc5c94333f,context,1,A_newPerson,birthplace_capital,Mia Khalifa,repair,Lebanon,Beirut,False,pending
+0d89f262d10708913f36,context,1,A_newPerson,birthplace_capital,Brian Lara,repair,Trinidad and Tobago,Port of Spain,False,pending
+276f407ad1493607ca1d,context,1,A_newPerson,birthplace_capital,Sead Kolašinac,repair,Tirana,Sarajevo,False,pending
+7cedb75c12371776a905,context,1,A_newPerson,birthplace_rounded_lat,Aristotle,damage,39,38,False,pending
+1a68c71ac3d78b428066,context,1,A_newPerson,birthplace_capital,Cristiano Ronaldo,repair,Madrid,Lisbon,False,pending
+1a26ce59bcbe1299c550,context,1,A_newPerson,birthplace_rounded_lat,Luka Dončić,damage,46,45,False,pending
+b9d6a64904fc52726576,context,1,A_newPerson,birthplace_callingcode,Jigme Singye Wangchuck,damage,+975,+93,False,pending
+7194d58d7eca7ca3ebfb,context,1,A_newPerson,birthplace_rounded_lng,Marek Hamšík,repair,18,19,False,pending
+a00fcc49bb89af083fcd,context,1,A_newPerson,birthplace_rounded_lng,Natti Natasha,repair,-75,-70,False,pending
+54be21d7cb6266168d8d,context,1,A_newPerson,birthplace_callingcode,Keanu Reeves,repair,64,+1,False,pending
+8920c0925b2ab1e291af,context,1,A_newPerson,birthplace_callingcode,Aloysius Pang,damage,+65,+60,False,pending
+06c22a4e73455d54b7aa,context,1,A_newPerson,birthplace_rounded_lng,Jackie Chan,damage,114,100,False,pending
+1d90215f46fa422e1d3b,context,1,A_newPerson,birthplace_capital,Confucius,repair,Qufu,Beijing,False,pending
+37b35fc5fa059b14b5ce,context,1,A_newPerson,birthplace_rounded_lng,Jigme Singye Wangchuck,repair,88,90° E,False,pending
+80aa1f9c37c8a400bf2a,context,1,A_newPerson,birthplace_rounded_lng,André the Giant,repair,43,2,False,pending
+31562e10445282c48176,context,1,A_newPerson,birthplace_rounded_lat,Robert Lewandowski,repair,51,52,False,pending
+baee34a3da2f8d3643f2,context,1,A_newPerson,birthplace_capital,Natalie Portman,repair,Tel Aviv,Jerusalem,False,pending
+978c5591e0a9f1837850,context,1,A_newPerson,birthplace_rounded_lng,Jigme Dorji Wangchuck,repair,89,90° E,False,pending
+ce9e6f82eacb8647d8c1,context,1,A_newPerson,birthplace_rounded_lng,Mohamed Salah,repair,31,30° E,False,pending
+eff96acfc7d26c88ebf2,context,1,A_newPerson,birthplace_rounded_lng,Niels Bohr,repair,12,10,False,pending
+1e12107a68d9c5fae3e0,context,1,A_newPerson,birthplace_rounded_lng,Omar Torrijos,repair,-82,-80,False,pending
+07276360d25ba969204f,context,1,A_newPerson,birthplace_capital,Ludwig van Beethoven,repair,Bonn,Berlin,False,pending
+23d64f0779dcb4c1b736,context,1,A_newPerson,birthplace_capital,Bar Refaeli,repair,Tel Aviv,Jerusalem,False,pending
+1020918bfeb7d328ea57,context,1,A_newPerson,birthplace_capital,Karl Marx,repair,Trier,Berlin,False,pending
+95190463e120ce49d064,context,1,A_newPerson,birthplace_capital,Aung San Suu Kyi,repair,Yangon,Naypyidaw,False,pending
+02b40c8130f3786436b3,context,1,A_newPerson,birthplace_capital,Mahatma Gandhi,repair,Porbandar,New Delhi,False,pending
+168ce7551cbab5bde663,context,1,A_newPerson,birthplace_capital,The Weeknd,repair,Toronto,Ottawa,False,pending
+9bb263cb757648a27cd8,context,1,A_newPerson,birthplace_rounded_lng,Sebastian Stan,damage,25,22,False,pending
+2d6369633412775f6820,context,1,A_newPerson,birthplace_rounded_lng,Jakaya Kikwete,repair,36,35.0,False,pending
+b2a5c1ffc65b09955479,context,1,A_newPerson,birthplace_rounded_lat,Pablo Picasso,repair,42,40,False,pending
+db1b0479f919333a3ac4,context,1,A_newPerson,birthplace_rounded_lng,Christopher Columbus,repair,39,12,False,pending
+d3dff2e93a1f6633e8de,context,1,A_newPerson,birthplace_capital,Mary Magdalene,repair,Unknown,Jerusalem,False,pending
+5245369c47657b3e0c78,context,1,A_newPerson,birthplace_capital,Heath Ledger,repair,Australia,Canberra,False,pending
+09d8288f5c657c8b1b3f,context,1,A_newPerson,birthplace_rounded_lat,Salvador Dali,repair,42,40,False,pending
+2de83623e6a036064d7c,context,1,A_newPerson,birthplace_rounded_lat,Bar Refaeli,repair,32,31,False,pending
+1f000cf120a36e2c8b83,context,1,A_newPerson,birthplace_callingcode,Hamilcar Barca,repair,+212,+216,False,pending
+740d8598be8dfaf4def6,context,1,A_newPerson,birthplace_callingcode,Natti Natasha,repair,+53,+1,False,pending
+956bdc10a4ae58b05632,context,1,A_newPerson,birthplace_capital,Nicolaus Copernicus,repair,Toruń,Warsaw,False,pending
+640d2f6be5f12945cf0b,context,1,B_newCategory,birthplace_currency,Leonardo da Vinci,repair,Lira (Italian Lira),Euro,False,pending
+30c338bad036c9b28a39,context,1,B_newCategory,birthplace_tld,Ferdinand Magellan,repair,.ph,.pt,False,pending
+3a8e52363c09ad83bb61,context,1,B_newCategory,birthplace_currency_short,Niki Lauda,repair,ATS,EUR,False,pending
+d1e1c1ed4b1eb0dc9b9c,context,1,B_newCategory,birthplace_tld,Marián Hossa,repair,.cz,.sk,False,pending
+7a4443307cfaa07de3c2,context,1,B_newCategory,birthplace_currency,Nawaf Al-Ahmad Al-Jaber Al-Sabah,repair,Bahraini dinar,Kuwaiti dinar,False,pending
+8e98a6b4c99dfc6a2eb6,context,1,B_newCategory,birthplace_currency_symbol,Alexis Arguello,repair,$,C$,False,pending
+a9ab30ab4a58a7b27b69,context,1,B_newCategory,birthplace_currency_short,Salva Kiir Mayardit,repair,SDG,SSP,False,pending
+42ed632c9ca24f2a6527,context,1,B_newCategory,birthplace_tld,Nikola Jokić,repair,com,.rs,False,pending
+0e4ad73bdfb53a281ba6,context,1,B_newCategory,birthplace_tld,Ibn Battuta,repair,.dz,.ma,False,pending
+96fe6228a6020a0c5645,context,1,B_newCategory,birthplace_currency,Nadia Comaneci,damage,Romanian Leu,Leu,False,pending
+24df6a1e559a98ff191d,context,1,B_newCategory,birthplace_currency_short,Sargon of Akkad,repair,SAR,IQD,False,pending
+2e5884068de93025016f,context,1,B_newCategory,birthplace_currency_short,Ferdinand Magellan,repair,PHP,EUR,False,pending
+fc034cb523530479ca12,context,1,B_newCategory,birthplace_tld,Sade,damage,.com.ng,.fr,False,pending
+bb480d8c40aa34903794,context,1,B_newCategory,birthplace_currency_short,Suleiman The Magnificent,repair,TRL,TRY,False,pending
+db0261a84c1274d41504,context,1,B_newCategory,birthplace_currency_short,Joseph Stalin,repair,RUB,GEL,False,pending
+d39edd823e7c647b2351,context,1,B_newCategory,birthplace_currency,Michelle Yeoh,repair,Singapore Dollar,Malaysian Ringgit,False,pending
+d4b310206288cb839e38,context,1,B_newCategory,birthplace_ccn3,Manny Pacquiao,damage,608,+63,False,pending
+f4a85ef2eb149b6b4eb5,context,1,B_newCategory,birthplace_currency_short,Hasheem Thabeet,repair,USD,TZS,False,pending
+d1b45b833f1cb463fb2b,context,1,B_newCategory,birthplace_tld,Ariana Grande,repair,.com,.us,False,pending
+abb829cb1b86b4ecc088,context,1,B_newCategory,birthplace_currency_symbol,Henry Golding,repair,$,RM,False,pending
+5248fa9af4b53964a481,context,1,B_newCategory,birthplace_tld,Anthony Quinn,damage,.mx,.es,False,pending
+330d18b3645204c31339,context,1,B_newCategory,birthplace_currency,Monica Seles,damage,Serbian dinar,Euro,False,pending
+6ab37563d2dcff0212d1,context,1,B_newCategory,birthplace_currency_symbol,Gautama Buddha,repair,₹,Rs.,False,pending
+833572af5680284e1e10,context,1,B_newCategory,birthplace_ccn3,Hans Christian Andersen,damage,208,+45,False,pending
+f4190a5aad5237324800,context,1,B_newCategory,birthplace_currency_short,Joaquin Phoenix,repair,AUD,USD,False,pending
+8faa9a0cec9951d90131,context,1,B_newCategory,birthplace_ccn3,Monica Bellucci,damage,380,+39,False,pending
+90fa5a3cf27e37fc4001,context,1,B_newCategory,birthplace_currency_symbol,Ferdinand Magellan,repair,₱,€,False,pending
+8502caf3704412a0c10e,context,1,B_newCategory,birthplace_tld,Salva Kiir Mayardit,damage,".com (South Sudan does not have an official top-level domain; .ss is the proposed one, but not widely used",.com,False,pending
+dd932caaee128eda3fec,context,1,B_newCategory,birthplace_currency_short,Jeanine Anez,damage,BOB,USD,False,pending
+927896f557b11e220fb0,context,1,B_newCategory,birthplace_currency_symbol,Gene Simmons,repair,$,₪,False,pending
+7985c7f9aa9cc76435ef,context,1,B_newCategory,birthplace_currency_symbol,Julius Nyerere,repair,TZS,TSh,False,pending
+7922ab9bc5a925f24064,context,1,B_newCategory,birthplace_currency_short,Mohamed Alabbar,damage,AED,SAR,False,pending
+29ab083c5fc0d423e4e7,context,1,B_newCategory,birthplace_ccn3,Mairis Briedis,repair,100,428,False,pending
+93e9878580a0ff1238c6,context,1,B_newCategory,birthplace_currency_short,Jimmy Choo,repair,SGD,MYR,False,pending
+551005cb2cd82edccd6e,context,1,B_newCategory,birthplace_ccn3,Vasco da Gama,damage,620,+351,False,pending
+433577c5e1882991be9f,context,1,B_newCategory,birthplace_currency,Nikola Jokić,repair,Dinar,Serbian dinar,False,pending
+194e90b4d3d72d40be83,context,1,B_newCategory,birthplace_currency,Joseph Stalin,repair,Ruble,Lari,False,pending
+17a5ef4b142940f0382e,context,1,B_newCategory,birthplace_currency_symbol,Ricardo Arjona,repair,$,Q,False,pending
+b996f3ade70f021ef909,context,1,B_newCategory,birthplace_tld,Jeanine Anez,damage,.bo,.ec,False,pending
+b7dfb9292ee11aac0f7b,context,1,B_newCategory,birthplace_currency_short,Sade,damage,NGN,EUR,False,pending
+969e1bb6352ad8076348,context,1,B_newCategory,birthplace_currency_short,Slavoj Žižek,repair,HRK,EUR,False,pending
+bbc4de91b4bcacc9e79c,context,1,B_newCategory,birthplace_currency,Võ Nguyên Giáp,repair,Dong,Vietnamese đồng,False,pending
+89747635a7bf1a3979b2,context,1,B_newCategory,birthplace_currency,Žydrūnas Ilgauskas,repair,Lithuanian litas,Euro,False,pending
+f73e6f4b3471dccb6655,context,1,B_newCategory,birthplace_currency_short,Olga Korbut,damage,BYN,RUB,False,pending
+5cc1d00b975282bb7d94,context,1,B_newCategory,birthplace_tld,Moses,repair,No answer.,.eg,False,pending
+d29410abbdb6999c623a,context,1,B_newCategory,birthplace_currency,Victor Moses,damage,Nigerian Naira,Naira,False,pending
+a7f2ec5d5ffafc0909c2,context,1,B_newCategory,birthplace_currency_short,Ignatius of Antioch,repair,EUR,SYP,False,pending
+3556abe99965da1e56ea,context,1,B_newCategory,birthplace_currency_symbol,Michelle Yeoh,repair,$,RM,False,pending
+d351835130a9114f3ce0,context,1,B_newCategory,birthplace_tld,Edin Dzeko,repair,.me,.ba,False,pending
+335641bb3530535e8d12,context,1,B_newCategory,birthplace_currency_short,Fernando Muslera,repair,PYG,UYU,False,pending
+a7083aef63d7e0b31e7a,context,1,B_newCategory,birthplace_currency_symbol,Donnie Yen,damage,HK$,¥,False,pending
+72879f64d31b7bda94e7,context,1,B_newCategory,birthplace_currency_short,Marián Hossa,repair,PLN,EUR,False,pending
+287ddad33e426a6ef749,context,1,B_newCategory,birthplace_currency,Gene Simmons,damage,Israeli New Shekel,Shekel,False,pending
+d40fb411929bf7b2e38a,context,1,B_newCategory,birthplace_currency_symbol,Fernando Muslera,repair,₲,$,False,pending
+94be42a354efed2a542d,context,1,B_newCategory,birthplace_currency_short,Ibn Battuta,repair,OMR,MAD,False,pending
+65bfa51c778bcfb6ae2e,context,1,B_newCategory,birthplace_currency,Plato,repair,Drachma,Euro,False,pending
+32ae9074b5dc632570d2,context,1,B_newCategory,birthplace_tld,Novak Djokovic,repair,com,.rs,False,pending
+301298ee23747d280a2d,context,1,B_newCategory,birthplace_currency_symbol,Ignatius of Antioch,repair,₺,£,False,pending
+38122ae5a95d4ab86649,context,1,B_newCategory,birthplace_tld,Michelle Yeoh,repair,.sg,.my,False,pending
+526716482d26535088d4,context,1,B_newCategory,birthplace_currency_symbol,Hatshepsut,damage,£,EGP,False,pending
+1c43fcfe6060e959a237,context,1,B_newCategory,birthplace_currency_symbol,Michaela DePrince,repair,LKR,Leone (Sierra Leone),False,pending
+0c3584e4aa7fca9be862,context,1,B_newCategory,birthplace_currency_symbol,Ang Lee,damage,NT$,¥,False,pending
+08c87e3b487dd2815ae0,context,1,B_newCategory,birthplace_currency_short,Eddie Van Halen,repair,USD,EUR,False,pending
+0119fccc0a0c582bc5e3,context,1,B_newCategory,birthplace_currency_symbol,Rubén Darío,repair,$,C$,False,pending
+b4097a447a043b0c0951,context,1,B_newCategory,birthplace_currency_short,Ricardo Arjona,damage,GTQ,QAR,False,pending
+e182250a51ae3adb6f95,context,1,B_newCategory,birthplace_currency,Niki Lauda,repair,Austrian schilling,Euro,False,pending
+d2cf258a829956211b15,context,1,B_newCategory,birthplace_currency,Subutai,repair,Tenge,Mongolian tögrög,False,pending
+2b67bdb4af63b297f47e,context,1,B_newCategory,birthplace_tld,Ian Smith,repair,.nz,.zw,False,pending
+9b252d0caeb21e276c96,context,1,B_newCategory,birthplace_currency_symbol,Vasco da Gama,repair,Escudo (currency symbol: ₣),€,False,pending
+fef3f6985c4adcfc9eaa,context,1,C_bothNew,birthplace_currency_symbol,Christopher Columbus,repair,Lira (L),€,False,pending
+f9b860084b5b344b08a2,context,1,C_bothNew,birthplace_currency_symbol,Vlad the Impaler,damage,lei (RON),RON,False,pending
+9ca20c0f5873f7978b2d,context,1,C_bothNew,birthplace_tld,Saad Al-Salim Al-Sabah,damage,.com.kw,.com.qa,False,pending
+187ebced09fb10ba8221,context,1,C_bothNew,birthplace_currency,Pablo Picasso,repair,Spanish peseta,Euro,False,pending
+a9d86d6d9dd9884dd770,context,1,C_bothNew,birthplace_currency_short,Achraf Hakimi,repair,DZD,MAD,False,pending
+87ed9e14a67817b3bcfd,context,1,C_bothNew,birthplace_currency_symbol,Catherine the Great,damage,₽,Ruble,False,pending
+0b76d99c4b37549a4671,context,1,C_bothNew,birthplace_currency_short,Israel Adesanya,repair,NZD,NGN,False,pending
+8e9f2546c396902b540c,context,1,C_bothNew,birthplace_currency_short,Pablo Picasso,repair,ESP,EUR,False,pending
+97e33cfed2f3c627cef8,context,1,C_bothNew,birthplace_tld,Agostinho Neto,damage,.ao,.africa,False,pending
+ae9c3018bb4ea0766cb8,context,1,C_bothNew,birthplace_currency_symbol,Lee Chong Wei,repair,$,RM,False,pending
+3539abd941dd6e80daef,context,1,C_bothNew,birthplace_ccn3,Robert Herjavec,repair,124,191,False,pending
+71b1abd8558473401bb5,context,1,C_bothNew,birthplace_tld,Michael Schumacher,repair,.ch,.de,False,pending
+b1588ea58506f90ca75d,context,1,C_bothNew,birthplace_tld,Keanu Reeves,repair,.nz,.ca,False,pending
+1d2bc31b13cec4dd168d,context,1,C_bothNew,birthplace_currency_symbol,Natalie Portman,repair,$,₪,False,pending
+d2ff204da1ce4ad54f6e,context,1,C_bothNew,birthplace_currency,Salvador Dali,repair,Spanish peseta,Euro,False,pending
+9cec32542b758fdc571f,context,1,C_bothNew,birthplace_currency_short,Mary Magdalene,damage,ILS,EUR,False,pending
+59426be954e39b5884c1,context,1,C_bothNew,birthplace_currency_symbol,Kobe Bryant,damage,$,¥,False,pending
+ba571c2dccad1bc52d37,context,1,C_bothNew,birthplace_ccn3,Keanu Reeves,repair,603,124,False,pending
+1e0199a88b91a24b15b5,context,1,C_bothNew,birthplace_currency,Franz Liszt,repair,Forint,Hungarian forint,False,pending
+4462102febef04a2eed6,context,1,C_bothNew,birthplace_tld,Dua Lipa,repair,.com,.uk,False,pending
+1fea31f69675f7e87a95,context,1,C_bothNew,birthplace_tld,Jackie Chan,damage,.com.hk,.cn,False,pending
+8fd38b913d4ea44c08d0,context,1,C_bothNew,birthplace_currency,Franz Kafka,repair,Crown (Koruna),Czech koruna,False,pending
+56ee1264ad3e0701e703,context,1,C_bothNew,birthplace_currency_short,Galileo Galilei,repair,LUF,EUR,False,pending
+271cc209340c9b5798ba,context,1,C_bothNew,birthplace_tld,Isabel dos Santos,damage,.com (Angola's TLD is .ao),.com.mo,False,pending
+5b8012b6c424299d8cb9,context,1,C_bothNew,birthplace_currency,Confucius,damage,Chinese yuan,Renminbi,False,pending
+e6adc470e1f89062188f,context,1,C_bothNew,birthplace_ccn3,Sergey Brin,repair,376,643,False,pending
+ec6adba969eea39be9bb,context,1,C_bothNew,birthplace_ccn3,Hristo Stoichkov,damage,100,+359,False,pending
+c56b5c5b3aa290bbf54f,context,1,C_bothNew,birthplace_tld,Sheikh Hasina,repair,.org,.bd,False,pending
+1936e0d49e141bc450c9,context,1,C_bothNew,birthplace_currency_symbol,Demna Gvasalia,repair,GEL,₾,False,pending
+d623ad849f934b21ce4a,context,1,C_bothNew,birthplace_currency_symbol,Karl Marx,repair,ℳ,€,False,pending
+7b7e316ed69007800350,context,1,C_bothNew,birthplace_tld,Kristaps Porzingis,repair,.lt,.lv,False,pending
+e596c49b7b3cf282b4d3,context,1,C_bothNew,birthplace_currency,Brian Lara,repair,Barbadian dollar,Trinidad and Tobago Dollar,False,pending
+a9562f82c681b6073ec4,context,1,C_bothNew,birthplace_currency_short,Osman I,repair,TRL,TRY,False,pending
+d91dd9b0aa7768729fb2,context,1,C_bothNew,birthplace_currency_symbol,Möngke Khan,damage,T₮,Tugrug,False,pending
+325abbe30ce66310dab1,context,1,C_bothNew,birthplace_currency_short,Pete Sandoval,damage,USD,MXN,False,pending
+e62b5aec4a87d3643602,context,1,C_bothNew,birthplace_currency,Ferenc Puskás,repair,Forint,Hungarian forint,False,pending
+4ff70c59fb2af02e3b15,context,1,C_bothNew,birthplace_tld,Freddie Mercury,repair,.com,.uk,False,pending
+e4c379a3309cafad56cf,context,1,C_bothNew,birthplace_ccn3,Virat Kohli,damage,356,+91,False,pending
+931d657a58193e0481d2,context,1,C_bothNew,birthplace_currency_symbol,Mary Magdalene,damage,₪,€,False,pending
+126d6e457cf1146e7370,context,1,C_bothNew,birthplace_currency_symbol,Rodrigo Duterte,damage,₱,PHP,False,pending
+9163e04a81c4f2fcfcac,context,1,C_bothNew,birthplace_currency,Aristotle,repair,Drachma,Euro,False,pending
+6a1c1b06b4be738a864e,context,1,C_bothNew,birthplace_currency,Kevin Sanjaya Sukamuljo,damage,Indonesian Rupiah,Rupiah,False,pending
+1b106c7a6458847a59f0,context,1,C_bothNew,birthplace_currency_symbol,Roberto Clemente,damage,$,₡,False,pending
+a5aa0bed687bc5be5188,context,1,C_bothNew,birthplace_currency_symbol,Norodom Sihamoni,repair,KHR,៛,False,pending
+d25733b7b03c746cc159,context,1,C_bothNew,birthplace_tld,Tom Hanks,repair,.com,.us,False,pending
+0f54d10c36f4f5639a72,context,1,C_bothNew,birthplace_currency_short,Roberto Clemente,damage,USD,CRC,False,pending
+99c03ec9443257cc12bc,context,1,C_bothNew,birthplace_currency_short,Che Guevara,damage,ARS,CUP,False,pending
+adebf2222058ef53e58e,context,1,C_bothNew,birthplace_currency,Che Guevara,damage,Argentine peso,Cuban peso,False,pending
+33d868264fe266f4b971,context,1,C_bothNew,birthplace_tld,Anna Diop,repair,.fr,.sn,False,pending
+e1f67fe4d14255045ea9,context,1,C_bothNew,birthplace_currency_symbol,André the Giant,repair,CFA,€,False,pending
+18462643834c0cde71af,context,1,C_bothNew,birthplace_tld,Abdullah Al Mutairi,damage,.com.kw,.com.sa,False,pending
+edb3b2684b78ccd5e1a7,context,1,C_bothNew,birthplace_currency_short,Vincent van Gogh,repair,FLR,EUR,False,pending
+df1aa73141efa54eeb8f,context,1,D_reservedC,birthplace_currency_short,Muammar Gaddafi,repair,LD,LYD,False,pending
+1fea44d9cfa590df6880,context,1,D_reservedC,birthplace_currency_symbol,Barbara Palvin,repair,HUF,Ft,False,pending
+f19f93e3a17da94641af,context,1,D_reservedC,birthplace_tld,Bobby Fischer,repair,.is,.us,False,pending
+876225a92dfa8ee28ae7,context,1,D_reservedC,birthplace_ccn3,Nelson Mandela,damage,710,+27,False,pending
+a229e0970f4c207c0feb,context,1,D_reservedC,birthplace_ccn3,Jack Ma,damage,156,+86,False,pending
+376f786c59c48209c1ff,context,1,D_reservedC,birthplace_currency_symbol,Galileo Galilei,repair,Lira (L),€,False,pending
+1200c04ab1fc6fa50eaf,context,1,D_reservedC,birthplace_tld,Levy Mwanawasa,repair,com,.zm,False,pending
+f0391ed4d5a2a15086e4,context,1,D_reservedC,birthplace_currency_symbol,Shakhriyar Mamedyarov,damage,manat (₼),manat,False,pending
+0e4e5e295f08364d1eae,context,1,D_reservedC,birthplace_ccn3,AB de Villiers,damage,710,+27,False,pending
+6c40fea8f80e85ff64cc,context,1,D_reservedC,birthplace_ccn3,Pablo Picasso,repair,212,724,False,pending
+3992ad8cf9d23185b2fb,context,1,D_reservedC,birthplace_currency,Sergey Brin,damage,Russian ruble,Ruble,False,pending
+835c4df5381e83d7006a,context,1,D_reservedC,birthplace_currency_symbol,Abebe Bikila,repair,ብር,Braille pattern dots-123456,False,pending
+f29c55db577b1494693f,context,1,D_reservedC,birthplace_currency,Karl Marx,repair,Thaler,Euro,False,pending
+926054b4dfbe4a144a77,context,1,D_reservedC,birthplace_ccn3,Mala Sinha,damage,356,+91,False,pending
+5dba9e978a96ba908147,context,1,D_reservedC,birthplace_currency_symbol,Sheikh Mujibur Rahman,damage,Taka (৳),Taka,False,pending
+f3116709887ce5aab6ca,context,1,D_reservedC,birthplace_currency,Jaber Al-Mubarak Al-Hamad Al-Sabah,repair,Bahraini dinar,Kuwaiti dinar,False,pending
+28c76e9b75a6cfc69857,context,1,D_reservedC,birthplace_currency,Oscar Wilde,repair,Pound sterling,Euro,False,pending
+1ea7e0adba02879fc17c,context,1,D_reservedC,birthplace_currency,Mohammed bin Rashid Al Maktoum,repair,Dirham,United Arab Emirates Dirham,False,pending
+e3dae7a8b1a2616c1a19,context,1,D_reservedC,birthplace_currency_short,André the Giant,repair,CFA,EUR,False,pending
+afb60e384f2a00f056f1,context,1,D_reservedC,birthplace_currency_symbol,Omar Torrijos,repair,$,B$,False,pending
+63fe21fbcb84cbbb0d7f,context,1,D_reservedC,birthplace_currency,Galileo Galilei,repair,Lira,Euro,False,pending
+2e4b6e4728e64671a046,context,1,D_reservedC,birthplace_currency_symbol,Tutankhamun,damage,£,EGP,False,pending
+d18b52cd8ffb496ad5ba,context,1,D_reservedC,birthplace_currency_symbol,Fidel Castro,damage,Cuban Peso ($ or CUP),Cuban Peso (CUP),False,pending
+fccb055eddae8f4e5f93,context,1,D_reservedC,birthplace_currency_symbol,Peter Sagan,repair,EUR,€,False,pending
+26466299d47291a4952e,context,1,D_reservedC,birthplace_currency,Vincent van Gogh,repair,Dutch guilder,Euro,False,pending
+78500f4996ff7d30dcb6,context,1,D_reservedC,birthplace_ccn3,Domantas Sabonis,damage,440,370,False,pending
+0d5b0a45cbdd910c0f54,context,1,D_reservedC,birthplace_ccn3,Mahatma Gandhi,damage,356,+91,False,pending
+2536bf8b402564f1b8df,context,1,D_reservedC,birthplace_tld,Patrick Ewing,damage,.jm,.com,False,pending
+e72e9a66a52758bedd1a,context,1,D_reservedC,birthplace_tld,Akon,repair,.com,.sn,False,pending
+c86a441ceedb7f275c40,context,1,D_reservedC,birthplace_currency_short,Natalie Portman,repair,USD,ILS,False,pending
+1063cadc814944681837,context,1,D_reservedC,birthplace_currency_short,Nikola Tesla,repair,DIN,RSD,False,pending
+0794fa70ce5680752bfa,context,1,D_reservedC,birthplace_currency,Zayed bin Sultan Al Nahyan,repair,UAE Dirham,United Arab Emirates Dirham,False,pending
+96ea58a949f4bafd3648,context,1,D_reservedC,birthplace_currency,Michael Schumacher,repair,Swiss franc,Euro,False,pending
+c2d5e23a792cbafa7c8c,context,1,D_reservedC,birthplace_currency,Saad Al-Salim Al-Sabah,repair,Bahraini dinar,Kuwaiti dinar,False,pending
+3440ca3a0196239cb52a,context,1,D_reservedC,birthplace_currency,Skanderbeg,damage,Albanian lekë,Leu,False,pending
+ca889cf1fcf876796271,context,1,D_reservedC,birthplace_tld,Cung Le,repair,.com,.vn,False,pending
+461fa42328a9215f1651,context,1,D_reservedC,birthplace_currency_symbol,Luis Suarez,damage,$,₲,False,pending
+1c8d20a3ec1c6bf487ca,context,1,D_reservedC,birthplace_ccn3,Frida Kahlo,damage,484,+52,False,pending
+7b59a3ed9ab69bb7f356,context,1,D_reservedC,birthplace_currency_short,Drake,repair,JMD,CAD,False,pending
+db906cc46c7be14ab4ba,direct,1,A_newPerson,birthplace_callingcode,Jacobo Árbenz,damage,+502,501,False,pending
+f382ae9ca3db9e338e7b,direct,1,A_newPerson,birthplace_capital,Aloysius Pang,damage,Singapore,Kuala Lumpur,False,pending
+29b0056566a462a1f76d,direct,1,A_newPerson,birthplace_rounded_lat,Carlos Slim,damage,23,32,False,pending
+46cf0086ca23b8a2cccb,direct,1,A_newPerson,birthplace_callingcode,Desi Arnaz,damage,+53,+1,False,pending
+10868d2f53a045c65cec,direct,1,A_newPerson,birthplace_rounded_lng,Lee Hsien Loong,damage,103,101,False,pending
+e931837598266c288b96,direct,1,A_newPerson,birthplace_callingcode,Genghis Khan,damage,+976,+974,False,pending
+7926a5e0dde33a6b4fbc,direct,1,A_newPerson,birthplace_callingcode,Mila Kunis,damage,+380,+1,False,pending
+58edd0e134a56f99e922,direct,1,A_newPerson,birthplace_callingcode,Shakhriyar Mamedyarov,repair,+993,+994,False,pending
+c32f4cf68c187b0d40d2,direct,1,A_newPerson,birthplace_rounded_lat,Ho Chi Minh,damage,16,10,False,pending
+9e22d2a8c9c340df7937,direct,1,A_newPerson,birthplace_capital,Luka Dončić,repair,Belgrade,Ljubljana,False,pending
+bde481ea581bc7a4340a,direct,1,A_newPerson,birthplace_rounded_lat,Paul Keres,repair,58,59,False,pending
+0cca98406e84c34eeb8d,direct,1,A_newPerson,birthplace_rounded_lat,Anett Kontaveit,repair,58,59,False,pending
+92c4b71172a8b6f757ef,direct,1,A_newPerson,birthplace_callingcode,Che Guevara,repair,+53,54,False,pending
+bfd65057e95147fd330c,direct,1,A_newPerson,birthplace_rounded_lat,Emir Kusturica,repair,43,44,False,pending
+283fa0ecd32776a309ff,direct,1,A_newPerson,birthplace_capital,Usain Bolt,damage,Kingston,Jamaica,False,pending
+639ac3ef9a92a440f6e4,direct,1,A_newPerson,birthplace_rounded_lat,Jaber Al-Mubarak Al-Hamad Al-Sabah,damage,29,26,False,pending
+96fe6228a6020a0c5645,direct,1,B_newCategory,birthplace_currency,Nadia Comaneci,damage,Romanian Leu,Leu,False,pending
+fc034cb523530479ca12,direct,1,B_newCategory,birthplace_tld,Sade,damage,.com.ng,.fr,False,pending
+d4b310206288cb839e38,direct,1,B_newCategory,birthplace_ccn3,Manny Pacquiao,damage,608,+63,False,pending
+d1b45b833f1cb463fb2b,direct,1,B_newCategory,birthplace_tld,Ariana Grande,repair,.com,.us,False,pending
+330d18b3645204c31339,direct,1,B_newCategory,birthplace_currency,Monica Seles,damage,Serbian dinar,Euro,False,pending
+8502caf3704412a0c10e,direct,1,B_newCategory,birthplace_tld,Salva Kiir Mayardit,damage,".com (South Sudan does not have an official top-level domain; .ss is the proposed one, but not widely used",.com,False,pending
+c20e3cc53c8495366b79,direct,1,B_newCategory,birthplace_currency,Ferdinand Magellan,damage,Euros,Espanhol (Spanish),False,pending
+d6c1256e4fc08d95d808,direct,1,B_newCategory,birthplace_currency_symbol,Emilio Izaguirre,repair,₡,Lempira (L),False,pending
+969e1bb6352ad8076348,direct,1,B_newCategory,birthplace_currency_short,Slavoj Žižek,repair,HRK,EUR,False,pending
+a7f2ec5d5ffafc0909c2,direct,1,B_newCategory,birthplace_currency_short,Ignatius of Antioch,repair,EUR,SYP,False,pending
+32ae9074b5dc632570d2,direct,1,B_newCategory,birthplace_tld,Novak Djokovic,repair,com,.rs,False,pending
+ebdfdd6c65a0faf42fa1,direct,1,B_newCategory,birthplace_currency_symbol,Leonard Bundu,damage,Leone ($)$,KSh,False,pending
+87ed9e14a67817b3bcfd,direct,1,C_bothNew,birthplace_currency_symbol,Catherine the Great,damage,₽,Ruble,False,pending
+637cd44536b0d8cfffb9,direct,1,C_bothNew,birthplace_currency,Robert Lewandowski,damage,Polish złoty,Zloty,False,pending
+a8cc483ecfe22287bb60,direct,1,C_bothNew,birthplace_tld,Diego Forlán,damage,Uruguay's top-level domain is .uy.,Uruguay,False,pending
+d25733b7b03c746cc159,direct,1,C_bothNew,birthplace_tld,Tom Hanks,repair,.com,.us,False,pending
+24899e1e163d3c6e34b9,direct,1,D_reservedC,birthplace_tld,Luis Suarez,damage,.com (Uruguay's TLD is .uy),.com,False,pending
+7f470173d3b2515c67e1,direct,1,D_reservedC,birthplace_currency_short,Grace Kelly,repair,GBP,USD,False,pending
+c86a441ceedb7f275c40,direct,1,D_reservedC,birthplace_currency_short,Natalie Portman,repair,USD,ILS,False,pending
+3440ca3a0196239cb52a,direct,1,D_reservedC,birthplace_currency,Skanderbeg,damage,Albanian lekë,Leu,False,pending
+069da5b39f9b91a2168f,context,2,A_newPerson,birthplace_capital,Vladimir Lenin,repair,Simbirsk,Moscow,False,pending
+793be0ac4698f6816e7e,context,2,A_newPerson,birthplace_capital,Chinua Achebe,repair,Lagos,Abuja,False,pending
+c0e62aa0032e5e3b7a78,context,2,A_newPerson,birthplace_rounded_lng,Achraf Hakimi,repair,-5.5,-5,False,pending
+1e6d9aa1383274282ba2,context,2,A_newPerson,birthplace_rounded_lat,Usain Bolt,repair,10,18°N,False,pending
+8beda938cda905e4e966,context,2,A_newPerson,birthplace_capital,Jacques Derrida,damage,Algiers,Paris,False,pending
+d1f9e7845c004a237bd4,context,2,A_newPerson,birthplace_rounded_lat,Ferenc Puskás,damage,47,46,False,pending
+59e88141ec84771b17c0,context,2,A_newPerson,birthplace_rounded_lat,Robert Herjavec,repair,49,45,False,pending
+327f4b94a5cb72edbe5b,context,2,A_newPerson,birthplace_rounded_lng,Bjork,repair,-21,-18,False,pending
+b26f4a1ea1d3efbbf098,context,2,A_newPerson,birthplace_capital,Napoleon Bonaparte,repair,Ajaccio,Paris,False,pending
+68ddf98dcf1d0e890ad1,context,2,A_newPerson,birthplace_capital,Franz Liszt,repair,Hungary,Budapest,False,pending
+f382ae9ca3db9e338e7b,context,2,A_newPerson,birthplace_capital,Aloysius Pang,damage,Singapore,Kuala Lumpur,False,pending
+bb17153d9b83fe9b03c3,context,2,A_newPerson,birthplace_capital,Vincent van Gogh,repair,The Hague,Amsterdam,False,pending
+9571f505763795bff4b9,context,2,A_newPerson,birthplace_rounded_lat,Carlos Slim,damage,23,19° N,False,pending
+6134f1e6dd1bbad4b5f3,context,2,A_newPerson,birthplace_capital,Salvador Dali,repair,Figueres,Madrid,False,pending
+a773d0c6e65aad9ddcb6,context,2,A_newPerson,birthplace_rounded_lng,Pedro Martínez,repair,-71,-70,False,pending
+3a9262ba9c1e01320333,context,2,A_newPerson,birthplace_rounded_lat,Thuy Trang,repair,10,16,False,pending
+bdd5359c0b7beb3ffb4b,context,2,A_newPerson,birthplace_rounded_lat,Osman I,repair,40,39,False,pending
+7868b48b0f09cd52bd99,context,2,A_newPerson,birthplace_rounded_lng,Norodom Sihamoni,repair,104,105,False,pending
+0a6a463ed437558b056b,context,2,A_newPerson,birthplace_capital,Rodrigo Duterte,repair,Davao City,Manila,False,pending
+770b5f47a519f099d5d4,context,2,A_newPerson,birthplace_callingcode,Jan Oblak,damage,+386,+387,False,pending
+035fc36a062d3288e014,context,2,A_newPerson,birthplace_rounded_lng,Mala Sinha,repair,82,77.0,False,pending
+64a8b34144e819a96437,context,2,A_newPerson,birthplace_rounded_lat,Steve Irwin,damage,-27,-30,False,pending
+dde84ae1dbfa2c78e7ca,context,2,A_newPerson,birthplace_capital,Jack Ma,repair,Hangzhou,Beijing,False,pending
+6a671b986518a9d3ed09,context,2,A_newPerson,birthplace_callingcode,Christopher Columbus,damage,+39,+34,False,pending
+05b45bfb7188d6b3742a,context,2,A_newPerson,birthplace_callingcode,Tina Turner,damage,+1,+41,False,pending
+8f3da05852059d9c1a7a,context,2,A_newPerson,birthplace_rounded_lng,Mustafa Kemal Ataturk,repair,36,35,False,pending
+db4f6c60d8d9bb8feb20,context,2,A_newPerson,birthplace_rounded_lat,Bobby Fischer,damage,38,40,False,pending
+8ffb27118ba781a18a91,context,2,A_newPerson,birthplace_capital,Julian Assange,repair,London,Canberra,False,pending
+8ac11acf919eca07ed45,context,2,A_newPerson,birthplace_callingcode,Jigme Dorji Wangchuck,damage,+975,+93,False,pending
+84679a8fe2ef5eeda03e,context,2,A_newPerson,birthplace_rounded_lat,Natalie Portman,repair,34,31,False,pending
+f389ff44d7bcc64df1f4,context,2,A_newPerson,birthplace_rounded_lat,Muhammad Ali Jinnah,repair,25,30,False,pending
+9f555968c5ecc37e5c6c,context,2,A_newPerson,birthplace_rounded_lat,Jakaya Kikwete,repair,6.5,6° S,False,pending
+f3368755433153f667fd,context,2,A_newPerson,birthplace_rounded_lat,Jean-Claude Van Damme,repair,51,50,False,pending
+4fef2af719836ecdc782,context,2,A_newPerson,birthplace_rounded_lng,Tutankhamun,repair,32,30° E,False,pending
+864863e315b24be6d0f8,context,2,A_newPerson,birthplace_capital,Vlad the Impaler,repair,Sighisoara,Bucharest,False,pending
+6386016efb34fbfe8dad,context,2,A_newPerson,birthplace_capital,Svetlana Boginskaya,damage,Minsk,Moscow,False,pending
+aa2509766c3950dd1e03,context,2,A_newPerson,birthplace_capital,Carl Jung,repair,Lausanne,Bern,False,pending
+8611d631a73d1a28fc10,context,2,A_newPerson,birthplace_rounded_lat,Cristiano Ronaldo,repair,41,39,False,pending
+d14d895e81670059782e,context,2,A_newPerson,birthplace_rounded_lat,Tony Jaa,repair,13,15,False,pending
+eb63feb79a4760691cbe,context,2,A_newPerson,birthplace_capital,Bobby Fischer,repair,Reykjavik,"Washington, D.C.",False,pending
+a62c4e5e241b4d2235d0,context,2,A_newPerson,birthplace_capital,Galileo Galilei,repair,Pisa,Rome,False,pending
+0446ac9063f6a55495c1,context,2,A_newPerson,birthplace_rounded_lng,Norodom Sihanouk,repair,104,105,False,pending
+b48ad2ef72d42400265c,context,2,A_newPerson,birthplace_callingcode,Mila Kunis,damage,+380,+7,False,pending
+4bfc37c11e33937a2a90,context,2,A_newPerson,birthplace_callingcode,Daniel Day-Lewis,repair,+353,+44,False,pending
+c3584ff99afdc255c259,context,2,A_newPerson,birthplace_capital,Christopher Columbus,repair,Genoa,Rome,False,pending
+58edd0e134a56f99e922,context,2,A_newPerson,birthplace_callingcode,Shakhriyar Mamedyarov,repair,+993,+994,False,pending
+149bbdb8c7a7fc60e3bd,context,2,A_newPerson,birthplace_rounded_lat,Mala Sinha,repair,25,20,False,pending
+7e06e2ec852b655c854b,context,2,A_newPerson,birthplace_callingcode,Eriq Zavaleta,damage,+1,+591,False,pending
+bde481ea581bc7a4340a,context,2,A_newPerson,birthplace_rounded_lat,Paul Keres,repair,58,59,False,pending
+ded83e7fcb260e793bbf,context,2,A_newPerson,birthplace_capital,Cleopatra,repair,Alexandria,Cairo,False,pending
+261579a9f9337e9bfc24,context,2,A_newPerson,birthplace_rounded_lat,Melania Trump,repair,45,46,False,pending
+b47e951fd385e11e1aea,context,2,A_newPerson,birthplace_rounded_lat,Anett Kontaveit,repair,58,59.0,False,pending
+df95796df3fc5c94333f,context,2,A_newPerson,birthplace_capital,Mia Khalifa,repair,Lebanon,Beirut,False,pending
+0d89f262d10708913f36,context,2,A_newPerson,birthplace_capital,Brian Lara,repair,Trinidad and Tobago,Port of Spain,False,pending
+276f407ad1493607ca1d,context,2,A_newPerson,birthplace_capital,Sead Kolašinac,repair,Tirana,Sarajevo,False,pending
+7cedb75c12371776a905,context,2,A_newPerson,birthplace_rounded_lat,Aristotle,damage,39,38,False,pending
+1a68c71ac3d78b428066,context,2,A_newPerson,birthplace_capital,Cristiano Ronaldo,repair,Madrid,Lisbon,False,pending
+f716379ca3f1f3c97e87,context,2,A_newPerson,birthplace_rounded_lat,Luka Dončić,damage,46,43,False,pending
+b9d6a64904fc52726576,context,2,A_newPerson,birthplace_callingcode,Jigme Singye Wangchuck,damage,+975,+93,False,pending
+7194d58d7eca7ca3ebfb,context,2,A_newPerson,birthplace_rounded_lng,Marek Hamšík,repair,18,19,False,pending
+54be21d7cb6266168d8d,context,2,A_newPerson,birthplace_callingcode,Keanu Reeves,repair,64,+1,False,pending
+8920c0925b2ab1e291af,context,2,A_newPerson,birthplace_callingcode,Aloysius Pang,damage,+65,+60,False,pending
+339f9589b910bca24b31,context,2,A_newPerson,birthplace_rounded_lng,Jackie Chan,damage,114,116,False,pending
+e421007d67d5429638ed,context,2,A_newPerson,birthplace_callingcode,Hannibal,repair,+39,+216,False,pending
+7e010aed387f9791de2b,context,2,A_newPerson,birthplace_rounded_lat,Virat Kohli,repair,28,20,False,pending
+1d90215f46fa422e1d3b,context,2,A_newPerson,birthplace_capital,Confucius,repair,Qufu,Beijing,False,pending
+37b35fc5fa059b14b5ce,context,2,A_newPerson,birthplace_rounded_lng,Jigme Singye Wangchuck,repair,88,90° E,False,pending
+80aa1f9c37c8a400bf2a,context,2,A_newPerson,birthplace_rounded_lng,André the Giant,repair,43,2,False,pending
+64403136a852c5a13af1,context,2,A_newPerson,birthplace_callingcode,Jean-Jacques Rousseau,repair,+33,+41,False,pending
+31562e10445282c48176,context,2,A_newPerson,birthplace_rounded_lat,Robert Lewandowski,repair,51,52,False,pending
+baee34a3da2f8d3643f2,context,2,A_newPerson,birthplace_capital,Natalie Portman,repair,Tel Aviv,Jerusalem,False,pending
+978c5591e0a9f1837850,context,2,A_newPerson,birthplace_rounded_lng,Jigme Dorji Wangchuck,repair,89,90° E,False,pending
+ce9e6f82eacb8647d8c1,context,2,A_newPerson,birthplace_rounded_lng,Mohamed Salah,repair,31,30° E,False,pending
+c27a2e7c4dd032d56da9,context,2,A_newPerson,birthplace_callingcode,Kublai Khan,damage,+976,+86,False,pending
+eff96acfc7d26c88ebf2,context,2,A_newPerson,birthplace_rounded_lng,Niels Bohr,repair,12,10,False,pending
+1e12107a68d9c5fae3e0,context,2,A_newPerson,birthplace_rounded_lng,Omar Torrijos,repair,-82,-80,False,pending
+07276360d25ba969204f,context,2,A_newPerson,birthplace_capital,Ludwig van Beethoven,repair,Bonn,Berlin,False,pending
+23d64f0779dcb4c1b736,context,2,A_newPerson,birthplace_capital,Bar Refaeli,repair,Tel Aviv,Jerusalem,False,pending
+1020918bfeb7d328ea57,context,2,A_newPerson,birthplace_capital,Karl Marx,repair,Trier,Berlin,False,pending
+95190463e120ce49d064,context,2,A_newPerson,birthplace_capital,Aung San Suu Kyi,repair,Yangon,Naypyidaw,False,pending
+02b40c8130f3786436b3,context,2,A_newPerson,birthplace_capital,Mahatma Gandhi,repair,Porbandar,New Delhi,False,pending
+168ce7551cbab5bde663,context,2,A_newPerson,birthplace_capital,The Weeknd,repair,Toronto,Ottawa,False,pending
+9bb263cb757648a27cd8,context,2,A_newPerson,birthplace_rounded_lng,Sebastian Stan,damage,25,22,False,pending
+2d6369633412775f6820,context,2,A_newPerson,birthplace_rounded_lng,Jakaya Kikwete,repair,36,35.0,False,pending
+b2a5c1ffc65b09955479,context,2,A_newPerson,birthplace_rounded_lat,Pablo Picasso,repair,42,40,False,pending
+5dffdd39f16ba4c4d5bb,context,2,A_newPerson,birthplace_callingcode,Kobe Bryant,damage,+1,+81,False,pending
+d3dff2e93a1f6633e8de,context,2,A_newPerson,birthplace_capital,Mary Magdalene,repair,Unknown,Jerusalem,False,pending
+5245369c47657b3e0c78,context,2,A_newPerson,birthplace_capital,Heath Ledger,repair,Australia,Canberra,False,pending
+09d8288f5c657c8b1b3f,context,2,A_newPerson,birthplace_rounded_lat,Salvador Dali,repair,42,40,False,pending
+2de83623e6a036064d7c,context,2,A_newPerson,birthplace_rounded_lat,Bar Refaeli,repair,32,31,False,pending
+1f000cf120a36e2c8b83,context,2,A_newPerson,birthplace_callingcode,Hamilcar Barca,repair,+212,+216,False,pending
+740d8598be8dfaf4def6,context,2,A_newPerson,birthplace_callingcode,Natti Natasha,repair,+53,+1,False,pending
+956bdc10a4ae58b05632,context,2,A_newPerson,birthplace_capital,Nicolaus Copernicus,repair,Toruń,Warsaw,False,pending
+640d2f6be5f12945cf0b,context,2,B_newCategory,birthplace_currency,Leonardo da Vinci,repair,Lira (Italian Lira),Euro,False,pending
+30c338bad036c9b28a39,context,2,B_newCategory,birthplace_tld,Ferdinand Magellan,repair,.ph,.pt,False,pending
+3a8e52363c09ad83bb61,context,2,B_newCategory,birthplace_currency_short,Niki Lauda,repair,ATS,EUR,False,pending
+d1e1c1ed4b1eb0dc9b9c,context,2,B_newCategory,birthplace_tld,Marián Hossa,repair,.cz,.sk,False,pending
+7a4443307cfaa07de3c2,context,2,B_newCategory,birthplace_currency,Nawaf Al-Ahmad Al-Jaber Al-Sabah,repair,Bahraini dinar,Kuwaiti dinar,False,pending
+8e98a6b4c99dfc6a2eb6,context,2,B_newCategory,birthplace_currency_symbol,Alexis Arguello,repair,$,C$,False,pending
+a9ab30ab4a58a7b27b69,context,2,B_newCategory,birthplace_currency_short,Salva Kiir Mayardit,repair,SDG,SSP,False,pending
+d07f7fcf19b75f9785e3,context,2,B_newCategory,birthplace_ccn3,U Thant,repair,752,104,False,pending
+42ed632c9ca24f2a6527,context,2,B_newCategory,birthplace_tld,Nikola Jokić,repair,com,.rs,False,pending
+cd4667776c9047c64300,context,2,B_newCategory,birthplace_currency_short,Sadio Mané,repair,GMD,XOF,False,pending
+0e4ad73bdfb53a281ba6,context,2,B_newCategory,birthplace_tld,Ibn Battuta,repair,.dz,.ma,False,pending
+96fe6228a6020a0c5645,context,2,B_newCategory,birthplace_currency,Nadia Comaneci,damage,Romanian Leu,Leu,False,pending
+2e5884068de93025016f,context,2,B_newCategory,birthplace_currency_short,Ferdinand Magellan,repair,PHP,EUR,False,pending
+fc034cb523530479ca12,context,2,B_newCategory,birthplace_tld,Sade,damage,.com.ng,.fr,False,pending
+bb480d8c40aa34903794,context,2,B_newCategory,birthplace_currency_short,Suleiman The Magnificent,repair,TRL,TRY,False,pending
+db0261a84c1274d41504,context,2,B_newCategory,birthplace_currency_short,Joseph Stalin,repair,RUB,GEL,False,pending
+d39edd823e7c647b2351,context,2,B_newCategory,birthplace_currency,Michelle Yeoh,repair,Singapore Dollar,Malaysian Ringgit,False,pending
+d4b310206288cb839e38,context,2,B_newCategory,birthplace_ccn3,Manny Pacquiao,damage,608,+63,False,pending
+f4a85ef2eb149b6b4eb5,context,2,B_newCategory,birthplace_currency_short,Hasheem Thabeet,repair,USD,TZS,False,pending
+3ade39c637c61489b5d8,context,2,B_newCategory,birthplace_tld,Monica Seles,repair,.com,.rs,False,pending
+d1b45b833f1cb463fb2b,context,2,B_newCategory,birthplace_tld,Ariana Grande,repair,.com,.us,False,pending
+abb829cb1b86b4ecc088,context,2,B_newCategory,birthplace_currency_symbol,Henry Golding,repair,$,RM,False,pending
+5248fa9af4b53964a481,context,2,B_newCategory,birthplace_tld,Anthony Quinn,damage,.mx,.es,False,pending
+c72abcad63f4b4c30011,context,2,B_newCategory,birthplace_tld,Kazi Nazrul Islam,repair,.in,.bd,False,pending
+330d18b3645204c31339,context,2,B_newCategory,birthplace_currency,Monica Seles,damage,Serbian dinar,Euro,False,pending
+6ab37563d2dcff0212d1,context,2,B_newCategory,birthplace_currency_symbol,Gautama Buddha,repair,₹,Rs.,False,pending
+833572af5680284e1e10,context,2,B_newCategory,birthplace_ccn3,Hans Christian Andersen,damage,208,+45,False,pending
+f4190a5aad5237324800,context,2,B_newCategory,birthplace_currency_short,Joaquin Phoenix,repair,AUD,USD,False,pending
+8faa9a0cec9951d90131,context,2,B_newCategory,birthplace_ccn3,Monica Bellucci,damage,380,+39,False,pending
+90fa5a3cf27e37fc4001,context,2,B_newCategory,birthplace_currency_symbol,Ferdinand Magellan,repair,₱,€,False,pending
+8502caf3704412a0c10e,context,2,B_newCategory,birthplace_tld,Salva Kiir Mayardit,damage,".com (South Sudan does not have an official top-level domain; .ss is the proposed one, but not widely used",.com,False,pending
+0c84be92949819a82512,context,2,B_newCategory,birthplace_currency,Henry Golding,repair,Brunei Dollar,Malaysian Ringgit,False,pending
+927896f557b11e220fb0,context,2,B_newCategory,birthplace_currency_symbol,Gene Simmons,repair,$,₪,False,pending
+7985c7f9aa9cc76435ef,context,2,B_newCategory,birthplace_currency_symbol,Julius Nyerere,repair,TZS,TSh,False,pending
+7922ab9bc5a925f24064,context,2,B_newCategory,birthplace_currency_short,Mohamed Alabbar,damage,AED,SAR,False,pending
+f8ee6e828fd77a9f6887,context,2,B_newCategory,birthplace_currency,Gautama Buddha,repair,Indian Rupee,Nepalese Rupee,False,pending
+93e9878580a0ff1238c6,context,2,B_newCategory,birthplace_currency_short,Jimmy Choo,repair,SGD,MYR,False,pending
+551005cb2cd82edccd6e,context,2,B_newCategory,birthplace_ccn3,Vasco da Gama,damage,620,+351,False,pending
+433577c5e1882991be9f,context,2,B_newCategory,birthplace_currency,Nikola Jokić,repair,Dinar,Serbian dinar,False,pending
+10063dcecdd03ffd4447,context,2,B_newCategory,birthplace_currency,Joseph Stalin,repair,Ruble,Georgian lari,False,pending
+17a5ef4b142940f0382e,context,2,B_newCategory,birthplace_currency_symbol,Ricardo Arjona,repair,$,Q,False,pending
+b7dfb9292ee11aac0f7b,context,2,B_newCategory,birthplace_currency_short,Sade,damage,NGN,EUR,False,pending
+969e1bb6352ad8076348,context,2,B_newCategory,birthplace_currency_short,Slavoj Žižek,repair,HRK,EUR,False,pending
+bbc4de91b4bcacc9e79c,context,2,B_newCategory,birthplace_currency,Võ Nguyên Giáp,repair,Dong,Vietnamese đồng,False,pending
+89747635a7bf1a3979b2,context,2,B_newCategory,birthplace_currency,Žydrūnas Ilgauskas,repair,Lithuanian litas,Euro,False,pending
+f73e6f4b3471dccb6655,context,2,B_newCategory,birthplace_currency_short,Olga Korbut,damage,BYN,RUB,False,pending
+5cc1d00b975282bb7d94,context,2,B_newCategory,birthplace_tld,Moses,repair,No answer.,.eg,False,pending
+cf51c071f45308f11a31,context,2,B_newCategory,birthplace_currency_symbol,Edvard Munch,damage,kr,NOK,False,pending
+2e3858b6ae226cf7a372,context,2,B_newCategory,birthplace_currency_short,Jaime Escalante,repair,BOL,BOB,False,pending
+a7f2ec5d5ffafc0909c2,context,2,B_newCategory,birthplace_currency_short,Ignatius of Antioch,repair,EUR,SYP,False,pending
+3556abe99965da1e56ea,context,2,B_newCategory,birthplace_currency_symbol,Michelle Yeoh,repair,$,RM,False,pending
+a78cf35f6c5227c617cd,context,2,B_newCategory,birthplace_currency,B. J. Habibie,repair,Rupiah,Indonesian Rupiah,False,pending
+d351835130a9114f3ce0,context,2,B_newCategory,birthplace_tld,Edin Dzeko,repair,.me,.ba,False,pending
+335641bb3530535e8d12,context,2,B_newCategory,birthplace_currency_short,Fernando Muslera,repair,PYG,UYU,False,pending
+72879f64d31b7bda94e7,context,2,B_newCategory,birthplace_currency_short,Marián Hossa,repair,PLN,EUR,False,pending
+d40fb411929bf7b2e38a,context,2,B_newCategory,birthplace_currency_symbol,Fernando Muslera,repair,₲,$,False,pending
+94be42a354efed2a542d,context,2,B_newCategory,birthplace_currency_short,Ibn Battuta,repair,OMR,MAD,False,pending
+65bfa51c778bcfb6ae2e,context,2,B_newCategory,birthplace_currency,Plato,repair,Drachma,Euro,False,pending
+32ae9074b5dc632570d2,context,2,B_newCategory,birthplace_tld,Novak Djokovic,repair,com,.rs,False,pending
+9d5da6cda85dede615e0,context,2,B_newCategory,birthplace_currency,Sammy Sosa,repair,U.S. Dollar,Dominican Peso,False,pending
+38122ae5a95d4ab86649,context,2,B_newCategory,birthplace_tld,Michelle Yeoh,repair,.sg,.my,False,pending
+cd0e4f08ab0d91674127,context,2,B_newCategory,birthplace_currency,John von Neumann,repair,Austrian schilling,Hungarian forint,False,pending
+526716482d26535088d4,context,2,B_newCategory,birthplace_currency_symbol,Hatshepsut,damage,£,EGP,False,pending
+0c3584e4aa7fca9be862,context,2,B_newCategory,birthplace_currency_symbol,Ang Lee,damage,NT$,¥,False,pending
+e9ba3a689b11da125692,context,2,B_newCategory,birthplace_currency,Suleiman The Magnificent,repair,Lira,Turkish Lira,False,pending
+08c87e3b487dd2815ae0,context,2,B_newCategory,birthplace_currency_short,Eddie Van Halen,repair,USD,EUR,False,pending
+51139c48ec35800df981,context,2,B_newCategory,birthplace_currency_symbol,John von Neumann,repair,HUF,Ft,False,pending
+e182250a51ae3adb6f95,context,2,B_newCategory,birthplace_currency,Niki Lauda,repair,Austrian schilling,Euro,False,pending
+f6c1053d7b2ee8ecd129,context,2,B_newCategory,birthplace_currency_short,Benicio Del Toro,damage,USD,CRC,False,pending
+d2cf258a829956211b15,context,2,B_newCategory,birthplace_currency,Subutai,repair,Tenge,Mongolian tögrög,False,pending
+711c6e1876337a1f1c71,context,2,B_newCategory,birthplace_tld,Leonard Bundu,repair,.sn,.sl,False,pending
+2b67bdb4af63b297f47e,context,2,B_newCategory,birthplace_tld,Ian Smith,repair,.nz,.zw,False,pending
+9b252d0caeb21e276c96,context,2,B_newCategory,birthplace_currency_symbol,Vasco da Gama,repair,Escudo (currency symbol: ₣),€,False,pending
+8f57ec73fee2081aae2e,context,2,C_bothNew,birthplace_currency,Jacobo Árbenz,repair,Quetzal,Guatemalan quetzal,False,pending
+fef3f6985c4adcfc9eaa,context,2,C_bothNew,birthplace_currency_symbol,Christopher Columbus,repair,Lira (L),€,False,pending
+f9b860084b5b344b08a2,context,2,C_bothNew,birthplace_currency_symbol,Vlad the Impaler,damage,lei (RON),RON,False,pending
+187ebced09fb10ba8221,context,2,C_bothNew,birthplace_currency,Pablo Picasso,repair,Spanish peseta,Euro,False,pending
+a9d86d6d9dd9884dd770,context,2,C_bothNew,birthplace_currency_short,Achraf Hakimi,repair,DZD,MAD,False,pending
+87ed9e14a67817b3bcfd,context,2,C_bothNew,birthplace_currency_symbol,Catherine the Great,damage,₽,Ruble,False,pending
+0b76d99c4b37549a4671,context,2,C_bothNew,birthplace_currency_short,Israel Adesanya,repair,NZD,NGN,False,pending
+ec3202871fd6193e864f,context,2,C_bothNew,birthplace_currency_short,Franz Kafka,repair,ATS,CZK,False,pending
+c70adab98a50e2c999b4,context,2,C_bothNew,birthplace_currency_symbol,Michael Sata,repair,K,Zambian Kwacha (ZK),False,pending
+8e9f2546c396902b540c,context,2,C_bothNew,birthplace_currency_short,Pablo Picasso,repair,ESP,EUR,False,pending
+97e33cfed2f3c627cef8,context,2,C_bothNew,birthplace_tld,Agostinho Neto,damage,.ao,.africa,False,pending
+ae9c3018bb4ea0766cb8,context,2,C_bothNew,birthplace_currency_symbol,Lee Chong Wei,repair,$,RM,False,pending
+71b1abd8558473401bb5,context,2,C_bothNew,birthplace_tld,Michael Schumacher,repair,.ch,.de,False,pending
+b1588ea58506f90ca75d,context,2,C_bothNew,birthplace_tld,Keanu Reeves,repair,.nz,.ca,False,pending
+1d2bc31b13cec4dd168d,context,2,C_bothNew,birthplace_currency_symbol,Natalie Portman,repair,$,₪,False,pending
+d2ff204da1ce4ad54f6e,context,2,C_bothNew,birthplace_currency,Salvador Dali,repair,Spanish peseta,Euro,False,pending
+9cec32542b758fdc571f,context,2,C_bothNew,birthplace_currency_short,Mary Magdalene,damage,ILS,EUR,False,pending
+59426be954e39b5884c1,context,2,C_bothNew,birthplace_currency_symbol,Kobe Bryant,damage,$,¥,False,pending
+ba571c2dccad1bc52d37,context,2,C_bothNew,birthplace_ccn3,Keanu Reeves,repair,603,124,False,pending
+1e0199a88b91a24b15b5,context,2,C_bothNew,birthplace_currency,Franz Liszt,repair,Forint,Hungarian forint,False,pending
+4462102febef04a2eed6,context,2,C_bothNew,birthplace_tld,Dua Lipa,repair,.com,.uk,False,pending
+1fea31f69675f7e87a95,context,2,C_bothNew,birthplace_tld,Jackie Chan,damage,.com.hk,.cn,False,pending
+8fd38b913d4ea44c08d0,context,2,C_bothNew,birthplace_currency,Franz Kafka,repair,Crown (Koruna),Czech koruna,False,pending
+56ee1264ad3e0701e703,context,2,C_bothNew,birthplace_currency_short,Galileo Galilei,repair,LUF,EUR,False,pending
+271cc209340c9b5798ba,context,2,C_bothNew,birthplace_tld,Isabel dos Santos,damage,.com (Angola's TLD is .ao),.com.mo,False,pending
+4a5a0a7b102a630b4882,context,2,C_bothNew,birthplace_currency_short,Oscar Wilde,repair,GBP,EUR,False,pending
+9b8752f32cbf53ed03ec,context,2,C_bothNew,birthplace_ccn3,Mary Magdalene,repair,000,376,False,pending
+a8898ea9c64104e0010e,context,2,C_bothNew,birthplace_tld,Yip Man,repair,.com.hk,.cn,False,pending
+e6adc470e1f89062188f,context,2,C_bothNew,birthplace_ccn3,Sergey Brin,repair,376,643,False,pending
+c56b5c5b3aa290bbf54f,context,2,C_bothNew,birthplace_tld,Sheikh Hasina,repair,.org,.bd,False,pending
+1936e0d49e141bc450c9,context,2,C_bothNew,birthplace_currency_symbol,Demna Gvasalia,repair,GEL,₾,False,pending
+d623ad849f934b21ce4a,context,2,C_bothNew,birthplace_currency_symbol,Karl Marx,repair,ℳ,€,False,pending
+7b7e316ed69007800350,context,2,C_bothNew,birthplace_tld,Kristaps Porzingis,repair,.lt,.lv,False,pending
+e596c49b7b3cf282b4d3,context,2,C_bothNew,birthplace_currency,Brian Lara,repair,Barbadian dollar,Trinidad and Tobago Dollar,False,pending
+a9562f82c681b6073ec4,context,2,C_bothNew,birthplace_currency_short,Osman I,repair,TRL,TRY,False,pending
+0d61e1da7ada20a7709c,context,2,C_bothNew,birthplace_tld,Daniel Day-Lewis,repair,.ie,.uk,False,pending
+d91dd9b0aa7768729fb2,context,2,C_bothNew,birthplace_currency_symbol,Möngke Khan,damage,T₮,Tugrug,False,pending
+325abbe30ce66310dab1,context,2,C_bothNew,birthplace_currency_short,Pete Sandoval,damage,USD,MXN,False,pending
+e62b5aec4a87d3643602,context,2,C_bothNew,birthplace_currency,Ferenc Puskás,repair,Forint,Hungarian forint,False,pending
+4ff70c59fb2af02e3b15,context,2,C_bothNew,birthplace_tld,Freddie Mercury,repair,.com,.uk,False,pending
+e4c9e0ca074aadd11cc0,context,2,C_bothNew,birthplace_currency_symbol,Fazlur Rahman Khan,repair,Tk,Taka (৳),False,pending
+31a881a23b34a07189ac,context,2,C_bothNew,birthplace_currency,Elīna Garanča,damage,Euro,Latvian lats,False,pending
+e4c379a3309cafad56cf,context,2,C_bothNew,birthplace_ccn3,Virat Kohli,damage,356,+91,False,pending
+23cda004791615cbffe1,context,2,C_bothNew,birthplace_currency_short,Karl Marx,repair,TRL,EUR,False,pending
+126d6e457cf1146e7370,context,2,C_bothNew,birthplace_currency_symbol,Rodrigo Duterte,damage,₱,PHP,False,pending
+9163e04a81c4f2fcfcac,context,2,C_bothNew,birthplace_currency,Aristotle,repair,Drachma,Euro,False,pending
+a5aa0bed687bc5be5188,context,2,C_bothNew,birthplace_currency_symbol,Norodom Sihamoni,repair,KHR,៛,False,pending
+42c5aeab0ec08ffe7963,context,2,C_bothNew,birthplace_ccn3,Jeļena Ostapenko,damage,428,372,False,pending
+a55810a2a848853a8fa5,context,2,C_bothNew,birthplace_ccn3,Aung San Suu Kyi,repair,752,104,False,pending
+d25733b7b03c746cc159,context,2,C_bothNew,birthplace_tld,Tom Hanks,repair,.com,.us,False,pending
+0f54d10c36f4f5639a72,context,2,C_bothNew,birthplace_currency_short,Roberto Clemente,damage,USD,CRC,False,pending
+8ae91962991cf918d951,context,2,C_bothNew,birthplace_tld,Josephine Bakhita,repair,.sc,.sd,False,pending
+99c03ec9443257cc12bc,context,2,C_bothNew,birthplace_currency_short,Che Guevara,damage,ARS,CUP,False,pending
+adebf2222058ef53e58e,context,2,C_bothNew,birthplace_currency,Che Guevara,damage,Argentine peso,Cuban peso,False,pending
+33d868264fe266f4b971,context,2,C_bothNew,birthplace_tld,Anna Diop,repair,.fr,.sn,False,pending
+18462643834c0cde71af,context,2,C_bothNew,birthplace_tld,Abdullah Al Mutairi,damage,.com.kw,.com.sa,False,pending
+edb3b2684b78ccd5e1a7,context,2,C_bothNew,birthplace_currency_short,Vincent van Gogh,repair,FLR,EUR,False,pending
+df1aa73141efa54eeb8f,context,2,D_reservedC,birthplace_currency_short,Muammar Gaddafi,repair,LD,LYD,False,pending
+1fea44d9cfa590df6880,context,2,D_reservedC,birthplace_currency_symbol,Barbara Palvin,repair,HUF,Ft,False,pending
+f19f93e3a17da94641af,context,2,D_reservedC,birthplace_tld,Bobby Fischer,repair,.is,.us,False,pending
+a59727f3da10147a3ed3,context,2,D_reservedC,birthplace_tld,Luis Suarez,damage,.com (Uruguay's TLD is .uy),.com.pa,False,pending
+7f470173d3b2515c67e1,context,2,D_reservedC,birthplace_currency_short,Grace Kelly,repair,GBP,USD,False,pending
+376f786c59c48209c1ff,context,2,D_reservedC,birthplace_currency_symbol,Galileo Galilei,repair,Lira (L),€,False,pending
+3f6feb7b775674c6492a,context,2,D_reservedC,birthplace_ccn3,Zayed bin Sultan Al Nahyan,repair,767,784,False,pending
+1200c04ab1fc6fa50eaf,context,2,D_reservedC,birthplace_tld,Levy Mwanawasa,repair,com,.zm,False,pending
+dbe4bfd6417c06e59880,context,2,D_reservedC,birthplace_tld,Brian Lara,repair,.bb,.tt,False,pending
+f0391ed4d5a2a15086e4,context,2,D_reservedC,birthplace_currency_symbol,Shakhriyar Mamedyarov,damage,manat (₼),manat,False,pending
+6c40fea8f80e85ff64cc,context,2,D_reservedC,birthplace_ccn3,Pablo Picasso,repair,212,724,False,pending
+820943811ea0c982688c,context,2,D_reservedC,birthplace_tld,Zuchu,repair,.co.za,.tz,False,pending
+835c4df5381e83d7006a,context,2,D_reservedC,birthplace_currency_symbol,Abebe Bikila,repair,ብር,Braille pattern dots-123456,False,pending
+f29c55db577b1494693f,context,2,D_reservedC,birthplace_currency,Karl Marx,repair,Thaler,Euro,False,pending
+28c76e9b75a6cfc69857,context,2,D_reservedC,birthplace_currency,Oscar Wilde,repair,Pound sterling,Euro,False,pending
+1ea7e0adba02879fc17c,context,2,D_reservedC,birthplace_currency,Mohammed bin Rashid Al Maktoum,repair,Dirham,United Arab Emirates Dirham,False,pending
+e3dae7a8b1a2616c1a19,context,2,D_reservedC,birthplace_currency_short,André the Giant,repair,CFA,EUR,False,pending
+afb60e384f2a00f056f1,context,2,D_reservedC,birthplace_currency_symbol,Omar Torrijos,repair,$,B$,False,pending
+63fe21fbcb84cbbb0d7f,context,2,D_reservedC,birthplace_currency,Galileo Galilei,repair,Lira,Euro,False,pending
+2e4b6e4728e64671a046,context,2,D_reservedC,birthplace_currency_symbol,Tutankhamun,damage,£,EGP,False,pending
+fd4c3faaf87716e659a6,context,2,D_reservedC,birthplace_currency_symbol,Ogedei Khan,damage,₮,Tugrik,False,pending
+d18b52cd8ffb496ad5ba,context,2,D_reservedC,birthplace_currency_symbol,Fidel Castro,damage,Cuban Peso ($ or CUP),Cuban Peso (CUP),False,pending
+fccb055eddae8f4e5f93,context,2,D_reservedC,birthplace_currency_symbol,Peter Sagan,repair,EUR,€,False,pending
+26466299d47291a4952e,context,2,D_reservedC,birthplace_currency,Vincent van Gogh,repair,Dutch guilder,Euro,False,pending
+78500f4996ff7d30dcb6,context,2,D_reservedC,birthplace_ccn3,Domantas Sabonis,damage,440,370,False,pending
+74bab04519a34630025a,context,2,D_reservedC,birthplace_currency_symbol,Antonio Valencia,repair,₲,$,False,pending
+e72e9a66a52758bedd1a,context,2,D_reservedC,birthplace_tld,Akon,repair,.com,.sn,False,pending
+81f8ff62699ac3be26e8,context,2,D_reservedC,birthplace_currency_symbol,Genghis Khan,damage,T₮,Tugrik,False,pending
+c86a441ceedb7f275c40,context,2,D_reservedC,birthplace_currency_short,Natalie Portman,repair,USD,ILS,False,pending
+1063cadc814944681837,context,2,D_reservedC,birthplace_currency_short,Nikola Tesla,repair,DIN,RSD,False,pending
+a7880e89b88478da190a,context,2,D_reservedC,birthplace_currency,Naomi Osaka,repair,Yen,Japanese yen,False,pending
+4823947484c4cc826cd3,context,2,D_reservedC,birthplace_currency_symbol,Grace Kelly,repair,£,$,False,pending
+0794fa70ce5680752bfa,context,2,D_reservedC,birthplace_currency,Zayed bin Sultan Al Nahyan,repair,UAE Dirham,United Arab Emirates Dirham,False,pending
+96ea58a949f4bafd3648,context,2,D_reservedC,birthplace_currency,Michael Schumacher,repair,Swiss franc,Euro,False,pending
+d1c89e5f00e629620e98,context,2,D_reservedC,birthplace_currency,Saad Al-Salim Al-Sabah,repair,Bahraini dinar,Kuwaiti Dinar,False,pending
+ca889cf1fcf876796271,context,2,D_reservedC,birthplace_tld,Cung Le,repair,.com,.vn,False,pending
+eac7cb4b5cf577fd704c,context,2,D_reservedC,birthplace_ccn3,Ri Sol-ju,repair,410,408,False,pending
+4685a785285954d67d1a,context,2,D_reservedC,birthplace_currency,Natti Natasha,repair,Colombian peso,Dominican Peso,False,pending
+461fa42328a9215f1651,context,2,D_reservedC,birthplace_currency_symbol,Luis Suarez,damage,$,₲,False,pending
+4e460b0404637a81f749,context,2,D_reservedC,birthplace_currency,Zuchu,repair,Zimbabwean dollar,Tanzanian Shilling,False,pending
+a79d7da391574a203f01,context,2,D_reservedC,birthplace_currency,Stephen Hawking,repair,Pound sterling,British Pound,False,pending
+7b59a3ed9ab69bb7f356,context,2,D_reservedC,birthplace_currency_short,Drake,repair,JMD,CAD,False,pending
+c37e029c7f746585a8f1,direct,2,A_newPerson,birthplace_rounded_lat,Franz Kafka,repair,50,49,False,pending
+84c0d90da08b32d2696d,direct,2,A_newPerson,birthplace_rounded_lat,Usain Bolt,repair,10,18,False,pending
+f382ae9ca3db9e338e7b,direct,2,A_newPerson,birthplace_capital,Aloysius Pang,damage,Singapore,Kuala Lumpur,False,pending
+29b0056566a462a1f76d,direct,2,A_newPerson,birthplace_rounded_lat,Carlos Slim,damage,23,32,False,pending
+46cf0086ca23b8a2cccb,direct,2,A_newPerson,birthplace_callingcode,Desi Arnaz,damage,+53,+1,False,pending
+db4f6c60d8d9bb8feb20,direct,2,A_newPerson,birthplace_rounded_lat,Bobby Fischer,damage,38,40,False,pending
+5a8c48930f69696c4e84,direct,2,A_newPerson,birthplace_rounded_lng,Genghis Khan,damage,105,89,False,pending
+10868d2f53a045c65cec,direct,2,A_newPerson,birthplace_rounded_lng,Lee Hsien Loong,damage,103,101,False,pending
+e931837598266c288b96,direct,2,A_newPerson,birthplace_callingcode,Genghis Khan,damage,+976,+974,False,pending
+7926a5e0dde33a6b4fbc,direct,2,A_newPerson,birthplace_callingcode,Mila Kunis,damage,+380,+1,False,pending
+33a0547923afb288435b,direct,2,A_newPerson,birthplace_rounded_lng,Kristaps Porzingis,repair,24,25,False,pending
+58edd0e134a56f99e922,direct,2,A_newPerson,birthplace_callingcode,Shakhriyar Mamedyarov,repair,+993,+994,False,pending
+9e22d2a8c9c340df7937,direct,2,A_newPerson,birthplace_capital,Luka Dončić,repair,Belgrade,Ljubljana,False,pending
+f9fb9b2fdce8e7e1cd4f,direct,2,A_newPerson,birthplace_rounded_lat,Lionel Messi,damage,-34,"- Lionel Messi was born in **Rosario, Argentina**.
+- The latitude of **Rosario, Argentina** is",False,pending
+bde481ea581bc7a4340a,direct,2,A_newPerson,birthplace_rounded_lat,Paul Keres,repair,58,59,False,pending
+dcaba7d799d6931b45bc,direct,2,A_newPerson,birthplace_rounded_lng,Pablo Picasso,repair,-1.9,-3.7,False,pending
+283fa0ecd32776a309ff,direct,2,A_newPerson,birthplace_capital,Usain Bolt,damage,Kingston,Jamaica,False,pending
+fcd633300cca616e65c9,direct,2,A_newPerson,birthplace_rounded_lng,Skanderbeg,damage,20,19,False,pending
+639ac3ef9a92a440f6e4,direct,2,A_newPerson,birthplace_rounded_lat,Jaber Al-Mubarak Al-Hamad Al-Sabah,damage,29,26,False,pending
+ab3fb7c641be7320e3b8,direct,2,A_newPerson,birthplace_rounded_lat,Saad Al-Salim Al-Sabah,damage,29,26,False,pending
+96fe6228a6020a0c5645,direct,2,B_newCategory,birthplace_currency,Nadia Comaneci,damage,Romanian Leu,Leu,False,pending
+d4b310206288cb839e38,direct,2,B_newCategory,birthplace_ccn3,Manny Pacquiao,damage,608,+63,False,pending
+d1b45b833f1cb463fb2b,direct,2,B_newCategory,birthplace_tld,Ariana Grande,repair,.com,.us,False,pending
+330d18b3645204c31339,direct,2,B_newCategory,birthplace_currency,Monica Seles,damage,Serbian dinar,Euro,False,pending
+8faa9a0cec9951d90131,direct,2,B_newCategory,birthplace_ccn3,Monica Bellucci,damage,380,+39,False,pending
+8502caf3704412a0c10e,direct,2,B_newCategory,birthplace_tld,Salva Kiir Mayardit,damage,".com (South Sudan does not have an official top-level domain; .ss is the proposed one, but not widely used",.com,False,pending
+d6c1256e4fc08d95d808,direct,2,B_newCategory,birthplace_currency_symbol,Emilio Izaguirre,repair,₡,Lempira (L),False,pending
+17a5ef4b142940f0382e,direct,2,B_newCategory,birthplace_currency_symbol,Ricardo Arjona,repair,$,Q,False,pending
+969e1bb6352ad8076348,direct,2,B_newCategory,birthplace_currency_short,Slavoj Žižek,repair,HRK,EUR,False,pending
+fd367e9d1cded474b00e,direct,2,B_newCategory,birthplace_currency,Hasheem Thabeet,damage,Tanzanian Shilling,Somali Shilling,False,pending
+d29410abbdb6999c623a,direct,2,B_newCategory,birthplace_currency,Victor Moses,damage,Nigerian Naira,Naira,False,pending
+a7f2ec5d5ffafc0909c2,direct,2,B_newCategory,birthplace_currency_short,Ignatius of Antioch,repair,EUR,SYP,False,pending
+32ae9074b5dc632570d2,direct,2,B_newCategory,birthplace_tld,Novak Djokovic,repair,com,.rs,False,pending
+87ed9e14a67817b3bcfd,direct,2,C_bothNew,birthplace_currency_symbol,Catherine the Great,damage,₽,Ruble,False,pending
+637cd44536b0d8cfffb9,direct,2,C_bothNew,birthplace_currency,Robert Lewandowski,damage,Polish złoty,Zloty,False,pending
+b21d7e2e82dcb11c9812,direct,2,C_bothNew,birthplace_tld,Abdullah Al Mutairi,damage,.com.kw,.sa,False,pending
+24899e1e163d3c6e34b9,direct,2,D_reservedC,birthplace_tld,Luis Suarez,damage,.com (Uruguay's TLD is .uy),.com,False,pending
+7f470173d3b2515c67e1,direct,2,D_reservedC,birthplace_currency_short,Grace Kelly,repair,GBP,USD,False,pending
+f0391ed4d5a2a15086e4,direct,2,D_reservedC,birthplace_currency_symbol,Shakhriyar Mamedyarov,damage,manat (₼),manat,False,pending
+c86a441ceedb7f275c40,direct,2,D_reservedC,birthplace_currency_short,Natalie Portman,repair,USD,ILS,False,pending
+0794fa70ce5680752bfa,direct,2,D_reservedC,birthplace_currency,Zayed bin Sultan Al Nahyan,repair,UAE Dirham,United Arab Emirates Dirham,False,pending
+96ea58a949f4bafd3648,direct,2,D_reservedC,birthplace_currency,Michael Schumacher,repair,Swiss franc,Euro,False,pending

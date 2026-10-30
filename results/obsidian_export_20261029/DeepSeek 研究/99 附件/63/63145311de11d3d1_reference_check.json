@@ -1,0 +1,14 @@
+[
+  {
+    "split": "A_newPerson",
+    "prediction_disagreements": 2
+  },
+  {
+    "split": "B_newCategory",
+    "prediction_disagreements": 2
+  },
+  {
+    "split": "C_bothNew",
+    "prediction_disagreements": 2
+  }
+]

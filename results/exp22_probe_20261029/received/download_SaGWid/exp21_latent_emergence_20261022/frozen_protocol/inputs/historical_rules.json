@@ -1,0 +1,1096 @@
+{
+  "entity_aliases": {
+    "United States": "UNITED STATES",
+    "Russia": "RUSSIAN FEDERATION",
+    "South Korea": "KOREA, REPUBLIC OF",
+    "North Korea": "KOREA, DEMOCRATIC PEOPLE’S REPUBLIC OF",
+    "Vietnam": "VIET NAM",
+    "Venezuela": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "Iran": "IRAN (ISLAMIC REPUBLIC OF)",
+    "Bolivia": "BOLIVIA (PLURINATIONAL STATE OF)",
+    "Tanzania": "TANZANIA, UNITED REPUBLIC OF",
+    "Turkey": "TURKEY",
+    "Taiwan": "TAIWAN (PROVINCE OF CHINA)",
+    "Moldova": "MOLDOVA, REPUBLIC OF",
+    "Czech Republic": "CZECHIA",
+    "United Kingdom": "UNITED KINGDOM",
+    "Syria": "SYRIAN ARAB REPUBLIC",
+    "Laos": "LAO PEOPLE’S DEMOCRATIC REPUBLIC"
+  },
+  "name_aliases": {
+    "DEM": [
+      "German mark",
+      "Deutsche mark",
+      "Deutschmark"
+    ],
+    "FRF": [
+      "French franc"
+    ],
+    "ITL": [
+      "Italian lira"
+    ],
+    "ESP": [
+      "Spanish peseta"
+    ],
+    "GRD": [
+      "Greek drachma"
+    ],
+    "ATS": [
+      "Austrian schilling"
+    ],
+    "EEK": [
+      "Estonian kroon"
+    ],
+    "TRL": [
+      "Turkish lira",
+      "old Turkish lira"
+    ],
+    "ROL": [
+      "Romanian leu",
+      "old Romanian leu"
+    ],
+    "LTL": [
+      "Lithuanian litas"
+    ],
+    "LVL": [
+      "Latvian lats"
+    ],
+    "NLG": [
+      "Dutch guilder"
+    ],
+    "HRK": [
+      "Croatian kuna"
+    ],
+    "BEF": [
+      "Belgian franc"
+    ],
+    "FIM": [
+      "Finnish markka"
+    ],
+    "PTE": [
+      "Portuguese escudo"
+    ],
+    "IEP": [
+      "Irish pound"
+    ]
+  },
+  "source_entries": [
+    {
+      "CtryNm": "AFGHANISTAN",
+      "CcyNm": "Afghani",
+      "Ccy": "AFA",
+      "WthdrwlDt": "2003-01"
+    },
+    {
+      "CtryNm": "ÅLAND ISLANDS",
+      "CcyNm": "Markka",
+      "Ccy": "FIM",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "ALBANIA",
+      "CcyNm": "Old Lek",
+      "Ccy": "ALK",
+      "WthdrwlDt": "1989-12"
+    },
+    {
+      "CtryNm": "ANDORRA",
+      "CcyNm": "Andorran Peseta",
+      "Ccy": "ADP",
+      "WthdrwlDt": "2003-07"
+    },
+    {
+      "CtryNm": "ANDORRA",
+      "CcyNm": "Spanish Peseta",
+      "Ccy": "ESP",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "ANDORRA",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "ANGOLA",
+      "CcyNm": "Kwanza",
+      "Ccy": "AOK",
+      "WthdrwlDt": "1991-03"
+    },
+    {
+      "CtryNm": "ANGOLA",
+      "CcyNm": "New Kwanza",
+      "Ccy": "AON",
+      "WthdrwlDt": "2000-02"
+    },
+    {
+      "CtryNm": "ANGOLA",
+      "CcyNm": "Kwanza Reajustado",
+      "Ccy": "AOR",
+      "WthdrwlDt": "2000-02"
+    },
+    {
+      "CtryNm": "ARGENTINA",
+      "CcyNm": "Austral",
+      "Ccy": "ARA",
+      "WthdrwlDt": "1992-01"
+    },
+    {
+      "CtryNm": "ARGENTINA",
+      "CcyNm": "Peso Argentino",
+      "Ccy": "ARP",
+      "WthdrwlDt": "1985-07"
+    },
+    {
+      "CtryNm": "ARGENTINA",
+      "CcyNm": "Peso",
+      "Ccy": "ARY",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "ARMENIA",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1994-08"
+    },
+    {
+      "CtryNm": "AUSTRIA",
+      "CcyNm": "Schilling",
+      "Ccy": "ATS",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "AZERBAIJAN",
+      "CcyNm": "Azerbaijan Manat",
+      "Ccy": "AYM",
+      "WthdrwlDt": "2005-10"
+    },
+    {
+      "CtryNm": "AZERBAIJAN",
+      "CcyNm": "Azerbaijanian Manat",
+      "Ccy": "AZM",
+      "WthdrwlDt": "2005-12"
+    },
+    {
+      "CtryNm": "AZERBAIJAN",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1994-08"
+    },
+    {
+      "CtryNm": "BELARUS",
+      "CcyNm": "Belarusian Ruble",
+      "Ccy": "BYB",
+      "WthdrwlDt": "2001-01"
+    },
+    {
+      "CtryNm": "BELARUS",
+      "CcyNm": "Belarusian Ruble",
+      "Ccy": "BYR",
+      "WthdrwlDt": "2017-01"
+    },
+    {
+      "CtryNm": "BELARUS",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1994-06"
+    },
+    {
+      "CtryNm": "BELGIUM",
+      "CcyNm": "Convertible Franc",
+      "Ccy": "BEC",
+      "WthdrwlDt": "1990-03"
+    },
+    {
+      "CtryNm": "BELGIUM",
+      "CcyNm": "Belgian Franc",
+      "Ccy": "BEF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "BELGIUM",
+      "CcyNm": "Financial Franc",
+      "Ccy": "BEL",
+      "WthdrwlDt": "1990-03"
+    },
+    {
+      "CtryNm": "BOLIVIA",
+      "CcyNm": "Peso boliviano",
+      "Ccy": "BOP",
+      "WthdrwlDt": "1987-02"
+    },
+    {
+      "CtryNm": "BOSNIA AND HERZEGOVINA",
+      "CcyNm": "Dinar",
+      "Ccy": "BAD",
+      "WthdrwlDt": "1998-07"
+    },
+    {
+      "CtryNm": "BRAZIL",
+      "CcyNm": "Cruzeiro",
+      "Ccy": "BRB",
+      "WthdrwlDt": "1986-03"
+    },
+    {
+      "CtryNm": "BRAZIL",
+      "CcyNm": "Cruzado",
+      "Ccy": "BRC",
+      "WthdrwlDt": "1989-02"
+    },
+    {
+      "CtryNm": "BRAZIL",
+      "CcyNm": "Cruzeiro",
+      "Ccy": "BRE",
+      "WthdrwlDt": "1993-03"
+    },
+    {
+      "CtryNm": "BRAZIL",
+      "CcyNm": "New Cruzado",
+      "Ccy": "BRN",
+      "WthdrwlDt": "1990-03"
+    },
+    {
+      "CtryNm": "BRAZIL",
+      "CcyNm": "Cruzeiro Real",
+      "Ccy": "BRR",
+      "WthdrwlDt": "1994-07"
+    },
+    {
+      "CtryNm": "BULGARIA",
+      "CcyNm": "Lev A/52",
+      "Ccy": "BGJ",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "BULGARIA",
+      "CcyNm": "Lev A/62",
+      "Ccy": "BGK",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "BULGARIA",
+      "CcyNm": "Lev",
+      "Ccy": "BGL",
+      "WthdrwlDt": "2003-11"
+    },
+    {
+      "CtryNm": "BULGARIA",
+      "CcyNm": "Bulgarian Lev",
+      "Ccy": "BGN",
+      "WthdrwlDt": "2026-01"
+    },
+    {
+      "CtryNm": "BURMA",
+      "CcyNm": "Kyat",
+      "Ccy": "BUK",
+      "WthdrwlDt": "1990-02"
+    },
+    {
+      "CtryNm": "CROATIA",
+      "CcyNm": "Croatian Dinar",
+      "Ccy": "HRD",
+      "WthdrwlDt": "1995-01"
+    },
+    {
+      "CtryNm": "CROATIA",
+      "CcyNm": "Croatian Kuna",
+      "Ccy": "HRK",
+      "WthdrwlDt": "2015-06"
+    },
+    {
+      "CtryNm": "CROATIA",
+      "CcyNm": "Kuna",
+      "Ccy": "HRK",
+      "WthdrwlDt": "2023-01"
+    },
+    {
+      "CtryNm": "CUBA",
+      "CcyNm": "Peso Convertible",
+      "Ccy": "CUC",
+      "WthdrwlDt": "2021-06"
+    },
+    {
+      "CtryNm": "CURAÇAO",
+      "CcyNm": "Netherlands Antillean Guilder",
+      "Ccy": "ANG",
+      "WthdrwlDt": "2025-03"
+    },
+    {
+      "CtryNm": "CYPRUS",
+      "CcyNm": "Cyprus Pound",
+      "Ccy": "CYP",
+      "WthdrwlDt": "2008-01"
+    },
+    {
+      "CtryNm": "CZECHOSLOVAKIA",
+      "CcyNm": "Krona A/53",
+      "Ccy": "CSJ",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "CZECHOSLOVAKIA",
+      "CcyNm": "Koruna",
+      "Ccy": "CSK",
+      "WthdrwlDt": "1993-03"
+    },
+    {
+      "CtryNm": "ECUADOR",
+      "CcyNm": "Sucre",
+      "Ccy": "ECS",
+      "WthdrwlDt": "2000-09"
+    },
+    {
+      "CtryNm": "ECUADOR",
+      "CcyNm": "Unidad de Valor Constante (UVC)",
+      "Ccy": "ECV",
+      "WthdrwlDt": "2000-09"
+    },
+    {
+      "CtryNm": "EQUATORIAL GUINEA",
+      "CcyNm": "Ekwele",
+      "Ccy": "GQE",
+      "WthdrwlDt": "1986-06"
+    },
+    {
+      "CtryNm": "ESTONIA",
+      "CcyNm": "Kroon",
+      "Ccy": "EEK",
+      "WthdrwlDt": "2011-01"
+    },
+    {
+      "CtryNm": "EUROPEAN MONETARY CO-OPERATION FUND (EMCF)",
+      "CcyNm": "European Currency Unit (E.C.U)",
+      "Ccy": "XEU",
+      "WthdrwlDt": "1999-01"
+    },
+    {
+      "CtryNm": "FINLAND",
+      "CcyNm": "Markka",
+      "Ccy": "FIM",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "FRANCE",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "FRENCH  GUIANA",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "FRENCH SOUTHERN TERRITORIES",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "GEORGIA",
+      "CcyNm": "Georgian Coupon",
+      "Ccy": "GEK",
+      "WthdrwlDt": "1995-10"
+    },
+    {
+      "CtryNm": "GEORGIA",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1994-04"
+    },
+    {
+      "CtryNm": "GERMAN DEMOCRATIC REPUBLIC",
+      "CcyNm": "Mark der DDR",
+      "Ccy": "DDM",
+      "WthdrwlDt": "1990-07 to 1990-09"
+    },
+    {
+      "CtryNm": "GERMANY",
+      "CcyNm": "Deutsche Mark",
+      "Ccy": "DEM",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "GHANA",
+      "CcyNm": "Cedi",
+      "Ccy": "GHC",
+      "WthdrwlDt": "2008-01"
+    },
+    {
+      "CtryNm": "GHANA",
+      "CcyNm": "Ghana Cedi",
+      "Ccy": "GHP",
+      "WthdrwlDt": "2007-06"
+    },
+    {
+      "CtryNm": "GREECE",
+      "CcyNm": "Drachma",
+      "Ccy": "GRD",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "GUADELOUPE",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "GUINEA",
+      "CcyNm": "Syli",
+      "Ccy": "GNE",
+      "WthdrwlDt": "1989-12"
+    },
+    {
+      "CtryNm": "GUINEA",
+      "CcyNm": "Syli",
+      "Ccy": "GNS",
+      "WthdrwlDt": "1986-02"
+    },
+    {
+      "CtryNm": "GUINEA-BISSAU",
+      "CcyNm": "Guinea Escudo",
+      "Ccy": "GWE",
+      "WthdrwlDt": "1978 to 1981"
+    },
+    {
+      "CtryNm": "GUINEA-BISSAU",
+      "CcyNm": "Guinea-Bissau Peso",
+      "Ccy": "GWP",
+      "WthdrwlDt": "1997-05"
+    },
+    {
+      "CtryNm": "HOLY SEE (VATICAN CITY STATE)",
+      "CcyNm": "Italian Lira",
+      "Ccy": "ITL",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "ICELAND",
+      "CcyNm": "Old Krona",
+      "Ccy": "ISJ",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "IRELAND",
+      "CcyNm": "Irish Pound",
+      "Ccy": "IEP",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "ISRAEL",
+      "CcyNm": "Pound",
+      "Ccy": "ILP",
+      "WthdrwlDt": "1978 to 1981"
+    },
+    {
+      "CtryNm": "ISRAEL",
+      "CcyNm": "Old Shekel",
+      "Ccy": "ILR",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "ITALY",
+      "CcyNm": "Italian Lira",
+      "Ccy": "ITL",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "KAZAKHSTAN",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1994-05"
+    },
+    {
+      "CtryNm": "KYRGYZSTAN",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1993-01"
+    },
+    {
+      "CtryNm": "LAO",
+      "CcyNm": "Pathet Lao Kip",
+      "Ccy": "LAJ",
+      "WthdrwlDt": "1979-12"
+    },
+    {
+      "CtryNm": "LATVIA",
+      "CcyNm": "Latvian Lats",
+      "Ccy": "LVL",
+      "WthdrwlDt": "2014-01"
+    },
+    {
+      "CtryNm": "LATVIA",
+      "CcyNm": "Latvian Ruble",
+      "Ccy": "LVR",
+      "WthdrwlDt": "1994-12"
+    },
+    {
+      "CtryNm": "LESOTHO",
+      "CcyNm": "Loti",
+      "Ccy": "LSM",
+      "WthdrwlDt": "1985-05"
+    },
+    {
+      "CtryNm": "LESOTHO",
+      "CcyNm": "Financial Rand",
+      "Ccy": "ZAL",
+      "WthdrwlDt": "1995-03"
+    },
+    {
+      "CtryNm": "LITHUANIA",
+      "CcyNm": "Lithuanian Litas",
+      "Ccy": "LTL",
+      "WthdrwlDt": "2014-12"
+    },
+    {
+      "CtryNm": "LITHUANIA",
+      "CcyNm": "Talonas",
+      "Ccy": "LTT",
+      "WthdrwlDt": "1993-07"
+    },
+    {
+      "CtryNm": "LUXEMBOURG",
+      "CcyNm": "Luxembourg Convertible Franc",
+      "Ccy": "LUC",
+      "WthdrwlDt": "1990-03"
+    },
+    {
+      "CtryNm": "LUXEMBOURG",
+      "CcyNm": "Luxembourg Franc",
+      "Ccy": "LUF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "LUXEMBOURG",
+      "CcyNm": "Luxembourg Financial Franc",
+      "Ccy": "LUL",
+      "WthdrwlDt": "1990-03"
+    },
+    {
+      "CtryNm": "MADAGASCAR",
+      "CcyNm": "Malagasy Franc",
+      "Ccy": "MGF",
+      "WthdrwlDt": "2004-12"
+    },
+    {
+      "CtryNm": "MALAWI",
+      "CcyNm": "Kwacha",
+      "Ccy": "MWK",
+      "WthdrwlDt": "2016-02"
+    },
+    {
+      "CtryNm": "MALDIVES",
+      "CcyNm": "Maldive Rupee",
+      "Ccy": "MVQ",
+      "WthdrwlDt": "1989-12"
+    },
+    {
+      "CtryNm": "MALI",
+      "CcyNm": "Mali Franc",
+      "Ccy": "MLF",
+      "WthdrwlDt": "1984-11"
+    },
+    {
+      "CtryNm": "MALTA",
+      "CcyNm": "Maltese Lira",
+      "Ccy": "MTL",
+      "WthdrwlDt": "2008-01"
+    },
+    {
+      "CtryNm": "MALTA",
+      "CcyNm": "Maltese Pound",
+      "Ccy": "MTP",
+      "WthdrwlDt": "1983-06"
+    },
+    {
+      "CtryNm": "MARTINIQUE",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "MAURITANIA",
+      "CcyNm": "Ouguiya",
+      "Ccy": "MRO",
+      "WthdrwlDt": "2017-12"
+    },
+    {
+      "CtryNm": "MAYOTTE",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "MEXICO",
+      "CcyNm": "Mexican Peso",
+      "Ccy": "MXP",
+      "WthdrwlDt": "1993-01"
+    },
+    {
+      "CtryNm": "MOLDOVA, REPUBLIC OF",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1993-12"
+    },
+    {
+      "CtryNm": "MONACO",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "MOZAMBIQUE",
+      "CcyNm": "Mozambique Escudo",
+      "Ccy": "MZE",
+      "WthdrwlDt": "1978 to 1981"
+    },
+    {
+      "CtryNm": "MOZAMBIQUE",
+      "CcyNm": "Mozambique Metical",
+      "Ccy": "MZM",
+      "WthdrwlDt": "2006-06"
+    },
+    {
+      "CtryNm": "NETHERLANDS",
+      "CcyNm": "Netherlands Guilder",
+      "Ccy": "NLG",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "NETHERLANDS ANTILLES",
+      "CcyNm": "Netherlands Antillean Guilder",
+      "Ccy": "ANG",
+      "WthdrwlDt": "2010-10"
+    },
+    {
+      "CtryNm": "NICARAGUA",
+      "CcyNm": "Cordoba",
+      "Ccy": "NIC",
+      "WthdrwlDt": "1990-10"
+    },
+    {
+      "CtryNm": "PERU",
+      "CcyNm": "Sol",
+      "Ccy": "PEH",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "PERU",
+      "CcyNm": "Inti",
+      "Ccy": "PEI",
+      "WthdrwlDt": "1991-07"
+    },
+    {
+      "CtryNm": "PERU",
+      "CcyNm": "Nuevo Sol",
+      "Ccy": "PEN",
+      "WthdrwlDt": "2015-12"
+    },
+    {
+      "CtryNm": "PERU",
+      "CcyNm": "Sol",
+      "Ccy": "PES",
+      "WthdrwlDt": "1986-02"
+    },
+    {
+      "CtryNm": "POLAND",
+      "CcyNm": "Zloty",
+      "Ccy": "PLZ",
+      "WthdrwlDt": "1997-01"
+    },
+    {
+      "CtryNm": "PORTUGAL",
+      "CcyNm": "Portuguese Escudo",
+      "Ccy": "PTE",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "RÉUNION",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "ROMANIA",
+      "CcyNm": "Leu A/52",
+      "Ccy": "ROK",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "ROMANIA",
+      "CcyNm": "Old Leu",
+      "Ccy": "ROL",
+      "WthdrwlDt": "2005-06"
+    },
+    {
+      "CtryNm": "ROMANIA",
+      "CcyNm": "New Romanian Leu",
+      "Ccy": "RON",
+      "WthdrwlDt": "2015-06"
+    },
+    {
+      "CtryNm": "RUSSIAN FEDERATION",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "2004-01"
+    },
+    {
+      "CtryNm": "SAINT MARTIN",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "1999-01"
+    },
+    {
+      "CtryNm": "SAINT PIERRE AND MIQUELON",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "SAINT-BARTHÉLEMY",
+      "CcyNm": "French Franc",
+      "Ccy": "FRF",
+      "WthdrwlDt": "1999-01"
+    },
+    {
+      "CtryNm": "SAN MARINO",
+      "CcyNm": "Italian Lira",
+      "Ccy": "ITL",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "SAO TOME AND PRINCIPE",
+      "CcyNm": "Dobra",
+      "Ccy": "STD",
+      "WthdrwlDt": "2017-12"
+    },
+    {
+      "CtryNm": "SERBIA AND MONTENEGRO",
+      "CcyNm": "Serbian Dinar",
+      "Ccy": "CSD",
+      "WthdrwlDt": "2006-10"
+    },
+    {
+      "CtryNm": "SERBIA AND MONTENEGRO",
+      "CcyNm": "Euro",
+      "Ccy": "EUR",
+      "WthdrwlDt": "2006-10"
+    },
+    {
+      "CtryNm": "SIERRA LEONE",
+      "CcyNm": "Leone",
+      "Ccy": "SLL",
+      "WthdrwlDt": "2023-12"
+    },
+    {
+      "CtryNm": "SINT MAARTEN (DUTCH PART)",
+      "CcyNm": "Netherlands Antillean Guilder",
+      "Ccy": "ANG",
+      "WthdrwlDt": "2025-03"
+    },
+    {
+      "CtryNm": "SLOVAKIA",
+      "CcyNm": "Slovak Koruna",
+      "Ccy": "SKK",
+      "WthdrwlDt": "2009-01"
+    },
+    {
+      "CtryNm": "SLOVENIA",
+      "CcyNm": "Tolar",
+      "Ccy": "SIT",
+      "WthdrwlDt": "2007-01"
+    },
+    {
+      "CtryNm": "SOUTH AFRICA",
+      "CcyNm": "Financial Rand",
+      "Ccy": "ZAL",
+      "WthdrwlDt": "1995-03"
+    },
+    {
+      "CtryNm": "SOUTH SUDAN",
+      "CcyNm": "Sudanese Pound",
+      "Ccy": "SDG",
+      "WthdrwlDt": "2012-09"
+    },
+    {
+      "CtryNm": "SOUTHERN RHODESIA",
+      "CcyNm": "Rhodesian Dollar",
+      "Ccy": "RHD",
+      "WthdrwlDt": "1978 to 1981"
+    },
+    {
+      "CtryNm": "SPAIN",
+      "CcyNm": "Spanish Peseta",
+      "Ccy": "ESA",
+      "WthdrwlDt": "1978 to 1981"
+    },
+    {
+      "CtryNm": "SPAIN",
+      "CcyNm": "\"A\" Account (convertible Peseta Account)",
+      "Ccy": "ESB",
+      "WthdrwlDt": "1994-12"
+    },
+    {
+      "CtryNm": "SPAIN",
+      "CcyNm": "Spanish Peseta",
+      "Ccy": "ESP",
+      "WthdrwlDt": "2002-03"
+    },
+    {
+      "CtryNm": "SUDAN",
+      "CcyNm": "Sudanese Dinar",
+      "Ccy": "SDD",
+      "WthdrwlDt": "2007-07"
+    },
+    {
+      "CtryNm": "SUDAN",
+      "CcyNm": "Sudanese Pound",
+      "Ccy": "SDP",
+      "WthdrwlDt": "1998-06"
+    },
+    {
+      "CtryNm": "SURINAME",
+      "CcyNm": "Surinam Guilder",
+      "Ccy": "SRG",
+      "WthdrwlDt": "2003-12"
+    },
+    {
+      "CtryNm": "SWAZILAND",
+      "CcyNm": "Lilangeni",
+      "Ccy": "SZL",
+      "WthdrwlDt": "2018-08"
+    },
+    {
+      "CtryNm": "SWITZERLAND",
+      "CcyNm": "WIR Franc (for electronic)",
+      "Ccy": "CHC",
+      "WthdrwlDt": "2004-11"
+    },
+    {
+      "CtryNm": "TAJIKISTAN",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1995-05"
+    },
+    {
+      "CtryNm": "TAJIKISTAN",
+      "CcyNm": "Tajik Ruble",
+      "Ccy": "TJR",
+      "WthdrwlDt": "2001-04"
+    },
+    {
+      "CtryNm": "TIMOR-LESTE",
+      "CcyNm": "Rupiah",
+      "Ccy": "IDR",
+      "WthdrwlDt": "2002-07"
+    },
+    {
+      "CtryNm": "TIMOR-LESTE",
+      "CcyNm": "Timor Escudo",
+      "Ccy": "TPE",
+      "WthdrwlDt": "2002-11"
+    },
+    {
+      "CtryNm": "TURKEY",
+      "CcyNm": "Old Turkish Lira",
+      "Ccy": "TRL",
+      "WthdrwlDt": "2005-12"
+    },
+    {
+      "CtryNm": "TURKEY",
+      "CcyNm": "New Turkish Lira",
+      "Ccy": "TRY",
+      "WthdrwlDt": "2009-01"
+    },
+    {
+      "CtryNm": "TURKMENISTAN",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1993-10"
+    },
+    {
+      "CtryNm": "TURKMENISTAN",
+      "CcyNm": "Turkmenistan Manat",
+      "Ccy": "TMM",
+      "WthdrwlDt": "2009-01"
+    },
+    {
+      "CtryNm": "UGANDA",
+      "CcyNm": "Uganda Shilling",
+      "Ccy": "UGS",
+      "WthdrwlDt": "1987-05"
+    },
+    {
+      "CtryNm": "UGANDA",
+      "CcyNm": "Old Shilling",
+      "Ccy": "UGW",
+      "WthdrwlDt": "1989 to 1990"
+    },
+    {
+      "CtryNm": "UKRAINE",
+      "CcyNm": "Karbovanet",
+      "Ccy": "UAK",
+      "WthdrwlDt": "1996-09"
+    },
+    {
+      "CtryNm": "UNION OF SOVIET SOCIALIST REPUBLICS",
+      "CcyNm": "Rouble",
+      "Ccy": "SUR",
+      "WthdrwlDt": "1990-12"
+    },
+    {
+      "CtryNm": "UNITED STATES",
+      "CcyNm": "US Dollar (Same day)",
+      "Ccy": "USS",
+      "WthdrwlDt": "2014-03"
+    },
+    {
+      "CtryNm": "URUGUAY",
+      "CcyNm": "Old Uruguay Peso",
+      "Ccy": "UYN",
+      "WthdrwlDt": "1989-12"
+    },
+    {
+      "CtryNm": "URUGUAY",
+      "CcyNm": "Uruguayan Peso",
+      "Ccy": "UYP",
+      "WthdrwlDt": "1993-03"
+    },
+    {
+      "CtryNm": "UZBEKISTAN",
+      "CcyNm": "Russian Ruble",
+      "Ccy": "RUR",
+      "WthdrwlDt": "1994-07"
+    },
+    {
+      "CtryNm": "VENEZUELA",
+      "CcyNm": "Bolivar",
+      "Ccy": "VEB",
+      "WthdrwlDt": "2008-01"
+    },
+    {
+      "CtryNm": "VENEZUELA",
+      "CcyNm": "Bolivar Fuerte",
+      "Ccy": "VEF",
+      "WthdrwlDt": "2011-12"
+    },
+    {
+      "CtryNm": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+      "CcyNm": "Bolivar",
+      "Ccy": "VEF",
+      "WthdrwlDt": "2016-02"
+    },
+    {
+      "CtryNm": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+      "CcyNm": "Bolívar",
+      "Ccy": "VEF",
+      "WthdrwlDt": "2018-08"
+    },
+    {
+      "CtryNm": "VIETNAM",
+      "CcyNm": "Old Dong",
+      "Ccy": "VNC",
+      "WthdrwlDt": "1989-1990"
+    },
+    {
+      "CtryNm": "YEMEN, DEMOCRATIC",
+      "CcyNm": "Yemeni Dinar",
+      "Ccy": "YDD",
+      "WthdrwlDt": "1991-09"
+    },
+    {
+      "CtryNm": "YUGOSLAVIA",
+      "CcyNm": "New Yugoslavian Dinar",
+      "Ccy": "YUD",
+      "WthdrwlDt": "1990-01"
+    },
+    {
+      "CtryNm": "YUGOSLAVIA",
+      "CcyNm": "New Dinar",
+      "Ccy": "YUM",
+      "WthdrwlDt": "2003-07"
+    },
+    {
+      "CtryNm": "YUGOSLAVIA",
+      "CcyNm": "Yugoslavian Dinar",
+      "Ccy": "YUN",
+      "WthdrwlDt": "1995-11"
+    },
+    {
+      "CtryNm": "ZAIRE",
+      "CcyNm": "New Zaire",
+      "Ccy": "ZRN",
+      "WthdrwlDt": "1999-06"
+    },
+    {
+      "CtryNm": "ZAIRE",
+      "CcyNm": "Zaire",
+      "Ccy": "ZRZ",
+      "WthdrwlDt": "1994-02"
+    },
+    {
+      "CtryNm": "ZAMBIA",
+      "CcyNm": "Zambian Kwacha",
+      "Ccy": "ZMK",
+      "WthdrwlDt": "2012-12"
+    },
+    {
+      "CtryNm": "ZIMBABWE",
+      "CcyNm": "Rhodesian Dollar",
+      "Ccy": "ZWC",
+      "WthdrwlDt": "1989-12"
+    },
+    {
+      "CtryNm": "ZIMBABWE",
+      "CcyNm": "Zimbabwe Dollar (old)",
+      "Ccy": "ZWD",
+      "WthdrwlDt": "2006-08"
+    },
+    {
+      "CtryNm": "ZIMBABWE",
+      "CcyNm": "Zimbabwe Dollar",
+      "Ccy": "ZWD",
+      "WthdrwlDt": "2008-08"
+    },
+    {
+      "CtryNm": "ZIMBABWE",
+      "CcyNm": "Zimbabwe Dollar (new)",
+      "Ccy": "ZWN",
+      "WthdrwlDt": "2006-09"
+    },
+    {
+      "CtryNm": "ZIMBABWE",
+      "CcyNm": "Zimbabwe Dollar",
+      "Ccy": "ZWR",
+      "WthdrwlDt": "2009-06"
+    },
+    {
+      "CtryNm": "ZIMBABWE",
+      "CcyNm": "Zimbabwe Dollar",
+      "Ccy": "ZWL",
+      "WthdrwlDt": "2024-09"
+    },
+    {
+      "CtryNm": "ZZ01_Gold-Franc",
+      "CcyNm": "Gold-Franc",
+      "Ccy": "XFO",
+      "WthdrwlDt": "2006-10"
+    },
+    {
+      "CtryNm": "ZZ02_RINET Funds Code",
+      "CcyNm": "RINET Funds Code",
+      "Ccy": "XRE",
+      "WthdrwlDt": "1999-11"
+    },
+    {
+      "CtryNm": "ZZ05_UIC-Franc",
+      "CcyNm": "UIC-Franc",
+      "Ccy": "XFU",
+      "WthdrwlDt": "2013-11"
+    }
+  ],
+  "priority": "correct same property -> D; historical correct-country -> C; correct-country other attribute -> B; other-country same attribute -> A; else D",
+  "normalization": "NFKC/casefold/whitespace; full string equality; numeric exact Decimal with sign, no rounding; no fuzzy matching",
+  "limits": "A proves a table value mismatch only; shared numeric/currency values cannot prove a wrong intermediate country. C only matches a historical currency of the dataset country. Symbols not provided by ISO are not guessed."
+}

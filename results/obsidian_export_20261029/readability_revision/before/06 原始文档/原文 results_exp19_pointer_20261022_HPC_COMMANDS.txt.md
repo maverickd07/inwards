@@ -1,0 +1,70 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_exp19_pointer_20261022_HPC_COMMANDS.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/a5/a58a579d8202d1a4_HPC_COMMANDS.txt|HPC_COMMANDS.txt]]
+
+exp19 pointer, inference only. No SSH credentials are available to the agent.
+One submission, 402 items x five conditions = 2010 generations. Never train.
+
+1. Mac terminal with campus/VPN connectivity and your normal SSH authentication:
+(
+set -e
+local_dir='/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp19_pointer_20261022'
+remote='3355245@slogin.hpc.unibocconi.it'
+ssh "$remote" 'cd ~/inward && mkdir results/exp19_pointer_20261022'
+scp "$local_dir/exp19_upload.tgz" "$local_dir/exp19_upload.tgz.sha256" "$remote:~/inward/results/exp19_pointer_20261022/"
+)
+
+2. Authenticated HPC terminal (login node: only checks and sbatch, no inference):
+(
+set -e
+cd ~/inward/results/exp19_pointer_20261022
+sha256sum -c exp19_upload.tgz.sha256
+tar --keep-old-files -xzf exp19_upload.tgz
+sha256sum -c SHA256SUMS
+bash submit.sh
+)
+
+submit.sh rejects a previous receipt, refuses >=2 existing jobs and adds afterany
+if one job exists. It records lquota. Inspect quota before running if near 50GB.
+All scripts and outputs live in the new results/exp19_pointer_20261022 directory.
+Model weights are read in place. No automatic resubmission on failure.
+
+3. HPC status and results:
+cd ~/inward/results/exp19_pointer_20261022
+job=$(cut -d';' -f1 submitted_job.txt)
+squeue -j "$job"
+sacct -j "$job" --format=JobID,State,ExitCode,Elapsed
+tail -n 45 "exp19-${job}.out"
+cat "runs_${job}/complete.json"
+cat "runs_${job}/analysis/report.txt"
+
+4. Download after COMPLETED + complete.json + review archive exist:
+(
+set -e
+remote='3355245@slogin.hpc.unibocconi.it'
+experiment_dir='results/exp19_pointer_20261022'
+job=$(ssh "$remote" "cut -d';' -f1 ~/inward/$experiment_dir/submitted_job.txt")
+base='/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp19_pointer_20261022/received'
+mkdir -p "$base"
+dest=$(mktemp -d "$base/download_XXXXXX")
+scp "$remote:~/inward/$experiment_dir/runs_${job}_review.tgz" "$remote:~/inward/$experiment_dir/runs_${job}_review.tgz.sha256" "$dest/"
+cd "$dest"
+shasum -a 256 -c "runs_${job}_review.tgz.sha256"
+tar --keep-old-files -xzf "runs_${job}_review.tgz"
+echo "$dest"
+)
+
+Actual result paths: runs_JOB/raw.jsonl, prompts.jsonl, config.json,
+analysis/per_item.jsonl, analysis/review_queue.jsonl,
+analysis/reference_discrepancies.jsonl, analysis/summary.json, analysis/report.txt.
+
+
+返回 [[00 研究首页]]

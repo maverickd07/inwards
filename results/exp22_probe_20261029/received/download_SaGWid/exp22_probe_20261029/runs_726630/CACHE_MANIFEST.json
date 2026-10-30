@@ -1,0 +1,57 @@
+{
+  "base": {
+    "shape": [
+      2402,
+      41,
+      2,
+      5120
+    ],
+    "dtype": "float16",
+    "sha256": "e2570577618dd5fd810188784636eb92482d092068bfb5a8cc9a851d7babb2e9",
+    "bytes": 2016911488
+  },
+  "context_s0": {
+    "shape": [
+      2402,
+      41,
+      2,
+      5120
+    ],
+    "dtype": "float16",
+    "sha256": "b952e758344f7fe24b2ae6f814db03802260518aa0daba6ca11bf116186bfecc",
+    "bytes": 2016911488
+  },
+  "context_s1": {
+    "shape": [
+      2402,
+      41,
+      2,
+      5120
+    ],
+    "dtype": "float16",
+    "sha256": "51697dee98b1b8ccf9d4772df33b0f8381531f389a84f7051f8b37e5818f5300",
+    "bytes": 2016911488
+  },
+  "direct_s0": {
+    "shape": [
+      2402,
+      41,
+      2,
+      5120
+    ],
+    "dtype": "float16",
+    "sha256": "410372527fcf6f8994a3a0fbe779bebfc555f1bd457ee2eeda7f4703db5c7fee",
+    "bytes": 2016911488
+  },
+  "direct_s1": {
+    "shape": [
+      2402,
+      41,
+      2,
+      5120
+    ],
+    "dtype": "float16",
+    "sha256": "4692ab3f9adac29b944511bdb481affc79f1cd2da3587986cc9910b3290b81d1",
+    "bytes": 2016911488
+  }
+}

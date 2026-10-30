@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_accuracy_match_feasibility_20261015/count_existing_targets.py", line 140, in <module>
+    main()
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_accuracy_match_feasibility_20261015/count_existing_targets.py", line 78, in main
+    new={c:score(text,row['e']['Answer'],row['category']) for c,text in answers.items()}
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_accuracy_match_feasibility_20261015/count_existing_targets.py", line 78, in <dictcomp>
+    new={c:score(text,row['e']['Answer'],row['category']) for c,text in answers.items()}
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_rescore_v3_20261015/scorer_v3.py", line 113, in score
+    raise ValueError('Unparseable references: ' + str(aliases))
+ValueError: Unparseable references: ['+1 809']

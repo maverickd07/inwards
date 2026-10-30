@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/analysis_701792_local/verify_and_analyze.py", line 147, in <module>
+    if __name__=='__main__':main()
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_matched785_20261015/analysis_701792_local/verify_and_analyze.py", line 41, in main
+    for name,digest in recorded.items():assert upload[name]==digest and sha(PACKAGE/name)==digest,name
+KeyError: 'quota_login.txt'

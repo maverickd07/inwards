@@ -1,0 +1,64 @@
+{'clean/fail': 300, 'clean/success': 300, 'translation/fail': 100, 'translation/success': 100} items sampled
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:12,  6.06it/s]Loading weights:   0%|          | 2/443 [00:00<01:27,  5.06it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:09, 45.12it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:06, 66.92it/s]Loading weights:  11%|█         | 48/443 [00:00<00:04, 95.92it/s]Loading weights:  14%|█▍        | 61/443 [00:00<00:03, 104.51it/s]Loading weights:  18%|█▊        | 81/443 [00:00<00:02, 125.42it/s]Loading weights:  21%|██▏       | 95/443 [00:01<00:02, 121.39it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 134.01it/s]Loading weights:  29%|██▉       | 128/443 [00:01<00:02, 127.40it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 138.20it/s]Loading weights:  37%|███▋      | 162/443 [00:01<00:02, 133.12it/s]Loading weights:  40%|████      | 179/443 [00:01<00:01, 137.17it/s]Loading weights:  44%|████▎     | 193/443 [00:01<00:01, 129.55it/s]Loading weights:  48%|████▊     | 212/443 [00:01<00:01, 139.68it/s]Loading weights:  51%|█████     | 227/443 [00:02<00:01, 133.91it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 142.87it/s]Loading weights:  59%|█████▉    | 261/443 [00:02<00:01, 136.30it/s]Loading weights:  63%|██████▎   | 279/443 [00:02<00:01, 141.63it/s]Loading weights:  66%|██████▋   | 294/443 [00:02<00:01, 135.16it/s]Loading weights:  70%|███████   | 312/443 [00:02<00:00, 140.78it/s]Loading weights:  74%|███████▍  | 327/443 [00:02<00:00, 134.40it/s]Loading weights:  78%|███████▊  | 345/443 [00:02<00:00, 140.19it/s]Loading weights:  81%|████████▏ | 360/443 [00:02<00:00, 134.25it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 140.63it/s]Loading weights:  89%|████████▊ | 393/443 [00:03<00:00, 134.33it/s]Loading weights:  93%|█████████▎| 411/443 [00:03<00:00, 140.58it/s]Loading weights:  96%|█████████▌| 426/443 [00:03<00:00, 134.49it/s]Loading weights: 100%|██████████| 443/443 [00:03<00:00, 124.25it/s]
+lens done on 800 items in 214s (skipped 0)
+
+====================================================================================================
+CLEAN categories: birth country -> ordinary 2nd hop (MAIN RESULT)
+
+[clean] composed, model FAILS -> bridge rank  (n=300)   bridge ever in top-10: 85%   median best layer: 35/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk   63011  61977  58824  78328  73281  74608   1620     56      3     16
+  % top-10       0%     0%     0%     0%     0%     0%     1%    21%    68%    29%
+
+[clean] composed, model SUCCEEDS -> bridge rank  (n=300)   bridge ever in top-10: 92%   median best layer: 34/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk   67948  62542  59654  65538  59006  60632    540     41      1     10
+  % top-10       0%     0%     0%     0%     0%     0%     2%    30%    82%    50%
+
+[clean] hop-1 alone (control) -> bridge rank  (n=600)   bridge ever in top-10: 100%   median best layer: 33/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk   65120  62805  57802  72443  61569  71023    396      1      0      0
+  % top-10       0%     0%     0%     0%     0%     0%     2%    78%    99%   100%
+
+[clean] composed, model FAILS -> final answer rank  (n=300)   bridge ever in top-10: 94%   median best layer: 39/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk  140470 122160 126134 119002 135262 118300 133217  52740    656      1
+  % top-10       0%     0%     0%     0%     0%     0%     0%     3%    23%    90%
+
+[clean] composed, model SUCCEEDS -> final answer rank  (n=300)   bridge ever in top-10: 99%   median best layer: 39/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk  117876 104655 115542 118052 126294 119594  87830   4512      8      0
+  % top-10       0%     0%     0%     0%     0%     0%     0%    12%    52%    99%
+
+====================================================================================================
+TRANSLATION categories: country name in another language (failures often = right country in English; bridge trivially present)
+
+[trans] composed, model FAILS -> bridge rank  (n=100)   bridge ever in top-10: 97%   median best layer: 33/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk   61351  59430  62521  65784  84814  81590  11084      6      0      1
+  % top-10       0%     0%     0%     0%     0%     0%     0%    54%    92%    83%
+
+[trans] composed, model SUCCEEDS -> bridge rank  (n=100)   bridge ever in top-10: 100%   median best layer: 32/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk   67530  69804  55169  68806  61416  69228   3077      0      0      1
+  % top-10       0%     0%     0%     0%     0%     0%     0%    81%    98%    87%
+
+[trans] hop-1 alone (control) -> bridge rank  (n=200)   bridge ever in top-10: 100%   median best layer: 33/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk   65333  62441  58642  67015  68982  71422    540      1      0      0
+  % top-10       0%     0%     0%     0%     0%     0%     1%    78%    98%   100%
+
+[trans] composed, model FAILS -> final answer rank  (n=100)   bridge ever in top-10: 85%   median best layer: 40/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk  107238  79527  84476  76539 105856  86679  59044  30773    744      2
+  % top-10       0%     0%     0%     0%     0%     0%     0%     3%    15%    82%
+
+[trans] composed, model SUCCEEDS -> final answer rank  (n=100)   bridge ever in top-10: 100%   median best layer: 39/40
+  layer           4      8     12     16     20     24     28     32     36     40
+  median rk   88440  65808  82774  89106  97758  86153  32491   5630     53      0
+  % top-10       0%     0%     0%     0%     0%     0%     0%    23%    36%   100%
+
+How to read: if the FAIL group's bridge still reaches the top-10 in middle layers (close to the
+SUCCESS group), the hop-1 fact is retrieved but not used. If it never surfaces in the FAIL
+group, hop 1 is not resolved internally on the composed prompt.

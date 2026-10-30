@@ -1,0 +1,7 @@
+{
+  "smoke": true,
+  "items": 10,
+  "rows": 20,
+  "all_final_top1_verified": true,
+  "analysis_complete": true
+}

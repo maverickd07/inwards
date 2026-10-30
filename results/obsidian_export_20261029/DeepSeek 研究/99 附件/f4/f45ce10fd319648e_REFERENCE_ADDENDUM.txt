@@ -1,0 +1,8 @@
+Before inference, 2026-10-29: source exp21 attributes do not contain New Zealand.
+Add only New Zealand to exp22's copied attribute table; exp21 is unchanged.
+New Zealand dollar / NZD: https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index
+.nz: https://www.iana.org/domains/root/db/nz.html
+554: https://ungegn.un.org/dashboard/countries/details?id=554
+Currency symbol accepts $ or NZ$ as redundant country-qualified form; frozen ISO
+NZD identity from existing ISO currency XML is used by the inherited scorer.
+All other old and new reference values remain the frozen source snapshot.

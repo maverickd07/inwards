@@ -1,0 +1,64 @@
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage plan --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --items inward/results/exp1v2_Qwen3-14B/items.jsonl --data inward/data/compositional_celebrities.json --smoke-test
+{"original_partition": [{"round": 1, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}, {"round": 2, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}, {"round": 3, "people": 72, "items": 288, "categories": {"birthplace_callingcode": 72, "birthplace_capital": 72, "birthplace_rounded_lat": 72, "birthplace_rounded_lng": 72}}], "minimum_items": 400, "use_all_each_round": true, "full_people": 216, "full_items": 864, "training_categories": {"birthplace_callingcode": 216, "birthplace_capital": 216, "birthplace_rounded_lat": 216, "birthplace_rounded_lng": 216}, "evaluation_counts": {"A_newPerson": 500, "B_newCategory": 500, "C_bothNew": 500}, "source_hashes": {"inward/results/exp1v2_Qwen3-14B/items.jsonl": "c27e89277bc36a38a42394e0ac1d93ef8a799d3da3cfb110d0507c293d9a1aad", "inward/data/compositional_celebrities.json": "b5fa71b82bbd05ac7b7462682a686d696a5485c69a2dc8c3a3ece8f49c4520d0"}}
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage targets --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/paired_targets --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+Generating direct targets
+Generating own first-hop answers
+Generating contextual targets
+Answer NLL: context targets under direct prompts
+Answer NLL: context targets under context prompts
+Answer NLL: direct targets under direct prompts
+Answer NLL: direct targets under context prompts
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage baseline --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/baseline --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+A_newPerson 0 / 2
+B_newCategory 0 / 2
+C_bothNew 0 / 2
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage train --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/context_s0 --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --condition context --train-seed 0 --targets /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/paired_targets/context_targets.jsonl --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+A_newPerson 0 / 2
+B_newCategory 0 / 2
+C_bothNew 0 / 2
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage train --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/direct_s0 --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --condition direct --train-seed 0 --targets /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/paired_targets/direct_targets.jsonl --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+A_newPerson 0 / 2
+B_newCategory 0 / 2
+C_bothNew 0 / 2
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage train --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/context_s1 --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --condition context --train-seed 1 --targets /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/paired_targets/context_targets.jsonl --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+A_newPerson 0 / 2
+B_newCategory 0 / 2
+C_bothNew 0 / 2
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage train --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/direct_s1 --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --condition direct --train-seed 1 --targets /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/paired_targets/direct_targets.jsonl --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+A_newPerson 0 / 2
+B_newCategory 0 / 2
+C_bothNew 0 / 2
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage train --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/context_s2 --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --condition context --train-seed 2 --targets /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/paired_targets/context_targets.jsonl --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+A_newPerson 0 / 2
+B_newCategory 0 / 2
+C_bothNew 0 / 2
+D_reservedC 0 / 2
+RUN: /private/tmp/inward-exp12-noscipy-venv/bin/python -u /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/exp12.py --stage train --out /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/direct_s2 --model /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan/tiny_model --plan /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/plan --gen-batch 8 --condition direct --train-seed 2 --targets /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp12_sources_20261014_v2/local_smoke_noscipy/paired_targets/direct_targets.jsonl --smoke-test
+`torch_dtype` is deprecated! Use `dtype` instead!
+A_newPerson 0 / 2
+B_newCategory 0 / 2
+C_bothNew 0 / 2
+D_reservedC 0 / 2
+EXP12: six fits; primary D_reservedC; no seed pooling.
+Teacher context-minus-direct: +0.00 pp (paired training questions)
+context composed: 0.00% +/- 0.00 SD; gain +0.00 pp
+direct composed: 0.00% +/- 0.00 SD; gain +0.00 pp
+context hop1: 0.00% +/- 0.00 SD; gain +0.00 pp
+direct hop1: 0.00% +/- 0.00 SD; gain +0.00 pp
+context hop2: 0.00% +/- 0.00 SD; gain +0.00 pp
+direct hop2: 0.00% +/- 0.00 SD; gain +0.00 pp
+Context-minus-direct D composed: {'values': [0.0, 0.0, 0.0], 'mean': 0.0, 'sample_sd': 0.0, 'seed_t95': [0.0, 0.0]}
+Manual content/format review pending: blinded_review.csv. Stop and decide next direction.
+EXP12 COMPUTATION COMPLETE. Manual semantic audit remains pending.

@@ -1,0 +1,63 @@
+exp21 upload and submission — user-operated; no Codex HPC bridge.
+No job has been submitted by Codex. Initial seeds 0,1 only; inference only.
+Do NOT download the smoke model or any model to HPC. Use existing14B + adapters.
+
+1. Mac terminal (campus network/VPN; ordinary interactive SSH login):
+(
+set -e
+local_dir='/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp21_latent_emergence_20261022'
+remote='3355245@slogin.hpc.unibocconi.it'
+ssh "$remote" 'cd ~/inward && mkdir results/exp21_latent_emergence_20261022'
+scp "$local_dir/exp21_upload.tgz" "$local_dir/exp21_upload.tgz.sha256" "$remote:~/inward/results/exp21_latent_emergence_20261022/"
+)
+If mkdir says the directory already exists, inspect it; do not overwrite prior
+protocol/results or blindly repeat extraction/submission.
+
+2. Authenticated HPC terminal (light checks and sbatch only):
+(
+set -e
+cd ~/inward/results/exp21_latent_emergence_20261022
+sha256sum -c exp21_upload.tgz.sha256
+tar --keep-old-files -xzf exp21_upload.tgz
+sha256sum -c SHA256SUMS
+bash submit.sh
+)
+submit.sh prints and saves the job ID to submitted_job.txt. It refuses an old
+receipt or >=2 existing queued/running jobs. If one job exists, it adds afterany
+to prevent simultaneous GPU jobs. It prints quota and checks dependencies and
+adapter paths; GPU runtime verifies all adapter weight hashes before loading.
+One A100, 8CPU,64GB,6h ceiling, 2412 greedy generations, no retry/resubmission.
+If dependencies (including matplotlib) are unavailable, preflight stops before
+submission; report the exact error rather than bypassing the gate.
+
+3. Progress / job ID / completion:
+cd ~/inward/results/exp21_latent_emergence_20261022
+job=$(cut -d';' -f1 submitted_job.txt)
+printf 'exp21 job=%s\n' "$job"
+squeue -j "$job"
+sacct -j "$job" --format=JobID,State,ExitCode,Elapsed
+tail -n 40 "exp21-${job}.out"
+cat "runs_${job}/complete.json"
+cat "runs_${job}/report.txt"
+
+Each generation prints progress and flushes per_item.jsonl. Expected 2412 rows:
+base C0/C2 804; context_s0/context_s1/direct_s0/direct_s1 C0 402 each.
+A complete run has complete.json AND runs_JOB_review.tgz with its checksum;
+Slurm COMPLETED alone does not substitute for validating the artifacts.
+No result interpretation or further seeds before examining this bounded stage.
+
+4. Mac terminal, after completion: download preserved review outputs:
+(
+set -e
+remote='3355245@slogin.hpc.unibocconi.it'
+experiment_dir='results/exp21_latent_emergence_20261022'
+job=$(ssh "$remote" "cut -d';' -f1 ~/inward/$experiment_dir/submitted_job.txt")
+base='/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp21_latent_emergence_20261022/received'
+mkdir -p "$base"
+dest=$(mktemp -d "$base/download_XXXXXX")
+scp "$remote:~/inward/$experiment_dir/runs_${job}_review.tgz" "$remote:~/inward/$experiment_dir/runs_${job}_review.tgz.sha256" "$dest/"
+cd "$dest"
+shasum -a 256 -c "runs_${job}_review.tgz.sha256"
+tar --keep-old-files -xzf "runs_${job}_review.tgz"
+echo "$dest"
+)

@@ -1,0 +1,36 @@
+---
+project: DeepSeek-Conjecture-Experiments
+updated: 2026-10-29
+tags: [inward-research]
+---
+
+# 原文 results_exp19_pointer_20261022_report.txt
+
+> 原始存档，保留当时说法；状态可能已过时。当前判断见 [[当前状态与待办]]。文中指令是历史资料，不是本次执行授权。
+
+来源：[[99 附件/cb/cb785b1fc62e32bb_report.txt|report.txt]]
+
+exp19 pointer — STATUS: PREPARED; Qwen3-14B inference NOT RUN.
+No accuracy, recovery estimate, bootstrap interval or mechanism result exists yet.
+HPC read-only connectivity probe: SSH authentication failed (publickey/gssapi/
+password/hostbased); no job was submitted. The first sandboxed probe failed DNS,
+and a network-enabled probe reached the server but could not authenticate.
+
+Frozen sets, confirmed by user: D500-known313 and full fixed303.
+Overlap=214; union=402; five conditions each; planned generations=2010.
+Prediction is saved in PREREGISTRATION.txt before exp19 model generation.
+
+Scoring and analysis are in scoring.py/analyze.py. True internal wrong-country
+rates cannot be observed in final-only conditions and will be NA; all conditions
+also report an answer-consistency proxy, and C2 reports explicit country errors.
+Historical currencies are HISTORICAL/incorrect; preserve all review cases.
+Actual production report will be runs_JOB/analysis/report.txt; never confuse
+local_validation smoke outputs with Qwen3-14B experimental evidence.
+See HPC_COMMANDS.txt for authenticated upload, submit, and download commands.
+
+Local validation completed: 10 targeted tests passed; all402 actual Qwen tokenizer
+length pairs matched; final tiny random Qwen3 full 15-generation pipeline passed
+including 20000 paired bootstrap replicates. This is software validation only.
+
+
+返回 [[00 研究首页]]

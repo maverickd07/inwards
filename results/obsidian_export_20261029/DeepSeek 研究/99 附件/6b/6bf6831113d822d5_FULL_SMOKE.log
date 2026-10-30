@@ -1,0 +1,38 @@
+NLL pairs 1 / 8
+generated 1 / 1
+{"passed": true, "matching_fixture_pairs": 8, "real_tiny_model_loss_records": 16, "shared_code_and_wrong_q1_checks": true, "NLL_equals_independent_gather": true, "parameters_unchanged": true}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 346.01it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/14 [00:00<?, ?it/s]Loading weights: 100%|██████████| 14/14 [00:00<00:00, 19227.33it/s]
+NLL pairs 1 / 8
+{
+  "status": "STOP_INSUFFICIENT_AND_ASK_USER",
+  "stage": "inference_pairing_loss_only",
+  "new_people": 2,
+  "eligible_old_people": 0,
+  "q1_generated": 2,
+  "q1_reused": 0,
+  "q2_generated": 8,
+  "pairs_per_group": 8,
+  "matched_unique_people": 2,
+  "counts": {
+    "people": 2,
+    "wrong_q1_people": 2,
+    "wrong_q1_items": 8,
+    "consistent_target_strict_wrong_items": 8,
+    "birthplace_callingcode_matched": 2,
+    "birthplace_capital_matched": 2,
+    "birthplace_rounded_lat_matched": 2,
+    "birthplace_rounded_lng_matched": 2,
+    "matched_pairs": 8
+  },
+  "training_runs": 0,
+  "third_group_runs": 0,
+  "automatic_next_stage": false,
+  "model_parameter_versions_unchanged": true,
+  "seconds": 0.0252227783203125,
+  "smoke_test": true,
+  "package_freeze_sha256": "9ea75b22a3e8a274a658d5baa55d9e7b5e7842861083f87d71c9fa2bea43e4df"
+}
+Review archive: /Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/local_validation/synthetic_run_review.tgz
+FULL SYNTHETIC INTEGRATION PASSED

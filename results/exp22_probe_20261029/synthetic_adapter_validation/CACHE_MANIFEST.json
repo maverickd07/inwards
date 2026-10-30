@@ -1,0 +1,57 @@
+{
+  "base": {
+    "shape": [
+      30,
+      29,
+      2,
+      1024
+    ],
+    "dtype": "float16",
+    "sha256": "0af8843a95de681e4c10df3de34d101c0c13469f2cbd0a12495d347c480213b0",
+    "bytes": 3563648
+  },
+  "context_s0": {
+    "shape": [
+      30,
+      29,
+      2,
+      1024
+    ],
+    "dtype": "float16",
+    "sha256": "0af8843a95de681e4c10df3de34d101c0c13469f2cbd0a12495d347c480213b0",
+    "bytes": 3563648
+  },
+  "context_s1": {
+    "shape": [
+      30,
+      29,
+      2,
+      1024
+    ],
+    "dtype": "float16",
+    "sha256": "0af8843a95de681e4c10df3de34d101c0c13469f2cbd0a12495d347c480213b0",
+    "bytes": 3563648
+  },
+  "direct_s0": {
+    "shape": [
+      30,
+      29,
+      2,
+      1024
+    ],
+    "dtype": "float16",
+    "sha256": "0af8843a95de681e4c10df3de34d101c0c13469f2cbd0a12495d347c480213b0",
+    "bytes": 3563648
+  },
+  "direct_s1": {
+    "shape": [
+      30,
+      29,
+      2,
+      1024
+    ],
+    "dtype": "float16",
+    "sha256": "0af8843a95de681e4c10df3de34d101c0c13469f2cbd0a12495d347c480213b0",
+    "bytes": 3563648
+  }
+}

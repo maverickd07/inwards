@@ -1,0 +1,13 @@
+metadata screen eligible Counter({'new': 820, 'old': 17}) countries Counter({'United States': 283, 'Brazil': 81, 'Japan': 68, 'Spain': 54, 'Canada': 41, 'France': 38, 'Argentina': 31, 'Australia': 28, 'Italy': 28, 'Sweden': 27, 'South Korea': 26, 'Mexico': 20, 'Norway': 16, 'Peru': 15, 'Colombia': 11, 'Germany': 10, 'Uruguay': 10, 'Chile': 9, 'Portugal': 5, 'Switzerland': 5, 'New Zealand': 3, 'Austria': 3, 'Greece': 3, 'Iceland': 3, 'United Kingdom': 2})
+Traceback (most recent call last):
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/curate_review_v10.py", line 158, in <module>
+    if __name__=='__main__':main()
+  File "/Users/danielweiyuchen/Desktop/30 Projects/DeepSeek-Conjecture-Experiments/results/exp17_inference_pool_20261016/curate_review_v10.py", line 97, in main
+    for counts in executor.map(fetch_sites,range(0,len(preliminary),50)):sitecounts.update(counts)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 608, in result_iterator
+    yield fs.pop().result()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 440, in result
+    self._condition.wait(timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt

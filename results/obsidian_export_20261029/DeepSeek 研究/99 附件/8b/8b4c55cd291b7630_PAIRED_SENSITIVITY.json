@@ -1,0 +1,1522 @@
+[
+  {
+    "method": "attribute_floor",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 60,
+        "contradictory": 101,
+        "unknown": 100
+      },
+      "pct": {
+        "consistent": 22.988505747126435,
+        "contradictory": 38.69731800766284,
+        "unknown": 38.31417624521073
+      },
+      "consistent_among_judgeable_pct": 37.267080745341616,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_not_in_attribute_table": 75,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 5,
+        "contradictory": 150,
+        "unknown": 106
+      },
+      "pct": {
+        "consistent": 1.9157088122605364,
+        "contradictory": 57.47126436781609,
+        "unknown": 40.61302681992337
+      },
+      "consistent_among_judgeable_pct": 3.225806451612903,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_not_in_attribute_table": 82
+      }
+    },
+    "delta_pp": 21.0727969348659,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -19.54022988505747,
+      59.38697318007663
+    ],
+    "judgeable_delta_pp": 34.04127429372871
+  },
+  {
+    "method": "attribute_floor",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 120,
+      "counts": {
+        "consistent": 36,
+        "contradictory": 84,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 30.0,
+        "contradictory": 70.0,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 30.0,
+      "target_review_n": 1,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 120,
+      "counts": {
+        "consistent": 4,
+        "contradictory": 116,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 3.3333333333333335,
+        "contradictory": 96.66666666666667,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 3.3333333333333335,
+      "target_review_n": 2,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 26.666666666666668,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      26.666666666666668,
+      26.666666666666668
+    ],
+    "judgeable_delta_pp": 26.666666666666668
+  },
+  {
+    "method": "attribute_floor",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 42,
+        "contradictory": 101,
+        "unknown": 93
+      },
+      "pct": {
+        "consistent": 17.796610169491526,
+        "contradictory": 42.79661016949152,
+        "unknown": 39.40677966101695
+      },
+      "consistent_among_judgeable_pct": 29.37062937062937,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "target_not_in_attribute_table": 73,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 5,
+        "contradictory": 146,
+        "unknown": 85
+      },
+      "pct": {
+        "consistent": 2.1186440677966103,
+        "contradictory": 61.86440677966102,
+        "unknown": 36.016949152542374
+      },
+      "consistent_among_judgeable_pct": 3.3112582781456954,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "target_not_in_attribute_table": 66
+      }
+    },
+    "delta_pp": 15.677966101694915,
+    "verdict": "不确定",
+    "unknown_bounds_pp": [
+      -20.33898305084746,
+      55.08474576271186
+    ],
+    "judgeable_delta_pp": 26.059371092483673
+  },
+  {
+    "method": "attribute_floor",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 117,
+      "counts": {
+        "consistent": 33,
+        "contradictory": 84,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 28.205128205128204,
+        "contradictory": 71.7948717948718,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 28.205128205128204,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 117,
+      "counts": {
+        "consistent": 4,
+        "contradictory": 113,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 3.4188034188034186,
+        "contradictory": 96.58119658119658,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 3.4188034188034186,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 24.786324786324787,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      24.786324786324787,
+      24.786324786324787
+    ],
+    "judgeable_delta_pp": 24.786324786324787
+  },
+  {
+    "method": "attribute_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 61,
+        "contradictory": 105,
+        "unknown": 95
+      },
+      "pct": {
+        "consistent": 23.371647509578544,
+        "contradictory": 40.229885057471265,
+        "unknown": 36.39846743295019
+      },
+      "consistent_among_judgeable_pct": 36.74698795180723,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_not_in_attribute_table": 70,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 6,
+        "contradictory": 148,
+        "unknown": 107
+      },
+      "pct": {
+        "consistent": 2.2988505747126435,
+        "contradictory": 56.70498084291188,
+        "unknown": 40.99616858237548
+      },
+      "consistent_among_judgeable_pct": 3.896103896103896,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_not_in_attribute_table": 83
+      }
+    },
+    "delta_pp": 21.0727969348659,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -19.923371647509583,
+      57.47126436781609
+    ],
+    "judgeable_delta_pp": 32.85088405570333
+  },
+  {
+    "method": "attribute_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 124,
+      "counts": {
+        "consistent": 37,
+        "contradictory": 87,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 29.838709677419356,
+        "contradictory": 70.16129032258064,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 29.838709677419356,
+      "target_review_n": 1,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 124,
+      "counts": {
+        "consistent": 5,
+        "contradictory": 119,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 4.032258064516129,
+        "contradictory": 95.96774193548387,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 4.032258064516129,
+      "target_review_n": 2,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 25.806451612903228,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      25.806451612903228,
+      25.806451612903228
+    ],
+    "judgeable_delta_pp": 25.806451612903228
+  },
+  {
+    "method": "attribute_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 43,
+        "contradictory": 105,
+        "unknown": 88
+      },
+      "pct": {
+        "consistent": 18.220338983050848,
+        "contradictory": 44.49152542372882,
+        "unknown": 37.28813559322034
+      },
+      "consistent_among_judgeable_pct": 29.054054054054053,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "target_not_in_attribute_table": 68,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 6,
+        "contradictory": 144,
+        "unknown": 86
+      },
+      "pct": {
+        "consistent": 2.542372881355932,
+        "contradictory": 61.016949152542374,
+        "unknown": 36.440677966101696
+      },
+      "consistent_among_judgeable_pct": 4.0,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "target_not_in_attribute_table": 67
+      }
+    },
+    "delta_pp": 15.677966101694915,
+    "verdict": "不确定",
+    "unknown_bounds_pp": [
+      -20.762711864406782,
+      52.96610169491525
+    ],
+    "judgeable_delta_pp": 25.054054054054053
+  },
+  {
+    "method": "attribute_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 121,
+      "counts": {
+        "consistent": 34,
+        "contradictory": 87,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 28.09917355371901,
+        "contradictory": 71.90082644628099,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 28.09917355371901,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 121,
+      "counts": {
+        "consistent": 5,
+        "contradictory": 116,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 4.132231404958677,
+        "contradictory": 95.86776859504133,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 4.132231404958677,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 23.96694214876033,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      23.96694214876033,
+      23.96694214876033
+    ],
+    "judgeable_delta_pp": 23.96694214876033
+  },
+  {
+    "method": "model_exp12",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 90,
+        "contradictory": 81,
+        "unknown": 90
+      },
+      "pct": {
+        "consistent": 34.48275862068966,
+        "contradictory": 31.03448275862069,
+        "unknown": 34.48275862068966
+      },
+      "consistent_among_judgeable_pct": 52.63157894736842,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "missing_saved_q2": 59,
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 158,
+        "unknown": 89
+      },
+      "pct": {
+        "consistent": 5.363984674329502,
+        "contradictory": 60.53639846743295,
+        "unknown": 34.099616858237546
+      },
+      "consistent_among_judgeable_pct": 8.13953488372093,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "missing_saved_q2": 59,
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 29.118773946360157,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -4.980842911877389,
+      63.601532567049816
+    ],
+    "judgeable_delta_pp": 44.492044063647484
+  },
+  {
+    "method": "model_exp12",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 171,
+      "counts": {
+        "consistent": 90,
+        "contradictory": 81,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 52.63157894736842,
+        "contradictory": 47.36842105263158,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 52.63157894736842,
+      "target_review_n": 4,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 171,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 157,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 8.187134502923977,
+        "contradictory": 91.81286549707602,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 8.187134502923977,
+      "target_review_n": 15,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 44.44444444444444,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      44.44444444444444,
+      44.44444444444444
+    ],
+    "judgeable_delta_pp": 44.44444444444444
+  },
+  {
+    "method": "model_exp12",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 74,
+        "contradictory": 81,
+        "unknown": 81
+      },
+      "pct": {
+        "consistent": 31.35593220338983,
+        "contradictory": 34.32203389830509,
+        "unknown": 34.32203389830509
+      },
+      "consistent_among_judgeable_pct": 47.74193548387097,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 55,
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 142,
+        "unknown": 80
+      },
+      "pct": {
+        "consistent": 5.932203389830509,
+        "contradictory": 60.16949152542373,
+        "unknown": 33.898305084745765
+      },
+      "consistent_among_judgeable_pct": 8.974358974358974,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 55,
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 25.423728813559322,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -8.474576271186443,
+      59.74576271186441
+    ],
+    "judgeable_delta_pp": 38.767576509512
+  },
+  {
+    "method": "model_exp12",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 155,
+      "counts": {
+        "consistent": 74,
+        "contradictory": 81,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 47.74193548387097,
+        "contradictory": 52.25806451612903,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 47.74193548387097,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 155,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 141,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 9.03225806451613,
+        "contradictory": 90.96774193548387,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 9.03225806451613,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 38.70967741935484,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      38.70967741935484,
+      38.70967741935484
+    ],
+    "judgeable_delta_pp": 38.70967741935484
+  },
+  {
+    "method": "model_exp1",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 118,
+        "contradictory": 118,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 45.21072796934866,
+        "contradictory": 45.21072796934866,
+        "unknown": 9.578544061302683
+      },
+      "consistent_among_judgeable_pct": 50.0,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 218,
+        "unknown": 24
+      },
+      "pct": {
+        "consistent": 7.2796934865900385,
+        "contradictory": 83.52490421455938,
+        "unknown": 9.195402298850574
+      },
+      "consistent_among_judgeable_pct": 8.016877637130802,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "z_unresolved": 24
+      }
+    },
+    "delta_pp": 37.93103448275862,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      28.735632183908045,
+      47.5095785440613
+    ],
+    "judgeable_delta_pp": 41.983122362869196
+  },
+  {
+    "method": "model_exp1",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 118,
+        "contradictory": 118,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 50.0,
+        "contradictory": 50.0,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 50.0,
+      "target_review_n": 5,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 217,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 8.05084745762712,
+        "contradictory": 91.94915254237289,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 8.05084745762712,
+      "target_review_n": 18,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 41.94915254237288,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      41.94915254237288,
+      41.94915254237288
+    ],
+    "judgeable_delta_pp": 41.94915254237288
+  },
+  {
+    "method": "model_exp1",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 98,
+        "contradictory": 118,
+        "unknown": 20
+      },
+      "pct": {
+        "consistent": 41.52542372881356,
+        "contradictory": 50.0,
+        "unknown": 8.474576271186441
+      },
+      "consistent_among_judgeable_pct": 45.370370370370374,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 198,
+        "unknown": 19
+      },
+      "pct": {
+        "consistent": 8.05084745762712,
+        "contradictory": 83.89830508474576,
+        "unknown": 8.05084745762712
+      },
+      "consistent_among_judgeable_pct": 8.755760368663594,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19
+      }
+    },
+    "delta_pp": 33.474576271186436,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      25.423728813559315,
+      41.94915254237288
+    ],
+    "judgeable_delta_pp": 36.61461000170678
+  },
+  {
+    "method": "model_exp1",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 216,
+      "counts": {
+        "consistent": 98,
+        "contradictory": 118,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 45.370370370370374,
+        "contradictory": 54.629629629629626,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 45.370370370370374,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 216,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 197,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 8.796296296296296,
+        "contradictory": 91.20370370370371,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 8.796296296296296,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 36.574074074074076,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      36.574074074074076,
+      36.574074074074076
+    ],
+    "judgeable_delta_pp": 36.574074074074076
+  },
+  {
+    "method": "model_extended",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 118,
+        "contradictory": 112,
+        "unknown": 31
+      },
+      "pct": {
+        "consistent": 45.21072796934866,
+        "contradictory": 42.911877394636015,
+        "unknown": 11.877394636015326
+      },
+      "consistent_among_judgeable_pct": 51.30434782608695,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 212,
+        "unknown": 30
+      },
+      "pct": {
+        "consistent": 7.2796934865900385,
+        "contradictory": 81.22605363984674,
+        "unknown": 11.494252873563218
+      },
+      "consistent_among_judgeable_pct": 8.225108225108226,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 37.93103448275862,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      26.4367816091954,
+      49.808429118773944
+    ],
+    "judgeable_delta_pp": 43.079239600978724
+  },
+  {
+    "method": "model_extended",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 230,
+      "counts": {
+        "consistent": 118,
+        "contradictory": 112,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 51.30434782608695,
+        "contradictory": 48.69565217391305,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 51.30434782608695,
+      "target_review_n": 5,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 230,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 211,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 8.26086956521739,
+        "contradictory": 91.73913043478261,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 8.26086956521739,
+      "target_review_n": 18,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 43.04347826086956,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      43.04347826086956,
+      43.04347826086956
+    ],
+    "judgeable_delta_pp": 43.04347826086956
+  },
+  {
+    "method": "model_extended",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 98,
+        "contradictory": 112,
+        "unknown": 26
+      },
+      "pct": {
+        "consistent": 41.52542372881356,
+        "contradictory": 47.45762711864407,
+        "unknown": 11.016949152542374
+      },
+      "consistent_among_judgeable_pct": 46.666666666666664,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 192,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 8.05084745762712,
+        "contradictory": 81.35593220338983,
+        "unknown": 10.59322033898305
+      },
+      "consistent_among_judgeable_pct": 9.004739336492891,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 33.474576271186436,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      22.881355932203384,
+      44.49152542372881
+    ],
+    "judgeable_delta_pp": 37.661927330173775
+  },
+  {
+    "method": "model_extended",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 210,
+      "counts": {
+        "consistent": 98,
+        "contradictory": 112,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 46.666666666666664,
+        "contradictory": 53.333333333333336,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 46.666666666666664,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 210,
+      "counts": {
+        "consistent": 19,
+        "contradictory": 191,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 9.047619047619047,
+        "contradictory": 90.95238095238095,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 9.047619047619047,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 37.61904761904762,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      37.61904761904762,
+      37.61904761904762
+    ],
+    "judgeable_delta_pp": 37.61904761904762
+  },
+  {
+    "method": "model_exp12_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 91,
+        "contradictory": 80,
+        "unknown": 90
+      },
+      "pct": {
+        "consistent": 34.86590038314176,
+        "contradictory": 30.65134099616858,
+        "unknown": 34.48275862068966
+      },
+      "consistent_among_judgeable_pct": 53.21637426900585,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "missing_saved_q2": 59,
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 158,
+        "unknown": 89
+      },
+      "pct": {
+        "consistent": 5.363984674329502,
+        "contradictory": 60.53639846743295,
+        "unknown": 34.099616858237546
+      },
+      "consistent_among_judgeable_pct": 8.13953488372093,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "missing_saved_q2": 59,
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 29.501915708812263,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -4.5977011494252835,
+      63.98467432950192
+    ],
+    "judgeable_delta_pp": 45.07683938528491
+  },
+  {
+    "method": "model_exp12_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 171,
+      "counts": {
+        "consistent": 91,
+        "contradictory": 80,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 53.21637426900585,
+        "contradictory": 46.78362573099415,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 53.21637426900585,
+      "target_review_n": 4,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 171,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 157,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 8.187134502923977,
+        "contradictory": 91.81286549707602,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 8.187134502923977,
+      "target_review_n": 15,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 45.02923976608187,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      45.02923976608187,
+      45.02923976608187
+    ],
+    "judgeable_delta_pp": 45.02923976608187
+  },
+  {
+    "method": "model_exp12_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 75,
+        "contradictory": 80,
+        "unknown": 81
+      },
+      "pct": {
+        "consistent": 31.779661016949152,
+        "contradictory": 33.898305084745765,
+        "unknown": 34.32203389830509
+      },
+      "consistent_among_judgeable_pct": 48.38709677419355,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 55,
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 142,
+        "unknown": 80
+      },
+      "pct": {
+        "consistent": 5.932203389830509,
+        "contradictory": 60.16949152542373,
+        "unknown": 33.898305084745765
+      },
+      "consistent_among_judgeable_pct": 8.974358974358974,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "missing_saved_q2": 55,
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 25.847457627118644,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      -8.050847457627121,
+      60.16949152542373
+    ],
+    "judgeable_delta_pp": 39.412737799834574
+  },
+  {
+    "method": "model_exp12_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 155,
+      "counts": {
+        "consistent": 75,
+        "contradictory": 80,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 48.38709677419355,
+        "contradictory": 51.61290322580645,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 48.38709677419355,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 155,
+      "counts": {
+        "consistent": 14,
+        "contradictory": 141,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 9.03225806451613,
+        "contradictory": 90.96774193548387,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 9.03225806451613,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 39.35483870967742,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      39.35483870967742,
+      39.35483870967742
+    ],
+    "judgeable_delta_pp": 39.35483870967742
+  },
+  {
+    "method": "model_exp1_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 120,
+        "contradictory": 116,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 45.97701149425287,
+        "contradictory": 44.44444444444444,
+        "unknown": 9.578544061302683
+      },
+      "consistent_among_judgeable_pct": 50.847457627118644,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 217,
+        "unknown": 24
+      },
+      "pct": {
+        "consistent": 7.662835249042145,
+        "contradictory": 83.14176245210729,
+        "unknown": 9.195402298850574
+      },
+      "consistent_among_judgeable_pct": 8.438818565400844,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "z_unresolved": 24
+      }
+    },
+    "delta_pp": 38.314176245210724,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      29.11877394636015,
+      47.89272030651341
+    ],
+    "judgeable_delta_pp": 42.4086390617178
+  },
+  {
+    "method": "model_exp1_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 120,
+        "contradictory": 116,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 50.847457627118644,
+        "contradictory": 49.152542372881356,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 50.847457627118644,
+      "target_review_n": 5,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 216,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 8.474576271186441,
+        "contradictory": 91.52542372881356,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 8.474576271186441,
+      "target_review_n": 18,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 42.3728813559322,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      42.3728813559322,
+      42.3728813559322
+    ],
+    "judgeable_delta_pp": 42.3728813559322
+  },
+  {
+    "method": "model_exp1_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 100,
+        "contradictory": 116,
+        "unknown": 20
+      },
+      "pct": {
+        "consistent": 42.3728813559322,
+        "contradictory": 49.152542372881356,
+        "unknown": 8.474576271186441
+      },
+      "consistent_among_judgeable_pct": 46.2962962962963,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 197,
+        "unknown": 19
+      },
+      "pct": {
+        "consistent": 8.474576271186441,
+        "contradictory": 83.47457627118644,
+        "unknown": 8.05084745762712
+      },
+      "consistent_among_judgeable_pct": 9.216589861751151,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19
+      }
+    },
+    "delta_pp": 33.89830508474576,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      25.847457627118636,
+      42.3728813559322
+    ],
+    "judgeable_delta_pp": 37.079706434545145
+  },
+  {
+    "method": "model_exp1_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 216,
+      "counts": {
+        "consistent": 100,
+        "contradictory": 116,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 46.2962962962963,
+        "contradictory": 53.7037037037037,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 46.2962962962963,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 216,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 196,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 9.25925925925926,
+        "contradictory": 90.74074074074075,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 9.25925925925926,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 37.03703703703704,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      37.03703703703704,
+      37.03703703703704
+    ],
+    "judgeable_delta_pp": 37.03703703703704
+  },
+  {
+    "method": "model_extended_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 261,
+      "counts": {
+        "consistent": 120,
+        "contradictory": 110,
+        "unknown": 31
+      },
+      "pct": {
+        "consistent": 45.97701149425287,
+        "contradictory": 42.1455938697318,
+        "unknown": 11.877394636015326
+      },
+      "consistent_among_judgeable_pct": 52.17391304347826,
+      "target_review_n": 9,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 261,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 211,
+        "unknown": 30
+      },
+      "pct": {
+        "consistent": 7.662835249042145,
+        "contradictory": 80.84291187739464,
+        "unknown": 11.494252873563218
+      },
+      "consistent_among_judgeable_pct": 8.658008658008658,
+      "target_review_n": 23,
+      "unknown_reasons": {
+        "z_unresolved": 24,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 38.314176245210724,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      26.819923371647505,
+      50.19157088122605
+    ],
+    "judgeable_delta_pp": 43.5159043854696
+  },
+  {
+    "method": "model_extended_round",
+    "both_strict_wrong": false,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 230,
+      "counts": {
+        "consistent": 120,
+        "contradictory": 110,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 52.17391304347826,
+        "contradictory": 47.82608695652174,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 52.17391304347826,
+      "target_review_n": 5,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 230,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 210,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 8.695652173913043,
+        "contradictory": 91.30434782608695,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 8.695652173913043,
+      "target_review_n": 18,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 43.47826086956522,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      43.47826086956522,
+      43.47826086956522
+    ],
+    "judgeable_delta_pp": 43.47826086956522
+  },
+  {
+    "method": "model_extended_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": false,
+    "context": {
+      "n": 236,
+      "counts": {
+        "consistent": 100,
+        "contradictory": 110,
+        "unknown": 26
+      },
+      "pct": {
+        "consistent": 42.3728813559322,
+        "contradictory": 46.610169491525426,
+        "unknown": 11.016949152542374
+      },
+      "consistent_among_judgeable_pct": 47.61904761904762,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6,
+        "target_unparseable": 1
+      }
+    },
+    "direct": {
+      "n": 236,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 191,
+        "unknown": 25
+      },
+      "pct": {
+        "consistent": 8.474576271186441,
+        "contradictory": 80.9322033898305,
+        "unknown": 10.59322033898305
+      },
+      "consistent_among_judgeable_pct": 9.47867298578199,
+      "target_review_n": 0,
+      "unknown_reasons": {
+        "z_unresolved": 19,
+        "saved_q2_conflicting": 6
+      }
+    },
+    "delta_pp": 33.89830508474576,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      23.305084745762706,
+      44.91525423728813
+    ],
+    "judgeable_delta_pp": 38.14037463326563
+  },
+  {
+    "method": "model_extended_round",
+    "both_strict_wrong": true,
+    "jointly_judgeable": true,
+    "context": {
+      "n": 210,
+      "counts": {
+        "consistent": 100,
+        "contradictory": 110,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 47.61904761904762,
+        "contradictory": 52.38095238095238,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 47.61904761904762,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "direct": {
+      "n": 210,
+      "counts": {
+        "consistent": 20,
+        "contradictory": 190,
+        "unknown": 0
+      },
+      "pct": {
+        "consistent": 9.523809523809524,
+        "contradictory": 90.47619047619048,
+        "unknown": 0.0
+      },
+      "consistent_among_judgeable_pct": 9.523809523809524,
+      "target_review_n": 0,
+      "unknown_reasons": {}
+    },
+    "delta_pp": 38.095238095238095,
+    "verdict": "自洽是候选机制",
+    "unknown_bounds_pp": [
+      38.095238095238095,
+      38.095238095238095
+    ],
+    "judgeable_delta_pp": 38.095238095238095
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "condition": "continue",
+  "round": 3,
+  "train_seed": 1,
+  "epochs": 2,
+  "batch": 8,
+  "lr": 0.0001,
+  "rank": 16,
+  "n_unique": 4,
+  "sample_exposures": 8,
+  "optimizer_steps": 2,
+  "targets_sha256": "c15861dc9b626b350924e7045d2e7fbca7390c7b597638a0e82b9bcb62b7c19b",
+  "init_adapter_sha256": "c03b3cb1b9015b6e88adb46ff98ecabc7b2a22768048feb62f47167df0cfef0c",
+  "optimizer_reset": true,
+  "scheduler_reset": true,
+  "smoke_test": true,
+  "scoring": "floor",
+  "model": "results/handoff_analysis_20261003/exp11_iterate/smoke_v1/plan/tiny_model",
+  "eval_seed": 0,
+  "training_seconds": 0.02657294273376465
+}

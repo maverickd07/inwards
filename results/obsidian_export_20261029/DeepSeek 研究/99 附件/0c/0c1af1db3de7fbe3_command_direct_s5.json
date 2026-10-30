@@ -1,0 +1,15 @@
+[
+  "/home/3355245/.conda/envs/inward/bin/python",
+  "-u",
+  "/mnt/beegfsstudents/home/3355245/inward/results/exp12_seed345_20261014/train_seed.py",
+  "--source",
+  "/mnt/beegfsstudents/home/3355245/inward/results/exp12_seed345_20261014/runs_700972/reused_700454",
+  "--model",
+  "models/Qwen3-14B",
+  "--out",
+  "/mnt/beegfsstudents/home/3355245/inward/results/exp12_seed345_20261014/runs_700972/direct_s5",
+  "--train-seed",
+  "5",
+  "--condition",
+  "direct"
+]

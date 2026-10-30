@@ -1,0 +1,21 @@
+{
+  "source_files": {
+    "results/exp12_matched785_20261015/frozen_inputs/plan/items_D_reservedC.jsonl": "f2f4fcc2f9ddbf0263efa066a7830b7fbfc80c7040ed25604eb727b7fabfddd4",
+    "results/exp12_matched785_20261015/frozen_inputs/primary_D303_keys.json": "6de684d61292f4895fdaeec04adae152ab88e9293cfe6851b87d490ff8f88ae8",
+    "inward/results/exp1v2_Qwen3-14B/items.jsonl": "c27e89277bc36a38a42394e0ac1d93ef8a799d3da3cfb110d0507c293d9a1aad",
+    "exp1_gap_v2.py": "c467b7a031c9e673c181bb1992e5906ae90008275b091ce7a13ee6f06c5ed65e",
+    "results/exp12_matched785_20261015/aliases.json": "69bef59a24d78209af7760cb978892cf2310945ea12a9df11954717569f528e8",
+    "results/handoff_analysis_20261003/tasks56_verified/country_attributes.json": "d29e28b87b2321cf933660547f7911a0e81442ec136bfb0904f466b1ff18b029",
+    "results/handoff_analysis_20261003/tasks56_verified/historical_rules.json": "06df695831a5377d0d483190a6603eea4131e0cef900e36e431030af6e017e66",
+    "results/handoff_analysis_20261003/iso4217_current.xml": "33139b438657d1cee116ba737807ea71d19d6de4b90f799a09c56f0cc6a1b0ff",
+    "results/handoff_analysis_20261003/iso4217_historical.xml": "98fde2423cdb916dd59dcf5fe96222edad8fa198d865c1c83dbc464b9cc52387"
+  },
+  "roster": {
+    "union": 402,
+    "D500_known313": 313,
+    "fixed303": 303,
+    "intersection": 214
+  },
+  "user_confirmed": "preserve both historical sets, 2026-10-22",
+  "model_results_present": false
+}

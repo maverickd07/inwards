@@ -1,0 +1,67 @@
+{
+  "experiment": "exp10_consistency",
+  "purpose": "Separate frozen self-target correctness from question-target correspondence, not direct internal belief consistency.",
+  "conditions": [
+    "self_wrong",
+    "shuffled_wrong",
+    "self_correct"
+  ],
+  "allocation_scorer": "scoring_v2 floor, all Answer aliases; legacy and truncate rescoring sensitivity",
+  "original_pool": 864,
+  "original_correct": 438,
+  "original_wrong": 426,
+  "n_per_arm": 228,
+  "category_counts": {
+    "birthplace_callingcode": 51,
+    "birthplace_capital": 60,
+    "birthplace_rounded_lat": 71,
+    "birthplace_rounded_lng": 46
+  },
+  "subset_seed": 7,
+  "train_seeds": [
+    0,
+    1,
+    2
+  ],
+  "eval_seed": 0,
+  "n_eval_each": 500,
+  "single_hop_eval_n_each": 500,
+  "subset_note": "Wrong and correct subsets fixed across train seeds; within-category sample min(n_correct,n_wrong). Correct-vs-wrong questions differ.",
+  "shuffle_note": "Wrong-only donor permutation, same category, different person, different literal target, recipient still wrong; exact per-category target multiset preserved. Randomized bipartite matching, not uniform permutation sampling.",
+  "gold_usage": "Gold determines correctness strata and constrains permutation; gold never replaces production training targets. This is a supervised mechanism diagnostic.",
+  "hyperparameters": {
+    "epochs": 2,
+    "lr": 0.0001,
+    "rank": 16,
+    "batch": 8
+  },
+  "primary_tests": "18 C composed McNemar tests Holm-adjusted: 9 against base, 9 between conditions. C hop declines: separate family of 18 Holm-adjusted tests. Per-seed values retained.",
+  "seed_summary": "Mean, sample SD (ddof=1), paired three-seed difference and Student-t95 df2. Repeated evaluation items never pooled as independent seeds.",
+  "limitations": [
+    "Uncertain/missing aliases and legacy text scoring can misclassify semantic correctness. Labels are scorer-defined, not human-adjudicated truth.",
+    "Correct and wrong groups are category-matched but not question/difficulty/person-matched.",
+    "Changed-and-still-wrong constraint conditions the shuffled distribution.",
+    "Floor/truncate sensitivity rescoring does not redo training allocation.",
+    "No equivalence/noninferiority margin; nonsignificance does not establish no forgetting."
+  ],
+  "validation": {
+    "real_data_all_9_allocations": "passed",
+    "random_tiny_Qwen3_all_9_runs": "passed full generation/training/evaluation/analysis pipeline with synthetic correctness fixtures and one epoch",
+    "production_model_run_locally": false,
+    "original_exp9_unchanged": true
+  },
+  "sha256": {
+    "exp10_consistency.py": "aeeb9a602efa1790f9d9e13f53362169423f3acf8878550117b57251fbdccaf5",
+    "exp10_plan.py": "819e41aacd6d2f9377c796f7a9a155efcc56e8edf2ec67c775b9775926592219",
+    "analyze_exp10.py": "6a1483e312efb241a4c3b753d95af69859a4fb55b21e36702577634cd4daf442",
+    "scoring_v2.py": "19cf2b448399afdbcfdd6c9752be6e8a52ab9200699bd736e574042eb8b0476c",
+    "run_exp10_consistency.sh": "eef24cdfb91c43319687db94ff1328321824b652e3b19e1c1fd9bbc8595a28a4",
+    "frozen_targets.jsonl": "8e92c717363c58f9aa001b6e7361abc90e9681f57f1bcbdfc1f60b4e3c9fc50d",
+    "verified_allocation.json": "84c16374721d25dc68d5674e318bf02dc5d9f10d3b38c6c101a22dbf02ddc012",
+    "verify_exp10.py": "04ca78ada60f4fb90883a0483331ec088c449a73d8f2fb89e2372a15759f05e2",
+    "exp9_shuffled_v1.py": "26259e6ad5b41abd870fc1f48394b6724a93dda53024e48756f7d77841f23058",
+    "reference_exp8/eval_A_newPerson.jsonl": "816073ce96a233da51a2e6dd8dcd1b345b126d85bae6ef4f5d5ec3e8427a9c68",
+    "reference_exp8/eval_B_newCategory.jsonl": "a0e7ef1ceb746e6726f0e41e508344f40d0e5b110678fb3d3c6fc1cad545ed6d",
+    "reference_exp8/eval_C_bothNew.jsonl": "a2934e2a12482d52290c5d972664347631929e40c9571bda3d85c20443cad778"
+  }
+}

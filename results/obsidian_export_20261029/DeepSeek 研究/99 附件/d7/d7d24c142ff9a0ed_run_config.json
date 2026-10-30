@@ -1,0 +1,20 @@
+{
+  "model": "random-tiny-Qwen3",
+  "items": "inward/results/exp1v2_Qwen3-14B/items.jsonl",
+  "data": "inward/data/compositional_celebrities.json",
+  "target": "self",
+  "out": "results/handoff_analysis_20261003/exp9_shuffled/smoke_runs/category_random50_s0",
+  "epochs": 2,
+  "lr": 0.0001,
+  "rank": 2,
+  "batch": 4,
+  "n_eval": 2,
+  "n_lens": 1,
+  "seed": 0,
+  "train_seed": 0,
+  "condition": "category_random50",
+  "selection_seed": 0,
+  "target_cache": "results/handoff_analysis_20261003/exp9_shuffled/frozen_targets.jsonl",
+  "reference_evals": null,
+  "smoke_test": true
+}
