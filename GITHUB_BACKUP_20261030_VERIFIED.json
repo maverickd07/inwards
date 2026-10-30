@@ -1,0 +1,26 @@
+{
+  "verified_at_utc": "2026-10-30T08:19:12.893915+00:00",
+  "repository": "https://github.com/maverickd07/inwards",
+  "public": true,
+  "verified_content_commit": "33eab2486ffa30937ac3945b63ac7f20ed54f03f",
+  "verification": "Fresh GitHub clone and fresh LFS download; SHA-256 of every manifest file matched; current local source hashes matched; git fsck and embedded bundle verification passed.",
+  "manifest_entries_verified": 12454,
+  "local_source_files_verified": 12452,
+  "total_manifest_bytes": 9078355063,
+  "missing_local_files": [],
+  "checksum_errors": [],
+  "excluded": [
+    ".git internals (embedded histories saved as verified bundles)",
+    ".DS_Store",
+    "__pycache__",
+    "*.pyc",
+    "inwards duplicate tree (unique files retained)"
+  ],
+  "scope": "All current files in this local project and unique files in its inwards snapshot; does not cover files held only on HPC.",
+  "restore_commands": [
+    "git lfs install",
+    "git clone https://github.com/maverickd07/inwards.git",
+    "cd inwards",
+    "git lfs pull"
+  ]
+}
